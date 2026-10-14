@@ -126,9 +126,9 @@
     },
     "enunciado": "Com base nos dados e em conhecimentos sobre clima urbano e trocas de calor, é correto afirmar que:",
     "alternativas": [
-      "a ilha de calor é mais intensa às 15h, pois é nesse horário que o centro atinge sua temperatura mais alta e mais se distancia das demais áreas.",
+      "a ilha de calor é mais intensa às 15h, pois é nesse horário, sob forte radiação solar, que o centro atinge sua temperatura mais alta e mais se distancia das demais áreas.",
       "o centro apresenta a maior amplitude térmica diária entre os três pontos, o que caracteriza o clima das áreas densamente urbanizadas.",
-      "a ilha de calor é mais intensa de madrugada, pois os materiais urbanos liberam à noite o calor acumulado de dia, e os edifícios dificultam a perda de radiação para o céu.",
+      "a ilha de calor é mais intensa de madrugada: os materiais urbanos liberam à noite o calor acumulado de dia, e os edifícios dificultam a perda de calor por radiação.",
       "a diferença de temperatura de madrugada se deve a uma inversão térmica, fenômeno que aquece o ar junto à superfície no centro da cidade.",
       "a vegetação urbana elimina a ilha de calor, como mostra a temperatura do parque, igual à da área rural durante a madrugada."
     ],
@@ -180,10 +180,10 @@
     },
     "enunciado": "O conjunto de anomalias descrito na tabela é compatível com:",
     "alternativas": [
-      "um episódio de El Niño: com os alísios enfraquecidos, águas quentes se espalham pelo Pacífico central e leste e alteram a circulação atmosférica, inibindo chuvas no Norte e no Nordeste e retendo frentes frias no Sul.",
-      "um episódio de La Niña: o resfriamento anômalo do Pacífico equatorial reduz a evaporação oceânica e, com isso, diminui as chuvas no norte do Nordeste e na Amazônia oriental.",
+      "um episódio de El Niño: com os alísios fracos, águas quentes se espalham pelo Pacífico central e leste e alteram a circulação atmosférica, favorecendo seca no Norte e no Nordeste e chuva no Sul.",
+      "um episódio de La Niña: o resfriamento anômalo do Pacífico equatorial reduz a evaporação oceânica e, com isso, diminui as chuvas no norte do Nordeste e na Amazônia oriental durante a estação chuvosa.",
       "um episódio de El Niño, desencadeado pela intensificação dos alísios, que empurram as águas quentes superficiais do Pacífico em direção à costa do Peru e do Equador.",
-      "a atuação reforçada da massa Equatorial continental, que, ao avançar sobre o Nordeste durante a estação chuvosa, bloqueia a umidade e provoca a estiagem observada na região.",
+      "a atuação reforçada da massa Equatorial continental, que, ao avançar sobre o Nordeste durante a estação chuvosa, bloqueia a umidade vinda do oceano e provoca a estiagem observada na região.",
       "um aquecimento anômalo do Atlântico Sul provocado pelo excesso de chuvas na Região Sul, que desvia para o sul a umidade que normalmente abasteceria o Nordeste."
     ],
     "correta": 0,
@@ -240,7 +240,7 @@
       "Esses solos são ácidos por serem jovens e pouco intemperizados, ainda ricos em minerais primários que liberam íons H⁺ à medida que se decompõem.",
       "A acidez decorre da baixa pluviosidade do Cerrado, que impede a lixiviação e concentra sais na superfície do solo, como ocorre nas áreas semiáridas.",
       "O calcário eleva o pH porque libera íons Al³⁺, que neutralizam a acidez do solo, como mostra a variação do alumínio trocável na tabela.",
-      "A pobreza desses solos resulta de intemperismo intenso e lixiviação de Ca²⁺ e Mg²⁺; o calcário neutraliza H⁺ (CO₃²⁻ + 2 H⁺ → CO₂ + H₂O), eleva o pH e precipita o alumínio como Al(OH)₃.",
+      "Esses solos são pobres por intemperismo intenso e lixiviação de bases; o calcário consome H⁺, eleva o pH e precipita o alumínio como Al(OH)₃.",
       "A calagem aumenta o teor de Ca²⁺, mas reduz o de Mg²⁺ por competição entre os cátions, razão pela qual seu uso é desaconselhado nos solos do Cerrado."
     ],
     "correta": 3,
@@ -311,7 +311,7 @@
       "Z e X"
     ],
     "correta": 3,
-    "explicacao": "O ponto aqui é perceber que a potência depende do produto Q · h — vazão sozinha ou queda sozinha não decidem — e que o relevo controla a queda disponível.\n\n**Passo 1 — potência.** P = 0,9 · 1.000 · 10 · Q · h = 9.000 · Q · h (em watts). Basta comparar Q · h. W: 4.000 · 10 = 40.000 → 360 MW. X: 1.000 · 80 = 80.000 → 720 MW. Y: 2.500 · 40 = 100.000 → 900 MW. Z: 12.000 · 6 = 72.000 → 648 MW. Maior potência: Y.\n\n**Passo 2 — área alagada por MW.** W: 1.500/360 ≈ 4,2 km²/MW. X: 100/720 ≈ 0,14 km²/MW. Y: 400/900 ≈ 0,44 km²/MW. Z: 800/648 ≈ 1,2 km²/MW. Menor valor: X.\n\n**Leitura geográfica.** Rios de planalto, encaixados e com desníveis, oferecem grande queda com reservatórios pequenos — por isso o potencial hidrelétrico brasileiro foi explorado primeiro nas bacias do Paraná e do São Francisco. Rios de planície, como muitos da Amazônia, têm vazões enormes, mas pouca queda; represá-los exige alagar áreas extensas, com perda de floresta, deslocamento de populações e emissão de gases pela decomposição da vegetação submersa. A usina de Balbina (AM) tornou-se exemplo clássico de grande área inundada para pouca energia. Usinas a fio d'água, com reservatórios menores, reduzem o alagamento, mas tornam a geração mais dependente da variação sazonal da vazão.\n\nPara lembrar: potência hidráulica ∝ vazão × queda; o relevo de planalto favorece mais energia por área alagada.",
+    "explicacao": "O ponto aqui é perceber que a potência depende do produto Q · h — vazão sozinha ou queda sozinha não decidem — e que o relevo controla a queda disponível.\n\n**Passo 1 — potência.** P = 0,9 · 1.000 · 10 · Q · h = 9.000 · Q · h (em watts). Basta comparar Q · h. W: 4.000 · 10 = 40.000 → 360 MW. X: 1.000 · 80 = 80.000 → 720 MW. Y: 2.500 · 40 = 100.000 → 900 MW. Z: 12.000 · 6 = 72.000 → 648 MW. Maior potência: Y.\n\n**Passo 2 — área alagada por MW.** W: 1.500/360 ≈ 4,2 km²/MW. X: 100/720 ≈ 0,14 km²/MW. Y: 400/900 ≈ 0,44 km²/MW. Z: 800/648 ≈ 1,2 km²/MW. Menor valor: X.\n\n**Leitura geográfica.** Rios de planalto, encaixados e com desníveis, oferecem grande queda com reservatórios relativamente pequenos. Essa vantagem, somada à proximidade dos maiores centros consumidores, ajuda a explicar por que os primeiros grandes aproveitamentos do país se concentraram em rios de planalto das bacias do Paraná e do São Francisco — o que não impede que algumas dessas usinas tenham lagos enormes, como Sobradinho, na Bahia. Rios de planície, como muitos da Amazônia, têm vazões enormes, mas pouca queda; represá-los exige alagar áreas extensas, com perda de floresta, deslocamento de populações e emissão de gases pela decomposição da vegetação submersa. A usina de Balbina (AM) tornou-se exemplo clássico de grande área inundada para pouca energia. Usinas a fio d'água, com reservatórios menores, reduzem o alagamento, mas tornam a geração mais dependente da variação sazonal da vazão.\n\nPara lembrar: potência hidráulica ∝ vazão × queda; o relevo de planalto favorece mais energia por área alagada.",
     "erradas": [
       "Associa reservatório maior a usina mais potente; a área alagada não entra no cálculo da potência — W gera só 360 MW e ainda tem a pior relação área/MW.",
       "Supõe que a maior queda garante a maior potência; X tem a melhor relação área/MW, mas sua vazão pequena limita a potência a 720 MW, abaixo dos 900 MW de Y.",
@@ -439,7 +439,7 @@
       "os danos do garimpo restringem-se à área de lavra, pois o mercúrio, por ser um metal pesado, não se desloca no ambiente.",
       "a concentração crescente ao longo da cadeia alimentar expõe quem consome peixes carnívoros, como indígenas e ribeirinhos, mesmo longe dos garimpos.",
       "a biomagnificação ocorre porque o metilmercúrio é rapidamente excretado pelos organismos, acumulando-se apenas na água dos rios.",
-      "o garimpo em terras indígenas é permitido pela legislação brasileira, desde que o mercúrio seja recuperado após a queima do amálgama."
+      "o garimpo em terras indígenas é permitido pela legislação brasileira, desde que o mercúrio evaporado na queima do amálgama seja recuperado e reutilizado."
     ],
     "correta": 2,
     "explicacao": "O ponto aqui é combinar o processo ecológico (biomagnificação) com a escala geográfica do problema: o mercúrio viaja pelo ar e pela água, e a exposição humana se dá pela alimentação.\n\n**Leitura da tabela.** A concentração cresce a cada nível trófico: 0,01 → 0,05 → 0,20 → 0,90 μg/g. Do produtor ao peixe carnívoro, o aumento é de 90 vezes.\n\n**Biologia e Química.** O metilmercúrio é absorvido com facilidade e eliminado muito lentamente, acumulando-se nos tecidos (bioacumulação). Como cada predador consome grande quantidade de presas ao longo da vida, a concentração aumenta de um nível trófico para o seguinte (biomagnificação). Por isso, os peixes carnívoros — muito consumidos por povos indígenas e ribeirinhos — são a principal via de exposição humana. O metilmercúrio é neurotóxico e atravessa a placenta, afetando o desenvolvimento do sistema nervoso de fetos e crianças.\n\n**Geografia.** O mercúrio evaporado na queima do amálgama dispersa-se pela atmosfera e volta à superfície com a chuva; o que vai para a água é levado rio abaixo junto com os sedimentos. Assim, comunidades distantes da lavra também são atingidas. O garimpo ilegal provoca ainda desmatamento, assoreamento e turbidez dos rios, conflitos violentos e a disseminação de doenças como a malária. Em terras indígenas, o garimpo praticado por não indígenas é ilegal, e a mineração nessas áreas depende de autorização do Congresso Nacional, ouvidas as comunidades afetadas.\n\nPara lembrar: substâncias persistentes e pouco excretadas, como o metilmercúrio, concentram-se nos níveis tróficos mais altos — é a biomagnificação.",
@@ -448,7 +448,7 @@
       "Ignora a dispersão: o mercúrio evaporado circula pela atmosfera e volta com a chuva, e o que chega à água é transportado rio abaixo com os sedimentos.",
       "",
       "Inverte o mecanismo: a biomagnificação ocorre justamente porque o metilmercúrio é eliminado muito lentamente e se acumula nos tecidos dos organismos.",
-      "Afirmação falsa: o garimpo em terras indígenas é ilegal, e a mineração nessas áreas depende de autorização do Congresso Nacional; recuperar o mercúrio não o torna permitido."
+      "Afirmação falsa: em terras indígenas, o garimpo praticado por não indígenas é ilegal, e a mineração nessas áreas depende de autorização do Congresso Nacional; recuperar o mercúrio não torna a atividade legal."
     ]
   },
   {
@@ -517,10 +517,10 @@
     "enunciado": "A situação descrita ilustra que:",
     "alternativas": [
       "a rede urbana segue o modelo hierárquico clássico, no qual cada cidade se relaciona apenas com o centro imediatamente superior.",
-      "o município deve ser classificado como metrópole, já que mantém relações econômicas diretas com empresas e mercados do exterior.",
+      "o município deve ser classificado como metrópole, já que mantém relações econômicas diretas com empresas, centros de pesquisa e mercados do exterior.",
       "a modernização agrícola tende a reduzir a urbanização regional, porque a mecanização fixa a população no campo.",
       "o município está isolado da economia globalizada, pois depende de uma capital regional para serviços de saúde complexos.",
-      "a rede urbana atual é complexa: cidades médias podem relacionar-se diretamente com metrópoles e com o exterior, saltando níveis da hierarquia urbana."
+      "a rede urbana atual é complexa: cidades médias podem relacionar-se diretamente com metrópoles e com o exterior, saltando níveis da hierarquia."
     ],
     "correta": 4,
     "explicacao": "O ponto aqui é contrastar dois modelos de rede urbana.\n\n**Modelo hierárquico clássico.** Cada cidade se subordina ao centro imediatamente superior: o centro local recorre ao centro sub-regional, que recorre à capital regional, que recorre à metrópole. Os fluxos sobem e descem “degrau por degrau”.\n\n**Rede complexa.** Com a difusão das telecomunicações, a melhoria dos transportes e a atuação de grandes empresas em escala global, os fluxos passaram a saltar níveis. O município do exemplo compra insumos de empresas paulistas e estrangeiras, vende para tradings multinacionais e usa pesquisa feita em outros países — relações diretas com o topo da rede nacional e com o exterior. Ao mesmo tempo, mantém relações hierárquicas tradicionais: recorre à capital regional para saúde de alta complexidade e polariza cidades vizinhas no comércio e nos serviços cotidianos. A rede não deixa de ter hierarquia; ela passa a combinar hierarquia com conexões diretas.\n\n**Cidades do agronegócio.** A modernização do campo reduz a necessidade de mão de obra rural e exige serviços especializados (revendas de máquinas, assistência técnica, crédito, transporte), o que faz crescer cidades médias nas áreas de fronteira agrícola. O IBGE estuda essas relações na pesquisa Regiões de Influência das Cidades (Regic).\n\nPara lembrar: na rede urbana atual, a hierarquia convive com relações diretas entre cidades de níveis diferentes, inclusive com o exterior.",
@@ -588,7 +588,7 @@
     },
     "enunciado": "Considere que os deslocamentos diários ocorrem apenas entre os municípios da tabela. Com base nos dados, é correto afirmar que:",
     "alternativas": [
-      "S é o município com perfil mais acentuado de cidade-dormitório, pois é de onde sai o maior número de trabalhadores.",
+      "S é o município com perfil mais acentuado de cidade-dormitório, pois é dele que sai diariamente o maior número de trabalhadores para outros municípios.",
       "P tem o perfil mais acentuado de cidade-dormitório: menos empregos por habitante e maior proporção de moradores que trabalham fora.",
       "N, por receber o maior número de trabalhadores, apresenta o maior saldo negativo de deslocamentos diários.",
       "Q funciona como cidade-dormitório, já que recebe mais trabalhadores do que envia a outros municípios.",
@@ -654,7 +654,7 @@
     "enunciado": "Considere a razão de dependência = (população de 0 a 14 anos + população de 65 anos ou mais) ÷ (população de 15 a 64 anos) × 100, e desconsidere as migrações. É correto afirmar que:",
     "alternativas": [
       "em 2050, a razão de dependência será menor do que em 1990, já que a proporção de jovens será a menor da série.",
-      "em 2020, o crescimento vegetativo foi de 6% ao ano, resultado da diferença entre as taxas de natalidade e de mortalidade.",
+      "em 2020, o crescimento vegetativo foi de 6% ao ano, resultado da diferença entre as taxas de natalidade e de mortalidade registradas naquele ano no país.",
       "o aumento da mortalidade projetado para 2050 decorre sobretudo do envelhecimento da população e não indica, por si só, piora das condições de saúde.",
       "o envelhecimento da população se deve principalmente à queda da mortalidade, como mostra a redução de 15‰ para 7‰ entre 1960 e 1990.",
       "o bônus demográfico ocorre em 1960, quando a alta natalidade amplia a força de trabalho futura."
@@ -713,16 +713,16 @@
     },
     "enunciado": "A comparação entre os dois períodos e seus conhecimentos permitem afirmar que:",
     "alternativas": [
-      "o Nordeste tornou-se uma região de atração populacional na década de 2010, graças à migração de retorno e à desconcentração industrial.",
+      "o Nordeste tornou-se uma região de atração populacional na década de 2010, graças à migração de retorno e à desconcentração industrial, que levou fábricas para a região.",
       "o saldo negativo do Sul nos anos 1970 resultou da industrialização da região, que levou trabalhadores a migrarem para o Nordeste.",
-      "o saldo positivo do Centro-Oeste nos anos 1970 se explica principalmente pela instalação de indústrias de base, como siderúrgicas e refinarias.",
-      "a redução dos saldos do Sudeste e do Nordeste é compatível com a desconcentração econômica e a migração de retorno, embora o Nordeste ainda perca população.",
-      "a redução do saldo migratório do Sudeste indica que a população dessa região diminuiu entre as duas décadas."
+      "o saldo positivo do Centro-Oeste nos anos 1970 se explica principalmente pela instalação de indústrias de base, como siderúrgicas, refinarias e petroquímicas.",
+      "os saldos do Sudeste e do Nordeste diminuíram em valor absoluto, o que condiz com a desconcentração econômica e a migração de retorno; o do Nordeste segue negativo.",
+      "a redução do saldo migratório do Sudeste indica que a população dessa região diminuiu entre as duas décadas, ao contrário do que ocorria nos anos 1970."
     ],
     "correta": 3,
-    "explicacao": "O ponto aqui é ler o sinal e a ordem de grandeza dos saldos e relacioná-los às transformações econômicas do território.\n\n**Anos 1970.** O Sudeste, centro da industrialização concentrada, era o grande polo de atração (+1.700), abastecido sobretudo por nordestinos (−1.900). O Norte e o Centro-Oeste recebiam migrantes pela expansão da fronteira agropecuária, por projetos de colonização e, no Centro-Oeste, também pela consolidação de Brasília. O Sul perdia população (−400): a modernização agrícola e a concentração fundiária expulsavam pequenos agricultores, muitos dos quais seguiram para Mato Grosso, Rondônia e outras áreas de fronteira.\n\n**Anos 2010.** Todos os saldos encolheram. A desconcentração industrial e de serviços, o crescimento de cidades médias no interior e a expansão do agronegócio diversificaram os destinos. No Nordeste, parte dos fluxos passou a ser de retorno de migrantes à região de origem. Mesmo assim, o saldo nordestino continua negativo (−250).\n\n**Atenção a dois conceitos.** Saldo migratório não é crescimento populacional: uma região com saldo pequeno, ou até negativo, pode crescer pelo crescimento vegetativo. E saldo menos negativo não significa atração — significa apenas perda menor.\n\nPara lembrar: a desconcentração econômica reduziu a polarização do Sudeste e estimulou a migração de retorno, mas o Nordeste segue com saldo migratório negativo.",
+    "explicacao": "O ponto aqui é ler o sinal e a ordem de grandeza dos saldos e relacioná-los às transformações econômicas do território.\n\n**Anos 1970.** O Sudeste, centro da industrialização concentrada, era o grande polo de atração (+1.700), abastecido sobretudo por nordestinos (−1.900). O Norte e o Centro-Oeste recebiam migrantes pela expansão da fronteira agropecuária, por projetos de colonização e, no Centro-Oeste, também pela consolidação de Brasília. O Sul perdia população (−400): a modernização agrícola e a concentração fundiária expulsavam pequenos agricultores, muitos dos quais seguiram para Mato Grosso, Rondônia e outras áreas de fronteira.\n\n**Anos 2010.** Todos os saldos diminuíram em valor absoluto. A desconcentração industrial e de serviços, o crescimento de cidades médias no interior e a expansão do agronegócio diversificaram os destinos. No Nordeste, parte dos fluxos passou a ser de retorno de migrantes à região de origem. Mesmo assim, o saldo nordestino continua negativo (−250).\n\n**Atenção a dois conceitos.** Saldo migratório não é crescimento populacional: uma região com saldo pequeno, ou até negativo, pode crescer pelo crescimento vegetativo. E saldo menos negativo não significa atração — significa apenas perda menor; por isso, quando um saldo positivo e um negativo se aproximam de zero, o correto é falar em redução **em valor absoluto**.\n\nPara lembrar: a desconcentração econômica reduziu a polarização do Sudeste e estimulou a migração de retorno, mas o Nordeste segue com saldo migratório negativo.",
     "erradas": [
-      "Leitura errada do sinal: o saldo do Nordeste caiu de −1.900 para −250 mil, mas continua negativo; a região perde menos população, sem se tornar área de atração.",
+      "Leitura errada do sinal: o saldo do Nordeste passou de −1.900 para −250 mil, mas continua negativo; a região perde menos gente por migração, sem se tornar área de atração.",
       "Causa e destino errados: a emigração sulista dos anos 1970 esteve ligada à modernização agrícola e à concentração fundiária e seguiu para as fronteiras do Centro-Oeste e do Norte.",
       "Causa errada: o Centro-Oeste atraiu migrantes pela expansão da fronteira agropecuária e pela consolidação de Brasília, e não por indústrias de base.",
       "",
@@ -759,8 +759,8 @@
     },
     "enunciado": "Considerando apenas a exigência de Reserva Legal (desconsidere áreas de preservação permanente), é correto afirmar que:",
     "alternativas": [
-      "F1 pode converter até 6.400 ha em lavoura, pois o Tocantins, por estar no bioma Cerrado, segue o percentual das demais regiões do país.",
-      "F2, embora menor, pode converter mais área que F1 (5.600 ha contra 5.200 ha), pois a exigência de Reserva Legal no cerrado fora da Amazônia Legal é menor.",
+      "F1 pode converter até 6.400 ha em lavoura, pois o Tocantins, por estar no bioma Cerrado, segue o percentual exigido nas demais regiões do país.",
+      "F2, embora menor, pode converter mais área que F1 (5.600 ha contra 5.200 ha), pois fora da Amazônia Legal a Reserva Legal no cerrado é menor.",
       "F1 deve manter 80% de Reserva Legal e pode converter apenas 1.600 ha, pois está na Amazônia Legal.",
       "F2 pode converter apenas 1.400 ha em lavoura, já que o percentual de 20% fixado pela lei se refere à área que pode ser desmatada.",
       "As duas fazendas podem converter a mesma proporção de sua área, pois ambas estão no bioma Cerrado."
@@ -820,7 +820,7 @@
     "enunciado": "Com base na tabela, é correto afirmar que:",
     "alternativas": [
       "a área média dos estabelecimentos com 1.000 ha ou mais é cerca de 1.175 vezes a dos com menos de 10 ha, e os com menos de 100 ha reúnem 80% do pessoal ocupado.",
-      "a área média dos estabelecimentos com 1.000 ha ou mais é cerca de 23,5 vezes a dos com menos de 10 ha, o que indica concentração fundiária moderada.",
+      "a área média dos estabelecimentos com 1.000 ha ou mais é cerca de 23,5 vezes a dos com menos de 10 ha, o que indica uma concentração fundiária apenas moderada.",
       "os estabelecimentos com menos de 10 ha ocupam metade da área agropecuária do país, o que evidencia a força da pequena propriedade.",
       "a maior participação dos pequenos estabelecimentos no pessoal ocupado indica que eles são mais mecanizados que os grandes.",
       "por concentrarem quase metade da área, os estabelecimentos com 1.000 ha ou mais concentram também a maior parte do pessoal ocupado."
@@ -887,12 +887,12 @@
         ],
         [
           "Eólica e solar",
-          "6",
+          "4",
           "20"
         ],
         [
           "Outras renováveis",
-          "5",
+          "7",
           "1"
         ]
       ]
@@ -906,7 +906,7 @@
       "A matriz energética inclui os combustíveis usados diretamente — sobretudo derivados de petróleo nos transportes —, que não entram na matriz elétrica."
     ],
     "correta": 4,
-    "explicacao": "O ponto aqui é distinguir matriz energética de matriz elétrica.\n\n**Conceitos.** A matriz energética reúne **toda** a energia ofertada a um país: combustíveis queimados em motores (gasolina, diesel, etanol), em fornos e caldeiras industriais (gás natural, carvão, bagaço, lenha) e em fogões, além das fontes usadas para gerar eletricidade. A matriz elétrica é apenas o recorte das fontes usadas para produzir eletricidade. A eletricidade é uma forma secundária de energia: é obtida a partir de fontes primárias, como a energia potencial da água, o vento, a radiação solar ou a queima de combustíveis.\n\n**Leitura da tabela.** Na matriz elétrica, hidráulica (58%) e eólica + solar (20%) dominam, e o total renovável chega a 58 + 6 + 1 + 20 + 1 = 86%. Na matriz energética, o petróleo e seus derivados (36%) pesam muito, porque movem caminhões, ônibus, automóveis, aviões e máquinas — num país em que o transporte de cargas é predominantemente rodoviário e movido a diesel. O total renovável cai para 12 + 16 + 9 + 6 + 5 = 48%.\n\n**Implicações.** Um perfil assim é bem mais renovável que a média mundial, dominada por petróleo, carvão e gás natural. Eletrificar os transportes ou ampliar o uso de biocombustíveis aumentaria a fatia renovável da matriz energética, desde que a eletricidade adicional viesse de fontes renováveis. A biomassa da cana pesa mais na matriz energética porque o etanol abastece veículos e o bagaço gera calor e vapor para as próprias usinas; só uma parte dessa energia vira eletricidade.\n\nPara lembrar: matriz energética = toda a energia, inclusive a dos transportes; matriz elétrica = só a geração de eletricidade.",
+    "explicacao": "O ponto aqui é distinguir matriz energética de matriz elétrica.\n\n**Conceitos.** A matriz energética reúne **toda** a energia ofertada a um país: combustíveis queimados em motores (gasolina, diesel, etanol), em fornos e caldeiras industriais (gás natural, carvão, bagaço, lenha) e em fogões, além das fontes usadas para gerar eletricidade. A matriz elétrica é apenas o recorte das fontes usadas para produzir eletricidade. A eletricidade é uma forma secundária de energia: é obtida a partir de fontes primárias, como a energia potencial da água, o vento, a radiação solar ou a queima de combustíveis.\n\n**Leitura da tabela.** Na matriz elétrica, hidráulica (58%) e eólica + solar (20%) dominam, e o total renovável chega a 58 + 6 + 1 + 20 + 1 = 86%. Na matriz energética, o petróleo e seus derivados (36%) pesam muito, porque movem caminhões, ônibus, automóveis, aviões e máquinas — num país em que o transporte de cargas é predominantemente rodoviário e movido a diesel. O total renovável cai para 12 + 16 + 9 + 4 + 7 = 48%.\n\n**Implicações.** Um perfil assim é bem mais renovável que a média mundial, dominada por petróleo, carvão e gás natural. Eletrificar os transportes ou ampliar o uso de biocombustíveis aumentaria a fatia renovável da matriz energética, desde que a eletricidade adicional viesse de fontes renováveis. Repare ainda que a hidráulica (12% contra 58%) e a eólica + solar (4% contra 20%) aparecem na matriz energética com cerca de um quinto do peso que têm na elétrica: como essas fontes só são aproveitadas na forma de eletricidade, a proporção tem de ser a mesma para ambas. A biomassa da cana pesa mais na matriz energética porque o etanol abastece veículos e o bagaço gera calor e vapor para as próprias usinas; só uma parte dessa energia vira eletricidade.\n\nPara lembrar: matriz energética = toda a energia, inclusive a dos transportes; matriz elétrica = só a geração de eletricidade.",
     "erradas": [
       "Lê a coluna errada: 36% de petróleo é dado da matriz energética; na matriz elétrica, o petróleo responde por apenas 2%.",
       "Leitura invertida: a cana tem 16% na matriz energética e 6% na elétrica, porque seu uso principal é como etanol nos veículos e como fonte de calor nas usinas.",
@@ -964,7 +964,7 @@
     "id": "GEO-018",
     "materia": "geografia",
     "tema": "Globalização e indústria — cadeias globais de valor",
-    "nivel": "acima",
+    "nivel": "fuvest",
     "origem": "Estilo Comvest (Unicamp)",
     "inter": [],
     "tabela": {
@@ -1000,8 +1000,8 @@
     "enunciado": "O aparelho é montado e exportado pelo país D. Considerando os dados e o funcionamento das cadeias globais de valor, é correto afirmar que:",
     "alternativas": [
       "embora o aparelho inteiro conte como exportação de D, a montagem gera só cerca de 30 dólares por unidade; o maior valor fica em outras etapas e países.",
-      "o país D é o maior beneficiado pela cadeia produtiva, já que é ele quem exporta o produto acabado e registra seu valor integral.",
-      "a montagem concentra o maior valor agregado da cadeia por ser a etapa que emprega o maior número de trabalhadores.",
+      "o país D é o maior beneficiado pela cadeia produtiva, já que é ele quem exporta o produto acabado e registra em sua balança o valor integral do aparelho.",
+      "a montagem concentra o maior valor agregado da cadeia por ser a etapa que emprega o maior número de trabalhadores e que finaliza o produto para o mercado.",
       "a distribuição do valor mostra que a globalização eliminou a hierarquia entre países na divisão internacional do trabalho.",
       "o país A, por não fabricar fisicamente o aparelho nem seus componentes, fica com menos de 10% de seu valor final."
     ],

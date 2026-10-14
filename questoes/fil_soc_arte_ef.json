@@ -10,7 +10,7 @@
     "enunciado": "Confrontando os dois textos, é correto afirmar que a explicação darwiniana para o formato dos dentes",
     "alternativas": [
       "confirma a tese aristotélica de que cada espécie possui uma forma fixa e eterna, já que os dentes conservam a mesma função ao longo das gerações.",
-      "mantém a constatação de que as estruturas são ajustadas a funções, mas dispensa a causa final: o ajuste é resultado de variação e reprodução diferencial, e não um fim que orienta o processo.",
+      "mantém a constatação de que as estruturas se ajustam a funções, mas dispensa a causa final: o ajuste resulta de variação e reprodução diferencial, e não de um fim.",
       "substitui a causa final pelo esforço do próprio organismo, que, ao usar repetidamente os dentes para cortar, torna-os mais afiados e transmite essa mudança aos filhos.",
       "nega que os dentes tenham qualquer função, reduzindo a explicação à causa material, isto é, aos tecidos de que eles são formados.",
       "atribui o formato dos dentes ao acaso puro, como se cada geração surgisse com estruturas inteiramente novas, sem relação com o ambiente."
@@ -38,7 +38,7 @@
       "a queda de Roma comprovava que o cristianismo havia enfraquecido o Império, razão pela qual a Igreja deveria se afastar da vida política.",
       "a cidade celeste se identifica com o Império Romano cristianizado, de modo que o saque de Roma representava a derrota da própria comunidade dos fiéis.",
       "a história humana repete ciclos de ascensão e queda, como ensinavam filósofos gregos, e o saque de Roma era apenas mais uma volta desse ciclo.",
-      "as duas cidades se distinguem pela orientação da vontade, e não por fronteiras políticas; por isso, o destino da fé não depende da sorte de nenhum império terreno.",
+      "as duas cidades se distinguem pela orientação da vontade, e não por fronteiras políticas; assim, a fé não depende da sorte de nenhum império terreno.",
       "a Igreja deveria substituir o imperador no governo temporal, pois somente o poder eclesiástico seria capaz de evitar novas invasões."
     ],
     "correta": 3,
@@ -114,10 +114,10 @@
     "enunciado": "Com base no texto e na ética de Kant, é correto afirmar que",
     "alternativas": [
       "a expressão \"banalidade do mal\" indica que os crimes julgados foram de pequena gravidade, já que seu autor não tinha intenções cruéis.",
-      "a ausência de motivações diabólicas isenta o réu de responsabilidade, uma vez que ele apenas executava decisões tomadas por superiores.",
+      "a ausência de motivações diabólicas isenta o réu de responsabilidade, uma vez que ele apenas executava decisões tomadas por seus superiores.",
       "a obediência irrestrita à lei vigente realiza o imperativo categórico, pois agir por dever significa cumprir as normas do Estado em qualquer circunstância.",
       "o texto atribui o mal a uma natureza sádica inata, revelada em condições excepcionais de guerra, o que explica a frieza do réu.",
-      "o mal descrito não exige perversidade excepcional, e a obediência invocada pelo réu é o oposto da autonomia kantiana, em que a razão do próprio sujeito formula a lei moral."
+      "o mal descrito dispensa perversidade excepcional, e a obediência alegada pelo réu opõe-se à autonomia kantiana, em que a razão do sujeito formula a lei moral."
     ],
     "correta": 4,
     "explicacao": "O ponto aqui é entender o que Arendt quis dizer com **banalidade do mal**: não que o mal tenha sido pequeno, mas que ele não precisou de monstros. Atos de enorme gravidade foram cometidos por alguém comum, movido por carreira, rotina e obediência, e marcado pela **incapacidade de pensar** — de julgar por si e de se colocar no lugar do outro.\n\nIsso não significa absolvição. Arendt considerou o réu responsável: não ter refletido não apaga o que foi feito. A tese é inquietante justamente porque mostra que uma máquina burocrática pode transformar pessoas comuns em executoras de crimes em massa.\n\nA ponte com Kant vem pela ideia de **autonomia**. Para Kant, a ação moral é aquela em que o sujeito age segundo uma regra que sua própria razão reconhece como capaz de valer universalmente e que trata a humanidade sempre como fim, nunca apenas como meio. Agir só porque se recebeu uma ordem é **heteronomia**: a regra vem de fora, não do exame racional do próprio sujeito. \"Cumprir ordens\" é, portanto, o contrário do dever kantiano — e nenhuma regra que autorize enviar inocentes à morte passa no teste da universalização.\n\nPara lembrar: em Arendt, o mal pode nascer da ausência de pensamento, sem perversidade especial; em Kant, moralidade é autonomia da razão, não obediência a ordens.",
@@ -139,11 +139,11 @@
     "texto": "Considere três situações:\n\nI. Começa a chover em uma avenida movimentada, e dezenas de pedestres abrem seus guarda-chuvas ao mesmo tempo.\n\nII. Um aluno usa o uniforme exigido pela escola, embora preferisse outra roupa, porque sabe que seria advertido e olhado com estranheza pelos colegas caso não o usasse.\n\nIII. Dois ciclistas percebem que vão colidir em uma esquina, e cada um desvia levando em conta o movimento provável do outro.\n\n(Texto elaborado para esta questão.)",
     "enunciado": "À luz dos conceitos de ação social, de Max Weber, e de fato social, de Émile Durkheim, é correto afirmar:",
     "alternativas": [
-      "I é ação social, pois envolve muitas pessoas agindo da mesma maneira; III não é, pois os ciclistas não chegam a trocar palavras.",
-      "II não constitui fato social, pois o aluno preferiria outra roupa, o que mostra que a regra não é exterior a ele.",
+      "I é ação social, pois envolve muitas pessoas agindo da mesma maneira; III não é, pois os ciclistas não trocam palavras nem combinam como desviar.",
+      "II não constitui fato social, pois o aluno preferiria outra roupa, o que mostra que a regra não é exterior a ele nem exerce coerção sobre ele.",
       "Para Durkheim, II deve ser explicado pelas preferências e motivos individuais do aluno, que são a base de qualquer fato social.",
-      "I e III são ações sociais, pois em ambos há indivíduos reagindo a um mesmo estímulo externo ao mesmo tempo.",
-      "I não é ação social, pois cada pedestre se orienta pela chuva, e não pela conduta dos outros; III é; II exemplifica a coerção exterior própria do fato social."
+      "I e III são ações sociais, pois em ambos há indivíduos reagindo ao mesmo tempo a um mesmo estímulo externo, a chuva ou o risco de colisão.",
+      "I não é ação social, pois cada pedestre se orienta pela chuva, e não pelos outros; III é; II exemplifica a coerção exterior do fato social."
     ],
     "correta": 4,
     "explicacao": "O ponto aqui é não confundir comportamento **coletivo** com ação **social**. Para Weber, ação social é a conduta à qual o agente atribui um sentido orientado pelo comportamento de outros (passado, presente ou esperado). O número de pessoas não importa; importa a orientação.\n\n**Situação I:** os pedestres agem ao mesmo tempo, mas cada um reage à chuva, não aos outros. É o exemplo clássico do próprio Weber: uma reação homogênea a um mesmo estímulo natural não é ação social.\n\n**Situação III:** o simples choque entre ciclistas seria um evento natural; mas, ao desviar **levando em conta o movimento provável do outro**, cada um orienta sua conduta pela do outro. Isso é ação social — mesmo sem nenhuma palavra trocada.\n\n**Situação II:** para Durkheim, o fato social é **exterior** (existe antes e fora do indivíduo), **coercitivo** (impõe-se a ele) e **geral** (vale para o grupo). A coerção aparece com mais clareza justamente quando alguém gostaria de agir de outro modo e sente a sanção — a advertência formal e a reprovação dos colegas.\n\nRepare na diferença de método: Weber parte do sentido que o indivíduo dá à ação (sociologia compreensiva); Durkheim recomenda tratar os fatos sociais como coisas e explicá-los por outros fatos sociais, não por motivos individuais.\n\nPara lembrar: ação social (Weber) depende da orientação pela conduta do outro; fato social (Durkheim) se reconhece pela exterioridade, pela coerção e pela generalidade.",
@@ -227,8 +227,8 @@
     "texto": "Pelo que ouvi dizer sobre os povos da terra recém-descoberta além do oceano, nada há neles de bárbaro ou selvagem, a não ser que cada um chama de barbárie aquilo que não pertence a seus próprios costumes. Condenamos esses povos por comerem os inimigos mortos, mas não vemos barbárie maior em despedaçar por torturas um corpo ainda vivo, como vimos fazer há pouco, entre vizinhos e concidadãos, sob o pretexto da piedade e da religião.\n(Adaptado de ideias de Michel de Montaigne, no ensaio Dos canibais, escrito na França do século XVI.)",
     "enunciado": "Considerando o texto e o contexto em que foi escrito, é correto afirmar que o autor",
     "alternativas": [
-      "adota um relativismo absoluto, segundo o qual nenhum costume pode ser julgado, já que todos os costumes têm o mesmo valor.",
-      "critica o etnocentrismo europeu e usa o contraste com os indígenas como espelho para condenar a violência das guerras religiosas em seu próprio país.",
+      "adota um relativismo absoluto, segundo o qual nenhum costume pode ser julgado, já que todos os costumes humanos têm exatamente o mesmo valor.",
+      "critica o etnocentrismo europeu e usa os indígenas como espelho para condenar a violência das guerras religiosas em seu próprio país.",
       "defende que os indígenas se encontram em uma etapa anterior da evolução social, pela qual os europeus já teriam passado.",
       "idealiza os indígenas para justificar a missão de catequizá-los e integrá-los à civilização cristã europeia.",
       "reconhece a superioridade dos costumes europeus, embora admita que os indígenas possam ser civilizados pela educação."
@@ -256,8 +256,8 @@
       "a personalização das recomendações refuta a crítica dos autores, já que cada usuário passa a receber um conjunto diferente de produtos culturais.",
       "a reprodução técnica, ao dissolver a aura da obra única, abre à arte de massas um potencial emancipatório, como defendem os autores.",
       "a plataforma expressa a cultura popular espontânea dos trabalhadores, que finalmente produzem e distribuem seus próprios bens culturais.",
-      "a personalização pode ser lida como diferenciação superficial de produtos padronizados, e o encadeamento automático, como lazer organizado segundo a lógica da produção.",
-      "o tempo livre se torna, enfim, o oposto do trabalho, pois o espectador escolhe com autonomia o que assistir e por quanto tempo."
+      "a personalização pode ser lida como diferenciação superficial de produtos padronizados, e a reprodução automática, como lazer moldado pela produção.",
+      "o tempo livre se torna, enfim, o oposto do trabalho, pois o espectador escolhe com plena autonomia o que assistir, quando e por quanto tempo."
     ],
     "correta": 3,
     "explicacao": "O ponto aqui é aplicar três ideias do Texto 1 a um fenômeno atual: **padronização**, **pseudoindividualização** (diferenças de detalhe que dão a impressão de escolha) e **lazer como prolongamento do trabalho**.\n\nAdorno e Horkheimer criaram o conceito de **indústria cultural** para designar a produção de bens culturais como mercadorias, em série, segundo fórmulas previsíveis. O termo foi escolhido para afastar a ideia de que essa cultura brotaria espontaneamente das massas: ela é produzida por grandes empresas e distribuída para as massas.\n\nNo Texto 2: episódios de duração semelhante e ganchos de fim de episódio são fórmulas repetidas; a recomendação personalizada varia a combinação dos produtos, mas dentro do mesmo padrão — é a impressão de escolha de que fala o Texto 1. O episódio seguinte que começa sozinho organiza o tempo livre como um fluxo contínuo, próximo da lógica da linha de produção.\n\nRepare na armadilha mais sofisticada: a ideia de perda da \"aura\" e a valorização do potencial emancipatório da reprodução técnica são de Walter Benjamin, autor próximo da Escola de Frankfurt, mas cuja avaliação do cinema e da arte de massas é bem mais otimista que a de Adorno e Horkheimer.\n\nPara lembrar: indústria cultural é a produção padronizada de cultura como mercadoria, que oferece pseudoescolhas e organiza o lazer segundo a lógica do trabalho.",
@@ -305,10 +305,10 @@
     "texto": "Na região das minas, ao longo do século XVIII, multiplicaram-se igrejas ricamente ornamentadas. Muitas foram erguidas e mantidas por irmandades leigas — associações de fiéis frequentemente organizadas segundo a condição social e a cor de seus membros, como as de homens brancos, as de pardos e as de pretos. Nos templos e adros, destacam-se esculturas em pedra-sabão e em madeira policromada, executadas por artistas e artífices nascidos na colônia, muitos deles mestiços, como Antônio Francisco Lisboa, o Aleijadinho, autor dos profetas de pedra-sabão do santuário de Congonhas.\n(Texto elaborado para esta questão.)",
     "enunciado": "Considerando o texto e o contexto histórico da mineração, é correto afirmar que o barroco mineiro",
     "alternativas": [
-      "expressa uma sociedade urbana e hierarquizada, na qual irmandades leigas financiavam templos e artistas coloniais reelaboravam modelos europeus com materiais locais.",
+      "expressa uma sociedade urbana e hierarquizada, com templos custeados por irmandades leigas e modelos europeus reelaborados por artistas coloniais.",
       "resultou de encomendas feitas sobretudo por ordens religiosas, como a dos jesuítas, que controlavam a vida urbana das cidades do ouro.",
       "foi uma reprodução fiel de modelos portugueses, executada por mestres europeus trazidos pela Coroa para decorar as igrejas da região.",
-      "floresceu após a Independência, quando a decadência da mineração liberou recursos para a construção de novos templos.",
+      "floresceu após a Independência, quando a decadência da mineração liberou recursos para a construção de novos templos nas antigas vilas do ouro.",
       "rompeu com a Igreja Católica ao incorporar ideais iluministas da Inconfidência, substituindo temas religiosos por temas cívicos."
     ],
     "correta": 0,
@@ -332,10 +332,10 @@
     "enunciado": "A proposta antropofágica pode ser corretamente resumida como",
     "alternativas": [
       "a recusa de toda influência estrangeira, para recuperar uma cultura nacional pura, anterior à colonização.",
-      "a defesa literal da retomada de rituais indígenas como forma de afirmação da identidade brasileira.",
+      "a defesa literal da retomada de rituais indígenas como forma de afirmação da identidade nacional brasileira.",
       "a adesão ao rigor formal da pintura acadêmica e da poesia parnasiana, contra os excessos das vanguardas.",
       "a importação fiel do cubismo e do surrealismo, que deveriam substituir as tradições artísticas locais.",
-      "a assimilação crítica das referências estrangeiras, digeridas e transformadas a partir de elementos da cultura brasileira."
+      "a assimilação crítica das referências estrangeiras, transformadas a partir de elementos da cultura brasileira."
     ],
     "correta": 4,
     "explicacao": "O ponto aqui é entender a **metáfora** da antropofagia. Entre povos indígenas que a praticavam, o ritual antropofágico envolvia incorporar as qualidades do inimigo devorado. Oswald de Andrade transforma isso em programa cultural: o Brasil não deve copiar passivamente a Europa nem fechar-se a ela, mas **devorar** o que vem de fora e transformá-lo em criação própria.\n\nA tela de Tarsila (o Abaporu) mostra isso na forma: aproveita lições das vanguardas europeias — deformação expressiva, cores puras, simplificação — para construir uma figura e uma paisagem brasileiras (o cacto, o sol tropical).\n\nO movimento se distingue de duas posições: a cópia colonizada dos modelos estrangeiros e o nacionalismo que pretendia uma cultura \"pura\", fechada a influências — posição associada a grupos como o Verde-Amarelo, adversário dos antropófagos dentro do próprio Modernismo.\n\nNo percurso aberto pela Semana de Arte Moderna de 1922, a Antropofagia representa o momento em que os modernistas buscavam conciliar atualização estética e reflexão sobre a identidade nacional.\n\nPara lembrar: antropofagia cultural é absorver criticamente a cultura estrangeira e transformá-la, sem copiá-la nem rejeitá-la.",
@@ -358,18 +358,18 @@
     "enunciado": "As duas propostas (I, de Marcel Duchamp; II, os Parangolés de Hélio Oiticica) têm em comum o fato de",
     "alternativas": [
       "valorizarem o virtuosismo técnico do artista, demonstrado na transformação engenhosa de materiais comuns em objetos de arte.",
-      "deslocarem a noção de obra de arte como objeto artesanal destinado à contemplação: em I, pela escolha e pelo contexto; em II, pela participação corporal do público.",
+      "questionarem a obra como objeto artesanal feito para a contemplação: em I, pela escolha e pelo contexto; em II, pela participação corporal do público.",
       "afirmarem a beleza visual dos objetos industriais e populares, que deveriam ser admirados à distância pelo valor estético de suas formas.",
       "dispensarem o contexto institucional, já que, em ambas, o objeto vale como arte por suas qualidades intrínsecas, independentemente de onde esteja.",
-      "transformarem o espectador em participante, já que, em ambas, a obra só existe enquanto é manipulada e vestida pelo público."
+      "transformarem o espectador em participante, já que, em ambas, a obra só existe de fato enquanto é manipulada e vestida pelo próprio público."
     ],
     "correta": 1,
-    "explicacao": "O ponto aqui é achar o que as duas obras **têm em comum**, sem estender a uma delas o que vale só para a outra.\n\n**I — o readymade de Duchamp.** O artista não fabrica o objeto: escolhe um produto industrial, retira-o de sua função e o apresenta numa exposição. O gesto desloca o critério do que é arte da habilidade manual para a **ideia** e para o **contexto** em que o objeto é mostrado. Duchamp, aliás, criticava a arte meramente \"retiniana\", voltada só ao prazer visual.\n\n**II — os Parangolés de Oiticica.** Não são objetos para contemplar na parede: só se realizam quando alguém os veste e dança. O espectador passa a **participador**, e o corpo em movimento — o samba da Mangueira — torna-se parte da obra. A arte vira experiência, e não apenas objeto.\n\nO que une as duas propostas é a **crise do modelo tradicional de obra** como objeto artesanal, único, feito pela mão do artista para ser contemplado à distância. Cada uma faz esse deslocamento por um caminho diferente: em Duchamp, pelo conceito e pelo contexto; em Oiticica, pela participação do corpo.\n\nArmadilha principal: dizer que, em ambas, a obra depende da manipulação do público. Isso vale para os Parangolés, mas não para o mictório de Duchamp, que continua exposto — a mudança ali é conceitual.\n\nPara lembrar: o readymade desloca a arte para a ideia e o contexto; os Parangolés, para a participação corporal — ambos rompem com a obra como objeto artesanal de contemplação.",
+    "explicacao": "O ponto aqui é achar o que as duas obras **têm em comum**, sem estender a uma delas o que vale só para a outra.\n\n**I — o readymade de Duchamp.** O artista não fabrica o objeto: escolhe um produto industrial, retira-o de sua função e o propõe como obra a uma exposição (os organizadores, aliás, não chegaram a expor a peça, e a polêmica fez parte do gesto). O gesto desloca o critério do que é arte da habilidade manual para a **ideia** e para o **contexto** em que o objeto é mostrado. Duchamp, aliás, criticava a arte meramente \"retiniana\", voltada só ao prazer visual.\n\n**II — os Parangolés de Oiticica.** Não são objetos para contemplar na parede: só se realizam quando alguém os veste e dança. O espectador passa a **participador**, e o corpo em movimento — o samba da Mangueira — torna-se parte da obra. A arte vira experiência, e não apenas objeto.\n\nO que une as duas propostas é a **crise do modelo tradicional de obra** como objeto artesanal, único, feito pela mão do artista para ser contemplado à distância. Cada uma faz esse deslocamento por um caminho diferente: em Duchamp, pelo conceito e pelo contexto; em Oiticica, pela participação do corpo.\n\nArmadilha principal: dizer que, em ambas, a obra depende da manipulação do público. Isso vale para os Parangolés, mas não para o mictório de Duchamp, que ninguém precisa tocar nem vestir — a mudança ali é conceitual.\n\nPara lembrar: o readymade desloca a arte para a ideia e o contexto; os Parangolés, para a participação corporal — ambos rompem com a obra como objeto artesanal de contemplação.",
     "erradas": [
       "Inverte o sentido das propostas: o readymade dispensa justamente a habilidade manual, e o Parangolé valoriza a experiência do participante, não a destreza do autor.",
       "",
       "Ignora que ambas recusam a contemplação à distância como centro da experiência; Duchamp criticava a arte voltada só ao prazer visual, e o Parangolé exige ser vestido.",
-      "Inverte o papel do contexto: o mictório só ganha estatuto de obra porque é escolhido e apresentado numa exposição; fora dela, é um objeto industrial comum.",
+      "Inverte o papel do contexto: o mictório só ganha estatuto de obra porque é escolhido pelo artista e proposto como arte num circuito de exposições; fora dele, é um objeto industrial comum.",
       "Estende a I uma característica que só vale para II: o readymade de Duchamp não depende de ser manipulado ou vestido pelo público."
     ]
   },
@@ -385,8 +385,8 @@
     "alternativas": [
       "funciona como um tombamento: os instrumentos e trajes passam a ser preservados em museus, e a prática fica proibida de sofrer alterações.",
       "fixa um regulamento oficial único para a roda, definido pelo Estado, de modo que as variações regionais deixam de ser reconhecidas.",
-      "valoriza saberes transmitidos oralmente e pela prática coletiva, que integram música, movimento e ritual, revertendo simbolicamente um histórico de criminalização sem congelar a manifestação.",
-      "dá continuidade à política iniciada no começo da República, que já reconhecia a capoeira como símbolo da identidade nacional.",
+      "valoriza saberes transmitidos pela prática coletiva, unindo música, movimento e ritual, e reverte simbolicamente a criminalização, sem congelar a prática.",
+      "dá continuidade à política dos primeiros governos republicanos, que já reconheciam e incentivavam a capoeira como símbolo da identidade nacional.",
       "a reconhece apenas como modalidade esportiva de combate, separando-a dos cantos e instrumentos, que pertencem a outra categoria de patrimônio."
     ],
     "correta": 2,
@@ -406,13 +406,13 @@
     "nivel": "acima",
     "origem": "Estilo Comvest (Unicamp)",
     "inter": ["historia", "sociologia"],
-    "texto": "Entre 1941 e 1979, normas esportivas federais vedaram às mulheres, no Brasil, a prática de esportes considerados incompatíveis com a \"natureza feminina\", e o futebol foi enquadrado nessa proibição. A justificativa recorria a argumentos de base supostamente biológica, ligados sobretudo à maternidade. A regulamentação da modalidade feminina só veio na década de 1980. Hoje, apesar do crescimento recente, o futebol feminino ainda tem, em comparação com o masculino, menos clubes com estrutura profissional, salários muito menores e menor espaço na cobertura esportiva.\n(Texto elaborado para esta questão.)",
+    "texto": "Entre 1941 e 1979, normas esportivas federais vedaram às mulheres, no Brasil, a prática de desportos \"incompatíveis com as condições de sua natureza\" (Decreto-Lei nº 3.199/1941, art. 54), e o futebol foi enquadrado nessa proibição. A justificativa recorria a argumentos de base supostamente biológica, ligados sobretudo à maternidade. A regulamentação da modalidade feminina só veio na década de 1980. Hoje, apesar do crescimento recente, o futebol feminino ainda tem, em comparação com o masculino, menos clubes com estrutura profissional, salários muito menores e menor espaço na cobertura esportiva.\n(Texto elaborado para esta questão.)",
     "enunciado": "Do ponto de vista das relações entre esporte e sociedade, a explicação mais consistente para as desigualdades descritas é a de que",
     "alternativas": [
       "elas refletem diferenças biológicas de desempenho, que tornam o futebol masculino naturalmente mais atraente ao público, independentemente da história da modalidade.",
       "a revogação da proibição em 1979 eliminou suas causas, de modo que as diferenças atuais se explicam apenas pelas preferências individuais do público.",
       "a proibição se apoiava em evidências da medicina esportiva, depois confirmadas, sobre os danos do futebol ao organismo feminino.",
-      "décadas de interdição, baseadas na naturalização de papéis de gênero, impediram a formação de clubes, competições, atletas e público, produzindo desvantagens que se acumulam até hoje.",
+      "décadas de interdição, baseadas na naturalização de papéis de gênero, atrasaram a formação de clubes, atletas e público, gerando desvantagens que perduram.",
       "a mídia apenas registra o interesse já existente do público, sem interferir na visibilidade, no patrocínio ou na formação de novas torcedoras e torcedores."
     ],
     "correta": 3,
@@ -435,7 +435,7 @@
     "texto": "No goalball, modalidade paralímpica destinada a pessoas com deficiência visual, atletas com diferentes graus de visão residual podem jogar na mesma equipe. Durante a partida, todos usam vendas opacas sobre os olhos; a bola contém guizos, as linhas da quadra são em relevo, para serem percebidas pelo tato, e o público deve permanecer em silêncio durante as jogadas. No atletismo paralímpico, corredores cegos competem ao lado de um atleta-guia, ligados a ele por uma corda presa às mãos.\n(Texto elaborado para esta questão.)",
     "enunciado": "As adaptações descritas têm como princípio comum",
     "alternativas": [
-      "fazer com que o resultado dependa do treinamento e da habilidade, e não do grau de deficiência, preservando a lógica competitiva do esporte.",
+      "fazer com que o resultado dependa do treinamento e da habilidade, e não do grau de deficiência, preservando a lógica da competição.",
       "eliminar a competição, substituindo a busca pela vitória por atividades de caráter apenas recreativo e terapêutico.",
       "aplicar as mesmas regras do esporte olímpico a todos, pois tratar todos de modo idêntico é a forma mais justa de inclusão.",
       "partir do pressuposto de que todos os atletas com deficiência visual têm a mesma condição sensorial, dispensando qualquer ajuste.",

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fuvest 1ª fase</title>
+  <meta name="description" content="Questões e simulados para a 1ª fase da Fuvest, offline.">
+  <meta name="theme-color" content="#f4f6f3">
+  <meta name="color-scheme" content="light dark">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <script>
+    // Aplica o tema salvo antes da primeira pintura (evita piscar).
+    try {
+      var tema = localStorage.getItem("fuvest-tema");
+      if (tema === "claro" || tema === "escuro") document.documentElement.dataset.tema = tema;
+    } catch (e) { /* sem localStorage: segue o sistema */ }
+  </script>
+  <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+  <main id="app">
+    <div class="pagina carregando"><p>Carregando questões…</p></div>
+  </main>
+  <div id="aviso" class="aviso" role="status" aria-live="polite"></div>
+  <noscript><p class="pagina">Este app precisa de JavaScript.</p></noscript>
+</body>
+</html>

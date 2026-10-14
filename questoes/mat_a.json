@@ -64,16 +64,16 @@
     "nivel": "acima",
     "origem": "Estilo livro (Iezzi)",
     "inter": [],
-    "enunciado": "No plano cartesiano, considere a função f(x) = |x − 1| + |x − 5|, definida para todo x real. A área da região limitada pelo gráfico de f e pela reta y = 6, em unidades de área, é igual a",
-    "alternativas": ["10", "12", "18", "20", "26"],
-    "correta": 0,
-    "explicacao": "O ponto aqui é ler |x − a| como a **distância** entre x e a na reta real. Assim, f(x) é a soma das distâncias de x aos pontos 1 e 5.\n\n**Teoria por trás.** Por definição, |u| = u se u ≥ 0 e |u| = −u se u < 0. Por isso, uma soma de módulos de expressões do 1º grau é uma função afim por partes, cujas quebras ocorrem onde cada expressão interna se anula (aqui, x = 1 e x = 5). Em cada intervalo, basta retirar as barras com o sinal correto: para x < 1, f(x) = (1 − x) + (5 − x) = 6 − 2x; para 1 ≤ x ≤ 5, f(x) = (x − 1) + (5 − x) = 4; para x > 5, f(x) = (x − 1) + (x − 5) = 2x − 6.\n\nA interpretação geométrica explica o trecho constante: se x está entre 1 e 5, a soma das distâncias às extremidades é o próprio comprimento do segmento, 5 − 1 = 4 (é o caso de igualdade da desigualdade triangular |u| + |v| ≥ |u + v|). Fora desse intervalo, a soma cresce 2 unidades para cada unidade que x se afasta.\n\n**Interseções com y = 6.** 6 − 2x = 6 ⇒ x = 0; 2x − 6 = 6 ⇒ x = 6. O gráfico tem forma de banheira: desce de (0, 6) até (1, 4), fica horizontal até (5, 4) e sobe até (6, 6).\n\n**Área.** A região entre o gráfico e a reta é um trapézio de bases 6 (de x = 0 a x = 6, na altura y = 6) e 4 (de x = 1 a x = 5, na altura y = 4), com altura 6 − 4 = 2: A = (6 + 4)·2/2 = 10.\n\n**Conferência por decomposição:** retângulo 4 × 2 = 8 mais dois triângulos de catetos 1 e 2, cada um com área 1: 8 + 1 + 1 = 10.\n\nPara lembrar: para esboçar somas de módulos, divida a reta nos zeros de cada expressão interna; |x − a| + |x − b| vale |a − b| para todo x entre a e b.",
+    "enunciado": "No plano cartesiano, considere a função f(x) = |x − 1| + |x − 5|, definida para todo x real, e a reta r: y = x/2 + 6. A área da região limitada pelo gráfico de f e pela reta r, em unidades de área, é igual a",
+    "alternativas": ["14", "22", "30", "42", "44"],
+    "correta": 1,
+    "explicacao": "O ponto aqui é ler |x − a| como a **distância** entre x e a na reta real. Assim, f(x) é a soma das distâncias de x aos pontos 1 e 5.\n\n**Teoria por trás.** Por definição, |u| = u se u ≥ 0 e |u| = −u se u < 0. Por isso, uma soma de módulos de expressões do 1º grau é uma função afim por partes, cujas quebras ocorrem onde cada expressão interna se anula (aqui, x = 1 e x = 5). Em cada intervalo, basta retirar as barras com o sinal correto: para x < 1, f(x) = (1 − x) + (5 − x) = 6 − 2x; para 1 ≤ x ≤ 5, f(x) = (x − 1) + (5 − x) = 4; para x > 5, f(x) = (x − 1) + (x − 5) = 2x − 6.\n\nA interpretação geométrica explica o trecho constante: se x está entre 1 e 5, a soma das distâncias às extremidades é o próprio comprimento do segmento, 5 − 1 = 4 (é o caso de igualdade da desigualdade triangular |u| + |v| ≥ |u + v|). Fora desse intervalo, a soma cresce 2 unidades para cada unidade que x se afasta.\n\n**Interseções com r.** Iguale r a cada trecho e confira se a solução pertence ao intervalo daquele trecho. Para x < 1: 6 − 2x = x/2 + 6 ⇒ x = 0 (serve, pois 0 < 1). Para 1 ≤ x ≤ 5: 4 = x/2 + 6 ⇒ x = −4 (fora do intervalo; descartada). Para x > 5: 2x − 6 = x/2 + 6 ⇒ (3/2)x = 12 ⇒ x = 8 (serve). Os pontos de encontro são (0, 6) e (8, 10); entre eles, a reta fica acima do gráfico, que tem forma de banheira: desce de (0, 6) até (1, 4), fica horizontal até (5, 4) e sobe até (8, 10).\n\n**Área por fatias verticais.** Em cada trecho, a distância vertical r(x) − f(x) varia linearmente, então cada fatia é um triângulo ou um trapézio. Nas quebras: em x = 1, r − f = 6,5 − 4 = 2,5; em x = 5, r − f = 8,5 − 4 = 4,5.\n\nDe x = 0 a x = 1: triângulo de base 1 e altura 2,5 ⇒ 1,25. De x = 1 a x = 5: trapézio de bases 2,5 e 4,5 e altura 4 ⇒ (2,5 + 4,5)·4/2 = 14. De x = 5 a x = 8: triângulo de base 3 e altura 4,5 ⇒ 6,75.\n\nTotal: 1,25 + 14 + 6,75 = 22.\n\n**Conferência (área sob a reta menos área sob o gráfico).** Sob r, de 0 a 8: trapézio de bases 6 e 10 e altura 8 ⇒ 64. Sob f, de 0 a 8: (6 + 4)·1/2 + 4·4 + (4 + 10)·3/2 = 5 + 16 + 21 = 42. Diferença: 64 − 42 = 22.\n\nPara lembrar: para esboçar somas de módulos, divida a reta nos zeros de cada expressão interna; ao intersectar com outra curva, confira se cada solução pertence ao trecho em que foi obtida.",
     "erradas": [
+      "Considerou só a faixa entre x = 1 e x = 5, onde f é constante (trapézio de bases 2,5 e 4,5, área 14), esquecendo os dois triângulos das pontas, de x = 0 a x = 1 e de x = 5 a x = 8.",
       "",
-      "Tratou a região como um retângulo de base 6 (de x = 0 a x = 6) e altura 2, sem perceber que o gráfico sobe em diagonal nos trechos x < 1 e x > 5.",
-      "Juntou os módulos como se |x − 1| + |x − 5| = |2x − 6|; a região entre |2x − 6| e y = 6 é um triângulo de base 6 e altura 6, com área 18.",
-      "Usou a fórmula do trapézio sem dividir por 2: (6 + 4)·2 = 20.",
-      "Calculou a área entre o gráfico de f e o eixo x, de x = 0 a x = 6, e não a área entre o gráfico e a reta y = 6."
+      "Juntou os módulos como se |x − 1| + |x − 5| = |2x − 6|: as interseções continuam em x = 0 e x = 8, mas a área sob |2x − 6| nesse intervalo passa a ser 9 + 25 = 34, e 64 − 34 = 30.",
+      "É a área entre o gráfico de f e o eixo x, de x = 0 a x = 8; faltou subtraí-la da área sob a reta (64), pois a região pedida fica entre f e r.",
+      "Esqueceu de dividir por 2 nas áreas dos triângulos e do trapézio: 2,5 + 28 + 13,5 = 44."
     ]
   },
   {
@@ -196,7 +196,7 @@
       "Retirou o 66 da soma (264), mas continuou dividindo por 12: 264/12 = 22 min.",
       "",
       "Descartou o maior e o menor valor, como se faz com notas de jurados: (330 − 66 − 9)/10 = 25,5 min. Pelo critério dado, o 9 não é discrepante.",
-      "Média dos 12 valores (330/12), sem remover o discrepante; é também o que obtém quem usa o 4º e o 9º valores como quartis (14 e 37), o que alarga as cercas e não elimina nada."
+      "Média dos 12 valores (330/12), sem remover o discrepante; é também o que obtém quem ignora o critério dado e calcula os quartis pelas posições (n + 1)/4 e 3(n + 1)/4 (Q1 = 12,5 e Q3 = 35,5), o que leva a cerca superior a 70 e não elimina nada."
     ]
   },
   {

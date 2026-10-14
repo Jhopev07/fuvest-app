@@ -81,22 +81,22 @@
     "nivel": "acima",
     "origem": "Estilo ITA/IME (fácil)",
     "inter": [],
-    "enunciado": "Em um brinquedo de parque conhecido como rotor, as pessoas ficam de pé, encostadas na parede interna de um cilindro vertical de raio R que gira em torno do próprio eixo. Quando a rotação atinge certo valor, o piso é rebaixado e as pessoas permanecem “grudadas” na parede, sem escorregar. Sendo μ o coeficiente de atrito estático entre a roupa e a parede, g a aceleração da gravidade, e tratando cada pessoa como partícula, a menor velocidade angular ω do cilindro para que ninguém escorregue é",
+    "enunciado": "Em um brinquedo de parque conhecido como rotor, as pessoas ficam de pé, encostadas na parede interna de um cilindro vertical de raio R que gira em torno do próprio eixo. Quando a rotação atinge certo valor, o piso é rebaixado e as pessoas permanecem “grudadas” na parede, sem escorregar. Seja μ o coeficiente de atrito estático entre a roupa e a parede e g a aceleração da gravidade; trate cada pessoa como partícula. O operador ajusta a velocidade angular do cilindro para o dobro do valor mínimo necessário para que as pessoas não escorreguem. Nessa situação, para uma pessoa de massa m, as intensidades da força de atrito e da força normal que a parede exerce sobre ela são, respectivamente,",
     "alternativas": [
-      "√(g/(μR))",
-      "√(μg/R)",
-      "√(gR/μ)",
-      "√(μR/g)",
-      "g/(μR)"
+      "mg e mg/μ",
+      "mg e 2mg/μ",
+      "mg e 4mg/μ",
+      "2mg e 2mg/μ",
+      "4mg e 4mg/μ"
     ],
-    "correta": 0,
-    "explicacao": "O ponto aqui é identificar o papel de cada força: a **normal** da parede aponta para o eixo e é a resultante centrípeta; o **atrito estático**, vertical, é quem equilibra o peso.\n\n**1) Direção horizontal (centrípeta):** N = m ω² R.\n\n**2) Direção vertical (equilíbrio):** f_at = mg. Para não escorregar, f_at ≤ μN, ou seja, mg ≤ μ m ω² R.\n\n**3) Isolando ω:** ω² ≥ g/(μR) → ω_mín = √(g/(μR)). A massa se cancela: adultos e crianças ficam presos com a mesma rotação.\n\n**Atalho de prova, sem conta:**\n\nAnálise dimensional — ω tem unidade s⁻¹. Já √(gR/μ) tem unidade m/s (é uma velocidade linear), g/(μR) tem unidade s⁻² (falta a raiz) e √(μR/g) tem unidade s. Sobram duas candidatas.\n\nCaso limite — se μ → 0 (parede ensaboada), nenhuma rotação seria capaz de segurar a pessoa, logo ω_mín → ∞. Isso só acontece com μ no denominador, o que elimina √(μg/R).\n\nExemplo numérico: R = 4,0 m, μ = 0,40 e g = 10 m/s² dão ω = √(10/1,6) = 2,5 rad/s, isto é, v = ωR = 10 m/s.\n\n**Para lembrar:** no rotor, a normal é a força centrípeta e o atrito sustenta o peso; diante de alternativas literais, teste unidades e casos limites antes de fazer contas.",
+    "correta": 2,
+    "explicacao": "O ponto aqui é perceber que o atrito estático **não** vale automaticamente μN: μN é só o valor máximo que ele pode atingir. O valor real do atrito é aquele que o equilíbrio exige.\n\n**1) Papel de cada força:** a **normal** da parede aponta para o eixo e é a resultante centrípeta: N = m ω² R. O **atrito estático**, vertical, equilibra o peso: f = mg.\n\n**2) Rotação mínima:** para não escorregar, f ≤ μN, ou seja, mg ≤ μ m ω² R → ω_mín² = g/(μR). Nessa rotação, N = mg/μ, e o atrito está no limite (f = μN = mg).\n\n**3) Dobrando a rotação:** como N = m ω² R, a normal é proporcional a ω². Com ω = 2ω_mín, ela fica 4 vezes maior: N = m · 4 · (g/(μR)) · R = 4mg/μ.\n\n**4) E o atrito?** A pessoa continua parada na vertical, então o atrito continua igual ao peso: f = mg. O que aumentou foi o atrito **disponível**, μN = 4mg, quatro vezes o necessário. A pessoa fica com folga de segurança, mas a parede só exerce mg de atrito.\n\n**Conferência por absurdo:** se o atrito valesse μN = 4mg, a resultante vertical seria 4mg − mg = 3mg para cima, e a pessoa subiria pela parede, o que não acontece.\n\nExemplo numérico: com R = 4,0 m, μ = 0,40 e g = 10 m/s², ω_mín = √(10/1,6) = 2,5 rad/s. A 5,0 rad/s, uma pessoa de 60 kg recebe da parede uma normal de 6 000 N e um atrito de apenas 600 N.\n\n**Para lembrar:** μN é o teto do atrito estático, não o seu valor; o atrito estático vale o que o equilíbrio pedir, até esse limite.",
     "erradas": [
+      "São os valores na rotação mínima. Faltou levar em conta que a normal é a resultante centrípeta (N = mω²R) e, portanto, cresce quando a rotação aumenta.",
+      "Supõe a normal proporcional a ω (erro linear × quadrático). Como N = mω²R, dobrar ω multiplica N por 4.",
       "",
-      "Dimensionalmente correta (s⁻¹), mas falha no caso limite: com μ → 0 daria ω → 0, como se uma parede sem atrito segurasse a pessoa. Surge de escrever o atrito como μ · mg (confundindo a normal com o peso) e igualá-lo a mω²R.",
-      "Tem unidade de velocidade linear (m/s), não de velocidade angular: é a velocidade mínima v = √(gR/μ), obtida com N = mv²/R. Faltou dividir por R (ω = v/R).",
-      "Tem unidade de tempo (s): é o inverso da resposta correta, fruto de inverter a fração ao isolar ω².",
-      "Tem unidade s⁻²: é ω², e não ω. Faltou extrair a raiz quadrada no último passo."
+      "Combina dois erros: normal proporcional a ω (2mg/μ) e atrito igual a μN (μ · 2mg/μ = 2mg).",
+      "A normal está certa, mas o atrito foi tomado como μN, que é apenas o valor máximo do atrito estático. Se ele valesse 4mg, a resultante vertical seria 3mg para cima, e a pessoa subiria pela parede."
     ]
   },
   {

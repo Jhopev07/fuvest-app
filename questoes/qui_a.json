@@ -29,7 +29,7 @@
       "Ordena os elementos pela 1ª energia de ionização (496 < 578 < 738), ignorando a exceção entre os grupos 2 e 13: a 1ª energia do Mg (Y) é maior que a do Al (Z), embora Z venha depois. A ordem correta é X < Y < Z.",
       "Confunde 'o salto aparece na 3ª energia' com '3 elétrons de valência'. Para Y, o salto ocorre entre a 2ª e a 3ª ionização: Y tem 2 elétrons de valência e forma YCl₂.",
       "Mesmo erro de contagem: o salto entre a 1ª e a 2ª energia indica 1 elétron de valência. X é metal alcalino (grupo 1), não alcalino-terroso.",
-      "Causa e efeito invertidos: Z³⁺ e Y²⁺ são isoeletrônicos (10 elétrons); mais prótons atraem mais a mesma nuvem eletrônica, e o raio fica MENOR. Z³⁺ é menor que Y²⁺.",
+      "A premissa é verdadeira (Z tem mais prótons que Y), mas a consequência está invertida: Z³⁺ e Y²⁺ são isoeletrônicos (10 elétrons); mais prótons atraem mais a mesma nuvem eletrônica, e o raio fica MENOR. Z³⁺ é menor que Y²⁺.",
       ""
     ]
   },
@@ -72,7 +72,7 @@
     },
     "enunciado": "Com base nos dados da tabela e nas interações intermoleculares, é correto afirmar que",
     "alternativas": [
-      "a diferença de cerca de 100 °C entre etanol e metoximetano, isômeros de mesma massa molar, deve-se às ligações de hidrogênio entre moléculas de etanol, impossíveis entre moléculas do éter.",
+      "a diferença de cerca de 100 °C entre os isômeros etanol e metoximetano deve-se às ligações de hidrogênio entre moléculas de etanol, ausentes no éter.",
       "o etanal ferve acima do metoximetano porque suas moléculas fazem ligações de hidrogênio entre si por meio do átomo de oxigênio da carbonila.",
       "o metoximetano ferve abaixo do etanal porque, por ter dois grupos metila iguais ligados ao oxigênio, sua molécula é apolar, como a do propano.",
       "o ácido metanoico ferve acima do etanol porque tem massa molar maior, o que intensifica as forças de dispersão de London entre suas moléculas.",
@@ -260,7 +260,7 @@
       "1/4; a afirmação está correta, pois cada mol de etanol libera 2 mol de CO₂, e cada mol de isoctano, 8 mol.",
       "1; a afirmação está errada, e a vantagem do etanol é que sua queima, por ser de fonte renovável, não libera gases de efeito estufa.",
       "1; a afirmação está errada, e o etanol não oferece vantagem alguma sobre a gasolina em relação ao efeito estufa.",
-      "1; a afirmação está errada, e a vantagem do etanol é que o carbono emitido foi retirado da atmosfera há pouco tempo pela fotossíntese da cana.",
+      "1; a afirmação está errada, e a vantagem do etanol é que seu carbono foi retirado do ar há pouco tempo pela fotossíntese da cana.",
       "4; a afirmação está errada, pois o etanol emite quatro vezes mais CO₂ que o isoctano para a mesma energia."
     ],
     "correta": 3,

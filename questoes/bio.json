@@ -57,7 +57,7 @@
     "enunciado": "Sabe-se que P bloqueia a transferência de elétrons para o O₂ no final da cadeia respiratória. A interpretação mais adequada para o efeito de Q é que essa substância",
     "alternativas": [
       "bloqueia a cadeia respiratória em um ponto anterior ao bloqueado por P, impedindo a redução do O₂.",
-      "torna a membrana interna permeável a H⁺, que retorna à matriz sem passar pela ATP sintase, e a energia se dissipa como calor.",
+      "permite que H⁺ volte à matriz sem passar pela ATP sintase, dissipando a energia como calor.",
       "inibe diretamente a ATP sintase, sem afetar o gradiente de H⁺ nem o transporte de elétrons.",
       "substitui o O₂ como aceptor final de elétrons, gerando um produto diferente da água.",
       "estimula a glicólise, que passa a fornecer ATP suficiente e dispensa a fosforilação oxidativa."
@@ -146,7 +146,7 @@
       "o aquecimento em C acidificou a água, pois a solubilidade do CO₂ na água aumenta com a temperatura.",
       "o CO₂ elevado deveria ter aumentado a calcificação em B, por fornecer mais carbono para a formação de carbonato.",
       "o aquecimento é mais prejudicial aos recifes do que a acidificação, qualquer que seja a intensidade de cada fator.",
-      "em B, a calcificação caiu sem perda de zooxantelas, o que indica menos íons carbonato disponíveis; em C, ela caiu junto com as algas simbiontes."
+      "em B, a calcificação caiu sem perda de zooxantelas, sugerindo menos carbonato disponível; em C, caiu junto com as algas."
     ],
     "correta": 4,
     "explicacao": "O ponto aqui é usar o aquário A como controle e comparar cada tratamento com ele, observando qual variável mudou junto com a calcificação.\n\n**Aquário B (só CO₂ elevado).** A calcificação caiu para 62, mas as zooxantelas ficaram praticamente iguais (96). Portanto, a queda não se explica pela perda das algas. A química explica: o CO₂ dissolvido forma ácido carbônico, que libera H⁺; esse H⁺ reage com os íons carbonato (CO₃²⁻), convertendo-os em bicarbonato (HCO₃⁻). Com menos CO₃²⁻ disponível, fica mais difícil formar CaCO₃ no esqueleto. É a acidificação dos oceanos.\n\n**Aquário C (só aquecimento).** A calcificação caiu para 55 e as zooxantelas despencaram para 30. Isso caracteriza o branqueamento: sob estresse térmico, o coral perde as algas simbiontes (e a cor que elas conferem). Sem a fotossíntese das zooxantelas, que fornece grande parte da matéria orgânica de que o coral se alimenta, falta energia, inclusive para calcificar.\n\nRepare que os dois efeitos do aumento de CO₂ na atmosfera prejudicam os recifes por mecanismos diferentes, e no oceano real eles atuam ao mesmo tempo.\n\nPara lembrar: o excesso de CO₂ acidifica o mar e reduz o carbonato disponível para os esqueletos; o aquecimento causa branqueamento pela perda das zooxantelas.",
@@ -168,7 +168,7 @@
     "enunciado": "Um lago passou a receber esgoto doméstico sem tratamento, rico em compostos de nitrogênio e de fósforo. Meses depois, houve grande mortandade de peixes. A sequência de eventos que melhor explica essa mortandade é:",
     "alternativas": [
       "aumento de nutrientes → morte das algas por intoxicação com nitratos → menor produção de O₂ → morte dos peixes por asfixia.",
-      "aumento de nutrientes → proliferação de algas na superfície → morte de algas e plantas submersas → decomposição aeróbia intensa → queda do O₂ dissolvido → morte dos peixes.",
+      "aumento de nutrientes → proliferação de algas → morte de algas e plantas submersas → decomposição aeróbia → queda do O₂ dissolvido → morte dos peixes.",
       "aumento de nutrientes → proliferação de algas → consumo de O₂ pela fotossíntese das algas → queda do O₂ dissolvido → morte dos peixes.",
       "aumento de nutrientes → queda do O₂ dissolvido → morte dos peixes → proliferação de algas, favorecida pelos nutrientes liberados na decomposição dos peixes.",
       "aumento de nutrientes → proliferação de bactérias anaeróbias → produção de O₂ por essas bactérias → excesso de O₂ e morte dos peixes."
@@ -202,11 +202,11 @@
     },
     "enunciado": "Com base nesses dados, assinale a afirmação correta sobre o papel de cada área no balanço de CO₂ da atmosfera.",
     "alternativas": [
-      "A floresta madura é a área que mais retira CO₂ da atmosfera, pois apresenta a maior produtividade primária bruta.",
-      "A floresta madura é a área que mais retira CO₂ da atmosfera, pois apresenta a maior produtividade primária líquida.",
+      "A floresta madura é o maior sumidouro de carbono das três áreas, pois tem a maior produtividade primária bruta.",
+      "A floresta madura é o maior sumidouro de carbono das três áreas, pois tem a maior produtividade primária líquida.",
       "A pastagem degradada funciona como sumidouro de carbono, pois sua produtividade primária líquida é positiva.",
-      "A floresta secundária jovem é a área que mais retira CO₂ da atmosfera, acumulando cerca de 7 t de carbono por hectare por ano.",
-      "A floresta secundária jovem retira cerca de 30 t de carbono por hectare por ano da atmosfera, valor de sua fotossíntese."
+      "A floresta secundária jovem é o maior sumidouro de carbono das três áreas, com saldo de cerca de 7 t C/ha por ano.",
+      "A floresta secundária jovem acumula cerca de 30 t de carbono por hectare por ano, valor fixado por sua fotossíntese."
     ],
     "correta": 3,
     "explicacao": "O ponto aqui é perceber que o efeito de um ecossistema sobre o CO₂ atmosférico é dado pelo SALDO: tudo o que é fixado na fotossíntese menos tudo o que volta à atmosfera pela respiração de todos os organismos.\n\n**Contas (PLE = PPB − Rₐ − Rₕ):**\nFloresta jovem: 30 − 15 − 8 = 7\nFloresta madura: 40 − 22 − 17 = 1\nPastagem degradada: 12 − 6 − 7 = −1\n\nA floresta jovem é o maior sumidouro: está em sucessão ecológica, acumulando biomassa (troncos, raízes, matéria orgânica do solo). A floresta madura, próxima do clímax, fixa muito carbono, mas também respira e decompõe muito: o saldo fica perto de zero. A pastagem degradada perde matéria orgânica e funciona como fonte de CO₂.\n\nIsso não significa que florestas maduras sejam pouco importantes para o clima: elas guardam um enorme estoque de carbono, que é liberado se forem derrubadas ou queimadas. Fluxo (quanto entra por ano) é diferente de estoque (quanto está guardado).\n\nPara lembrar: um ecossistema só é sumidouro de carbono quando a fotossíntese supera a soma da respiração dos produtores e dos heterótrofos.",
@@ -215,7 +215,7 @@
       "A PPL da floresta madura (18) é de fato a maior, mas a afirmação ignora a respiração dos decompositores (17), alta em um ecossistema com muita biomassa morta. O saldo real é 1.",
       "Para no meio do caminho: a PPL é 6, mas a respiração dos heterótrofos (7) é maior. PLE = 12 − 6 − 7 = −1, ou seja, a pastagem libera mais CO₂ do que fixa: é uma FONTE de carbono.",
       "",
-      "Confunde fotossíntese bruta com saldo: dos 30 t fixados, 15 voltam pela respiração das plantas e 8 pela dos decompositores. O acúmulo líquido é 7."
+      "Confunde fotossíntese bruta com acúmulo: das 30 t fixadas, 15 voltam à atmosfera pela respiração das plantas e 8 pela dos decompositores. O acúmulo líquido é 7 t."
     ]
   },
   {
@@ -261,7 +261,7 @@
       "II tem resistência à insulina: produz o hormônio normalmente, mas suas células não respondem a ele.",
       "III deve receber glucagon, hormônio que reduz a glicemia ao estimular a captação de glicose pelas células.",
       "II e III têm o mesmo distúrbio e devem receber o mesmo tratamento, pois ambos apresentam glicemia acima de 200 mg/dL.",
-      "II tem produção deficiente de insulina pelas células beta do pâncreas; III produz insulina, mas suas células-alvo respondem pouco a ela."
+      "II tem produção deficiente de insulina; III produz o hormônio, mas suas células-alvo respondem pouco a ele."
     ],
     "correta": 4,
     "explicacao": "O ponto aqui é que a glicemia sozinha não revela a causa: é o nível de insulina que diferencia \"falta de hormônio\" de \"falta de resposta ao hormônio\".\n\n**A teoria por trás.** A glicemia é regulada por dois hormônios das ilhotas pancreáticas, de efeitos opostos. Após uma refeição, a glicemia sobe e as células beta liberam insulina, que facilita a entrada de glicose nas células (sobretudo músculos e tecido adiposo) e estimula o fígado e os músculos a armazená-la como glicogênio: a glicemia cai. No jejum, a glicemia cai e as células alfa liberam glucagon, que estimula o fígado a quebrar glicogênio e liberar glicose: a glicemia sobe. É um controle por retroalimentação negativa: o efeito de cada hormônio reduz o estímulo que provocou sua secreção.\n\n**Lendo a tabela.** I está normal (110 mg/dL). II tem hiperglicemia e quase não tem insulina: as células beta não produzem o hormônio em quantidade suficiente. É o padrão do diabetes tipo 1, em geral causado pela destruição autoimune dessas células; o tratamento exige insulina. III tem hiperglicemia apesar de insulina muito alta: o pâncreas responde, até em excesso, mas as células-alvo não reagem adequadamente ao hormônio. É o padrão da resistência à insulina, típica do diabetes tipo 2, frequentemente associada ao sedentarismo e ao excesso de gordura corporal.\n\n**Macete.** Glicemia alta + insulina baixa → problema de produção. Glicemia alta + insulina alta → problema de resposta.\n\nPara lembrar: a insulina reduz e o glucagon eleva a glicemia; no diabetes tipo 1 falta insulina, e no tipo 2 predomina a resistência das células à sua ação.",
@@ -369,7 +369,7 @@
     "nivel": "acima",
     "origem": "Estilo Fuvest",
     "inter": ["matematica"],
-    "texto": "A hemofilia A é uma doença de herança recessiva ligada ao cromossomo X. Clara não tem hemofilia, e seu pai também não; sua mãe não é afetada, mas o irmão de Clara é hemofílico. Clara casou-se com um homem não hemofílico, e o primeiro filho do casal, um menino, nasceu sem hemofilia.\n\nTexto elaborado para esta questão.",
+    "texto": "A hemofilia A é uma doença de herança recessiva ligada ao cromossomo X. Clara não tem hemofilia, e seu pai também não; sua mãe não é afetada, mas o irmão de Clara é hemofílico. Clara casou-se com um homem não hemofílico, e o primeiro filho do casal, um menino, nasceu sem hemofilia. Desconsidere a ocorrência de mutações novas.\n\nTexto elaborado para esta questão.",
     "enunciado": "Considerando todas as informações, inclusive o nascimento do primeiro filho, a probabilidade de que um segundo filho menino do casal seja hemofílico é",
     "alternativas": ["1/8", "1/6", "1/4", "1/3", "1/2"],
     "correta": 1,
@@ -421,10 +421,10 @@
       "o sapo é o ancestral dos mamíferos, dos lagartos, dos crocodilos e das aves.",
       "as aves são mais evoluídas que os crocodilos, pois ocupam o ramo mais recente do cladograma.",
       "mamíferos e sapos formam um grupo monofilético que exclui os lagartos, pois ambos estão mais próximos da base da árvore.",
-      "os crocodilos compartilham um ancestral comum mais recente com as aves do que com os lagartos."
+      "o ancestral comum mais recente de mamíferos e aves é o mesmo que o de mamíferos e lagartos."
     ],
     "correta": 4,
-    "explicacao": "O ponto aqui é que, em um cladograma, o parentesco é medido pelo ancestral comum mais recente, ou seja, pelo par de parênteses mais interno que contém os dois grupos.\n\n**Lendo os parênteses.** O par mais interno é (crocodilo, ave): esses dois compartilham um ancestral exclusivo. Em seguida vem (lagarto, (crocodilo, ave)); depois, o grupo que inclui o mamífero, correspondente aos amniotas; depois, o que inclui o sapo, correspondente aos tetrápodes; e assim por diante. Logo, o crocodilo é mais aparentado com a ave do que com o lagarto, embora se pareça mais com o lagarto. Essa semelhança externa se deve, em grande parte, a características herdadas de ancestrais mais antigos, e não a um parentesco exclusivo.\n\n**Grupos monofiléticos e parafiléticos.** Um grupo monofilético inclui um ancestral e TODOS os seus descendentes. \"Lagarto + crocodilo\" deixa de fora a ave, que descende do mesmo ancestral; é um grupo parafilético. Por isso, na sistemática filogenética, as aves são incluídas entre os répteis.\n\n**Armadilhas de leitura.** As pontas da árvore são grupos atuais, nunca ancestrais uns dos outros. E nenhum grupo atual é \"mais evoluído\": todos tiveram o mesmo tempo de evolução desde o ancestral comum.\n\nPara lembrar: num cladograma, o parentesco é dado pelo ancestral comum mais recente, e grupos monofiléticos incluem um ancestral e todos os seus descendentes.",
+    "explicacao": "O ponto aqui é que, em um cladograma, o parentesco é medido pelo ancestral comum mais recente, ou seja, pelo par de parênteses mais interno que contém os dois grupos.\n\n**Lendo os parênteses.** O par mais interno é (crocodilo, ave): esses dois compartilham um ancestral exclusivo. Em seguida vem (lagarto, (crocodilo, ave)); depois, o grupo que inclui o mamífero, correspondente aos amniotas; depois, o que inclui o sapo, correspondente aos tetrápodes; e assim por diante. Para achar o ancestral comum mais recente de dois grupos, procure o menor par de parênteses que contém os dois. Para mamífero e ave, é (mamífero, (lagarto, (crocodilo, ave))); para mamífero e lagarto, é exatamente o mesmo par. Logo, o ancestral comum mais recente é o mesmo nos dois casos: o mamífero é igualmente aparentado com aves e com lagartos, embora pareça \"mais próximo\" dos lagartos. Pela mesma leitura, o crocodilo é mais aparentado com a ave do que com o lagarto, apesar de se parecer mais com o lagarto. Essas semelhanças externas se devem, em grande parte, a características herdadas de ancestrais mais antigos, e não a um parentesco exclusivo.\n\n**Grupos monofiléticos e parafiléticos.** Um grupo monofilético inclui um ancestral e TODOS os seus descendentes. \"Lagarto + crocodilo\" deixa de fora a ave, que descende do mesmo ancestral; é um grupo parafilético. Por isso, na sistemática filogenética, as aves são incluídas entre os répteis.\n\n**Armadilhas de leitura.** As pontas da árvore são grupos atuais, nunca ancestrais uns dos outros. E nenhum grupo atual é \"mais evoluído\": todos tiveram o mesmo tempo de evolução desde o ancestral comum.\n\nPara lembrar: num cladograma, o parentesco é dado pelo ancestral comum mais recente, e grupos monofiléticos incluem um ancestral e todos os seus descendentes.",
     "erradas": [
       "Lagartos + crocodilos sem as aves deixam de fora um descendente do ancestral comum de crocodilos e aves. É um grupo parafilético (como o dos répteis tradicionais), e não monofilético.",
       "Todos os grupos nas pontas do cladograma são atuais; nenhum é ancestral de outro. O que o cladograma mostra são ancestrais comuns, representados pelos nós.",
@@ -545,7 +545,7 @@
       "Esquece a ascaridíase e a ancilostomose e inclui a malária, transmitida pela picada da fêmea do Anopheles, cujo ciclo não depende de fezes humanas.",
       "Esquece a esquistossomose: os ovos de Schistosoma saem nas fezes humanas e, na água, liberam o miracídio que infecta o caramujo. Sem esgoto chegando aos rios e lagos, o ciclo é interrompido.",
       "",
-      "Inclui a malária por associar o mosquito a água suja. A transmissão depende da picada do Anopheles, e não das fezes humanas; o esgoto não interrompe esse ciclo.",
+      "Inclui a malária por associar o mosquito a água suja e esquece a ancilostomose, cujos ovos saem nas fezes humanas. A malária depende da picada do Anopheles, e não das fezes humanas; o esgoto não interrompe esse ciclo.",
       "Inclui a doença de Chagas, cuja transmissão envolve as fezes do barbeiro, e não as humanas, e esquece a esquistossomose, que depende diretamente do esgoto lançado na água."
     ]
   },
