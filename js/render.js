@@ -64,8 +64,9 @@ export function tabela(dados) {
   if (!dados || !Array.isArray(dados.cabecalho)) return confiavel("");
   const linhas = Array.isArray(dados.linhas) ? dados.linhas : [];
   return html`
-    <figure class="tabela">
+    <figure class="tabela" data-ampliar="Tabela ampliada">
       ${dados.titulo ? html`<figcaption>${textoInline(dados.titulo)}</figcaption>` : ""}
+      <button type="button" class="ampliar-dica" aria-label="Ampliar tabela">${icone("ampliar")}</button>
       <div class="tabela-rolagem" tabindex="0">
         <table>
           <thead><tr>${dados.cabecalho.map((c) => html`<th scope="col">${textoInline(c)}</th>`)}</tr></thead>
@@ -106,7 +107,9 @@ export function figuraSvg(fonte) {
   raiz.removeAttribute("width");
   raiz.removeAttribute("height");
   limparSvg(raiz);
-  return html`<figure class="figura">${confiavel(new XMLSerializer().serializeToString(raiz))}</figure>`;
+  return html`<figure class="figura" data-ampliar="Figura ampliada">
+    <button type="button" class="ampliar-dica" aria-label="Ampliar figura">${icone("ampliar")}</button>
+    ${confiavel(new XMLSerializer().serializeToString(raiz))}</figure>`;
 }
 
 /** Ícones de traço simples, desenhados à mão (sem dependência externa). */
@@ -128,6 +131,12 @@ const ICONES = {
   relogio: '<circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/>',
   copiar: '<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 00-1-1H5a1 1 0 00-1 1v10a1 1 0 001 1h3"/>',
   check: '<path d="M5 12l5 5 9-10"/>',
+  refazer: '<path d="M15 14l5-5-5-5"/><path d="M20 9H9a5 5 0 000 10h4"/>',
+  expandir: '<path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/>',
+  recolher: '<path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/>',
+  ampliar: '<circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5M11 8v6M8 11h6"/>',
+  sobre: '<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h5"/><path d="M11 19l2-5 5-5 2 2-5 5z"/>',
+  baixo: '<path d="M6 9l6 6 6-6"/>',
   ajustes: '<path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/>',
   aviso: '<path d="M12 4l9 16H3z"/><path d="M12 10v4M12 17v.5"/>',
 };

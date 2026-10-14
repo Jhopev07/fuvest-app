@@ -2,10 +2,15 @@
 
 import { carregarBanco } from "./banco.js";
 import { iniciarDb } from "./db.js";
-import { antesDeTrocarDeTela, iniciarRoteador, registrarTela } from "./navegacao.js";
+import {
+  descartarTodasAsCamadas, fecharTodasAsCamadas, limparCamadasDeAberturaAnterior,
+} from "./camadas.js";
+import {
+  antesDeNavegarPeloApp, antesDeTrocarDeTela, iniciarRoteador, registrarTela,
+} from "./navegacao.js";
 import { pedirPersistenciaNoPrimeiroUso, registrarServiceWorker } from "./pwa.js";
-import { fecharRascunho } from "./rascunho.js";
 import { acompanharSistema, aplicarTema } from "./tema.js";
+import { aplicarTamanhoSalvo } from "./zoom-texto.js";
 import * as inicio from "./telas/inicio.js";
 import * as filtros from "./telas/filtros.js";
 import * as questao from "./telas/questao.js";
@@ -47,6 +52,7 @@ function mostrarFalhaDeCarga(raiz, erro) {
 async function iniciar() {
   aplicarTema();
   acompanharSistema();
+  aplicarTamanhoSalvo();
   const raiz = document.getElementById("app");
   const [, carga] = await Promise.allSettled([iniciarDb(), carregarBanco()]);
   if (carga.status === "rejected") {
@@ -55,7 +61,9 @@ async function iniciar() {
     return;
   }
   Object.entries(TELAS).forEach(([nome, tela]) => registrarTela(nome, tela));
-  antesDeTrocarDeTela(() => fecharRascunho({ porHistorico: true }));
+  antesDeNavegarPeloApp(fecharTodasAsCamadas);
+  antesDeTrocarDeTela(descartarTodasAsCamadas);
+  await limparCamadasDeAberturaAnterior();
   await iniciarRoteador(raiz);
   registrarServiceWorker();
   pedirPersistenciaNoPrimeiroUso().catch((erro) => console.warn(erro));

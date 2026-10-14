@@ -4,8 +4,8 @@ Uso (na raiz do repositório):
     python3 tools/build.py
     PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers python3 tools/testes/testar_app.py
 
-Cobre: carga e modo offline, prática, revisar erros, rascunho (eventos de ponteiro
-de toque e de mouse), simulado completo com saída e retomada, resultado e relatório,
+Cobre: carga e modo offline, prática, revisar erros, escrita sobre a questão (eventos
+de ponteiro de toque e de mouse), simulado completo com saída e retomada, resultado e relatório,
 histórico, exportar/importar, tema, nova versão do service worker, IndexedDB
 indisponível, escape de HTML e renderização de todas as questões do banco.
 Screenshots vão para tools/testes/screens/.
@@ -74,6 +74,15 @@ def secao(titulo):
 
 def ler_loja(pagina, loja):
     return pagina.evaluate(LER_LOJA, loja)
+
+
+def abrir_escrita_sobre(pagina):
+    """Folha de escrita → "escrever sobre a questão" (a opção secundária)."""
+    pagina.click('[data-acao="rascunho"]')
+    pagina.wait_for_selector(".folha-escrita")
+    pagina.click('[data-rs="sobre"]')
+    pagina.wait_for_selector(".rascunho canvas")
+    pagina.wait_for_function("!document.querySelector('.folha-escrita')")
 
 
 def ir(pagina, hash_, seletor):
@@ -224,7 +233,7 @@ def testar_pratica(pagina):
 
 
 def testar_rascunho(pagina, cdp):
-    secao("Rascunho: desenhar, desfazer, borracha, limpar, fundo, rolar")
+    secao("Escrita sobre a questão: desenhar, desfazer, borracha, limpar, fundo, rolar")
     pagina.click('[data-acao="proxima"]')
     pagina.wait_for_selector('[data-acao="escolher"]')
     responder(pagina, certo=True)  # com a explicação aberta a página fica longa o bastante para rolar
@@ -232,8 +241,7 @@ def testar_rascunho(pagina, cdp):
     pagina.evaluate("scrollTo(0, 0)")
     rolavel = pagina.evaluate("document.documentElement.scrollHeight - innerHeight")
     verificar(rolavel > 300, f"página da questão maior que a tela ({rolavel}px a rolar)")
-    pagina.click('[data-acao="rascunho"]')
-    pagina.wait_for_selector(".rascunho canvas")
+    abrir_escrita_sobre(pagina)
     canvas = pagina.evaluate("(() => { const c = document.querySelector('.rs-canvas'); return [c.width, c.height, getComputedStyle(c).touchAction]; })()")
     verificar(canvas[0] == round(412 * 2.625) and canvas[2] == "none", f"canvas escalado por devicePixelRatio e touch-action none {canvas}")
     pixels = lambda: pagina.evaluate(PIXELS_DESENHADOS)  # noqa: E731
@@ -312,11 +320,10 @@ def testar_rascunho(pagina, cdp):
 
     pagina.click('[data-rs="fechar"]')
     verificar(pagina.locator(".rascunho").count() == 0, "fechar remove a camada")
-    pagina.click('[data-acao="rascunho"]')
-    pagina.wait_for_selector(".rascunho canvas")
+    abrir_escrita_sobre(pagina)
     verificar(pixels() > 0, "reabrir na mesma questão mostra o desenho")
     pagina.go_back()
-    pagina.wait_for_timeout(100)
+    pagina.wait_for_timeout(150)
     verificar(pagina.locator(".rascunho").count() == 0 and pagina.locator("article.questao").count() == 1,
               "'voltar' do Android fecha o rascunho e fica na questão")
 
@@ -402,9 +409,8 @@ def testar_simulado(pagina, contexto):
     pagina.wait_for_timeout(1100)
     verificar(pagina.inner_text("#relogio-valor") != relogio_parado, "cronômetro volta a correr")
 
-    # Rascunho no simulado é salvo junto do simulado
-    pagina.click('[data-acao="rascunho"]')
-    pagina.wait_for_selector(".rascunho canvas")
+    # Escrita sobre a questão no simulado é salva junto do simulado
+    abrir_escrita_sobre(pagina)
     pagina.mouse.move(100, 300)
     pagina.mouse.down()
     pagina.mouse.move(250, 350)
@@ -425,10 +431,9 @@ def testar_simulado(pagina, contexto):
     sim = ler_loja(pagina, "andamento")[0]
     verificar(sum(1 for i in sim["itens"] if i["escolhida"] is not None) == 40, "40 respostas preservadas")
     verificar(sim["tempoMs"] > 1000, f"tempo preservado ({sim['tempoMs']:.0f} ms)")
-    verificar(len(sim["rascunhos"].get(qid_rascunho, [])) == 1, "rascunho do simulado salvo no IndexedDB")
-    pagina.click('[data-acao="rascunho"]')
-    pagina.wait_for_selector(".rascunho canvas")
-    verificar(pagina.evaluate(PIXELS_DESENHADOS) > 0, "rascunho volta depois de recarregar")
+    verificar(len(sim["escrita"]["sobre"].get(qid_rascunho, [])) == 1, "escrita sobre a questão salva no IndexedDB")
+    abrir_escrita_sobre(pagina)
+    verificar(pagina.evaluate(PIXELS_DESENHADOS) > 0, "escrita sobre a questão volta depois de recarregar")
     pagina.click('[data-rs="fechar"]')
 
     # Grade com os 80 números
@@ -530,6 +535,7 @@ def testar_historico(pagina):
     verificar(len(materias) == 1, f"filtro por matéria ({materias})")
     pagina.click("label.interruptor-compacto")
     pagina.wait_for_function("location.hash.includes('erradas=1')")
+    pagina.wait_for_function("!document.querySelector('.lt-linha.certa')", timeout=5000)
     verificar(pagina.locator(".lt-linha.certa").count() == 0 and pagina.locator(".lt-linha.errada").count() > 0, "filtro só erradas")
     fotos_claro_escuro(pagina, "16-historico-tentativas")
     pagina.click(".lt-linha >> nth=0")
@@ -656,7 +662,9 @@ def testar_sem_indexeddb(url):
 
 def main():
     TELAS.mkdir(parents=True, exist_ok=True)
-    for antiga in TELAS.glob("*.png"):
+    for antiga in TELAS.glob("[01]?-*.png"):  # 01–19: telas desta suíte (as da folha/zoom ficam)
+        antiga.unlink()
+    for antiga in TELAS.glob("20-*.png"):
         antiga.unlink()
     console = Console()
     with servidor() as url:

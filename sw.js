@@ -2,7 +2,7 @@
 // VERSAO é gerada por tools/build.py (hash do banco de questões + arquivos do app):
 // qualquer mudança cria um cache novo e o app oferece a atualização.
 
-const VERSAO = "6f57d08ee8";
+const VERSAO = "bedf02a5c2";
 const CACHE = `fuvest-${VERSAO}`;
 
 const ARQUIVOS = [
@@ -14,16 +14,22 @@ const ARQUIVOS = [
   "./icons/icon-192.png",
   "./icons/icon-512.png",
   "./icons/maskable-512.png",
+  "./js/armazenamento-local.js",
   "./js/banco.js",
+  "./js/camadas.js",
   "./js/config.js",
   "./js/cronometro.js",
   "./js/db.js",
   "./js/estatisticas.js",
   "./js/feedback-prova.js",
-  "./js/letras.js",
   "./js/filtros-pratica.js",
+  "./js/geometria.js",
+  "./js/gestos.js",
+  "./js/leitura.js",
+  "./js/letras.js",
   "./js/main.js",
   "./js/navegacao.js",
+  "./js/pilha-desfazer.js",
   "./js/pwa.js",
   "./js/rascunho.js",
   "./js/render.js",
@@ -32,6 +38,15 @@ const ARQUIVOS = [
   "./js/ui.js",
   "./js/util.js",
   "./js/vista-questao.js",
+  "./js/visualizador.js",
+  "./js/zoom-texto.js",
+  "./js/rascunho/caderno.js",
+  "./js/rascunho/ferramentas.js",
+  "./js/rascunho/folha-escrita.js",
+  "./js/rascunho/quadro.js",
+  "./js/rascunho/sobre-questao.js",
+  "./js/rascunho/tracos.js",
+  "./js/rascunho/vista-folha.js",
   "./js/telas/ajustes.js",
   "./js/telas/filtros.js",
   "./js/telas/historico.js",

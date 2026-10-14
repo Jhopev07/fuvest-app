@@ -1,0 +1,430 @@
+[
+  {
+    "id": "ING-016",
+    "materia": "ingles",
+    "tema": "Inferência — trânsito planetário e razão entre áreas",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "fisica",
+      "matematica"
+    ],
+    "texto": "Counting worlds by their shadows\n\nAlmost none of the planets known to orbit other stars has ever actually been seen. Astronomers usually infer their existence from their effects on starlight, and the most productive technique of all relies on a kind of miniature eclipse. When a planet passes in front of its star, as seen from Earth, it blocks a tiny fraction of the light. Monitor the star's brightness for long enough and that fraction shows up as a small dip that repeats at regular intervals.\n\nThe arithmetic is surprisingly friendly. Because the planet covers part of a disc, the depth of the dip depends on the ratio of the two areas, not of the two diameters. A Jupiter-sized planet crossing a Sun-like star dims it by about one per cent; an Earth-sized one, by less than a hundredth of that. The interval between dips gives the length of the planet's year, and, with Kepler's third law and an estimate of the star's mass, the size of its orbit follows.\n\nThere is a catch. The method only works if the orbit happens to be seen almost edge-on from Earth, which is true of only a small minority of planetary systems. Most planets pass above or below their stars from our point of view and never cause a dip at all. Astronomers do not treat this as a fatal weakness: knowing how likely such an alignment is, they can scale up their counts to estimate how common planets really are.\n\nThen there are the impostors. Two stars orbiting each other can eclipse one another and produce a dip that looks deceptively planetary. That is why careful teams seek confirmation by an independent method, and why a 'discovery' announced on the strength of a single dip deserves caution.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Segundo o segundo parágrafo, um planeta do tamanho de Júpiter que passa diante de uma estrela semelhante ao Sol reduz o brilho dela em cerca de 1%. Com base no raciocínio apresentado nesse parágrafo, se um astrônomo registrar, diante de outra estrela do mesmo tamanho que o Sol, quedas periódicas de brilho de 0,25%, poderá estimar que o raio do planeta responsável é",
+    "alternativas": [
+      "cerca de um quarto do raio de Júpiter",
+      "cerca de um dezesseis avos do raio de Júpiter",
+      "cerca do dobro do raio de Júpiter",
+      "cerca de metade do raio de Júpiter",
+      "igual ao de Júpiter, em órbita mais distante"
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é ler com atenção a frase “the depth of the dip depends on the ratio of the two areas, not of the two diameters”: a queda de brilho é proporcional à fração do disco da estrela que o planeta encobre, isto é, à razão entre as ÁREAS dos dois discos, e não entre os diâmetros.\n\nComo a área de um disco é proporcional ao quadrado do raio (A = π·r²), a queda é proporcional a (r/R)², em que r é o raio do planeta e R, o da estrela. Comparando o novo planeta com Júpiter diante de estrelas iguais (mesmo R), a razão entre as quedas é (r/rJúpiter)².\n\nAssim: 0,25% / 1% = 1/4 = (r/rJúpiter)² → r/rJúpiter = √(1/4) = 1/2. O planeta tem cerca de metade do raio de Júpiter.\n\nDetalhe de leitura: o intervalo entre as quedas dá o período orbital (“the length of the planet's year”) e, com a 3ª lei de Kepler, o tamanho da órbita; a PROFUNDIDADE da queda depende só da razão entre as áreas. A distância do planeta à estrela não entra nessa conta.\n\nPara lembrar: quando uma grandeza depende de área, uma razão de 1/4 entre áreas corresponde a uma razão de 1/2 entre as dimensões lineares.",
+    "erradas": [
+      "Proporcionalidade linear: tratou a queda como proporcional ao raio (0,25/1 = 1/4), justamente o que o texto descarta ao dizer “not of the two diameters”.",
+      "Elevou a razão ao quadrado em vez de extrair a raiz: (1/4)² = 1/16. A razão entre as áreas é 1/4; a razão entre os raios é √(1/4) = 1/2.",
+      "Inverteu a razão: uma queda menor que a de Júpiter indica planeta menor, não maior (fazer 1% / 0,25% = 4 e extrair a raiz dá 2).",
+      "",
+      "Supõe que a distância orbital altera a profundidade da queda; pelo texto, a órbita se deduz do intervalo entre as quedas (com a 3ª lei de Kepler), mas a profundidade depende só da razão entre as áreas."
+    ]
+  },
+  {
+    "id": "ING-017",
+    "materia": "ingles",
+    "tema": "Vocabulário em contexto — falsos cognatos e expressões",
+    "nivel": "fuvest",
+    "origem": "Estilo livro",
+    "inter": [],
+    "texto": "Counting worlds by their shadows\n\nAlmost none of the planets known to orbit other stars has ever actually been seen. Astronomers usually infer their existence from their effects on starlight, and the most productive technique of all relies on a kind of miniature eclipse. When a planet passes in front of its star, as seen from Earth, it blocks a tiny fraction of the light. Monitor the star's brightness for long enough and that fraction shows up as a small dip that repeats at regular intervals.\n\nThe arithmetic is surprisingly friendly. Because the planet covers part of a disc, the depth of the dip depends on the ratio of the two areas, not of the two diameters. A Jupiter-sized planet crossing a Sun-like star dims it by about one per cent; an Earth-sized one, by less than a hundredth of that. The interval between dips gives the length of the planet's year, and, with Kepler's third law and an estimate of the star's mass, the size of its orbit follows.\n\nThere is a catch. The method only works if the orbit happens to be seen almost edge-on from Earth, which is true of only a small minority of planetary systems. Most planets pass above or below their stars from our point of view and never cause a dip at all. Astronomers do not treat this as a fatal weakness: knowing how likely such an alignment is, they can scale up their counts to estimate how common planets really are.\n\nThen there are the impostors. Two stars orbiting each other can eclipse one another and produce a dip that looks deceptively planetary. That is why careful teams seek confirmation by an independent method, and why a 'discovery' announced on the strength of a single dip deserves caution.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "No texto, “actually” (em “has ever actually been seen”, 1º parágrafo), “catch” (em “There is a catch”, 3º parágrafo) e “deceptively” (em “looks deceptively planetary”, 4º parágrafo) podem ser traduzidos, no contexto, respectivamente, por",
+    "alternativas": [
+      "de fato; um porém; enganosamente",
+      "atualmente; uma captura; decepcionantemente",
+      "de fato; uma descoberta; decepcionantemente",
+      "atualmente; um porém; enganosamente",
+      "finalmente; uma recompensa; surpreendentemente"
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é desconfiar das palavras que “parecem” português.\n\n**Actually** é o falso cognato mais clássico: significa “na verdade, de fato, realmente”, e não “atualmente” (que seria currently ou nowadays). Na frase, o autor diz que quase nenhum dos planetas conhecidos fora do Sistema Solar foi de fato visto — sua existência é deduzida pelos efeitos sobre a luz da estrela.\n\n**Catch**, como substantivo em “There is a catch”, é expressão idiomática: “há um porém, uma pegadinha, um problema escondido”. O contexto confirma: o parágrafo apresenta uma limitação do método (ele só funciona se a órbita for vista quase de perfil).\n\n**Deceptively** vem de deceive (enganar), e não de “decepcionar” (que seria disappoint). “a dip that looks deceptively planetary” é uma queda de brilho que parece, enganosamente, causada por um planeta — na verdade, são duas estrelas se eclipsando.\n\nPara lembrar: actually = de fato; currently = atualmente; deceive = enganar; disappoint = decepcionar.",
+    "erradas": [
+      "",
+      "Reúne três armadilhas: “actually” lido como “atualmente” (falso cognato), “catch” no sentido literal de “captura” e “deceptively” associado a “decepcionar”.",
+      "Acerta “actually”, mas toma “catch” por “descoberta” (o parágrafo apresenta uma limitação, não um achado) e confunde deceive (enganar) com disappoint (decepcionar).",
+      "Acerta “catch” e “deceptively”, mas cai no falso cognato mais famoso: “actually” não significa “atualmente” (currently), e sim “de fato”.",
+      "“Actually” não é “finalmente” (finally); “catch” não indica ganho algum; e “deceptively” tem a ver com engano, não com surpresa."
+    ]
+  },
+  {
+    "id": "ING-018",
+    "materia": "ingles",
+    "tema": "Interpretação — alcance e limites do método de trânsito",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "Counting worlds by their shadows\n\nAlmost none of the planets known to orbit other stars has ever actually been seen. Astronomers usually infer their existence from their effects on starlight, and the most productive technique of all relies on a kind of miniature eclipse. When a planet passes in front of its star, as seen from Earth, it blocks a tiny fraction of the light. Monitor the star's brightness for long enough and that fraction shows up as a small dip that repeats at regular intervals.\n\nThe arithmetic is surprisingly friendly. Because the planet covers part of a disc, the depth of the dip depends on the ratio of the two areas, not of the two diameters. A Jupiter-sized planet crossing a Sun-like star dims it by about one per cent; an Earth-sized one, by less than a hundredth of that. The interval between dips gives the length of the planet's year, and, with Kepler's third law and an estimate of the star's mass, the size of its orbit follows.\n\nThere is a catch. The method only works if the orbit happens to be seen almost edge-on from Earth, which is true of only a small minority of planetary systems. Most planets pass above or below their stars from our point of view and never cause a dip at all. Astronomers do not treat this as a fatal weakness: knowing how likely such an alignment is, they can scale up their counts to estimate how common planets really are.\n\nThen there are the impostors. Two stars orbiting each other can eclipse one another and produce a dip that looks deceptively planetary. That is why careful teams seek confirmation by an independent method, and why a 'discovery' announced on the strength of a single dip deserves caution.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considere as afirmações a seguir sobre o texto.\n\nI. O método do trânsito deixa de detectar a maioria dos planetas existentes, mas isso não impede os astrônomos de estimar quão comuns eles são.\nII. Uma queda de brilho isolada pode ter sido produzida por duas estrelas que se eclipsam, razão pela qual se busca confirmação por um método independente.\nIII. O intervalo entre duas quedas sucessivas de brilho permite calcular diretamente o tamanho do planeta.\n\nEstá correto o que se afirma em",
+    "alternativas": [
+      "I, apenas.",
+      "II, apenas.",
+      "I e II, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é separar com cuidado o que cada parágrafo atribui a cada medida.\n\n**I — correta.** O 3º parágrafo diz que o método só funciona se a órbita for vista quase de perfil (“edge-on”), o que vale para uma pequena minoria dos sistemas; a maioria dos planetas nunca produz queda de brilho. Mas os astrônomos “do not treat this as a fatal weakness”: conhecendo a probabilidade desse alinhamento, ampliam (“scale up”) suas contagens para estimar a frequência real de planetas.\n\n**II — correta.** O 4º parágrafo fala dos “impostors”: duas estrelas que orbitam uma à outra podem se eclipsar e produzir uma queda “deceptively planetary”. Por isso equipes cuidadosas buscam confirmação por um método independente, e uma “descoberta” anunciada com base em uma única queda merece cautela.\n\n**III — incorreta.** Pelo 2º parágrafo, o intervalo entre as quedas fornece o período orbital (“the length of the planet's year”); com a 3ª lei de Kepler e uma estimativa da massa da estrela, obtém-se o tamanho da ÓRBITA. O tamanho do PLANETA vem da profundidade da queda (razão entre áreas), não do intervalo.\n\nPara lembrar: em questões de itens, verifique se a afirmação troca grandezas vizinhas (órbita × planeta, período × profundidade) — é uma das armadilhas mais comuns.",
+    "erradas": [
+      "Descarta o item II, mas o 4º parágrafo afirma exatamente que pares de estrelas que se eclipsam imitam a queda causada por um planeta e que isso exige confirmação independente.",
+      "Descarta o item I por entender que a limitação do alinhamento é fatal; o texto diz o contrário (“do not treat this as a fatal weakness”), pois as contagens podem ser corrigidas estatisticamente.",
+      "",
+      "Aceita o item III, que troca o tamanho da órbita (obtido do período com a 3ª lei de Kepler) pelo tamanho do planeta (obtido da profundidade da queda), e ainda rejeita o item I.",
+      "Aceita o item III, que confunde o que se deduz do intervalo entre quedas (período e tamanho da órbita) com o que se deduz da profundidade da queda (tamanho do planeta)."
+    ]
+  },
+  {
+    "id": "ING-019",
+    "materia": "ingles",
+    "tema": "Inferência — cafeína e adenosina",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "biologia"
+    ],
+    "texto": "The pressure to sleep\n\nWhy do we get sleepy at night? Part of the answer is a clock: a small cluster of cells deep in the brain keeps a roughly 24-hour rhythm and nudges the body towards rest when darkness falls. But the clock is only half the story. The other half is a kind of pressure that builds up from the moment we wake.\n\nOne of the substances thought to carry that pressure is adenosine. As neurons burn through their energy supply during the day, adenosine accumulates around them and binds to receptors that dampen their activity. The longer we stay awake, the more of it piles up, and the heavier our eyelids feel. Sleep clears it away.\n\nThis is where coffee comes in. Caffeine is similar enough to adenosine to fit into the same receptors without activating them. It does not remove the adenosine; it merely occupies its seats. The tiredness is still there, waiting, and it tends to return with interest once the liver has broken the caffeine down — which takes several hours, far longer than many people assume.\n\nSleep, moreover, does more than reset a chemical meter. During deep sleep, the brain appears to replay the day's experiences, strengthening some memories and letting others fade. Some studies in mice suggest that the flow of fluid that washes waste out of brain tissue may increase during sleep, although other researchers dispute the finding, and its relevance to humans remains unclear.\n\nNone of this makes a late espresso a crime. It does, however, make the familiar boast 'I can drink coffee at ten and sleep fine' worth a second look. Falling asleep is not the same as sleeping well, and a brain that dozes off on schedule may still be short-changed of its deepest stages.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "No terceiro parágrafo, afirma-se que o cansaço “tends to return with interest once the liver has broken the caffeine down”. Com base no texto e em conhecimentos de Biologia, essa afirmação se explica porque",
+    "alternativas": [
+      "a cafeína, ao ser metabolizada no fígado, converte-se em adenosina e eleva a concentração desta no cérebro.",
+      "a cafeína ativa os receptores de adenosina e, quando seu efeito cessa, eles ficam menos sensíveis por um tempo.",
+      "o fígado, ocupado em degradar a cafeína, deixa de remover a adenosina que se acumulou ao longo do dia.",
+      "o relógio biológico, bloqueado pela cafeína, recupera de uma só vez as horas de atraso acumuladas no período.",
+      "a adenosina seguiu se acumulando enquanto a cafeína ocupava os receptores e age quando eles se liberam."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é entender a relação descrita no texto: “Caffeine is similar enough to adenosine to fit into the same receptors without activating them. It does not remove the adenosine; it merely occupies its seats.”\n\nEm termos biológicos, a cafeína age como antagonista competitivo: por ter forma semelhante à da adenosina, liga-se aos mesmos receptores, mas não dispara a resposta (a redução da atividade neuronal). Enquanto ela ocupa “os assentos”, a adenosina não consegue se ligar — e a pessoa não sente sono.\n\nSó que a produção de adenosina não para: os neurônios continuam gastando energia, e a substância continua a se acumular (“The tiredness is still there, waiting”). Quando o fígado termina de degradar a cafeína, os receptores ficam livres, e a adenosina acumulada — agora em maior quantidade — passa a se ligar a eles. Daí a imagem de “return with interest”: o cansaço volta “com juros”, maior do que estava.\n\nRepare: segundo o texto, quem remove a adenosina é o sono (“Sleep clears it away”); o fígado degrada a cafeína.\n\nPara lembrar: um antagonista ocupa o receptor sem ativá-lo; bloqueia o sinal, mas não elimina a molécula que o produz.",
+    "erradas": [
+      "Inventa uma via metabólica: o fígado degrada a cafeína, mas o texto não diz que ela se transforma em adenosina — e os produtos dessa degradação não são adenosina.",
+      "Contradiz o texto, segundo o qual a cafeína se encaixa nos receptores “without activating them”; ela bloqueia, não estimula — e receptores menos sensíveis diminuiriam, não aumentariam, o cansaço.",
+      "Atribui ao fígado a remoção da adenosina; pelo texto, o fígado degrada a cafeína, e quem elimina a adenosina é o sono (“Sleep clears it away”).",
+      "Confunde os dois mecanismos do texto: a cafeína atua sobre a pressão do sono (adenosina), não sobre o relógio de cerca de 24 horas, e o texto não fala em horas de atraso a recuperar.",
+      ""
+    ]
+  },
+  {
+    "id": "ING-020",
+    "materia": "ingles",
+    "tema": "Modalização — modais, verbos atenuadores e grau de certeza",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "The pressure to sleep\n\nWhy do we get sleepy at night? Part of the answer is a clock: a small cluster of cells deep in the brain keeps a roughly 24-hour rhythm and nudges the body towards rest when darkness falls. But the clock is only half the story. The other half is a kind of pressure that builds up from the moment we wake.\n\nOne of the substances thought to carry that pressure is adenosine. As neurons burn through their energy supply during the day, adenosine accumulates around them and binds to receptors that dampen their activity. The longer we stay awake, the more of it piles up, and the heavier our eyelids feel. Sleep clears it away.\n\nThis is where coffee comes in. Caffeine is similar enough to adenosine to fit into the same receptors without activating them. It does not remove the adenosine; it merely occupies its seats. The tiredness is still there, waiting, and it tends to return with interest once the liver has broken the caffeine down — which takes several hours, far longer than many people assume.\n\nSleep, moreover, does more than reset a chemical meter. During deep sleep, the brain appears to replay the day's experiences, strengthening some memories and letting others fade. Some studies in mice suggest that the flow of fluid that washes waste out of brain tissue may increase during sleep, although other researchers dispute the finding, and its relevance to humans remains unclear.\n\nNone of this makes a late espresso a crime. It does, however, make the familiar boast 'I can drink coffee at ten and sleep fine' worth a second look. Falling asleep is not the same as sleeping well, and a brain that dozes off on schedule may still be short-changed of its deepest stages.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "O texto menciona diversas informações sobre o sono, mas não apresenta todas com o mesmo grau de certeza. Entre as informações a seguir, aquela que o autor apresenta como MAIS incerta é",
+    "alternativas": [
+      "o acúmulo de adenosina em torno dos neurônios durante a vigília.",
+      "o aumento, durante o sono, do fluxo que remove resíduos do cérebro.",
+      "a reativação, no sono profundo, das experiências vividas no dia.",
+      "a ocupação dos receptores de adenosina pela molécula de cafeína.",
+      "o ritmo de cerca de 24 horas mantido por um grupo de células cerebrais."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é observar as marcas de modalização — palavras e construções com que o autor indica quanto confia em cada informação.\n\nO relógio de cerca de 24 horas, o acúmulo de adenosina e a ocupação dos receptores pela cafeína são apresentados de forma assertiva, no presente simples, sem atenuação (“keeps”, “accumulates”, “fit into”, “occupies”). A única ressalva nesse trecho, “thought to carry”, atenua o papel da adenosina como portadora da pressão do sono, e não o seu acúmulo.\n\nA reativação das memórias já vem atenuada: “the brain appears to replay” (parece reativar). Mas o fluxo de remoção de resíduos acumula ressalvas: (1) “Some studies in mice suggest” — só alguns estudos, só em camundongos, e “suggest” é mais fraco que “show”; (2) o modal “may increase” apresenta o aumento como mera possibilidade; (3) “other researchers dispute the finding” — há contestação explícita; (4) “its relevance to humans remains unclear”. É, portanto, a informação mais incerta.\n\nPara lembrar: na escala de certeza, show/prove > indicate > suggest > appear/seem, e os modais vão de must (dedução forte) a may/might (possibilidade); uma contestação explícita (“dispute”) rebaixa ainda mais o grau de certeza.",
+    "erradas": [
+      "O acúmulo de adenosina é afirmado sem ressalva (“adenosine accumulates around them”); a atenuação “thought to” recai sobre o papel da substância como portadora da pressão do sono.",
+      "",
+      "É o distrator mais forte: “appears to replay” é de fato atenuado, mas não há menção a estudos limitados a animais nem a contestação, como ocorre com o fluxo de remoção de resíduos.",
+      "O mecanismo da cafeína é exposto como fato, no presente simples (“fit into”, “occupies”), sem nenhum marcador de dúvida.",
+      "O relógio biológico é apresentado como fato (“keeps a roughly 24-hour rhythm”); “roughly” atenua a duração do ciclo, não a existência do relógio."
+    ]
+  },
+  {
+    "id": "ING-021",
+    "materia": "ingles",
+    "tema": "Argumentação — função do último parágrafo e phrasal verb",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "The pressure to sleep\n\nWhy do we get sleepy at night? Part of the answer is a clock: a small cluster of cells deep in the brain keeps a roughly 24-hour rhythm and nudges the body towards rest when darkness falls. But the clock is only half the story. The other half is a kind of pressure that builds up from the moment we wake.\n\nOne of the substances thought to carry that pressure is adenosine. As neurons burn through their energy supply during the day, adenosine accumulates around them and binds to receptors that dampen their activity. The longer we stay awake, the more of it piles up, and the heavier our eyelids feel. Sleep clears it away.\n\nThis is where coffee comes in. Caffeine is similar enough to adenosine to fit into the same receptors without activating them. It does not remove the adenosine; it merely occupies its seats. The tiredness is still there, waiting, and it tends to return with interest once the liver has broken the caffeine down — which takes several hours, far longer than many people assume.\n\nSleep, moreover, does more than reset a chemical meter. During deep sleep, the brain appears to replay the day's experiences, strengthening some memories and letting others fade. Some studies in mice suggest that the flow of fluid that washes waste out of brain tissue may increase during sleep, although other researchers dispute the finding, and its relevance to humans remains unclear.\n\nNone of this makes a late espresso a crime. It does, however, make the familiar boast 'I can drink coffee at ten and sleep fine' worth a second look. Falling asleep is not the same as sleeping well, and a brain that dozes off on schedule may still be short-changed of its deepest stages.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "No último parágrafo, o autor afirma que a frase “I can drink coffee at ten and sleep fine” merece “a second look”. Essa ressalva se apoia no argumento de que",
+    "alternativas": [
+      "o café tomado à noite impede que a maioria das pessoas consiga pegar no sono no horário de costume.",
+      "tomar café tarde da noite é um hábito condenável, que deveria ser abandonado por todas as pessoas.",
+      "o efeito da cafeína dura menos do que a maioria das pessoas imagina, o que engana quem a consome.",
+      "adormecer na hora certa não garante sono de qualidade, pois as fases profundas podem ser reduzidas.",
+      "quem adormece logo depois de tomar café provavelmente acumulou pouca adenosina ao longo do dia."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber a distinção que fecha o texto: “Falling asleep is not the same as sleeping well”.\n\nQuem diz “I can drink coffee at ten and sleep fine” costuma medir o sono apenas pela facilidade de adormecer. O autor admite que isso pode acontecer — o cérebro pode pegar no sono no horário de sempre (“dozes off on schedule”) —, mas ainda assim ser “short-changed of its deepest stages”, isto é, lesado, privado de parte das fases mais profundas. E o 4º parágrafo já havia indicado a importância do sono profundo (consolidação de memórias).\n\nRepare também na moderação do tom: “None of this makes a late espresso a crime” — o autor não condena o café; apenas sugere que a gabolice (“boast”) merece reexame.\n\nVocabulário: “doze off” = cochilar, adormecer; “short-change” = dar troco a menos, lesar; “a second look” = um novo exame, uma reconsideração.\n\nPara lembrar: identifique o que o autor concede (pode-se adormecer) e o que ele contesta (a qualidade do sono) — a resposta costuma estar na distinção entre os dois.",
+    "erradas": [
+      "Contraria a concessão do próprio autor: ele admite que o cérebro pode adormecer no horário (“dozes off on schedule”); o problema apontado é a qualidade do sono, não a dificuldade de adormecer.",
+      "Extrapola o tom do texto, que diz expressamente “None of this makes a late espresso a crime”; o autor relativiza a gabolice, sem condenar o hábito.",
+      "Inverte o 3º parágrafo, segundo o qual a degradação da cafeína leva várias horas, “far longer than many people assume” — o efeito dura mais, e não menos, do que se imagina.",
+      "",
+      "Não tem base no texto: a adenosina se acumula com o tempo de vigília, e adormecer depressa não indica que ela tenha se acumulado pouco."
+    ]
+  },
+  {
+    "id": "ING-022",
+    "materia": "ingles",
+    "tema": "Vocabulário em contexto — falsos cognatos",
+    "nivel": "fuvest",
+    "origem": "Estilo livro",
+    "inter": [],
+    "texto": "In defence of my gym membership\n\nEvery January I make the same sensible decision, and every February I begin to pay for it. The decision is to join a gym. The payment, at least, is reliable: it leaves my account on the first of each month, as punctual as I am not.\n\nBehavioural economists have a name for people like me. Several, actually. I suffer from 'present bias', which means that the man who signs the contract and the man who has to attend the 6 a.m. class are, for practical purposes, two different people, and the first one keeps making promises on behalf of the second. Researchers who studied gym members found that many of those on a flat monthly fee ended up paying more per visit than they would have paid with single passes. I did the sums once. I would have been cheaper as a tourist.\n\nCancelling should be easy. It is not, and the gym knows it. The form is available only in person, at the front desk, during hours that coincide precisely with my working day. I could make the trip, of course. I tell myself I will, eventually, which is what I also told myself about the class.\n\nThere is a further complication. Cancelling would mean admitting that the money already spent was wasted — and, as the economists also point out, people hate losses roughly twice as much as they enjoy equivalent gains. So I keep paying, which allows me to pretend that the earlier payments were an investment rather than a fine.\n\nMy friends say I should simply go. They are right, and I have told them so, from the sofa.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "No texto, as palavras “sensible” (1º parágrafo), “attend” (2º parágrafo), “eventually” (3º parágrafo) e “pretend” (4º parágrafo) significam, no contexto, respectivamente,",
+    "alternativas": [
+      "sensível; atender; eventualmente; pretender",
+      "sensato; atender; ocasionalmente; fingir",
+      "sensato; frequentar; algum dia; fingir",
+      "sensível; frequentar; algum dia; pretender",
+      "sensato; frequentar; ocasionalmente; pretender"
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é reconhecer quatro falsos cognatos clássicos — palavras parecidas com o português, mas de sentido diferente.\n\n**Sensible** = sensato, razoável (“sensível” seria sensitive). A ironia do 1º parágrafo depende disso: a decisão de entrar na academia é sensata; o problema é cumpri-la.\n\n**Attend** = frequentar, comparecer a (“atender” seria answer, serve ou assist). “the man who has to attend the 6 a.m. class” é o homem que precisa comparecer à aula das 6h.\n\n**Eventually** = por fim, algum dia, mais cedo ou mais tarde (o “eventualmente” do português, no sentido de “ocasionalmente”, seria occasionally). “I tell myself I will, eventually”: ele promete ir ao balcão cancelar o contrato algum dia — e o humor está em ser a mesma promessa vaga que fez sobre a aula.\n\n**Pretend** = fingir (“pretender” seria intend). Ele continua pagando para poder fingir que as mensalidades anteriores foram um investimento.\n\nPara lembrar: sensible = sensato; attend = frequentar; eventually = por fim, algum dia; pretend = fingir.",
+    "erradas": [
+      "Tradução por semelhança de forma nas quatro palavras: cai em todos os falsos cognatos (sensitive, answer, occasionally e intend é que teriam esses sentidos).",
+      "Acerta “sensible” e “pretend”, mas lê “attend” como “atender” e “eventually” como “ocasionalmente”, sentido do português “eventualmente”.",
+      "",
+      "Acerta “attend” e “eventually”, mas confunde “sensible” com sensitive (sensível) e “pretend” com intend (pretender).",
+      "Acerta “sensible” e “attend”, mas cai nos falsos cognatos “eventually” (que não é “ocasionalmente”) e “pretend” (que não é “pretender”)."
+    ]
+  },
+  {
+    "id": "ING-023",
+    "materia": "ingles",
+    "tema": "Ironia e humor — função da frase final",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "In defence of my gym membership\n\nEvery January I make the same sensible decision, and every February I begin to pay for it. The decision is to join a gym. The payment, at least, is reliable: it leaves my account on the first of each month, as punctual as I am not.\n\nBehavioural economists have a name for people like me. Several, actually. I suffer from 'present bias', which means that the man who signs the contract and the man who has to attend the 6 a.m. class are, for practical purposes, two different people, and the first one keeps making promises on behalf of the second. Researchers who studied gym members found that many of those on a flat monthly fee ended up paying more per visit than they would have paid with single passes. I did the sums once. I would have been cheaper as a tourist.\n\nCancelling should be easy. It is not, and the gym knows it. The form is available only in person, at the front desk, during hours that coincide precisely with my working day. I could make the trip, of course. I tell myself I will, eventually, which is what I also told myself about the class.\n\nThere is a further complication. Cancelling would mean admitting that the money already spent was wasted — and, as the economists also point out, people hate losses roughly twice as much as they enjoy equivalent gains. So I keep paying, which allows me to pretend that the earlier payments were an investment rather than a fine.\n\nMy friends say I should simply go. They are right, and I have told them so, from the sofa.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "A frase que encerra o texto — “They are right, and I have told them so, from the sofa.” — tem a função de",
+    "alternativas": [
+      "ilustrar, com humor, o abismo entre admitir o que se deve fazer e fazê-lo, tema central do texto.",
+      "revelar que o narrador, finalmente convencido pelos amigos, decidiu retomar os treinos na academia.",
+      "criticar os amigos, que dão conselhos fáceis sem entender os obstáculos criados pela academia.",
+      "mostrar que o narrador cancelou o contrato e passou a se exercitar em casa, opção mais barata.",
+      "contestar a tese dos economistas de que o viés do presente afeta quem assina contratos longos."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber a ironia da última frase: o narrador concorda com os amigos (“They are right”) e diz que já lhes deu razão — mas faz isso “from the sofa”, do sofá, exatamente o lugar de quem não vai à academia.\n\nA cena condensa o que o texto inteiro descreve com o conceito de “present bias”: o “eu” que assina o contrato e o “eu” que precisa comparecer à aula das 6h são “two different people”, e o primeiro vive fazendo promessas em nome do segundo. O mesmo padrão aparece no cancelamento (“I tell myself I will, eventually”) e reaparece no fim: reconhecer o que é certo não leva à ação.\n\nO humor é autodepreciativo: o narrador ri de si mesmo — não dos amigos nem da teoria econômica. Ao contrário, ele se apresenta como exemplo vivo dela (“Behavioural economists have a name for people like me”).\n\nPara lembrar: em crônicas de humor, a frase final costuma resumir o tema por meio de um contraste entre o que se diz e o que se faz.",
+    "erradas": [
+      "",
+      "Ignora a ironia de “from the sofa”: dar razão aos amigos sem se levantar do sofá mostra justamente que ele não voltou a treinar.",
+      "O narrador não critica os amigos — diz que eles têm razão (“They are right”); suas queixas sobre o cancelamento dirigem-se à academia, não aos conselhos recebidos.",
+      "O texto diz o contrário: cancelar exigiria ir pessoalmente ao balcão, o que ele adia (“I tell myself I will, eventually”); e ele continua pagando a mensalidade.",
+      "Inverte a relação do narrador com a teoria: ele se apresenta como exemplo do viés do presente (“people like me”), confirmando, e não contestando, o que dizem os economistas."
+    ]
+  },
+  {
+    "id": "ING-024",
+    "materia": "ingles",
+    "tema": "Inferência — economia comportamental e vocabulário (“fine”)",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "In defence of my gym membership\n\nEvery January I make the same sensible decision, and every February I begin to pay for it. The decision is to join a gym. The payment, at least, is reliable: it leaves my account on the first of each month, as punctual as I am not.\n\nBehavioural economists have a name for people like me. Several, actually. I suffer from 'present bias', which means that the man who signs the contract and the man who has to attend the 6 a.m. class are, for practical purposes, two different people, and the first one keeps making promises on behalf of the second. Researchers who studied gym members found that many of those on a flat monthly fee ended up paying more per visit than they would have paid with single passes. I did the sums once. I would have been cheaper as a tourist.\n\nCancelling should be easy. It is not, and the gym knows it. The form is available only in person, at the front desk, during hours that coincide precisely with my working day. I could make the trip, of course. I tell myself I will, eventually, which is what I also told myself about the class.\n\nThere is a further complication. Cancelling would mean admitting that the money already spent was wasted — and, as the economists also point out, people hate losses roughly twice as much as they enjoy equivalent gains. So I keep paying, which allows me to pretend that the earlier payments were an investment rather than a fine.\n\nMy friends say I should simply go. They are right, and I have told them so, from the sofa.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "De acordo com o quarto parágrafo, o narrador continua pagando a academia porque",
+    "alternativas": [
+      "a academia lhe cobraria uma multa pela rescisão, de valor maior que o das mensalidades já pagas.",
+      "cancelar o contrato o faria perder o dobro do valor que ele já gastou desde que se matriculou.",
+      "acredita que voltará a treinar em breve, de modo que as mensalidades se pagarão com o tempo.",
+      "os economistas recomendam manter contratos já assinados, pois as perdas futuras pesam o dobro.",
+      "cancelar o forçaria a admitir uma perda, e pagar lhe permite tratar o gasto como investimento."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é seguir o encadeamento do 4º parágrafo: “Cancelling would mean admitting that the money already spent was wasted — and [...] people hate losses roughly twice as much as they enjoy equivalent gains. So I keep paying, which allows me to pretend that the earlier payments were an investment rather than a fine.”\n\nO raciocínio é: cancelar = reconhecer que o dinheiro já gasto foi desperdiçado = sofrer uma perda. Como, segundo os economistas, perdas doem cerca de duas vezes mais do que ganhos equivalentes agradam (aversão à perda), o narrador evita esse reconhecimento. Continuar pagando lhe permite fingir (“pretend”, falso cognato) que as mensalidades anteriores foram um investimento, e não uma “fine”.\n\nAtenção a **fine**: aqui é substantivo e significa “multa, penalidade”, usado em sentido figurado — pagar por uma academia que não se frequenta seria como pagar uma multa pela própria inércia. Nada indica que a academia cobre multa de rescisão; o obstáculo ao cancelamento é outro (o formulário só pode ser entregue pessoalmente, em horário comercial).\n\nO comportamento descrito é conhecido como falácia do custo irrecuperável (sunk cost): o dinheiro já gasto não volta, mas continua a influenciar decisões.\n\nPara lembrar: “twice as much” compara a intensidade com que perdas e ganhos são sentidos — não indica valores em dinheiro.",
+    "erradas": [
+      "Interpreta literalmente a palavra “fine” (multa), usada em sentido figurado; o texto não menciona multa de rescisão — o obstáculo ao cancelamento é o formulário disponível só em horário comercial.",
+      "Lê “twice as much” como valor monetário; a expressão compara a intensidade psicológica de perdas e ganhos, e não o dinheiro que se perderia ao cancelar.",
+      "Não há base para isso no 4º parágrafo: a razão apresentada é evitar admitir o desperdício, e o “eventually” do 3º parágrafo refere-se à ida ao balcão para cancelar, não à volta aos treinos.",
+      "Os economistas apenas descrevem a aversão à perda, sem recomendar coisa alguma; além disso, a comparação é entre perdas e ganhos equivalentes, não entre perdas futuras e passadas.",
+      ""
+    ]
+  },
+  {
+    "id": "ING-025",
+    "materia": "ingles",
+    "tema": "Ideia central — o lixo como fonte",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "What the bins remember\n\nArchaeologists are, among other things, professional rummagers through other people's rubbish. Some of the most informative sites ever excavated are not palaces or tombs but middens — heaps of shells, bones, broken pots and ash that accumulated, layer by layer, behind ordinary houses. Nobody built a midden to impress posterity, which is precisely what makes it valuable.\n\nWritten records, by contrast, were produced by a small literate minority and usually for a purpose: to collect taxes, to settle disputes, to glorify a ruler. They tell us a great deal about what those who held the pen wanted remembered. Rubbish tells us what everybody else ate, broke and threw away. A chronicle may announce a famine that a king heroically relieved; the fish bones and seeds in a midden can show whether people in fact changed their diet, and when.\n\nThe method is not limited to the distant past. In the 1970s, a team of archaeologists in the United States began sorting through household bins in a modern city and comparing their contents with what residents of the same neighbourhoods told interviewers. The two accounts frequently disagreed, and not at random: people tended to report healthier diets and less waste than their bins revealed.\n\nRubbish is not a perfectly honest witness either. What survives depends on soil, climate and luck; bone may endure while most plant remains rot away, so a site can look more carnivorous than its inhabitants actually were. Unless such biases are accounted for, the archaeologist risks replacing the chronicler's flattering story with a distorted one of a different kind.\n\nStill, there is something democratic about a midden. Kings rarely appear in it. Everyone else does.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "A ideia central do texto é a de que",
+    "alternativas": [
+      "os registros escritos do passado não têm valor como fonte, pois foram produzidos por uma minoria interessada.",
+      "o lixo revela o cotidiano de quem raramente aparece nos documentos, mas também exige uma leitura crítica.",
+      "os montes de lixo são testemunhas mais confiáveis que as entrevistas, pois não sofrem distorção alguma.",
+      "a arqueologia deveria trocar o estudo de palácios e túmulos pela análise do lixo das cidades modernas.",
+      "os restos de alimentos achados em montes de lixo servem para desmentir crônicas que exaltam reis."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é captar a tese e a ressalva que a acompanha.\n\nA tese: montes de lixo (“middens”) são fontes valiosas justamente porque ninguém os produziu para impressionar a posteridade. Os registros escritos refletem o que uma “small literate minority” queria que fosse lembrado; o lixo mostra o que “everybody else ate, broke and threw away”. O exemplo moderno — o estudo feito nos EUA nos anos 1970 — reforça a ideia: o lixo revelou dietas menos saudáveis e mais desperdício do que os moradores declaravam aos entrevistadores.\n\nA ressalva: “Rubbish is not a perfectly honest witness either”. O que se preserva depende de solo, clima e sorte (ossos resistem; a maior parte dos restos vegetais apodrece), e, sem levar esses vieses em conta, o arqueólogo troca a história lisonjeira do cronista por outra, distorcida de outro modo.\n\nO fecho (“Kings rarely appear in it. Everyone else does.”) retoma a tese com humor: o lixo é uma fonte “democrática”.\n\nPara lembrar: a ideia central deve abranger o texto todo — tese e ressalva —, sem extrapolar nem se prender a um exemplo.",
+    "erradas": [
+      "Extrapolação: o texto diz que os registros escritos informam muito sobre o que seus autores queriam que fosse lembrado — têm valor, ainda que parcial; não são descartados.",
+      "",
+      "Contradiz o 4º parágrafo (“Rubbish is not a perfectly honest witness either”): o lixo também tem vieses, ligados ao que o solo, o clima e o acaso preservam.",
+      "Extrapolação: o estudo do lixo moderno é citado para mostrar que o método “is not limited to the distant past”, e não como proposta de abandonar outros objetos de estudo.",
+      "Toma um exemplo do 2º parágrafo pela ideia central e ainda o exagera: os restos “can show whether” a dieta mudou — podem confirmar ou não a crônica, não necessariamente desmenti-la."
+    ]
+  },
+  {
+    "id": "ING-026",
+    "materia": "ingles",
+    "tema": "Interpretação e História — fontes e historiografia",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "historia"
+    ],
+    "texto": "What the bins remember\n\nArchaeologists are, among other things, professional rummagers through other people's rubbish. Some of the most informative sites ever excavated are not palaces or tombs but middens — heaps of shells, bones, broken pots and ash that accumulated, layer by layer, behind ordinary houses. Nobody built a midden to impress posterity, which is precisely what makes it valuable.\n\nWritten records, by contrast, were produced by a small literate minority and usually for a purpose: to collect taxes, to settle disputes, to glorify a ruler. They tell us a great deal about what those who held the pen wanted remembered. Rubbish tells us what everybody else ate, broke and threw away. A chronicle may announce a famine that a king heroically relieved; the fish bones and seeds in a midden can show whether people in fact changed their diet, and when.\n\nThe method is not limited to the distant past. In the 1970s, a team of archaeologists in the United States began sorting through household bins in a modern city and comparing their contents with what residents of the same neighbourhoods told interviewers. The two accounts frequently disagreed, and not at random: people tended to report healthier diets and less waste than their bins revealed.\n\nRubbish is not a perfectly honest witness either. What survives depends on soil, climate and luck; bone may endure while most plant remains rot away, so a site can look more carnivorous than its inhabitants actually were. Unless such biases are accounted for, the archaeologist risks replacing the chronicler's flattering story with a distorted one of a different kind.\n\nStill, there is something democratic about a midden. Kings rarely appear in it. Everyone else does.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "O raciocínio desenvolvido no segundo parágrafo do texto aproxima-se de uma transformação no trabalho dos historiadores ao longo do século XX, que consistiu em",
+    "alternativas": [
+      "privilegiar os documentos oficiais escritos, tidos como registros objetivos e neutros dos fatos políticos.",
+      "centrar a narrativa histórica nos grandes personagens, como reis e generais, e em seus feitos militares.",
+      "restringir a história aos povos com escrita, deixando os demais à pré-história e à etnologia.",
+      "ampliar a noção de fonte histórica e questionar os interesses de quem produziu os documentos escritos.",
+      "explicar as sociedades pelo meio físico, entendendo o clima e o solo como determinantes da vida humana."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é reconhecer, no 2º parágrafo, duas ideias: (1) os documentos escritos foram produzidos por uma “small literate minority”, com finalidades específicas (cobrar impostos, resolver disputas, glorificar governantes), e por isso dizem sobretudo “what those who held the pen wanted remembered”; (2) vestígios materiais, como o lixo, revelam a vida de “everybody else”.\n\nEssas ideias correspondem a uma renovação historiográfica do século XX, associada sobretudo à Escola dos Annales (Marc Bloch e Lucien Febvre, a partir de 1929) e, depois, à chamada “história vista de baixo”: a noção de fonte se ampliou para além do documento oficial escrito (vestígios materiais, paisagens, registros paroquiais, cultura material), e o próprio documento passou a ser lido criticamente, como produto de relações de poder, e não como espelho neutro dos fatos.\n\nAs demais alternativas descrevem justamente o que essa renovação criticou — a historiografia do século XIX, de inspiração positivista/metódica, centrada no documento oficial e nos grandes personagens políticos — ou ideias alheias ao argumento, como o determinismo geográfico.\n\nPara lembrar: todo documento tem autor, intenção e contexto — e o historiador também pode trabalhar com vestígios não escritos.",
+    "erradas": [
+      "Descreve a historiografia do século XIX, de inspiração positivista/metódica, que tomava o documento oficial como prova objetiva — postura que o texto questiona ao apontar os interesses de quem “held the pen”.",
+      "Descreve a história política tradicional, centrada em reis e batalhas; o texto valoriza o oposto — o cotidiano de quem não aparece nas crônicas (“Kings rarely appear in it”).",
+      "O texto faz o movimento inverso: mostra que vestígios não escritos permitem conhecer grupos que não produziram documentos, rompendo com a ideia de que só há história onde há escrita.",
+      "",
+      "Atrai porque o texto menciona solo e clima, mas como fatores de preservação dos vestígios, não como causas da vida social; o determinismo geográfico não tem relação com o argumento do parágrafo."
+    ]
+  },
+  {
+    "id": "ING-027",
+    "materia": "ingles",
+    "tema": "Referência — pronomes e retomadas",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "What the bins remember\n\nArchaeologists are, among other things, professional rummagers through other people's rubbish. Some of the most informative sites ever excavated are not palaces or tombs but middens — heaps of shells, bones, broken pots and ash that accumulated, layer by layer, behind ordinary houses. Nobody built a midden to impress posterity, which is precisely what makes it valuable.\n\nWritten records, by contrast, were produced by a small literate minority and usually for a purpose: to collect taxes, to settle disputes, to glorify a ruler. They tell us a great deal about what those who held the pen wanted remembered. Rubbish tells us what everybody else ate, broke and threw away. A chronicle may announce a famine that a king heroically relieved; the fish bones and seeds in a midden can show whether people in fact changed their diet, and when.\n\nThe method is not limited to the distant past. In the 1970s, a team of archaeologists in the United States began sorting through household bins in a modern city and comparing their contents with what residents of the same neighbourhoods told interviewers. The two accounts frequently disagreed, and not at random: people tended to report healthier diets and less waste than their bins revealed.\n\nRubbish is not a perfectly honest witness either. What survives depends on soil, climate and luck; bone may endure while most plant remains rot away, so a site can look more carnivorous than its inhabitants actually were. Unless such biases are accounted for, the archaeologist risks replacing the chronicler's flattering story with a distorted one of a different kind.\n\nStill, there is something democratic about a midden. Kings rarely appear in it. Everyone else does.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "No texto, “which” (em “which is precisely what makes it valuable”, 1º parágrafo) e “one” (em “a distorted one of a different kind”, 4º parágrafo) retomam, respectivamente,",
+    "alternativas": [
+      "o fato de ninguém ter construído um monte de lixo para impressionar a posteridade; uma história",
+      "o fato de ninguém ter construído um monte de lixo para impressionar a posteridade; um cronista",
+      "a posteridade, que não se deixa impressionar por restos de comida e de cerâmica; uma testemunha",
+      "o próprio monte de lixo, acumulado camada por camada atrás de casas comuns; uma testemunha",
+      "as casas comuns, atrás das quais o lixo se acumulava em camadas sucessivas; um viés de preservação"
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é identificar dois tipos de retomada.\n\n**Which** em “Nobody built a midden to impress posterity, which is precisely what makes it valuable” é um relativo que, depois de vírgula, pode retomar a oração anterior inteira. O que torna o monte de lixo valioso não é a posteridade nem o próprio monte, mas o FATO de ninguém tê-lo feito para impressionar as gerações futuras. Teste: se “which” retomasse “a midden”, a frase diria que o monte é o que torna o monte (“it”) valioso — um contrassenso.\n\n**One** em “replacing the chronicler's flattering story with a distorted one of a different kind” é um pronome substituto que evita repetir o substantivo: “a distorted one” = “a distorted story”. O paralelo “the chronicler's flattering story” × “a distorted one” confirma: troca-se uma história lisonjeira por outra, distorcida de outro modo.\n\nPara lembrar: “which” após vírgula pode retomar uma ideia inteira; “one/ones” substitui um substantivo já mencionado, em geral o do mesmo paralelo sintático.",
+    "erradas": [
+      "",
+      "Acerta o “which”, mas toma “one” por “cronista”; o paralelo é entre duas histórias (“flattering story” × “distorted one”), e não entre pessoas.",
+      "“posterity” é complemento de “impress” e não pode ser o que torna o monte valioso; e “witness”, embora apareça no início do parágrafo, não é o termo substituído por “one”.",
+      "Se “which” retomasse “a midden”, a frase diria que o monte torna valioso a si mesmo (“it”); e “one” substitui “story”, não “witness”.",
+      "As casas comuns são só o local onde o lixo se acumulava; e “one” retoma um substantivo paralelo a “story”, não os vieses mencionados em “such biases”."
+    ]
+  },
+  {
+    "id": "ING-028",
+    "materia": "ingles",
+    "tema": "Interpretação e Sociologia — desaparecimento de línguas",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "sociologia",
+      "geografia"
+    ],
+    "texto": "When the last speaker goes\n\nOf the roughly 7,000 languages spoken today, many are used by only a few thousand people, and linguists warn that a large share of them may not survive this century. Languages rarely die because their speakers are forbidden to use them, although that has happened often enough. More commonly, parents decide that their children's prospects lie in a dominant language — the one used at school, on television and in the job market — and stop passing on their own. Within two or three generations, the old language is spoken only by grandparents, and then by no one.\n\nWhat is lost is not merely a list of words. A language encodes ways of dividing up the world: some languages rarely use words for 'left' and 'right', describing positions by compass directions instead; others build their sentences in an order — object first, subject last — that linguists once suspected no human language would use. Such features could hardly have been predicted from the study of major languages alone, and they shape what linguists believe a human language can be.\n\nDecline, however, is not always final. Revitalisation programmes have brought languages back into homes and classrooms, sometimes after decades of near silence. Their success tends to depend less on dictionaries and recordings, valuable as these are, than on whether a community can create situations in which speaking the language is useful, normal and even fashionable. A recording can preserve a language; only speakers can keep it alive.\n\nThat distinction matters. An archive of perfectly transcribed stories might satisfy a scholar, but it cannot ask for directions, tell a joke or argue with a neighbour.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "O processo de desaparecimento de línguas descrito no primeiro parágrafo pode ser relacionado, nas Ciências Humanas, à ideia de que",
+    "alternativas": [
+      "as línguas minoritárias somem sobretudo por proibição legal, como mostra a maioria dos casos atuais.",
+      "a perda de línguas decorre principalmente do isolamento geográfico das comunidades que as falam.",
+      "o prestígio desigual das línguas, ligado a oportunidades sociais, induz famílias a abandonar a sua.",
+      "a substituição de uma língua ocorre em uma só geração, provocada pela morte dos falantes idosos.",
+      "o abandono de uma língua resulta da falta de registros escritos, como dicionários e gravações."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é ler a causa apontada no 1º parágrafo e reconhecê-la em termos das Ciências Humanas.\n\nO texto afirma que as línguas raramente morrem por proibição (embora isso tenha ocorrido “often enough”). O mais comum é que os pais concluam que o futuro dos filhos está em uma língua dominante — “the one used at school, on television and in the job market” — e deixem de transmitir a sua. Em duas ou três gerações, a língua antiga fica restrita aos avós e depois desaparece.\n\nNão há, portanto, imposição explícita: há uma hierarquia de prestígio entre línguas, sustentada pela escola, pelos meios de comunicação e pelas oportunidades econômicas. Na Sociologia, isso dialoga com a ideia de poder simbólico e de “mercado linguístico” (Pierre Bourdieu): certas formas de falar valem mais do que outras, e os indivíduos se ajustam a esse valor. Na Geografia, liga-se à homogeneização cultural associada à globalização e à integração de comunidades a mercados nacionais e globais.\n\nPara lembrar: escolhas individuais aparentemente livres podem expressar pressões sociais estruturais — esse é um raciocínio sociológico clássico.",
+    "erradas": [
+      "Contradiz o texto: “Languages rarely die because their speakers are forbidden to use them”; a proibição existiu, mas o caso mais comum é a substituição sob pressão social, sem imposição legal.",
+      "Inverte a lógica do texto: o abandono decorre da integração a escolas, mídia e mercado de trabalho dominados por outra língua, e não do isolamento das comunidades.",
+      "",
+      "O texto fala em “two or three generations”, e a morte dos últimos falantes é a consequência final do processo, não sua causa.",
+      "Confunde causa de declínio com recurso de revitalização; e o 3º parágrafo diz que dicionários e gravações pesam menos do que o uso social da língua."
+    ]
+  },
+  {
+    "id": "ING-029",
+    "materia": "ingles",
+    "tema": "Coesão — estrutura concessiva e argumentação",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [],
+    "texto": "When the last speaker goes\n\nOf the roughly 7,000 languages spoken today, many are used by only a few thousand people, and linguists warn that a large share of them may not survive this century. Languages rarely die because their speakers are forbidden to use them, although that has happened often enough. More commonly, parents decide that their children's prospects lie in a dominant language — the one used at school, on television and in the job market — and stop passing on their own. Within two or three generations, the old language is spoken only by grandparents, and then by no one.\n\nWhat is lost is not merely a list of words. A language encodes ways of dividing up the world: some languages rarely use words for 'left' and 'right', describing positions by compass directions instead; others build their sentences in an order — object first, subject last — that linguists once suspected no human language would use. Such features could hardly have been predicted from the study of major languages alone, and they shape what linguists believe a human language can be.\n\nDecline, however, is not always final. Revitalisation programmes have brought languages back into homes and classrooms, sometimes after decades of near silence. Their success tends to depend less on dictionaries and recordings, valuable as these are, than on whether a community can create situations in which speaking the language is useful, normal and even fashionable. A recording can preserve a language; only speakers can keep it alive.\n\nThat distinction matters. An archive of perfectly transcribed stories might satisfy a scholar, but it cannot ask for directions, tell a joke or argue with a neighbour.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "No terceiro parágrafo, lê-se que o sucesso dos programas de revitalização “tends to depend less on dictionaries and recordings, valuable as these are, than on whether a community can create situations in which speaking the language is useful, normal and even fashionable”. A partir desse trecho e do último parágrafo, conclui-se que o autor",
+    "alternativas": [
+      "considera dicionários e gravações valiosos porque são eles que garantem o êxito da revitalização.",
+      "julga dicionários e gravações dispensáveis, uma vez que apenas os falantes têm importância real.",
+      "atribui a dicionários e gravações valor equivalente ao de uma comunidade de falantes ativos.",
+      "prefere gravações a dicionários, por registrarem a língua tal como ela é falada no dia a dia.",
+      "vê dicionários e gravações como úteis, mas insuficientes para manter uma língua viva e em uso."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é a estrutura concessiva **adjetivo + as + sujeito + verbo**: “valuable as these are” = “although these are valuable” (embora sejam valiosos). Não se trata de causa (“because”) nem de comparação de igualdade (“as ... as”).\n\nAssim, o autor CONCEDE que dicionários e gravações têm valor, mas afirma que o sucesso da revitalização depende MENOS deles (“less ... than”) do que da criação de situações em que falar a língua seja “useful, normal and even fashionable”. A frase “A recording can preserve a language; only speakers can keep it alive” e o último parágrafo reforçam a distinção: um arquivo de histórias bem transcritas pode satisfazer um estudioso, mas não pode pedir informações, contar uma piada ou discutir com um vizinho — ou seja, não substitui o uso vivo da língua.\n\nOutros exemplos da mesma construção: “Tired as she was, she kept working” (embora estivesse cansada, continuou trabalhando); “Strange as it may seem” (por estranho que pareça).\n\nPara lembrar: “adjetivo + as + sujeito + verbo” indica concessão (= although), não causa nem comparação.",
+    "erradas": [
+      "Lê “valuable as these are” como causal (“because they are valuable”) e ignora o “less ... than”: o sucesso depende menos desses recursos do que do uso social da língua.",
+      "Exagera a ressalva: o autor diz que a revitalização depende menos de dicionários e gravações, não que sejam dispensáveis — a concessão “valuable as these are” afirma o valor deles.",
+      "Interpreta “as” como comparação de igualdade (“as ... as”); a frase estabelece justamente uma diferença de peso (“less ... than”) entre os registros e a comunidade de falantes.",
+      "O texto não compara gravações e dicionários entre si: ambos aparecem juntos como recursos valiosos, porém menos decisivos que o uso da língua pela comunidade.",
+      ""
+    ]
+  },
+  {
+    "id": "ING-030",
+    "materia": "ingles",
+    "tema": "Interpretação e Física — armazenamento de energia",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "fisica"
+    ],
+    "texto": "Saving sunshine for later\n\nSolar panels have a scheduling problem. They produce the most electricity around midday, while demand in many places peaks in the early evening, when people come home, switch on lights and start cooking — just as the sun is going down. On sunny days, grids with a lot of solar capacity may find themselves with more power than they need at lunchtime and too little a few hours later. Plotted on a graph, the demand that other power plants must meet sags around midday and shoots up at dusk, a shape that engineers in California nicknamed 'the duck curve'.\n\nThe obvious fix is to store the surplus. Lithium-ion batteries, whose cost has fallen dramatically over the past decade, are increasingly used to shift energy by a few hours. But the oldest large-scale storage technology is far less glamorous. In a pumped-storage plant, cheap electricity is used to pump water from a lower reservoir to a higher one; when power is needed, the water flows back down through turbines. Some energy is inevitably lost along the way, yet such plants have long provided the bulk of the world's grid storage.\n\nStorage does not create energy; it moves it in time. That sounds modest, but it changes the economics of renewables. A grid that can carry midday sunshine into the evening needs fewer power plants that sit idle most of the day and burn fuel only during the evening peak — and that may matter as much as building more panels.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "A frase “Storage does not create energy; it moves it in time” (3º parágrafo), aplicada às usinas reversíveis (“pumped-storage plant”) descritas no 2º parágrafo, é coerente com a seguinte análise física:",
+    "alternativas": [
+      "a usina compensa porque devolve, na descida, mais energia elétrica do que consome no bombeamento.",
+      "a energia elétrica devolvida na descida é menor que a gasta no bombeamento, pois há dissipação.",
+      "a energia devolvida pode superar a consumida se a turbina for mais eficiente do que a bomba.",
+      "a energia potencial armazenada é proporcional ao quadrado do desnível entre os reservatórios.",
+      "as perdas do processo podem ser anuladas se a água for bombeada lentamente, sem turbulência."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é traduzir a frase em termos de conservação de energia: armazenar não “cria” energia, apenas a desloca no tempo (do meio-dia para a noite).\n\nNa usina reversível, a eletricidade barata (excedente solar) aciona bombas que elevam a água do reservatório inferior ao superior: energia elétrica → energia potencial gravitacional (Ep = m·g·h, proporcional à massa e ao desnível). Quando se precisa de energia, a água desce pelas turbinas: energia potencial → energia cinética → energia elétrica.\n\nComo toda conversão real tem perdas (atrito, turbulência, efeito Joule em motores e geradores, dissipadas sobretudo como calor), a energia devolvida é menor que a consumida — o texto diz: “Some energy is inevitably lost along the way”. Se a bomba tem eficiência η₁ e a turbina η₂, a eficiência do ciclo é η₁·η₂ < 1, qualquer que seja a mais eficiente das duas.\n\nPor que vale a pena, então? Por razões econômicas, não energéticas: compra-se energia quando é barata e abundante e devolve-se quando é escassa e cara — e evita-se manter usinas que só funcionam no pico da noite.\n\nPara lembrar: armazenamento sempre devolve menos energia do que recebe; seu valor está em mudar o MOMENTO em que a energia fica disponível.",
+    "erradas": [
+      "Confunde ganho econômico com ganho de energia: a usina compensa porque compra eletricidade barata e a devolve quando ela é cara, mas devolve menos energia do que consome.",
+      "",
+      "Mesmo com turbina mais eficiente que a bomba, a eficiência do ciclo é o produto das duas (η₁·η₂), sempre menor que 1; nenhuma etapa devolve mais do que recebe.",
+      "Erro linear × quadrático: a energia potencial gravitacional é Ep = m·g·h, diretamente proporcional ao desnível h, e não ao seu quadrado.",
+      "Bombear devagar pode reduzir certas perdas, mas não eliminá-las; o próprio texto afirma que alguma energia “is inevitably lost along the way”."
+    ]
+  },
+  {
+    "id": "ING-031",
+    "materia": "ingles",
+    "tema": "Interpretação — a “duck curve” e vocabulário (“sag”, “shoot up”)",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Saving sunshine for later\n\nSolar panels have a scheduling problem. They produce the most electricity around midday, while demand in many places peaks in the early evening, when people come home, switch on lights and start cooking — just as the sun is going down. On sunny days, grids with a lot of solar capacity may find themselves with more power than they need at lunchtime and too little a few hours later. Plotted on a graph, the demand that other power plants must meet sags around midday and shoots up at dusk, a shape that engineers in California nicknamed 'the duck curve'.\n\nThe obvious fix is to store the surplus. Lithium-ion batteries, whose cost has fallen dramatically over the past decade, are increasingly used to shift energy by a few hours. But the oldest large-scale storage technology is far less glamorous. In a pumped-storage plant, cheap electricity is used to pump water from a lower reservoir to a higher one; when power is needed, the water flows back down through turbines. Some energy is inevitably lost along the way, yet such plants have long provided the bulk of the world's grid storage.\n\nStorage does not create energy; it moves it in time. That sounds modest, but it changes the economics of renewables. A grid that can carry midday sunshine into the evening needs fewer power plants that sit idle most of the day and burn fuel only during the evening peak — and that may matter as much as building more panels.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "De acordo com o primeiro parágrafo, a curva apelidada de “the duck curve” representa",
+    "alternativas": [
+      "a produção diária dos painéis solares, que é máxima ao meio-dia e cai bruscamente ao entardecer.",
+      "o consumo total de eletricidade, que diminui ao meio-dia porque as pessoas estão fora de casa.",
+      "a demanda que outras usinas devem suprir, que cai por volta do meio-dia e dispara ao anoitecer.",
+      "o preço da eletricidade ao longo do dia, que sobe ao meio-dia devido ao excesso de oferta solar.",
+      "a carga das baterias de lítio, que se enchem no início da noite e se esvaziam perto do meio-dia."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é identificar exatamente QUAL grandeza o gráfico representa: “Plotted on a graph, the demand that other power plants must meet sags around midday and shoots up at dusk”.\n\nNão se trata do consumo total nem da produção solar, mas da demanda que sobra para as outras usinas (a chamada carga líquida): consumo total menos o que os painéis fornecem. Como os painéis produzem mais por volta do meio-dia, essa demanda “sags” (cede, afunda) nesse horário; ao entardecer, quando o sol se põe e as pessoas chegam em casa, acendem luzes e cozinham, ela “shoots up” (dispara). O desenho — barriga baixa e subida brusca — lembra o perfil de um pato.\n\nVocabulário: “sag” = ceder, afundar, baixar; “shoot up” = subir rapidamente, disparar; “dusk” = crepúsculo, anoitecer.\n\nPara lembrar: em textos que descrevem gráficos, localize o sujeito da frase que descreve a curva — é ele que diz o que está sendo medido.",
+    "erradas": [
+      "Confunde a produção solar com a demanda que as outras usinas precisam atender; a curva do texto é, grosso modo, o consumo total menos a produção solar.",
+      "O texto não diz que o consumo total cai ao meio-dia; o que cai é a parcela que sobra para as outras usinas, porque os painéis suprem parte do consumo nesse horário.",
+      "",
+      "A curva não trata de preços; além disso, excesso de oferta tenderia a baixar o preço da eletricidade, e não a elevá-lo.",
+      "Inverte o funcionamento do armazenamento: as baterias carregam com o excedente do meio-dia e descarregam à noite; e a curva não representa a carga delas."
+    ]
+  }
+]

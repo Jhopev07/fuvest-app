@@ -7,9 +7,11 @@ import { listarTentativas, registrarTentativa } from "../db.js";
 import { contarVezesVista, filaDeErros } from "../estatisticas.js";
 import { filtrosDaConsulta } from "../filtros-pratica.js";
 import { Cronometro } from "../cronometro.js";
-import { CadernoDeRascunhos, fecharRascunho } from "../rascunho.js";
+import { prepararLeitura, rolarQuestaoParaTopo } from "../leitura.js";
+import { EscritaDaTela } from "../rascunho.js";
 import { html, montar, icone } from "../render.js";
 import { aoAgir, avisar, barraTopo, rolarAte } from "../ui.js";
+import { controlesDeTexto } from "../zoom-texto.js";
 import {
   blocoFeedback, botaoRascunho, cabecalhoQuestao, corpoQuestao, listaAlternativas,
 } from "../vista-questao.js";
@@ -29,7 +31,6 @@ function novaSessao(modo, filtros, tentativas) {
     vistas: new Set(),
     acertos: 0,
     respondidas: 0,
-    rascunhos: new CadernoDeRascunhos(),
     atual: null,
   };
 }
@@ -58,7 +59,10 @@ function telaQuestao(sessao) {
   const { questao: q, ordem, escolhida } = sessao.atual;
   const respondida = escolhida !== null;
   return html`
-    ${barraTopo({ titulo: TITULOS[sessao.modo], voltar: VOLTAR[sessao.modo], direita: placarSessao(sessao) })}
+    ${barraTopo({
+      titulo: TITULOS[sessao.modo], voltar: VOLTAR[sessao.modo],
+      direita: placarSessao(sessao), ferramentas: controlesDeTexto(),
+    })}
     <article class="pagina questao ${respondida ? "respondida" : ""}" data-qid="${q.id}">
       ${progressoFila(sessao)}
       ${cabecalhoQuestao(q)}
@@ -93,6 +97,8 @@ function telaFim(sessao) {
 export async function mostrar(raiz, { nome, consulta, sinal }) {
   const modo = nome === "erros" ? MODOS.erros : MODOS.aleatorias;
   const sessao = novaSessao(modo, filtrosDaConsulta(consulta), await listarTentativas());
+  const escrita = new EscritaDaTela(raiz);
+  prepararLeitura(raiz, sinal);
   const cronometro = new Cronometro((ms) => {
     if (sessao.atual && sessao.atual.escolhida === null) sessao.atual.tempoMs += ms;
   });
@@ -100,15 +106,16 @@ export async function mostrar(raiz, { nome, consulta, sinal }) {
 
   function exibir() {
     montar(raiz, sessao.atual ? telaQuestao(sessao) : telaFim(sessao));
+    if (sessao.atual) escrita.mostrarQuestao(sessao.atual.questao, sessao.atual.ordem, TITULOS[sessao.modo]);
   }
 
-  function avancar() {
-    fecharRascunho();
+  async function avancar() {
     const questao = proximaQuestao(sessao);
+    if (!questao) await escrita.fecharFolha();
     sessao.atual = questao ? { questao, ordem: ordemEmbaralhada(), escolhida: null, tempoMs: 0 } : null;
     if (questao) sessao.vistas.add(questao.id);
     exibir();
-    window.scrollTo(0, 0);
+    rolarQuestaoParaTopo(raiz);
   }
 
   async function responder(original) {
@@ -128,7 +135,7 @@ export async function mostrar(raiz, { nome, consulta, sinal }) {
   aoAgir(raiz, sinal, {
     escolher: (botao) => responder(Number(botao.dataset.original)),
     proxima: () => avancar(),
-    rascunho: () => sessao.atual && sessao.rascunhos.abrir(sessao.atual.questao.id),
+    rascunho: () => escrita.abrirFolha(),
   });
   avancar();
 }

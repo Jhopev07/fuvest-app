@@ -10,13 +10,15 @@ import {
 } from "../db.js";
 import { contarVezesVista } from "../estatisticas.js";
 import { Cronometro } from "../cronometro.js";
-import { CadernoDeRascunhos, fecharRascunho } from "../rascunho.js";
+import { prepararLeitura, rolarQuestaoParaTopo } from "../leitura.js";
+import { EscritaDaTela } from "../rascunho.js";
 import { rotaPara, substituirPor } from "../navegacao.js";
 import { html, montar, icone } from "../render.js";
 import { aoAgir, avisar, barraTopo, confirmar, criarElemento } from "../ui.js";
+import { controlesDeTexto } from "../zoom-texto.js";
 import {
-  alternarRevisar, corrigirSimulado, faixasPorArea, irParaQuestao, marcarResposta, novoSimulado,
-  resumoDoSimulado, ritmoMinPorQuestao, tempoRestanteMs,
+  alternarRevisar, corrigirSimulado, escritaGuardada, faixasPorArea, irParaQuestao, marcarResposta,
+  novoSimulado, resumoDoSimulado, ritmoMinPorQuestao, tempoRestanteMs,
 } from "../simulado-estado.js";
 import { botaoRascunho, cabecalhoQuestao, corpoQuestao, listaAlternativas } from "../vista-questao.js";
 import { formatarDecimal, formatarDuracao, formatarRelogio, plural } from "../util.js";
@@ -87,7 +89,10 @@ function telaProva(sim) {
   const numero = sim.atual + 1;
   const ultima = numero === sim.itens.length;
   return html`
-    ${barraTopo({ titulo: `Simulado ${numero}/${sim.itens.length}`, voltar: "#/", direita: relogio(sim) })}
+    ${barraTopo({
+      titulo: `Simulado ${numero}/${sim.itens.length}`, voltar: "#/",
+      direita: relogio(sim), ferramentas: controlesDeTexto(),
+    })}
     ${faixaTempo(sim)}
     <article class="pagina questao simulado" data-qid="${item.qid}" data-numero="${numero}">
       ${q ? html`
@@ -201,10 +206,15 @@ function atualizarAlternativas(raiz, escolhida) {
 
 function iniciarProva(raiz, { sinal, aoSair }, sim) {
   const salvador = criarSalvador(sim);
-  const rascunhos = new CadernoDeRascunhos(sim.rascunhos ?? {}, (porQuestao) => {
-    sim.rascunhos = porQuestao;
-    salvador.agendar();
+  const escrita = new EscritaDaTela(raiz, {
+    ...escritaGuardada(sim),
+    aoGuardar: (desenhos) => {
+      sim.escrita = desenhos;
+      delete sim.rascunhos; // formato antigo, já migrado para `escrita.sobre`
+      salvador.agendar();
+    },
   });
+  prepararLeitura(raiz, sinal);
   const cronometro = new Cronometro((ms) => {
     sim.tempoMs += ms;
     sim.itens[sim.atual].tempoMs += ms;
@@ -221,15 +231,17 @@ function iniciarProva(raiz, { sinal, aoSair }, sim) {
 
   function exibir() {
     montar(raiz, telaProva(sim));
+    const item = sim.itens[sim.atual];
+    const q = questaoPorId(item.qid);
+    if (q) escrita.mostrarQuestao(q, item.ordem, `Questão ${sim.atual + 1}`);
   }
 
   function navegar(indice) {
-    fecharRascunho();
     cronometro.registrarTrecho();
     irParaQuestao(sim, indice);
     salvador.agendar();
     exibir();
-    window.scrollTo(0, 0);
+    rolarQuestaoParaTopo(raiz);
   }
 
   function abrirFolha() {
@@ -308,7 +320,7 @@ function iniciarProva(raiz, { sinal, aoSair }, sim) {
     proxima: () => navegar(sim.atual + 1),
     grade: () => abrirFolha(),
     entregar: () => entregar(),
-    rascunho: () => rascunhos.abrir(sim.itens[sim.atual].qid),
+    rascunho: () => escrita.abrirFolha(),
   });
 
   aoSair(async () => {

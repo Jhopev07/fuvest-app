@@ -4,12 +4,12 @@ import { html, montar, icone } from "./render.js";
 
 const DURACAO_AVISO_MS = 3200;
 
-export function barraTopo({ titulo, voltar = "#/", direita = "" }) {
+export function barraTopo({ titulo, voltar = "#/", direita = "", ferramentas = "" }) {
   return html`
     <header class="barra-topo">
       <a class="botao-icone" href="${voltar}" data-voltar aria-label="Voltar">${icone("voltar")}</a>
       <h1 class="barra-titulo" tabindex="-1">${titulo}</h1>
-      <div class="barra-direita">${direita}</div>
+      <div class="barra-direita">${direita}${ferramentas}</div>
     </header>`;
 }
 

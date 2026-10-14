@@ -7,6 +7,7 @@ const ROTA_INICIAL = "";
 
 const rotas = new Map();
 const aoTrocarDeTela = [];
+const antesDeNavegar = [];
 let raiz = null;
 let controleAtual = null;
 let saidasAtuais = [];
@@ -18,9 +19,18 @@ export function registrarTela(nome, tela) {
   rotas.set(nome, tela);
 }
 
-/** Funções chamadas antes de cada troca de tela (ex.: fechar o rascunho). */
+/** Funções chamadas antes de cada troca de tela, por qualquer motivo (ex.: link, "voltar"). */
 export function antesDeTrocarDeTela(funcao) {
   aoTrocarDeTela.push(funcao);
+}
+
+/** Funções assíncronas esperadas antes de o app navegar sozinho (ex.: fechar camadas abertas). */
+export function antesDeNavegarPeloApp(funcao) {
+  antesDeNavegar.push(funcao);
+}
+
+async function prepararNavegacao() {
+  for (const funcao of antesDeNavegar) await funcao();
 }
 
 export function rotaPara(nome, parametro = "", consulta = {}) {
@@ -28,19 +38,22 @@ export function rotaPara(nome, parametro = "", consulta = {}) {
   return `#/${nome}${parametro ? `/${encodeURIComponent(parametro)}` : ""}${busca ? `?${busca}` : ""}`;
 }
 
-export function irPara(hash) {
+export async function irPara(hash) {
+  await prepararNavegacao();
   if (location.hash === hash) renderizarRotaAtual();
   else location.hash = hash;
 }
 
 /** Troca a tela sem criar entrada no histórico (o "voltar" do Android pula a tela atual). */
-export function substituirPor(hash) {
+export async function substituirPor(hash) {
+  await prepararNavegacao();
   history.replaceState({ indice: indiceAtual }, "", hash);
   renderizarRotaAtual();
 }
 
 /** Volta uma tela se a anterior for do app; senão, vai para `destino`. */
-export function voltar(destino = "#/") {
+export async function voltar(destino = "#/") {
+  await prepararNavegacao();
   if (indiceAtual > 0) history.back();
   else substituirPor(destino);
 }
@@ -126,16 +139,19 @@ function mostrarErro(conteiner, erro) {
   conteiner.replaceChildren(caixa);
 }
 
-function interceptarVoltar(evento) {
-  const link = evento.target.closest("[data-voltar]");
+/** Links internos passam por `prepararNavegacao` (ex.: fechar a folha antes de sair). */
+function interceptarLinks(evento) {
+  if (evento.defaultPrevented) return;
+  const link = evento.target.closest('a[href^="#"]');
   if (!link) return;
   evento.preventDefault();
-  voltar(link.getAttribute("href"));
+  if (link.hasAttribute("data-voltar")) voltar(link.getAttribute("href"));
+  else irPara(link.getAttribute("href"));
 }
 
 export function iniciarRoteador(elementoRaiz) {
   raiz = elementoRaiz;
   window.addEventListener("hashchange", renderizarRotaAtual);
-  document.addEventListener("click", interceptarVoltar);
+  document.addEventListener("click", interceptarLinks);
   return renderizarRotaAtual();
 }

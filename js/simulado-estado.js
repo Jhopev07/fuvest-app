@@ -15,7 +15,18 @@ export function novoSimulado({ questoes, avisos }) {
     atual: 0,
     tempoMs: 0,
     avisos,
-    rascunhos: {},
+    escrita: { folhas: {}, sobre: {} },
+  };
+}
+
+/**
+ * Desenhos guardados do simulado. Simulados salvos antes da folha de escrita
+ * guardavam só a escrita sobre a questão, em `rascunhos`.
+ */
+export function escritaGuardada(sim) {
+  return {
+    folhas: sim.escrita?.folhas ?? {},
+    sobre: sim.escrita?.sobre ?? sim.rascunhos ?? {},
   };
 }
 

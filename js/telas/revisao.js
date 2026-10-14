@@ -3,17 +3,22 @@
 
 import { questaoPorId } from "../banco.js";
 import { obterSessao, obterTentativa } from "../db.js";
-import { CadernoDeRascunhos } from "../rascunho.js";
+import { prepararLeitura } from "../leitura.js";
+import { EscritaDaTela } from "../rascunho.js";
 import { rotaPara, substituirPor } from "../navegacao.js";
 import { html, montar, icone } from "../render.js";
 import { aoAgir, barraTopo } from "../ui.js";
+import { controlesDeTexto } from "../zoom-texto.js";
 import {
   blocoFeedback, botaoRascunho, cabecalhoQuestao, corpoQuestao, listaAlternativas,
 } from "../vista-questao.js";
 import { formatarDataHora } from "../util.js";
 
 const ORDEM_ORIGINAL = [0, 1, 2, 3, 4];
-const rascunhos = new CadernoDeRascunhos();
+// Desenhos da revisão ficam em memória enquanto o app está aberto (entre questões e idas e vindas).
+const desenhosDaRevisao = { folhas: {}, sobre: {} };
+// Ao passar para a questão seguinte do simulado com a folha aberta, ela reabre na nova tela.
+let reabrirFolha = false;
 
 function ordemValida(ordem) {
   return Array.isArray(ordem) && ordem.length === ORDEM_ORIGINAL.length ? ordem : ORDEM_ORIGINAL;
@@ -60,7 +65,7 @@ function tela(q, ctx) {
   const ordem = ordemValida(ctx.ordem);
   const titulo = ctx.numero ? `Questão ${ctx.numero}` : "Revisão";
   return html`
-    ${barraTopo({ titulo, voltar: ctx.voltar })}
+    ${barraTopo({ titulo, voltar: ctx.voltar, ferramentas: controlesDeTexto() })}
     <article class="pagina questao respondida" data-qid="${q.id}">
       ${ctx.quando ? html`<p class="progresso-fila">Respondida em ${formatarDataHora(ctx.quando)}</p>` : ""}
       ${cabecalhoQuestao(q, ctx.numero ?? null)}
@@ -83,11 +88,20 @@ export async function mostrar(raiz, { parametro, consulta, sinal }) {
     return;
   }
   montar(raiz, tela(q, ctx));
+  const escrita = new EscritaDaTela(raiz, {
+    ...desenhosDaRevisao,
+    aoGuardar: (desenhos) => Object.assign(desenhosDaRevisao, desenhos),
+  });
+  escrita.mostrarQuestao(q, ordemValida(ctx.ordem), ctx.numero ? `Questão ${ctx.numero}` : "Revisão");
+  prepararLeitura(raiz, sinal);
+  if (reabrirFolha) escrita.abrirFolha();
+  reabrirFolha = false;
   aoAgir(raiz, sinal, {
-    rascunho: () => rascunhos.abrir(q.id),
+    rascunho: () => escrita.abrirFolha(),
     ir: (botao) => {
       const n = Number(botao.dataset.n);
       const item = ctx.sessao.itens[n];
+      reabrirFolha = escrita.folhaAberta;
       substituirPor(rotaPara("revisao", item.qid, { sessao: ctx.sessao.id, n }));
     },
   });

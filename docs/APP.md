@@ -20,7 +20,11 @@ js/config.js              # constantes: distribuição do simulado, nomes das ma
 js/banco.js               # carrega data/questoes.json, embaralha alternativas, seleção de questões
 js/db.js                  # IndexedDB (sem biblioteca): tentativas, sessões, simulado em andamento
 js/telas/*.js             # uma tela por arquivo (inicio, questao, simulado, resultado, historico, ajustes)
-js/rascunho.js            # canvas de desenho com o dedo
+js/rascunho.js            # escrita à mão numa tela de questão (folha de escrita + escrita sobre a questão)
+js/rascunho/*.js          # folha de escrita: quadro (canvas), vista (zoom/pan), traços, caneta, camada sobre a questão
+js/zoom-texto.js          # tamanho do texto das questões (A−/A+ e pinça)
+js/visualizador.js        # tabela/figura em tela cheia com pinça, pan e duplo toque
+js/gestos.js, js/camadas.js  # gestos de 1 e 2 dedos; camadas que o "voltar" do Android fecha
 js/render.js              # helpers de renderização segura (escape HTML, **negrito**, parágrafos, tabela)
 icons/icon-192.png, icons/icon-512.png, icons/maskable-512.png
 data/questoes.json        # GERADO por tools/build.py — não editar à mão
@@ -99,13 +103,23 @@ Guarde sempre o índice ORIGINAL escolhido.
 - Tema: automático / claro / escuro.
 - Apagar todo o progresso (com confirmação dupla).
 
-### 7. Rascunho (essencial)
-Botão flutuante ✏️ visível na tela de questão (prática e simulado). Abre uma camada de desenho em tela cheia POR CIMA da questão:
-- fundo com dois modos: **transparente** (escreve por cima do enunciado) e **papel** (fundo opaco quadriculado claro);
-- ferramentas: caneta (2 espessuras), 3 cores, borracha (apaga traços inteiros tocados ou por área), desfazer, limpar, fechar;
-- botão **mover** que permite rolar a questão sem desenhar (ou: com a camada aberta, a questão abaixo não rola; um botão "rolar" alterna);
-- Pointer Events, `touch-action: none` no canvas, escala por `devicePixelRatio`, traços suavizados (curvas quadráticas entre pontos médios), redimensionamento sem perder o desenho (guardar traços como vetores e redesenhar);
-- o rascunho de cada questão fica guardado em memória enquanto o simulado/sessão estiver aberto (fechar e reabrir o rascunho da mesma questão mostra o desenho). No simulado, salvar também no IndexedDB junto do simulado em andamento.
+### 7. Folha de escrita (essencial)
+Botão flutuante ✏️ nas telas de questão (prática, revisar erros, revisão e simulado). Abre a **folha de escrita**: uma área limpa, separada da questão (escrever por cima do enunciado poluído não funciona bem).
+- **Modo dividido**: em cima a questão (rolável, com zoom de leitura), embaixo uma folha em branco com quadriculado bem leve. A barra entre as duas é a divisória: arrastá-la ajusta a proporção (padrão 40% questão / 60% folha; limites 15%–70%; a última proporção fica salva no aparelho).
+- Na prática dá para marcar a alternativa (e ver o feedback) sem sair do modo dividido; ao passar para a próxima questão a folha continua aberta, com a folha daquela questão.
+- **Tela cheia**: botão na barra da folha. A questão sai e fica uma faixa recolhível no topo ("Ver enunciado") com texto de apoio, tabela, enunciado e alternativas para consulta.
+- Na folha: **1 dedo (ou caneta) desenha**; **2 dedos fazem pan e a pinça dá zoom** (50% a 400%). Os traços são vetores na unidade da folha e são redesenhados na escala atual, então continuam nítidos. A folha é "infinita" para baixo (dá para rolar até 2 telas abaixo do último traço) e para a direita até o traço mais distante. Com uma caneta encostada, toques da palma são ignorados.
+- Ferramentas: caneta fina/grossa, 3 cores, borracha (apaga o traço tocado inteiro), desfazer, refazer, limpar (desfazer traz de volta), botão de zoom que mostra o zoom atual e volta a 100% ao toque, tela cheia, fechar.
+- **Escrever sobre a questão** (opção secundária, botão na barra da folha): a camada transparente antiga por cima do enunciado, com fundo transparente/papel, modo "rolar" e as mesmas ferramentas.
+- A folha e a escrita sobre a questão são **por questão**: em memória durante a sessão (com desfazer/refazer e zoom de cada questão); no simulado, salvas também no IndexedDB junto do simulado em andamento (`escrita: { folhas, sobre }`), voltando ao recarregar.
+- O "voltar" do Android fecha a folha (ou a camada aberta) em vez de sair da questão.
+- Pointer Events, `touch-action: none` no canvas, escala por `devicePixelRatio`, traços suavizados (curvas quadráticas entre pontos médios).
+
+### 8. Zoom de leitura
+- **A− / A+** na barra das telas de questão: tamanho do texto da questão de 14 a 28 px, em passos de 2 px (padrão 17). Vale para todas as telas de questão e fica salvo no aparelho.
+- **Pinça com 2 dedos** sobre a questão ajusta o mesmo tamanho (inclusive no modo dividido). O zoom é por `font-size` (variável CSS `--texto-questao`, com o texto da questão em `em`), nunca `transform`: o texto refaz as quebras e não surge rolagem horizontal. Um dedo continua rolando normalmente.
+- **Tabelas e figuras**: tocar abre um visualizador em tela cheia (começa com a tabela inteira visível), com pinça para ampliar, um dedo para mover e duplo toque para ampliar/voltar. O "voltar" do Android ou o X fecham.
+- O viewport não usa `user-scalable=no` nem `maximum-scale`: o zoom do navegador continua disponível para acessibilidade. As áreas com gestos próprios (folha, visualizador, pinça no texto) cancelam o gesto do navegador só enquanto há dois dedos sobre elas.
 
 ## Offline e PWA
 - `manifest.webmanifest`: name "Fuvest 1ª fase", short_name "Fuvest", start_url "./", scope "./", display "standalone", cores do tema, ícones 192/512 + maskable.
@@ -124,5 +138,8 @@ Respeitar `env(safe-area-inset-*)`. Nada de layout que role na horizontal (excet
 Antes de terminar: rodar `python3 tools/build.py`, servir com `python3 -m http.server` e testar num navegador headless
 (se houver Playwright/Chromium disponível) com viewport de celular (412×915): fluxo de prática, simulado completo (responder via script),
 resultado, rascunho (eventos de ponteiro), exportar/importar, e recarregar offline. Corrigir todos os erros de console.
+Folha de escrita e zoom: testar com multitoque real (CDP `Input.dispatchTouchEvent` com 2 pontos) — desenhar, pinça e pan na folha,
+desfazer/refazer, divisória, tela cheia, folha preservada por questão, simulado com folha + recarregar, A−/A+ e pinça no texto, visualizador.
+Scripts: `tools/testes/testar_app.py` (fluxos gerais) e `tools/testes/testar_folha_zoom.py` (folha e zoom).
 
 Playwright já está instalado: use `PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers python3 seu_teste.py` (Python, `from playwright.sync_api import sync_playwright`). Scripts de teste ficam em `tools/testes/`.

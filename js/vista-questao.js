@@ -109,7 +109,16 @@ export function blocoFeedback(q, ordem, escolhida, { respondida = true } = {}) {
     </section>`;
 }
 
+/** Alternativas só para leitura (faixa de consulta da folha em tela cheia). */
+export function alternativasParaConsulta(q, ordem) {
+  return html`<ol class="alternativas consulta" aria-label="Alternativas">${ordem.map((original, posicao) => html`
+    <li class="alt alt-neutra">
+      <span class="bolha" aria-hidden="true">${LETRAS[posicao]}</span>
+      <span class="alt-corpo"><span class="alt-texto">${textoInline(q.alternativas[original])}</span></span>
+    </li>`)}</ol>`;
+}
+
 export function botaoRascunho() {
-  return html`<button type="button" class="botao-rascunho" data-acao="rascunho" aria-label="Abrir rascunho">
+  return html`<button type="button" class="botao-rascunho" data-acao="rascunho" aria-label="Abrir folha de escrita">
     ${icone("lapis")}</button>`;
 }
