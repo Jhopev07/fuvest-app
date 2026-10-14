@@ -1,0 +1,252 @@
+[
+  {
+    "id": "FIS-A-001",
+    "materia": "fisica",
+    "tema": "Cinemática — MU e MUV (tempo de reação e frenagem)",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Um carro trafega a 72 km/h em uma rua reta quando o motorista percebe um caminhão parado 60 m à frente. Atento, esse motorista tem tempo de reação de 0,5 s; distraído com o celular, o tempo de reação passa a 1,5 s. Durante o tempo de reação, o carro mantém a velocidade; em seguida, freia com desaceleração constante de 5,0 m/s². Com o motorista distraído, a velocidade com que o carro atinge o caminhão é",
+    "alternativas": [
+      "zero (o carro para antes)",
+      "10 km/h",
+      "18 km/h",
+      "36 km/h",
+      "72 km/h"
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que o movimento tem duas fases: durante o tempo de reação o carro segue em movimento uniforme, e só depois começa a frear. Além disso, na frenagem a velocidade **não** cai proporcionalmente à distância — quem manda é a equação de Torricelli.\n\n**1) Converter a velocidade:** 72 km/h ÷ 3,6 = 20 m/s.\n\n**2) Distância de reação (distraído):** d = 20 · 1,5 = 30 m. Sobram 60 − 30 = 30 m até o caminhão.\n\n**3) Dá para parar?** A frenagem completa exigiria d = v²/(2a) = 400/10 = 40 m. Como só restam 30 m, há colisão.\n\n**4) Velocidade no impacto (Torricelli):** v² = 20² − 2 · 5 · 30 = 400 − 300 = 100 → v = 10 m/s = 36 km/h.\n\nRepare no contraste: atento (0,5 s), o carro percorreria 10 m + 40 m = 50 m e pararia 10 m antes do caminhão. Um segundo a mais de distração transforma uma parada segura em uma batida a 36 km/h. Note também que o carro usou 3/4 da distância de frenagem e ainda tinha metade da velocidade: como v² varia linearmente com a distância, é a energia cinética, e não a velocidade, que cai na proporção da distância.\n\n**Para lembrar:** em uma frenagem com desaceleração constante, v² diminui linearmente com a distância, por isso a velocidade cai devagar no início e depressa no fim.",
+    "erradas": [
+      "Conclusão de quem usa o tempo de reação do motorista atento (10 m + 40 m = 50 m < 60 m) ou esquece a distância de reação (só 40 m de frenagem). A pergunta é sobre o motorista distraído.",
+      "É o valor correto em m/s (10 m/s) apresentado como km/h: faltou multiplicar por 3,6 para voltar à unidade pedida.",
+      "Supõe que a velocidade cai linearmente com a distância: percorridos 30 m dos 40 m de frenagem, restaria 1/4 de 72 km/h. Errado: é v², e não v, que varia linearmente com a distância.",
+      "",
+      "Erro de unidade: multiplicar 72 (em km/h) por 1,5 s dá 108 de distância de reação, maior que 60 m, sugerindo que o carro bate sem nem começar a frear."
+    ]
+  },
+  {
+    "id": "FIS-A-002",
+    "materia": "fisica",
+    "tema": "Dinâmica — atrito e polias",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Um bloco A, de 6,0 kg, está sobre uma mesa horizontal e ligado, por um fio ideal que passa por uma polia ideal fixa na borda da mesa, a um bloco B, de 4,0 kg, que pende verticalmente. Entre A e a mesa, os coeficientes de atrito estático e cinético valem 0,55 e 0,50, respectivamente. O sistema é liberado a partir do repouso. Adote g = 10 m/s². A intensidade da tração no fio, logo após a liberação, é",
+    "alternativas": [
+      "24 N",
+      "30 N",
+      "36 N",
+      "37,2 N",
+      "40 N"
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é, antes de tudo, verificar se o sistema entra em movimento — e só então escolher qual coeficiente de atrito usar.\n\n**1) Teste do repouso:** a força que tende a mover o sistema é o peso de B, P_B = 4,0 · 10 = 40 N. O atrito estático máximo sobre A vale μe · N = 0,55 · 60 = 33 N. Como 40 N > 33 N, o sistema **se move**, e a partir daí o atrito é cinético: f_c = 0,50 · 60 = 30 N.\n\n**2) Aceleração (sistema como um todo):** a resultante no conjunto é P_B − f_c = 40 − 30 = 10 N, e a massa total é 10 kg. Logo, a = 1,0 m/s².\n\n**3) Tração (isolando B):** P_B − T = m_B · a → 40 − T = 4,0 · 1,0 → T = 36 N.\n\nConferindo por A: T − f_c = m_A · a → 36 − 30 = 6,0 · 1,0. Bate.\n\n**Macete:** a tração precisa ficar entre 30 N e 40 N — maior que o atrito (porque A acelera) e menor que o peso de B (porque B desce acelerado). Só esse intervalo já elimina três distratores sem conta (24 N, 30 N e 40 N).\n\n**Para lembrar:** o atrito estático decide **se** o corpo se move; uma vez em movimento, quem atua é o atrito cinético.",
+    "erradas": [
+      "Resultado de ignorar o atrito: a = 40/10 = 4,0 m/s² e T = m_A · a = 24 N.",
+      "Igualar a tração ao atrito cinético, como se A andasse com velocidade constante. Mas A acelera, então T precisa superar f_c.",
+      "",
+      "Usar o coeficiente estático também durante o movimento: f = 33 N, a = 0,7 m/s² e T = 40 − 4,0 · 0,7 = 37,2 N. Com o bloco deslizando, vale μc.",
+      "Supor B em equilíbrio (T = P_B). Se B desce acelerado, seu peso tem de ser maior que a tração."
+    ]
+  },
+  {
+    "id": "FIS-A-003",
+    "materia": "fisica",
+    "tema": "Dinâmica — plano inclinado com atrito",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "enunciado": "Um bloco é lançado para cima, ao longo de uma rampa reta inclinada de um ângulo θ com a horizontal (sen θ = 0,60 e cos θ = 0,80), com velocidade inicial de 12 m/s. Entre o bloco e a rampa, os coeficientes de atrito estático e cinético valem 0,60 e 0,45, respectivamente. Adote g = 10 m/s². Sobre o que acontece depois que o bloco atinge o ponto mais alto, é correto afirmar que ele",
+    "alternativas": [
+      "não volta: fica parado no topo",
+      "volta ao ponto de lançamento com 3,0 m/s",
+      "volta ao ponto de lançamento com 4,0 m/s",
+      "volta ao ponto de lançamento com 6,0 m/s",
+      "volta ao ponto de lançamento com 12 m/s"
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que subida e descida têm acelerações diferentes, porque o atrito sempre se opõe ao movimento: na subida ele se soma à componente do peso ao longo da rampa; na descida, se subtrai. E, antes de calcular a descida, é preciso checar se o bloco realmente volta.\n\n**1) Subida:** a_s = g(sen θ + μc cos θ) = 10(0,60 + 0,45 · 0,80) = 9,6 m/s² (desaceleração). Distância até parar: d = v₀²/(2a_s) = 144/19,2 = 7,5 m.\n\n**2) O bloco volta?** Parado no topo, ele permanece em repouso se mg sen θ ≤ μe · mg cos θ, ou seja, se tg θ ≤ μe. Aqui, tg θ = 0,60/0,80 = 0,75 > 0,60. Logo, ele escorrega de volta.\n\n**3) Descida:** a_d = g(sen θ − μc cos θ) = 10(0,60 − 0,36) = 2,4 m/s². Então v² = 2 · 2,4 · 7,5 = 36 → v = 6,0 m/s.\n\n**Atalho:** como a distância d é a mesma na ida e na volta, v₀² = 2a_s · d e v² = 2a_d · d; logo, v/v₀ = √(a_d/a_s) = √(2,4/9,6) = √(1/4) = 1/2. Resposta: 12/2 = 6,0 m/s, sem precisar calcular d.\n\n**Checagem por caso limite:** se μc → 0, a_d = a_s e v = v₀ (sem atrito, nada se perde). O resultado se comporta como deveria.\n\n**Para lembrar:** em um plano inclinado, o bloco só desce sozinho se tg θ > μe, e a razão entre as velocidades de volta e de ida é a raiz da razão entre as acelerações de descida e de subida.",
+    "erradas": [
+      "Erro na condição de repouso: comparar μe · mg = 0,60 mg com mg sen θ = 0,60 mg (esquecendo que a normal vale mg cos θ) cria um falso empate e a ideia de que o bloco fica parado. O critério correto é tg θ = 0,75 > μe = 0,60.",
+      "Usar a razão entre as acelerações sem a raiz: v/v₀ = 2,4/9,6 = 1/4, dando 3,0 m/s. Como v² é proporcional a a · d, a razão de velocidades é a raiz da razão de acelerações.",
+      "Usar μe = 0,60 também com o bloco deslizando: a_s = 10,8 m/s² e a_d = 1,2 m/s², donde v/v₀ = √(1,2/10,8) = 1/3 e v = 4,0 m/s. Durante o deslizamento, vale μc.",
+      "",
+      "Desprezar o atrito ou supor que a energia perdida na subida é devolvida na descida. Com atrito, há dissipação nas duas etapas, e o bloco volta mais lento."
+    ]
+  },
+  {
+    "id": "FIS-A-004",
+    "materia": "fisica",
+    "tema": "Dinâmica — movimento circular e atrito",
+    "nivel": "acima",
+    "origem": "Estilo ITA/IME (fácil)",
+    "inter": [],
+    "enunciado": "Em um brinquedo de parque conhecido como rotor, as pessoas ficam de pé, encostadas na parede interna de um cilindro vertical de raio R que gira em torno do próprio eixo. Quando a rotação atinge certo valor, o piso é rebaixado e as pessoas permanecem “grudadas” na parede, sem escorregar. Sendo μ o coeficiente de atrito estático entre a roupa e a parede, g a aceleração da gravidade, e tratando cada pessoa como partícula, a menor velocidade angular ω do cilindro para que ninguém escorregue é",
+    "alternativas": [
+      "√(g/(μR))",
+      "√(μg/R)",
+      "√(gR/μ)",
+      "√(μR/g)",
+      "g/(μR)"
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é identificar o papel de cada força: a **normal** da parede aponta para o eixo e é a resultante centrípeta; o **atrito estático**, vertical, é quem equilibra o peso.\n\n**1) Direção horizontal (centrípeta):** N = m ω² R.\n\n**2) Direção vertical (equilíbrio):** f_at = mg. Para não escorregar, f_at ≤ μN, ou seja, mg ≤ μ m ω² R.\n\n**3) Isolando ω:** ω² ≥ g/(μR) → ω_mín = √(g/(μR)). A massa se cancela: adultos e crianças ficam presos com a mesma rotação.\n\n**Atalho de prova, sem conta:**\n\nAnálise dimensional — ω tem unidade s⁻¹. Já √(gR/μ) tem unidade m/s (é uma velocidade linear), g/(μR) tem unidade s⁻² (falta a raiz) e √(μR/g) tem unidade s. Sobram duas candidatas.\n\nCaso limite — se μ → 0 (parede ensaboada), nenhuma rotação seria capaz de segurar a pessoa, logo ω_mín → ∞. Isso só acontece com μ no denominador, o que elimina √(μg/R).\n\nExemplo numérico: R = 4,0 m, μ = 0,40 e g = 10 m/s² dão ω = √(10/1,6) = 2,5 rad/s, isto é, v = ωR = 10 m/s.\n\n**Para lembrar:** no rotor, a normal é a força centrípeta e o atrito sustenta o peso; diante de alternativas literais, teste unidades e casos limites antes de fazer contas.",
+    "erradas": [
+      "",
+      "Dimensionalmente correta (s⁻¹), mas falha no caso limite: com μ → 0 daria ω → 0, como se uma parede sem atrito segurasse a pessoa. Surge de escrever o atrito como μ · mg (confundindo a normal com o peso) e igualá-lo a mω²R.",
+      "Tem unidade de velocidade linear (m/s), não de velocidade angular: é a velocidade mínima v = √(gR/μ), obtida com N = mv²/R. Faltou dividir por R (ω = v/R).",
+      "Tem unidade de tempo (s): é o inverso da resposta correta, fruto de inverter a fração ao isolar ω².",
+      "Tem unidade s⁻²: é ω², e não ω. Faltou extrair a raiz quadrada no último passo."
+    ]
+  },
+  {
+    "id": "FIS-A-005",
+    "materia": "fisica",
+    "tema": "Trabalho e energia — trabalho do atrito",
+    "nivel": "acima",
+    "origem": "Estilo livro (Tópicos de Física)",
+    "inter": [],
+    "enunciado": "Uma pequena caixa é abandonada, a partir do repouso, no alto de uma rampa lisa, a 0,90 m de altura em relação a um trecho horizontal PQ de 2,0 m de comprimento. No trecho PQ, o coeficiente de atrito cinético entre a caixa e o piso vale 0,20. Após Q há outra rampa lisa, que sobe e é alta o bastante para que a caixa nunca a ultrapasse. As rampas se ligam suavemente ao trecho horizontal, sem perdas nas junções. A caixa desce a primeira rampa, entra no trecho horizontal por P e passa a ir e vir. Adote g = 10 m/s² e trate a caixa como partícula. A caixa para definitivamente",
+    "alternativas": [
+      "a 0,25 m de P",
+      "a 0,50 m de P",
+      "a 1,0 m de P",
+      "a 1,5 m de P",
+      "a 1,75 m de P"
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que o trabalho do atrito depende do **caminho percorrido**, e não do deslocamento. A caixa vai e volta sobre PQ, e cada metro percorrido, em qualquer sentido, custa a mesma energia.\n\n**Por que isso funciona (a teoria):** o teorema da energia cinética diz que o trabalho total de todas as forças é igual à variação da energia cinética. O peso é uma força conservativa: seu trabalho só depende das alturas inicial e final, por isso pode ser substituído pela variação de energia potencial. O atrito cinético é dissipativo: no trecho horizontal ele tem módulo constante, μc · mg, e sempre aponta contra a velocidade. Assim, a cada metro percorrido ele retira μc · mg · (1 m) de energia mecânica, sem nenhuma devolução quando a caixa inverte o sentido. Daí o balanço: energia mecânica dissipada = μc · m · g · s, em que s é a **distância total** percorrida sobre PQ. As rampas lisas não dissipam nada: nelas a caixa apenas troca energia cinética por potencial e vice-versa.\n\n**1) Distância total no trecho áspero:** a caixa parte do repouso e termina em repouso no nível de PQ, então toda a energia potencial inicial é dissipada: m g h = μc m g s → s = h/μc = 0,90/0,20 = 4,5 m. Repare que m e g se cancelam.\n\n**2) Contando as travessias:** cada travessia completa tem 2,0 m. Então 4,5 m = 2,0 m (P → Q) + 2,0 m (Q → P) + 0,5 m. Depois da segunda travessia, a caixa sobe a primeira rampa, desce, entra de novo por P em direção a Q e para 0,50 m depois de P.\n\n**3) Conferindo pelo caminho:** cada travessia consome energia equivalente a μc · L = 0,20 · 2,0 = 0,40 m de altura. Ao chegar a Q, restam 0,90 − 0,40 = 0,50 m de altura equivalente: a caixa sobe 0,50 m na rampa da direita. Ao voltar a P, restam 0,50 − 0,40 = 0,10 m: sobe 0,10 m na rampa da esquerda. Na terceira entrada, 0,10 m de altura equivale a 0,10/0,20 = 0,50 m de trecho áspero. Bate.\n\n**Detalhe que derruba muita gente:** a pergunta é onde a caixa para, e não quanto ela andou. Depois de calcular s, é preciso acompanhar o sentido do movimento: um número par de travessias completas devolve a caixa ao lado de P; um número ímpar, ao lado de Q.\n\n**Para lembrar:** o trabalho de uma força dissipativa de módulo constante é o produto da força pela distância total percorrida, qualquer que seja o vaivém.",
+    "erradas": [
+      "Combina dois erros: calcular a velocidade em P com v² = gh (esquecendo o fator ½ da energia cinética) e depois aplicar Torricelli no trecho áspero, v² = 2μc g s, obtendo s = h/(2μc) = 2,25 m; e medir o resto de 0,25 m a partir de P sem acompanhar o sentido do movimento.",
+      "",
+      "Resultado de esquecer g só no termo do atrito (m g h = μc m s), obtendo s = 45 m: 22 travessias completas e mais 1,0 m. Uma checagem dimensional teria evitado o erro.",
+      "Calcula s = 4,5 m corretamente, mas erra o sentido: supõe que, após duas travessias, a caixa está em Q e mede os 0,50 m a partir de lá. Duas travessias (ida e volta) a levam de volta a P.",
+      "Calcula a velocidade em P com v² = gh (esquecendo o fator ½ da energia cinética) e depois aplica Torricelli no trecho áspero, v² = 2μc g s: obtém s = 2,25 m, ou seja, uma travessia completa e mais 0,25 m voltando a partir de Q."
+    ]
+  },
+  {
+    "id": "FIS-A-006",
+    "materia": "fisica",
+    "tema": "Trabalho e energia — rendimento e energia metabólica",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": ["biologia"],
+    "enunciado": "Uma pessoa de 70 kg sobe uma trilha de montanha, vencendo um desnível de 300 m. Admita que: os músculos convertem em trabalho mecânico apenas 25% da energia liberada na oxidação dos nutrientes; todo esse trabalho é usado para aumentar a energia potencial gravitacional da pessoa; e a energia vem exclusivamente da oxidação de carboidratos, que fornece 4 kcal por grama. Dados: g = 10 m/s²; 1 kcal = 4,2 kJ. Nessas condições, a massa de carboidrato oxidada durante a subida é",
+    "alternativas": [
+      "12,5 g",
+      "37,5 g",
+      "50 g",
+      "200 g",
+      "210 g"
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é lembrar que o corpo humano é uma máquina de baixo rendimento: para entregar um trabalho útil W, precisa consumir uma energia química bem maior, igual a W dividido pelo rendimento.\n\n**1) Trabalho útil (ganho de energia potencial):** W = m g h = 70 · 10 · 300 = 210 000 J = 210 kJ.\n\n**2) Energia química consumida:** com rendimento de 25%, E = W/0,25 = 840 kJ.\n\n**3) Em kcal:** 840/4,2 = 200 kcal.\n\n**4) Em gramas de carboidrato:** 200/4 = 50 g.\n\n**Atalho:** como 210 = 50 × 4,2, o trabalho útil vale exatamente 50 kcal. Com 25% de rendimento, o consumo é 4 × 50 = 200 kcal, isto é, 50 g.\n\n**A ponte com a Biologia:** a energia vem da respiração celular (C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O), que armazena parte da energia liberada em ATP; a contração muscular consome esse ATP. As perdas acumuladas nessas etapas explicam o rendimento baixo. Os 75% restantes (630 kJ, ou 150 kcal) viram calor: por isso a temperatura corporal tende a subir durante o esforço, e o organismo responde com vasodilatação periférica e sudorese — a evaporação do suor retira calor da pele.\n\n**Para lembrar:** energia consumida = trabalho útil ÷ rendimento; o que não vira trabalho vira calor.",
+    "erradas": [
+      "Esquecer o rendimento: supõe que basta fornecer os 210 kJ (50 kcal) do trabalho útil, obtendo 50/4 = 12,5 g.",
+      "Contar apenas a parte dissipada como calor (75% de 200 kcal = 150 kcal → 37,5 g). Essa energia também sai do carboidrato, mas não é o consumo total.",
+      "",
+      "Parar no valor em kcal (200 kcal) e tomá-lo como massa: faltou dividir por 4 kcal/g.",
+      "Esquecer a conversão de kJ para kcal: dividir 840 kJ diretamente por 4, como se fossem kcal, dá 210 g."
+    ]
+  },
+  {
+    "id": "FIS-A-007",
+    "materia": "fisica",
+    "tema": "Impulso e colisões — colisão inelástica seguida de atrito",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Para medir a velocidade de um projétil, um técnico dispara horizontalmente uma bala de 20 g contra um bloco de madeira de 1,98 kg, em repouso sobre um piso horizontal. A bala fica alojada no bloco, e o conjunto desliza 0,50 m até parar. O coeficiente de atrito cinético entre o bloco e o piso é 0,40, e o impacto é tão rápido que o efeito do atrito durante a colisão pode ser desprezado. Adote g = 10 m/s². A velocidade da bala imediatamente antes do impacto era",
+    "alternativas": [
+      "2,0 m/s",
+      "20 m/s",
+      "100√2 m/s",
+      "198 m/s",
+      "200 m/s"
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é dividir o problema em duas etapas, cada uma regida por uma lei diferente — e não misturar as duas.\n\n**Etapa 2 (resolvida primeiro, de trás para a frente): o deslizamento.** Depois do impacto, o conjunto de 2,0 kg perde toda a energia cinética pelo trabalho do atrito: ½ (m + M) V² = μ (m + M) g d → V² = 2 μ g d = 2 · 0,40 · 10 · 0,50 = 4 → V = 2,0 m/s.\n\n**Etapa 1: a colisão.** Ela é perfeitamente inelástica (a bala fica no bloco), então a energia cinética **não** se conserva. Mas a quantidade de movimento se conserva, porque o impacto é muito rápido e o impulso do atrito nesse intervalo é desprezível: m v = (m + M) V → 0,020 · v = 2,0 · 2,0 → v = 200 m/s.\n\n**Quanta energia some na colisão?** Antes: ½ · 0,020 · 200² = 400 J. Logo depois: ½ · 2,0 · 2,0² = 4 J. Ou seja, 99% da energia cinética vira calor, deformação e som no impacto; a fração que sobra é m/(m + M) = 1/100. Por isso é um erro grave aplicar conservação de energia à colisão.\n\n**Para lembrar:** em colisão inelástica conserva-se a quantidade de movimento, não a energia cinética; a energia só pode ser usada nas etapas sem choque.",
+    "erradas": [
+      "É a velocidade do conjunto bala + bloco logo após o impacto: uma etapa intermediária, não a velocidade da bala.",
+      "Aplicar conservação de energia desde a bala até a parada: ½ m v² = μ (m + M) g d dá v = 20 m/s. Ignora que 99% da energia se perde na colisão inelástica.",
+      "Torricelli sem o fator 2: V² = μ g d = 2 → V = √2 m/s, e então v = 100 · √2 m/s.",
+      "Conservação do momento com a massa errada: 0,020 · v = 1,98 · 2,0, usando só a massa do bloco e esquecendo que a bala também passa a se mover com V.",
+      ""
+    ]
+  },
+  {
+    "id": "FIS-A-008",
+    "materia": "fisica",
+    "tema": "Impulso e colisões — teorema do impulso",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["edfisica"],
+    "enunciado": "Treinadores de vôlei e de ginástica ensinam a aterrissar flexionando os joelhos. Considere uma atleta de 60 kg que salta de uma plataforma e cai em pé, com seu centro de massa descendo 1,25 m em queda livre até o contato com o solo. Aterrissando com os joelhos flexionados, ela é freada até o repouso em 0,25 s; com as pernas rígidas, em 0,025 s. Admita constante a força do solo durante a frenagem e adote g = 10 m/s². A razão entre a força média exercida pelo solo na aterrissagem com as pernas rígidas e na aterrissagem com os joelhos flexionados é",
+    "alternativas": [
+      "3",
+      "7",
+      "10",
+      "19",
+      "21"
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é aplicar o teorema do impulso com a força **resultante**, que inclui o peso. Durante a frenagem atuam a força do solo N (para cima) e o peso P (para baixo).\n\n**1) Velocidade no contato:** v = √(2gh) = √(2 · 10 · 1,25) = 5,0 m/s. A quantidade de movimento a ser anulada é Q = 60 · 5,0 = 300 kg·m/s.\n\n**2) Impulso da resultante:** (N − P) · Δt = Q → N = Q/Δt + P, com P = 600 N.\n\nCom os joelhos flexionados: N₁ = 300/0,25 + 600 = 1 200 + 600 = 1 800 N (3 vezes o peso).\n\nCom as pernas rígidas: N₂ = 300/0,025 + 600 = 12 000 + 600 = 12 600 N (21 vezes o peso).\n\n**3) Razão:** N₂/N₁ = 12 600/1 800 = 7.\n\nRepare na armadilha: o tempo ficou 10 vezes menor, mas a força do solo não ficou 10 vezes maior, porque uma parcela fixa, o peso de 600 N, entra nas duas situações. Só a parcela que freia a atleta (Q/Δt) é inversamente proporcional ao tempo.\n\n**A ponte com a Educação Física:** flexionar joelhos e quadril aumenta o tempo (e a distância) de frenagem, e os músculos das pernas, contraindo-se enquanto se alongam, absorvem a energia do impacto. Uma força de 21 vezes o peso concentrada nas articulações ajuda a entender por que a técnica de aterrissagem é ensinada desde a iniciação esportiva como prevenção de lesões. É o mesmo princípio dos colchões de ginástica e dos airbags: mesmo impulso, tempo maior, força menor.\n\n**Para lembrar:** no teorema do impulso, use a força resultante: N = Q/Δt + P; o peso não muda com o tempo de frenagem.",
+    "erradas": [
+      "É a razão entre a força do solo na aterrissagem flexionada e o peso da atleta (1 800/600). Responde a outra pergunta.",
+      "",
+      "Desprezar o peso: com N = Q/Δt, um tempo 10 vezes menor daria força 10 vezes maior. Mas o peso também atua durante a frenagem.",
+      "Erro de sinal: escrever N = Q/Δt − P (11 400/600 = 19), como se o peso ajudasse a frear. Na verdade, o solo precisa equilibrar o peso e ainda frear a atleta.",
+      "É a razão entre a força do solo na aterrissagem rígida e o peso da atleta (12 600/600), e não entre as duas forças do solo."
+    ]
+  },
+  {
+    "id": "FIS-A-009",
+    "materia": "fisica",
+    "tema": "Gravitação — leis de Kepler",
+    "nivel": "acima",
+    "origem": "Estilo ITA/IME (fácil)",
+    "inter": [],
+    "enunciado": "Um cometa de massa estimada em 10¹⁴ kg descreve uma órbita elíptica em torno do Sol. Sua menor distância ao Sol (periélio) é 2 UA e a maior (afélio) é 16 UA, em que 1 UA é o raio médio da órbita da Terra, cujo período é 1 ano. Desprezando a influência dos planetas, o período orbital do cometa e a razão v_p/v_a entre suas velocidades no periélio e no afélio são, respectivamente,",
+    "alternativas": [
+      "27 anos e 8",
+      "27 anos e 2√2",
+      "27 anos e 1/8",
+      "64 anos e 8",
+      "81 anos e 8"
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é usar duas leis de Kepler diferentes, uma para cada pergunta.\n\n**1) Período — 3ª lei (T² proporcional a a³):** o que entra é o **semieixo maior** a. Como o Sol está em um dos focos, o eixo maior da elipse é a soma das distâncias no periélio e no afélio; logo, a = (2 + 16)/2 = 9 UA. Comparando com a Terra (a = 1 UA, T = 1 ano): T² = 9³ = 729 → T = 27 anos. Atalho: T = √(9³) = (√9)³ = 3³ = 27.\n\n**2) Razão de velocidades — 2ª lei (áreas iguais em tempos iguais):** no periélio e no afélio, a velocidade é perpendicular à reta que liga o cometa ao Sol. Em um intervalo curto Δt, a área varrida é um triângulo fino de área ½ · r · v · Δt. Igualando as áreas: r_p · v_p = r_a · v_a → v_p/v_a = r_a/r_p = 16/2 = 8. Essa é a conservação do momento angular.\n\nA massa do cometa é um dado irrelevante: nem o período nem a razão de velocidades dependem dela, já que ela é desprezível diante da massa do Sol.\n\n**Para lembrar:** na 3ª lei de Kepler entra o semieixo maior (média entre periélio e afélio); nos extremos da órbita, o produto v · r é constante.",
+    "erradas": [
+      "",
+      "Razão obtida com a fórmula de órbita circular, v = √(GM/r), que daria v inversamente proporcional a √r e razão √8 = 2√2. Nos extremos de uma órbita elíptica, vale v · r = constante (2ª lei).",
+      "Inverte a 2ª lei: o cometa é mais rápido no periélio, perto do Sol, e não no afélio. A razão v_p/v_a é maior que 1.",
+      "Usa a distância do afélio (16 UA) como semieixo maior: T = √(16³) = 64 anos. O eixo maior é a soma periélio + afélio; o semieixo é a metade dessa soma.",
+      "Usa T proporcional a a² em vez de T² proporcional a a³: com a = 9 UA, obtém 81 anos."
+    ]
+  },
+  {
+    "id": "FIS-A-010",
+    "materia": "fisica",
+    "tema": "Hidrostática — teorema de Stevin",
+    "nivel": "fuvest",
+    "origem": "Estilo livro (Tópicos de Física)",
+    "inter": ["biologia"],
+    "enunciado": "A pressão arterial costuma ser medida no braço, na altura do coração. Considere uma pessoa em pé cuja pressão sistólica, na altura do coração, é de 120 mmHg (acima da atmosférica). Trate o sangue como um fluido em repouso de densidade 1,0 × 10³ kg/m³ e despreze efeitos de viscosidade. Dados: g = 10 m/s²; densidade do mercúrio = 13,6 × 10³ kg/m³. Nessas condições, a pressão sistólica nas artérias do tornozelo, 1,36 m abaixo do coração, é",
+    "alternativas": [
+      "20 mmHg",
+      "100 mmHg",
+      "120 mmHg",
+      "130 mmHg",
+      "220 mmHg"
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é aplicar o teorema de Stevin ao sangue: em um fluido em repouso, a pressão aumenta com a profundidade.\n\n**Por que isso funciona (a teoria):** imagine, dentro do fluido, um cilindro vertical imaginário de altura h e base de área A. Ele está em equilíbrio sob três forças verticais: a força de pressão na base de cima (p₁ · A, para baixo), a força de pressão na base de baixo (p₂ · A, para cima) e o peso do fluido contido nele (ρ · A · h · g). Do equilíbrio, p₂ · A = p₁ · A + ρ · A · h · g, ou seja, p₂ − p₁ = ρ g h. A área se cancela: a diferença de pressão só depende da densidade do fluido e do desnível, e não da forma do recipiente — nem do formato das artérias. É o mesmo raciocínio do barômetro de Torricelli, que dá sentido à unidade mmHg: 1 mmHg é a pressão exercida por uma coluna de 1 mm de mercúrio.\n\n**1) Diferença de pressão em pascals:** Δp = ρ_sangue · g · h = 1,0 × 10³ · 10 · 1,36 = 13 600 Pa.\n\n**2) Conversão para mmHg:** 1 mmHg = 13,6 × 10³ · 10 · 10⁻³ = 136 Pa. Logo, Δp = 13 600/136 = 100 mmHg.\n\n**Atalho:** colunas de líquidos diferentes que exercem a mesma pressão têm alturas inversamente proporcionais às densidades. Então h_Hg = 1,36 m · (1,0/13,6) = 0,100 m = 100 mm. Ou seja, 1,36 m de sangue equivalem a 100 mmHg.\n\n**3) Pressão no tornozelo:** p = 120 + 100 = 220 mmHg.\n\n**A ponte com a Biologia:** é por isso que a pressão é medida na altura do coração. Medida no tornozelo de uma pessoa em pé, ela sairia muito maior sem que o coração estivesse bombeando com mais força. Esse acréscimo de pressão nas pernas também ajuda a entender o inchaço nos pés de quem passa muitas horas em pé e a importância das válvulas das veias e da contração da musculatura da panturrilha para o retorno do sangue ao coração.\n\n**Para lembrar:** em um fluido em repouso, Δp = ρ g h, qualquer que seja a forma do recipiente; quanto mais abaixo do coração, maior a pressão sanguínea.",
+    "erradas": [
+      "Erro de sinal: subtrair o acréscimo, como se a pressão diminuísse ao descer. Em um fluido em repouso, a pressão aumenta com a profundidade.",
+      "É apenas o acréscimo Δp = ρgh convertido para mmHg; faltou somar a pressão que já existe na altura do coração.",
+      "Supor que a pressão é a mesma em todo o sistema, numa leitura equivocada do princípio de Pascal. Pascal garante que um acréscimo de pressão se transmite integralmente, mas a pressão continua variando com a altura.",
+      "Erro de conversão: obter corretamente a coluna equivalente de 0,1 m de mercúrio, mas lê-la como 10 mmHg (confundindo centímetros com milímetros).",
+      ""
+    ]
+  }
+]

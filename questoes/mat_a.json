@@ -1,0 +1,260 @@
+[
+  {
+    "id": "MAT-A-001",
+    "materia": "matematica",
+    "tema": "Funções — exponencial e logaritmo",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["fisica"],
+    "texto": "O nível de intensidade sonora, em decibéis (dB), é dado por β = 10·log(I/I₀), em que I é a intensidade do som (em W/m²) e I₀ é uma intensidade de referência fixa. Para uma fonte pontual, sem reflexões, a intensidade é inversamente proporcional ao quadrado da distância à fonte. Quando duas fontes independentes soam juntas, somam-se as intensidades (e não os níveis em dB). (Texto elaborado para esta questão.)",
+    "enunciado": "Em uma oficina, um medidor colocado a 1 m de uma serra elétrica registra 80 dB quando só ela está ligada. Liga-se uma segunda serra idêntica, e um operador se posiciona a 4 m de cada uma das duas serras. Considerando log 2 = 0,30, o nível sonoro no local do operador é de aproximadamente",
+    "alternativas": ["68 dB", "71 dB", "74 dB", "77 dB", "136 dB"],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que o decibel é uma escala logarítmica: multiplicar a intensidade por um fator k soma 10·log k ao nível. Basta descobrir por quanto a intensidade foi multiplicada, sem calcular I nem I₀.\n\n**Passo 1 — distância.** De 1 m para 4 m, a distância fica 4 vezes maior; como I ∝ 1/d², a intensidade de cada serra fica 4² = 16 vezes menor: I/16.\n\n**Passo 2 — duas fontes.** As intensidades se somam: intensidade total = 2·(I/16) = I/8.\n\n**Passo 3 — nível.** β = 80 + 10·log(1/8) = 80 − 10·3·log 2 = 80 − 10·3·0,30 = 80 − 9 = 71 dB.\n\n**Atalho:** dobrar a intensidade soma cerca de 3 dB. Quadruplicar a distância divide I por 16 = 2⁴ (−4·3 = −12 dB) e dobrar o número de fontes iguais multiplica I por 2 (+3 dB): 80 − 12 + 3 = 71 dB.\n\nPara lembrar: em dB, fatores multiplicativos na intensidade viram parcelas somadas ao nível (10·log k), e fontes independentes somam intensidades, não decibéis.",
+    "erradas": [
+      "Considerou só a atenuação pela distância (80 − 12 = 68 dB) e esqueceu de somar a intensidade da segunda serra.",
+      "",
+      "Contou a segunda fonte como +6 dB (20·log 2), como se dobrar as fontes dobrasse a amplitude da onda; somando intensidades, o acréscimo é 10·log 2 = 3 dB.",
+      "Supôs a intensidade inversamente proporcional à distância, e não ao seu quadrado: 80 − 10·log 4 + 10·log 2 = 80 − 6 + 3 = 77 dB.",
+      "Somou diretamente os níveis em decibéis das duas serras (68 + 68); como a escala é logarítmica, níveis em dB não se somam."
+    ]
+  },
+  {
+    "id": "MAT-A-002",
+    "materia": "matematica",
+    "tema": "Funções — exponencial e logaritmo",
+    "nivel": "acima",
+    "origem": "Estilo ITA/IME (fácil)",
+    "inter": [],
+    "enunciado": "Sejam m e n números reais positivos, ambos diferentes de 1, tais que\n\nlog₂(m·n) = 10  e  logₘ n + logₙ m = 58/21,\n\nem que logₘ n indica o logaritmo de n na base m. O valor de m + n é",
+    "alternativas": ["17/128", "20", "58", "64", "136"],
+    "correta": 4,
+    "explicacao": "O ponto aqui é passar tudo para a base 2: com a = log₂ m e b = log₂ n, o sistema vira um problema de soma e produto.\n\n**Passo 1 — mudança de base.** logₘ n = (log₂ n)/(log₂ m) = b/a e logₙ m = a/b. A primeira equação dá log₂ m + log₂ n = 10, ou seja, a + b = 10.\n\n**Passo 2 — produto.** b/a + a/b = (a² + b²)/(ab) = [(a + b)² − 2ab]/(ab) = (100 − 2ab)/(ab) = 100/(ab) − 2. Igualando a 58/21: 100/(ab) = 58/21 + 2 = 100/21, logo ab = 21.\n\n**Passo 3 — soma e produto.** a e b são as raízes de t² − 10t + 21 = 0, isto é, 3 e 7. Assim, {m, n} = {2³, 2⁷} = {8, 128}, e m + n = 136 (a ordem não importa).\n\n**Verificação:** 3/7 + 7/3 = (9 + 49)/21 = 58/21, e log₂(8·128) = log₂ 2¹⁰ = 10.\n\nPara lembrar: logₘ n e logₙ m são inversos um do outro (produto 1); expressões do tipo u + 1/u se resolvem com a² + b² = (a + b)² − 2ab.",
+    "erradas": [
+      "Erro de sinal na equação soma-produto: escrever t² + 10t + 21 = 0 dá log₂ m = −3 e log₂ n = −7, e daí m + n = 1/8 + 1/128 = 17/128.",
+      "Confundiu potência com produto: de log₂ m = 3 e log₂ n = 7 concluiu m = 2·3 = 6 e n = 2·7 = 14.",
+      "Trocou base e expoente: escreveu m = 3² = 9 e n = 7² = 49 em vez de m = 2³ e n = 2⁷ (o 58 também aparece como a² + b² no meio da conta).",
+      "Chute por simetria: m = n = 32 (a = b = 5) satisfaz a primeira equação, mas dá logₘ n + logₙ m = 2, e não 58/21.",
+      ""
+    ]
+  },
+  {
+    "id": "MAT-A-003",
+    "materia": "matematica",
+    "tema": "Funções — quadrática",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Uma pequena fábrica vende capas de celular a 20 reais a unidade e, a esse preço, vende 300 unidades por mês. Uma pesquisa indicou que, para cada 1 real de aumento no preço, as vendas mensais caem 10 unidades (modelo válido para aumentos entre 0 e 30 reais, não necessariamente inteiros). Cada capa custa 8 reais para ser produzida, e não há outros custos. Um contrato com um distribuidor, porém, obriga a fábrica a vender pelo menos 240 unidades por mês. Respeitando o contrato, o maior lucro mensal possível é de",
+    "alternativas": ["4.250 reais", "4.320 reais", "4.410 reais", "6.240 reais", "6.250 reais"],
+    "correta": 1,
+    "explicacao": "O ponto aqui é que o vértice da parábola nem sempre é permitido: quando há restrição no domínio, o máximo pode estar na borda do intervalo.\n\n**Passo 1 — modelar.** Seja x o aumento, em reais. Preço: 20 + x; quantidade vendida: 300 − 10x; lucro por unidade: (20 + x) − 8 = 12 + x. Logo, L(x) = (12 + x)(300 − 10x).\n\n**Passo 2 — vértice.** As raízes de L são x = −12 e x = 30; o vértice fica no ponto médio: x = (−12 + 30)/2 = 9. Mas aí a fábrica venderia 300 − 90 = 210 unidades, menos que as 240 exigidas.\n\n**Passo 3 — restrição.** 300 − 10x ≥ 240 ⇒ x ≤ 6. Como a parábola tem concavidade para baixo e vértice em x = 9, L é crescente para x ≤ 9; no intervalo permitido, o máximo ocorre em x = 6.\n\n**Passo 4 — calcular.** L(6) = (12 + 6)(300 − 60) = 18·240 = 4.320 reais (preço de 26 reais).\n\nPara lembrar: o máximo de uma quadrática com concavidade para baixo está no vértice só se o vértice pertence ao domínio permitido; caso contrário, está no extremo do intervalo mais próximo dele.",
+    "erradas": [
+      "Maximizou a receita (20 + x)(300 − 10x), cujo vértice é x = 5, em vez do lucro: com preço de 25 reais, o lucro é 17·250 = 4.250 reais.",
+      "",
+      "Lucro no vértice x = 9 (preço de 29 reais), ignorando o contrato: nesse ponto a fábrica venderia só 210 unidades.",
+      "Receita no ponto ótimo correto (26·240 = 6.240 reais), esquecendo de descontar o custo de 8 reais por unidade.",
+      "Receita máxima (25·250 = 6.250 reais): maximizou a receita em vez do lucro e ainda respondeu com a receita, sem descontar o custo de produção."
+    ]
+  },
+  {
+    "id": "MAT-A-004",
+    "materia": "matematica",
+    "tema": "Funções — modular",
+    "nivel": "acima",
+    "origem": "Estilo livro (Iezzi)",
+    "inter": [],
+    "enunciado": "No plano cartesiano, considere a função f(x) = |x − 1| + |x − 5|, definida para todo x real. A área da região limitada pelo gráfico de f e pela reta y = 6, em unidades de área, é igual a",
+    "alternativas": ["10", "12", "18", "20", "26"],
+    "correta": 0,
+    "explicacao": "O ponto aqui é ler |x − a| como a **distância** entre x e a na reta real. Assim, f(x) é a soma das distâncias de x aos pontos 1 e 5.\n\n**Teoria por trás.** Por definição, |u| = u se u ≥ 0 e |u| = −u se u < 0. Por isso, uma soma de módulos de expressões do 1º grau é uma função afim por partes, cujas quebras ocorrem onde cada expressão interna se anula (aqui, x = 1 e x = 5). Em cada intervalo, basta retirar as barras com o sinal correto: para x < 1, f(x) = (1 − x) + (5 − x) = 6 − 2x; para 1 ≤ x ≤ 5, f(x) = (x − 1) + (5 − x) = 4; para x > 5, f(x) = (x − 1) + (x − 5) = 2x − 6.\n\nA interpretação geométrica explica o trecho constante: se x está entre 1 e 5, a soma das distâncias às extremidades é o próprio comprimento do segmento, 5 − 1 = 4 (é o caso de igualdade da desigualdade triangular |u| + |v| ≥ |u + v|). Fora desse intervalo, a soma cresce 2 unidades para cada unidade que x se afasta.\n\n**Interseções com y = 6.** 6 − 2x = 6 ⇒ x = 0; 2x − 6 = 6 ⇒ x = 6. O gráfico tem forma de banheira: desce de (0, 6) até (1, 4), fica horizontal até (5, 4) e sobe até (6, 6).\n\n**Área.** A região entre o gráfico e a reta é um trapézio de bases 6 (de x = 0 a x = 6, na altura y = 6) e 4 (de x = 1 a x = 5, na altura y = 4), com altura 6 − 4 = 2: A = (6 + 4)·2/2 = 10.\n\n**Conferência por decomposição:** retângulo 4 × 2 = 8 mais dois triângulos de catetos 1 e 2, cada um com área 1: 8 + 1 + 1 = 10.\n\nPara lembrar: para esboçar somas de módulos, divida a reta nos zeros de cada expressão interna; |x − a| + |x − b| vale |a − b| para todo x entre a e b.",
+    "erradas": [
+      "",
+      "Tratou a região como um retângulo de base 6 (de x = 0 a x = 6) e altura 2, sem perceber que o gráfico sobe em diagonal nos trechos x < 1 e x > 5.",
+      "Juntou os módulos como se |x − 1| + |x − 5| = |2x − 6|; a região entre |2x − 6| e y = 6 é um triângulo de base 6 e altura 6, com área 18.",
+      "Usou a fórmula do trapézio sem dividir por 2: (6 + 4)·2 = 20.",
+      "Calculou a área entre o gráfico de f e o eixo x, de x = 0 a x = 6, e não a área entre o gráfico e a reta y = 6."
+    ]
+  },
+  {
+    "id": "MAT-A-005",
+    "materia": "matematica",
+    "tema": "Funções — composição e inversa",
+    "nivel": "fuvest",
+    "origem": "Estilo livro (Iezzi)",
+    "inter": [],
+    "enunciado": "Considere as funções f(x) = (2x + 1)/(x − 3), definida para x ≠ 3, e g(x) = 2x − 1, definida para todo x real. Sabendo que f é inversível, com inversa f⁻¹ definida para x ≠ 2, o valor real de x para o qual f⁻¹(g(x)) = 4 é",
+    "alternativas": ["−12", "0", "15/4", "5", "9"],
+    "correta": 3,
+    "explicacao": "O ponto aqui é usar a definição de inversa, sem precisar calculá-la: f⁻¹(u) = 4 significa exatamente que f(4) = u.\n\n**Teoria por trás.** Uma função é inversível quando é bijetora: cada valor da imagem vem de um único x. A inversa desfaz o que f faz: f⁻¹(u) = v ⟺ f(v) = u. Por isso o gráfico de f⁻¹ é o simétrico do gráfico de f em relação à reta y = x (trocam-se as coordenadas de cada ponto), e o domínio de f⁻¹ é a imagem de f. Aqui, f(x) = (2x + 1)/(x − 3) = 2 + 7/(x − 3), que nunca vale 2; é por isso que f⁻¹ não está definida em 2.\n\n**Resolução.** f⁻¹(g(x)) = 4 ⟺ g(x) = f(4). Como f(4) = (8 + 1)/(4 − 3) = 9, temos 2x − 1 = 9, logo x = 5. Note que g(5) = 9 ≠ 2, então 9 está no domínio de f⁻¹.\n\n**Pelo caminho longo (para conferir).** Isolando x em y = (2x + 1)/(x − 3): xy − 3y = 2x + 1 ⇒ x(y − 2) = 3y + 1 ⇒ f⁻¹(y) = (3y + 1)/(y − 2). Então f⁻¹(9) = 28/7 = 4, como esperado.\n\n**Atenção à ordem.** Em f⁻¹(g(x)) aplica-se primeiro g e depois f⁻¹. Trocar a ordem, g(f⁻¹(x)), produz outra função e outro resultado; e o símbolo f⁻¹ não significa 1/f.\n\nPara lembrar: f⁻¹(u) = v equivale a f(v) = u; use isso para evitar calcular a inversa explicitamente.",
+    "erradas": [
+      "Inverteu a ordem da composição: resolveu g(f⁻¹(x)) = 4, isto é, f⁻¹(x) = 5/2, o que dá x = f(5/2) = −12.",
+      "Interpretou f⁻¹ como 1/f: de 1/f(g(x)) = 4 vem f(g(x)) = 1/4, g(x) = −1 e x = 0. O expoente −1 indica função inversa, não inverso multiplicativo.",
+      "Aplicou f⁻¹ ao número 4 em vez de aplicar f: f⁻¹(4) = 13/2 e, resolvendo 2x − 1 = 13/2, obteve x = 15/4.",
+      "",
+      "Parou na etapa intermediária: 9 é o valor de g(x), igual a f(4), e não o valor de x."
+    ]
+  },
+  {
+    "id": "MAT-A-006",
+    "materia": "matematica",
+    "tema": "Funções — definida por partes",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": ["fisica"],
+    "tabela": {
+      "titulo": "Tarifa progressiva de energia elétrica (cada faixa é cobrada separadamente)",
+      "cabecalho": ["Faixa de consumo mensal", "Preço por kWh"],
+      "linhas": [
+        ["primeiros 100 kWh", "0,50 real"],
+        ["do 101º ao 200º kWh", "0,80 real"],
+        ["acima de 200 kWh", "1,00 real"]
+      ]
+    },
+    "enunciado": "Uma companhia de energia cobra segundo a tabela: um consumo de 180 kWh, por exemplo, custa 100·0,50 + 80·0,80 = 114 reais. Uma família de 4 pessoas consome 320 kWh por mês, já incluído o consumo de um chuveiro elétrico de potência 5.000 W, usado por cada pessoa durante 15 minutos por dia. A família passa a aquecer a água com energia solar e deixa de usar o chuveiro elétrico, sem alterar os demais consumos. Considerando um mês de 30 dias, a economia mensal na conta de energia é de",
+    "alternativas": ["90 reais", "106 reais", "120 reais", "144 reais", "150 reais"],
+    "correta": 3,
+    "explicacao": "O ponto aqui é que, numa tarifa progressiva, os kWh economizados saem primeiro das faixas mais caras. Não basta multiplicar a energia economizada por um único preço.\n\n**Passo 1 — energia do chuveiro (Física).** E = P·Δt. Tempo de uso no mês: 4 pessoas × 0,25 h × 30 dias = 30 h. Logo, E = 5 kW × 30 h = 150 kWh.\n\n**Passo 2 — conta antiga (320 kWh).** 100·0,50 + 100·0,80 + 120·1,00 = 50 + 80 + 120 = 250 reais.\n\n**Passo 3 — conta nova (320 − 150 = 170 kWh).** 100·0,50 + 70·0,80 = 50 + 56 = 106 reais.\n\n**Economia:** 250 − 106 = 144 reais.\n\n**Atalho:** dos 150 kWh retirados, os 120 kWh que passavam de 200 custavam 1,00 real cada; os 30 kWh restantes saem da 2ª faixa, a 0,80 real: 120 + 30·0,80 = 120 + 24 = 144 reais.\n\nPara lembrar: em funções definidas por partes do tipo tarifa progressiva, calcule o valor antes e depois (ou identifique de quais faixas sai a variação); e 15 min = 0,25 h, não 0,15 h.",
+    "erradas": [
+      "Converteu 15 min em 0,15 h: a energia fica 4·0,15·30·5 = 90 kWh, toda retirada da faixa de 1,00 real, e a economia sai 90 reais.",
+      "Esse é o valor da nova conta (170 kWh), e não a economia em relação à conta antiga de 250 reais.",
+      "Aplicou o preço de 0,80 real (faixa em que termina a nova conta) a todos os 150 kWh economizados.",
+      "",
+      "Aplicou o preço da faixa mais cara (1,00 real) a todos os 150 kWh, esquecendo que 30 deles saem da faixa de 0,80 real."
+    ]
+  },
+  {
+    "id": "MAT-A-007",
+    "materia": "matematica",
+    "tema": "Aritmética — juros compostos",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Um notebook custa 2.100 reais à vista. A loja também o vende em 2 parcelas iguais, sem entrada, pagas 1 mês e 2 meses após a compra, com juros compostos de 10% ao mês sobre o saldo devedor. O valor de cada parcela é",
+    "alternativas": ["1.050,00 reais", "1.155,00 reais", "1.210,00 reais", "1.260,00 reais", "1.270,50 reais"],
+    "correta": 2,
+    "explicacao": "O ponto aqui é comparar valores na mesma data: as parcelas, trazidas para a data da compra, devem somar o preço à vista.\n\n**Passo 1 — valor presente.** Uma parcela P paga daqui a n meses vale hoje P/1,1ⁿ. Então: P/1,1 + P/1,21 = 2.100.\n\n**Passo 2 — resolver.** Multiplicando por 1,21: 1,1P + P = 2.100·1,21 ⇒ 2,1P = 2.541 ⇒ P = 1.210 reais.\n\n**Conferência pelo saldo devedor.** Após 1 mês, a dívida vira 2.100·1,1 = 2.310; paga-se 1.210 e restam 1.100. No mês seguinte, 1.100·1,1 = 1.210, exatamente a 2ª parcela.\n\nPara lembrar: em juros compostos, para comparar pagamentos em datas diferentes, leve todos para a mesma data dividindo (ou multiplicando) por (1 + i)ⁿ.",
+    "erradas": [
+      "Dividiu o preço à vista por 2, sem considerar os juros.",
+      "Aplicou 10% de juros uma única vez sobre o total (2.100·1,1 = 2.310) e dividiu por 2, ignorando que a 2ª parcela fica 2 meses financiada.",
+      "",
+      "Usou juros simples de 2 meses sobre o total (2.100·1,20 = 2.520) e dividiu por 2.",
+      "Aplicou juros compostos de 2 meses sobre o valor total (2.100·1,21 = 2.541) e dividiu por 2, como se nada fosse pago no 1º mês."
+    ]
+  },
+  {
+    "id": "MAT-A-008",
+    "materia": "matematica",
+    "tema": "PA e PG — soma infinita de PG",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": ["fisica"],
+    "enunciado": "Uma bola é solta, a partir do repouso, de uma altura de 5 m. Após cada choque com o chão horizontal, ela sobe verticalmente até 1/4 da altura máxima anterior. Despreze a resistência do ar e a duração dos choques e adote g = 10 m/s². Admitindo que o movimento continue indefinidamente, o tempo total, desde o instante em que a bola é solta até ela parar, é",
+    "alternativas": ["1,5 s", "5/3 s", "2 s", "3 s", "4 s"],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que, em queda livre, o tempo é proporcional à raiz quadrada da altura: h = g·t²/2 ⇒ t = √(2h/g). Se a altura é multiplicada por 1/4, o tempo é multiplicado por √(1/4) = 1/2. A razão da PG dos tempos é 1/2, não 1/4.\n\n**Passo 1 — primeira queda.** t = √(2·5/10) = 1 s.\n\n**Passo 2 — cada quique.** Após o 1º choque, a bola sobe até 5/4 m: a subida leva √(2·1,25/10) = 0,5 s e a descida, outros 0,5 s. Cada quique (subida + descida) dura o dobro do tempo de queda daquela altura, e esses tempos formam a PG 1 s, 1/2 s, 1/4 s, ...\n\n**Passo 3 — soma infinita.** T = 1 + (1 + 1/2 + 1/4 + ...) = 1 + 1/(1 − 1/2) = 1 + 2 = 3 s.\n\n**Conexão:** a altura de cada pico cai para 1/4, a velocidade de impacto cai para 1/2 (v = √(2gh)) e, portanto, o tempo de voo também cai para 1/2. A mesma PG descreve velocidades e tempos.\n\nPara lembrar: quando a altura é multiplicada por k, o tempo de voo é multiplicado por √k; e a soma de uma PG infinita com |q| < 1 é a₁/(1 − q).",
+    "erradas": [
+      "Usou t = h/v com a velocidade de impacto, como se o movimento fosse uniforme; isso dá a metade de cada tempo (0,5 s na 1ª queda e 1,5 s no total).",
+      "Aplicou aos tempos a mesma razão 1/4 das alturas: 1 + 2·(1/4 + 1/16 + ...) = 1 + 2/3 = 5/3 s.",
+      "Somou apenas os tempos de descida (1 + 1/2 + 1/4 + ... = 2 s), esquecendo as subidas.",
+      "",
+      "Contou a queda inicial como se também tivesse subida, dobrando todos os termos: 2·(1 + 1/2 + 1/4 + ...) = 4 s."
+    ]
+  },
+  {
+    "id": "MAT-A-009",
+    "materia": "matematica",
+    "tema": "Aritmética — divisibilidade",
+    "nivel": "acima",
+    "origem": "Estilo ITA/IME (médio)",
+    "inter": [],
+    "enunciado": "Quantos divisores positivos de 12⁶ são quadrados perfeitos ou cubos perfeitos (ou ambos)?",
+    "alternativas": ["21", "28", "31", "37", "43"],
+    "correta": 3,
+    "explicacao": "O ponto aqui é fatorar corretamente, traduzir quadrado e cubo em condições sobre os expoentes e usar o princípio da inclusão-exclusão.\n\n**Passo 1 — fatoração.** 12 = 2²·3, então 12⁶ = 2¹²·3⁶. Todo divisor positivo tem a forma 2ᵃ·3ᵇ, com 0 ≤ a ≤ 12 e 0 ≤ b ≤ 6.\n\n**Passo 2 — quadrados.** 2ᵃ·3ᵇ é quadrado perfeito ⟺ a e b são pares: a ∈ {0, 2, ..., 12} (7 opções) e b ∈ {0, 2, 4, 6} (4 opções) ⇒ 7·4 = 28.\n\n**Passo 3 — cubos.** a e b múltiplos de 3: a ∈ {0, 3, 6, 9, 12} (5) e b ∈ {0, 3, 6} (3) ⇒ 15.\n\n**Passo 4 — ambos.** Ser quadrado e cubo ao mesmo tempo é ser sexta potência: a ∈ {0, 6, 12} (3) e b ∈ {0, 6} (2) ⇒ 6.\n\n**Inclusão-exclusão:** 28 + 15 − 6 = 37.\n\nDetalhe: o divisor 1 = 2⁰·3⁰ é quadrado e cubo ao mesmo tempo e entra corretamente nas três contagens.\n\nPara lembrar: um número é quadrado perfeito quando todos os expoentes da sua fatoração em primos são pares (cubo, quando são múltiplos de 3); para contar 'ou', some e subtraia a interseção.",
+    "erradas": [
+      "Fatorou errado 12⁶ como 2⁶·3⁶ (esqueceu que 12 = 2²·3): seriam 16 quadrados, 9 cubos e 4 sextas potências, total 16 + 9 − 4 = 21.",
+      "Contou só os quadrados perfeitos, esquecendo os cubos.",
+      "Subtraiu a interseção duas vezes (28 + 15 − 2·6), contando os que são quadrados ou cubos, mas não ambos.",
+      "",
+      "Somou quadrados e cubos (28 + 15) sem descontar os 6 divisores contados duas vezes."
+    ]
+  },
+  {
+    "id": "MAT-A-010",
+    "materia": "matematica",
+    "tema": "Estatística — quartis e box-plot",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Os tempos de deslocamento até o trabalho, em minutos, de 12 funcionários de uma empresa foram:\n\n26, 9, 37, 14, 66, 20, 12, 31, 59, 10, 27, 19\n\nPara construir um box-plot, adota-se: Q1 é a mediana da metade inferior dos dados ordenados, Q3 é a mediana da metade superior, AIQ = Q3 − Q1, e um valor é considerado discrepante (outlier) se for menor que Q1 − 1,5·AIQ ou maior que Q3 + 1,5·AIQ. A média aritmética dos tempos, desconsiderados os valores discrepantes, é",
+    "alternativas": ["20,5 min", "22 min", "24 min", "25,5 min", "27,5 min"],
+    "correta": 2,
+    "explicacao": "O ponto aqui é seguir o critério à risca: ordenar, achar os quartis, calcular as cercas e só então decidir o que é discrepante. Parecer grande não basta.\n\n**Passo 1 — ordenar.** 9, 10, 12, 14, 19, 20 | 26, 27, 31, 37, 59, 66.\n\n**Passo 2 — quartis.** Metade inferior: 9, 10, 12, 14, 19, 20 ⇒ Q1 = (12 + 14)/2 = 13. Metade superior: 26, 27, 31, 37, 59, 66 ⇒ Q3 = (31 + 37)/2 = 34. AIQ = 34 − 13 = 21.\n\n**Passo 3 — cercas.** Inferior: 13 − 1,5·21 = 13 − 31,5 = −18,5 (nenhum valor abaixo). Superior: 34 + 31,5 = 65,5. Só o 66 passa da cerca; o 59, embora distante dos demais, está dentro do limite.\n\n**Passo 4 — média.** Soma total: 330. Sem o 66: 264, com 11 valores ⇒ 264/11 = 24 min.\n\nPara lembrar: no box-plot, é discrepante o valor que fica mais de 1,5·AIQ além dos quartis; ao remover dados, divida pelo novo número de valores.",
+    "erradas": [
+      "Removeu também o 59 (por exemplo, usando a cerca Q3 + 1·AIQ = 55, ou julgando a olho): (264 − 59)/10 = 20,5 min.",
+      "Retirou o 66 da soma (264), mas continuou dividindo por 12: 264/12 = 22 min.",
+      "",
+      "Descartou o maior e o menor valor, como se faz com notas de jurados: (330 − 66 − 9)/10 = 25,5 min. Pelo critério dado, o 9 não é discrepante.",
+      "Média dos 12 valores (330/12), sem remover o discrepante; é também o que obtém quem usa o 4º e o 9º valores como quartis (14 e 37), o que alarga as cercas e não elimina nada."
+    ]
+  },
+  {
+    "id": "MAT-A-011",
+    "materia": "matematica",
+    "tema": "Estatística — média e desvio-padrão",
+    "nivel": "acima",
+    "origem": "Estilo livro (Iezzi)",
+    "inter": [],
+    "enunciado": "Em uma prova, a turma A, com 10 alunos, teve média 52 pontos e desvio-padrão 5 pontos; a turma B, com 15 alunos, teve média 62 pontos e desvio-padrão também de 5 pontos. Nos dois casos, trata-se do desvio-padrão populacional: σ = √[Σ(xᵢ − x̄)²/n]. Reunindo as notas dos 25 alunos, o desvio-padrão do conjunto, em pontos, é",
+    "alternativas": ["2√6", "5", "7", "5√2", "49"],
+    "correta": 2,
+    "explicacao": "O ponto aqui é que o desvio-padrão do grupo todo não depende só da dispersão dentro de cada turma: a distância entre as médias das turmas também espalha os dados.\n\n**Teoria por trás.** A variância σ² é a média dos quadrados dos desvios em relação à média. Desenvolvendo (xᵢ − x̄)² e somando, obtém-se a forma equivalente σ² = (média dos x²) − x̄², ou seja, média dos quadrados menos quadrado da média. Dela vem que, conhecidos n, x̄ e σ de um grupo, a soma dos quadrados das notas é Σx² = n·(σ² + x̄²). Aplicando isso a cada turma e ao conjunto, chega-se à decomposição: variância total = (média ponderada das variâncias internas) + (variância das médias das turmas em torno da média geral, ponderada pelos tamanhos).\n\n**Passo 1 — média geral.** x̄ = (10·52 + 15·62)/25 = (520 + 930)/25 = 1.450/25 = 58.\n\n**Passo 2 — parcela interna.** (10·25 + 15·25)/25 = 25.\n\n**Passo 3 — parcela entre turmas.** [10·(52 − 58)² + 15·(62 − 58)²]/25 = (360 + 240)/25 = 24.\n\n**Passo 4 — resultado.** σ² = 25 + 24 = 49 ⇒ σ = 7 pontos.\n\n**Conferência pela média dos quadrados.** Turma A: Σx² = 10·(25 + 2.704) = 27.290. Turma B: Σx² = 15·(25 + 3.844) = 58.035. Média dos quadrados: (27.290 + 58.035)/25 = 3.413. Então σ² = 3.413 − 58² = 3.413 − 3.364 = 49.\n\n**Por que a parcela entre turmas aparece?** Cada nota da turma A está, em média, 6 pontos abaixo da média geral, e cada nota da turma B, 4 pontos acima. Esse afastamento sistemático se soma às oscilações internas. Só se as médias das turmas fossem iguais o desvio-padrão do conjunto continuaria 5.\n\nPara lembrar: desvios-padrão não se somam nem se promediam diretamente; trabalhe com variâncias e inclua a variação entre as médias dos grupos.",
+    "erradas": [
+      "Considerou só a variação entre as médias das turmas (σ² = 24), esquecendo a variância interna de cada turma.",
+      "Supôs que, se as duas turmas têm o mesmo desvio-padrão, o conjunto também terá; isso só vale quando as médias são iguais.",
+      "",
+      "Somou as variâncias das turmas (25 + 25 = 50) e tirou a raiz, como se fossem variáveis independentes somadas, e não grupos reunidos.",
+      "Esse é o valor da variância do conjunto; o desvio-padrão é a raiz quadrada dela."
+    ]
+  },
+  {
+    "id": "MAT-A-012",
+    "materia": "matematica",
+    "tema": "Combinatória — contagem com restrição",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Considere os 12 pontos do plano cartesiano de coordenadas inteiras (x, y) com 0 ≤ x ≤ 3 e 0 ≤ y ≤ 2. Quantos triângulos (não degenerados) têm os três vértices entre esses pontos?",
+    "alternativas": ["200", "202", "204", "208", "220"],
+    "correta": 0,
+    "explicacao": "O ponto aqui é contar pelo complementar: escolher 3 pontos quaisquer e retirar as escolhas em que os três estão alinhados.\n\n**Passo 1 — total de trios.** C(12, 3) = 12·11·10/6 = 220.\n\n**Passo 2 — trios alinhados.** Os pontos formam uma malha de 4 colunas por 3 linhas.\n\nHorizontais: 3 linhas com 4 pontos cada ⇒ 3·C(4, 3) = 3·4 = 12.\n\nVerticais: 4 colunas com 3 pontos cada ⇒ 4·C(3, 3) = 4.\n\nDiagonais de inclinação 1 com 3 pontos: (0, 0), (1, 1), (2, 2) e (1, 0), (2, 1), (3, 2) ⇒ 2.\n\nDiagonais de inclinação −1: (0, 2), (1, 1), (2, 0) e (1, 2), (2, 1), (3, 0) ⇒ 2.\n\nOutras inclinações não comportam 3 pontos na malha: com inclinação 1/2, por exemplo, (0, 0), (2, 1) e (4, 2) exigiria x = 4.\n\nTotal alinhado: 12 + 4 + 2 + 2 = 20.\n\n**Passo 3 — resposta.** 220 − 20 = 200 triângulos.\n\nPara lembrar: em contagens de triângulos com pontos de uma malha, conte todos os trios e subtraia os colineares, verificando horizontais, verticais e diagonais nos dois sentidos.",
+    "erradas": [
+      "",
+      "Esqueceu as diagonais de um dos dois sentidos e descontou só 18 trios alinhados.",
+      "Descontou horizontais e verticais (16 trios), mas esqueceu os 4 trios alinhados nas diagonais.",
+      "Descontou apenas os 12 trios alinhados nas linhas horizontais.",
+      "Contou todos os trios de pontos como triângulos, sem retirar os que estão alinhados."
+    ]
+  },
+  {
+    "id": "MAT-A-013",
+    "materia": "matematica",
+    "tema": "Probabilidade condicional",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["biologia"],
+    "texto": "Em testes diagnósticos, a sensibilidade é a probabilidade de o teste dar positivo em uma pessoa doente, e a taxa de falso positivo é a probabilidade de dar positivo em uma pessoa saudável. A prevalência é a fração da população que tem a doença. (Texto elaborado para esta questão.)",
+    "enunciado": "Em uma população, a prevalência de uma infecção é de 4%. Um teste rápido para essa infecção tem sensibilidade de 90% e taxa de falso positivo de 15%. Uma pessoa sorteada ao acaso nessa população faz o teste duas vezes, e os dois resultados são positivos. Suponha que, dado o estado da pessoa (infectada ou não), os resultados dos dois testes sejam independentes. A probabilidade de essa pessoa estar infectada é de",
+    "alternativas": ["3,24%", "20%", "40%", "60%", "81%"],
+    "correta": 3,
+    "explicacao": "O ponto aqui é não confundir P(dois positivos | infectada) com P(infectada | dois positivos). A pergunta é a segunda, e ela depende da prevalência (teorema de Bayes).\n\n**Passo 1 — pensar em 10.000 pessoas.** Infectadas: 4% ⇒ 400. Saudáveis: 9.600.\n\n**Passo 2 — dois positivos em cada grupo.** Infectadas: 400·0,9·0,9 = 400·0,81 = 324. Saudáveis: 9.600·0,15·0,15 = 9.600·0,0225 = 216.\n\n**Passo 3 — condicionar.** Entre as 324 + 216 = 540 pessoas com dois positivos, 324 estão infectadas: 324/540 = 0,6 = 60%.\n\n**Comparação:** com um único teste positivo, seriam 400·0,9 = 360 infectadas contra 9.600·0,15 = 1.440 saudáveis, ou seja, 360/1.800 = 20%. Repetir o teste triplica a probabilidade porque um falso positivo duplo é bem mais raro que um simples.\n\n**Conexão com a Biologia:** em doenças de baixa prevalência, mesmo testes razoáveis geram muitos falsos positivos; por isso, em triagens, um resultado positivo costuma ser confirmado por um segundo exame.\n\nPara lembrar: P(A | B) = P(A e B)/P(B); monte uma tabela com uma população hipotética para não confundir P(A | B) com P(B | A).",
+    "erradas": [
+      "Calculou a probabilidade de a pessoa estar infectada E ter dois positivos (0,04·0,81 = 0,0324), sem dividir pela probabilidade de dois positivos.",
+      "Esse é o resultado para um único teste positivo (360/1.800); ignorou a informação do segundo teste.",
+      "Calculou a probabilidade de a pessoa estar saudável dado que teve dois positivos (216/540), o complemento do que foi pedido.",
+      "",
+      "Confundiu P(dois positivos | infectada) = 0,9² = 81% com P(infectada | dois positivos), ignorando a prevalência."
+    ]
+  }
+]

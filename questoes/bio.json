@@ -1,0 +1,572 @@
+[
+  {
+    "id": "BIO-001",
+    "materia": "biologia",
+    "tema": "Citologia — sistema de endomembranas e secreção",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Células do pâncreas que secretam enzimas digestivas foram expostas por 3 minutos a um aminoácido radioativo (pulso) e, em seguida, transferidas para um meio com excesso do mesmo aminoácido não radioativo (caça). Em diferentes momentos, mediu-se a porcentagem da radioatividade celular presente em cada compartimento. O experimento foi feito com células sem tratamento (controle) e com células tratadas, desde antes do pulso, com uma substância X. A radioatividade total incorporada durante o pulso foi praticamente igual nos dois grupos. Os dados são hipotéticos.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Porcentagem da radioatividade celular em cada compartimento",
+      "cabecalho": ["Tempo", "Grupo", "RE granuloso (%)", "Golgi (%)", "Grânulos de secreção (%)"],
+      "linhas": [
+        ["3 min", "Controle", "86", "4", "1"],
+        ["3 min", "Com X", "85", "4", "1"],
+        ["20 min", "Controle", "35", "48", "9"],
+        ["20 min", "Com X", "83", "5", "1"],
+        ["120 min", "Controle", "8", "12", "71"],
+        ["120 min", "Com X", "80", "5", "2"]
+      ]
+    },
+    "enunciado": "A hipótese mais compatível com os dados sobre o modo de ação da substância X é que ela",
+    "alternativas": [
+      "inibe a síntese de proteínas nos ribossomos aderidos ao retículo endoplasmático granuloso.",
+      "impede a exocitose, isto é, a fusão dos grânulos de secreção com a membrana plasmática.",
+      "bloqueia a passagem das proteínas do complexo golgiense para os grânulos de secreção.",
+      "impede o transporte das proteínas recém-sintetizadas do retículo endoplasmático granuloso para o complexo golgiense.",
+      "acelera a digestão das proteínas recém-sintetizadas pelos lisossomos, antes que elas cheguem ao complexo golgiense."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é localizar o ponto de bloqueio: o material radioativo se acumula no compartimento imediatamente ANTERIOR à etapa impedida.\n\nNo controle, a radioatividade percorre a sequência retículo endoplasmático granuloso → complexo golgiense → grânulos de secreção: aos 3 min está no retículo (86%), aos 20 min predomina no Golgi (48%) e aos 120 min está nos grânulos (71%). Esse é o caminho das proteínas de exportação: são sintetizadas por ribossomos aderidos ao retículo, entram em sua cavidade, seguem em vesículas para o Golgi, onde são modificadas e empacotadas, e saem em grânulos que se fundem à membrana plasmática (exocitose).\n\nCom X, a incorporação no pulso é normal (a síntese não foi afetada) e aos 3 min a radioatividade também está no retículo. Mas ela fica parada ali: cerca de 80% no retículo mesmo após 120 min, com Golgi e grânulos quase vazios. Logo, X impede a saída das proteínas do retículo rumo ao Golgi.\n\nAtalho: em experimentos de pulso e caça, compare o grupo tratado com o controle no tempo em que o controle já \"andou\". O compartimento em que o tratado \"empaca\" é o último que o material consegue alcançar.\n\nPara lembrar: proteínas de secreção seguem retículo granuloso → Golgi → grânulos de secreção → exocitose, e um bloqueio provoca acúmulo no compartimento anterior a ele.",
+    "erradas": [
+      "Contradiz dois dados: a radioatividade total incorporada no pulso foi igual nos dois grupos e, aos 3 minutos, já estava no retículo granuloso. A síntese ocorreu normalmente; o bloqueio é posterior a ela.",
+      "Se o bloqueio fosse na exocitose, as proteínas passariam pelo Golgi e se acumulariam nos grânulos de secreção. Com X, porém, os grânulos quase não recebem radioatividade.",
+      "Nesse caso, a radioatividade sairia do retículo e ficaria retida no complexo golgiense. Com X, o Golgi nunca passa de cerca de 5%.",
+      "",
+      "Se as proteínas fossem digeridas, a radioatividade sairia do retículo (para lisossomos ou na forma de aminoácidos livres no citosol). Com X, ela permanece em cerca de 80% no retículo até 120 minutos."
+    ]
+  },
+  {
+    "id": "BIO-002",
+    "materia": "biologia",
+    "tema": "Metabolismo energético — cadeia respiratória e fosforilação oxidativa",
+    "nivel": "acima",
+    "origem": "Estilo livro (Amabis & Martho)",
+    "inter": [],
+    "texto": "Mitocôndrias isoladas foram mantidas em meio com oxigênio, ADP, fosfato e um substrato oxidável que fornece NADH. Mediram-se o consumo de O₂, a síntese de ATP e a temperatura da suspensão em três condições: sem adição (controle), com a substância P e com a substância Q. Os valores são relativos ao controle (100) e hipotéticos.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Efeitos de P e Q sobre mitocôndrias isoladas",
+      "cabecalho": ["Condição", "Consumo de O₂", "Síntese de ATP", "Temperatura"],
+      "linhas": [
+        ["Controle", "100", "100", "estável"],
+        ["Com P", "5", "4", "estável"],
+        ["Com Q", "160", "5", "aumenta"]
+      ]
+    },
+    "enunciado": "Sabe-se que P bloqueia a transferência de elétrons para o O₂ no final da cadeia respiratória. A interpretação mais adequada para o efeito de Q é que essa substância",
+    "alternativas": [
+      "bloqueia a cadeia respiratória em um ponto anterior ao bloqueado por P, impedindo a redução do O₂.",
+      "torna a membrana interna permeável a H⁺, que retorna à matriz sem passar pela ATP sintase, e a energia se dissipa como calor.",
+      "inibe diretamente a ATP sintase, sem afetar o gradiente de H⁺ nem o transporte de elétrons.",
+      "substitui o O₂ como aceptor final de elétrons, gerando um produto diferente da água.",
+      "estimula a glicólise, que passa a fornecer ATP suficiente e dispensa a fosforilação oxidativa."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que Q separa (desacopla) dois processos que normalmente andam juntos: o transporte de elétrons, que consome O₂, e a síntese de ATP.\n\n**A teoria por trás (hipótese quimiosmótica).** Na membrana interna da mitocôndria, os elétrons retirados do NADH e do FADH₂ passam por uma sequência de proteínas transportadoras até o O₂, que os recebe e, junto com H⁺, forma água. A energia liberada nessa \"descida\" de elétrons é usada por complexos da cadeia para bombear H⁺ da matriz para o espaço intermembranas. Forma-se um gradiente de concentração e de carga elétrica. O caminho normal de volta para os H⁺ é a ATP sintase, que usa esse fluxo para unir ADP e fosfato. Funciona como uma represa: a cadeia bombeia água para cima, e a turbina (ATP sintase) gera energia útil quando a água desce.\n\n**Lendo a tabela.** Com P (que age como o cianeto), tudo para: sem fluxo de elétrons não há bombeamento, nem gradiente, nem ATP. Com Q, o consumo de O₂ sobe para 160, a síntese de ATP despenca e a temperatura aumenta. A única explicação coerente é um \"vazamento\" na represa: Q permite que os H⁺ voltem à matriz atravessando a membrana, sem passar pela ATP sintase. O gradiente se desfaz continuamente, a cadeia trabalha sem freio (mais O₂ consumido) e a energia, em vez de ficar armazenada no ATP, é liberada como calor.\n\nEsse é o mecanismo dos chamados desacopladores. Na natureza, algo semelhante ocorre no tecido adiposo marrom de mamíferos, em que uma proteína da membrana interna permite o retorno dos H⁺ e produz calor.\n\n**Macete.** Bloqueio da cadeia: O₂ ↓ e ATP ↓. Bloqueio só da ATP sintase: ATP ↓ e O₂ ↓ (o gradiente \"entope\" a cadeia). Desacoplador: ATP ↓, mas O₂ ↑ e calor ↑.\n\nPara lembrar: a síntese de ATP na mitocôndria depende do gradiente de H⁺ através da membrana interna; dissipá-lo mantém a respiração ativa, mas converte a energia em calor.",
+    "erradas": [
+      "Um bloqueio em qualquer ponto da cadeia reduziria o consumo de O₂, como acontece com P. Com Q, o consumo AUMENTA para 160.",
+      "",
+      "Se só a ATP sintase fosse inibida, os H⁺ se acumulariam no espaço intermembranas sem ter por onde voltar; o gradiente elevado frearia o bombeamento e o consumo de O₂ cairia, em vez de subir. Também não explicaria o aumento de temperatura.",
+      "Se outro aceptor substituísse o O₂, o consumo de O₂ diminuiria, e não aumentaria. Além disso, o transporte de elétrons continuaria bombeando H⁺ e a síntese de ATP não precisaria cair.",
+      "A glicólise ocorre no citosol, ausente em uma suspensão de mitocôndrias isoladas. Além disso, a tabela mostra queda na síntese de ATP, e não compensação."
+    ]
+  },
+  {
+    "id": "BIO-003",
+    "materia": "biologia",
+    "tema": "Metabolismo energético — fermentação × respiração aeróbia",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["quimica"],
+    "texto": "Considere uma linhagem de levedura, fungo anaeróbio facultativo, que, com O₂ disponível, realiza apenas respiração aeróbia e, sem O₂, realiza fermentação alcoólica. Considere as equações globais e os rendimentos energéticos líquidos abaixo.\n\nRespiração aeróbia: C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O (30 ATP por glicose)\nFermentação alcoólica: C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ (2 ATP por glicose)\n\nTexto elaborado para esta questão.",
+    "enunciado": "Uma cultura de leveduras mantém a mesma demanda de ATP ao passar de um meio aerado para um meio sem O₂. Em relação à situação aeróbia, na ausência de O₂ a cultura passará a, por unidade de tempo,",
+    "alternativas": [
+      "consumir 15 vezes mais glicose e liberar 5 vezes mais CO₂.",
+      "consumir 15 vezes mais glicose e liberar 15 vezes mais CO₂.",
+      "consumir 15 vezes mais glicose e liberar 1/3 do CO₂.",
+      "consumir 7,5 vezes mais glicose e liberar 2,5 vezes mais CO₂.",
+      "consumir 1/15 da glicose e liberar 1/5 do CO₂."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é fixar a quantidade de ATP e só depois converter para glicose e para CO₂.\n\n**Passo 1 — glicose.** Suponha uma demanda de 30 ATP. Na respiração aeróbia, basta 1 glicose. Na fermentação, cada glicose rende 2 ATP, então são necessárias 30/2 = 15 glicoses. Razão: 15.\n\n**Passo 2 — CO₂.** Respiração: 1 glicose → 6 CO₂. Fermentação: 15 glicoses × 2 CO₂ = 30 CO₂. Razão: 30/6 = 5.\n\nAtalho: razão de CO₂ = (razão de glicose) × (2/6) = 15 × 1/3 = 5.\n\nO aumento do consumo de glicose quando falta O₂ é conhecido como efeito Pasteur. Ele mostra que a fermentação, embora mais simples e rápida, extrai pouca energia de cada molécula de glicose: boa parte da energia química permanece no etanol produzido.\n\nPara lembrar: a fermentação rende muito menos ATP por glicose (2 líquidos) que a respiração aeróbia, então, para a mesma demanda, consome muito mais glicose; a estequiometria de cada processo define quanto CO₂ é liberado.",
+    "erradas": [
+      "",
+      "Supõe que o CO₂ acompanha a glicose na mesma proporção, esquecendo que cada glicose fermentada libera 2 CO₂, e não 6 como na respiração.",
+      "Compara apenas o CO₂ liberado por molécula de glicose (2 contra 6) e esquece que, na fermentação, muito mais glicose é consumida.",
+      "Usa 4 ATP por glicose na fermentação, que é a produção bruta da glicólise. O rendimento líquido é 2 ATP, pois 2 ATP são gastos na etapa inicial.",
+      "Inverte a relação: a fermentação rende menos ATP por glicose, então é preciso MAIS glicose, e não menos, para manter a mesma demanda."
+    ]
+  },
+  {
+    "id": "BIO-004",
+    "materia": "biologia",
+    "tema": "Citologia — meiose, número de cromossomos e quantidade de DNA",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Em uma espécie animal com 2n = 8 cromossomos, a quantidade de DNA nuclear de uma célula germinativa em G1 (antes da duplicação) é igual a X. Uma célula dessa linhagem observada na metáfase II da meiose apresenta",
+    "alternativas": [
+      "8 cromossomos e quantidade de DNA igual a 2X.",
+      "8 cromossomos e quantidade de DNA igual a X.",
+      "4 cromossomos e quantidade de DNA igual a X.",
+      "4 cromossomos e quantidade de DNA igual a X/2.",
+      "2 cromossomos e quantidade de DNA igual a X/2."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é separar dois contadores: o número de cromossomos (contado pelos centrômeros) e a quantidade de DNA (que dobra na fase S e cai à metade a cada divisão).\n\n**Linha do tempo.**\nG1: 8 cromossomos com 1 cromátide cada → DNA = X.\nApós a fase S: 8 cromossomos com 2 cromátides cada → DNA = 2X.\nMeiose I (separa os homólogos): cada célula fica com 4 cromossomos, ainda duplicados → DNA = X.\nMetáfase II: 4 cromossomos duplicados alinhados na placa equatorial → DNA = X.\nFim da meiose II (separa as cromátides-irmãs): 4 cromossomos simples → DNA = X/2 (gameta).\n\nRepare na pegadinha: na metáfase II a célula já é haploide quanto ao número de cromossomos (n = 4), mas tem a mesma quantidade de DNA de uma célula diploide em G1, porque cada cromossomo ainda carrega duas cromátides.\n\nPara lembrar: a meiose I reduz o número de cromossomos (separa homólogos), e a meiose II separa cromátides-irmãs, reduzindo só a quantidade de DNA por célula.",
+    "erradas": [
+      "Descreve uma célula em metáfase I (ou em metáfase de mitose): 2n = 8 cromossomos duplicados e DNA 2X. Na metáfase II, a primeira divisão já separou os homólogos.",
+      "A quantidade de DNA está certa, mas o número de cromossomos não: conta cada cromátide como um cromossomo (4 × 2 = 8) ou esquece que a meiose I já reduziu o número.",
+      "",
+      "Descreve o gameta, formado ao fim da meiose II, com cromossomos de uma só cromátide. Na metáfase II, cada cromossomo ainda tem duas cromátides.",
+      "Divide o número de cromossomos de novo na segunda divisão. Na meiose II separam-se cromátides-irmãs, e cada célula-filha continua com 4 cromossomos."
+    ]
+  },
+  {
+    "id": "BIO-005",
+    "materia": "biologia",
+    "tema": "Ecologia e mudanças climáticas — acidificação dos oceanos e branqueamento de corais",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": ["quimica"],
+    "texto": "Corais construtores de recifes formam esqueleto de carbonato de cálcio (CaCO₃) e abrigam em seus tecidos algas unicelulares fotossintetizantes, as zooxantelas, em relação de mutualismo. Para investigar efeitos das mudanças climáticas, pesquisadores mantiveram fragmentos de uma mesma colônia em três tipos de aquário por oito semanas e mediram a taxa de calcificação e a densidade de zooxantelas. Os valores são relativos ao aquário A (100) e hipotéticos.\n\nNa água do mar: CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻ e H⁺ + CO₃²⁻ ⇌ HCO₃⁻.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Resultados após oito semanas",
+      "cabecalho": ["Aquário", "Temperatura", "CO₂ no ar borbulhado", "Calcificação", "Zooxantelas"],
+      "linhas": [
+        ["A", "26 °C", "atual", "100", "100"],
+        ["B", "26 °C", "elevado", "62", "96"],
+        ["C", "30 °C", "atual", "55", "30"]
+      ]
+    },
+    "enunciado": "Os dados permitem concluir corretamente que",
+    "alternativas": [
+      "o CO₂ elevado reduziu a calcificação em B porque provocou a expulsão das zooxantelas, que fornecem energia ao coral.",
+      "o aquecimento em C acidificou a água, pois a solubilidade do CO₂ na água aumenta com a temperatura.",
+      "o CO₂ elevado deveria ter aumentado a calcificação em B, por fornecer mais carbono para a formação de carbonato.",
+      "o aquecimento é mais prejudicial aos recifes do que a acidificação, qualquer que seja a intensidade de cada fator.",
+      "em B, a calcificação caiu sem perda de zooxantelas, o que indica menos íons carbonato disponíveis; em C, ela caiu junto com as algas simbiontes."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é usar o aquário A como controle e comparar cada tratamento com ele, observando qual variável mudou junto com a calcificação.\n\n**Aquário B (só CO₂ elevado).** A calcificação caiu para 62, mas as zooxantelas ficaram praticamente iguais (96). Portanto, a queda não se explica pela perda das algas. A química explica: o CO₂ dissolvido forma ácido carbônico, que libera H⁺; esse H⁺ reage com os íons carbonato (CO₃²⁻), convertendo-os em bicarbonato (HCO₃⁻). Com menos CO₃²⁻ disponível, fica mais difícil formar CaCO₃ no esqueleto. É a acidificação dos oceanos.\n\n**Aquário C (só aquecimento).** A calcificação caiu para 55 e as zooxantelas despencaram para 30. Isso caracteriza o branqueamento: sob estresse térmico, o coral perde as algas simbiontes (e a cor que elas conferem). Sem a fotossíntese das zooxantelas, que fornece grande parte da matéria orgânica de que o coral se alimenta, falta energia, inclusive para calcificar.\n\nRepare que os dois efeitos do aumento de CO₂ na atmosfera prejudicam os recifes por mecanismos diferentes, e no oceano real eles atuam ao mesmo tempo.\n\nPara lembrar: o excesso de CO₂ acidifica o mar e reduz o carbonato disponível para os esqueletos; o aquecimento causa branqueamento pela perda das zooxantelas.",
+    "erradas": [
+      "Causa e efeito não batem com os dados: em B, a densidade de zooxantelas quase não mudou (96), e mesmo assim a calcificação caiu. A perda de algas aparece em C, não em B.",
+      "Erro químico: a solubilidade de gases em água DIMINUI com o aumento da temperatura. Além disso, o efeito em C está associado à perda de zooxantelas (branqueamento), e não à acidificação.",
+      "Ignora o equilíbrio: o CO₂ adicional gera H⁺, que reage com CO₃²⁻ formando HCO₃⁻. A concentração de carbonato cai, e a calcificação é dificultada.",
+      "Generalização indevida: o experimento testou só uma intensidade de cada fator, e os efeitos sobre a calcificação foram até parecidos (62 e 55). Não dá para estender a conclusão a qualquer intensidade.",
+      ""
+    ]
+  },
+  {
+    "id": "BIO-006",
+    "materia": "biologia",
+    "tema": "Ecologia — eutrofização",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Um lago passou a receber esgoto doméstico sem tratamento, rico em compostos de nitrogênio e de fósforo. Meses depois, houve grande mortandade de peixes. A sequência de eventos que melhor explica essa mortandade é:",
+    "alternativas": [
+      "aumento de nutrientes → morte das algas por intoxicação com nitratos → menor produção de O₂ → morte dos peixes por asfixia.",
+      "aumento de nutrientes → proliferação de algas na superfície → morte de algas e plantas submersas → decomposição aeróbia intensa → queda do O₂ dissolvido → morte dos peixes.",
+      "aumento de nutrientes → proliferação de algas → consumo de O₂ pela fotossíntese das algas → queda do O₂ dissolvido → morte dos peixes.",
+      "aumento de nutrientes → queda do O₂ dissolvido → morte dos peixes → proliferação de algas, favorecida pelos nutrientes liberados na decomposição dos peixes.",
+      "aumento de nutrientes → proliferação de bactérias anaeróbias → produção de O₂ por essas bactérias → excesso de O₂ e morte dos peixes."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é lembrar que, na eutrofização, quem mata os peixes não é diretamente o esgoto, mas a falta de O₂ causada pela decomposição do excesso de biomassa.\n\n**A cadeia de eventos.** Nitrogênio e fósforo costumam ser os nutrientes que limitam o crescimento de algas. Com eles em excesso, as algas proliferam e formam uma camada densa na superfície (floração). Essa camada bloqueia a luz: algas e plantas das camadas inferiores deixam de fazer fotossíntese e morrem, e as próprias algas da floração também morrem em grande quantidade. Toda essa matéria orgânica (somada à que o próprio esgoto já traz) é decomposta por bactérias aeróbias, que consomem o O₂ dissolvido. O nível de O₂ cai e os peixes morrem por asfixia. Quando o O₂ se esgota, predominam bactérias anaeróbias, que liberam gases malcheirosos como o H₂S.\n\nAtalho: a \"conta\" do oxigênio fecha com os decompositores, e não com as algas vivas.\n\nPara lembrar: na eutrofização, o excesso de nutrientes provoca proliferação de algas, cuja morte e decomposição aeróbia esgotam o O₂ dissolvido.",
+    "erradas": [
+      "Inventa uma causa: nitrogênio e fósforo são nutrientes que estimulam o crescimento das algas, e não um veneno que as mata logo de início.",
+      "",
+      "A fotossíntese PRODUZ O₂, não o consome. O O₂ é consumido pela respiração (inclusive das algas, à noite) e, principalmente, pelos decompositores após a morte da biomassa.",
+      "Inverte causa e efeito: a proliferação de algas vem ANTES da queda de O₂, e é justamente a decomposição dessa biomassa que consome o oxigênio.",
+      "Bactérias anaeróbias não produzem O₂; elas proliferam quando o O₂ já acabou e liberam gases como H₂S e CH₄, que agravam o problema."
+    ]
+  },
+  {
+    "id": "BIO-007",
+    "materia": "biologia",
+    "tema": "Ecologia — produtividade e balanço de carbono",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Em ecologia, distinguem-se:\n• produtividade primária bruta (PPB): carbono fixado pela fotossíntese;\n• produtividade primária líquida (PPL): PPB menos a respiração dos próprios produtores (Rₐ);\n• produção líquida do ecossistema (PLE): PPL menos a respiração dos heterótrofos, sobretudo decompositores (Rₕ).\n\nA tabela traz dados hipotéticos de três áreas vizinhas, em toneladas de carbono por hectare por ano.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Fluxos de carbono (t C/ha/ano)",
+      "cabecalho": ["Área", "PPB", "Rₐ", "Rₕ"],
+      "linhas": [
+        ["Floresta secundária jovem", "30", "15", "8"],
+        ["Floresta madura", "40", "22", "17"],
+        ["Pastagem degradada", "12", "6", "7"]
+      ]
+    },
+    "enunciado": "Com base nesses dados, assinale a afirmação correta sobre o papel de cada área no balanço de CO₂ da atmosfera.",
+    "alternativas": [
+      "A floresta madura é a área que mais retira CO₂ da atmosfera, pois apresenta a maior produtividade primária bruta.",
+      "A floresta madura é a área que mais retira CO₂ da atmosfera, pois apresenta a maior produtividade primária líquida.",
+      "A pastagem degradada funciona como sumidouro de carbono, pois sua produtividade primária líquida é positiva.",
+      "A floresta secundária jovem é a área que mais retira CO₂ da atmosfera, acumulando cerca de 7 t de carbono por hectare por ano.",
+      "A floresta secundária jovem retira cerca de 30 t de carbono por hectare por ano da atmosfera, valor de sua fotossíntese."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que o efeito de um ecossistema sobre o CO₂ atmosférico é dado pelo SALDO: tudo o que é fixado na fotossíntese menos tudo o que volta à atmosfera pela respiração de todos os organismos.\n\n**Contas (PLE = PPB − Rₐ − Rₕ):**\nFloresta jovem: 30 − 15 − 8 = 7\nFloresta madura: 40 − 22 − 17 = 1\nPastagem degradada: 12 − 6 − 7 = −1\n\nA floresta jovem é o maior sumidouro: está em sucessão ecológica, acumulando biomassa (troncos, raízes, matéria orgânica do solo). A floresta madura, próxima do clímax, fixa muito carbono, mas também respira e decompõe muito: o saldo fica perto de zero. A pastagem degradada perde matéria orgânica e funciona como fonte de CO₂.\n\nIsso não significa que florestas maduras sejam pouco importantes para o clima: elas guardam um enorme estoque de carbono, que é liberado se forem derrubadas ou queimadas. Fluxo (quanto entra por ano) é diferente de estoque (quanto está guardado).\n\nPara lembrar: um ecossistema só é sumidouro de carbono quando a fotossíntese supera a soma da respiração dos produtores e dos heterótrofos.",
+    "erradas": [
+      "Usa um dado verdadeiro (a PPB da floresta madura, 40, é a maior) que não responde à pergunta: grande parte do que é fixado volta pela respiração. O saldo da floresta madura é só 40 − 22 − 17 = 1.",
+      "A PPL da floresta madura (18) é de fato a maior, mas a afirmação ignora a respiração dos decompositores (17), alta em um ecossistema com muita biomassa morta. O saldo real é 1.",
+      "Para no meio do caminho: a PPL é 6, mas a respiração dos heterótrofos (7) é maior. PLE = 12 − 6 − 7 = −1, ou seja, a pastagem libera mais CO₂ do que fixa: é uma FONTE de carbono.",
+      "",
+      "Confunde fotossíntese bruta com saldo: dos 30 t fixados, 15 voltam pela respiração das plantas e 8 pela dos decompositores. O acúmulo líquido é 7."
+    ]
+  },
+  {
+    "id": "BIO-008",
+    "materia": "biologia",
+    "tema": "Mudanças climáticas — deslocamento altitudinal de espécies",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": ["geografia"],
+    "texto": "Uma espécie de anfíbio vive apenas nos campos de altitude de uma serra isolada cujo cume está a 2 400 m. Hoje, a espécie ocorre entre 1 900 m e o cume; abaixo de 1 900 m, a temperatura é alta demais para ela. Considere que:\n• a temperatura média do ar diminui cerca de 0,6 °C a cada 100 m de subida;\n• a temperatura média regional deve aumentar 1,8 °C nas próximas décadas;\n• a espécie acompanha sua faixa de temperatura tolerável e não consegue atravessar as baixadas quentes para alcançar outras serras.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Mantidas essas condições, a faixa de altitude ocupada pela espécie passará a ter, aproximadamente,",
+    "alternativas": ["200 m.", "300 m.", "320 m.", "500 m.", "800 m."],
+    "correta": 0,
+    "explicacao": "O ponto aqui é traduzir o aquecimento em deslocamento vertical da faixa de temperatura que limita a espécie.\n\n**Passo 1.** Se a temperatura cai 0,6 °C a cada 100 m, um aquecimento de 1,8 °C equivale a subir 1,8/0,6 = 3 \"degraus\" de 100 m, ou seja, 300 m. A temperatura que hoje existe a 1 900 m passará a ser encontrada a 2 200 m.\n\n**Passo 2.** O limite inferior sobe para 2 200 m, mas o superior continua sendo o cume, a 2 400 m. Faixa restante: 2 400 − 2 200 = 200 m (antes eram 500 m).\n\nA perda de área é ainda maior do que a de altitude sugere, porque as montanhas se estreitam em direção ao topo: uma faixa de 100 m perto do cume tem menos área do que uma faixa mais baixa. Se o aquecimento continuar, a espécie é empurrada para o cume até não restar habitat adequado. Espécies de topos de montanhas isoladas, que não conseguem migrar para outras serras, estão entre as mais ameaçadas pelas mudanças climáticas.\n\nPara lembrar: com o aquecimento, as faixas climáticas sobem nas montanhas, e espécies de altitude perdem habitat porque o topo é um limite fixo.",
+    "erradas": [
+      "",
+      "300 m é o deslocamento do limite inferior (1,8/0,6 × 100 m), uma etapa intermediária, e não a largura da faixa que sobra.",
+      "Resulta de usar 1 °C a cada 100 m: o limite subiria 180 m, para 2 080 m, sobrando 320 m. O gradiente dado é 0,6 °C a cada 100 m.",
+      "Supõe que a faixa inteira apenas sobe mantendo a largura, esquecendo que o limite superior é o cume: não há para onde subir além de 2 400 m.",
+      "Erro de sinal: faz o limite inferior descer 300 m, para 1 600 m. Com o aquecimento, a temperatura que existia a 1 900 m passa a ocorrer 300 m mais acima, então o limite sobe."
+    ]
+  },
+  {
+    "id": "BIO-009",
+    "materia": "biologia",
+    "tema": "Fisiologia endócrina — glicemia, insulina e diabetes",
+    "nivel": "fuvest",
+    "origem": "Estilo livro (Amabis & Martho)",
+    "inter": [],
+    "texto": "Três pessoas em jejum ingeriram 75 g de glicose. Duas horas depois, mediram-se a glicemia e a concentração de insulina no sangue. Nesse teste, uma glicemia abaixo de 140 mg/dL é considerada normal, e uma de 200 mg/dL ou mais indica diabetes. A coluna da insulina compara cada pessoa com o esperado para alguém saudável na mesma situação. Dados hipotéticos.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Resultados duas horas após a ingestão de glicose",
+      "cabecalho": ["Pessoa", "Glicemia (mg/dL)", "Insulina"],
+      "linhas": [
+        ["I", "110", "normal"],
+        ["II", "290", "muito baixa"],
+        ["III", "250", "muito alta"]
+      ]
+    },
+    "enunciado": "A interpretação correta desses resultados é:",
+    "alternativas": [
+      "III tem hiperglicemia porque o excesso de insulina estimula o fígado a liberar glicose no sangue.",
+      "II tem resistência à insulina: produz o hormônio normalmente, mas suas células não respondem a ele.",
+      "III deve receber glucagon, hormônio que reduz a glicemia ao estimular a captação de glicose pelas células.",
+      "II e III têm o mesmo distúrbio e devem receber o mesmo tratamento, pois ambos apresentam glicemia acima de 200 mg/dL.",
+      "II tem produção deficiente de insulina pelas células beta do pâncreas; III produz insulina, mas suas células-alvo respondem pouco a ela."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é que a glicemia sozinha não revela a causa: é o nível de insulina que diferencia \"falta de hormônio\" de \"falta de resposta ao hormônio\".\n\n**A teoria por trás.** A glicemia é regulada por dois hormônios das ilhotas pancreáticas, de efeitos opostos. Após uma refeição, a glicemia sobe e as células beta liberam insulina, que facilita a entrada de glicose nas células (sobretudo músculos e tecido adiposo) e estimula o fígado e os músculos a armazená-la como glicogênio: a glicemia cai. No jejum, a glicemia cai e as células alfa liberam glucagon, que estimula o fígado a quebrar glicogênio e liberar glicose: a glicemia sobe. É um controle por retroalimentação negativa: o efeito de cada hormônio reduz o estímulo que provocou sua secreção.\n\n**Lendo a tabela.** I está normal (110 mg/dL). II tem hiperglicemia e quase não tem insulina: as células beta não produzem o hormônio em quantidade suficiente. É o padrão do diabetes tipo 1, em geral causado pela destruição autoimune dessas células; o tratamento exige insulina. III tem hiperglicemia apesar de insulina muito alta: o pâncreas responde, até em excesso, mas as células-alvo não reagem adequadamente ao hormônio. É o padrão da resistência à insulina, típica do diabetes tipo 2, frequentemente associada ao sedentarismo e ao excesso de gordura corporal.\n\n**Macete.** Glicemia alta + insulina baixa → problema de produção. Glicemia alta + insulina alta → problema de resposta.\n\nPara lembrar: a insulina reduz e o glucagon eleva a glicemia; no diabetes tipo 1 falta insulina, e no tipo 2 predomina a resistência das células à sua ação.",
+    "erradas": [
+      "Inverte causa e efeito: a insulina REDUZ a glicemia. Em III, a insulina está alta como RESPOSTA à glicemia elevada, que persiste porque as células não respondem bem ao hormônio.",
+      "Descreve o quadro de III, não o de II. Em II, a insulina está muito baixa, ou seja, o problema é de produção, e não de resposta.",
+      "O glucagon tem efeito oposto: estimula a quebra de glicogênio no fígado e ELEVA a glicemia. Aplicá-lo em III pioraria a hiperglicemia.",
+      "Glicemias parecidas não indicam a mesma causa: a insulina, muito baixa em II e muito alta em III, revela mecanismos diferentes, e só II depende obrigatoriamente de insulina.",
+      ""
+    ]
+  },
+  {
+    "id": "BIO-010",
+    "materia": "biologia",
+    "tema": "Sistema nervoso — transmissão na junção neuromuscular",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Em preparações de nervo e músculo esquelético de rã, o nervo foi estimulado eletricamente e registraram-se: a quantidade de acetilcolina (ACh) liberada pelo terminal do axônio, o tempo de permanência da ACh na fenda sináptica e a resposta do músculo. Cada preparação recebeu uma substância diferente (X, Y ou Z). Os resultados, qualitativos, comparam cada preparação com uma preparação sem tratamento.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Efeitos de X, Y e Z na junção neuromuscular",
+      "cabecalho": ["Substância", "ACh liberada", "Permanência da ACh na fenda", "Resposta do músculo"],
+      "linhas": [
+        ["X", "normal", "normal", "sem contração"],
+        ["Y", "quase nula", "—", "sem contração"],
+        ["Z", "normal", "muito prolongada", "contrações repetidas e espasmos"]
+      ]
+    },
+    "enunciado": "As substâncias X, Y e Z atuam, respectivamente,",
+    "alternativas": [
+      "impedindo a liberação de ACh; bloqueando os receptores de ACh da fibra muscular; inibindo a enzima que degrada a ACh.",
+      "bloqueando os receptores de ACh da fibra muscular; inibindo a enzima que degrada a ACh; impedindo a liberação de ACh.",
+      "bloqueando os receptores de ACh da fibra muscular; impedindo a liberação de ACh; inibindo a enzima que degrada a ACh.",
+      "inibindo a enzima que degrada a ACh; impedindo a liberação de ACh; estimulando a síntese de ACh.",
+      "impedindo a condução do impulso no axônio; impedindo a liberação de ACh; bloqueando os receptores de ACh da fibra muscular."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é seguir a transmissão neuromuscular etapa por etapa e ver em qual delas cada substância interrompe a sequência.\n\n**A sequência normal.** O impulso nervoso chega ao terminal do axônio → vesículas liberam ACh na fenda → a ACh se liga a receptores da membrana da fibra muscular → a fibra é despolarizada e contrai → a enzima acetilcolinesterase degrada a ACh na fenda, encerrando o sinal.\n\n**X:** liberação normal e remoção normal, mas nenhuma contração. O sinal químico existe, só não é \"lido\": os receptores estão bloqueados. É o modo de ação do curare, que causa paralisia flácida.\n\n**Y:** quase não há liberação de ACh. Sem neurotransmissor, não há contração. É o modo de ação da toxina botulínica.\n\n**Z:** liberação normal, mas a ACh permanece muito tempo na fenda, estimulando os receptores repetidamente: espasmos. A remoção falhou, ou seja, a acetilcolinesterase está inibida. É o modo de ação de inseticidas organofosforados e carbamatos.\n\nAtalho: para cada substância, procure a primeira coluna que difere do normal; a etapa correspondente é o alvo.\n\nPara lembrar: na junção neuromuscular, a falta de ACh liberada ou o bloqueio de seus receptores causa paralisia, enquanto impedir a degradação da ACh causa estimulação excessiva.",
+    "erradas": [
+      "Troca X e Y: se X impedisse a liberação, a ACh liberada não seria normal. É Y que mostra liberação quase nula.",
+      "Troca Y e Z: inibir a enzima que degrada a ACh prolonga sua permanência na fenda (dado de Z) e não anula a liberação (dado de Y).",
+      "",
+      "Se X inibisse a enzima, a ACh ficaria mais tempo na fenda e o músculo contrairia em excesso, e não deixaria de contrair. E mais síntese de ACh não explica a permanência prolongada na fenda vista com Z, que indica falha na remoção.",
+      "Se X bloqueasse a condução no axônio, o impulso não chegaria ao terminal e a ACh não seria liberada, mas a liberação foi normal. E bloquear receptores não causaria os espasmos observados com Z."
+    ]
+  },
+  {
+    "id": "BIO-011",
+    "materia": "biologia",
+    "tema": "Fisiologia respiratória — altitude e aclimatação",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": ["fisica"],
+    "texto": "Um atleta que vive ao nível do mar vai treinar por um mês em uma cidade a cerca de 3 600 m de altitude. Considere os dados aproximados abaixo, referentes ao ar atmosférico seco (desconsidere o vapor d'água).\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Ar atmosférico seco",
+      "cabecalho": ["Local", "Pressão atmosférica", "Fração de O₂ no ar"],
+      "linhas": [
+        ["Nível do mar", "760 mmHg", "21%"],
+        ["3 600 m", "490 mmHg", "21%"]
+      ]
+    },
+    "enunciado": "Sobre a pressão parcial de O₂ no ar e a resposta do organismo do atleta, é correto afirmar que a pressão parcial de O₂",
+    "alternativas": [
+      "cai de cerca de 160 mmHg para cerca de 103 mmHg; nos dias seguintes, os rins aumentam a secreção de eritropoetina, o que eleva a produção de hemácias.",
+      "cai porque a fração de O₂ no ar diminui para cerca de 13%; nos dias seguintes, os rins aumentam a secreção de eritropoetina, o que eleva a produção de hemácias.",
+      "cai de cerca de 160 mmHg para cerca de 103 mmHg; a hiperventilação imediata é desencadeada pelo acúmulo de CO₂ no sangue.",
+      "permanece em cerca de 160 mmHg, já que a fração de O₂ é a mesma; a adaptação depende apenas do aumento da frequência cardíaca.",
+      "cai de cerca de 160 mmHg para cerca de 103 mmHg; em poucos minutos, as hemácias circulantes se dividem, o que eleva o hematócrito."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é aplicar a lei de Dalton: a pressão parcial de um gás em uma mistura é a fração desse gás multiplicada pela pressão total.\n\n**Conta.** Nível do mar: 0,21 × 760 ≈ 160 mmHg. A 3 600 m: 0,21 × 490 ≈ 103 mmHg. A fração continua 21%; o ar está apenas mais rarefeito. Como a difusão do O₂ dos alvéolos para o sangue depende da diferença de pressão parcial, menos O₂ se liga à hemoglobina.\n\n**Respostas do organismo.** Imediatas (minutos a horas): a queda de O₂ no sangue arterial é detectada por quimiorreceptores (nas carótidas e na aorta), que estimulam o centro respiratório do bulbo; aumentam a frequência e a profundidade da respiração, e a frequência cardíaca também sobe. De médio prazo (dias a semanas): a hipóxia estimula os rins a secretar eritropoetina (EPO), hormônio que acelera a produção de hemácias na medula óssea vermelha; o hematócrito e a quantidade de hemoglobina aumentam. É por isso que atletas fazem treinamento em altitude.\n\nPara lembrar: na altitude, a porcentagem de O₂ no ar não muda, mas sua pressão parcial cai; a aclimatação inclui hiperventilação imediata e, em dias, aumento de hemácias estimulado pela eritropoetina.",
+    "erradas": [
+      "",
+      "Confunde fração com pressão parcial: a composição do ar é a mesma (21% de O₂); o que cai é a pressão total. O valor 13% vem de 103/760 e não é a fração de O₂ do ar na altitude.",
+      "Inverte o estímulo: na altitude, o estímulo inicial é a baixa pressão parcial de O₂ no sangue, detectada por quimiorreceptores. A hiperventilação, aliás, REDUZ o CO₂ no sangue.",
+      "Esquece que pressão parcial = fração × pressão total. Com a mesma fração e pressão total menor, a pressão parcial de O₂ cai.",
+      "Hemácias maduras de mamíferos não têm núcleo e não se dividem. O aumento delas vem da medula óssea vermelha, estimulada pela eritropoetina, e leva dias a semanas."
+    ]
+  },
+  {
+    "id": "BIO-012",
+    "materia": "biologia",
+    "tema": "Genética — heredograma, padrão de herança e probabilidade",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Uma doença genética rara é determinada por um único gene nuclear, com dois alelos e penetrância completa. Sobre duas famílias, sabe-se que:\n• Pedro não tem a doença; seus pais também não, mas sua irmã tem.\n• Ana não tem a doença; sua mãe também não, mas seu pai tem.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Pedro e Ana vão ter o primeiro filho. A probabilidade de que seja uma menina com a doença é",
+    "alternativas": ["1/24", "1/16", "1/12", "1/8", "1/6"],
+    "correta": 2,
+    "explicacao": "O ponto aqui é, primeiro, descobrir o padrão de herança pelos dados e, depois, usar a probabilidade condicional para Pedro.\n\n**1. Padrão de herança.** Os pais de Pedro são normais e têm uma filha afetada: o alelo da doença estava \"escondido\" neles, então a herança é recessiva. Se fosse recessiva ligada ao X, uma filha afetada precisaria receber o alelo da doença também do pai, que seria afetado; mas o pai de Pedro é normal. Logo, a herança é autossômica recessiva (a = alelo da doença).\n\n**2. Genótipos.** Os pais de Pedro são Aa × Aa. Pedro é normal, então não é aa; entre as combinações possíveis restantes (AA, Aa, aA), 2 de 3 são heterozigotas: P(Pedro Aa) = 2/3. Ana é normal e filha de pai aa: recebeu obrigatoriamente um alelo a, então é Aa com certeza.\n\n**3. Conta.** P(menina afetada) = P(Pedro Aa) × P(aa em Aa × Aa) × P(menina) = 2/3 × 1/4 × 1/2 = 1/12.\n\nArmadilha clássica: o 2/3 só aparece porque já se sabe que Pedro é normal. No caso de Ana, o fenótipo do pai elimina a dúvida.\n\nPara lembrar: um indivíduo normal, filho de dois heterozigotos, tem probabilidade 2/3 de ser heterozigoto; e um indivíduo normal com pai ou mãe afetado por doença autossômica recessiva é certamente heterozigoto.",
+    "erradas": [
+      "Trata Ana como heterozigota com probabilidade 1/2, mas ela é certamente heterozigota, pois recebeu um alelo recessivo do pai afetado. (2/3 × 1/2 × 1/4 × 1/2 = 1/24)",
+      "Usa 1/2 como probabilidade de Pedro ser heterozigoto. Sabendo que ele é normal, exclui-se o genótipo aa: sobram AA, Aa e aA, e a chance correta é 2/3. (1/2 × 1/4 × 1/2 = 1/16)",
+      "",
+      "Considera Pedro certamente heterozigoto, ignorando que ele pode ser AA. (1 × 1/4 × 1/2 = 1/8)",
+      "É a probabilidade de uma criança afetada de qualquer sexo; falta multiplicar por 1/2 para que seja menina. (2/3 × 1/4 = 1/6)"
+    ]
+  },
+  {
+    "id": "BIO-013",
+    "materia": "biologia",
+    "tema": "Genética — herança ligada ao sexo e probabilidade condicional",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["matematica"],
+    "texto": "A hemofilia A é uma doença de herança recessiva ligada ao cromossomo X. Clara não tem hemofilia, e seu pai também não; sua mãe não é afetada, mas o irmão de Clara é hemofílico. Clara casou-se com um homem não hemofílico, e o primeiro filho do casal, um menino, nasceu sem hemofilia.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Considerando todas as informações, inclusive o nascimento do primeiro filho, a probabilidade de que um segundo filho menino do casal seja hemofílico é",
+    "alternativas": ["1/8", "1/6", "1/4", "1/3", "1/2"],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que o primeiro filho normal é uma informação que altera a chance de Clara ser portadora. É um problema de probabilidade condicional.\n\n**1. Antes do primeiro filho.** O irmão de Clara é XʰY e recebeu o Xʰ da mãe, que é portadora (XᴴXʰ). O pai de Clara é XᴴY. Então Clara recebeu Xᴴ do pai e, da mãe, Xᴴ ou Xʰ: P(Clara XᴴXʰ) = 1/2 e P(Clara XᴴXᴴ) = 1/2. O marido não interfere nos filhos homens, que recebem dele apenas o Y.\n\n**2. Atualizando com o primeiro filho normal.**\nClara portadora e menino normal: 1/2 × 1/2 = 1/4.\nClara não portadora e menino normal: 1/2 × 1 = 1/2.\nTotal de casos com primeiro menino normal: 1/4 + 1/2 = 3/4.\nP(Clara portadora, dado o primeiro menino normal) = (1/4)/(3/4) = 1/3.\n\n**3. Segundo menino.** P(hemofílico) = 1/3 × 1/2 = 1/6.\n\nVerificação por contagem: imagine 4 \"Claras\" possíveis, 2 portadoras e 2 não. Das 2 portadoras, em média 1 tem o primeiro menino normal; das 2 não portadoras, as 2 têm. Entre essas 3, só 1 é portadora (1/3), e ela tem 1/2 de chance de ter o segundo menino hemofílico.\n\nPara lembrar: filhos homens recebem o cromossomo X apenas da mãe, e informações sobre filhos já nascidos podem alterar a probabilidade do genótipo materno (probabilidade condicional).",
+    "erradas": [
+      "Multiplica por 1/2 a chance de nascer menino, mas o enunciado já estabelece que o segundo filho é menino. (1/4 × 1/2 = 1/8)",
+      "",
+      "Ignora a informação do primeiro filho: 1/2 (Clara portadora) × 1/2 (transmitir o Xʰ). Essa conta só valeria antes do nascimento do primeiro menino.",
+      "É uma etapa intermediária: 1/3 é a probabilidade atualizada de Clara ser portadora. Falta multiplicar por 1/2, a chance de ela transmitir o Xʰ ao segundo filho.",
+      "Considera Clara certamente portadora. Mas, com mãe portadora e pai normal, Clara pode ser XᴴXᴴ, e o primeiro filho normal torna essa hipótese ainda mais provável."
+    ]
+  },
+  {
+    "id": "BIO-014",
+    "materia": "biologia",
+    "tema": "Genética — sistemas ABO e Rh; eritroblastose fetal",
+    "nivel": "fuvest",
+    "origem": "Estilo livro (Amabis & Martho)",
+    "inter": [],
+    "enunciado": "Uma mulher do grupo AB e Rh negativo, que em uma gestação anterior teve um filho Rh positivo e não recebeu a profilaxia adequada após o parto, casou-se com um homem do grupo B e Rh positivo, filho de mãe do grupo O e Rh negativo. A probabilidade de o casal ter uma criança do grupo B e Rh positivo e a situação dessa criança quanto à eritroblastose fetal são:",
+    "alternativas": [
+      "1/8; sem risco, pois a mãe AB não produz anticorpos anti-A nem anti-B.",
+      "1/4; sem risco, pois a mãe AB não produz anticorpos anti-A nem anti-B.",
+      "3/8; com risco, pois a mãe pode ter sido sensibilizada por hemácias Rh positivas do filho anterior.",
+      "1/4; com risco, pois a mãe pode ter sido sensibilizada por hemácias Rh positivas do filho anterior.",
+      "1/2; com risco, pois toda mulher Rh negativo possui anticorpos anti-Rh desde o nascimento."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é resolver os dois sistemas separadamente (são genes independentes) e multiplicar; depois, lembrar que a eritroblastose fetal típica é um problema do sistema Rh.\n\n**Genótipos.** Mulher AB e Rh negativo: IᴬIᴮ rr. Homem do grupo B e Rh positivo, filho de mãe O (ii) e Rh negativo (rr): ele recebeu obrigatoriamente i e r da mãe, então é Iᴮi Rr.\n\n**Sistema ABO.** IᴬIᴮ × Iᴮi → IᴬIᴮ (AB), Iᴬi (A), IᴮIᴮ (B), Iᴮi (B). P(grupo B) = 2/4 = 1/2. Lembre que Iᴬ e Iᴮ são codominantes entre si e ambos dominam o alelo i.\n\n**Sistema Rh.** rr × Rr → 1/2 Rr (Rh positivo) e 1/2 rr (Rh negativo).\n\n**Probabilidade conjunta.** 1/2 × 1/2 = 1/4.\n\n**A teoria por trás da eritroblastose.** Diferentemente dos anticorpos anti-A e anti-B, que surgem espontaneamente nos primeiros meses de vida, o anti-Rh só é produzido por uma pessoa Rh negativo depois de contato com hemácias Rh positivas. Isso costuma acontecer no parto de um filho Rh positivo, quando hemácias do feto passam para a circulação materna: a mãe produz anti-Rh e células de memória (sensibilização). Em uma gestação seguinte de feto Rh positivo, anticorpos anti-Rh atravessam a placenta e destroem as hemácias fetais, causando anemia, icterícia e liberação de eritroblastos (hemácias imaturas) no sangue, o que dá nome à doença. A prevenção consiste em aplicar na mãe Rh negativo, logo após o parto de um filho Rh positivo, soro com anti-Rh, que elimina as hemácias fetais antes que o sistema imune materno as reconheça.\n\nComo essa mulher não recebeu a profilaxia após o primeiro filho Rh positivo, pode estar sensibilizada, e uma nova criança Rh positivo corre risco.\n\nPara lembrar: em cruzamentos com dois genes independentes, calcule cada um separadamente e multiplique; a eritroblastose fetal ocorre em feto Rh positivo de mãe Rh negativo previamente sensibilizada.",
+    "erradas": [
+      "Erra a conta, contando só IᴮIᴮ como grupo B (1/4 × 1/2), e usa um argumento verdadeiro que não responde à pergunta: o risco em questão vem do sistema Rh, não do ABO.",
+      "A probabilidade está certa, mas a justificativa não responde ao problema: é verdade que a mãe AB não tem anti-A nem anti-B, mas o risco de eritroblastose vem do sistema Rh.",
+      "Usa 3/4 como chance de Rh positivo, como se a mãe fosse Rr. Ela é Rh negativo (rr), então a chance é 1/2. (1/2 × 3/4 = 3/8)",
+      "",
+      "Considera só o sistema ABO (1/2 de grupo B) e erra o conceito: anticorpos anti-Rh não são naturais; formam-se apenas após contato com hemácias Rh positivas."
+    ]
+  },
+  {
+    "id": "BIO-015",
+    "materia": "biologia",
+    "tema": "Evolução — filogenia e leitura de cladogramas",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Um cladograma pode ser escrito em notação de parênteses: cada par de parênteses reúne um grupo monofilético, isto é, um ancestral comum e todos os seus descendentes. A hipótese filogenética a seguir, aceita atualmente, relaciona sete grupos de vertebrados atuais:\n\n(lampreia, (tubarão, (sapo, (mamífero, (lagarto, (crocodilo, ave))))))\n\nTexto elaborado para esta questão.",
+    "enunciado": "De acordo com essa hipótese, é correto afirmar que",
+    "alternativas": [
+      "o grupo formado apenas por lagartos e crocodilos, que exclui as aves, é monofilético.",
+      "o sapo é o ancestral dos mamíferos, dos lagartos, dos crocodilos e das aves.",
+      "as aves são mais evoluídas que os crocodilos, pois ocupam o ramo mais recente do cladograma.",
+      "mamíferos e sapos formam um grupo monofilético que exclui os lagartos, pois ambos estão mais próximos da base da árvore.",
+      "os crocodilos compartilham um ancestral comum mais recente com as aves do que com os lagartos."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é que, em um cladograma, o parentesco é medido pelo ancestral comum mais recente, ou seja, pelo par de parênteses mais interno que contém os dois grupos.\n\n**Lendo os parênteses.** O par mais interno é (crocodilo, ave): esses dois compartilham um ancestral exclusivo. Em seguida vem (lagarto, (crocodilo, ave)); depois, o grupo que inclui o mamífero, correspondente aos amniotas; depois, o que inclui o sapo, correspondente aos tetrápodes; e assim por diante. Logo, o crocodilo é mais aparentado com a ave do que com o lagarto, embora se pareça mais com o lagarto. Essa semelhança externa se deve, em grande parte, a características herdadas de ancestrais mais antigos, e não a um parentesco exclusivo.\n\n**Grupos monofiléticos e parafiléticos.** Um grupo monofilético inclui um ancestral e TODOS os seus descendentes. \"Lagarto + crocodilo\" deixa de fora a ave, que descende do mesmo ancestral; é um grupo parafilético. Por isso, na sistemática filogenética, as aves são incluídas entre os répteis.\n\n**Armadilhas de leitura.** As pontas da árvore são grupos atuais, nunca ancestrais uns dos outros. E nenhum grupo atual é \"mais evoluído\": todos tiveram o mesmo tempo de evolução desde o ancestral comum.\n\nPara lembrar: num cladograma, o parentesco é dado pelo ancestral comum mais recente, e grupos monofiléticos incluem um ancestral e todos os seus descendentes.",
+    "erradas": [
+      "Lagartos + crocodilos sem as aves deixam de fora um descendente do ancestral comum de crocodilos e aves. É um grupo parafilético (como o dos répteis tradicionais), e não monofilético.",
+      "Todos os grupos nas pontas do cladograma são atuais; nenhum é ancestral de outro. O que o cladograma mostra são ancestrais comuns, representados pelos nós.",
+      "Todos os grupos atuais tiveram o mesmo tempo de evolução desde o ancestral comum. A posição na árvore indica parentesco, e não grau de evolução.",
+      "Não há par de parênteses que reúna só sapo e mamífero: o mamífero está agrupado com lagarto, crocodilo e ave (amniotas). Estar perto da base não indica parentesco entre dois grupos.",
+      ""
+    ]
+  },
+  {
+    "id": "BIO-016",
+    "materia": "biologia",
+    "tema": "Botânica — transporte de seivas (anel de Malpighi)",
+    "nivel": "fuvest",
+    "origem": "Estilo livro (Amabis & Martho)",
+    "inter": [],
+    "enunciado": "Em uma árvore, removeu-se, ao redor de todo o tronco, um anel de casca com alguns centímetros de altura, retirando todos os tecidos externos ao câmbio vascular, mas preservando o lenho. Nas semanas seguintes, espera-se que",
+    "alternativas": [
+      "as folhas continuem túrgidas por algum tempo, forme-se um intumescimento logo acima do anel e, com o tempo, as raízes morram.",
+      "as folhas murchem em poucas horas, pois o anel interrompe a subida da seiva bruta até a copa.",
+      "as folhas continuem túrgidas por algum tempo, forme-se um intumescimento logo abaixo do anel e, com o tempo, as folhas morram por falta de açúcares.",
+      "as raízes morram rapidamente por falta de água, já que a seiva bruta deixa de descer até elas.",
+      "nada se altere, pois a casca tem apenas função de proteção, e todo o transporte ocorre pelo lenho."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é saber onde fica cada tecido condutor no tronco e em que sentido cada seiva se move.\n\n**A teoria por trás.** No tronco de uma árvore, o câmbio vascular produz xilema secundário para dentro (o lenho, a madeira) e floema secundário para fora (que fica na casca). O xilema conduz a seiva bruta (água e sais minerais) das raízes até as folhas, puxada principalmente pela transpiração: a água que evapora nas folhas \"puxa\" a coluna líquida, que se mantém contínua graças à coesão entre as moléculas de água (teoria da coesão-tensão). O floema conduz a seiva elaborada (água e açúcares produzidos na fotossíntese) das regiões produtoras, como as folhas, para as regiões consumidoras ou de reserva, como as raízes. Segundo a hipótese do fluxo em massa, o acúmulo de açúcares no floema das folhas atrai água por osmose, gerando uma pressão que empurra a seiva em direção às regiões onde o açúcar é consumido.\n\n**Aplicando ao anel (anel de Malpighi).** Ao retirar a casca, retira-se o floema; o lenho fica intacto. Consequências: (1) a água continua subindo, então as folhas não murcham de imediato; (2) a seiva elaborada que desce da copa não consegue passar e se acumula logo acima do corte, formando um intumescimento; (3) as raízes deixam de receber açúcares, consomem suas reservas e acabam morrendo. Sem raízes funcionais, a absorção de água cessa e, por fim, a árvore toda morre.\n\nPara lembrar: o xilema (lenho) leva a seiva bruta das raízes para cima; o floema (na casca) leva a seiva elaborada das folhas para o restante da planta, inclusive as raízes.",
+    "erradas": [
+      "",
+      "Confunde os tecidos: a seiva bruta sobe pelo xilema (lenho), que foi preservado. Por isso as folhas continuam recebendo água por um bom tempo.",
+      "Inverte o sentido: a seiva elaborada desce das folhas para as raízes, então se acumula ACIMA do anel. As folhas produzem açúcares; quem fica sem eles são as raízes.",
+      "Erra o sentido e o tecido: a seiva bruta SOBE das raízes para as folhas pelo xilema, que está intacto. As raízes morrem, sim, mas por falta de matéria orgânica, e não de água.",
+      "A casca de uma árvore inclui o floema, que transporta a seiva elaborada. Retirá-la ao redor de todo o tronco interrompe esse transporte."
+    ]
+  },
+  {
+    "id": "BIO-017",
+    "materia": "biologia",
+    "tema": "Botânica — fotossíntese e fatores limitantes",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Ramos de uma planta aquática foram iluminados com diferentes intensidades de luz, em água com baixa ou com alta concentração de CO₂ dissolvido, à temperatura constante de 25 °C. Mediu-se a taxa de liberação de O₂ para a água, em unidades arbitrárias. Dados hipotéticos.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Taxa de liberação de O₂ (u.a.)",
+      "cabecalho": ["Intensidade luminosa (u.a.)", "CO₂ baixo", "CO₂ alto"],
+      "linhas": [
+        ["100", "10", "10"],
+        ["300", "25", "30"],
+        ["600", "26", "55"],
+        ["900", "26", "60"]
+      ]
+    },
+    "enunciado": "A partir dos dados, é correto concluir que",
+    "alternativas": [
+      "na intensidade luminosa 100, o fator limitante da fotossíntese é a concentração de CO₂.",
+      "o aumento da concentração de CO₂ eleva a taxa de liberação de O₂ em qualquer intensidade luminosa.",
+      "a taxa de liberação de O₂ medida corresponde à fotossíntese bruta das plantas.",
+      "na intensidade luminosa 600 com CO₂ baixo, o fator limitante é a concentração de CO₂, e não a luz.",
+      "acima da intensidade 600, a luz em excesso passa a inibir a fotossíntese quando o CO₂ é baixo."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é aplicar o conceito de fator limitante: em cada condição, a velocidade do processo é controlada pelo fator que está em menor disponibilidade relativa, e aumentar os demais não adianta.\n\n**Como identificar.** Mude um fator de cada vez e veja se a taxa responde.\n• Na intensidade 100, aumentar o CO₂ não muda nada (10 e 10), mas aumentar a luz para 300 eleva a taxa: ali a luz é limitante.\n• Com CO₂ baixo, a taxa praticamente para de subir a partir de 300 (25 → 26 → 26), mesmo com mais luz. Em 600, passar para CO₂ alto eleva a taxa de 26 para 55. Logo, nessa condição o limitante é o CO₂.\n• Com CO₂ alto, a taxa continua subindo até 900 (de 55 para 60, já mais devagar), pois o CO₂ deixou de ser o gargalo.\n\n**Sobre a medida.** Iluminada, a planta faz fotossíntese e respiração ao mesmo tempo. O O₂ liberado é o produzido na fotossíntese menos o consumido na respiração: corresponde à fotossíntese líquida (aparente).\n\nPara lembrar: o fator limitante é aquele cujo aumento eleva a taxa do processo; aumentar outros fatores não tem efeito enquanto ele não for suprido.",
+    "erradas": [
+      "Na intensidade 100, aumentar o CO₂ não altera a taxa (10 nos dois casos), então o CO₂ não é limitante ali. O fator limitante é a luz.",
+      "Generalização: na intensidade 100 não houve diferença entre CO₂ baixo e alto. O CO₂ só faz diferença quando a luz deixa de ser limitante.",
+      "Parte do O₂ produzido é consumida pela respiração da própria planta. O O₂ liberado corresponde à fotossíntese líquida (aparente), e não à bruta.",
+      "",
+      "Extrapolação: com CO₂ baixo, a taxa fica estável (26 em 600 e em 900), sem cair. Estabilizar não é o mesmo que ser inibida."
+    ]
+  },
+  {
+    "id": "BIO-018",
+    "materia": "biologia",
+    "tema": "Zoologia — osmorregulação em peixes",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "A tabela traz valores aproximados de concentração osmótica. O salmão é um peixe ósseo que nasce em rios, cresce no mar e volta aos rios para se reproduzir.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Concentração osmótica aproximada (mOsm/L)",
+      "cabecalho": ["Meio ou líquido corporal", "Concentração"],
+      "linhas": [
+        ["Água do mar", "≈ 1 000"],
+        ["Água de rio", "< 10"],
+        ["Sangue de peixe ósseo (no mar ou no rio)", "≈ 300 a 400"],
+        ["Sangue de tubarão", "≈ 1 050"]
+      ]
+    },
+    "enunciado": "Ao passar do mar para o rio, o salmão precisa inverter seu modo de osmorregulação. No rio, ele passa a",
+    "alternativas": [
+      "beber grande quantidade de água, pois perde água por osmose pelas brânquias, e eliminar o excesso de sais ativamente pelas brânquias.",
+      "beber pouca água, produzir grande volume de urina diluída e absorver sais ativamente pelas brânquias.",
+      "beber pouca água e produzir pequeno volume de urina mais concentrada que o próprio sangue, para reter água.",
+      "acumular ureia no sangue, tornando-o hiperosmótico em relação ao meio, como fazem os tubarões.",
+      "produzir grande volume de urina diluída e eliminar sais ativamente pelas brânquias, para não acumular os sais da água doce."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é comparar a concentração do sangue com a do meio: a água se move por osmose do meio menos concentrado para o mais concentrado, e o peixe precisa compensar esse fluxo.\n\n**No mar** (sangue ≈ 300–400 contra ≈ 1 000 do meio): o peixe ósseo é hipotônico, perde água pelas brânquias e ganha sais. Compensa bebendo água do mar, eliminando o excesso de sais ativamente pelas brânquias e produzindo pouca urina.\n\n**No rio** (sangue ≈ 300–400 contra < 10 do meio): o peixe é hipertônico, ganha água por osmose e perde sais por difusão. Compensa praticamente sem beber água, eliminando grande volume de urina diluída e absorvendo sais ativamente pelas brânquias, com gasto de ATP.\n\n**Tubarões** seguem outra estratégia: retêm ureia no sangue, que fica levemente hiperosmótico em relação à água do mar; assim, não perdem água por osmose. Essa estratégia funciona no mar, mas seria desvantajosa em um rio, onde só aumentaria a entrada de água.\n\nO salmão consegue viver nos dois ambientes porque suas brânquias e seus rins mudam de funcionamento ao longo da migração, que integra seu ciclo de vida: os ovos e os filhotes se desenvolvem nos rios, e o crescimento ocorre no mar.\n\nPara lembrar: peixes ósseos de água doce ganham água e perdem sais (urina abundante e diluída, absorção ativa de sais pelas brânquias); no mar, ocorre o contrário (bebem água e eliminam sais pelas brânquias).",
+    "erradas": [
+      "Descreve o peixe ósseo no MAR: lá o sangue é hipotônico em relação ao meio, e o peixe perde água, bebe água do mar e elimina sais pelas brânquias. No rio, ocorre o oposto.",
+      "",
+      "No rio, o problema é o excesso de água que entra por osmose, e não a falta. Além disso, peixes ósseos não produzem urina mais concentrada que o sangue.",
+      "Descreve corretamente os tubarões (peixes cartilaginosos marinhos), mas não o salmão. Em um rio, onde o meio já é muito diluído, acumular solutos aumentaria ainda mais a entrada de água.",
+      "Acerta a urina, mas inverte o transporte de sais: a água doce tem pouquíssimos sais, o peixe os perde por difusão e pela urina e precisa ABSORVÊ-LOS ativamente, e não eliminá-los."
+    ]
+  },
+  {
+    "id": "BIO-019",
+    "materia": "biologia",
+    "tema": "Doenças — parasitoses e saneamento básico",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Em uma comunidade sem coleta de esgoto, ocorrem as doenças listadas abaixo.\n\nI. Esquistossomose\nII. Ascaridíase\nIII. Doença de Chagas\nIV. Malária\nV. Ancilostomose\n\nA implantação de rede coletora e de tratamento de esgoto, sem nenhuma outra medida, contribui diretamente para reduzir a transmissão apenas de",
+    "alternativas": ["I e IV.", "II e V.", "I, II e V.", "I, II e IV.", "II, III e V."],
+    "correta": 2,
+    "explicacao": "O ponto aqui é identificar em quais ciclos as fezes humanas são a via de saída do parasita para o ambiente. Se o esgoto é coletado e tratado, essa etapa é interrompida.\n\n• **Esquistossomose (Schistosoma mansoni):** ovos eliminados nas fezes chegam à água e liberam miracídios, que infectam caramujos do gênero Biomphalaria; deles saem cercárias, que penetram ativamente a pele humana. Depende das fezes humanas: o esgoto tratado reduz a transmissão.\n• **Ascaridíase (Ascaris lumbricoides):** ovos eliminados nas fezes contaminam água, solo e alimentos e são ingeridos. Depende das fezes humanas: reduz.\n• **Ancilostomose (Ancylostoma duodenale e Necator americanus):** ovos eliminados nas fezes eclodem no solo; as larvas penetram a pele, em geral dos pés descalços. Depende das fezes humanas: reduz.\n• **Doença de Chagas (Trypanosoma cruzi):** transmitida pelas fezes do inseto barbeiro, depositadas na pele durante a picada, ou por alimentos contaminados pelo inseto. Não depende das fezes humanas.\n• **Malária (Plasmodium):** transmitida pela picada da fêmea do mosquito Anopheles. Não depende das fezes humanas.\n\nRepare que cada doença tem também outras medidas específicas: calçados contra a ancilostomose, combate ao barbeiro e melhoria das moradias contra a doença de Chagas, controle do mosquito e tratamento dos doentes contra a malária. O saneamento é uma medida poderosa, mas não resolve tudo.\n\nPara lembrar: o saneamento básico interrompe os ciclos em que o parasita sai do hospedeiro pelas fezes humanas, como os da esquistossomose, da ascaridíase e da ancilostomose.",
+    "erradas": [
+      "Esquece a ascaridíase e a ancilostomose e inclui a malária, transmitida pela picada da fêmea do Anopheles, cujo ciclo não depende de fezes humanas.",
+      "Esquece a esquistossomose: os ovos de Schistosoma saem nas fezes humanas e, na água, liberam o miracídio que infecta o caramujo. Sem esgoto chegando aos rios e lagos, o ciclo é interrompido.",
+      "",
+      "Inclui a malária por associar o mosquito a água suja. A transmissão depende da picada do Anopheles, e não das fezes humanas; o esgoto não interrompe esse ciclo.",
+      "Inclui a doença de Chagas, cuja transmissão envolve as fezes do barbeiro, e não as humanas, e esquece a esquistossomose, que depende diretamente do esgoto lançado na água."
+    ]
+  },
+  {
+    "id": "BIO-020",
+    "materia": "biologia",
+    "tema": "Vacinas — imunidade coletiva",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": ["matematica"],
+    "texto": "O número básico de reprodução (R₀) de uma doença infecciosa é o número médio de novos casos gerados por um infectado em uma população totalmente suscetível. Se uma fração p da população estiver imune, cada infectado passa a gerar, em média, R₀ · (1 − p) novos casos. A transmissão tende a declinar quando esse número é menor que 1.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Para uma doença com R₀ = 2,5, existe uma vacina que impede a infecção em 75% dos vacinados e não protege os demais. Supondo que ninguém tenha imunidade prévia, a cobertura vacinal acima da qual a transmissão tende a declinar é de",
+    "alternativas": ["40%.", "45%.", "60%.", "75%.", "80%."],
+    "correta": 4,
+    "explicacao": "O ponto aqui é separar duas coisas: a fração da população que precisa estar imune e a fração que precisa ser vacinada para atingir essa imunidade.\n\n**Passo 1 — limiar de imunidade.** A transmissão declina quando R₀ · (1 − p) < 1, ou seja, 1 − p < 1/R₀, isto é, p > 1 − 1/R₀. Com R₀ = 2,5: 1/R₀ = 0,4 e p > 0,6. Mais de 60% das pessoas precisam estar imunes.\n\n**Passo 2 — corrigir pela eficácia.** Se a cobertura vacinal é c, a fração imune é 0,75 · c. Então 0,75 · c > 0,6 → c > 0,6/0,75 = 0,8. É preciso vacinar mais de 80% da população.\n\n**Por que isso protege quem não foi vacinado?** Com poucos suscetíveis, cada infectado encontra menos pessoas que podem adoecer, e as cadeias de transmissão se interrompem. Isso protege recém-nascidos, imunodeprimidos e pessoas em quem a vacina não funcionou. A vacina promove imunização ativa: o organismo produz anticorpos e células de memória. Já o soro fornece anticorpos prontos, com proteção imediata, mas temporária.\n\nAtalho: cobertura mínima = (1 − 1/R₀)/eficácia. Quanto maior o R₀ e menor a eficácia, maior a cobertura exigida.\n\nPara lembrar: a imunidade coletiva exige uma fração imune maior que 1 − 1/R₀, e a cobertura vacinal necessária aumenta quando a eficácia da vacina é menor.",
+    "erradas": [
+      "Usa 1/R₀ = 0,4, que é a fração máxima que pode permanecer suscetível, e não a fração que precisa estar imune.",
+      "Multiplica o limiar pela eficácia (0,60 × 0,75 = 0,45) em vez de dividir. Com uma vacina menos eficaz, é preciso vacinar MAIS gente, e não menos.",
+      "É a fração da população que precisa estar IMUNE (1 − 1/R₀), mas a vacina protege só 75% dos vacinados; falta corrigir pela eficácia.",
+      "Confunde a eficácia da vacina com a cobertura necessária; os 75% não dependem do R₀ da doença e não respondem à pergunta.",
+      ""
+    ]
+  }
+]

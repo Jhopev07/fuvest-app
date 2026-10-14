@@ -1,0 +1,480 @@
+[
+  {
+    "id": "FIL-001",
+    "materia": "filosofia",
+    "tema": "Filosofia antiga — Aristóteles (quatro causas) e a seleção natural",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": ["biologia"],
+    "texto": "Texto 1 — Conhecer algo é saber por que ele é como é. Para isso, é preciso indicar de que a coisa é feita, qual é a sua forma, o que a produziu e qual é o fim em vista do qual ela existe. Nos seres vivos, esse último ponto é decisivo: os dentes da frente nascem afiados, próprios para cortar, e os de trás nascem largos, próprios para triturar o alimento; isso acontece sempre ou quase sempre, e o que acontece com tal regularidade não pode ser obra do acaso. A natureza, portanto, nada faz em vão.\n(Adaptado de ideias de Aristóteles.)\n\nTexto 2 — Em qualquer população surgem variações hereditárias entre os indivíduos. Aquelas que, em determinado ambiente, aumentam as chances de sobreviver e deixar descendentes tendem a se tornar mais frequentes ao longo das gerações. Assim, estruturas ajustadas a uma função podem se acumular sem que nenhum agente as tenha planejado para isso.\n(Texto elaborado para esta questão, com base na teoria da seleção natural de Charles Darwin.)",
+    "enunciado": "Confrontando os dois textos, é correto afirmar que a explicação darwiniana para o formato dos dentes",
+    "alternativas": [
+      "confirma a tese aristotélica de que cada espécie possui uma forma fixa e eterna, já que os dentes conservam a mesma função ao longo das gerações.",
+      "mantém a constatação de que as estruturas são ajustadas a funções, mas dispensa a causa final: o ajuste é resultado de variação e reprodução diferencial, e não um fim que orienta o processo.",
+      "substitui a causa final pelo esforço do próprio organismo, que, ao usar repetidamente os dentes para cortar, torna-os mais afiados e transmite essa mudança aos filhos.",
+      "nega que os dentes tenham qualquer função, reduzindo a explicação à causa material, isto é, aos tecidos de que eles são formados.",
+      "atribui o formato dos dentes ao acaso puro, como se cada geração surgisse com estruturas inteiramente novas, sem relação com o ambiente."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é separar duas coisas que o Texto 1 junta: a **constatação** de que as estruturas dos seres vivos são adequadas a funções e a **explicação** dessa adequação por uma causa final (um \"para quê\" que orienta a natureza).\n\nPara Aristóteles, explicar algo exige quatro causas: material (de que é feito), formal (o que é), eficiente (o que o produziu) e final (para que existe). Nos seres vivos, a causa final tem peso especial: a regularidade com que os dentes surgem adequados à função seria sinal de que a natureza age em vista de fins.\n\nDarwin não nega a adequação — dentes afiados de fato cortam melhor. O que muda é o mecanismo: variações hereditárias surgem sem estar dirigidas a nenhuma finalidade; o ambiente \"filtra\" essas variações, porque os portadores das mais vantajosas deixam mais descendentes. A função passa a ser **consequência** do processo, e não sua causa. Por isso se diz que a seleção natural explica a aparência de finalidade sem recorrer a um fim que orienta a natureza.\n\nRepare na sutileza: a variação é aleatória em relação às necessidades do organismo, mas a seleção não é aleatória — ela depende do ambiente. Isso derruba tanto a leitura de \"acaso puro\" quanto a leitura lamarckista do esforço do organismo.\n\nPara lembrar: a seleção natural preserva a ideia de adaptação, mas troca a causa final aristotélica por variação hereditária somada à reprodução diferencial.",
+    "erradas": [
+      "Inverte a relação: a teoria darwiniana é justamente uma crítica ao fixismo; as espécies se transformam ao longo do tempo, e a manutenção de uma função não implica forma eterna.",
+      "",
+      "Descreve o mecanismo lamarckista (uso e desuso e herança de caracteres adquiridos), que ainda é teleológico; Darwin explica pela seleção de variações que já existiam na população.",
+      "Extrapola o Texto 2: Darwin não nega a função das estruturas, apenas muda a explicação de como o ajuste surgiu; ele não reduz tudo à causa material.",
+      "Confunde variação aleatória com processo aleatório: a seleção natural não é acaso, pois o ambiente favorece de modo sistemático as variações vantajosas, que se acumulam gradualmente."
+    ]
+  },
+  {
+    "id": "FIL-002",
+    "materia": "filosofia",
+    "tema": "Filosofia medieval — Agostinho e A Cidade de Deus",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["historia"],
+    "texto": "Em 410, Roma foi saqueada pelos visigodos. Muitos pagãos acusaram os cristãos: ao abandonar os antigos deuses, o Império teria perdido a proteção divina. Em resposta, um bispo do norte da África escreveu uma longa obra na qual afirma que dois amores fundaram duas cidades: o amor de si levado até o desprezo de Deus fundou a cidade terrena; o amor de Deus levado até o desprezo de si fundou a cidade celeste. Neste mundo, as duas cidades vivem misturadas, e só no fim dos tempos serão separadas. A história, por sua vez, não gira em ciclos que se repetem: ela tem começo, na criação, e caminha para um fim.\n(Adaptado de ideias de Agostinho de Hipona, em A Cidade de Deus.)",
+    "enunciado": "A partir do texto, é correto concluir que, para Agostinho,",
+    "alternativas": [
+      "a queda de Roma comprovava que o cristianismo havia enfraquecido o Império, razão pela qual a Igreja deveria se afastar da vida política.",
+      "a cidade celeste se identifica com o Império Romano cristianizado, de modo que o saque de Roma representava a derrota da própria comunidade dos fiéis.",
+      "a história humana repete ciclos de ascensão e queda, como ensinavam filósofos gregos, e o saque de Roma era apenas mais uma volta desse ciclo.",
+      "as duas cidades se distinguem pela orientação da vontade, e não por fronteiras políticas; por isso, o destino da fé não depende da sorte de nenhum império terreno.",
+      "a Igreja deveria substituir o imperador no governo temporal, pois somente o poder eclesiástico seria capaz de evitar novas invasões."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que as \"duas cidades\" de Agostinho não são territórios nem instituições: são definidas por **dois amores**, isto é, pela direção da vontade humana — voltada para si mesma ou voltada para Deus.\n\nO contexto ajuda a ler o texto. O saque de Roma pelos visigodos, em 410, abalou o mundo romano, e pagãos culparam o abandono dos deuses tradicionais. A resposta de Agostinho desloca o problema: como a cidade celeste não coincide com Roma, a queda de Roma não atinge a comunidade dos que amam a Deus. Impérios terrenos surgem e desaparecem; a fé não depende deles.\n\nComo as duas cidades estão misturadas na história, nem mesmo a Igreja visível coincide perfeitamente com a cidade celeste; a separação só ocorrerá no fim dos tempos. Daí também a concepção **linear** da história — da criação ao juízo final —, que o próprio texto opõe à ideia de ciclos que se repetem, comum no pensamento greco-romano.\n\nPara lembrar: em Agostinho, a cidade de Deus e a cidade terrena distinguem-se pelo amor que orienta a vontade, e a história é linear, não cíclica.",
+    "erradas": [
+      "Atribui a Agostinho a acusação pagã que ele pretendia refutar; a obra foi escrita justamente para negar que o cristianismo fosse responsável pela queda de Roma.",
+      "Confunde a cidade celeste com uma instituição política; para Agostinho, nenhum império terreno, mesmo cristão, se identifica com a cidade de Deus.",
+      "Contradiz o texto: Agostinho rejeita a concepção cíclica e propõe uma história linear, com começo na criação e fim no juízo final.",
+      "",
+      "Extrapolação anacrônica: a defesa da supremacia do poder eclesiástico sobre o temporal ganhou força com autores medievais posteriores, nas disputas entre papado e império; o texto não propõe a Igreja como governo."
+    ]
+  },
+  {
+    "id": "FIL-003",
+    "materia": "filosofia",
+    "tema": "Filosofia política — contratualistas (Hobbes, Locke, Rousseau)",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "I. Assim como ninguém pode transferir a outro a própria vontade, a soberania do povo não admite procuradores. Os escolhidos para tratar dos assuntos públicos são apenas encarregados, e uma norma que não recebeu a aprovação do conjunto dos cidadãos não obriga ninguém.\n\nII. Enquanto não existir um poder comum capaz de manter todos em respeito, cada um viverá pronto para o confronto, e não haverá lugar para a agricultura, o comércio ou as ciências, pois ninguém terá certeza de colher o fruto do próprio trabalho. Por isso, os homens transferem seus direitos a um soberano cuja autoridade não pode ser dividida.\n\nIII. Mesmo antes de existir governo, os homens já estão submetidos a uma lei natural que ensina que ninguém deve prejudicar outro em sua vida, saúde, liberdade ou posses. O governo é instituído para proteger melhor esses direitos; se os viola, o povo pode retomar o poder que lhe confiou.\n\n(Textos adaptados de ideias de pensadores contratualistas dos séculos XVII e XVIII.)",
+    "enunciado": "Sobre os textos, é correto afirmar:",
+    "alternativas": [
+      "I, de Rousseau, recusa que a soberania seja representada; II, de Hobbes, funda um poder indivisível na insegurança do estado de natureza; III, de Locke, admite resistência ao governo que viola direitos naturais.",
+      "I, de Locke, recusa que a soberania seja representada; II, de Hobbes, funda um poder indivisível na insegurança do estado de natureza; III, de Rousseau, admite resistência ao governo que viola direitos naturais.",
+      "I, de Rousseau, sustenta que deputados eleitos expressam por si a vontade geral; II, de Hobbes, funda um poder indivisível na insegurança do estado de natureza; III, de Locke, admite resistência ao governo que viola direitos naturais.",
+      "I, de Rousseau, recusa que a soberania seja representada; II, de Hobbes, admite que os súditos deponham o soberano sempre que discordarem de suas leis; III, de Locke, admite resistência ao governo que viola direitos naturais.",
+      "I, de Rousseau, recusa que a soberania seja representada; II, de Hobbes, funda um poder indivisível na insegurança do estado de natureza; III, de Locke, sustenta que não há direitos antes da criação do Estado."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é reconhecer cada contratualista por sua tese mais característica — e não apenas por palavras soltas como \"povo\" ou \"soberano\".\n\n**Texto I — Rousseau.** A soberania é o exercício da vontade geral e, como a vontade não se transfere, ela não pode ser representada. Deputados seriam apenas comissários; a lei precisa ser ratificada pelo povo. É uma defesa da soberania popular direta.\n\n**Texto II — Hobbes.** Sem um poder comum, o estado de natureza é uma condição de guerra de todos contra todos, em que não há agricultura, comércio ou ciência, porque nada é seguro. O medo da morte violenta leva ao pacto, e o soberano resultante deve ter poder absoluto e indivisível. A única ressalva é a autopreservação: ninguém é obrigado a renunciar à defesa da própria vida — o que é muito diferente de depor o soberano por discordar das leis.\n\n**Texto III — Locke.** O estado de natureza já tem uma lei natural (a razão), e os direitos à vida, à liberdade e aos bens precedem o governo. O Estado existe para protegê-los; se os viola, rompe a confiança que o povo nele depositou, e surge o direito de resistência.\n\nMacete: \"guerra + poder indivisível\" → Hobbes; \"direitos naturais + resistência\" → Locke; \"vontade geral + soberania irrepresentável\" → Rousseau.\n\nPara lembrar: Hobbes troca liberdade por segurança, Locke funda o governo na proteção de direitos naturais e Rousseau faz da vontade geral uma soberania que não se representa.",
+    "erradas": [
+      "",
+      "Troca os autores de I e III: a recusa da representação é tese de Rousseau, e a lei natural que protege vida, liberdade e posses, com direito de resistência, é tese de Locke.",
+      "Inverte o sentido do Texto I: para Rousseau, os deputados são meros encarregados, e a lei não ratificada pelo povo é nula; a vontade geral não se transfere a representantes.",
+      "Atribui a Hobbes um direito de rebelião que ele não admite; o soberano hobbesiano é absoluto, e a única reserva do súdito é a defesa da própria vida, não a discordância das leis.",
+      "Contradiz o Texto III: para Locke, os direitos naturais existem antes do governo, que é criado justamente para protegê-los."
+    ]
+  },
+  {
+    "id": "FIL-004",
+    "materia": "filosofia",
+    "tema": "Lógica — validade, modus tollens e falácias",
+    "nivel": "fuvest",
+    "origem": "Estilo livro",
+    "inter": [],
+    "texto": "Durante um debate sobre uma campanha de vacinação contra a gripe, foram apresentados três argumentos:\n\nI. Se a campanha foi eficaz, então as internações por gripe diminuíram. As internações por gripe diminuíram. Logo, a campanha foi eficaz.\n\nII. Se a campanha foi eficaz, então as internações por gripe diminuíram. As internações por gripe não diminuíram. Logo, a campanha não foi eficaz.\n\nIII. O secretário que apresentou os dados sobre a campanha já foi multado por dirigir em alta velocidade. Logo, os dados que ele apresentou não merecem crédito.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considerando a forma lógica dos argumentos, é correto afirmar:",
+    "alternativas": [
+      "Os argumentos I e II são válidos, pois ambos partem da mesma premissa condicional e chegam a conclusões coerentes com ela.",
+      "Apenas o argumento I é válido, e o argumento II comete a falácia conhecida como negação do antecedente.",
+      "O argumento II é inválido, pois sua premissa condicional pode ser falsa, já que a gripe depende de outros fatores.",
+      "Apenas o argumento II é válido; I afirma o consequente, e III ataca a pessoa em vez de examinar os dados.",
+      "Apenas o argumento II é válido; I afirma o consequente, e III é um apelo indevido à autoridade de quem fala."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é lembrar que **validade** diz respeito à forma: um argumento é válido quando, se as premissas forem verdadeiras, a conclusão não pode ser falsa. Validade não garante que as premissas sejam de fato verdadeiras.\n\nChame \"a campanha foi eficaz\" de P e \"as internações diminuíram\" de Q. A premissa comum é \"se P, então Q\".\n\n**Argumento I:** se P, então Q; Q; logo, P. É a **afirmação do consequente**, forma inválida. As internações podem ter caído por outro motivo (um inverno mais ameno, por exemplo) mesmo que a campanha tenha sido ineficaz: premissas verdadeiras e conclusão falsa são compatíveis.\n\n**Argumento II:** se P, então Q; não Q; logo, não P. É o **modus tollens**, forma válida: se a eficácia garantisse a queda e a queda não ocorreu, a eficácia não pode ter ocorrido. Se o argumento convence ou não depende de a premissa condicional ser verdadeira — mas isso é questão de **solidez**, não de validade.\n\n**Argumento III:** desqualifica os dados pelo comportamento pessoal de quem os apresenta, que nada tem a ver com a qualidade das estatísticas. É a falácia **ad hominem**. O apelo à autoridade seria o movimento contrário: aceitar uma tese só por causa do prestígio de quem a defende.\n\nPara lembrar: com \"se P, então Q\", são válidos o modus ponens (P, logo Q) e o modus tollens (não Q, logo não P); afirmar o consequente e negar o antecedente são falácias.",
+    "erradas": [
+      "Confunde premissa comum com forma comum: I e II partem do mesmo condicional, mas I afirma o consequente (inválido) e II usa o modus tollens (válido).",
+      "Inverte as classificações: I é que é inválido (afirmação do consequente); II nega o consequente, e não o antecedente, e por isso é válido.",
+      "Confunde validade com solidez: a verdade das premissas não interfere na validade, que depende só da forma; II tem a forma válida do modus tollens.",
+      "",
+      "Classifica III de forma errada: ele não se apoia no prestígio de alguém para aceitar uma tese, e sim ataca a pessoa para rejeitar os dados, o que caracteriza o ad hominem."
+    ]
+  },
+  {
+    "id": "FIL-005",
+    "materia": "filosofia",
+    "tema": "Filosofia contemporânea — Arendt (banalidade do mal) e a ética de Kant",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["historia"],
+    "texto": "Ao acompanhar o julgamento de um funcionário nazista responsável pela logística das deportações de judeus para os campos de extermínio, a observadora esperava encontrar um monstro. Encontrou um homem comum, nem fanático nem sádico, preocupado com a própria carreira, que falava por frases feitas e jargões burocráticos e parecia incapaz de pensar a partir do ponto de vista de outra pessoa. Sua defesa repetia que ele apenas cumpria ordens e obedecia à lei vigente. O assustador, concluiu ela, não era a profundidade daquele mal, mas a sua superficialidade: um mal sem raízes demoníacas, que se espalha justamente pela ausência de reflexão.\n(Adaptado de ideias de Hannah Arendt sobre o julgamento de Adolf Eichmann, em Jerusalém, em 1961.)",
+    "enunciado": "Com base no texto e na ética de Kant, é correto afirmar que",
+    "alternativas": [
+      "a expressão \"banalidade do mal\" indica que os crimes julgados foram de pequena gravidade, já que seu autor não tinha intenções cruéis.",
+      "a ausência de motivações diabólicas isenta o réu de responsabilidade, uma vez que ele apenas executava decisões tomadas por superiores.",
+      "a obediência irrestrita à lei vigente realiza o imperativo categórico, pois agir por dever significa cumprir as normas do Estado em qualquer circunstância.",
+      "o texto atribui o mal a uma natureza sádica inata, revelada em condições excepcionais de guerra, o que explica a frieza do réu.",
+      "o mal descrito não exige perversidade excepcional, e a obediência invocada pelo réu é o oposto da autonomia kantiana, em que a razão do próprio sujeito formula a lei moral."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é entender o que Arendt quis dizer com **banalidade do mal**: não que o mal tenha sido pequeno, mas que ele não precisou de monstros. Atos de enorme gravidade foram cometidos por alguém comum, movido por carreira, rotina e obediência, e marcado pela **incapacidade de pensar** — de julgar por si e de se colocar no lugar do outro.\n\nIsso não significa absolvição. Arendt considerou o réu responsável: não ter refletido não apaga o que foi feito. A tese é inquietante justamente porque mostra que uma máquina burocrática pode transformar pessoas comuns em executoras de crimes em massa.\n\nA ponte com Kant vem pela ideia de **autonomia**. Para Kant, a ação moral é aquela em que o sujeito age segundo uma regra que sua própria razão reconhece como capaz de valer universalmente e que trata a humanidade sempre como fim, nunca apenas como meio. Agir só porque se recebeu uma ordem é **heteronomia**: a regra vem de fora, não do exame racional do próprio sujeito. \"Cumprir ordens\" é, portanto, o contrário do dever kantiano — e nenhuma regra que autorize enviar inocentes à morte passa no teste da universalização.\n\nPara lembrar: em Arendt, o mal pode nascer da ausência de pensamento, sem perversidade especial; em Kant, moralidade é autonomia da razão, não obediência a ordens.",
+    "erradas": [
+      "Leitura equivocada do termo: \"banal\" se refere à banalidade do agente e de suas motivações, não à gravidade dos crimes, que foram imensos.",
+      "Tira do texto uma conclusão que ele não autoriza: Arendt considerou o réu responsável, e a ausência de reflexão não o exime de culpa.",
+      "Confunde dever moral com obediência legal: em Kant, agir por dever é seguir a lei que a própria razão reconhece como universal; obedecer a ordens alheias sem exame é heteronomia.",
+      "Contradiz o texto, que afirma explicitamente que o réu não era sádico nem fanático; o assustador era justamente a sua normalidade.",
+      ""
+    ]
+  },
+  {
+    "id": "SOC-001",
+    "materia": "sociologia",
+    "tema": "Weber × Durkheim — ação social e fato social",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Considere três situações:\n\nI. Começa a chover em uma avenida movimentada, e dezenas de pedestres abrem seus guarda-chuvas ao mesmo tempo.\n\nII. Um aluno usa o uniforme exigido pela escola, embora preferisse outra roupa, porque sabe que seria advertido e olhado com estranheza pelos colegas caso não o usasse.\n\nIII. Dois ciclistas percebem que vão colidir em uma esquina, e cada um desvia levando em conta o movimento provável do outro.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "À luz dos conceitos de ação social, de Max Weber, e de fato social, de Émile Durkheim, é correto afirmar:",
+    "alternativas": [
+      "I é ação social, pois envolve muitas pessoas agindo da mesma maneira; III não é, pois os ciclistas não chegam a trocar palavras.",
+      "II não constitui fato social, pois o aluno preferiria outra roupa, o que mostra que a regra não é exterior a ele.",
+      "Para Durkheim, II deve ser explicado pelas preferências e motivos individuais do aluno, que são a base de qualquer fato social.",
+      "I e III são ações sociais, pois em ambos há indivíduos reagindo a um mesmo estímulo externo ao mesmo tempo.",
+      "I não é ação social, pois cada pedestre se orienta pela chuva, e não pela conduta dos outros; III é; II exemplifica a coerção exterior própria do fato social."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é não confundir comportamento **coletivo** com ação **social**. Para Weber, ação social é a conduta à qual o agente atribui um sentido orientado pelo comportamento de outros (passado, presente ou esperado). O número de pessoas não importa; importa a orientação.\n\n**Situação I:** os pedestres agem ao mesmo tempo, mas cada um reage à chuva, não aos outros. É o exemplo clássico do próprio Weber: uma reação homogênea a um mesmo estímulo natural não é ação social.\n\n**Situação III:** o simples choque entre ciclistas seria um evento natural; mas, ao desviar **levando em conta o movimento provável do outro**, cada um orienta sua conduta pela do outro. Isso é ação social — mesmo sem nenhuma palavra trocada.\n\n**Situação II:** para Durkheim, o fato social é **exterior** (existe antes e fora do indivíduo), **coercitivo** (impõe-se a ele) e **geral** (vale para o grupo). A coerção aparece com mais clareza justamente quando alguém gostaria de agir de outro modo e sente a sanção — a advertência formal e a reprovação dos colegas.\n\nRepare na diferença de método: Weber parte do sentido que o indivíduo dá à ação (sociologia compreensiva); Durkheim recomenda tratar os fatos sociais como coisas e explicá-los por outros fatos sociais, não por motivos individuais.\n\nPara lembrar: ação social (Weber) depende da orientação pela conduta do outro; fato social (Durkheim) se reconhece pela exterioridade, pela coerção e pela generalidade.",
+    "erradas": [
+      "Confunde simultaneidade com ação social e exige comunicação verbal: o que define a ação social é a orientação pela conduta alheia, presente em III e ausente em I.",
+      "Inverte o raciocínio de Durkheim: a coerção do fato social se manifesta exatamente quando o indivíduo preferiria agir de outro modo e sente a pressão da regra.",
+      "Atribui a Durkheim um método que ele recusa: fatos sociais devem ser explicados por outros fatos sociais, e não por motivações psicológicas individuais.",
+      "Reúne duas situações diferentes: em I há reação a um estímulo natural (a chuva); só em III cada agente orienta sua conduta pela do outro.",
+      ""
+    ]
+  },
+  {
+    "id": "SOC-002",
+    "materia": "sociologia",
+    "tema": "Durkheim — anomia e O Suicídio",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "Um pesquisador analisou, em um país hipotético X, as taxas de suicídio em quatro períodos consecutivos. Ele verificou que, ao longo de todo o intervalo, permaneceram praticamente estáveis a proporção de pessoas casadas, a filiação religiosa da população e a parcela de pessoas que moram sozinhas. Constatou também que, nos períodos 2 e 4, o aumento ocorreu tanto entre os que empobreceram quanto entre os que enriqueceram rapidamente.\n(Texto elaborado para esta questão; dados fictícios.)",
+    "tabela": {
+      "titulo": "País hipotético X (dados fictícios)",
+      "cabecalho": ["Período", "Situação econômica", "Variação anual do PIB", "Suicídios por 100 mil hab."],
+      "linhas": [
+        ["1", "Estabilidade", "+1%", "8"],
+        ["2", "Crise súbita", "−6%", "12"],
+        ["3", "Recuperação lenta", "+2%", "9"],
+        ["4", "Expansão súbita", "+9%", "12"]
+      ]
+    },
+    "enunciado": "À luz da teoria de Émile Durkheim sobre o suicídio, a interpretação mais adequada dos dados é a de que",
+    "alternativas": [
+      "a elevação nos períodos 2 e 4 expressa suicídio egoísta, causado pelo enfraquecimento dos laços familiares e religiosos durante as mudanças econômicas.",
+      "a elevação no período 2 decorre da miséria material, enquanto a do período 4 só pode ser explicada por causas psicológicas individuais.",
+      "as mudanças bruscas, de queda ou de expansão, desorganizam as normas que limitam aspirações e desejos, produzindo anomia e elevando a taxa de suicídio.",
+      "a expansão do período 4 deveria reduzir os suicídios, e a coincidência com o período 2 mostra que a taxa de suicídio não é um fato social.",
+      "a elevação nos períodos 2 e 4 expressa suicídio altruísta, típico de sociedades em que o indivíduo está excessivamente integrado ao grupo."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é filtrar as informações do texto para descobrir **qual variável social mudou**. A integração (família, religião, viver só) ficou estável; o que variou foi a **velocidade da mudança econômica**. Isso aponta para a regulação, e não para a integração.\n\nDurkheim distinguiu tipos de suicídio segundo duas dimensões: o grau de **integração** do indivíduo ao grupo (suicídio egoísta, quando é baixo; altruísta, quando é excessivo) e o grau de **regulação** que a sociedade exerce sobre os desejos (suicídio anômico, quando é insuficiente; fatalista, quando é opressivo).\n\nLeitura da tabela: os períodos de mudança lenta (1 e 3) têm taxas menores (8 e 9); os de mudança súbita (2 e 4) têm a mesma taxa elevada (12), seja a mudança para baixo, seja para cima. E o aumento atinge tanto quem empobreceu quanto quem enriqueceu, o que descarta uma explicação apenas pela pobreza.\n\nPara Durkheim, as transformações bruscas — inclusive a prosperidade repentina — desorganizam as normas que dizem a cada um o que é razoável desejar; as aspirações ficam sem limite, e a frustração cresce. Essa falta de regulação é a **anomia**. Note ainda o método: Durkheim estuda a **taxa** de suicídio de uma sociedade como fato social e a explica por causas sociais, e não pelos casos individuais.\n\nPara lembrar: o suicídio anômico decorre da falta de regulação, típica de mudanças bruscas — tanto crises quanto expansões súbitas.",
+    "erradas": [
+      "Ignora o dado de que família, religião e moradia permaneceram estáveis; o suicídio egoísta se liga à baixa integração, que o texto mostra não ter mudado.",
+      "Explica só metade da tabela pela pobreza e abandona o método durkheimiano: o aumento também ocorreu entre os que enriqueceram, e a taxa deve ser explicada por causas sociais.",
+      "",
+      "Parte do senso comum de que prosperidade reduz suicídios; Durkheim mostrou justamente que expansões súbitas também elevam a taxa, que é um fato social.",
+      "Troca o eixo da explicação: o suicídio altruísta resulta de integração excessiva, típica de grupos muito coesos, e não de mudanças econômicas com integração estável."
+    ]
+  },
+  {
+    "id": "SOC-003",
+    "materia": "sociologia",
+    "tema": "Marx — mais-valia absoluta e relativa",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": ["historia"],
+    "texto": "Em uma fábrica, a jornada de trabalho é de 8 horas diárias. Nas primeiras 4 horas, o operário produz um valor equivalente ao seu salário (o valor da força de trabalho); nas 4 horas restantes, produz valor que é apropriado pelo capitalista. Considere dois cenários:\n\nCenário A: a jornada é ampliada para 10 horas, sem alteração do salário nem da produtividade.\n\nCenário B: a jornada permanece de 8 horas, mas a mecanização barateia os bens que os trabalhadores consomem, de modo que o valor do salário passa a ser produzido em apenas 2 horas.\n\nNo século XIX, leis fabris inglesas passaram a limitar a duração da jornada, após longas lutas operárias.\n(Texto elaborado para esta questão, com base em conceitos de Karl Marx.)",
+    "enunciado": "Definindo a taxa de mais-valia como a razão entre o trabalho excedente e o trabalho necessário, é correto afirmar:",
+    "alternativas": [
+      "A eleva a taxa a 150% (mais-valia absoluta); B a eleva a 300% (mais-valia relativa), estratégia que ganha importância quando a lei limita a jornada.",
+      "A eleva a taxa a 150% (mais-valia relativa); B a eleva a 300% (mais-valia absoluta), pois a mecanização exige maior esforço físico do operário.",
+      "A eleva a taxa a 60% e B, a 75%, pois a taxa de mais-valia mede a fração da jornada total que é apropriada pelo capitalista.",
+      "A eleva a taxa a 150% (mais-valia absoluta); B mantém a taxa em 100%, pois a duração da jornada de trabalho não foi alterada.",
+      "A eleva a taxa a 150% (mais-valia absoluta); B reduz a exploração, pois o operário passa a produzir seu salário em menos tempo."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é dividir a jornada em duas partes: **trabalho necessário** (tempo em que o operário reproduz o valor do próprio salário) e **trabalho excedente** (tempo em que produz valor a mais, apropriado pelo capitalista — a mais-valia). A taxa de mais-valia é excedente ÷ necessário.\n\n**Situação inicial:** 4 h necessárias + 4 h excedentes → taxa = 4/4 = 100%.\n\n**Cenário A:** jornada de 10 h, trabalho necessário ainda de 4 h → excedente = 10 − 4 = 6 h → taxa = 6/4 = 150%. O aumento veio do **prolongamento da jornada**: é a **mais-valia absoluta**.\n\n**Cenário B:** jornada de 8 h, trabalho necessário cai para 2 h → excedente = 8 − 2 = 6 h → taxa = 6/2 = 300%. A jornada não mudou; o que mudou foi a divisão interna dela, porque o aumento da produtividade (mecanização) reduziu o valor dos bens que compõem o salário. É a **mais-valia relativa**.\n\nA relação com a História: quando as lutas operárias e as leis fabris do século XIX limitaram a jornada, o caminho de A ficou bloqueado. O capital passou a depender cada vez mais de B — inovação técnica, maquinaria, intensificação do trabalho —, o que ajuda a entender o ritmo de mecanização da Revolução Industrial.\n\nCuidado com a armadilha: o fato de o operário produzir seu salário em menos tempo **não** reduz a exploração; aumenta-a, porque cresce a parte da jornada em que ele trabalha para o capitalista.\n\nPara lembrar: a mais-valia absoluta vem do prolongamento da jornada; a relativa, da redução do trabalho necessário pelo aumento da produtividade.",
+    "erradas": [
+      "",
+      "Os números estão certos, mas os conceitos estão trocados: prolongar a jornada gera mais-valia absoluta, e reduzir o trabalho necessário pela produtividade gera mais-valia relativa.",
+      "Divide o excedente pela jornada inteira (6/10 e 6/8), e não pelo trabalho necessário; a definição dada no enunciado é excedente ÷ necessário.",
+      "Supõe que só o prolongamento da jornada aumenta a exploração; em B, o trabalho necessário cai de 4 h para 2 h, e o excedente sobe de 4 h para 6 h.",
+      "Inverte a consequência: produzir o salário em menos tempo aumenta o trabalho excedente dentro da mesma jornada e, portanto, eleva a taxa de exploração."
+    ]
+  },
+  {
+    "id": "SOC-004",
+    "materia": "sociologia",
+    "tema": "Cultura — etnocentrismo e relativismo",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": ["historia"],
+    "texto": "Pelo que ouvi dizer sobre os povos da terra recém-descoberta além do oceano, nada há neles de bárbaro ou selvagem, a não ser que cada um chama de barbárie aquilo que não pertence a seus próprios costumes. Condenamos esses povos por comerem os inimigos mortos, mas não vemos barbárie maior em despedaçar por torturas um corpo ainda vivo, como vimos fazer há pouco, entre vizinhos e concidadãos, sob o pretexto da piedade e da religião.\n(Adaptado de ideias de Michel de Montaigne, no ensaio Dos canibais, escrito na França do século XVI.)",
+    "enunciado": "Considerando o texto e o contexto em que foi escrito, é correto afirmar que o autor",
+    "alternativas": [
+      "adota um relativismo absoluto, segundo o qual nenhum costume pode ser julgado, já que todos os costumes têm o mesmo valor.",
+      "critica o etnocentrismo europeu e usa o contraste com os indígenas como espelho para condenar a violência das guerras religiosas em seu próprio país.",
+      "defende que os indígenas se encontram em uma etapa anterior da evolução social, pela qual os europeus já teriam passado.",
+      "idealiza os indígenas para justificar a missão de catequizá-los e integrá-los à civilização cristã europeia.",
+      "reconhece a superioridade dos costumes europeus, embora admita que os indígenas possam ser civilizados pela educação."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber o movimento duplo do texto: primeiro, ele desmonta a noção de \"bárbaro\"; depois, vira o olhar para a própria Europa.\n\n**Etnocentrismo** é julgar outras culturas tomando os valores do próprio grupo como medida universal. O texto denuncia exatamente isso: chamamos de barbárie o que não é nosso costume. É uma crítica que antecipa, em vários séculos, preocupações centrais da antropologia.\n\nMas atenção: o autor não abandona todo julgamento. Ele compara e conclui que torturar vivos é **pior** do que comer mortos. Portanto, não há relativismo absoluto; há uma inversão crítica que usa o \"outro\" para expor a crueldade europeia.\n\nO contexto confirma a leitura: Montaigne escreveu durante as guerras de religião entre católicos e protestantes na França, na segunda metade do século XVI, marcadas por massacres entre \"vizinhos e concidadãos\" — como diz o texto — em nome da fé.\n\nPara lembrar: criticar o etnocentrismo é recusar que os costumes de um grupo sejam a medida de todos os outros — o que não equivale a renunciar a qualquer juízo moral.",
+    "erradas": [
+      "Exagera o relativismo do texto: o autor julga, sim, e considera a tortura de vivos mais bárbara do que a antropofagia; ele critica o critério etnocêntrico, não todo juízo.",
+      "",
+      "Anacronismo: a ideia de etapas evolutivas da sociedade pertence ao evolucionismo social do século XIX e contraria o texto, que nega a barbárie indígena.",
+      "Atribui ao texto um projeto colonizador que ele não apresenta; a comparação serve para criticar a sociedade europeia, e não para justificar a catequese.",
+      "Inverte o sentido do texto, que nega a superioridade europeia e aponta a crueldade dos próprios europeus nas guerras religiosas."
+    ]
+  },
+  {
+    "id": "SOC-005",
+    "materia": "sociologia",
+    "tema": "Trabalho e mídia — indústria cultural (Escola de Frankfurt)",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "texto": "Texto 1 — Os filmes, as canções e os programas de rádio são hoje fabricados em série, como qualquer outra mercadoria. As pequenas diferenças entre um produto e outro servem para dar ao consumidor a impressão de escolha, mas todos seguem as mesmas fórmulas. Para o trabalhador, a diversão aparece como fuga da rotina mecanizada; no entanto, ela é organizada segundo os mesmos padrões e ritmos da fábrica e serve, sobretudo, para recompor as forças necessárias ao dia seguinte de trabalho.\n(Adaptado de ideias de Theodor Adorno e Max Horkheimer, em meados do século XX.)\n\nTexto 2 — Uma plataforma de vídeos sob demanda registra o que cada usuário assiste e oferece recomendações personalizadas. A maior parte das séries mais vistas tem episódios de duração semelhante, termina cada episódio com um gancho para o próximo, e o episódio seguinte começa automaticamente em poucos segundos.\n(Texto elaborado para esta questão.)",
+    "enunciado": "Com base no Texto 1, uma leitura coerente da situação descrita no Texto 2 é a de que",
+    "alternativas": [
+      "a personalização das recomendações refuta a crítica dos autores, já que cada usuário passa a receber um conjunto diferente de produtos culturais.",
+      "a reprodução técnica, ao dissolver a aura da obra única, abre à arte de massas um potencial emancipatório, como defendem os autores.",
+      "a plataforma expressa a cultura popular espontânea dos trabalhadores, que finalmente produzem e distribuem seus próprios bens culturais.",
+      "a personalização pode ser lida como diferenciação superficial de produtos padronizados, e o encadeamento automático, como lazer organizado segundo a lógica da produção.",
+      "o tempo livre se torna, enfim, o oposto do trabalho, pois o espectador escolhe com autonomia o que assistir e por quanto tempo."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é aplicar três ideias do Texto 1 a um fenômeno atual: **padronização**, **pseudoindividualização** (diferenças de detalhe que dão a impressão de escolha) e **lazer como prolongamento do trabalho**.\n\nAdorno e Horkheimer criaram o conceito de **indústria cultural** para designar a produção de bens culturais como mercadorias, em série, segundo fórmulas previsíveis. O termo foi escolhido para afastar a ideia de que essa cultura brotaria espontaneamente das massas: ela é produzida por grandes empresas e distribuída para as massas.\n\nNo Texto 2: episódios de duração semelhante e ganchos de fim de episódio são fórmulas repetidas; a recomendação personalizada varia a combinação dos produtos, mas dentro do mesmo padrão — é a impressão de escolha de que fala o Texto 1. O episódio seguinte que começa sozinho organiza o tempo livre como um fluxo contínuo, próximo da lógica da linha de produção.\n\nRepare na armadilha mais sofisticada: a ideia de perda da \"aura\" e a valorização do potencial emancipatório da reprodução técnica são de Walter Benjamin, autor próximo da Escola de Frankfurt, mas cuja avaliação do cinema e da arte de massas é bem mais otimista que a de Adorno e Horkheimer.\n\nPara lembrar: indústria cultural é a produção padronizada de cultura como mercadoria, que oferece pseudoescolhas e organiza o lazer segundo a lógica do trabalho.",
+    "erradas": [
+      "Toma a variação superficial como prova de diversidade real; para os autores, pequenas diferenças entre produtos padronizados são justamente o que cria a ilusão de escolha.",
+      "Atribui aos autores a tese de Walter Benjamin sobre a perda da aura e o potencial emancipatório da arte reprodutível; Adorno e Horkheimer são bem mais críticos.",
+      "Confunde indústria cultural com cultura popular: o conceito se refere a bens produzidos por grandes empresas para as massas, e não a uma criação espontânea delas.",
+      "",
+      "Inverte a tese do Texto 1, segundo a qual a diversão é organizada pelos mesmos padrões da produção e serve para recompor as forças para o trabalho."
+    ]
+  },
+  {
+    "id": "ART-001",
+    "materia": "arte",
+    "tema": "Renascimento — perspectiva linear",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["matematica"],
+    "texto": "Na pintura do Renascimento italiano, difundiu-se a perspectiva linear: as linhas paralelas que se afastam do observador, como as juntas de um piso quadriculado, são pintadas convergindo para um único ponto de fuga, situado na linha do horizonte. Em muitas obras, esse ponto coincide com a cabeça da figura principal, como na Última Ceia de Leonardo da Vinci, em que as linhas do teto e das paredes convergem para a cabeça de Cristo.\n\nEsquema geométrico: o olho do observador está a 2 m do plano do quadro, e a imagem de cada ponto é obtida onde a reta que o liga ao olho cruza esse plano. Atrás do plano do quadro, alinhadas em profundidade, há três colunas verticais iguais, situadas a 2 m, 6 m e 10 m desse plano.\n(Texto elaborado para esta questão.)",
+    "enunciado": "No quadro, a altura da imagem da coluna mais distante corresponde a que fração da altura da imagem da coluna mais próxima? E qual concepção de espaço a perspectiva linear expressa?",
+    "alternativas": [
+      "1/9; um espaço racional e mensurável, ordenado a partir de um observador único em posição fixa.",
+      "1/5; um espaço racional e mensurável, ordenado a partir de um observador único em posição fixa.",
+      "1/3; um espaço racional e mensurável, ordenado a partir de um observador único em posição fixa.",
+      "1/3; um espaço hierárquico, em que o tamanho das figuras depende de sua importância religiosa.",
+      "1/3; um espaço visto de vários ângulos ao mesmo tempo, com o volume dos objetos fragmentado."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é perceber que a perspectiva linear é uma **projeção central**: todas as retas de visada partem do olho, e o quadro é um plano que as corta. Por semelhança de triângulos (Tales), a altura h da imagem de um objeto de altura H, situado a uma distância d do olho, é h = H · D/d, em que D é a distância do olho ao quadro.\n\nAtenção às distâncias: o enunciado as dá em relação ao **plano do quadro**, mas a semelhança usa a distância ao **olho**. Somando os 2 m entre olho e quadro: a coluna mais próxima está a 2 + 2 = 4 m do olho, e a mais distante, a 10 + 2 = 12 m.\n\nComo as colunas são iguais, a razão entre as imagens é o inverso da razão entre as distâncias: (H · 2/12) ÷ (H · 2/4) = 4/12 = 1/3. O tamanho aparente diminui na razão **inversa da distância**, e não do quadrado dela.\n\nQuanto ao sentido histórico: a perspectiva, sistematizada por artistas e arquitetos florentinos no século XV, constrói um espaço **geométrico, unificado e mensurável**, organizado a partir do ponto de vista de um observador. Isso combina com o humanismo renascentista, que valoriza a razão e o olhar humano como medida. Contrasta com a escala hierárquica medieval (figuras sagradas maiores por importância) e, séculos depois, com o cubismo, que fragmenta o objeto em múltiplos pontos de vista.\n\nPara lembrar: na perspectiva linear, o tamanho aparente é inversamente proporcional à distância ao olho, e o espaço é ordenado a partir de um observador único.",
+    "erradas": [
+      "Aplica uma relação quadrática, (1/3)², como se o tamanho aparente caísse com o quadrado da distância; na projeção central, a altura cai na razão inversa da distância.",
+      "Usa as distâncias ao plano do quadro (2/10), esquecendo de somar os 2 m entre o olho e o quadro; a semelhança de triângulos exige a distância ao olho.",
+      "",
+      "A fração está certa, mas a concepção descrita é a escala hierárquica da arte medieval, que a perspectiva renascentista substituiu por proporções baseadas na distância.",
+      "A fração está certa, mas a concepção descrita é a do cubismo, do início do século XX, que rompe justamente com o ponto de vista único da perspectiva."
+    ]
+  },
+  {
+    "id": "ART-002",
+    "materia": "arte",
+    "tema": "Barroco mineiro — arte e sociedade do ouro",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": ["historia"],
+    "texto": "Na região das minas, ao longo do século XVIII, multiplicaram-se igrejas ricamente ornamentadas. Muitas foram erguidas e mantidas por irmandades leigas — associações de fiéis frequentemente organizadas segundo a condição social e a cor de seus membros, como as de homens brancos, as de pardos e as de pretos. Nos templos e adros, destacam-se esculturas em pedra-sabão e em madeira policromada, executadas por artistas e artífices nascidos na colônia, muitos deles mestiços, como Antônio Francisco Lisboa, o Aleijadinho, autor dos profetas de pedra-sabão do santuário de Congonhas.\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considerando o texto e o contexto histórico da mineração, é correto afirmar que o barroco mineiro",
+    "alternativas": [
+      "expressa uma sociedade urbana e hierarquizada, na qual irmandades leigas financiavam templos e artistas coloniais reelaboravam modelos europeus com materiais locais.",
+      "resultou de encomendas feitas sobretudo por ordens religiosas, como a dos jesuítas, que controlavam a vida urbana das cidades do ouro.",
+      "foi uma reprodução fiel de modelos portugueses, executada por mestres europeus trazidos pela Coroa para decorar as igrejas da região.",
+      "floresceu após a Independência, quando a decadência da mineração liberou recursos para a construção de novos templos.",
+      "rompeu com a Igreja Católica ao incorporar ideais iluministas da Inconfidência, substituindo temas religiosos por temas cívicos."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é ligar as características da arte às da sociedade que a produziu.\n\nA mineração gerou, no século XVIII, uma sociedade mais **urbana** e diversificada do que a do litoral açucareiro: vilas como Vila Rica (atual Ouro Preto), Mariana, São João del-Rei e Sabará concentravam comerciantes, funcionários, artesãos, livres pobres e escravizados. Como a Coroa portuguesa restringiu a instalação de ordens religiosas na região — para controlar o ouro e combater o contrabando —, a vida religiosa foi organizada em grande parte por **irmandades leigas** e ordens terceiras, que disputavam prestígio construindo e decorando seus templos. Muitas irmandades se dividiam pela cor e pela condição social de seus membros, reproduzindo a hierarquia da sociedade colonial.\n\nAs obras foram executadas por artistas e artífices formados na própria colônia, muitos deles mestiços, como Aleijadinho. Eles partiam de modelos europeus (gravuras, livros, tratados), mas os reelaboravam com materiais locais, como a pedra-sabão, e com soluções próprias — o que dá ao barroco mineiro, já com traços do rococó, uma feição original.\n\nPara lembrar: o barroco mineiro é fruto da riqueza do ouro, das irmandades leigas e de artistas coloniais que reinterpretaram modelos europeus.",
+    "erradas": [
+      "",
+      "Desconsidera que a Coroa restringiu a presença de ordens religiosas nas minas; o financiamento dos templos coube sobretudo às irmandades leigas citadas no texto.",
+      "Contradiz o texto, que destaca artistas nascidos na colônia e o uso de materiais locais, como a pedra-sabão, na reelaboração dos modelos europeus.",
+      "Anacronismo: o barroco mineiro floresceu no século XVIII, impulsionado pela riqueza aurífera, antes da Independência (1822).",
+      "Mistura indevidamente arte sacra e Inconfidência: as igrejas e esculturas citadas são religiosas e foram encomendadas por irmandades católicas."
+    ]
+  },
+  {
+    "id": "ART-003",
+    "materia": "arte",
+    "tema": "Modernismo — Tarsila, Oswald e a Antropofagia",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": ["literatura"],
+    "texto": "Em 1928, Tarsila do Amaral pintou uma tela que mostra uma figura humana sentada, de pés e mãos enormes e cabeça minúscula, ao lado de um cacto e de um sol. O título, de origem tupi, foi traduzido como \"homem que come gente\". A obra inspirou Oswald de Andrade a lançar, no mesmo ano, o Manifesto Antropófago, que propunha \"devorar\" a cultura estrangeira — inclusive as vanguardas europeias — para transformá-la em algo novo, em vez de simplesmente imitá-la ou rejeitá-la.\n(Texto elaborado para esta questão.)",
+    "enunciado": "A proposta antropofágica pode ser corretamente resumida como",
+    "alternativas": [
+      "a recusa de toda influência estrangeira, para recuperar uma cultura nacional pura, anterior à colonização.",
+      "a defesa literal da retomada de rituais indígenas como forma de afirmação da identidade brasileira.",
+      "a adesão ao rigor formal da pintura acadêmica e da poesia parnasiana, contra os excessos das vanguardas.",
+      "a importação fiel do cubismo e do surrealismo, que deveriam substituir as tradições artísticas locais.",
+      "a assimilação crítica das referências estrangeiras, digeridas e transformadas a partir de elementos da cultura brasileira."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é entender a **metáfora** da antropofagia. Entre povos indígenas que a praticavam, o ritual antropofágico envolvia incorporar as qualidades do inimigo devorado. Oswald de Andrade transforma isso em programa cultural: o Brasil não deve copiar passivamente a Europa nem fechar-se a ela, mas **devorar** o que vem de fora e transformá-lo em criação própria.\n\nA tela de Tarsila (o Abaporu) mostra isso na forma: aproveita lições das vanguardas europeias — deformação expressiva, cores puras, simplificação — para construir uma figura e uma paisagem brasileiras (o cacto, o sol tropical).\n\nO movimento se distingue de duas posições: a cópia colonizada dos modelos estrangeiros e o nacionalismo que pretendia uma cultura \"pura\", fechada a influências — posição associada a grupos como o Verde-Amarelo, adversário dos antropófagos dentro do próprio Modernismo.\n\nNo percurso aberto pela Semana de Arte Moderna de 1922, a Antropofagia representa o momento em que os modernistas buscavam conciliar atualização estética e reflexão sobre a identidade nacional.\n\nPara lembrar: antropofagia cultural é absorver criticamente a cultura estrangeira e transformá-la, sem copiá-la nem rejeitá-la.",
+    "erradas": [
+      "Descreve a posição nacionalista que a Antropofagia combatia; o manifesto propõe devorar as influências estrangeiras, e não recusá-las.",
+      "Lê a metáfora ao pé da letra: a antropofagia é uma imagem para a absorção cultural, e não a defesa de práticas rituais reais.",
+      "Inverte a orientação modernista, que atacou o academicismo e o parnasianismo e se apropriou das conquistas das vanguardas.",
+      "Descreve a cópia passiva que os antropófagos criticavam; a proposta é transformar as vanguardas a partir de elementos brasileiros, não importá-las fielmente.",
+      ""
+    ]
+  },
+  {
+    "id": "ART-004",
+    "materia": "arte",
+    "tema": "Vanguardas e arte contemporânea — readymade e Parangolé",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "I. Em 1917, um artista enviou a uma exposição em Nova York um mictório de louça industrial, deitado de costas e assinado com um pseudônimo. Ao escolher um objeto pronto, retirá-lo de seu uso e apresentá-lo como obra, ele deslocava a pergunta sobre o que é arte da habilidade manual para a ideia, a escolha e o contexto de exposição.\n\nII. Na década de 1960, no Rio de Janeiro, um artista criou capas, estandartes e bandeiras feitos de tecidos, plásticos e outros materiais, destinados a ser vestidos e carregados. A obra só se completa quando alguém a veste e se movimenta, dançando — e muitos dos primeiros a usá-las foram passistas da Escola de Samba Mangueira.\n(Texto elaborado para esta questão.)",
+    "enunciado": "As duas propostas (I, de Marcel Duchamp; II, os Parangolés de Hélio Oiticica) têm em comum o fato de",
+    "alternativas": [
+      "valorizarem o virtuosismo técnico do artista, demonstrado na transformação engenhosa de materiais comuns em objetos de arte.",
+      "deslocarem a noção de obra de arte como objeto artesanal destinado à contemplação: em I, pela escolha e pelo contexto; em II, pela participação corporal do público.",
+      "afirmarem a beleza visual dos objetos industriais e populares, que deveriam ser admirados à distância pelo valor estético de suas formas.",
+      "dispensarem o contexto institucional, já que, em ambas, o objeto vale como arte por suas qualidades intrínsecas, independentemente de onde esteja.",
+      "transformarem o espectador em participante, já que, em ambas, a obra só existe enquanto é manipulada e vestida pelo público."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é achar o que as duas obras **têm em comum**, sem estender a uma delas o que vale só para a outra.\n\n**I — o readymade de Duchamp.** O artista não fabrica o objeto: escolhe um produto industrial, retira-o de sua função e o apresenta numa exposição. O gesto desloca o critério do que é arte da habilidade manual para a **ideia** e para o **contexto** em que o objeto é mostrado. Duchamp, aliás, criticava a arte meramente \"retiniana\", voltada só ao prazer visual.\n\n**II — os Parangolés de Oiticica.** Não são objetos para contemplar na parede: só se realizam quando alguém os veste e dança. O espectador passa a **participador**, e o corpo em movimento — o samba da Mangueira — torna-se parte da obra. A arte vira experiência, e não apenas objeto.\n\nO que une as duas propostas é a **crise do modelo tradicional de obra** como objeto artesanal, único, feito pela mão do artista para ser contemplado à distância. Cada uma faz esse deslocamento por um caminho diferente: em Duchamp, pelo conceito e pelo contexto; em Oiticica, pela participação do corpo.\n\nArmadilha principal: dizer que, em ambas, a obra depende da manipulação do público. Isso vale para os Parangolés, mas não para o mictório de Duchamp, que continua exposto — a mudança ali é conceitual.\n\nPara lembrar: o readymade desloca a arte para a ideia e o contexto; os Parangolés, para a participação corporal — ambos rompem com a obra como objeto artesanal de contemplação.",
+    "erradas": [
+      "Inverte o sentido das propostas: o readymade dispensa justamente a habilidade manual, e o Parangolé valoriza a experiência do participante, não a destreza do autor.",
+      "",
+      "Ignora que ambas recusam a contemplação à distância como centro da experiência; Duchamp criticava a arte voltada só ao prazer visual, e o Parangolé exige ser vestido.",
+      "Inverte o papel do contexto: o mictório só ganha estatuto de obra porque é escolhido e apresentado numa exposição; fora dela, é um objeto industrial comum.",
+      "Estende a I uma característica que só vale para II: o readymade de Duchamp não depende de ser manipulado ou vestido pelo público."
+    ]
+  },
+  {
+    "id": "ART-005",
+    "materia": "arte",
+    "tema": "Patrimônio imaterial — a roda de capoeira",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["historia", "edfisica"],
+    "texto": "Em 1890, o Código Penal da recém-proclamada República brasileira tipificou a prática da capoeira como crime, no mesmo capítulo dedicado aos vadios. Mais de um século depois, em 2008, a roda de capoeira e o ofício dos mestres de capoeira foram registrados pelo Instituto do Patrimônio Histórico e Artístico Nacional (Iphan) como patrimônio cultural imaterial do Brasil; em 2014, a roda de capoeira foi reconhecida pela Unesco como patrimônio cultural imaterial da humanidade. Na roda, o jogo dos corpos se articula ao toque do berimbau e de outros instrumentos, aos cantos puxados pelo mestre e respondidos em coro e a regras rituais transmitidas de geração em geração.\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considerando o texto e a política de proteção ao patrimônio imaterial, é correto afirmar que o registro da capoeira",
+    "alternativas": [
+      "funciona como um tombamento: os instrumentos e trajes passam a ser preservados em museus, e a prática fica proibida de sofrer alterações.",
+      "fixa um regulamento oficial único para a roda, definido pelo Estado, de modo que as variações regionais deixam de ser reconhecidas.",
+      "valoriza saberes transmitidos oralmente e pela prática coletiva, que integram música, movimento e ritual, revertendo simbolicamente um histórico de criminalização sem congelar a manifestação.",
+      "dá continuidade à política iniciada no começo da República, que já reconhecia a capoeira como símbolo da identidade nacional.",
+      "a reconhece apenas como modalidade esportiva de combate, separando-a dos cantos e instrumentos, que pertencem a outra categoria de patrimônio."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é distinguir **patrimônio material** de **patrimônio imaterial** e entender por que a proteção de cada um funciona de modo diferente.\n\nA Constituição de 1988 reconhece como patrimônio cultural brasileiro bens de natureza material e imaterial. Para os bens materiais (edifícios, conjuntos urbanos, obras), o instrumento clássico é o **tombamento**, que restringe alterações para conservar o bem. Para os imateriais — saberes, celebrações, formas de expressão, lugares —, o Decreto 3.551/2000 criou o **Registro**, que documenta a prática e orienta ações de salvaguarda (apoio aos mestres, à transmissão, à pesquisa). Como o patrimônio imaterial é **vivo** e recriado continuamente pelas comunidades, o registro não o congela; a própria norma prevê reavaliação periódica dos bens registrados.\n\nNa roda de capoeira, o que se protege não é um objeto, mas um conjunto integrado de linguagens: o movimento do corpo, a música do berimbau, os cantos em pergunta e resposta e as regras rituais. Daí a ligação com a Educação Física (prática corporal como cultura) e com a Arte (música e dança como linguagens).\n\nO contraste histórico é central: a mesma prática que o Código Penal de 1890 tratava como crime ligado à vadiagem — numa sociedade recém-saída da escravidão — passou a ser reconhecida como patrimônio. O registro tem, assim, também um sentido de reparação simbólica a grupos historicamente marginalizados.\n\nPara lembrar: bens imateriais são registrados, e não tombados, e sua proteção apoia a transmissão de uma prática viva, sem congelá-la.",
+    "erradas": [
+      "Confunde registro com tombamento: o bem imaterial é a prática e o saber, não os objetos, e sua proteção não proíbe transformações.",
+      "Supõe que o registro congela a manifestação; o patrimônio imaterial é dinâmico, e as variações de grupos e regiões fazem parte do bem reconhecido.",
+      "",
+      "Inverte a história narrada no texto: o Código Penal republicano de 1890 criminalizou a capoeira, em vez de reconhecê-la como símbolo nacional.",
+      "Fragmenta o bem: o texto mostra que corpo, música e ritual formam um só conjunto, e é esse conjunto que foi reconhecido como patrimônio."
+    ]
+  },
+  {
+    "id": "EDF-001",
+    "materia": "edfisica",
+    "tema": "Esporte e sociedade — gênero, história e mídia no futebol",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": ["historia", "sociologia"],
+    "texto": "Entre 1941 e 1979, normas esportivas federais vedaram às mulheres, no Brasil, a prática de esportes considerados incompatíveis com a \"natureza feminina\", e o futebol foi enquadrado nessa proibição. A justificativa recorria a argumentos de base supostamente biológica, ligados sobretudo à maternidade. A regulamentação da modalidade feminina só veio na década de 1980. Hoje, apesar do crescimento recente, o futebol feminino ainda tem, em comparação com o masculino, menos clubes com estrutura profissional, salários muito menores e menor espaço na cobertura esportiva.\n(Texto elaborado para esta questão.)",
+    "enunciado": "Do ponto de vista das relações entre esporte e sociedade, a explicação mais consistente para as desigualdades descritas é a de que",
+    "alternativas": [
+      "elas refletem diferenças biológicas de desempenho, que tornam o futebol masculino naturalmente mais atraente ao público, independentemente da história da modalidade.",
+      "a revogação da proibição em 1979 eliminou suas causas, de modo que as diferenças atuais se explicam apenas pelas preferências individuais do público.",
+      "a proibição se apoiava em evidências da medicina esportiva, depois confirmadas, sobre os danos do futebol ao organismo feminino.",
+      "décadas de interdição, baseadas na naturalização de papéis de gênero, impediram a formação de clubes, competições, atletas e público, produzindo desvantagens que se acumulam até hoje.",
+      "a mídia apenas registra o interesse já existente do público, sem interferir na visibilidade, no patrocínio ou na formação de novas torcedoras e torcedores."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é tratar o esporte como **construção social e histórica**, e não como reflexo direto da biologia.\n\nO texto dá a pista: por quase quatro décadas (de 1941 a 1979, isto é, 38 anos), mulheres foram impedidas por normas oficiais de jogar futebol no país em que a modalidade se tornou um dos principais elementos de identidade nacional. A justificativa naturalizava papéis de gênero: o corpo feminino seria destinado à maternidade, e não ao contato e à competição.\n\nOs efeitos de uma interdição longa não desaparecem com a revogação. Enquanto o futebol masculino acumulava clubes, categorias de base, campeonatos, ídolos, torcidas, contratos e cobertura jornalística, o feminino precisou começar quase do zero a partir dos anos 1980. É uma **desvantagem cumulativa**: menos estrutura gera menos visibilidade, que gera menos patrocínio, que gera menos estrutura.\n\nA mídia participa desse ciclo: não apenas registra o interesse do público, mas também o **produz**, ao decidir o que transmitir, em que horário e com que destaque. A relação é de mão dupla: sem transmissão, o público tem pouca chance de se formar; sem público, há menos interesse em transmitir.\n\nPara lembrar: desigualdades no esporte são produzidas historicamente (leis, mídia, investimento), e não são simples reflexo de diferenças biológicas ou de preferências espontâneas.",
+    "erradas": [
+      "Naturaliza uma construção social: a atratividade de uma modalidade depende de tradição, investimento e cobertura, que foram negados ao futebol feminino por décadas.",
+      "Ignora os efeitos de longo prazo: a revogação não criou de imediato os clubes, as competições, os ídolos e o público que o futebol masculino acumulou durante o período de proibição.",
+      "Aceita como científica uma justificativa ideológica: a proibição se baseava em concepções de gênero da época, e não em evidências de que o futebol prejudicasse as mulheres.",
+      "",
+      "Inverte a relação entre mídia e público: a cobertura também produz interesse, ao definir o que é transmitido, em que horário e com que destaque."
+    ]
+  },
+  {
+    "id": "EDF-002",
+    "materia": "edfisica",
+    "tema": "Paradesporto — inclusão, equidade e adaptação de regras",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "No goalball, modalidade paralímpica destinada a pessoas com deficiência visual, atletas com diferentes graus de visão residual podem jogar na mesma equipe. Durante a partida, todos usam vendas opacas sobre os olhos; a bola contém guizos, as linhas da quadra são em relevo, para serem percebidas pelo tato, e o público deve permanecer em silêncio durante as jogadas. No atletismo paralímpico, corredores cegos competem ao lado de um atleta-guia, ligados a ele por uma corda presa às mãos.\n(Texto elaborado para esta questão.)",
+    "enunciado": "As adaptações descritas têm como princípio comum",
+    "alternativas": [
+      "fazer com que o resultado dependa do treinamento e da habilidade, e não do grau de deficiência, preservando a lógica competitiva do esporte.",
+      "eliminar a competição, substituindo a busca pela vitória por atividades de caráter apenas recreativo e terapêutico.",
+      "aplicar as mesmas regras do esporte olímpico a todos, pois tratar todos de modo idêntico é a forma mais justa de inclusão.",
+      "partir do pressuposto de que todos os atletas com deficiência visual têm a mesma condição sensorial, dispensando qualquer ajuste.",
+      "compensar a deficiência com vantagens adicionais, de modo que os atletas cegos superem atletas sem deficiência."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é distinguir **igualdade** (mesmas regras para todos) de **equidade** (regras ajustadas às condições de cada um para tornar a disputa justa).\n\nNo goalball, jogadores com visão residual levariam vantagem sobre os cegos totais. A venda opaca coloca todos na mesma condição sensorial durante o jogo. Os guizos na bola, as linhas em relevo e o silêncio do público transferem a orientação da visão para a audição e o tato. Ou seja: a disputa continua sendo uma competição de verdade, mas decidida por treino, técnica e tática, e não pela quantidade de visão de cada um.\n\nNo atletismo, o atleta-guia cumpre função parecida: permite que o corredor cego percorra a prova com segurança e orientação, de modo que o que conta é o seu desempenho físico.\n\nÉ a mesma lógica dos sistemas de **classificação funcional** do paradesporto, que agrupam atletas com graus semelhantes de comprometimento. Inclusão, aqui, não significa abolir a competição nem dar vantagem: significa criar condições para que a competição seja justa.\n\nPara lembrar: no paradesporto, a adaptação de regras e a classificação funcional buscam equidade, para que o resultado reflita habilidade e treinamento, e não o grau de deficiência.",
+    "erradas": [
+      "",
+      "Confunde inclusão com abandono da competição: o paradesporto de alto rendimento mantém a busca pela vitória, apenas com regras adaptadas.",
+      "Confunde igualdade de tratamento com equidade: regras idênticas manteriam a vantagem de quem tem mais visão residual; por isso há vendas, guizos e linhas táteis.",
+      "Contradiz o texto, que menciona diferentes graus de visão residual; as vendas existem justamente porque essas condições são diferentes.",
+      "Inverte o objetivo: as adaptações não criam vantagem, apenas neutralizam diferenças ligadas à deficiência entre os próprios competidores."
+    ]
+  },
+  {
+    "id": "EDF-003",
+    "materia": "edfisica",
+    "tema": "Fisiologia do exercício — FC de reserva e sistemas energéticos",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": ["biologia"],
+    "texto": "Uma corredora de 20 anos, com frequência cardíaca (FC) de repouso de 60 bpm, planeja correr 40 minutos em ritmo contínuo, a 70% da sua FC de reserva. Use:\n• FC máxima estimada = 220 − idade (em anos);\n• FC de reserva = FC máxima − FC de repouso;\n• FC de treino = FC de repouso + (fração desejada) × FC de reserva.\n(Texto elaborado para esta questão.)",
+    "enunciado": "A FC de treino da corredora e o sistema energético predominante nesse esforço são, respectivamente,",
+    "alternativas": [
+      "140 bpm; sistema aeróbio (oxidativo), com oxidação de glicose e ácidos graxos nas mitocôndrias.",
+      "158 bpm; sistema aeróbio (oxidativo), com oxidação de glicose e ácidos graxos nas mitocôndrias.",
+      "158 bpm; sistema ATP-CP (fosfagênio), que regenera ATP a partir da fosfocreatina muscular.",
+      "158 bpm; sistema glicolítico anaeróbio, que converte glicose em lactato sem uso de oxigênio.",
+      "172 bpm; sistema aeróbio (oxidativo), com oxidação de glicose e ácidos graxos nas mitocôndrias."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui são duas etapas: calcular a FC de treino pelo método da FC de reserva e relacionar **intensidade e duração** com o sistema energético predominante.\n\n**Cálculo:**\nFC máxima = 220 − 20 = 200 bpm.\nFC de reserva = 200 − 60 = 140 bpm.\nFC de treino = 60 + 0,7 × 140 = 60 + 98 = 158 bpm.\n\nA FC de reserva é a faixa útil de aumento da frequência acima do repouso; por isso a porcentagem incide sobre ela, e depois se soma a FC de repouso. Calcular 70% da FC máxima diretamente (0,7 × 200 = 140 bpm) é outro método e dá outro valor.\n\n**Sistema energético:** os três sistemas atuam sempre ao mesmo tempo; o que muda é qual predomina.\n• ATP-CP (fosfocreatina): potência máxima, mas dura poucos segundos (arrancadas, saltos).\n• Glicolítico anaeróbio: esforços intensos de algumas dezenas de segundos a cerca de 2 minutos; a glicose é convertida em piruvato e depois em lactato, sem uso de O₂.\n• Aeróbio (oxidativo): esforços longos e de intensidade moderada; glicose e ácidos graxos são oxidados nas mitocôndrias (ciclo de Krebs e cadeia respiratória), com o O₂ como aceptor final de elétrons, o que gera muito mais ATP por molécula de glicose.\n\nUma corrida contínua de 40 minutos em intensidade moderada é tipicamente **aeróbia**. O aumento da FC responde justamente à maior demanda de O₂ pelos músculos: o coração passa a bombear mais sangue oxigenado por minuto.\n\nPara lembrar: FC de treino = FC de repouso + % × (FC máx − FC de repouso); esforços longos e moderados dependem predominantemente do metabolismo aeróbio mitocondrial.",
+    "erradas": [
+      "Calcula 70% da FC máxima (0,7 × 200), e não 70% da FC de reserva somados à FC de repouso, como pede o método indicado.",
+      "",
+      "O cálculo está certo, mas o sistema ATP-CP predomina apenas em esforços máximos de poucos segundos, não em 40 minutos de corrida contínua.",
+      "O cálculo está certo, mas a glicólise anaeróbia predomina em esforços intensos e curtos; em 40 minutos de intensidade moderada, predomina o metabolismo aeróbio.",
+      "Usa 220 bpm como FC máxima, esquecendo de subtrair a idade: 60 + 0,7 × (220 − 60) = 172 bpm."
+    ]
+  }
+]

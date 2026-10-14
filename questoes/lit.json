@@ -1,0 +1,356 @@
+[
+  {
+    "id": "LIT-001",
+    "materia": "literatura",
+    "tema": "Opúsculo Humanitário — gênero, estrutura e projeto argumentativo",
+    "nivel": "fuvest",
+    "origem": "Estilo livro",
+    "inter": [],
+    "enunciado": "O Opúsculo Humanitário (1853), de Nísia Floresta, é a obra mais antiga da lista de leituras da Fuvest. Sobre sua forma e seu projeto, é correto afirmar que o livro",
+    "alternativas": [
+      "defende o sufrágio feminino e a elegibilidade das mulheres para o Parlamento, tratando a conquista de direitos políticos como condição prévia para qualquer reforma do ensino no Império.",
+      "narra, em primeira pessoa e em tom memorialista, a trajetória de uma menina pobre que, criada num cortiço do Rio de Janeiro, chega ao magistério graças ao estudo.",
+      "reúne 62 ensaios breves, antes publicados na imprensa, que vão da mulher na Antiguidade às nações modernas para ligar a instrução feminina ao progresso do Brasil.",
+      "rejeita a moral religiosa como obstáculo à emancipação e propõe que a educação das meninas brasileiras siga o modelo português, apresentado como o mais avançado da época.",
+      "considera adequada a instrução feminina então oferecida, centrada em trabalhos de agulha, música e dança, e reivindica apenas que ela seja estendida às moças pobres do país."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é reconhecer o **gênero** e a **estratégia argumentativa** do Opúsculo. Não é narrativa nem poesia: é uma obra **ensaística**, formada por 62 textos curtos, numerados em algarismos romanos, que circularam primeiro, sem assinatura, em jornais do Rio de Janeiro, como o Diário do Rio de Janeiro e O Liberal, e foram reunidos em livro em 1853 sob as iniciais B.A. (Brasileira Augusta).\n\nO raciocínio avança em camadas. Os primeiros ensaios fazem uma retrospectiva da condição da mulher em civilizações antigas (Egito, Grécia, Roma). Depois vem a comparação com nações modernas (França, Inglaterra, Alemanha, Estados Unidos), apresentadas como mais adiantadas porque instruem melhor suas mulheres. Por fim, a autora volta-se ao Brasil: critica o ensino feminino público e particular, a falta de professores preparados e a herança portuguesa de descaso com a instrução das mulheres, e propõe uma reforma.\n\nA tese central é que um país que se julga civilizado não pode manter as mulheres na ignorância. Para persuadir um público de chefes de família e bacharéis, Nísia liga a instrução feminina ao **progresso da nação** e à figura da **mãe educadora** dos futuros cidadãos, apoiando-se numa moral religiosa. É um feminismo estratégico: ousado para 1853 (inteligência feminina equivalente à masculina, educação como direito), mas formulado em termos aceitáveis para a época.\n\n**Teoria por trás:** no Império, a lei de 1827 sobre as escolas de primeiras letras reservava às meninas um currículo reduzido, com aritmética elementar e as chamadas prendas domésticas. É contra esse modelo, e contra a educação apenas ornamental (música, dança, línguas como enfeite para o casamento), que Nísia escreve. Ela já havia fundado no Rio, em 1838, o Colégio Augusto, escola para meninas com currículo próximo ao dos colégios masculinos.\n\nPara lembrar: o Opúsculo é um conjunto de ensaios que liga a educação da mulher ao progresso do país, num percurso que vai da história antiga ao diagnóstico do Brasil.",
+    "erradas": [
+      "Anacronismo e extrapolação: o Opúsculo não é plataforma de direitos políticos; a autora chega a declarar que seu foco não é reivindicar direitos para as mulheres, e sim mostrar as vantagens da educação feminina para o progresso. A luta organizada pelo voto viria muito depois.",
+      "Afirmação verdadeira sobre outra obra da lista: é o enredo de Memórias de Martha, romance memorialista de Julia Lopes de Almeida. O Opúsculo não é narrativa, e sim um conjunto de ensaios.",
+      "",
+      "Dupla inversão: a moral religiosa é uma das bases da argumentação de Nísia, e a herança portuguesa é criticada justamente como responsável pelo descaso com a instrução das mulheres.",
+      "Inversão da tese: Nísia critica a educação reduzida a trabalhos domésticos e a prendas ornamentais voltadas ao casamento; ela reivindica instrução sólida, não a extensão desse modelo."
+    ]
+  },
+  {
+    "id": "LIT-002",
+    "materia": "literatura",
+    "tema": "Nebulosas — poesia social condoreira e o Império",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "historia"
+    ],
+    "texto": "Publicado em 1872, Nebulosas, único livro de Narcisa Amália, reúne 44 poemas distribuídos em três partes. Ao lado de composições melancólicas sobre a saudade, a infância e a natureza, o livro abriga poemas de intervenção: um dedicado a Castro Alves, outro que dá voz a um africano escravizado e outro cujo título — “Vinte e cinco de março” — remete à data em que foi outorgada a primeira Constituição do Brasil. A autora, considerada a primeira mulher a se profissionalizar como jornalista no país, teve o livro saudado por Machado de Assis.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considerando o contexto histórico e a filiação estética da obra, o fato de uma poeta abolicionista e republicana dar esse título a um poema de tom combativo explica-se melhor porque",
+    "alternativas": [
+      "a Carta de 1824, outorgada após a dissolução da Constituinte, criou o Poder Moderador e manteve a escravidão — alvos da poesia social de linhagem condoreira.",
+      "a Constituição de 1824 havia abolido a escravidão, mas a lei não era cumprida, de modo que o poema denuncia apenas o descumprimento de uma norma já abolicionista.",
+      "a data marca a promulgação da primeira Constituição republicana, cujo voto universal o poema critica por estender a cidadania aos analfabetos e aos libertos.",
+      "o poema filia-se ao Parnasianismo, que, pela impessoalidade e pelo culto da forma, tratava temas cívicos com distanciamento objetivo e sem tomar partido.",
+      "a data comemora a Independência, e o tom combativo dirige-se contra Portugal, em chave nacionalista típica da primeira geração romântica, sem relação com a escravidão."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é cruzar duas informações: o que aconteceu em 25 de março de 1824 e qual vertente romântica abriga a poesia política de Narcisa Amália.\n\n**História:** em novembro de 1823, D. Pedro I dissolveu a Assembleia Constituinte e, em 25 de março de 1824, outorgou a Constituição do Império. A Carta criou o Poder Moderador, exclusivo do imperador, instituiu o voto censitário e silenciou sobre a escravidão, que seguiu intacta. Para uma poeta republicana e abolicionista, essa data simboliza um regime centralizador e escravista — nada a celebrar. Nebulosas sai em 1872, logo depois do Manifesto Republicano (1870) e da Lei do Ventre Livre (1871), em plena efervescência desses debates.\n\n**Literatura:** a poesia de intervenção social, retórica e voltada às grandes causas (abolição, liberdade, república) é a marca da terceira geração romântica, a condoreira, cujo nome mais célebre é Castro Alves — homenageado no próprio livro. Nebulosas combina essa linha com o lirismo melancólico de matriz ultrarromântica e com a exaltação nacionalista da natureza, o que mostra uma autora que transita pelas vertentes do Romantismo.\n\nPara lembrar: em Nebulosas, a vertente condoreira de Narcisa Amália volta-se contra as instituições do Império, como a Carta outorgada de 1824 e a escravidão.",
+    "erradas": [
+      "",
+      "Erro histórico: a abolição só veio em 1888, com a Lei Áurea. A Carta de 1824 silenciou sobre o cativeiro e o manteve; em 1871, a Lei do Ventre Livre apenas declarou livres os filhos de escravizadas nascidos dali em diante.",
+      "Anacronismo: a primeira Constituição republicana é de 1891, posterior ao livro (1872), e não instituiu voto universal — excluía analfabetos, mendigos e praças, e na prática as mulheres não votavam.",
+      "Anacronismo de escola literária: o Parnasianismo só se firma no Brasil entre o fim dos anos 1870 e o início dos 1880, e sua impessoalidade é o oposto do engajamento declarado dos poemas políticos de Narcisa, de linhagem condoreira.",
+      "Confusão de datas: a Independência é de 7 de setembro (data que, aliás, dá título a outro poema do livro). O 25 de março remete à Constituição de 1824, e a questão da escravidão atravessa a vertente política da obra."
+    ]
+  },
+  {
+    "id": "LIT-003",
+    "materia": "literatura",
+    "tema": "Memórias de Martha — foco narrativo e o cortiço",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "Em O cortiço (1890), de Aluísio Azevedo, a habitação coletiva funciona quase como uma personagem: um organismo que cresce, fermenta e molda o destino dos moradores, observado de fora por um narrador que se pretende científico.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Memórias de Martha, de Julia Lopes de Almeida, publicado primeiro em folhetim (1888–1889) e depois em livro (1899), também tem um cortiço do Rio de Janeiro como espaço central. Comparando-o ao romance descrito no texto, é correto afirmar que, em Memórias de Martha,",
+    "alternativas": [
+      "como em O cortiço, um narrador onisciente e impessoal observa os moradores como casos de estudo, e Marta é só uma figura secundária entre dezenas de personagens.",
+      "Marta ascende socialmente ao casar-se por amor com Luís, rapaz que conhece numa viagem ao interior e que a resgata, por fim, da pobreza do cortiço.",
+      "a protagonista, depois de separar-se do marido, perde o emprego num estúdio fotográfico por pressão de clientes e passa a viver de costura.",
+      "o determinismo naturalista é aplicado com rigor: nascida no cortiço, Marta repete o destino da mãe lavadeira e nunca chega a frequentar a escola.",
+      "o cortiço é visto de dentro e em retrospecto pela própria Marta, narradora em primeira pessoa; a saída buscada é o estudo, mas o desfecho traz um casamento sem amor."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é comparar **foco narrativo** e **lugar do indivíduo** nos dois romances de cortiço.\n\nEm O cortiço, o narrador em terceira pessoa observa a habitação coletiva de fora, com pretensão científica, e o protagonismo é do próprio espaço. Em Memórias de Martha, é a protagonista quem narra, em primeira pessoa e já adulta, a própria infância e juventude: o cortiço de São Cristóvão é visto por dentro, pela menina que se mudou para lá com a mãe depois da morte do pai.\n\nO meio pesa — a pobreza, a sensação de depender da caridade alheia, a violência, o vizinho Maneco que se torna alcoólatra ainda criança —, mas o enredo se organiza em torno de um projeto individual: a mãe lava e passa roupa para fora, Marta estuda, destaca-se e torna-se professora. A ascensão, porém, é limitada. Preterida por Luís, que prefere uma jovem estrangeira, Marta aceita sem amor o pedido de Miranda, homem mais velho, por insistência da mãe, que via no casamento a segurança da filha; pouco depois, a mãe adoece e morre.\n\nDetalhe que costuma cair: a primeira versão saiu em folhetim na Tribuna Liberal (1888–1889), antes de O cortiço (1890) — por isso parte da crítica vê no romance de Julia Lopes de Almeida o primeiro a fazer do cortiço espaço central na ficção brasileira.\n\nPara lembrar: Memórias de Martha é narrativa memorialista em primeira pessoa, na qual a educação aparece como saída possível, mas insuficiente, para uma mulher pobre.",
+    "erradas": [
+      "Inversão de foco narrativo: a descrição vale para O cortiço. Memórias de Martha é narrado em primeira pessoa pela protagonista, que é o centro do romance.",
+      "Leitura superficial: Marta se apaixona por Luís, mas é ele quem a abandona por uma jovem estrangeira. Ela acaba se casando com Miranda, sem amor, sob pressão da mãe.",
+      "Afirmação verdadeira sobre outra obra da lista: é a trajetória de Noemi, em Caminho de Pedras, de Rachel de Queiroz.",
+      "Determinismo que o enredo desmente: Marta não nasce no cortiço (muda-se para lá com a mãe após a morte do pai), frequenta a escola, destaca-se e torna-se professora.",
+      ""
+    ]
+  },
+  {
+    "id": "LIT-004",
+    "materia": "literatura",
+    "tema": "Caminho de Pedras — gênero, militância e foco narrativo",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Em Caminho de Pedras (1937), de Rachel de Queiroz, Noemi, casada com João Jaques e mãe de um menino, aproxima-se de Roberto, jornalista vindo do Rio de Janeiro para organizar uma célula comunista em Fortaleza. Sobre o romance, é correto afirmar:",
+    "alternativas": [
+      "Narrado em primeira pessoa por Noemi, em tom confessional, o romance concentra-se no drama amoroso e deixa a militância política apenas como referência distante.",
+      "Noemi sofre duplo julgamento: separada, perde o emprego por queixas de clientes e é malvista até por companheiros, o que leva a crítica ao machismo para dentro do grupo militante.",
+      "Ambientado no sertão cearense durante a grande seca, o romance acompanha a retirada de uma família de vaqueiros e a chegada dos flagelados a Fortaleza.",
+      "O grupo comunista é retratado de forma idealizada: operários e intelectuais convivem sem atritos, e a chegada de Roberto é recebida com confiança unânime.",
+      "O desfecho reconduz Noemi ao casamento com João Jaques, que a perdoa, reafirmando a família tradicional como o único destino possível para a mulher."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que o romance trata a opressão feminina em duas frentes: a sociedade conservadora e o próprio movimento de esquerda.\n\nNoemi trabalha retocando fotografias, é casada com João Jaques e mãe de Guri. Ao se envolver com Roberto, jornalista que chega do Rio de Janeiro para organizar uma célula comunista em Fortaleza, ela rompe o casamento. A partir daí, é punida em várias esferas: perde o emprego porque os clientes, em geral famílias, reclamam de seu comportamento; perde amizades; passa a ser julgada no grupo, majoritariamente masculino. A mulher que sai do papel de esposa e mãe sofre preconceito duplo, pela militância e pela paixão fora do casamento.\n\nO grupo, aliás, não é idealizado: há desconfiança dos operários em relação ao intelectual Roberto, e a autora expõe procedimentos do Partido Comunista que critica. O desfecho é duro — Guri adoece e morre, Roberto fica preso, Noemi, grávida, fica só e sobrevive costurando —, mas aponta para a continuidade da luta, como sugere o título.\n\nQuanto à forma, o narrador é de terceira pessoa e penetra na interioridade das personagens, com diálogos ágeis e linguagem enxuta. O romance troca o sertão de O Quinze pelo meio urbano e operário de Fortaleza.\n\nPara lembrar: em Caminho de Pedras, a crítica ao patriarcado alcança também o interior do grupo militante, que julga Noemi pela militância e pela vida afetiva.",
+    "erradas": [
+      "Inversão de foco narrativo: o romance é narrado em terceira pessoa, por narrador que conhece a interioridade das personagens; além disso, a militância política é eixo central, não pano de fundo distante.",
+      "",
+      "Confusão com outra obra da autora: a seca e os retirantes são matéria de O Quinze (1930). Caminho de Pedras se passa em Fortaleza, no meio operário e militante.",
+      "Inversão: o romance expõe tensões internas do grupo, como a desconfiança dos operários em relação ao intelectual Roberto e o preconceito contra a presença feminina na luta.",
+      "Desfecho falso: Noemi não volta para João Jaques. Ao final, perdeu o filho, está grávida de Roberto, sozinha e com trabalho precário, mas segue adiante."
+    ]
+  },
+  {
+    "id": "LIT-005",
+    "materia": "literatura",
+    "tema": "A Paixão Segundo G.H. — foco narrativo, existencialismo e linguagem",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [
+      "filosofia"
+    ],
+    "texto": "No romance A náusea (1938), de Jean-Paul Sartre, o protagonista Roquentin, diante da raiz de um castanheiro, sente se desfazerem as palavras e as categorias com que ordenava o mundo: as coisas aparecem como existência bruta, espessa, sem razão de ser e em excesso. Essa revelação, que o desestabiliza, recebe o nome de náusea.\n\n(Texto adaptado de ideias de Jean-Paul Sartre.)",
+    "enunciado": "A experiência narrada em A paixão segundo G.H. (1964), de Clarice Lispector, aproxima-se da descrita no texto, mas tem traços próprios. Assinale a alternativa que caracteriza corretamente a obra de Clarice nessa comparação.",
+    "alternativas": [
+      "Diferentemente de A náusea, há um narrador onisciente em terceira pessoa, que expõe de modo linear e explicativo as conclusões a que a protagonista chega ao longo de um dia.",
+      "Ao contrário de Roquentin, G.H. alcança com a barata a certeza clara e distinta de um eu pensante, o que reforça a identidade de escultora bem-sucedida que tinha antes.",
+      "O comportamento de G.H. é explicado pelo meio e pela hereditariedade, à maneira naturalista, e a barata funciona como alegoria explícita do golpe militar ocorrido em 1964.",
+      "Também G.H., diante da barata no quarto da ex-empregada, vê ruir suas categorias; mas narra em primeira pessoa a luta para dizer o indizível, com vocabulário religioso ressignificado.",
+      "A crise de G.H. nasce de um conflito trabalhista: Janair volta ao apartamento para cobrar direitos, e o diálogo tenso entre patroa e empregada ocupa a maior parte do livro."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é reconhecer o parentesco de A paixão segundo G.H. com a tradição existencialista sem apagar o que é próprio de Clarice: a forma da narração e o vocabulário místico.\n\n**O enredo mínimo.** G.H., escultora que vive sozinha num apartamento de cobertura, decide arrumar o quarto da empregada, Janair, que fora embora na véspera. Esperava sujeira e encontra um quarto limpo e iluminado, com figuras desenhadas a carvão na parede — um homem, uma mulher, um cão —, que ela lê como uma espécie de escrita deixada por Janair. No guarda-roupa surge uma barata; G.H. a prensa com a porta e, diante da matéria branca que sai do inseto, vive uma crise que culmina no gesto de prová-la.\n\n**O parentesco filosófico.** Para o existencialismo, a existência precede qualquer essência ou definição prévia. Em A náusea, Roquentin descobre a contingência: as coisas simplesmente existem, sem razão, para além das palavras. G.H. passa por experiência análoga: a barata a confronta com a vida em estado bruto, o “neutro”, anterior aos sentidos humanos, e desmonta a identidade social que ela havia construído (a mulher de bom gosto, a artista, a moradora de cobertura).\n\n**O que é próprio de Clarice.** Primeiro, a forma: a narração é em primeira pessoa e retrospectiva — G.H. relata, no dia seguinte, o que viveu —, dirige-se a um interlocutor imaginado, cuja mão ela pede para segurar, e encena a própria dificuldade de dizer a experiência. Os capítulos se encadeiam (a última frase de um reaparece no início do seguinte), e o livro começa e termina com travessões, sugerindo um movimento circular. Segundo, o vocabulário religioso: o título ecoa as narrativas evangélicas da Paixão (“segundo” Mateus, Marcos, Lucas, João), e o ato de provar a matéria da barata tem algo de comunhão às avessas.\n\nHá ainda uma camada social: a experiência começa no quarto de empregada, o cômodo mais desprezado do apartamento, e o desenho deixado por Janair, quase invisível para a patroa, obriga G.H. a se perceber vista por ela.\n\nPara lembrar: em G.H., a crise existencial da protagonista é inseparável de uma narração em primeira pessoa que luta com os limites da linguagem.",
+    "erradas": [
+      "Inversão de foco narrativo: G.H. narra em primeira pessoa, de modo digressivo e circular (assim como Roquentin escreve seu diário em primeira pessoa); não há narrador onisciente nem exposição linear de conclusões.",
+      "Inversão do sentido: a experiência desmonta a identidade social de G.H. em vez de reafirmá-la; a certeza clara e distinta do sujeito pensante é referência cartesiana estranha ao livro.",
+      "Anacronismo e extrapolação: o determinismo do meio e da hereditariedade é procedimento naturalista do século XIX, e nada no texto autoriza ler a barata como alegoria explícita do golpe de 1964.",
+      "",
+      "Leitura superficial da dimensão social: Janair já tinha ido embora e não reaparece em cena; sua presença se faz pelo quarto arrumado e pelo desenho deixado na parede."
+    ]
+  },
+  {
+    "id": "LIT-006",
+    "materia": "literatura",
+    "tema": "Geografia (Sophia de Mello Breyner Andresen) — espaço, lugar e o mar",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "geografia"
+    ],
+    "texto": "Na geografia de inspiração humanista, distingue-se espaço de lugar. O espaço é amplo, aberto e abstrato; torna-se lugar quando é vivido, nomeado e investido de memória, afeto e valor. Uma mesma praia pode ser apenas um ponto no mapa ou um lugar carregado de sentido para quem a habita ou a recorda.\n\n(Texto adaptado de ideias de Yi-Fu Tuan.)",
+    "enunciado": "O livro de poemas Geografia (1967), da portuguesa Sophia de Mello Breyner Andresen, percorre espaços como a Grécia — na parte “Mediterrâneo” — e o Brasil — na parte “Brasil ou do outro lado do mar”. À luz do texto, é correto afirmar que o livro",
+    "alternativas": [
+      "converte espaços em lugares: a Grécia surge carregada de mito e luz, e o Brasil é apreendido por sua poesia, sua arquitetura e seu falar — o mar mais liga do que separa.",
+      "celebra o império colonial português na África, em sintonia com a propaganda do regime salazarista, à qual a poeta aderiu publicamente desde a juventude.",
+      "é um romance de formação sobre uma família portuguesa que emigra para o Brasil, narrado em primeira pessoa por uma menina que relembra a travessia do Atlântico.",
+      "abandona as referências clássicas: na parte “Mediterrâneo”, a Grécia aparece apenas como destino turístico, em linguagem prosaica e irônica, sem mitos nem deuses.",
+      "trata o espaço como dado cartográfico objetivo, com descrição técnica de relevo e clima, o que aproxima a obra do Naturalismo científico do século XIX."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é ler o título Geografia além do sentido escolar: Sophia não descreve territórios, ela os transforma em **lugares**, no sentido do texto — espaços vividos e carregados de memória, mito e valor.\n\nO livro organiza-se em partes que funcionam como estações de um percurso. Em “Mediterrâneo”, a Grécia aparece em poemas sobre santuários e paisagens como Epidauro e o cabo Sunion, com seu templo a Poseidon: luz, mar e presença dos deuses, marcas da afinidade de Sophia com o mundo clássico. Em “Brasil ou do outro lado do mar”, o país é visto através da cultura: há um poema de homenagem a Manuel Bandeira, ligado à memória da juventude da poeta, um poema sobre Brasília e outro que se encanta com a pronúncia brasileira do português. O mar, tema central da autora, funciona aqui como ponte entre as duas margens da língua.\n\nO estilo confirma a leitura: dicção clara, concreta, de imagens precisas — nada de descrição técnica.\n\nQuanto ao contexto, Sophia foi opositora do Estado Novo salazarista, deputada constituinte após a Revolução dos Cravos e vencedora do Prêmio Camões em 1999.\n\nPara lembrar: em Geografia, os espaços (Portugal, Grécia, Brasil) tornam-se lugares de memória, mito e afeto, e o mar aparece como elo.",
+    "erradas": [
+      "",
+      "Inversão biográfica e temática: Sophia opôs-se ao Estado Novo salazarista e foi deputada constituinte depois da Revolução dos Cravos; Geografia não é poesia de exaltação colonial.",
+      "Erro de gênero: Geografia é livro de poemas, sem enredo nem narradora-personagem; confunde-se aqui a obra com uma narrativa de emigração.",
+      "Inversão: na parte “Mediterrâneo”, poemas sobre lugares como Epidauro e o cabo Sunion estão carregados de luz, mito e presença dos deuses — a herança grega é central em Sophia.",
+      "Leitura literal do título e anacronismo de escola: os espaços viram lugares de memória, mito e afeto, numa lírica moderna e concreta, sem parentesco com o Naturalismo."
+    ]
+  },
+  {
+    "id": "LIT-007",
+    "materia": "literatura",
+    "tema": "Balada de Amor ao Vento — tradição, cristianismo e assimilação",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [
+      "historia"
+    ],
+    "texto": "No sistema colonial português, vigorou por décadas, em territórios africanos como Moçambique e Angola, uma distinção jurídica entre “indígenas” e “assimilados”. O africano que dominasse a língua portuguesa e adotasse hábitos e costumes considerados “civilizados” pelo colonizador podia, cumpridas outras exigências, obter um estatuto diferenciado. Boa parte da instrução oferecida aos africanos estava a cargo de missões católicas. O regime do indigenato foi formalmente abolido em 1961.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Em Balada de amor ao vento (1990), de Paulina Chiziane, Mwando é um jovem educado num seminário católico que se envolve com Sarnau, a protagonista. Relacionando o texto à trajetória dessa personagem, é correto afirmar que",
+    "alternativas": [
+      "Mwando defende a poligamia como valor ancestral contra a Igreja e, por isso, é expulso do seminário e perseguido pelas autoridades católicas e coloniais.",
+      "a assimilação garante a Mwando proteção plena: o domínio do português e a fé cristã o livram de punições coloniais, e ele nunca precisa deixar Moçambique.",
+      "Mwando expõe a ambivalência da assimilação: em nome da fé recusa a poligamia, mas abandona Sarnau grávida; e sua formação não impede sua deportação para Angola.",
+      "por ser narrado por Mwando em primeira pessoa, o romance adota o ponto de vista do assimilado e trata as tradições de Mambone como superstição a ser superada.",
+      "o romance idealiza o casamento poligâmico tradicional como espaço de harmonia e proteção para as mulheres, harmonia corrompida apenas pela chegada do cristianismo."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é perceber que o romance não opõe uma tradição “boa” a uma colonização “má” (nem o contrário): mostra que os dois sistemas, cada um a seu modo, deixam a mulher desamparada — e que a promessa colonial de integração era limitada.\n\nMwando é o assimilado típico: educado para o sacerdócio, fala português e professa o cristianismo. Expulso do seminário por causa do amor por Sarnau, ele invoca a fé para recusar a poligamia — e, mesmo assim, abandona a jovem grávida para casar, por arranjo da família, com uma moça católica. Anos depois, apesar do português e da formação cristã, é deportado pelas autoridades coloniais para Angola: a “civilização” que o regime exigia dos africanos não os punha a salvo da hierarquia racial do colonialismo.\n\nSarnau, por sua vez, é entregue como primeira esposa ao príncipe herdeiro mediante lobolo e conhece por dentro a poligamia: violência, rivalidade entre esposas, humilhação. A narração, conduzida sobretudo pela própria Sarnau já envelhecida, que rememora a juventude em Mambone, junto ao rio Save, tem forte marca de oralidade e lirismo.\n\nContexto: publicado em 1990, foi o primeiro romance de uma mulher moçambicana; em 2021, Paulina Chiziane tornou-se a primeira africana a receber o Prêmio Camões.\n\nPara lembrar: em Balada de amor ao vento, nem a tradição poligâmica nem o modelo cristão colonial libertam a mulher, e a assimilação não protege o colonizado.",
+    "erradas": [
+      "Inversão: Mwando é o cristão que recusa a poligamia; é expulso do seminário por causa do envolvimento com Sarnau, e não por defender a tradição.",
+      "Contradiz o enredo e o texto de apoio: Mwando acaba deportado pelas autoridades coloniais para Angola; seu domínio do português e sua fé não o protegem.",
+      "",
+      "Inversão de foco narrativo: a voz predominante é a de Sarnau, que rememora a juventude já envelhecida; o romance valoriza a oralidade e o universo de Mambone, sem tratá-los como superstição.",
+      "Leitura superficial: no casamento poligâmico com o príncipe herdeiro, Sarnau sofre violência, rivalidade e humilhação; o romance critica tanto a tradição quanto o modelo cristão colonial."
+    ]
+  },
+  {
+    "id": "LIT-008",
+    "materia": "literatura",
+    "tema": "Canção para Ninar Menino Grande — masculinidade, raça e vozes femininas",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "sociologia"
+    ],
+    "texto": "Na sociologia, chama-se socialização o processo pelo qual os indivíduos interiorizam normas, valores e papéis sociais. A socialização primária ocorre sobretudo na família, durante a infância; a secundária, em instituições como a escola e o trabalho. Os papéis de gênero — o que se espera de um “homem de verdade” ou de uma “boa mulher” — são, nessa perspectiva, aprendidos, e não dados pela natureza.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considerando o texto, assinale a alternativa que relaciona corretamente o conceito de socialização ao romance Canção para ninar menino grande (2018), de Conceição Evaristo.",
+    "alternativas": [
+      "Por ser uma coletânea de contos independentes, cada um com protagonista diferente, o livro dispersa o tema da socialização entre personagens sem vínculo entre si.",
+      "Narrado em primeira pessoa por Fio Jasmim, o romance apresenta suas conquistas amorosas como escolha individual livre, imune a pressões familiares ou escolares.",
+      "O comportamento de Fio Jasmim é explicado como herança biológica do pai, à maneira do determinismo naturalista, o que dispensa referências à escola ou ao racismo.",
+      "Fio Jasmim rompe cedo com o modelo paterno, recusa relações múltiplas e cria todos os filhos, o que reduz as mulheres do romance a testemunhas de sua virtude.",
+      "A masculinidade de Fio Jasmim é aprendida: na família, com o pai, para quem ser homem era ter muitas mulheres; na escola, ao perder o papel de príncipe para um menino branco."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é ver que o romance trata a masculinidade do protagonista como **construção social**, atravessada por gênero e raça — exatamente o que o conceito de socialização descreve.\n\nFio Jasmim é um homem negro, ferroviário, que trabalha nos trens e, a cada parada, envolve-se com uma mulher diferente, embora seja comprometido com Pérola Maria, com quem forma família. Na **socialização primária**, o modelo é o pai, Máximo Jasmim, que lhe ensinou que ser homem era ter muitas mulheres. Na **secundária**, a escola deixa uma ferida: ainda menino, ele é impedido pela professora de fazer o príncipe numa encenação de Cinderela, papel entregue a um menino branco e loiro. Racismo e machismo se somam na formação de um homem que aprende a calar os sentimentos e a provar a virilidade.\n\nA forma reforça o sentido: a trajetória de Fio chega ao leitor sobretudo pelas memórias das mulheres com quem ele se relacionou — Pérola Maria, Juventina, Neide, Eleonora e outras —, recolhidas e reescritas por uma narradora. É a escrevivência de Conceição Evaristo: escrita a partir da experiência coletiva de mulheres negras. O título ganha ironia e ternura: o homem adulto é um “menino grande”, ferido e que fere, a quem se dirige uma canção de ninar que também é crítica.\n\nPara lembrar: em Canção para ninar menino grande, a masculinidade de Fio Jasmim é aprendida na família e na escola, e contada pelas vozes femininas.",
+    "erradas": [
+      "Erro de gênero (frequente em resumos pouco confiáveis): é um romance, com um protagonista, Fio Jasmim; as vozes femininas compõem a trajetória dele, não contos independentes.",
+      "Inversão de foco narrativo: a história é construída pelas memórias das mulheres, recolhidas por uma narradora; e o romance mostra justamente as pressões familiares e escolares sobre Fio.",
+      "Anacronismo de abordagem: explicar o comportamento por herança biológica é procedimento naturalista do século XIX; no romance, a influência paterna é socialização, e o racismo sofrido na escola é decisivo.",
+      "Inversão do enredo: Fio reproduz o modelo do pai, mantém relações com várias mulheres e tem filhos marcados por sua ausência; as mulheres são vozes centrais, não testemunhas passivas.",
+      ""
+    ]
+  },
+  {
+    "id": "LIT-009",
+    "materia": "literatura",
+    "tema": "A Visão das Plantas — intertextualidade e foco narrativo",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [],
+    "enunciado": "A visão das plantas (2019), de Djaimilia Pereira de Almeida, traz como epígrafe um trecho de Os pescadores (1923), do escritor português Raul Brandão, livro em que se menciona de passagem um velho capitão chamado Celestino, que teria começado a vida como pirata e terminado como um santo, cultivando um quintal. Sobre a relação entre a novela e esse ponto de partida, é correto afirmar que",
+    "alternativas": [
+      "a novela segue literalmente a frase de Brandão, narrando a conversão sincera de Celestino, que confessa os crimes ao padre da vila e passa a velhice em penitência pública.",
+      "a novela expande o paradoxo: em terceira pessoa, mostra o ex-capitão negreiro cuidando do jardim sem que o cuidado redima o passado — diante do qual as plantas são indiferentes.",
+      "a novela transfere a ação para Angola, onde Celestino, um ex-escravizado, regressa após anos de ausência para reconstruir a identidade, num relato feito pelo filho dele.",
+      "a novela conserva de Brandão só o nome da personagem e faz de Celestino um capitão de barco pesqueiro, sem ligação com o tráfico, para refletir sobre a solidão da velhice.",
+      "a novela organiza-se como diário contínuo em primeira pessoa, no qual Celestino, tomado de remorso, registra seu arrependimento dia após dia até a morte, que o redime diante da vila."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é entender a epígrafe como **ponto de partida intertextual**: Djaimilia toma uma personagem marginal de outro livro e a coloca no centro, para examinar o paradoxo que ali era só mencionado — como alguém que praticou o horror pode terminar a vida cultivando flores.\n\n**Teoria por trás.** Intertextualidade é a relação que um texto estabelece com outros (Julia Kristeva definiu todo texto como um mosaico de citações). A epígrafe é uma de suas formas mais explícitas: anuncia ao leitor com que obra a nova obra conversa. Aqui, a conversa não é paródia nem simples continuação, mas expansão crítica: a frase de Raul Brandão, que resumia uma vida inteira em poucas palavras, vira uma investigação moral.\n\n**A novela.** Celestino comandou navios negreiros no século XIX e praticou atos de extrema crueldade contra africanos. Velho e quase cego, volta à casa da infância numa vila portuguesa, onde os vizinhos o temem, e dedica-se a recuperar o jardim abandonado (rosas, cravos, camélias, cactos). O padre Alfredo o visita para levá-lo à confissão, sem sucesso. A narração é em terceira pessoa, entremeada por fragmentos de um caderno do próprio capitão, nos quais o passado retorna — mas sem a forma do arrependimento. Ele morre em paz, e a vila passa a lembrá-lo como um herói distante.\n\n**O título.** As plantas não julgam: crescem do mesmo modo sob os cuidados de um assassino. Essa indiferença da natureza recusa ao leitor o consolo da punição ou da redenção e devolve a ele a pergunta moral.\n\nPara lembrar: A visão das plantas expande uma personagem de Os pescadores, de Raul Brandão, num relato em terceira pessoa sobre um ex-traficante de escravizados que cultiva um jardim sem se redimir.",
+    "erradas": [
+      "Leitura literal e falsa: não há conversão nem penitência pública; o padre Alfredo tenta levar Celestino à confissão sem sucesso, e o capitão morre em paz, sem redenção encenada.",
+      "",
+      "Erro grave de enredo, comum em resumos pouco confiáveis: Celestino não foi escravizado, e sim capitão de navio negreiro; a ação se passa em Portugal e não há narração feita por um filho.",
+      "Erro sobre o núcleo da personagem: o passado no tráfico de africanos escravizados é justamente o centro da memória de Celestino e da investigação moral da novela.",
+      "Inversão de foco e de sentido: a narração é em terceira pessoa (as anotações do capitão são fragmentos), e nelas o passado retorna sem a forma do arrependimento — a aparente ausência de remorso é dos pontos mais perturbadores do livro."
+    ]
+  },
+  {
+    "id": "LIT-010",
+    "materia": "literatura",
+    "tema": "Comparativa — Caminho de Pedras e a repressão na Era Vargas",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "historia"
+    ],
+    "tabela": {
+      "titulo": "Brasil, 1930–1945: alguns marcos",
+      "cabecalho": [
+        "Ano",
+        "Acontecimento"
+      ],
+      "linhas": [
+        [
+          "1932",
+          "Revolução Constitucionalista, em São Paulo, contra o Governo Provisório de Vargas"
+        ],
+        [
+          "1934",
+          "Promulgação de nova Constituição; Vargas é eleito presidente pela Assembleia"
+        ],
+        [
+          "1935",
+          "Lei de Segurança Nacional (abril); levante comunista em Natal, Recife e Rio de Janeiro (novembro)"
+        ],
+        [
+          "1937",
+          "Divulgação do Plano Cohen (setembro) e golpe do Estado Novo (novembro)"
+        ],
+        [
+          "1943",
+          "Consolidação das Leis do Trabalho (CLT)"
+        ]
+      ]
+    },
+    "enunciado": "Caminho de Pedras, de Rachel de Queiroz, foi publicado em 1937. No romance, ambientado em Fortaleza nos anos 1930, um pequeno grupo de operários e intelectuais tenta organizar uma célula comunista, em meio a atuação clandestina, vigilância e prisões — Noemi e Roberto chegam a ser presos, e ela é solta por estar grávida. Com base na tabela e no romance, é correto afirmar que",
+    "alternativas": [
+      "a perseguição retratada corresponde à ditadura instaurada em 1964, e o romance antecipa, em forma de alegoria, os atos institucionais do regime militar.",
+      "a célula comunista do romance filia-se à Ação Integralista Brasileira, movimento de esquerda que disputava com Vargas o apoio dos operários urbanos.",
+      "o romance celebra a política trabalhista de Vargas, já que os operários de Fortaleza aparecem protegidos pela CLT e por direitos trabalhistas já consolidados.",
+      "o clima de vigilância e prisões condiz com a repressão anticomunista, que cresceu com a Lei de Segurança Nacional e o levante de 1935 e serviu de pretexto ao golpe de 1937.",
+      "a repressão aos militantes deriva da Revolução Constitucionalista de 1932, movimento comunista paulista derrotado por Vargas, cujos remanescentes o romance acompanha."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é ler a tabela filtrando o que é contemporâneo ao romance e o que é posterior a ele.\n\nCaminho de Pedras sai em 1937 e figura um ambiente de clandestinidade: reuniões discretas, desconfiança, vigilância, prisões. Isso dialoga com a escalada repressiva da Era Vargas contra a esquerda. Em abril de 1935, a Lei de Segurança Nacional já definia crimes contra a ordem política e social; em novembro, o levante comunista em Natal, Recife e Rio de Janeiro, rapidamente derrotado, serviu de justificativa para estado de sítio, prisões em massa e endurecimento do regime. Em setembro de 1937, o governo divulgou o Plano Cohen, documento forjado que atribuía aos comunistas um plano de insurreição; em 10 de novembro veio o golpe do Estado Novo. O “perigo vermelho” foi, portanto, peça central na construção da ditadura.\n\nO romance é contemporâneo a esse processo, escrito por uma autora que conhecera por dentro os círculos comunistas e que, sem abandonar a crença na transformação social, critica procedimentos do partido.\n\nA tabela também serve para eliminar armadilhas: a CLT (1943) é posterior ao livro; 1932 foi um movimento das elites paulistas por uma Constituição; 1964 é outro regime.\n\nPara lembrar: Caminho de Pedras é romance de 1937 que figura a militância comunista sob a repressão crescente da Era Vargas, às vésperas do Estado Novo.",
+    "erradas": [
+      "Anacronismo: o golpe de 1964 e os atos institucionais pertencem a outro regime, quase três décadas depois; a repressão do romance é a da Era Vargas.",
+      "Erro de campo ideológico: a Ação Integralista Brasileira era de extrema direita, inspirada no fascismo e ferozmente anticomunista — adversária, e não abrigo, de células comunistas.",
+      "Anacronismo e inversão: a CLT é de 1943, posterior ao romance, que mostra miséria operária e perseguição política, e não proteção trabalhista.",
+      "",
+      "Erro histórico: a Revolução Constitucionalista foi liderada pelas elites paulistas, que exigiam uma Constituição e mais autonomia para São Paulo; não tinha caráter comunista."
+    ]
+  },
+  {
+    "id": "LIT-011",
+    "materia": "literatura",
+    "tema": "Comparativa — o casamento em Balada de Amor ao Vento e Memórias de Martha",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "sociologia"
+    ],
+    "texto": "Para Émile Durkheim, fatos sociais são maneiras de agir, pensar e sentir exteriores ao indivíduo, gerais em uma sociedade e dotadas de poder de coerção: impõem-se às pessoas independentemente de sua vontade, e quem as desafia sofre sanções, formais ou difusas.\n\n(Texto adaptado de ideias de Émile Durkheim.)",
+    "enunciado": "Em Balada de amor ao vento (1990), de Paulina Chiziane, e em Memórias de Martha (1899), de Julia Lopes de Almeida, o casamento das protagonistas pode ser lido à luz do conceito apresentado. Assinale a alternativa correta.",
+    "alternativas": [
+      "Nos dois, o casamento age como fato social coercitivo: Sarnau é entregue ao herdeiro do trono mediante lobolo; Marta, já professora, aceita Miranda sem amor, pressionada pela mãe.",
+      "Nos dois romances o lobolo regula as uniões, e tanto Sarnau quanto Marta são “compradas”, o que se explica por ambas as narrativas se passarem em Moçambique colonial.",
+      "O conceito não se aplica a Memórias de Martha, pois Marta se casa por amor com Luís, contra a vontade da mãe, e o romance celebra a vitória da vontade individual sobre a norma.",
+      "Em Balada, o casamento é livre escolha: Sarnau recusa o príncipe e se casa com Mwando, seminarista que defende a poligamia tradicional contra as pressões da Igreja.",
+      "Em ambos, o dote é pago pela família da noiva ao noivo, segundo o costume europeu, e as protagonistas relatam as próprias experiências em terceira pessoa, com distanciamento."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é aplicar as três características do fato social — **exterioridade, generalidade e coercitividade** — a dois casamentos muito diferentes na aparência.\n\nEm Balada de amor ao vento, Sarnau, jovem de Mambone, torna-se a primeira esposa do herdeiro do trono, e a família do noivo paga por ela um lobolo de 36 vacas; a própria protagonista sente-se posta à venda. A norma é exterior (vem da tradição, não dela), geral (regula as uniões da comunidade) e coercitiva: dentro da poligamia, Sarnau enfrenta violência, rivalidade e humilhação, e desafiar o sistema tem alto custo.\n\nEm Memórias de Martha, no Rio de Janeiro do fim do Império, a coerção é mais difusa, mas igualmente eficaz. Marta estudou e é professora, porém seu salário mal sustenta a casa; um médico, ao diagnosticar-lhe histeria, sugere casamento ou viagem; a mãe, que se sacrificara a vida inteira, empenha-se em casá-la. Preterida por Luís, que prefere uma jovem estrangeira, Marta aceita Miranda, homem mais velho, sem amor — o casamento como segurança.\n\nEm comum, as duas narrativas são conduzidas, predominantemente, pela voz em primeira pessoa das protagonistas, que rememoram o passado: Sarnau já envelhecida, Marta já adulta.\n\nPara lembrar: lido com Durkheim, o casamento nos dois romances é norma exterior e coercitiva — o lobolo e a poligamia em Moçambique, a pressão materna e social no Rio imperial.",
+    "erradas": [
+      "",
+      "Generalização indevida: o lobolo é instituição do sul de Moçambique e aparece só em Balada; Memórias de Martha se passa no Rio de Janeiro do fim do Império.",
+      "Leitura superficial: Marta ama Luís, mas é ele quem a abandona por uma jovem estrangeira; ela se casa com Miranda sem amor, pressionada pela mãe — o romance mostra a força da norma, não sua derrota.",
+      "Inversão dupla: Sarnau não escolhe o príncipe — é entregue em casamento mediante lobolo — e Mwando, cristão, recusa a poligamia.",
+      "Inversão do sentido do lobolo e do foco narrativo: no lobolo, é a família do noivo que paga à da noiva; e as duas narrativas são conduzidas, predominantemente, pela voz em primeira pessoa das protagonistas."
+    ]
+  },
+  {
+    "id": "LIT-012",
+    "materia": "literatura",
+    "tema": "Comparativa — A Visão das Plantas e a memória colonial portuguesa",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [
+      "historia",
+      "sociologia"
+    ],
+    "texto": "Durante o Estado Novo português (1933–1974), a propaganda oficial celebrou a expansão marítima como epopeia civilizadora e, sobretudo a partir dos anos 1950, apropriou-se da tese lusotropicalista, formulada pelo sociólogo brasileiro Gilberto Freyre, para apresentar a colonização portuguesa como singularmente branda e propensa à miscigenação. O tráfico atlântico de africanos escravizados — no qual navios portugueses e luso-brasileiros estiveram entre os principais transportadores ao longo de séculos — ocupou lugar marginal nessa narrativa. Para o sociólogo Maurice Halbwachs, a memória coletiva é sempre uma reconstrução seletiva do passado, feita a partir das necessidades presentes de um grupo.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Em A visão das plantas, de Djaimilia Pereira de Almeida, o velho capitão Celestino, que comandara navios negreiros, volta à casa da infância numa vila portuguesa. Considerando o texto, o elemento da novela que mais diretamente encena o mecanismo de memória seletiva nele descrito é",
+    "alternativas": [
+      "a amizade de Celestino com o padre Alfredo, que, após ouvir a confissão completa do capitão, a divulga na igreja para que a vila jamais esqueça os crimes do tráfico.",
+      "a brandura com que Celestino tratava os cativos, lembrada em suas anotações, o que confirma na ficção a tese de uma colonização portuguesa singularmente amena.",
+      "o destino póstumo do capitão: morto em paz e sem punição, ele passa a ser lembrado pelos jovens da vila como herói distante, e os rumores sobre seu passado viram cantigas.",
+      "a condenação de Celestino por um tribunal popular formado pelos vizinhos, que restabelece a justiça e inscreve os crimes do tráfico na memória oficial da vila.",
+      "o caderno de Celestino, publicado após sua morte pelo padre Alfredo, que se torna a versão oficial do tráfico ensinada às crianças na escola da vila."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é articular o conceito de **memória coletiva seletiva** com o modo como a vila lida com Celestino.\n\nPara Halbwachs, a memória de um grupo não é um arquivo neutro: ela seleciona, apaga e reorganiza o passado conforme as necessidades do presente. O texto mostra esse mecanismo em escala nacional: o Estado Novo português exaltou as navegações e, apoiado no lusotropicalismo, difundiu a imagem de uma colonização branda, deixando o tráfico negreiro à margem.\n\nA novela encena o mesmo processo em escala de aldeia. Em vida, Celestino é temido pelos vizinhos, que o observam com espanto e curiosidade. O padre Alfredo insiste em levá-lo à confissão, mas Celestino se mantém em silêncio. Ele morre em paz — e, depois da morte, os jovens passam a vê-lo como um herói distante, enquanto os rumores sobre seus crimes se transformam em cantigas de pescadores. A violência do tráfico não é negada de frente: é diluída em lenda, o que é uma forma eficaz de esquecimento.\n\nAo recusar punição e redenção, a narrativa impede que o leitor encerre o caso com conforto moral e expõe a “boa consciência” colonial analisada por ensaístas como Eduardo Lourenço.\n\nPara lembrar: em A visão das plantas, a mitificação póstuma de Celestino mostra como uma comunidade converte a violência colonial em lenda e esquecimento.",
+    "erradas": [
+      "Enredo inventado: o padre Alfredo insiste em levar o capitão à confissão, mas Celestino se mantém em silêncio, e nada é divulgado à vila — o silêncio sobre os crimes persiste.",
+      "Inversão: as lembranças de Celestino envolvem crueldades extremas contra africanos; a novela desmonta, e não confirma, a imagem de uma colonização amena.",
+      "",
+      "Desfecho inventado: não há julgamento; os vizinhos o temem em vida e, após a morte, a vila o mitifica — o contrário de inscrever os crimes numa memória oficial.",
+      "Extrapolação a partir de um dado verdadeiro: o caderno de anotações existe na novela, mas não é publicado nem vira versão oficial; o que se difunde na vila são rumores convertidos em cantigas."
+    ]
+  }
+]

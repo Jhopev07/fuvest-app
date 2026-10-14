@@ -1,0 +1,407 @@
+[
+  {
+    "id": "ING-001",
+    "materia": "ingles",
+    "tema": "Vocabulário em contexto — phrasal verbs",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "The enemy of my enemy\n\nFor most of the twentieth century, doctors in Western Europe and North America had little reason to pay attention to bacteriophages, the viruses that infect bacteria. Antibiotics were cheap, broad and spectacularly effective, and the idea of fighting one microbe with another was left to a handful of institutes in Eastern Europe and the former Soviet Union. That complacency is now wearing off. As strains that shrug off almost every available drug become more common in hospitals, researchers are taking a second look at an approach their predecessors had dismissed.\n\nPhages have an obvious appeal. Each type tends to attack only a narrow range of bacterial strains, which means that, unlike a broad-spectrum antibiotic, it leaves the gut's beneficial residents largely untouched. Phages also multiply where their hosts are abundant and dwindle once those hosts are gone, so the dose, in a sense, adjusts itself.\n\nYet the same specificity that makes them attractive makes them awkward to regulate. A conventional drug is approved as a fixed molecule; a phage cocktail may have to be reassembled for each patient. Moreover, bacteria can evolve resistance to phages just as they do to antibiotics. Some researchers argue that this is not necessarily bad news. In some laboratory studies, bacteria that escaped phage attack did so by altering or discarding the very membrane proteins that pumped antibiotics out of their cells — and became more vulnerable to those drugs as a result. If such trade-offs prove common, phages might be most useful not as replacements for antibiotics but as partners that push bacteria into an evolutionary corner.\n\nNone of this will happen quickly. Clinical trials have so far produced mixed results, and nobody has yet worked out a business model for a medicine that must be tailored case by case.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "No primeiro parágrafo, as expressões “wearing off” (em “That complacency is now wearing off”) e “shrug off” (em “strains that shrug off almost every available drug”) significam, no contexto, respectivamente:",
+    "alternativas": [
+      "intensificando-se; eliminar rapidamente",
+      "desgastando-se; encolher-se diante de",
+      "dissipando-se gradualmente; resistir com facilidade a",
+      "sendo exibida; desprezar a compra de",
+      "terminando de repente; absorver e neutralizar"
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é lembrar que o sentido de um phrasal verb não é a soma das partes: é preciso ler o conjunto e testá-lo na frase.\n\n**Wear off** significa “perder o efeito aos poucos”, como um analgésico que vai passando (“the painkiller is wearing off”). No texto, a complacência (acomodação) dos médicos ocidentais em relação aos fagos “is now wearing off”, isto é, está se dissipando — o que combina com a frase seguinte, em que pesquisadores estão “taking a second look” (reconsiderando) a terapia.\n\n**Shrug off** vem de “shrug” (dar de ombros). Em sentido figurado, “shrug something off” é não se deixar afetar por algo, livrar-se dele sem esforço. Cepas que “shrug off almost every available drug” são as que resistem a quase todos os medicamentos — as bactérias multirresistentes, justamente o problema que motiva a volta do interesse pelos fagos.\n\nPara lembrar: diante de um phrasal verb, desconfie da tradução palavra por palavra e confira se o sentido escolhido mantém a coerência com as frases vizinhas.",
+    "erradas": [
+      "Inverte o sentido de “wear off” (diminuir) e atribui às cepas a ação de eliminar os remédios; o texto diz que elas resistem aos fármacos, não que os destroem.",
+      "Tradução literal palavra por palavra (“wear” = desgastar; “shrug” = encolher os ombros), que ignora o sentido idiomático das expressões.",
+      "",
+      "Confunde “wear” com o sentido de “vestir/usar” e lê “drug” como produto a ser comprado; bactérias não fazem escolhas de consumo.",
+      "“Wear off” indica processo gradual, não ruptura súbita; e as cepas não neutralizam os fármacos absorvendo-os — simplesmente não são afetadas por eles."
+    ]
+  },
+  {
+    "id": "ING-002",
+    "materia": "ingles",
+    "tema": "Inferência — evolução e resistência bacteriana",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "biologia"
+    ],
+    "texto": "The enemy of my enemy\n\nFor most of the twentieth century, doctors in Western Europe and North America had little reason to pay attention to bacteriophages, the viruses that infect bacteria. Antibiotics were cheap, broad and spectacularly effective, and the idea of fighting one microbe with another was left to a handful of institutes in Eastern Europe and the former Soviet Union. That complacency is now wearing off. As strains that shrug off almost every available drug become more common in hospitals, researchers are taking a second look at an approach their predecessors had dismissed.\n\nPhages have an obvious appeal. Each type tends to attack only a narrow range of bacterial strains, which means that, unlike a broad-spectrum antibiotic, it leaves the gut's beneficial residents largely untouched. Phages also multiply where their hosts are abundant and dwindle once those hosts are gone, so the dose, in a sense, adjusts itself.\n\nYet the same specificity that makes them attractive makes them awkward to regulate. A conventional drug is approved as a fixed molecule; a phage cocktail may have to be reassembled for each patient. Moreover, bacteria can evolve resistance to phages just as they do to antibiotics. Some researchers argue that this is not necessarily bad news. In some laboratory studies, bacteria that escaped phage attack did so by altering or discarding the very membrane proteins that pumped antibiotics out of their cells — and became more vulnerable to those drugs as a result. If such trade-offs prove common, phages might be most useful not as replacements for antibiotics but as partners that push bacteria into an evolutionary corner.\n\nNone of this will happen quickly. Clinical trials have so far produced mixed results, and nobody has yet worked out a business model for a medicine that must be tailored case by case.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "No terceiro parágrafo, o autor sugere que fagos e antibióticos poderiam atuar como “partners”. À luz do texto e dos mecanismos evolutivos, essa proposta se apoia na ideia de que",
+    "alternativas": [
+      "a pressão seletiva dos fagos pode favorecer bactérias que lhes escaparam por terem perdido ou alterado proteínas que expulsavam antibióticos, o que as torna mais sensíveis a esses fármacos.",
+      "os fagos induzem nas bactérias mutações dirigidas, que desativam as bombas de antibióticos com a finalidade de facilitar a ação dos medicamentos.",
+      "as bactérias não conseguem desenvolver resistência aos fagos, o que permite usá-los indefinidamente em associação com os antibióticos.",
+      "fagos e antibióticos atacam a mesma proteína de membrana, de modo que o uso combinado equivale a dobrar a dose do tratamento.",
+      "os fagos eliminam a microbiota intestinal benéfica que protegia as bactérias patogênicas, deixando-as expostas aos antibióticos."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é ler com atenção a frase “bacteria that escaped phage attack did so by altering or discarding the very membrane proteins that pumped antibiotics out of their cells — and became more vulnerable to those drugs as a result”. “The very” equivale a “justamente as mesmas”: as proteínas cuja perda livrou a bactéria do fago eram as que a protegiam do antibiótico.\n\nEm termos biológicos, isso é um **trade-off** (compromisso evolutivo): o ganho em um traço (escapar do fago) custa a perda de outro (expulsar o antibiótico). As mutações surgem ao acaso; o fago age como agente seletivo, matando as bactérias que mantêm a proteína e deixando sobreviver as variantes que a perderam ou a modificaram. O antibiótico, então, encontra uma população mais vulnerável.\n\nDaí a imagem de “push bacteria into an evolutionary corner”: encurralar as bactérias, pois escapar de uma ameaça as expõe à outra. Note também a cautela do autor (“If such trade-offs prove common, phages might...”) — é uma possibilidade, não um fato consolidado.\n\nPara lembrar: a seleção natural não produz mutações sob encomenda; ela seleciona variantes que já surgiram, e adaptações costumam ter custos.",
+    "erradas": [
+      "",
+      "Visão lamarckista: mutações não surgem dirigidas a um objetivo. O fago apenas seleciona variantes preexistentes; “did so by altering” descreve o resultado, não uma intenção.",
+      "Contradiz o texto, que afirma explicitamente que “bacteria can evolve resistance to phages just as they do to antibiotics”.",
+      "Extrapolação: o texto não diz que ambos atacam a mesma proteína nem fala em somar doses; a proteína em questão servia à bactéria para expulsar o antibiótico.",
+      "Contradiz o segundo parágrafo: graças à especificidade, os fagos deixam a microbiota benéfica “largely untouched”."
+    ]
+  },
+  {
+    "id": "ING-003",
+    "materia": "ingles",
+    "tema": "Referência pronominal e coesão",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "The enemy of my enemy\n\nFor most of the twentieth century, doctors in Western Europe and North America had little reason to pay attention to bacteriophages, the viruses that infect bacteria. Antibiotics were cheap, broad and spectacularly effective, and the idea of fighting one microbe with another was left to a handful of institutes in Eastern Europe and the former Soviet Union. That complacency is now wearing off. As strains that shrug off almost every available drug become more common in hospitals, researchers are taking a second look at an approach their predecessors had dismissed.\n\nPhages have an obvious appeal. Each type tends to attack only a narrow range of bacterial strains, which means that, unlike a broad-spectrum antibiotic, it leaves the gut's beneficial residents largely untouched. Phages also multiply where their hosts are abundant and dwindle once those hosts are gone, so the dose, in a sense, adjusts itself.\n\nYet the same specificity that makes them attractive makes them awkward to regulate. A conventional drug is approved as a fixed molecule; a phage cocktail may have to be reassembled for each patient. Moreover, bacteria can evolve resistance to phages just as they do to antibiotics. Some researchers argue that this is not necessarily bad news. In some laboratory studies, bacteria that escaped phage attack did so by altering or discarding the very membrane proteins that pumped antibiotics out of their cells — and became more vulnerable to those drugs as a result. If such trade-offs prove common, phages might be most useful not as replacements for antibiotics but as partners that push bacteria into an evolutionary corner.\n\nNone of this will happen quickly. Clinical trials have so far produced mixed results, and nobody has yet worked out a business model for a medicine that must be tailored case by case.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "No segundo parágrafo, no trecho “Each type tends to attack only a narrow range of bacterial strains, which means that, unlike a broad-spectrum antibiotic, it leaves the gut's beneficial residents largely untouched”, os termos “it” e “residents” referem-se, respectivamente, a",
+    "alternativas": [
+      "um antibiótico de amplo espectro; bactérias benéficas do intestino",
+      "cada tipo de fago; células do revestimento intestinal",
+      "o apelo dos fagos; pacientes internados nos hospitais",
+      "cada tipo de fago; bactérias benéficas do intestino",
+      "uma estreita gama de cepas; fagos que habitam o intestino"
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é não escolher automaticamente o substantivo mais próximo do pronome. Logo antes de “it” aparece “a broad-spectrum antibiotic”, mas essa expressão está dentro de um termo intercalado de comparação: “unlike a broad-spectrum antibiotic” (diferentemente de um antibiótico de amplo espectro).\n\nTeste lógico: se “it” fosse o antibiótico, a frase diria que, “ao contrário de um antibiótico, o antibiótico preserva...”, o que é absurdo. O sujeito retomado é “each type” (cada tipo de fago), que ataca apenas uma faixa estreita de cepas e, por isso, poupa as demais bactérias. É exatamente o contraste com o antibiótico de amplo espectro, que mata bactérias nocivas e benéficas indistintamente.\n\n“Residents” é uma metáfora: os “moradores” do intestino são os microrganismos da microbiota, qualificados como “beneficial”. Como o assunto é a ação sobre bactérias, “residents” não se refere a células humanas nem a pacientes.\n\nPara lembrar: para achar o referente, substitua o pronome pelos candidatos e verifique qual mantém a coerência; termos intercalados entre vírgulas raramente são o sujeito retomado.",
+    "erradas": [
+      "Armadilha do substantivo mais próximo: “a broad-spectrum antibiotic” está no termo comparativo introduzido por “unlike” e é justamente aquilo com que o fago é contrastado.",
+      "Acerta o referente de “it”, mas interpreta “residents” como células humanas; o contexto trata de bactérias e da microbiota intestinal.",
+      "“Appeal” (apelo, atrativo) é o tema do parágrafo, não o sujeito da oração; e ler “residents” como “moradores/pacientes” ignora a metáfora.",
+      "",
+      "“Strains” são as cepas atacadas pelo fago, não o agente que poupa a microbiota; e o texto não menciona fagos “residentes” no intestino."
+    ]
+  },
+  {
+    "id": "ING-004",
+    "materia": "ingles",
+    "tema": "Inferência — ilha de calor urbana",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "fisica"
+    ],
+    "texto": "Cities that make their own weather\n\nWalk across a car park at noon in midsummer and the asphalt will tell you something that a thermometer in an open field cannot: cities manufacture their own climate. The urban heat island effect — the tendency of built-up areas to be warmer than the surrounding countryside — is usually described as a daytime problem, but its signature is clearest after dark. On a calm, clear night, the gap between a dense city centre and nearby farmland can reach several degrees Celsius.\n\nThe reasons are largely physical. Dark roofs and roads reflect only a small fraction of incoming sunlight, so they absorb most of it. Concrete, brick and stone store that energy during the day and give it back slowly after sunset, whereas vegetated soil cools down more quickly and is further cooled by the evaporation of water from leaves. Tall buildings make matters worse: they trap outgoing radiation between their walls and block the breezes that would otherwise carry warm air away. Add the waste heat from engines and air conditioners, and the city becomes a slow-release radiator.\n\nThe consequences are not evenly shared. Wealthier neighbourhoods tend to have more trees and parks, while poorer districts are often packed with heat-absorbing surfaces and have fewer resources to cool their homes. During heatwaves, this difference can translate into higher rates of hospital admissions.\n\nRemedies need not be exotic. Painting roofs white, planting street trees and uncovering buried urban streams can all bring temperatures down. However, a city that simply buys more air conditioners may end up warming the very streets it is trying to cool.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "De acordo com o texto, a diferença de temperatura entre um centro urbano denso e a zona rural vizinha tende a ser mais nítida à noite porque",
+    "alternativas": [
+      "superfícies escuras passam a refletir mais radiação depois do pôr do sol, aquecendo o ar ao seu redor.",
+      "concreto e tijolo devolvem lentamente, após o pôr do sol, a energia acumulada durante o dia, enquanto o solo com vegetação esfria mais depressa.",
+      "a evaporação da água das folhas aquece o campo durante o dia, e esse calor extra se dissipa à noite.",
+      "as brisas noturnas transportam o ar aquecido da zona rural para o interior dos centros urbanos.",
+      "os aparelhos de ar-condicionado funcionam sobretudo à noite, quando a demanda por energia elétrica é menor."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é localizar, no segundo parágrafo, a frase organizada pelo conectivo “whereas”: “Concrete, brick and stone store that energy during the day and give it back slowly after sunset, whereas vegetated soil cools down more quickly and is further cooled by the evaporation of water from leaves”. “Whereas” (ao passo que) opõe dois comportamentos: a cidade libera calor aos poucos; o campo esfria rápido.\n\nA Física explica por quê. Superfícies escuras têm baixa refletividade (baixo albedo) e absorvem a maior parte da luz solar. Concreto, tijolo e pedra têm grande massa e grande capacidade térmica: armazenam muita energia e a devolvem lentamente quando o Sol se põe. Já a evaporação absorve calor latente, resfriando a vegetação e o solo úmido. Resultado: à noite, o campo perde calor depressa e a cidade continua aquecendo o ar — o “slow-release radiator” do texto.\n\nRepare ainda que “give it back” (devolver) é um phrasal verb e que “it” retoma “that energy”.\n\nPara lembrar: baixo albedo + alta capacidade térmica explicam por que a ilha de calor é mais intensa depois do pôr do sol; “whereas” marca contraste entre dois termos comparados.",
+    "erradas": [
+      "Inverte a física e o texto: superfícies escuras refletem pouco (“reflect only a small fraction”) e, por isso, absorvem energia; além disso, à noite não há luz solar a refletir.",
+      "",
+      "Erro físico: a evaporação absorve calor (é endotérmica) e, por isso, resfria — o texto diz que o solo “is further cooled by the evaporation”.",
+      "Inverte o texto: os prédios bloqueiam as brisas que, de outro modo, levariam o ar quente para longe da cidade (“carry warm air away”).",
+      "Extrapolação: o texto cita o calor residual dos aparelhos, mas não diz em que horário funcionam nem fala de demanda de energia."
+    ]
+  },
+  {
+    "id": "ING-005",
+    "materia": "ingles",
+    "tema": "Modalização, phrasal verbs e ironia",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "fisica"
+    ],
+    "texto": "Cities that make their own weather\n\nWalk across a car park at noon in midsummer and the asphalt will tell you something that a thermometer in an open field cannot: cities manufacture their own climate. The urban heat island effect — the tendency of built-up areas to be warmer than the surrounding countryside — is usually described as a daytime problem, but its signature is clearest after dark. On a calm, clear night, the gap between a dense city centre and nearby farmland can reach several degrees Celsius.\n\nThe reasons are largely physical. Dark roofs and roads reflect only a small fraction of incoming sunlight, so they absorb most of it. Concrete, brick and stone store that energy during the day and give it back slowly after sunset, whereas vegetated soil cools down more quickly and is further cooled by the evaporation of water from leaves. Tall buildings make matters worse: they trap outgoing radiation between their walls and block the breezes that would otherwise carry warm air away. Add the waste heat from engines and air conditioners, and the city becomes a slow-release radiator.\n\nThe consequences are not evenly shared. Wealthier neighbourhoods tend to have more trees and parks, while poorer districts are often packed with heat-absorbing surfaces and have fewer resources to cool their homes. During heatwaves, this difference can translate into higher rates of hospital admissions.\n\nRemedies need not be exotic. Painting roofs white, planting street trees and uncovering buried urban streams can all bring temperatures down. However, a city that simply buys more air conditioners may end up warming the very streets it is trying to cool.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considere a última frase do texto: “However, a city that simply buys more air conditioners may end up warming the very streets it is trying to cool.” Assinale a interpretação correta dessa frase, tanto do ponto de vista linguístico quanto do físico.",
+    "alternativas": [
+      "O autor afirma com certeza que o ar-condicionado é a principal causa das ilhas de calor, à frente do asfalto e do concreto.",
+      "A expressão “end up” indica finalidade: as cidades compram os aparelhos com o objetivo deliberado de aquecer as ruas.",
+      "Os aparelhos eliminam o calor do interior dos edifícios; o problema, para o autor, restringe-se à poluição das usinas elétricas.",
+      "O autor recomenda a compra de mais aparelhos, desde que acompanhada da pintura dos telhados de branco.",
+      "Como os aparelhos lançam para fora o calor retirado dos ambientes, somado ao gerado pelo seu funcionamento, comprá-los em massa pode acabar aquecendo as ruas."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é combinar quatro marcas linguísticas com um conceito de Termodinâmica.\n\n“However” opõe a frase às soluções listadas antes (pintar telhados, plantar árvores): há uma saída que parece óbvia e não é boa. “Simply” (apenas) caracteriza a cidade que se limita a comprar aparelhos. “May” expressa possibilidade, não certeza. “End up + -ing” significa “acabar fazendo algo”, um resultado não planejado — e “the very streets” é “justamente as ruas” que se queria resfriar. Daí a ironia: a solução produz o efeito oposto ao desejado.\n\nNa Física, o ar-condicionado é uma máquina frigorífica: retira o calor Q₁ do ambiente interno e, consumindo o trabalho elétrico W, lança para o exterior Q₂ = Q₁ + W. Ele não destrói calor; transfere-o para a rua e ainda acrescenta o equivalente ao trabalho consumido. O próprio texto já citava “the waste heat from engines and air conditioners”.\n\nPara lembrar: “end up + -ing” indica consequência não intencional; uma máquina frigorífica libera no ambiente quente mais calor do que retira do ambiente frio.",
+    "erradas": [
+      "Exagero de certeza: “may” indica possibilidade; além disso, o texto não compara o peso do ar-condicionado com o do asfalto e do concreto.",
+      "Confunde consequência com finalidade: “end up” indica resultado não planejado; o objetivo das cidades é resfriar as ruas (“trying to cool”).",
+      "Erro físico (os aparelhos não eliminam calor, apenas o transferem para fora) somado a extrapolação: o texto não menciona usinas.",
+      "Contradiz o “However”, que apresenta a compra de aparelhos como saída problemática, em oposição às soluções listadas antes.",
+      ""
+    ]
+  },
+  {
+    "id": "ING-006",
+    "materia": "ingles",
+    "tema": "Ideia central do parágrafo — desigualdade socioespacial",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [
+      "geografia",
+      "sociologia"
+    ],
+    "texto": "Cities that make their own weather\n\nWalk across a car park at noon in midsummer and the asphalt will tell you something that a thermometer in an open field cannot: cities manufacture their own climate. The urban heat island effect — the tendency of built-up areas to be warmer than the surrounding countryside — is usually described as a daytime problem, but its signature is clearest after dark. On a calm, clear night, the gap between a dense city centre and nearby farmland can reach several degrees Celsius.\n\nThe reasons are largely physical. Dark roofs and roads reflect only a small fraction of incoming sunlight, so they absorb most of it. Concrete, brick and stone store that energy during the day and give it back slowly after sunset, whereas vegetated soil cools down more quickly and is further cooled by the evaporation of water from leaves. Tall buildings make matters worse: they trap outgoing radiation between their walls and block the breezes that would otherwise carry warm air away. Add the waste heat from engines and air conditioners, and the city becomes a slow-release radiator.\n\nThe consequences are not evenly shared. Wealthier neighbourhoods tend to have more trees and parks, while poorer districts are often packed with heat-absorbing surfaces and have fewer resources to cool their homes. During heatwaves, this difference can translate into higher rates of hospital admissions.\n\nRemedies need not be exotic. Painting roofs white, planting street trees and uncovering buried urban streams can all bring temperatures down. However, a city that simply buys more air conditioners may end up warming the very streets it is trying to cool.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "O terceiro parágrafo do texto (“The consequences are not evenly shared...”) permite relacionar a ilha de calor urbana a um fenômeno estudado pela Geografia e pela Sociologia. Trata-se de",
+    "alternativas": [
+      "conurbação: a expansão de cidades vizinhas até formarem uma única mancha urbana, o que uniformiza a temperatura entre os bairros.",
+      "êxodo rural: a migração de moradores do campo para a cidade em busca de temperaturas mais amenas durante as ondas de calor.",
+      "segregação socioespacial: a distribuição desigual de áreas verdes e de meios de resfriamento acompanha a renda, expondo mais os pobres ao calor.",
+      "gentrificação: os bairros ricos, por concentrarem aparelhos de ar-condicionado, tornam-se mais quentes do que os bairros pobres.",
+      "inversão térmica: uma camada de ar frio retida junto ao solo, mais comum em bairros arborizados, onde agrava a poluição atmosférica."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é entender a frase-tópico do parágrafo: “The consequences are not evenly shared” — as consequências não são distribuídas por igual (“evenly” = uniformemente). O restante do parágrafo desenvolve essa ideia: bairros mais ricos têm mais árvores e parques; distritos mais pobres são “packed with” (repletos de) superfícies que absorvem calor e têm menos recursos para resfriar as casas. Nas ondas de calor, isso se traduz em mais internações hospitalares.\n\nNa Geografia e na Sociologia, essa sobreposição entre renda, localização na cidade e acesso a infraestrutura e qualidade ambiental é chamada de **segregação socioespacial**; quando os riscos ambientais recaem de forma desproporcional sobre os mais pobres, fala-se também em **injustiça ambiental**. A ilha de calor, portanto, não é só um fenômeno físico: sua intensidade varia dentro da própria cidade conforme a estrutura social.\n\nPara lembrar: a frase-tópico costuma resumir o parágrafo; e problemas ambientais urbanos tendem a atingir mais os grupos com menos renda e menos infraestrutura.",
+    "erradas": [
+      "Conurbação é um conceito real, mas não responde à pergunta; além disso, “uniformizar a temperatura” contradiz o “not evenly shared”.",
+      "Extrapolação e inversão: o texto não fala de migração, e a cidade é justamente o lugar mais quente, não o refúgio contra o calor.",
+      "",
+      "Inverte o texto: são os bairros pobres, com mais superfícies que absorvem calor e menos árvores, os mais expostos; gentrificação, aliás, é outro processo.",
+      "Inversão térmica é fenômeno atmosférico ligado à dispersão de poluentes, sem relação com o parágrafo, que trata da distribuição social dos efeitos do calor."
+    ]
+  },
+  {
+    "id": "ING-007",
+    "materia": "ingles",
+    "tema": "Tom e ironia — modal “must”",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "My manager is an app\n\nMy new manager never sleeps, never loses its temper and never, ever explains itself. It lives in an app on my phone, and over the past year it has decided which deliveries I get, how long each one should take and, on one memorable Tuesday, whether I still had a job. I was 'deactivated' for eleven hours because a customer reported a late order that, according to the app's own map, I had delivered early. Nobody fired me; a number simply fell below a threshold. When the number recovered, so did my account.\n\nDefenders of the platforms point out, fairly, that no human supervisor ever gave couriers so much freedom. We log on when we choose and log off when we have had enough. But flexibility is a curious word for a system in which the rules are rewritten without notice and the referee cannot be questioned. A traditional boss may be unfair, yet he can at least be argued with. An algorithm offers no such courtesy: there is no office to walk into, only a help page that loops back to itself.\n\nWhat troubles me is not that software has replaced a supervisor. It is that it has replaced the conversation. Every decision about my work is now presented as the neutral output of a calculation, as if the people who designed the calculation had no interests of their own. Efficiency, I am told, is on my side. It must be — it says so in the terms and conditions.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "No final do texto, lê-se: “Efficiency, I am told, is on my side. It must be — it says so in the terms and conditions.” Nesse trecho, o autor",
+    "alternativas": [
+      "recorre à ironia: “must” simula uma dedução segura, mas a única “prova” citada é um documento redigido pela própria empresa, o que expõe a fragilidade da afirmação.",
+      "usa “must” com valor de obrigação, para lembrar que o entregador é obrigado a aceitar os termos e condições se quiser continuar trabalhando.",
+      "conclui, convencido pela leitura dos termos e condições, que a eficiência do aplicativo de fato beneficia os trabalhadores.",
+      "emprega “must” com valor de possibilidade remota, equivalente a “might”, para expressar uma dúvida sincera sobre os benefícios do aplicativo.",
+      "recomenda aos colegas que leiam com atenção os termos e condições antes de aceitar trabalhar para as plataformas de entrega."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber o descompasso entre a forma e o conteúdo. “It must be” (“deve ser”, no sentido de “só pode ser”) traz um “must” epistêmico: indica uma conclusão tirada com alto grau de certeza a partir de evidências. Mas qual é a evidência? “It says so in the terms and conditions” — o documento escrito pela própria plataforma. A “prova” vem da parte interessada.\n\nIsso é ironia: o autor diz uma coisa (estou convencido) querendo dizer o contrário (não há motivo para acreditar). O texto inteiro prepara esse fecho: o “gerente” que nunca se explica, a desativação causada por um erro que o próprio mapa do aplicativo desmentia, a página de ajuda que “loops back to itself” e, sobretudo, a crítica às decisões apresentadas como “neutral output of a calculation”. “I am told” (dizem-me) também marca distância: é a versão oficial, não a do autor.\n\nPara lembrar: “must” pode indicar obrigação (valor deôntico) ou dedução quase certa (valor epistêmico); na ironia, a certeza afirmada é desmentida pelo contexto.",
+    "erradas": [
+      "",
+      "Confunde o “must” epistêmico (dedução: “só pode ser”) com o deôntico (obrigação); o sujeito “it” retoma “efficiency”, não o trabalhador.",
+      "Leitura literal demais: ignora a ironia construída ao longo de todo o texto, que é uma crítica ao discurso da neutralidade e da eficiência.",
+      "Erro de grau de certeza: o “must” epistêmico expressa certeza alta, não possibilidade remota; a dúvida do autor vem do contexto irônico, não do modal.",
+      "Extrapolação: o autor não dá conselhos aos colegas; ele cita os termos e condições para ironizar a fonte da suposta certeza."
+    ]
+  },
+  {
+    "id": "ING-008",
+    "materia": "ingles",
+    "tema": "Interpretação e Sociologia — racionalização",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "sociologia"
+    ],
+    "texto": "My manager is an app\n\nMy new manager never sleeps, never loses its temper and never, ever explains itself. It lives in an app on my phone, and over the past year it has decided which deliveries I get, how long each one should take and, on one memorable Tuesday, whether I still had a job. I was 'deactivated' for eleven hours because a customer reported a late order that, according to the app's own map, I had delivered early. Nobody fired me; a number simply fell below a threshold. When the number recovered, so did my account.\n\nDefenders of the platforms point out, fairly, that no human supervisor ever gave couriers so much freedom. We log on when we choose and log off when we have had enough. But flexibility is a curious word for a system in which the rules are rewritten without notice and the referee cannot be questioned. A traditional boss may be unfair, yet he can at least be argued with. An algorithm offers no such courtesy: there is no office to walk into, only a help page that loops back to itself.\n\nWhat troubles me is not that software has replaced a supervisor. It is that it has replaced the conversation. Every decision about my work is now presented as the neutral output of a calculation, as if the people who designed the calculation had no interests of their own. Efficiency, I am told, is on my side. It must be — it says so in the terms and conditions.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "A crítica formulada no texto — sobretudo no último parágrafo, em que as decisões são “presented as the neutral output of a calculation” — pode ser associada a uma reflexão clássica da Sociologia. A associação mais adequada é com",
+    "alternativas": [
+      "a noção de anomia, em Durkheim, entendida como o excesso de regras que sufoca a liberdade individual nas sociedades modernas.",
+      "a dominação carismática, em Weber, fundada nas qualidades extraordinárias que os seguidores atribuem a um líder.",
+      "a tese de Marx segundo a qual a tecnologia, ao flexibilizar horários, põe fim à exploração do trabalho assalariado.",
+      "o processo de racionalização, em Weber, em que o cálculo e as regras impessoais substituem relações pessoais e tornam a dominação difícil de contestar.",
+      "a solidariedade mecânica, em Durkheim, típica de sociedades cujos membros compartilham as mesmas crenças e desempenham funções semelhantes."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é identificar o núcleo da crítica: o problema não é a troca de um chefe por um software, mas a troca da “conversation” (relação pessoal, passível de negociação) por decisões apresentadas como resultado neutro de um cálculo. O chefe humano “can at least be argued with” (pode ao menos ser contestado); o algoritmo não oferece essa “courtesy”.\n\nMax Weber descreveu a modernidade como um processo de **racionalização**: a ação orientada por cálculo, previsibilidade e eficiência se expande, e a dominação racional-legal passa a ser exercida por meio de regras impessoais, como na burocracia. O preço é a despersonalização — a célebre imagem weberiana da “jaula de ferro”. O aplicativo leva isso ao extremo: as regras são reescritas “without notice” e o “árbitro” não pode ser questionado.\n\nUma leitura marxista também seria pertinente (por exemplo, a ideologia que apresenta interesses particulares como neutros), mas a alternativa que menciona Marx distorce o autor: para ele, a técnica sob o capitalismo não elimina a exploração.\n\nPara lembrar: racionalização (Weber) = expansão do cálculo e das regras impessoais, que ganha eficiência e perde a dimensão pessoal das relações.",
+    "erradas": [
+      "Anomia, em Durkheim, é a ausência ou o enfraquecimento das normas que orientam a conduta, e não o excesso de regras.",
+      "A dominação carismática é pessoal e centrada em um líder; o texto descreve justamente o oposto, uma autoridade impessoal e calculada.",
+      "Distorce Marx, para quem a tecnologia sob o capitalismo não elimina a exploração; e o próprio texto questiona a ideia de que a flexibilidade resolve tudo.",
+      "",
+      "Solidariedade mecânica é a coesão por semelhança em sociedades pouco diferenciadas; não tem relação com o controle algorítmico do trabalho."
+    ]
+  },
+  {
+    "id": "ING-009",
+    "materia": "ingles",
+    "tema": "Coesão — concessão e vocabulário em contexto",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "My manager is an app\n\nMy new manager never sleeps, never loses its temper and never, ever explains itself. It lives in an app on my phone, and over the past year it has decided which deliveries I get, how long each one should take and, on one memorable Tuesday, whether I still had a job. I was 'deactivated' for eleven hours because a customer reported a late order that, according to the app's own map, I had delivered early. Nobody fired me; a number simply fell below a threshold. When the number recovered, so did my account.\n\nDefenders of the platforms point out, fairly, that no human supervisor ever gave couriers so much freedom. We log on when we choose and log off when we have had enough. But flexibility is a curious word for a system in which the rules are rewritten without notice and the referee cannot be questioned. A traditional boss may be unfair, yet he can at least be argued with. An algorithm offers no such courtesy: there is no office to walk into, only a help page that loops back to itself.\n\nWhat troubles me is not that software has replaced a supervisor. It is that it has replaced the conversation. Every decision about my work is now presented as the neutral output of a calculation, as if the people who designed the calculation had no interests of their own. Efficiency, I am told, is on my side. It must be — it says so in the terms and conditions.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Leia o trecho do segundo parágrafo: “Defenders of the platforms point out, fairly, that no human supervisor ever gave couriers so much freedom.” Considerando o advérbio “fairly” e a frase iniciada por “But” logo adiante, conclui-se que o autor",
+    "alternativas": [
+      "considera o argumento dos defensores razoavelmente fraco e, por isso, descarta-o já na frase seguinte.",
+      "reconhece que o argumento dos defensores tem fundamento, mas, em seguida, relativiza o valor dessa flexibilidade.",
+      "acusa os defensores das plataformas de tratarem os entregadores de forma injusta e desleal.",
+      "concorda integralmente com os defensores e abandona a crítica apresentada no primeiro parágrafo.",
+      "sugere que supervisores humanos sempre concederam aos entregadores mais liberdade que os aplicativos."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é reconhecer a estrutura argumentativa de **concessão seguida de refutação**. Ao escrever “Defenders of the platforms point out, fairly, that...”, o autor admite que o argumento adversário é procedente: “fairly” significa “com justiça, com razão” (equivale a “it is fair to say”). “Point out” significa “observar, ressaltar”.\n\nEm seguida, “But” introduz a ressalva: “flexibility is a curious word for a system in which the rules are rewritten without notice”. O autor não nega a liberdade de horários (“We log on when we choose...”); questiona se ela compensa a falta de regras estáveis e de alguém a quem recorrer. Esse movimento — conceder um ponto para depois limitá-lo — dá credibilidade a quem argumenta.\n\nAtenção a dois detalhes de vocabulário: “fairly” também pode significar “razoavelmente” antes de adjetivos (“fairly good” = razoavelmente bom), mas aqui modifica o verbo “point out” e vem isolado por vírgulas, com valor de avaliação. E “argued with” significa “contestado, questionado” (argue = discutir), não “argumentado”.\n\nPara lembrar: concessão + “but/yet/however” é a estrutura clássica do texto argumentativo: admite-se algo para, em seguida, restringir seu alcance.",
+    "erradas": [
+      "Toma “fairly” no sentido de “razoavelmente” (como em “fairly good”) e inverte a avaliação: o autor dá razão ao argumento, não o considera fraco.",
+      "",
+      "Confunde a avaliação do autor sobre o argumento (“fairly” = com razão) com uma acusação de injustiça (“unfairly”) dirigida aos defensores.",
+      "Ignora o “But”: o autor concede um ponto, mas mantém a crítica, que se aprofunda no restante do texto.",
+      "Inverte o conteúdo: segundo os defensores, nenhum supervisor humano jamais deu tanta liberdade quanto as plataformas."
+    ]
+  },
+  {
+    "id": "ING-010",
+    "materia": "ingles",
+    "tema": "Conectivos — however e thus",
+    "nivel": "fuvest",
+    "origem": "Estilo livro",
+    "inter": [],
+    "texto": "The resource beneath our feet\n\nAfter water, it is the natural resource that humanity uses most, and almost nobody thinks about it. Sand goes into every concrete tower, every motorway and every glass screen, and global extraction of sand and gravel has roughly tripled in the past two decades.\n\nAt first sight, the idea of a sand shortage sounds absurd: deserts stretch across vast areas of the planet. Desert sand, however, is almost useless for construction. Shaped for millennia by the wind, its grains are too fine and too rounded to lock together in concrete. Builders need the angular grains found in riverbeds, lakes and coastlines, and these are being dug up far faster than rivers can replace them.\n\nThe effects reach well beyond the quarry. When sand is removed from a river channel, the riverbed sinks and the water, now carrying less sediment, scours the banks and the channel downstream; bridges are undermined, and the water table may drop, leaving nearby wells dry. Downstream, deltas that depend on a steady supply of sediment begin to shrink, thus exposing coastal farmland to salt water. In some regions the trade has become so lucrative that it is controlled by criminal groups, locally nicknamed 'sand mafias'.\n\nSolutions exist, but none is glamorous. Crushed rock and recycled concrete can replace part of the natural sand used in construction, and better monitoring would allow governments to set extraction limits that rivers can actually sustain. What is lacking is attention. A resource that seems infinite is rarely managed as if it were scarce.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Nos trechos “Desert sand, however, is almost useless for construction” (2º parágrafo) e “deltas [...] begin to shrink, thus exposing coastal farmland to salt water” (3º parágrafo), os conectivos “however” e “thus” estabelecem, respectivamente, relações de",
+    "alternativas": [
+      "adição e consequência",
+      "oposição e finalidade",
+      "concessão e causa",
+      "conclusão e comparação",
+      "oposição e consequência"
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é identificar a relação lógica entre as ideias, e não apenas traduzir os conectivos.\n\n**However** é adversativo, como “but”, “yet” e “nevertheless”. Ele contraria a expectativa criada pela frase anterior: se os desertos se estendem por áreas enormes, a falta de areia pareceria absurda; no entanto (“however”), a areia do deserto é quase inútil para a construção. Diferentemente de “but”, “however” costuma vir entre vírgulas e pode aparecer no meio da oração, como no texto.\n\n**Thus** é conclusivo-consecutivo, como “therefore”, “hence” e “consequently”: introduz o efeito do que foi dito antes. Os deltas encolhem e, em consequência, as terras agrícolas costeiras ficam expostas à água salgada. A construção “thus + -ing” (“thus exposing”) é muito frequente em textos científicos e equivale a “expondo, assim,...”.\n\nQuadro útil: adição — moreover, furthermore, in addition; oposição — but, however, yet, whereas; concessão — although, even though, despite; causa — because, since, as, due to; consequência — so, thus, therefore, hence; finalidade — to, in order to, so that.\n\nPara lembrar: “thus” apresenta o efeito, nunca a causa; finalidade exige “in order to” ou “so that”, isto é, uma intenção.",
+    "erradas": [
+      "“However” não acrescenta informação na mesma direção (isso seria “moreover” ou “in addition”); ele contraria a expectativa criada pela frase anterior.",
+      "Acerta “however”, mas lê “thus exposing” como finalidade; o encolhimento dos deltas não tem objetivo, e finalidade exigiria “in order to” ou “so that”.",
+      "Inverte causa e efeito: “thus” introduz a consequência do encolhimento dos deltas, não sua causa; concessão, por sua vez, seria “although”.",
+      "“However” não conclui o raciocínio, e “thus” não compara; comparação seria expressa por “like” ou “as... as”.",
+      ""
+    ]
+  },
+  {
+    "id": "ING-011",
+    "materia": "ingles",
+    "tema": "Inferência — dinâmica fluvial e extração de areia",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [
+      "geografia"
+    ],
+    "texto": "The resource beneath our feet\n\nAfter water, it is the natural resource that humanity uses most, and almost nobody thinks about it. Sand goes into every concrete tower, every motorway and every glass screen, and global extraction of sand and gravel has roughly tripled in the past two decades.\n\nAt first sight, the idea of a sand shortage sounds absurd: deserts stretch across vast areas of the planet. Desert sand, however, is almost useless for construction. Shaped for millennia by the wind, its grains are too fine and too rounded to lock together in concrete. Builders need the angular grains found in riverbeds, lakes and coastlines, and these are being dug up far faster than rivers can replace them.\n\nThe effects reach well beyond the quarry. When sand is removed from a river channel, the riverbed sinks and the water, now carrying less sediment, scours the banks and the channel downstream; bridges are undermined, and the water table may drop, leaving nearby wells dry. Downstream, deltas that depend on a steady supply of sediment begin to shrink, thus exposing coastal farmland to salt water. In some regions the trade has become so lucrative that it is controlled by criminal groups, locally nicknamed 'sand mafias'.\n\nSolutions exist, but none is glamorous. Crushed rock and recycled concrete can replace part of the natural sand used in construction, and better monitoring would allow governments to set extraction limits that rivers can actually sustain. What is lacking is attention. A resource that seems infinite is rarely managed as if it were scarce.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Com base no texto e em conhecimentos sobre dinâmica fluvial, a extração intensa de areia do leito de um rio tende a",
+    "alternativas": [
+      "aprofundar o leito, intensificar a erosão a jusante, rebaixar o lençol freático e reduzir o aporte de sedimentos aos deltas, favorecendo o avanço do mar sobre a costa.",
+      "reduzir a erosão das margens, pois a água, menos carregada de areia, perde a capacidade de remover material do leito e das encostas fluviais.",
+      "elevar o lençol freático, já que as cavas abertas no leito acumulam água e passam a abastecer os poços situados nas proximidades do rio.",
+      "ampliar os deltas, que passam a receber a areia remexida pela extração e carregada pela correnteza até a foz, protegendo as terras costeiras.",
+      "provocar desertificação nas margens, porque a areia fluvial retirada é substituída por areia eólica de grãos arredondados, imprópria ao cultivo."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é seguir a cadeia de causas e efeitos do terceiro parágrafo e conectá-la ao funcionamento de um rio.\n\nTodo rio transporta e deposita sedimentos, num balanço entre erosão e deposição. Quando se retira areia do leito, ele se aprofunda (“the riverbed sinks”) e a água passa a carregar menos sedimento. Essa água “faminta” tende a recompor sua carga erodindo as margens e o canal a jusante — o texto diz que ela “scours the banks and the channel downstream” (“scour” = escavar, desgastar) e que as pontes ficam “undermined” (com a base solapada).\n\nCom o leito mais baixo, o nível do rio cai e o lençol freático das áreas vizinhas também pode baixar: “the water table may drop, leaving nearby wells dry”. Por fim, os deltas — formados pela deposição de sedimentos na foz — dependem de “a steady supply of sediment”; com menos sedimento chegando, eles encolhem (“shrink”), e a água salgada avança sobre as terras agrícolas costeiras.\n\nPara lembrar: retirar sedimento de um rio desequilibra todo o sistema a jusante — mais erosão no canal, menos deposição na foz.",
+    "erradas": [
+      "",
+      "Inverte a dinâmica: água com pouca carga de sedimentos tende a erodir mais, e o texto afirma que, após a extração, ela desgasta margens e canal.",
+      "Contradiz o texto, que diz que o lençol freático pode baixar e deixar poços secos (“leaving nearby wells dry”).",
+      "Inverte o texto: os deltas encolhem por falta de sedimento; a areia extraída é retirada do sistema fluvial, não levada até a foz.",
+      "Extrapolação que mistura informações: a areia eólica é citada apenas como inadequada à construção; o texto não fala em desertificação das margens."
+    ]
+  },
+  {
+    "id": "ING-012",
+    "materia": "ingles",
+    "tema": "Vocabulário em contexto — falsos cognatos",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [],
+    "texto": "A homesickness that could kill\n\nIn 1688, a young Swiss medical student coined a word for a disease he believed could be fatal. Soldiers serving far from their Alpine villages, he observed, grew listless, stopped eating and sometimes wasted away. He joined two Greek roots — nostos, 'homecoming', and algos, 'pain' — and called the condition nostalgia. For roughly two centuries, physicians treated it as a genuine illness. Some blamed the heavier air of the lowlands; others prescribed leeches, opium or, more sensibly, a trip home.\n\nSomewhere along the way, the word drifted out of the hospital and into the living room. By the twentieth century, nostalgia had come to mean a longing not for a place but for a time — and a time, unlike a valley, cannot be revisited. It also shed most of its medical stigma. Psychologists who study the emotion today tend to describe it as bittersweet rather than harmful. In experiments, people who are asked to recall a cherished memory often report feeling more connected to others and more convinced that their lives have meaning, especially when they are lonely or anxious.\n\nNone of this makes nostalgia innocent. An emotion that comforts individuals can also be harnessed by advertisers and politicians who promise to bring back a past that, on closer inspection, never quite existed. The original patients, at least, knew where home was.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "No texto, as palavras “sensibly” (1º parágrafo), “drifted” (2º parágrafo) e “harnessed” (3º parágrafo) podem ser traduzidas, no contexto, respectivamente, por",
+    "alternativas": [
+      "sensivelmente; migrou aos poucos; explorada",
+      "sensatamente; foi expulsa; contida",
+      "sensatamente; migrou aos poucos; explorada",
+      "de modo sensível; desviou-se; arreada",
+      "notavelmente; fugiu; combatida"
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é desconfiar da semelhança gráfica entre palavras do inglês e do português — os **falsos cognatos** — e confirmar o sentido pelo contexto.\n\n**Sensibly**: “sensible” significa “sensato”; “sensível”, em inglês, é “sensitive”. No texto, os médicos receitavam sanguessugas, ópio “or, more sensibly, a trip home” — ou, de modo mais sensato, uma viagem para casa. Há um toque de humor: o remédio mais razoável era o mais óbvio. Já “sensivelmente”, em português, significa “de modo perceptível, consideravelmente”, sentido que não cabe aqui.\n\n**Drift** é ser levado lentamente por uma corrente, sem direção planejada (um barco à deriva “drifts”). “The word drifted out of the hospital and into the living room” = a palavra migrou aos poucos do vocabulário médico para o cotidiano.\n\n**Harness** é, literalmente, o arreio de um animal de tração; como verbo, passou a significar “aproveitar, canalizar uma força” (“to harness solar energy”). Uma emoção “harnessed by advertisers and politicians” é explorada, instrumentalizada por eles.\n\nOutros falsos cognatos frequentes: actually (na verdade), eventually (finalmente), pretend (fingir), push (empurrar), realize (perceber), library (biblioteca), college (faculdade).\n\nPara lembrar: sensible = sensato; sensitive = sensível — e palavras usadas em sentido figurado só se resolvem pelo contexto.",
+    "erradas": [
+      "Cai no falso cognato: “sensibly” não é “sensivelmente”, e sim “sensatamente” (sensible = sensato).",
+      "Acerta “sensibly”, mas “drift” indica deslocamento lento e espontâneo, não expulsão; e “harnessed” significa aproveitada, não contida.",
+      "",
+      "Combina o falso cognato (“sensível”) com a tradução literal de “harness” (arreio), que não faz sentido aplicada a uma emoção.",
+      "“Notavelmente” não traduz “sensibly”; “fugiu” sugere movimento brusco, e “combatida” inverte o sentido de “harnessed” (aproveitada)."
+    ]
+  },
+  {
+    "id": "ING-013",
+    "materia": "ingles",
+    "tema": "Inferência — função da frase final e ironia",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "A homesickness that could kill\n\nIn 1688, a young Swiss medical student coined a word for a disease he believed could be fatal. Soldiers serving far from their Alpine villages, he observed, grew listless, stopped eating and sometimes wasted away. He joined two Greek roots — nostos, 'homecoming', and algos, 'pain' — and called the condition nostalgia. For roughly two centuries, physicians treated it as a genuine illness. Some blamed the heavier air of the lowlands; others prescribed leeches, opium or, more sensibly, a trip home.\n\nSomewhere along the way, the word drifted out of the hospital and into the living room. By the twentieth century, nostalgia had come to mean a longing not for a place but for a time — and a time, unlike a valley, cannot be revisited. It also shed most of its medical stigma. Psychologists who study the emotion today tend to describe it as bittersweet rather than harmful. In experiments, people who are asked to recall a cherished memory often report feeling more connected to others and more convinced that their lives have meaning, especially when they are lonely or anxious.\n\nNone of this makes nostalgia innocent. An emotion that comforts individuals can also be harnessed by advertisers and politicians who promise to bring back a past that, on closer inspection, never quite existed. The original patients, at least, knew where home was.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considerando o desenvolvimento do texto, a frase final — “The original patients, at least, knew where home was.” — tem a função de",
+    "alternativas": [
+      "informar que os soldados do século XVII se curavam com facilidade, porque conheciam o caminho de volta às suas aldeias.",
+      "defender que a nostalgia moderna volte a ser tratada como doença, assim como ocorria com os soldados suíços.",
+      "afirmar que a nostalgia atual é sempre prejudicial, ao contrário da nostalgia descrita pelos médicos do século XVII.",
+      "contrapor a saudade dos soldados, dirigida a um lugar real, à nostalgia moderna, voltada a um passado idealizado e mais fácil de manipular.",
+      "sugerir que políticos e publicitários do século XVII exploravam a saudade dos soldados para recrutá-los para a guerra."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que a frase final retoma o início do texto para fechar o argumento.\n\nNo 2º parágrafo, o autor mostra a mudança de sentido: a nostalgia deixou de ser saudade de um lugar e passou a ser saudade de um tempo — “and a time, unlike a valley, cannot be revisited”. No 3º, afirma que essa emoção pode ser explorada por quem promete “bring back” (trazer de volta) um passado que, examinado de perto, “never quite existed” (nunca existiu bem assim).\n\nA última frase usa “at least” (pelo menos) para estabelecer uma comparação desfavorável ao presente: os soldados suíços sofriam, mas sabiam onde ficava a casa de que sentiam falta — um lugar real, ao qual podiam voltar. A nostalgia moderna mira um passado idealizado, que não pode ser visitado nem conferido, e por isso se presta à manipulação. Há uma ironia sutil: a “doença” do século XVII tinha um objeto mais concreto do que a emoção hoje considerada inofensiva.\n\nPara lembrar: em textos argumentativos, a frase de fecho costuma retomar o início e condensar a tese; “at least” sinaliza uma comparação em que um dos termos sai perdendo.",
+    "erradas": [
+      "Leitura literal demais: a frase não trata de cura, e o texto diz, ao contrário, que alguns soldados definhavam (“wasted away”).",
+      "Extrapolação: o autor não propõe tratar a nostalgia como doença; ele registra que hoje ela é vista como “bittersweet rather than harmful”.",
+      "Exagero: o texto diz que a nostalgia pode confortar e dar sentido à vida; o problema é ela poder ser explorada, não ser sempre nociva.",
+      "",
+      "Anacronismo e referente errado: a exploração por publicitários e políticos é atribuída ao presente, não ao século XVII."
+    ]
+  },
+  {
+    "id": "ING-014",
+    "materia": "ingles",
+    "tema": "Modais e grau de certeza",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [],
+    "texto": "The honest placebo\n\nFew findings in medicine are as stubborn as the placebo effect. Give patients a sugar pill, tell them it is a drug, and a sizeable share will report feeling better. For decades, researchers assumed that the trick worked only if the patient was fooled. That assumption is now being tested — and it may not survive.\n\nIn a growing number of small trials, patients with conditions such as irritable bowel syndrome or chronic back pain have been handed pills openly labelled as placebos, along with an explanation of how such pills can work. Many of them still reported less discomfort than patients who received no pill at all. Nobody was deceived; the bottle said exactly what was inside.\n\nHow can a pill that is known to be inert make a difference? One possibility is that the ritual of treatment — the consultation, the instructions, the act of swallowing something twice a day — triggers expectations that alter how the brain processes symptoms such as pain and nausea. Another is that patients who know they are in a placebo trial might simply be more inclined to report improvement in order to please the researchers. The two explanations are not mutually exclusive, and current data cannot fully separate them.\n\nWhat open-label placebos cannot do is shrink a tumour or clear an infection. Their effects appear to be largely confined to symptoms that patients perceive and report, which is precisely why the results must be interpreted with care. A treatment that changes how people feel without changing what is happening in their bodies is still a treatment of sorts — but it should never be mistaken for a cure.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considere os seguintes trechos do texto:\n\nI. “That assumption is now being tested — and it may not survive.”\nII. “patients who know they are in a placebo trial might simply be more inclined to report improvement”\nIII. “the results must be interpreted with care”\nIV. “What open-label placebos cannot do is shrink a tumour or clear an infection.”\n\nSobre o valor dos verbos modais nesses trechos, é correto afirmar que",
+    "alternativas": [
+      "em III, “must” expressa dedução lógica: o autor conclui que os resultados dos estudos certamente estão errados.",
+      "em I e II, “may” e “might” apresentam hipóteses, sem que o autor afirme que a suposição tradicional já caiu ou que o viés de resposta é a explicação correta.",
+      "em I, “may not survive” indica que a suposição tradicional já foi definitivamente descartada pelos estudos citados no texto.",
+      "em II, “might” mostra que o autor considera o desejo de agradar aos pesquisadores a mais provável das duas explicações.",
+      "em IV, “cannot” equivale a “may not” e exprime apenas a possibilidade de que placebos não reduzam tumores nem curem infecções."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é distinguir os dois grandes usos dos modais: o **epistêmico**, que indica o grau de certeza do falante sobre um fato, e o **deôntico**, que indica obrigação, necessidade ou permissão.\n\nNa escala epistêmica, do mais forte ao mais fraco: must (dedução quase certa) > should (provável) > may (possível) > might/could (possibilidade mais remota). No polo negativo, “cannot/can't” expressa impossibilidade, uma certeza negativa.\n\nNo trecho I, “it may not survive” apresenta uma possibilidade: a suposição de que o engano é necessário está sendo testada e talvez não se sustente. No II, “might simply be” introduz uma hipótese alternativa, e o próprio texto acrescenta que as duas explicações “are not mutually exclusive” e que os dados atuais “cannot fully separate them” — ou seja, o autor não escolhe uma delas. No III, “must be interpreted with care” é deôntico: é necessário interpretar com cautela, uma recomendação, não uma dedução. No IV, “cannot” é categórico: placebos não fazem isso.\n\nCompare com “He must be tired — he worked all night”, em que “must” é epistêmico (“só pode estar cansado”). O mesmo modal muda de valor conforme o contexto.\n\nPara lembrar: may/might = possibilidade; must = obrigação ou dedução forte, conforme o contexto; cannot = impossibilidade.",
+    "erradas": [
+      "Confunde o “must” deôntico (necessidade: é preciso interpretar com cuidado) com o epistêmico; o autor não diz que os resultados estão errados.",
+      "",
+      "Exagero de certeza: “may not survive” é possibilidade; a suposição “is now being tested”, ou seja, ainda está em avaliação.",
+      "Superinterpretação: o autor afirma que as duas explicações não se excluem e que os dados não permitem separá-las; ele não hierarquiza as hipóteses.",
+      "Enfraquece o modal: “cannot” expressa impossibilidade (certeza negativa), não mera possibilidade, como “may not”."
+    ]
+  },
+  {
+    "id": "ING-015",
+    "materia": "ingles",
+    "tema": "Aplicação do raciocínio do texto — sintoma e doença",
+    "nivel": "fuvest",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "biologia"
+    ],
+    "texto": "The honest placebo\n\nFew findings in medicine are as stubborn as the placebo effect. Give patients a sugar pill, tell them it is a drug, and a sizeable share will report feeling better. For decades, researchers assumed that the trick worked only if the patient was fooled. That assumption is now being tested — and it may not survive.\n\nIn a growing number of small trials, patients with conditions such as irritable bowel syndrome or chronic back pain have been handed pills openly labelled as placebos, along with an explanation of how such pills can work. Many of them still reported less discomfort than patients who received no pill at all. Nobody was deceived; the bottle said exactly what was inside.\n\nHow can a pill that is known to be inert make a difference? One possibility is that the ritual of treatment — the consultation, the instructions, the act of swallowing something twice a day — triggers expectations that alter how the brain processes symptoms such as pain and nausea. Another is that patients who know they are in a placebo trial might simply be more inclined to report improvement in order to please the researchers. The two explanations are not mutually exclusive, and current data cannot fully separate them.\n\nWhat open-label placebos cannot do is shrink a tumour or clear an infection. Their effects appear to be largely confined to symptoms that patients perceive and report, which is precisely why the results must be interpreted with care. A treatment that changes how people feel without changing what is happening in their bodies is still a treatment of sorts — but it should never be mistaken for a cure.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Segundo o raciocínio desenvolvido no último parágrafo do texto, em qual das situações a seguir seria MENOS razoável esperar algum benefício de um placebo de rótulo aberto?",
+    "alternativas": [
+      "Redução da intensidade da dor lombar crônica relatada pelo paciente.",
+      "Diminuição do desconforto abdominal referido por portadores da síndrome do intestino irritável.",
+      "Alívio da náusea relatada por um paciente em tratamento de quimioterapia.",
+      "Melhora na sensação de cansaço descrita por um paciente durante a consulta.",
+      "Queda do número de parasitas Plasmodium no sangue de um paciente com malária."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é aplicar a distinção feita no último parágrafo: os efeitos dos placebos de rótulo aberto parecem “largely confined to symptoms that patients perceive and report” (restritos, em grande parte, a sintomas que o paciente percebe e relata). O texto afirma que eles não podem “shrink a tumour or clear an infection”: não alteram o processo biológico da doença.\n\nDor, desconforto abdominal, náusea e cansaço são experiências subjetivas — sintomas que o paciente percebe e relata, justamente o tipo de efeito que o ritual do tratamento e as expectativas podem modular. O texto cita, inclusive, dor e náusea como exemplos.\n\nA quantidade de Plasmodium no sangue é outra coisa. A malária é causada por esse protozoário, transmitido pela picada da fêmea do mosquito Anopheles; o parasita se multiplica no fígado e nas hemácias, e a parasitemia é medida objetivamente em exame de sangue. Reduzi-la exige eliminar o parasita — o equivalente a “clear an infection” —, o que depende de antimaláricos, e não da percepção do paciente.\n\nPara lembrar: aliviar como o paciente se sente não é o mesmo que alterar o que acontece no organismo — “a treatment of sorts”, mas não “a cure”.",
+    "erradas": [
+      "Dor relatada é um sintoma percebido pelo paciente; o próprio texto cita ensaios com dor lombar crônica entre os casos de melhora.",
+      "Desconforto abdominal é sintoma subjetivo, e a síndrome do intestino irritável aparece no texto como exemplo de condição em que houve melhora.",
+      "Armadilha da associação com “shrink a tumour”: o placebo não age sobre o câncer, mas a náusea é sintoma percebido, citado no texto como passível de modulação.",
+      "Cansaço descrito na consulta é sensação subjetiva relatada pelo paciente, exatamente o tipo de efeito que o texto atribui aos placebos.",
+      ""
+    ]
+  }
+]

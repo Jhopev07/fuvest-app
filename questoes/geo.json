@@ -1,0 +1,1126 @@
+[
+  {
+    "id": "GEO-001",
+    "materia": "geografia",
+    "tema": "Cartografia — escala e curvas de nível",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "tabela": {
+      "titulo": "Trechos de uma trilha traçada sobre carta topográfica na escala 1:25.000 (dados hipotéticos)",
+      "cabecalho": [
+        "Trecho",
+        "Comprimento na carta (cm)",
+        "Cota no início (m)",
+        "Cota no fim (m)"
+      ],
+      "linhas": [
+        [
+          "1",
+          "2,4",
+          "640",
+          "760"
+        ],
+        [
+          "2",
+          "1,0",
+          "760",
+          "840"
+        ],
+        [
+          "3",
+          "1,4",
+          "840",
+          "700"
+        ],
+        [
+          "4",
+          "0,4",
+          "700",
+          "720"
+        ],
+        [
+          "5",
+          "3,2",
+          "720",
+          "920"
+        ]
+      ]
+    },
+    "enunciado": "Um grupo de montanhistas traçou uma trilha sobre uma carta topográfica na escala 1:25.000, cuja equidistância entre as curvas de nível é de 20 m. Cada trecho é aproximadamente retilíneo, e as cotas de início e de fim foram lidas nas curvas de nível. Definindo a declividade média como a razão entre o desnível e a distância horizontal real, expressa em porcentagem, o trecho de maior declividade média e o valor dessa declividade são:",
+    "alternativas": [
+      "Trecho 3, com declividade média de 4%",
+      "Trecho 4, com declividade média de 20%",
+      "Trecho 5, com declividade média de 25%",
+      "Trecho 2, com declividade média de 32%",
+      "Trecho 3, com declividade média de 40%"
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é perceber que a declividade depende da razão entre desnível e distância horizontal — não do desnível sozinho, nem do sentido do percurso (subida ou descida).\n\n**Passo 1 — converter a escala.** Em 1:25.000, 1 cm na carta corresponde a 25.000 cm no terreno, ou seja, 250 m. Os comprimentos reais são: trecho 1 = 600 m; trecho 2 = 250 m; trecho 3 = 350 m; trecho 4 = 100 m; trecho 5 = 800 m.\n\n**Passo 2 — desníveis (em módulo).** Trecho 1: 120 m; trecho 2: 80 m; trecho 3: 140 m (é uma descida); trecho 4: 20 m; trecho 5: 200 m.\n\n**Passo 3 — declividades.** 120/600 = 20%; 80/250 = 32%; 140/350 = 40%; 20/100 = 20%; 200/800 = 25%. O maior valor é o do trecho 3: 40%.\n\n**Atalho:** como a escala é a mesma para todos os trechos, basta comparar desnível ÷ comprimento na carta (120/2,4 = 50; 80/1,0 = 80; 140/1,4 = 100; 20/0,4 = 50; 200/3,2 = 62,5). O trecho 3 vence, e só nele é preciso converter a escala. Na carta, isso aparece como curvas de nível mais próximas umas das outras: 140 m de desnível são 7 intervalos de 20 m espremidos em 1,4 cm. A equidistância, aliás, não era necessária para o cálculo — é um dado para filtrar.\n\nPara lembrar: declividade = desnível ÷ distância horizontal real; curvas de nível próximas indicam terreno íngreme, seja o trecho uma subida ou uma descida.",
+    "erradas": [
+      "Resultado de converter a escala com erro de um fator 10, tomando 1 cm = 2.500 m: a distância do trecho 3 vira 3.500 m e a declividade, 140/3.500 = 4%.",
+      "Escolhe o trecho mais curto na carta, como se menor distância significasse curvas mais próximas; mas o trecho 4 tem só 20 m de desnível em 100 m (20%).",
+      "Confunde maior desnível absoluto (200 m, o maior da tabela) com maior declividade: esse desnível se distribui por 800 m, o que dá apenas 25%.",
+      "Considera apenas os trechos em subida e descarta o trecho 3 por ser descida; a declividade é medida em módulo, qualquer que seja o sentido do percurso.",
+      ""
+    ]
+  },
+  {
+    "id": "GEO-002",
+    "materia": "geografia",
+    "tema": "Cartografia — fusos horários",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Um passageiro embarca em São Paulo (UTC−3) à 1h30 de 10 de março, horário local, com destino a Tóquio (UTC+9) e conexão em Dubai (UTC+4). O primeiro voo dura 14h30; a espera em Dubai, 3h00; e o segundo voo, 9h00. Considere que nenhuma das três cidades adota horário de verão nesse período.\n\nO horário local de chegada em Tóquio é:",
+    "alternativas": [
+      "16h00 de 10 de março",
+      "4h00 de 11 de março",
+      "13h00 de 11 de março",
+      "16h00 de 11 de março",
+      "4h00 de 12 de março"
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que o fuso da cidade de conexão não interfere no resultado: o que importa é o tempo total decorrido e a diferença entre origem e destino.\n\n**Passo 1 — tempo total.** 14h30 + 3h00 + 9h00 = 26h30.\n\n**Passo 2 — passar tudo para UTC.** 1h30 em São Paulo (UTC−3) corresponde a 4h30 UTC de 10 de março. Somando 26h30, chega-se a 7h00 UTC de 11 de março.\n\n**Passo 3 — converter para Tóquio.** UTC+9: 7h00 + 9 h = 16h00 de 11 de março.\n\n**Atalho:** Tóquio está 12 h à frente de São Paulo (de −3 a +9). Partindo à 1h30 e viajando 26h30, o relógio de São Paulo marcaria 4h00 de 11 de março na chegada; somando 12 h, obtém-se 16h00 de 11 de março.\n\n**Conferência pela escala:** o passageiro chega a Dubai às 23h00 locais de 10 de março (4h30 UTC + 14h30 = 19h00 UTC; mais 4 h), parte às 2h00 locais de 11 de março (22h00 UTC de 10 de março) e, 9 h depois, são 7h00 UTC — 16h00 em Tóquio.\n\nPara lembrar: em problemas de fuso, converta a partida para UTC (ou para o fuso de destino), some a duração total e só então aplique o fuso de chegada; quanto mais a leste, mais adiantada a hora.",
+    "erradas": [
+      "Inverte o sentido da correção: subtrai 12 h de 4h00 de 11 de março, como se Tóquio, a leste, estivesse atrasada em relação a São Paulo.",
+      "É o horário de São Paulo no momento da chegada: o aluno soma a duração total, mas esquece de converter para o fuso de Tóquio.",
+      "Soma só 9 h ao horário de São Paulo, como se São Paulo estivesse no UTC (esquecendo seus −3 h); o mesmo valor aparece se o aluno ignorar as 3 h de conexão.",
+      "",
+      "Aplica a diferença de 12 h duas vezes: converte a partida para o horário de Tóquio, soma a duração e, depois, soma de novo as 12 h."
+    ]
+  },
+  {
+    "id": "GEO-003",
+    "materia": "geografia",
+    "tema": "Clima — clima urbano e ilhas de calor",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "fisica"
+    ],
+    "tabela": {
+      "titulo": "Temperatura do ar (°C) em três pontos de uma metrópole e de seu entorno, num dia de inverno com céu limpo e vento fraco (dados hipotéticos)",
+      "cabecalho": [
+        "Ponto de medição",
+        "Às 15h",
+        "Às 5h do dia seguinte"
+      ],
+      "linhas": [
+        [
+          "Centro (edifícios altos, asfalto, pouca vegetação)",
+          "27,0",
+          "21,5"
+        ],
+        [
+          "Parque urbano arborizado",
+          "25,8",
+          "16,0"
+        ],
+        [
+          "Área rural vizinha",
+          "25,5",
+          "14,0"
+        ]
+      ]
+    },
+    "enunciado": "Com base nos dados e em conhecimentos sobre clima urbano e trocas de calor, é correto afirmar que:",
+    "alternativas": [
+      "a ilha de calor é mais intensa às 15h, pois é nesse horário que o centro atinge sua temperatura mais alta e mais se distancia das demais áreas.",
+      "o centro apresenta a maior amplitude térmica diária entre os três pontos, o que caracteriza o clima das áreas densamente urbanizadas.",
+      "a ilha de calor é mais intensa de madrugada, pois os materiais urbanos liberam à noite o calor acumulado de dia, e os edifícios dificultam a perda de radiação para o céu.",
+      "a diferença de temperatura de madrugada se deve a uma inversão térmica, fenômeno que aquece o ar junto à superfície no centro da cidade.",
+      "a vegetação urbana elimina a ilha de calor, como mostra a temperatura do parque, igual à da área rural durante a madrugada."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é medir a ilha de calor pela **diferença** de temperatura entre cidade e entorno rural, e não pela temperatura mais alta do dia.\n\n**Leitura dos dados.** Às 15h, centro − rural = 27,0 − 25,5 = 1,5 °C. Às 5h, centro − rural = 21,5 − 14,0 = 7,5 °C. A ilha de calor é, portanto, cinco vezes mais intensa de madrugada. As amplitudes diárias confirmam: centro 5,5 °C; parque 9,8 °C; rural 11,5 °C — a cidade esfria muito menos à noite.\n\n**Por que isso acontece (Física).** Concreto, asfalto e tijolos têm grande capacidade térmica e baixo albedo: absorvem muita radiação solar e acumulam calor durante o dia. À noite, a superfície perde energia sobretudo emitindo radiação infravermelha; no campo, com céu aberto, essa perda é rápida. No centro, os “cânions” formados por edifícios altos reduzem a fração de céu visível e reabsorvem parte dessa radiação. Somam-se o calor liberado por veículos, indústrias e aparelhos de ar-condicionado e a menor evapotranspiração, pois há pouca vegetação e o solo é impermeabilizado.\n\n**Condições do dia.** Céu limpo e vento fraco intensificam o fenômeno: o céu limpo acelera o resfriamento radiativo do campo, e a falta de vento impede a mistura do ar urbano com o rural.\n\nO parque (16,0 °C) atenua o efeito — fica 5,5 °C mais fresco que o centro —, mas continua 2 °C mais quente que a área rural.\n\nPara lembrar: a ilha de calor é a diferença de temperatura entre cidade e campo e costuma ser máxima à noite, em dias de céu limpo e pouco vento.",
+    "erradas": [
+      "Confunde a maior temperatura absoluta do centro com a intensidade da ilha de calor; às 15h a diferença centro–rural é de apenas 1,5 °C, contra 7,5 °C de madrugada.",
+      "Leitura invertida da tabela: o centro tem a **menor** amplitude (5,5 °C), justamente porque esfria pouco à noite; a área rural tem a maior (11,5 °C).",
+      "",
+      "Confusão de conceitos: na inversão térmica, o ar junto à superfície fica mais frio que a camada acima, o que retém poluentes; ela não aquece o ar próximo ao solo.",
+      "Generalização com leitura errada: o parque (16,0 °C) atenua o efeito, mas fica 2 °C acima da área rural (14,0 °C); não há igualdade nem eliminação."
+    ]
+  },
+  {
+    "id": "GEO-004",
+    "materia": "geografia",
+    "tema": "Clima — El Niño e dinâmica atmosférica",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [],
+    "tabela": {
+      "titulo": "Anomalias registradas em um ano hipotético, em relação às médias climatológicas",
+      "cabecalho": [
+        "Indicador",
+        "Anomalia"
+      ],
+      "linhas": [
+        [
+          "Temperatura da superfície do mar no Pacífico equatorial central e leste",
+          "+1,8 °C"
+        ],
+        [
+          "Intensidade dos ventos alísios no Pacífico equatorial",
+          "Abaixo da média"
+        ],
+        [
+          "Chuva na estação chuvosa do norte do Nordeste",
+          "−40%"
+        ],
+        [
+          "Chuva no leste da Amazônia",
+          "−25%"
+        ],
+        [
+          "Chuva no Sul do Brasil",
+          "+35%"
+        ]
+      ]
+    },
+    "enunciado": "O conjunto de anomalias descrito na tabela é compatível com:",
+    "alternativas": [
+      "um episódio de El Niño: com os alísios enfraquecidos, águas quentes se espalham pelo Pacífico central e leste e alteram a circulação atmosférica, inibindo chuvas no Norte e no Nordeste e retendo frentes frias no Sul.",
+      "um episódio de La Niña: o resfriamento anômalo do Pacífico equatorial reduz a evaporação oceânica e, com isso, diminui as chuvas no norte do Nordeste e na Amazônia oriental.",
+      "um episódio de El Niño, desencadeado pela intensificação dos alísios, que empurram as águas quentes superficiais do Pacífico em direção à costa do Peru e do Equador.",
+      "a atuação reforçada da massa Equatorial continental, que, ao avançar sobre o Nordeste durante a estação chuvosa, bloqueia a umidade e provoca a estiagem observada na região.",
+      "um aquecimento anômalo do Atlântico Sul provocado pelo excesso de chuvas na Região Sul, que desvia para o sul a umidade que normalmente abasteceria o Nordeste."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é reconhecer a “assinatura” do El Niño: Pacífico equatorial central e leste mais quente que o normal, alísios fracos, seca no norte do Nordeste e no leste da Amazônia e chuva acima da média no Sul.\n\n**Condição normal.** Os alísios sopram de leste para oeste ao longo do Pacífico equatorial e acumulam águas superficiais quentes no lado oeste (Indonésia e Austrália). Junto à costa da América do Sul, a água superficial afastada é reposta por água fria e rica em nutrientes vinda do fundo (ressurgência). Sobre o oeste quente, o ar sobe, forma nuvens e chuva; sobre o leste frio, o ar desce. Essa circulação ao longo do Equador é chamada célula de Walker.\n\n**Durante o El Niño.** Os alísios enfraquecem, a água quente se espalha para o centro e o leste do oceano, a ressurgência perde força e a área de ar ascendente (e de chuvas) desloca-se para leste. Ramos descendentes da circulação passam a atuar sobre o norte da América do Sul: o ar que desce se aquece e fica mais seco, o que inibe a formação de nuvens — daí a seca no norte do Nordeste e no leste da Amazônia. No Sul do Brasil, o jato subtropical (corrente de ventos fortes em altitude) se intensifica e funciona como bloqueio, mantendo frentes frias estacionadas por mais tempo e aumentando as chuvas.\n\n**La Niña** é, de modo geral, o oposto: alísios mais fortes, Pacífico central e leste mais frio que o normal, tendência a chuvas acima da média no norte do Nordeste e a estiagens no Sul. O nome El Niño vem de pescadores peruanos, que notavam o aquecimento das águas perto do Natal.\n\nUma ressalva: os efeitos variam de um episódio para outro e conforme a estação do ano; os padrões descritos são tendências, não regras.\n\nPara lembrar: El Niño = Pacífico equatorial aquecido e alísios fracos → tendência de seca no Norte e no Nordeste e de chuvas acima da média no Sul do Brasil.",
+    "erradas": [
+      "",
+      "Leitura errada da tabela: a anomalia é de +1,8 °C, ou seja, aquecimento. Além disso, a La Niña tende a favorecer, e não a reduzir, as chuvas no norte do Nordeste.",
+      "Inverte o mecanismo: alísios intensificados acumulam água quente no oeste do Pacífico e reforçam a ressurgência fria junto ao Peru — padrão de La Niña. A tabela indica alísios abaixo da média.",
+      "A massa Equatorial continental é quente e úmida e está associada a chuvas convectivas; seu avanço não explicaria uma estiagem.",
+      "Inversão causal: as chuvas no Sul são consequência da alteração da circulação atmosférica, não causa de aquecimento oceânico; além disso, a anomalia apontada está no Pacífico, não no Atlântico."
+    ]
+  },
+  {
+    "id": "GEO-005",
+    "materia": "geografia",
+    "tema": "Solos — formação, acidez e correção",
+    "nivel": "fuvest",
+    "origem": "Estilo livro",
+    "inter": [
+      "quimica"
+    ],
+    "tabela": {
+      "titulo": "Análise da camada superficial de um latossolo do Cerrado antes e um ano após a aplicação de calcário dolomítico (dados hipotéticos)",
+      "cabecalho": [
+        "Parâmetro",
+        "Antes",
+        "Depois"
+      ],
+      "linhas": [
+        [
+          "pH em água",
+          "4,6",
+          "5,9"
+        ],
+        [
+          "Al³⁺ trocável (cmolc/dm³)",
+          "1,0",
+          "0,1"
+        ],
+        [
+          "Ca²⁺ trocável (cmolc/dm³)",
+          "0,4",
+          "2,6"
+        ],
+        [
+          "Mg²⁺ trocável (cmolc/dm³)",
+          "0,1",
+          "0,8"
+        ]
+      ]
+    },
+    "enunciado": "Os latossolos predominantes no Cerrado são profundos, porosos e bem drenados, mas em geral ácidos e pobres em nutrientes. Sua correção com calcário foi uma das bases da expansão agrícola no Centro-Oeste. Com base nos dados e em conhecimentos de Geografia e Química, assinale a afirmação correta.",
+    "alternativas": [
+      "Esses solos são ácidos por serem jovens e pouco intemperizados, ainda ricos em minerais primários que liberam íons H⁺ à medida que se decompõem.",
+      "A acidez decorre da baixa pluviosidade do Cerrado, que impede a lixiviação e concentra sais na superfície do solo, como ocorre nas áreas semiáridas.",
+      "O calcário eleva o pH porque libera íons Al³⁺, que neutralizam a acidez do solo, como mostra a variação do alumínio trocável na tabela.",
+      "A pobreza desses solos resulta de intemperismo intenso e lixiviação de Ca²⁺ e Mg²⁺; o calcário neutraliza H⁺ (CO₃²⁻ + 2 H⁺ → CO₂ + H₂O), eleva o pH e precipita o alumínio como Al(OH)₃.",
+      "A calagem aumenta o teor de Ca²⁺, mas reduz o de Mg²⁺ por competição entre os cátions, razão pela qual seu uso é desaconselhado nos solos do Cerrado."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é ligar a origem da acidez (um processo geográfico de formação do solo) à química da correção.\n\n**Por que os latossolos são pobres.** Sob clima tropical, com temperaturas altas e chuvas abundantes concentradas no verão, o intemperismo químico é intenso e, no Cerrado, atua há muito tempo sobre superfícies antigas e estáveis. A água que percola o perfil (lixiviação) remove os cátions básicos — Ca²⁺, Mg²⁺, K⁺ — e deixa para trás minerais muito resistentes, como óxidos de ferro e de alumínio e a caulinita. Esse processo, chamado latolização (ou laterização), explica a cor avermelhada ou amarelada, a grande profundidade e a baixa fertilidade natural. Com poucos cátions básicos retidos, predominam H⁺ e Al³⁺ no complexo de troca — e o Al³⁺ é tóxico para as raízes da maioria das culturas.\n\n**A química da calagem.** O calcário dolomítico, CaMg(CO₃)₂, fornece carbonato, que reage com a acidez: CO₃²⁻ + 2 H⁺ → CO₂ + H₂O. Consumindo H⁺, o pH sobe; com pH acima de cerca de 5,5, o alumínio deixa a forma trocável e precipita como Al(OH)₃, pouco solúvel. Ao mesmo tempo, o corretivo repõe Ca²⁺ e Mg²⁺.\n\n**Leitura da tabela.** pH de 4,6 → 5,9; Al³⁺ de 1,0 → 0,1 (queda de 90%); Ca²⁺ de 0,4 → 2,6; Mg²⁺ de 0,1 → 0,8 — exatamente o esperado.\n\nPara lembrar: solos tropicais muito intemperizados são ácidos e pobres por lixiviação de bases; a calagem neutraliza H⁺, precipita o Al³⁺ e repõe Ca²⁺ e Mg²⁺.",
+    "erradas": [
+      "Inverte a idade do solo: latossolos são velhos e muito intemperizados; justamente por já terem perdido quase todos os minerais primários e cátions básicos, são pobres e ácidos.",
+      "Confunde com a salinização típica de climas áridos; no Cerrado, as chuvas de verão são abundantes, e é a lixiviação intensa que remove as bases e acidifica o solo.",
+      "Leitura invertida da tabela: o Al³⁺ caiu de 1,0 para 0,1. Além disso, o íon Al³⁺ contribui para a acidez — ele não a neutraliza.",
+      "",
+      "Leitura errada da tabela: o Mg²⁺ subiu de 0,1 para 0,8, porque o calcário dolomítico contém magnésio; a calagem é prática recomendada nesses solos."
+    ]
+  },
+  {
+    "id": "GEO-006",
+    "materia": "geografia",
+    "tema": "Hidrografia e relevo — potencial hidrelétrico",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "fisica"
+    ],
+    "tabela": {
+      "titulo": "Aproveitamentos hidrelétricos hipotéticos",
+      "cabecalho": [
+        "Usina",
+        "Relevo do trecho do rio",
+        "Vazão Q (m³/s)",
+        "Queda h (m)",
+        "Área do reservatório (km²)"
+      ],
+      "linhas": [
+        [
+          "W",
+          "Planície, rio de grande porte",
+          "4.000",
+          "10",
+          "1.500"
+        ],
+        [
+          "X",
+          "Planalto, rio encaixado",
+          "1.000",
+          "80",
+          "100"
+        ],
+        [
+          "Y",
+          "Planalto, rio de grande porte",
+          "2.500",
+          "40",
+          "400"
+        ],
+        [
+          "Z",
+          "Planície, rio de vazão muito alta",
+          "12.000",
+          "6",
+          "800"
+        ]
+      ]
+    },
+    "enunciado": "A potência elétrica de uma usina hidrelétrica pode ser estimada por P = η · ρ · g · Q · h, em que η é o rendimento, ρ é a densidade da água, g é a aceleração da gravidade, Q é a vazão turbinada e h é a altura de queda. Considere η = 0,9, ρ = 1.000 kg/m³ e g = 10 m/s².\n\nEntre os aproveitamentos da tabela, a usina de maior potência e a usina com menor área de reservatório por megawatt gerado são, respectivamente:",
+    "alternativas": [
+      "W e X",
+      "X nos dois casos",
+      "Y e W",
+      "Y e X",
+      "Z e X"
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que a potência depende do produto Q · h — vazão sozinha ou queda sozinha não decidem — e que o relevo controla a queda disponível.\n\n**Passo 1 — potência.** P = 0,9 · 1.000 · 10 · Q · h = 9.000 · Q · h (em watts). Basta comparar Q · h. W: 4.000 · 10 = 40.000 → 360 MW. X: 1.000 · 80 = 80.000 → 720 MW. Y: 2.500 · 40 = 100.000 → 900 MW. Z: 12.000 · 6 = 72.000 → 648 MW. Maior potência: Y.\n\n**Passo 2 — área alagada por MW.** W: 1.500/360 ≈ 4,2 km²/MW. X: 100/720 ≈ 0,14 km²/MW. Y: 400/900 ≈ 0,44 km²/MW. Z: 800/648 ≈ 1,2 km²/MW. Menor valor: X.\n\n**Leitura geográfica.** Rios de planalto, encaixados e com desníveis, oferecem grande queda com reservatórios pequenos — por isso o potencial hidrelétrico brasileiro foi explorado primeiro nas bacias do Paraná e do São Francisco. Rios de planície, como muitos da Amazônia, têm vazões enormes, mas pouca queda; represá-los exige alagar áreas extensas, com perda de floresta, deslocamento de populações e emissão de gases pela decomposição da vegetação submersa. A usina de Balbina (AM) tornou-se exemplo clássico de grande área inundada para pouca energia. Usinas a fio d'água, com reservatórios menores, reduzem o alagamento, mas tornam a geração mais dependente da variação sazonal da vazão.\n\nPara lembrar: potência hidráulica ∝ vazão × queda; o relevo de planalto favorece mais energia por área alagada.",
+    "erradas": [
+      "Associa reservatório maior a usina mais potente; a área alagada não entra no cálculo da potência — W gera só 360 MW e ainda tem a pior relação área/MW.",
+      "Supõe que a maior queda garante a maior potência; X tem a melhor relação área/MW, mas sua vazão pequena limita a potência a 720 MW, abaixo dos 900 MW de Y.",
+      "Inverte a razão: calcula megawatts por km² e escolhe o menor valor (W, 0,24 MW/km²), que na verdade indica a pior relação, e não a melhor.",
+      "",
+      "Supõe que a maior vazão garante a maior potência, ignorando a queda; com apenas 6 m de queda, Z gera 648 MW."
+    ]
+  },
+  {
+    "id": "GEO-007",
+    "materia": "geografia",
+    "tema": "Meio ambiente — desmatamento na Amazônia",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "tabela": {
+      "titulo": "Indicadores de cinco municípios hipotéticos da Amazônia Legal",
+      "cabecalho": [
+        "Município",
+        "Distância média até rodovia pavimentada (km)",
+        "Área desmatada acumulada (% do território)",
+        "Variação do rebanho bovino em dez anos (%)",
+        "Terras indígenas e unidades de conservação (% do território)"
+      ],
+      "linhas": [
+        [
+          "A",
+          "5",
+          "62",
+          "+85",
+          "4"
+        ],
+        [
+          "B",
+          "20",
+          "48",
+          "+60",
+          "15"
+        ],
+        [
+          "C",
+          "60",
+          "21",
+          "+30",
+          "35"
+        ],
+        [
+          "D",
+          "150",
+          "8",
+          "+10",
+          "60"
+        ],
+        [
+          "E",
+          "15",
+          "12",
+          "+5",
+          "70"
+        ]
+      ]
+    },
+    "enunciado": "A partir da tabela e de conhecimentos sobre a dinâmica do desmatamento na Amazônia, assinale a afirmação mais adequada.",
+    "alternativas": [
+      "Os dados comprovam que a expansão do rebanho bovino é a única causa do desmatamento nesses municípios.",
+      "A proximidade de rodovias se associa a maior desmatamento, mas o caso de E sugere que áreas protegidas podem conter esse avanço mesmo perto de estradas.",
+      "A abertura de rodovias é consequência do desmatamento, que antecede a chegada das estradas e cria a demanda por elas.",
+      "Quanto maior a parcela do território em áreas protegidas, maior o crescimento do rebanho, pois essas áreas liberam pastagens naturais para o gado.",
+      "D, o município mais distante das rodovias, apresenta o maior desmatamento relativo, o que indica que a fronteira agropecuária avança a partir de áreas isoladas."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é cruzar as colunas e separar o que os dados sugerem do que eles não podem provar.\n\n**Leitura.** De A a D, à medida que aumenta a distância até rodovias pavimentadas, cai o desmatamento acumulado (62% → 48% → 21% → 8%) e cai o crescimento do rebanho. O município E quebra o padrão: está a apenas 15 km de rodovia, mas tem só 12% de área desmatada — e 70% de seu território está em terras indígenas e unidades de conservação.\n\n**Processo.** Na Amazônia, as estradas costumam preceder o desmatamento: barateiam o transporte, valorizam a terra e dão origem a estradas vicinais, que formam o padrão em “espinha de peixe” visível em imagens de satélite. A sequência típica envolve extração seletiva de madeira, grilagem de terras públicas, queimada e implantação de pastagem — a pecuária extensiva ocupa a maior parte das áreas desmatadas — e, em parte das áreas, posterior avanço de lavouras. Essa dinâmica se concentra no chamado arco do desmatamento, nas bordas sul e leste da floresta. Áreas protegidas, sobretudo terras indígenas, funcionam como barreira, pois nelas a apropriação privada é vedada e há povos que defendem o território.\n\n**Cuidado com a causalidade.** A tabela mostra associação (correlação). Ela é compatível com a pecuária como vetor importante, mas não “comprova” que seja a causa única, nem autoriza inverter a ordem estrada → desmatamento.\n\nPara lembrar: rodovias tendem a induzir o desmatamento na Amazônia, e áreas protegidas atuam como barreira à expansão da fronteira.",
+    "erradas": [
+      "Generalização: a tabela mostra associação entre rebanho e desmatamento, mas não prova causa única; exploração de madeira, grilagem, especulação fundiária e lavouras também participam.",
+      "",
+      "Inversão causal: na Amazônia, as estradas costumam preceder o desmatamento, barateando o acesso e valorizando as terras ao longo delas.",
+      "Leitura invertida: os municípios com maior proporção de áreas protegidas (D e E) têm o menor crescimento do rebanho (+10% e +5%).",
+      "Leitura errada da tabela: D tem o menor desmatamento relativo (8%); o maior é o de A (62%), o mais próximo das rodovias."
+    ]
+  },
+  {
+    "id": "GEO-008",
+    "materia": "geografia",
+    "tema": "Meio ambiente — garimpo e contaminação por mercúrio",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "biologia",
+      "quimica"
+    ],
+    "texto": "No garimpo de ouro em sedimentos de rios, o mercúrio metálico é misturado ao cascalho para formar um amálgama com o ouro; depois, o amálgama é aquecido, e o mercúrio evapora. Parte do metal chega à água e aos sedimentos, onde microrganismos o convertem em metilmercúrio, forma facilmente absorvida pelos seres vivos e eliminada muito lentamente. Em 2023, o governo federal declarou emergência em saúde pública no território Yanomami, em Roraima e no Amazonas, em meio à expansão do garimpo ilegal na área.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Concentração média de mercúrio em organismos de um rio afetado por garimpo (dados hipotéticos)",
+      "cabecalho": [
+        "Organismo",
+        "Posição na cadeia alimentar",
+        "Mercúrio (μg por g de tecido)"
+      ],
+      "linhas": [
+        [
+          "Fitoplâncton",
+          "Produtor",
+          "0,01"
+        ],
+        [
+          "Peixe herbívoro",
+          "Consumidor primário",
+          "0,05"
+        ],
+        [
+          "Peixe onívoro",
+          "Consumidor secundário",
+          "0,20"
+        ],
+        [
+          "Peixe carnívoro",
+          "Consumidor terciário",
+          "0,90"
+        ]
+      ]
+    },
+    "enunciado": "Com base no texto, na tabela e em seus conhecimentos, é correto afirmar que:",
+    "alternativas": [
+      "o mercúrio se concentra sobretudo no fitoplâncton, que o absorve diretamente da água, e diminui ao longo da cadeia alimentar.",
+      "os danos do garimpo restringem-se à área de lavra, pois o mercúrio, por ser um metal pesado, não se desloca no ambiente.",
+      "a concentração crescente ao longo da cadeia alimentar expõe quem consome peixes carnívoros, como indígenas e ribeirinhos, mesmo longe dos garimpos.",
+      "a biomagnificação ocorre porque o metilmercúrio é rapidamente excretado pelos organismos, acumulando-se apenas na água dos rios.",
+      "o garimpo em terras indígenas é permitido pela legislação brasileira, desde que o mercúrio seja recuperado após a queima do amálgama."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é combinar o processo ecológico (biomagnificação) com a escala geográfica do problema: o mercúrio viaja pelo ar e pela água, e a exposição humana se dá pela alimentação.\n\n**Leitura da tabela.** A concentração cresce a cada nível trófico: 0,01 → 0,05 → 0,20 → 0,90 μg/g. Do produtor ao peixe carnívoro, o aumento é de 90 vezes.\n\n**Biologia e Química.** O metilmercúrio é absorvido com facilidade e eliminado muito lentamente, acumulando-se nos tecidos (bioacumulação). Como cada predador consome grande quantidade de presas ao longo da vida, a concentração aumenta de um nível trófico para o seguinte (biomagnificação). Por isso, os peixes carnívoros — muito consumidos por povos indígenas e ribeirinhos — são a principal via de exposição humana. O metilmercúrio é neurotóxico e atravessa a placenta, afetando o desenvolvimento do sistema nervoso de fetos e crianças.\n\n**Geografia.** O mercúrio evaporado na queima do amálgama dispersa-se pela atmosfera e volta à superfície com a chuva; o que vai para a água é levado rio abaixo junto com os sedimentos. Assim, comunidades distantes da lavra também são atingidas. O garimpo ilegal provoca ainda desmatamento, assoreamento e turbidez dos rios, conflitos violentos e a disseminação de doenças como a malária. Em terras indígenas, o garimpo praticado por não indígenas é ilegal, e a mineração nessas áreas depende de autorização do Congresso Nacional, ouvidas as comunidades afetadas.\n\nPara lembrar: substâncias persistentes e pouco excretadas, como o metilmercúrio, concentram-se nos níveis tróficos mais altos — é a biomagnificação.",
+    "erradas": [
+      "Leitura invertida: o fitoplâncton tem a **menor** concentração (0,01 μg/g); o mercúrio aumenta, e não diminui, ao longo da cadeia alimentar.",
+      "Ignora a dispersão: o mercúrio evaporado circula pela atmosfera e volta com a chuva, e o que chega à água é transportado rio abaixo com os sedimentos.",
+      "",
+      "Inverte o mecanismo: a biomagnificação ocorre justamente porque o metilmercúrio é eliminado muito lentamente e se acumula nos tecidos dos organismos.",
+      "Afirmação falsa: o garimpo em terras indígenas é ilegal, e a mineração nessas áreas depende de autorização do Congresso Nacional; recuperar o mercúrio não o torna permitido."
+    ]
+  },
+  {
+    "id": "GEO-009",
+    "materia": "geografia",
+    "tema": "Meio ambiente — mercado de carbono",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "Uma empresa comprou créditos de carbono de um projeto que prometia evitar o desmatamento de 10 mil hectares de floresta. Uma auditoria posterior constatou que:\n\nI. a área do projeto ficava em uma região de difícil acesso, sem histórico de desmatamento nem ameaça previsível;\n\nII. os madeireiros que atuavam no entorno passaram a desmatar uma área vizinha, fora dos limites do projeto;\n\nIII. cinco anos depois, um incêndio de grandes proporções queimou parte da floresta protegida, devolvendo à atmosfera o carbono que nela estava estocado.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Os problemas I, II e III comprometem, respectivamente, os seguintes critérios de integridade dos créditos de carbono:",
+    "alternativas": [
+      "adicionalidade, vazamento e permanência",
+      "permanência, adicionalidade e vazamento",
+      "vazamento, permanência e adicionalidade",
+      "adicionalidade, permanência e vazamento",
+      "vazamento, adicionalidade e permanência"
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é dominar os três critérios que definem se um crédito de carbono representa, de fato, uma tonelada de CO₂ a menos na atmosfera.\n\n**Adicionalidade (I).** A redução só é real se não teria acontecido sem o projeto. Se a floresta não estava ameaçada, protegê-la não “evita” nada: o crédito é gerado sobre um desmatamento que nunca ocorreria. Projetos de desmatamento evitado dependem de uma linha de base — uma projeção do que aconteceria sem o projeto —, e linhas de base infladas geram créditos sem lastro.\n\n**Vazamento (II).** Quando a pressão de desmatamento apenas muda de lugar, a emissão evitada dentro do projeto reaparece fora dele, e o ganho líquido para a atmosfera diminui ou desaparece.\n\n**Permanência (III).** O carbono estocado precisa permanecer fora da atmosfera por longo prazo. Incêndios, secas ou desmatamento futuro podem reverter o benefício; por isso, certificadoras costumam reservar parte dos créditos como margem de segurança contra essas perdas.\n\n**Contexto.** Créditos desse tipo circulam sobretudo no mercado voluntário, em que empresas compensam suas emissões. Nos mercados regulados, o poder público fixa um teto de emissões e distribui ou leiloa permissões negociáveis (sistema de limite e comércio). Em ambos, falhas de integridade alimentam críticas de greenwashing — o uso de compensações frágeis para aparentar compromisso ambiental. No Brasil, onde a mudança de uso da terra, sobretudo o desmatamento, é a principal fonte de emissões, o tema é central na política climática.\n\nPara lembrar: um bom crédito de carbono precisa ser adicional, não gerar vazamento e ser permanente.",
+    "erradas": [
+      "",
+      "Troca todos os conceitos: I não envolve reversão do estoque de carbono, e sim ausência de ameaça real (adicionalidade); II é deslocamento do desmatamento (vazamento); III é reversão (permanência).",
+      "Confunde ausência de ameaça (I) com deslocamento da pressão; o vazamento é o problema II, e o incêndio de III compromete a permanência, não a adicionalidade.",
+      "Acerta I, mas inverte II e III: o desmatamento que migra para a área vizinha é vazamento, e o incêndio que devolve o carbono à atmosfera é falha de permanência.",
+      "Inverte I e II: a área sem ameaça é problema de adicionalidade, e o desmatamento transferido para fora do projeto é vazamento; só III está correto."
+    ]
+  },
+  {
+    "id": "GEO-010",
+    "materia": "geografia",
+    "tema": "Urbanização — rede urbana",
+    "nivel": "fuvest",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "texto": "Um município hipotético, de cerca de 90 mil habitantes e situado no oeste da Bahia, cresceu rapidamente com a expansão da soja e do algodão. Suas principais relações com outros lugares estão resumidas na tabela.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Relações do município (situação hipotética)",
+      "cabecalho": [
+        "Tipo de relação",
+        "Principal origem ou destino"
+      ],
+      "linhas": [
+        [
+          "Compra de máquinas, sementes e defensivos",
+          "Empresas com sede em São Paulo e no exterior"
+        ],
+        [
+          "Venda e exportação da produção",
+          "Tradings multinacionais, por portos do Nordeste e do Sudeste"
+        ],
+        [
+          "Pesquisa em melhoramento genético",
+          "Centros de pesquisa do Sudeste e de outros países"
+        ],
+        [
+          "Atendimento hospitalar de alta complexidade",
+          "Capital regional mais próxima"
+        ],
+        [
+          "Comércio e serviços cotidianos",
+          "O próprio município e cidades pequenas vizinhas, que dele dependem"
+        ]
+      ]
+    },
+    "enunciado": "A situação descrita ilustra que:",
+    "alternativas": [
+      "a rede urbana segue o modelo hierárquico clássico, no qual cada cidade se relaciona apenas com o centro imediatamente superior.",
+      "o município deve ser classificado como metrópole, já que mantém relações econômicas diretas com empresas e mercados do exterior.",
+      "a modernização agrícola tende a reduzir a urbanização regional, porque a mecanização fixa a população no campo.",
+      "o município está isolado da economia globalizada, pois depende de uma capital regional para serviços de saúde complexos.",
+      "a rede urbana atual é complexa: cidades médias podem relacionar-se diretamente com metrópoles e com o exterior, saltando níveis da hierarquia urbana."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é contrastar dois modelos de rede urbana.\n\n**Modelo hierárquico clássico.** Cada cidade se subordina ao centro imediatamente superior: o centro local recorre ao centro sub-regional, que recorre à capital regional, que recorre à metrópole. Os fluxos sobem e descem “degrau por degrau”.\n\n**Rede complexa.** Com a difusão das telecomunicações, a melhoria dos transportes e a atuação de grandes empresas em escala global, os fluxos passaram a saltar níveis. O município do exemplo compra insumos de empresas paulistas e estrangeiras, vende para tradings multinacionais e usa pesquisa feita em outros países — relações diretas com o topo da rede nacional e com o exterior. Ao mesmo tempo, mantém relações hierárquicas tradicionais: recorre à capital regional para saúde de alta complexidade e polariza cidades vizinhas no comércio e nos serviços cotidianos. A rede não deixa de ter hierarquia; ela passa a combinar hierarquia com conexões diretas.\n\n**Cidades do agronegócio.** A modernização do campo reduz a necessidade de mão de obra rural e exige serviços especializados (revendas de máquinas, assistência técnica, crédito, transporte), o que faz crescer cidades médias nas áreas de fronteira agrícola. O IBGE estuda essas relações na pesquisa Regiões de Influência das Cidades (Regic).\n\nPara lembrar: na rede urbana atual, a hierarquia convive com relações diretas entre cidades de níveis diferentes, inclusive com o exterior.",
+    "erradas": [
+      "Contraria os dados: o município se relaciona diretamente com São Paulo e com o exterior, saltando os níveis intermediários da hierarquia.",
+      "Generalização: manter relações com o exterior não torna uma cidade metrópole; o município ainda depende da capital regional para serviços de alta complexidade.",
+      "Inverte o efeito: a mecanização reduz a necessidade de mão de obra rural e estimula a migração para as cidades, que crescem para oferecer serviços ao agronegócio.",
+      "Conclusão que não decorre dos dados: depender da capital regional para saúde é compatível com fortes ligações globais, como mostram a compra de insumos e a exportação.",
+      ""
+    ]
+  },
+  {
+    "id": "GEO-011",
+    "materia": "geografia",
+    "tema": "Urbanização — metropolização e movimentos pendulares",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "tabela": {
+      "titulo": "Municípios de uma região metropolitana hipotética (valores em milhares)",
+      "cabecalho": [
+        "Município",
+        "População",
+        "Empregos",
+        "Moradores que saem diariamente para trabalhar em outro município",
+        "Trabalhadores que entram diariamente vindos de outro município"
+      ],
+      "linhas": [
+        [
+          "N (núcleo)",
+          "6.000",
+          "3.200",
+          "150",
+          "700"
+        ],
+        [
+          "P",
+          "1.000",
+          "120",
+          "350",
+          "20"
+        ],
+        [
+          "Q",
+          "800",
+          "380",
+          "80",
+          "100"
+        ],
+        [
+          "R",
+          "400",
+          "70",
+          "100",
+          "10"
+        ],
+        [
+          "S",
+          "2.000",
+          "800",
+          "420",
+          "270"
+        ]
+      ]
+    },
+    "enunciado": "Considere que os deslocamentos diários ocorrem apenas entre os municípios da tabela. Com base nos dados, é correto afirmar que:",
+    "alternativas": [
+      "S é o município com perfil mais acentuado de cidade-dormitório, pois é de onde sai o maior número de trabalhadores.",
+      "P tem o perfil mais acentuado de cidade-dormitório: menos empregos por habitante e maior proporção de moradores que trabalham fora.",
+      "N, por receber o maior número de trabalhadores, apresenta o maior saldo negativo de deslocamentos diários.",
+      "Q funciona como cidade-dormitório, já que recebe mais trabalhadores do que envia a outros municípios.",
+      "Quanto maior a população de um município, maior a proporção de seus moradores que trabalham fora dele."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é usar indicadores **relativos** — proporções —, e não números absolutos, para caracterizar a função de cada município.\n\n**Proporção de moradores que trabalham fora** (saídas ÷ população): N = 150/6.000 = 2,5%; P = 350/1.000 = 35%; Q = 80/800 = 10%; R = 100/400 = 25%; S = 420/2.000 = 21%.\n\n**Empregos por habitante:** N ≈ 0,53; P = 0,12; Q ≈ 0,48; R ≈ 0,18; S = 0,40.\n\n**Saldo pendular** (entradas − saídas): N = +550; P = −330; Q = +20; R = −90; S = −150. Conferência: as saídas somam 1.100 mil e as entradas também, como deve ocorrer num sistema fechado.\n\nP reúne os dois traços da cidade-dormitório: poucos empregos para sua população e mais de um terço dos moradores trabalhando em outro município. S envia mais gente em números absolutos, mas porque tem o dobro da população de P; proporcionalmente, fica atrás de P e de R. Q tem saldo positivo, o que sugere um subcentro de empregos. N é o polo que atrai os fluxos.\n\n**Contexto.** O movimento pendular resulta da concentração de empregos no núcleo metropolitano e da periferização da moradia, empurrada pelo preço da terra urbana. Os custos são longas jornadas de deslocamento, sobrecarga do transporte público e segregação socioespacial.\n\nPara lembrar: cidade-dormitório se identifica por indicadores relativos — poucos empregos por habitante e alta proporção de moradores que trabalham fora.",
+    "erradas": [
+      "Confunde valor absoluto com relativo: S envia 420 mil trabalhadores, mas isso equivale a 21% de sua população, contra 35% em P.",
+      "",
+      "Inverte o sinal do saldo: N recebe 700 mil e envia 150 mil, logo tem saldo positivo de 550 mil — é o polo, e não o município que mais perde trabalhadores.",
+      "Inverte o conceito: quem recebe mais trabalhadores do que envia atua como polo ou subcentro de empregos, e não como cidade-dormitório.",
+      "Generalização contrariada pelos dados: N, o mais populoso, tem apenas 2,5% de moradores trabalhando fora, enquanto P, bem menor, tem 35%."
+    ]
+  },
+  {
+    "id": "GEO-012",
+    "materia": "geografia",
+    "tema": "População — transição demográfica",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [],
+    "tabela": {
+      "titulo": "Indicadores demográficos de um país hipotético",
+      "cabecalho": [
+        "Ano",
+        "Natalidade (‰)",
+        "Mortalidade (‰)",
+        "0 a 14 anos (% da população)",
+        "65 anos ou mais (% da população)"
+      ],
+      "linhas": [
+        [
+          "1960",
+          "44",
+          "15",
+          "43",
+          "3"
+        ],
+        [
+          "1990",
+          "25",
+          "7",
+          "35",
+          "5"
+        ],
+        [
+          "2020",
+          "13",
+          "7",
+          "21",
+          "10"
+        ],
+        [
+          "2050 (projeção)",
+          "9",
+          "12",
+          "14",
+          "27"
+        ]
+      ]
+    },
+    "enunciado": "Considere a razão de dependência = (população de 0 a 14 anos + população de 65 anos ou mais) ÷ (população de 15 a 64 anos) × 100, e desconsidere as migrações. É correto afirmar que:",
+    "alternativas": [
+      "em 2050, a razão de dependência será menor do que em 1990, já que a proporção de jovens será a menor da série.",
+      "em 2020, o crescimento vegetativo foi de 6% ao ano, resultado da diferença entre as taxas de natalidade e de mortalidade.",
+      "o aumento da mortalidade projetado para 2050 decorre sobretudo do envelhecimento da população e não indica, por si só, piora das condições de saúde.",
+      "o envelhecimento da população se deve principalmente à queda da mortalidade, como mostra a redução de 15‰ para 7‰ entre 1960 e 1990.",
+      "o bônus demográfico ocorre em 1960, quando a alta natalidade amplia a força de trabalho futura."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é ler os indicadores à luz da transição demográfica, sem cair em leituras “intuitivas” das taxas brutas.\n\n**Teoria.** A transição demográfica descreve a passagem de altas taxas de natalidade e mortalidade para taxas baixas. Primeiro cai a mortalidade (saneamento, vacinas, antibióticos), e a população cresce depressa; depois cai a natalidade (urbanização, inserção da mulher no mercado de trabalho, difusão de métodos contraceptivos), e o crescimento desacelera. Na fase final, com a população envelhecida, a taxa bruta de mortalidade volta a subir, e o crescimento vegetativo pode ficar negativo.\n\n**Contas.** Crescimento vegetativo (CV) = natalidade − mortalidade: 1960: 29‰ = 2,9%; 1990: 18‰ = 1,8%; 2020: 6‰ = 0,6%; 2050: −3‰ = −0,3%. Razão de dependência (RD): 1960: 46/54 ≈ 85; 1990: 40/60 ≈ 67; 2020: 31/69 ≈ 45; 2050: 41/59 ≈ 69.\n\n**Interpretação.** A taxa bruta de mortalidade mede óbitos por mil habitantes de **todas** as idades. Numa população com 27% de idosos, morrem mais pessoas por mil habitantes mesmo que o risco de morrer em cada idade tenha diminuído e a esperança de vida tenha aumentado — é um efeito de composição etária. Quanto ao envelhecimento, a causa principal é a queda da natalidade, que estreita a base da pirâmide; a queda inicial da mortalidade, concentrada na infância, chega a rejuvenescer a população. O bônus demográfico (ou janela de oportunidade) corresponde ao período de RD baixa — aqui, 2020 —, quando há muitos adultos em idade ativa para poucos dependentes. Em 2050, a RD volta a subir (≈ 69, acima dos ≈ 67 de 1990), agora puxada pelos idosos.\n\nPara lembrar: o envelhecimento resulta sobretudo da queda da natalidade, e a taxa bruta de mortalidade sobe em populações envelhecidas mesmo com melhores condições de saúde.",
+    "erradas": [
+      "Não faz a conta completa: a proporção de jovens é a menor, mas a de idosos (27%) eleva a razão de dependência a cerca de 69, acima dos cerca de 67 de 1990.",
+      "Erro de unidade: 13‰ − 7‰ = 6‰, ou seja, 0,6% ao ano, e não 6%.",
+      "",
+      "Inversão causal: a principal causa do envelhecimento é a queda da natalidade; a queda inicial da mortalidade, concentrada nas crianças, tende até a rejuvenescer a população.",
+      "Confunde natalidade alta com bônus: em 1960 a razão de dependência é a maior da série (cerca de 85); o bônus ocorre quando ela é mínima, em 2020."
+    ]
+  },
+  {
+    "id": "GEO-013",
+    "materia": "geografia",
+    "tema": "População — migrações internas",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "tabela": {
+      "titulo": "Saldo migratório inter-regional no Brasil, em milhares de pessoas (dados hipotéticos que reproduzem tendências gerais)",
+      "cabecalho": [
+        "Região",
+        "Década de 1970",
+        "Década de 2010"
+      ],
+      "linhas": [
+        [
+          "Norte",
+          "+300",
+          "+30"
+        ],
+        [
+          "Nordeste",
+          "−1.900",
+          "−250"
+        ],
+        [
+          "Sudeste",
+          "+1.700",
+          "+50"
+        ],
+        [
+          "Sul",
+          "−400",
+          "+60"
+        ],
+        [
+          "Centro-Oeste",
+          "+300",
+          "+110"
+        ]
+      ]
+    },
+    "enunciado": "A comparação entre os dois períodos e seus conhecimentos permitem afirmar que:",
+    "alternativas": [
+      "o Nordeste tornou-se uma região de atração populacional na década de 2010, graças à migração de retorno e à desconcentração industrial.",
+      "o saldo negativo do Sul nos anos 1970 resultou da industrialização da região, que levou trabalhadores a migrarem para o Nordeste.",
+      "o saldo positivo do Centro-Oeste nos anos 1970 se explica principalmente pela instalação de indústrias de base, como siderúrgicas e refinarias.",
+      "a redução dos saldos do Sudeste e do Nordeste é compatível com a desconcentração econômica e a migração de retorno, embora o Nordeste ainda perca população.",
+      "a redução do saldo migratório do Sudeste indica que a população dessa região diminuiu entre as duas décadas."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é ler o sinal e a ordem de grandeza dos saldos e relacioná-los às transformações econômicas do território.\n\n**Anos 1970.** O Sudeste, centro da industrialização concentrada, era o grande polo de atração (+1.700), abastecido sobretudo por nordestinos (−1.900). O Norte e o Centro-Oeste recebiam migrantes pela expansão da fronteira agropecuária, por projetos de colonização e, no Centro-Oeste, também pela consolidação de Brasília. O Sul perdia população (−400): a modernização agrícola e a concentração fundiária expulsavam pequenos agricultores, muitos dos quais seguiram para Mato Grosso, Rondônia e outras áreas de fronteira.\n\n**Anos 2010.** Todos os saldos encolheram. A desconcentração industrial e de serviços, o crescimento de cidades médias no interior e a expansão do agronegócio diversificaram os destinos. No Nordeste, parte dos fluxos passou a ser de retorno de migrantes à região de origem. Mesmo assim, o saldo nordestino continua negativo (−250).\n\n**Atenção a dois conceitos.** Saldo migratório não é crescimento populacional: uma região com saldo pequeno, ou até negativo, pode crescer pelo crescimento vegetativo. E saldo menos negativo não significa atração — significa apenas perda menor.\n\nPara lembrar: a desconcentração econômica reduziu a polarização do Sudeste e estimulou a migração de retorno, mas o Nordeste segue com saldo migratório negativo.",
+    "erradas": [
+      "Leitura errada do sinal: o saldo do Nordeste caiu de −1.900 para −250 mil, mas continua negativo; a região perde menos população, sem se tornar área de atração.",
+      "Causa e destino errados: a emigração sulista dos anos 1970 esteve ligada à modernização agrícola e à concentração fundiária e seguiu para as fronteiras do Centro-Oeste e do Norte.",
+      "Causa errada: o Centro-Oeste atraiu migrantes pela expansão da fronteira agropecuária e pela consolidação de Brasília, e não por indústrias de base.",
+      "",
+      "Confunde saldo migratório com crescimento total: o Sudeste ainda tem saldo positivo, e sua população também cresce pelo crescimento vegetativo."
+    ]
+  },
+  {
+    "id": "GEO-014",
+    "materia": "geografia",
+    "tema": "Espaço agrário — Matopiba e Código Florestal",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "Pelo Código Florestal (Lei nº 12.651/2012), todo imóvel rural deve manter uma área com vegetação nativa a título de Reserva Legal. Quando o imóvel está na Amazônia Legal, o percentual mínimo é de 80% em áreas de floresta, 35% em áreas de cerrado e 20% em campos gerais; nas demais regiões do país, é de 20%. Para os efeitos dessa lei, a Amazônia Legal abrange, entre outras áreas, a porção do Tocantins ao norte do paralelo de 13° S e a porção do Maranhão a oeste do meridiano de 44° O; Piauí e Bahia estão fora dela.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Duas fazendas hipotéticas com vegetação original de cerrado, no Matopiba",
+      "cabecalho": [
+        "Fazenda",
+        "Localização",
+        "Área total (ha)"
+      ],
+      "linhas": [
+        [
+          "F1",
+          "Centro-norte do Tocantins (ao norte de 13° S)",
+          "8.000"
+        ],
+        [
+          "F2",
+          "Oeste da Bahia",
+          "7.000"
+        ]
+      ]
+    },
+    "enunciado": "Considerando apenas a exigência de Reserva Legal (desconsidere áreas de preservação permanente), é correto afirmar que:",
+    "alternativas": [
+      "F1 pode converter até 6.400 ha em lavoura, pois o Tocantins, por estar no bioma Cerrado, segue o percentual das demais regiões do país.",
+      "F2, embora menor, pode converter mais área que F1 (5.600 ha contra 5.200 ha), pois a exigência de Reserva Legal no cerrado fora da Amazônia Legal é menor.",
+      "F1 deve manter 80% de Reserva Legal e pode converter apenas 1.600 ha, pois está na Amazônia Legal.",
+      "F2 pode converter apenas 1.400 ha em lavoura, já que o percentual de 20% fixado pela lei se refere à área que pode ser desmatada.",
+      "As duas fazendas podem converter a mesma proporção de sua área, pois ambas estão no bioma Cerrado."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que o percentual de Reserva Legal depende de dois critérios combinados: a localização dentro ou fora da Amazônia Legal (uma região político-administrativa, e não um bioma) e o tipo de vegetação.\n\n**F1 (centro-norte do Tocantins).** Ao norte do paralelo de 13° S, está na Amazônia Legal, em área de cerrado: Reserva Legal de 35%. Área convertível: 65% de 8.000 ha = 5.200 ha.\n\n**F2 (oeste da Bahia).** Fora da Amazônia Legal: Reserva Legal de 20%. Área convertível: 80% de 7.000 ha = 5.600 ha.\n\nAssim, a fazenda menor pode abrir 400 ha a mais.\n\n**Contexto.** O Matopiba — áreas de cerrado do Maranhão, do Tocantins, do Piauí e da Bahia — é a principal fronteira agrícola recente do país, com soja, milho e algodão. Chapadas planas favoráveis à mecanização, terras mais baratas que as do Centro-Sul, latossolos corrigíveis com calcário e saídas logísticas para portos do Norte e do Nordeste explicam a expansão. Como a exigência legal de vegetação nativa é bem menor no cerrado do que na floresta amazônica, o Cerrado vem concentrando grande parte da conversão de vegetação nativa no país, com impactos sobre nascentes de importantes bacias hidrográficas, sobre a biodiversidade e sobre comunidades tradicionais.\n\nPara lembrar: a Reserva Legal varia conforme a localização na Amazônia Legal e o tipo de vegetação; no cerrado fora dela, a exigência é de apenas 20%.",
+    "erradas": [
+      "Ignora que F1, ao norte do paralelo de 13° S, está na Amazônia Legal; por isso, em área de cerrado, sua Reserva Legal é de 35%, e não de 20%.",
+      "",
+      "Aplica o percentual de floresta (80%) a uma área de cerrado; na Amazônia Legal, o cerrado exige 35% de Reserva Legal.",
+      "Inverte o significado do percentual: 20% é a área a ser preservada, e não a área que pode ser convertida; F2 pode converter 80%, ou seja, 5.600 ha.",
+      "Confunde bioma com Amazônia Legal: o critério legal é a localização dentro ou fora da Amazônia Legal, além do tipo de vegetação; por isso as exigências diferem (35% e 20%)."
+    ]
+  },
+  {
+    "id": "GEO-015",
+    "materia": "geografia",
+    "tema": "Espaço agrário — estrutura fundiária",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "tabela": {
+      "titulo": "Estabelecimentos agropecuários por classe de área em um país hipotético (%)",
+      "cabecalho": [
+        "Classe de área",
+        "Número de estabelecimentos",
+        "Área total",
+        "Pessoal ocupado"
+      ],
+      "linhas": [
+        [
+          "Menos de 10 ha",
+          "50",
+          "2",
+          "38"
+        ],
+        [
+          "De 10 a menos de 100 ha",
+          "40",
+          "18",
+          "42"
+        ],
+        [
+          "De 100 a menos de 1.000 ha",
+          "9",
+          "33",
+          "14"
+        ],
+        [
+          "1.000 ha ou mais",
+          "1",
+          "47",
+          "6"
+        ]
+      ]
+    },
+    "enunciado": "Com base na tabela, é correto afirmar que:",
+    "alternativas": [
+      "a área média dos estabelecimentos com 1.000 ha ou mais é cerca de 1.175 vezes a dos com menos de 10 ha, e os com menos de 100 ha reúnem 80% do pessoal ocupado.",
+      "a área média dos estabelecimentos com 1.000 ha ou mais é cerca de 23,5 vezes a dos com menos de 10 ha, o que indica concentração fundiária moderada.",
+      "os estabelecimentos com menos de 10 ha ocupam metade da área agropecuária do país, o que evidencia a força da pequena propriedade.",
+      "a maior participação dos pequenos estabelecimentos no pessoal ocupado indica que eles são mais mecanizados que os grandes.",
+      "por concentrarem quase metade da área, os estabelecimentos com 1.000 ha ou mais concentram também a maior parte do pessoal ocupado."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é transformar as porcentagens de número e de área em **área média**, que mede de fato a desigualdade.\n\n**Conta.** Seja N o número total de estabelecimentos e A a área total. Área média dos estabelecimentos com 1.000 ha ou mais = 0,47A ÷ 0,01N = 47 · A/N. Área média dos com menos de 10 ha = 0,02A ÷ 0,50N = 0,04 · A/N. Razão: 47 ÷ 0,04 = 1.175. **Atalho:** (47/1) ÷ (2/50) = 47 × 50 ÷ 2 = 1.175.\n\n**Segunda parte.** Menos de 100 ha: 50% + 40% = 90% dos estabelecimentos, 2% + 18% = 20% da área e 38% + 42% = 80% do pessoal ocupado.\n\n**Interpretação.** O quadro — muitos estabelecimentos em pouca terra e poucos estabelecimentos em muita terra — é típico de estrutura fundiária concentrada, como a brasileira, cujas raízes remontam às sesmarias e à Lei de Terras de 1850, que fez da compra a forma de acesso às terras públicas. Os pequenos estabelecimentos, em geral de agricultura familiar, usam mais trabalho por hectare; os grandes, voltados sobretudo a commodities, são mais mecanizados e empregam pouca gente por área. Essa desigualdade alimenta conflitos no campo e as demandas por reforma agrária.\n\nPara lembrar: a concentração fundiária se mede comparando a participação no número de estabelecimentos com a participação na área — e o pessoal ocupado não acompanha a área.",
+    "erradas": [
+      "",
+      "Divide só as participações na área (47 ÷ 2), esquecendo que elas se repartem entre números muito diferentes de estabelecimentos (1% contra 50%).",
+      "Lê a coluna errada: 50% é a participação no número de estabelecimentos; na área total, os com menos de 10 ha têm apenas 2%.",
+      "Inversão: mais pessoas ocupadas em pouca área indica uso intensivo de trabalho e menor mecanização; os grandes estabelecimentos são os mais mecanizados.",
+      "Generalização contrariada pela tabela: com 47% da área, os estabelecimentos com 1.000 ha ou mais respondem por apenas 6% do pessoal ocupado."
+    ]
+  },
+  {
+    "id": "GEO-016",
+    "materia": "geografia",
+    "tema": "Energia — matriz energética e matriz elétrica",
+    "nivel": "fuvest",
+    "origem": "Estilo livro",
+    "inter": [],
+    "tabela": {
+      "titulo": "Participação das fontes (%) em um país hipotético de perfil semelhante ao brasileiro",
+      "cabecalho": [
+        "Fonte",
+        "Matriz energética (toda a oferta de energia)",
+        "Matriz elétrica (geração de eletricidade)"
+      ],
+      "linhas": [
+        [
+          "Petróleo e derivados",
+          "36",
+          "2"
+        ],
+        [
+          "Gás natural",
+          "10",
+          "8"
+        ],
+        [
+          "Carvão mineral",
+          "5",
+          "2"
+        ],
+        [
+          "Urânio (nuclear)",
+          "1",
+          "2"
+        ],
+        [
+          "Hidráulica",
+          "12",
+          "58"
+        ],
+        [
+          "Biomassa da cana (etanol e bagaço)",
+          "16",
+          "6"
+        ],
+        [
+          "Lenha e carvão vegetal",
+          "9",
+          "1"
+        ],
+        [
+          "Eólica e solar",
+          "6",
+          "20"
+        ],
+        [
+          "Outras renováveis",
+          "5",
+          "1"
+        ]
+      ]
+    },
+    "enunciado": "As fontes renováveis respondem por 48% da matriz energética e por 86% da matriz elétrica desse país. Assinale a explicação correta para essa diferença.",
+    "alternativas": [
+      "A maior parte da eletricidade do país provém de combustíveis fósseis, como indica a participação de 36% do petróleo e derivados.",
+      "A biomassa da cana é usada sobretudo para gerar eletricidade e, por isso, pesa mais na matriz elétrica do que na energética.",
+      "A substituição de veículos a combustão por elétricos tenderia a reduzir a participação renovável da matriz energética, por aumentar o consumo de eletricidade.",
+      "A hidráulica representa apenas 12% da matriz energética porque as hidrelétricas produzem só 12% da eletricidade do país.",
+      "A matriz energética inclui os combustíveis usados diretamente — sobretudo derivados de petróleo nos transportes —, que não entram na matriz elétrica."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é distinguir matriz energética de matriz elétrica.\n\n**Conceitos.** A matriz energética reúne **toda** a energia ofertada a um país: combustíveis queimados em motores (gasolina, diesel, etanol), em fornos e caldeiras industriais (gás natural, carvão, bagaço, lenha) e em fogões, além das fontes usadas para gerar eletricidade. A matriz elétrica é apenas o recorte das fontes usadas para produzir eletricidade. A eletricidade é uma forma secundária de energia: é obtida a partir de fontes primárias, como a energia potencial da água, o vento, a radiação solar ou a queima de combustíveis.\n\n**Leitura da tabela.** Na matriz elétrica, hidráulica (58%) e eólica + solar (20%) dominam, e o total renovável chega a 58 + 6 + 1 + 20 + 1 = 86%. Na matriz energética, o petróleo e seus derivados (36%) pesam muito, porque movem caminhões, ônibus, automóveis, aviões e máquinas — num país em que o transporte de cargas é predominantemente rodoviário e movido a diesel. O total renovável cai para 12 + 16 + 9 + 6 + 5 = 48%.\n\n**Implicações.** Um perfil assim é bem mais renovável que a média mundial, dominada por petróleo, carvão e gás natural. Eletrificar os transportes ou ampliar o uso de biocombustíveis aumentaria a fatia renovável da matriz energética, desde que a eletricidade adicional viesse de fontes renováveis. A biomassa da cana pesa mais na matriz energética porque o etanol abastece veículos e o bagaço gera calor e vapor para as próprias usinas; só uma parte dessa energia vira eletricidade.\n\nPara lembrar: matriz energética = toda a energia, inclusive a dos transportes; matriz elétrica = só a geração de eletricidade.",
+    "erradas": [
+      "Lê a coluna errada: 36% de petróleo é dado da matriz energética; na matriz elétrica, o petróleo responde por apenas 2%.",
+      "Leitura invertida: a cana tem 16% na matriz energética e 6% na elétrica, porque seu uso principal é como etanol nos veículos e como fonte de calor nas usinas.",
+      "Inversão: como 86% da eletricidade é renovável, trocar combustíveis fósseis por eletricidade nos transportes tenderia a aumentar a fatia renovável da matriz energética.",
+      "Confunde as matrizes: a hidráulica responde por 58% da eletricidade; tem só 12% da matriz energética porque a eletricidade é apenas parte de toda a energia consumida.",
+      ""
+    ]
+  },
+  {
+    "id": "GEO-017",
+    "materia": "geografia",
+    "tema": "Transportes — logística de exportação e Arco Norte",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "tabela": {
+      "titulo": "Rotas hipotéticas de exportação de soja do norte de Mato Grosso",
+      "cabecalho": [
+        "Rota",
+        "Trajeto",
+        "Extensão"
+      ],
+      "linhas": [
+        [
+          "1 — Centro-Sul",
+          "Rodovia até um porto do Sudeste",
+          "2.000 km de rodovia"
+        ],
+        [
+          "2 — Arco Norte",
+          "Rodovia até uma estação de transbordo no rio Tapajós e barcaças até um porto no Pará",
+          "1.000 km de rodovia + 1.200 km de hidrovia"
+        ]
+      ]
+    },
+    "enunciado": "Uma empresa exportadora avalia as duas rotas da tabela. Considere os seguintes custos médios (valores hipotéticos): frete rodoviário de 0,15 real por tonelada·km; frete hidroviário de 0,05 real por tonelada·km; e 15 reais por tonelada para o único transbordo, da rodovia para a hidrovia. Desconsidere os custos portuários, comuns às duas rotas.\n\nAo optar pela Rota 2 em vez da Rota 1, o custo de transporte por tonelada diminui:",
+    "alternativas": [
+      "20%",
+      "25%",
+      "30%",
+      "50%",
+      "75%"
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é calcular o custo completo de cada rota — incluindo o transbordo — e só então a variação percentual em relação à rota original.\n\n**Rota 1:** 2.000 km × 0,15 = 300 reais por tonelada.\n\n**Rota 2:** rodovia: 1.000 × 0,15 = 150; hidrovia: 1.200 × 0,05 = 60; transbordo: 15. Total = 225 reais por tonelada.\n\n**Redução:** (300 − 225) ÷ 300 = 75 ÷ 300 = 25%.\n\n**Leitura geográfica.** Mesmo percorrendo mais quilômetros no total (2.200 contra 2.000), a Rota 2 é mais barata porque troca metade do trecho rodoviário pelo modal hidroviário, de menor custo por tonelada·km — uma única barcaça leva carga equivalente à de dezenas de caminhões. Essa lógica impulsionou o chamado Arco Norte: o escoamento de grãos pela BR-163 até estações de transbordo no Tapajós, como as de Miritituba (PA), e por portos como Santarém e Barcarena, no Pará, e Itacoatiara, no Amazonas. Os portos do Norte também ficam mais próximos dos mercados do Hemisfério Norte e do canal do Panamá. Há, porém, limites e custos: a navegação depende do nível dos rios — secas severas, como a de 2023 na Amazônia, restringem o tráfego de barcaças —, e rodovias, ferrovias e portos na região pressionam florestas, terras indígenas e comunidades ribeirinhas. Historicamente, o Brasil concentra o transporte de cargas no modal rodoviário, mais caro para longas distâncias.\n\nPara lembrar: para cargas volumosas e de baixo valor por tonelada, como grãos, hidrovias e ferrovias são mais baratas por tonelada·km que rodovias em longas distâncias.",
+    "erradas": [
+      "Conta o transbordo duas vezes na Rota 2 (custo de 240 reais), o que reduz a economia para 60 reais por tonelada, ou seja, 20%.",
+      "",
+      "Esquece o transbordo: 150 + 60 = 210 reais por tonelada, o que daria redução de 30%.",
+      "Compara apenas as distâncias rodoviárias (1.000 contra 2.000 km), ignorando o custo do trecho hidroviário e do transbordo.",
+      "Confunde a razão entre os custos (225 ÷ 300 = 75%) com a redução percentual: o custo da Rota 2 é 75% do da Rota 1, ou seja, 25% menor."
+    ]
+  },
+  {
+    "id": "GEO-018",
+    "materia": "geografia",
+    "tema": "Globalização e indústria — cadeias globais de valor",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "tabela": {
+      "titulo": "Distribuição hipotética do valor de um smartphone vendido ao consumidor final por 600 dólares",
+      "cabecalho": [
+        "Etapa",
+        "Onde ocorre",
+        "Participação no preço final (%)"
+      ],
+      "linhas": [
+        [
+          "Pesquisa, design, software e marca",
+          "País A (sede da empresa)",
+          "30"
+        ],
+        [
+          "Componentes de alta tecnologia (processadores, memórias, telas)",
+          "Países B e C",
+          "35"
+        ],
+        [
+          "Montagem final",
+          "País D",
+          "5"
+        ],
+        [
+          "Logística, marketing e varejo",
+          "País A e mercados consumidores",
+          "30"
+        ]
+      ]
+    },
+    "enunciado": "O aparelho é montado e exportado pelo país D. Considerando os dados e o funcionamento das cadeias globais de valor, é correto afirmar que:",
+    "alternativas": [
+      "embora o aparelho inteiro conte como exportação de D, a montagem gera só cerca de 30 dólares por unidade; o maior valor fica em outras etapas e países.",
+      "o país D é o maior beneficiado pela cadeia produtiva, já que é ele quem exporta o produto acabado e registra seu valor integral.",
+      "a montagem concentra o maior valor agregado da cadeia por ser a etapa que emprega o maior número de trabalhadores.",
+      "a distribuição do valor mostra que a globalização eliminou a hierarquia entre países na divisão internacional do trabalho.",
+      "o país A, por não fabricar fisicamente o aparelho nem seus componentes, fica com menos de 10% de seu valor final."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é separar onde o produto é **fabricado fisicamente** de onde o **valor** é gerado e apropriado.\n\n**Conta.** Montagem: 5% de 600 = 30 dólares. País A: 30% pela concepção e pela marca (180 dólares), mais parte dos 30% de logística, marketing e varejo. Componentes: 35% = 210 dólares, repartidos entre B e C.\n\n**Curva sorriso.** Ao dispor as etapas da cadeia em sequência — concepção, componentes, montagem, distribuição e marca —, o valor agregado forma uma curva em “U”: alto nas pontas (pesquisa, tecnologia, marca e comercialização) e baixo no meio (montagem padronizada). As etapas das pontas exigem conhecimento, patentes e controle de mercado, difíceis de copiar; a montagem pode ser transferida para onde salários e custos forem menores.\n\n**Estatísticas enganosas.** Nas contas de comércio exterior, o aparelho sai de D como produto acabado, com o valor dos componentes importados embutido. Isso infla as exportações de D e esconde que a maior parte do valor foi criada em outros países — por isso organismos internacionais passaram a medir também o comércio em valor agregado.\n\n**Divisão internacional do trabalho.** A fragmentação da produção não eliminou hierarquias: as sedes das grandes corporações retêm as etapas mais rentáveis, enquanto países que entram na cadeia pela montagem buscam subir para etapas de maior valor, como fizeram alguns países do Leste Asiático.\n\nPara lembrar: nas cadeias globais de valor, quem fabrica não é necessariamente quem mais ganha — o valor se concentra em pesquisa, tecnologia e marca.",
+    "erradas": [
+      "",
+      "Confunde exportar o produto acabado com se apropriar de seu valor: D retém só 5% do preço final (30 dólares por unidade).",
+      "Confunde número de trabalhadores com valor agregado: a montagem é intensiva em mão de obra, mas padronizada e de baixo valor, apenas 5% do preço.",
+      "Generalização contrariada pelos dados: a repartição desigual do valor entre A, B, C e D expressa a hierarquia da divisão internacional do trabalho.",
+      "Leitura errada: A fica com 30% pela concepção e pela marca, além de parte dos 30% de logística, marketing e varejo — no mínimo 180 dólares."
+    ]
+  },
+  {
+    "id": "GEO-019",
+    "materia": "geografia",
+    "tema": "Geopolítica — rotas marítimas e pontos de estrangulamento",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "A partir do fim de 2023, ataques de rebeldes houthis, baseados no Iêmen, contra navios mercantes levaram grandes companhias de navegação a evitar a rota do canal de Suez entre a Ásia e a Europa, contornando a África pelo cabo da Boa Esperança.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Rota marítima Xangai–Roterdã (distâncias simplificadas para fins de cálculo)",
+      "cabecalho": [
+        "Rota",
+        "Distância (km)"
+      ],
+      "linhas": [
+        [
+          "Pelo canal de Suez",
+          "18.000"
+        ],
+        [
+          "Pelo cabo da Boa Esperança",
+          "24.000"
+        ]
+      ]
+    },
+    "enunciado": "Para um navio que navega à velocidade média de 25 km/h, o acréscimo no tempo de viagem ao trocar a rota de Suez pela do cabo e o estreito diretamente evitado com essa troca são, respectivamente:",
+    "alternativas": [
+      "10 dias; o estreito de Malaca, que liga o oceano Índico ao mar da China Meridional.",
+      "10 dias; o estreito de Ormuz, que liga o golfo Pérsico ao golfo de Omã.",
+      "10 dias; o estreito de Bab el-Mandeb, que liga o mar Vermelho ao golfo de Áden.",
+      "30 dias; o estreito de Bab el-Mandeb, que liga o mar Vermelho ao golfo de Áden.",
+      "40 dias; o estreito de Bab el-Mandeb, que liga o mar Vermelho ao golfo de Áden."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é calcular a **diferença** de tempo entre as rotas e identificar qual passagem estratégica (ponto de estrangulamento, ou chokepoint) é contornada.\n\n**Conta.** A velocidade de 25 km/h equivale a 25 × 24 = 600 km por dia. Rota de Suez: 18.000 ÷ 600 = 30 dias. Rota do cabo: 24.000 ÷ 600 = 40 dias. Acréscimo: 10 dias (ou, direto: 6.000 km ÷ 25 km/h = 240 h = 10 dias).\n\n**Geografia.** Pela rota de Suez, os navios vindos do Índico entram no mar Vermelho pelo estreito de Bab el-Mandeb, entre o Iêmen e o Chifre da África (Djibuti e Eritreia), seguem até o canal de Suez, no Egito, e chegam ao Mediterrâneo. Os ataques partiam justamente do litoral iemenita, junto a esse estreito. Ao contornar a África, o navio evita Bab el-Mandeb, o mar Vermelho e o canal. Já o estreito de Malaca, entre a Península Malaia e Sumatra, continua no caminho nas duas rotas, pois é a passagem natural da Ásia Oriental para o Índico.\n\n**Consequências.** Mais dias de viagem significam mais combustível, maior emissão de gases, fretes e seguros mais caros, atrasos em cadeias de suprimento que operam com estoques reduzidos e queda da receita do Egito com o canal. O episódio mostra como a globalização depende de poucos pontos de estrangulamento — Suez, Bab el-Mandeb, Ormuz, Malaca, Panamá —, cuja segurança tem enorme peso geopolítico.\n\nPara lembrar: Bab el-Mandeb liga o mar Vermelho ao golfo de Áden e, com Suez, encurta a rota Ásia–Europa; bloqueios ali desviam o tráfego para o cabo da Boa Esperança.",
+    "erradas": [
+      "Estreito errado: Malaca fica no trecho comum às duas rotas, entre a Ásia Oriental e o Índico; a troca pelo cabo não o evita.",
+      "Confunde estreitos: Ormuz controla a saída do golfo Pérsico, rota do petróleo do Oriente Médio, e não integra a ligação marítima Xangai–Roterdã.",
+      "",
+      "Calcula só a duração da viagem pela rota de Suez (18.000 ÷ 600 = 30 dias), e não a diferença entre as rotas.",
+      "Calcula a duração total pela rota do cabo (24.000 ÷ 600 = 40 dias), e não o acréscimo em relação à rota de Suez."
+    ]
+  },
+  {
+    "id": "GEO-020",
+    "materia": "geografia",
+    "tema": "Globalização — blocos econômicos e estágios de integração",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "tabela": {
+      "titulo": "Características de quatro modelos de integração econômica",
+      "cabecalho": [
+        "Modelo",
+        "Livre circulação de mercadorias",
+        "Tarifa externa comum",
+        "Livre circulação de pessoas e capitais",
+        "Moeda única"
+      ],
+      "linhas": [
+        [
+          "1",
+          "Sim",
+          "Não",
+          "Não",
+          "Não"
+        ],
+        [
+          "2",
+          "Sim",
+          "Sim",
+          "Não",
+          "Não"
+        ],
+        [
+          "3",
+          "Sim",
+          "Sim",
+          "Sim",
+          "Não"
+        ],
+        [
+          "4",
+          "Sim",
+          "Sim",
+          "Sim",
+          "Sim"
+        ]
+      ]
+    },
+    "enunciado": "Considerando o estágio de integração efetivamente alcançado, ainda que com exceções, o Acordo Estados Unidos–México–Canadá (USMCA, ou T-MEC), o Mercosul e a zona do euro correspondem, respectivamente, aos modelos:",
+    "alternativas": [
+      "1, 2 e 3",
+      "1, 3 e 4",
+      "2, 2 e 4",
+      "3, 2 e 4",
+      "1, 2 e 4"
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é classificar cada bloco pelo que já foi implementado, e não pelo nome ou pelos objetivos declarados.\n\n**Estágios de integração (do mais simples ao mais profundo).** Zona de livre comércio: redução ou eliminação de tarifas entre os membros, mas cada país mantém sua própria política comercial com terceiros (modelo 1). União aduaneira: soma-se uma tarifa externa comum, a TEC (modelo 2). Mercado comum: acrescenta-se a livre circulação de fatores de produção — pessoas, serviços e capitais (modelo 3). União econômica e monetária: harmonização de políticas econômicas e moeda única, com banco central comum (modelo 4).\n\n**USMCA (T-MEC).** Sucessor do Nafta desde 2020, é uma zona de livre comércio: não há tarifa externa comum, e a circulação de pessoas entre os três países é restrita.\n\n**Mercosul.** Criado pelo Tratado de Assunção (1991) com o objetivo de formar um mercado comum — daí o nome Mercado Comum do Sul —, alcançou o estágio de união aduaneira imperfeita: há TEC, mas com listas de exceções e setores sensíveis.\n\n**Zona do euro.** Os países da União Europeia que adotam o euro combinam mercado único (mercadorias, serviços, pessoas e capitais), tarifa externa comum e moeda única, gerida pelo Banco Central Europeu.\n\nPara lembrar: o nome de um bloco pode expressar sua meta, e não o estágio de integração que ele de fato atingiu.",
+    "erradas": [
+      "Ignora a moeda única: a zona do euro vai além do mercado comum, pois adota o euro e uma política monetária comum.",
+      "Toma o nome pelo estágio: o Mercosul se chama Mercado Comum do Sul, mas não alcançou a livre circulação plena de pessoas e capitais; é uma união aduaneira imperfeita.",
+      "Atribui ao USMCA uma tarifa externa comum que ele não possui: cada um dos três países mantém sua própria política tarifária em relação a terceiros.",
+      "Supõe livre circulação de pessoas e capitais no USMCA; o acordo é uma zona de livre comércio, e a migração entre os três países é controlada.",
+      ""
+    ]
+  }
+]

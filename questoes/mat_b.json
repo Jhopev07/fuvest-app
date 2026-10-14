@@ -1,0 +1,230 @@
+[
+  {
+    "id": "MAT-B-001",
+    "materia": "matematica",
+    "tema": "Geometria plana — áreas (fórmula de Heron) e escala",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": ["geografia"],
+    "enunciado": "Em um mapa na escala 1 : 5 000, um terreno triangular está representado por um triângulo cujos lados medem 13 cm, 14 cm e 15 cm. A área real desse terreno é de",
+    "alternativas": ["0,42 hectare", "21 hectares", "22,75 hectares", "42 hectares", "210 hectares"],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que a escala é linear: comprimentos são multiplicados pelo fator da escala, mas áreas são multiplicadas pelo QUADRADO desse fator.\n\n**1) Área no mapa.** O triângulo 13-14-15 não é retângulo (13² + 14² = 365, que é diferente de 15² = 225). Use a fórmula de Heron: semiperímetro p = (13 + 14 + 15)/2 = 21 e\nA = √[p(p − 13)(p − 14)(p − 15)] = √(21 · 8 · 7 · 6) = √7056 = 84 cm².\n\nAtalho clássico: a altura relativa ao lado 14 divide-o em segmentos de 5 e 9, pois 13² − 5² = 15² − 9² = 144. Logo a altura é 12 e A = 14 · 12/2 = 84 cm².\n\n**2) Escala.** 1 : 5 000 significa que 1 cm no mapa corresponde a 5 000 cm = 50 m no terreno. Então 1 cm² no mapa corresponde a 50 m × 50 m = 2 500 m².\n\n**3) Área real.** 84 × 2 500 = 210 000 m². Como 1 hectare = 10 000 m² (um quadrado de 100 m de lado), a área é 21 hectares.\n\nPara lembrar: se a escala multiplica os comprimentos por k, ela multiplica as áreas por k².",
+    "erradas": [
+      "Valor obtido ao aplicar a escala de forma linear à área: 84 × 50 = 4 200 m², esquecendo que a área deve ser multiplicada por 50².",
+      "",
+      "Resultado de supor um ângulo reto entre os lados de 13 cm e 14 cm: 13 · 14/2 = 91 cm² no mapa, o que dá 227 500 m². O triângulo 13-14-15 não é retângulo.",
+      "Valor obtido ao esquecer a divisão por 2 na área do triângulo (base × altura = 14 × 12 = 168 cm²), o que leva a 420 000 m².",
+      "Conta certa até 210 000 m², mas com a conversão errada 1 hectare = 1 000 m²; o correto é 1 hectare = 10 000 m²."
+    ]
+  },
+  {
+    "id": "MAT-B-002",
+    "materia": "matematica",
+    "tema": "Geometria plana — relações métricas na circunferência (potência de ponto)",
+    "nivel": "acima",
+    "origem": "Estilo livro (Iezzi)",
+    "inter": [],
+    "enunciado": "Em uma circunferência de centro O, a corda AB mede 16 cm e está a 6 cm de distância de O. Um ponto P, exterior à circunferência, está sobre a reta AB, com A entre P e B, e PA = 9 cm. Por P traçam-se as duas retas tangentes à circunferência, que a tocam nos pontos T e T'. A área do quadrilátero PTOT', em cm², é",
+    "alternativas": ["75", "90", "120", "150", "300"],
+    "correta": 3,
+    "explicacao": "O ponto aqui é combinar duas relações métricas: o raio sai da corda (Pitágoras) e o comprimento da tangente sai da potência do ponto P.\n\n**1) Raio.** A perpendicular traçada de O até a corda AB cai no ponto médio M da corda. No triângulo OMA, retângulo em M, OM = 6 e MA = 16/2 = 8; logo r = OA = √(6² + 8²) = 10 cm.\n\n**2) Tangente (potência de ponto).** Para um ponto P exterior, vale PT² = PA · PB, em que PA e PB são as distâncias de P aos DOIS pontos em que a secante corta a circunferência. Aqui PB = PA + AB = 9 + 16 = 25, então PT² = 9 · 25 = 225 e PT = 15 cm.\n\n**Por que vale PT² = PA · PB?** Os triângulos PTA e PBT são semelhantes: têm o ângulo P em comum e ∠PTA = ∠PBT, porque o ângulo de segmento PTA (formado pela tangente e pela corda TA) e o ângulo inscrito TBA enxergam o mesmo arco TA e, por isso, ambos medem metade desse arco. Da semelhança, PT/PB = PA/PT, ou seja, PT² = PA · PB. Esse produto, que não depende da secante escolhida, chama-se potência do ponto P em relação à circunferência e também é igual a PO² − r².\n\n**3) Área.** O raio é perpendicular à tangente no ponto de tangência, então PTO e PT'O são triângulos retângulos congruentes, de catetos 15 cm e 10 cm. A área do quadrilátero (um deltoide) é 2 · (15 · 10)/2 = 150 cm².\n\nConferência: PO² = PT² + r² = 225 + 100 = 325, e a potência vale PO² − r² = 325 − 100 = 225, como esperado.\n\nPara lembrar: na potência de ponto exterior, PT² = PA · PB usa a distância até o ponto MAIS DISTANTE da secante, e não o comprimento da corda.",
+    "erradas": [
+      "Área de apenas um dos triângulos retângulos (PTO); o quadrilátero é formado por dois triângulos congruentes.",
+      "Resultado de usar como raio a distância de 6 cm da corda ao centro (15 · 6 = 90), em vez de calcular r = √(6² + 8²) = 10 cm.",
+      "Erro na potência de ponto: usar PT² = PA · AB = 9 · 16 = 144, obtendo PT = 12 e área 12 · 10 = 120. O produto correto é PA · PB, com PB = 25.",
+      "",
+      "Esquecimento do fator 1/2 na área dos triângulos: 2 · 15 · 10 = 300."
+    ]
+  },
+  {
+    "id": "MAT-B-003",
+    "materia": "matematica",
+    "tema": "Geometria plana — polígonos regulares inscritos e circunscritos",
+    "nivel": "acima",
+    "origem": "Estilo ITA/IME (fácil)",
+    "inter": [],
+    "enunciado": "Um quadrado e um hexágono regular têm, cada um, perímetro 24 cm. Para cada um desses polígonos, considere a coroa circular limitada pela circunferência circunscrita ao polígono e pela circunferência inscrita nele. A razão entre a área da coroa associada ao quadrado e a área da coroa associada ao hexágono é",
+    "alternativas": ["3/4", "√3/2", "9/8", "3/2", "9/4"],
+    "correta": 4,
+    "explicacao": "O ponto aqui é perceber que a área dessa coroa, em um polígono regular, depende só do lado, e não do número de lados.\n\n**Ideia-chave.** Ligue o centro O a um vértice V e ao ponto médio M de um lado. O triângulo OMV é retângulo em M, com OV = R (raio da circunscrita), OM = a (apótema, que é o raio da inscrita) e MV = ℓ/2. Por Pitágoras, R² − a² = (ℓ/2)². Logo:\nárea da coroa = πR² − πa² = π(R² − a²) = π(ℓ/2)².\n\n**Lados.** Quadrado: ℓ = 24/4 = 6 cm. Hexágono: ℓ = 24/6 = 4 cm.\n\n**Coroas.** Quadrado: π · 3² = 9π cm². Hexágono: π · 2² = 4π cm². Razão: 9π/4π = 9/4.\n\nConferindo pelo caminho longo: no quadrado, R = 3√2 e a = 3, então R² − a² = 18 − 9 = 9; no hexágono, R = 4 e a = 2√3, então R² − a² = 16 − 12 = 4. Mesmo resultado.\n\nPara lembrar: em qualquer polígono regular de lado ℓ, a coroa entre as circunferências circunscrita e inscrita tem área π(ℓ/2)², a mesma de um círculo de diâmetro ℓ.",
+    "erradas": [
+      "Razão entre as áreas dos círculos INSCRITOS (9π/12π): só uma das duas circunferências que limitam cada coroa foi considerada.",
+      "Razão entre as áreas dos próprios polígonos (36 cm² e 24√3 cm²), que não é o que se pede.",
+      "Razão entre as áreas dos círculos CIRCUNSCRITOS (18π/16π): faltou subtrair o círculo inscrito de cada um.",
+      "Razão entre os lados (6/4): comparação linear, quando áreas variam com o quadrado das medidas.",
+      ""
+    ]
+  },
+  {
+    "id": "MAT-B-004",
+    "materia": "matematica",
+    "tema": "Geometria plana — semelhança e razão entre áreas",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Em um triângulo ABC de área 72 cm², D é o ponto médio do lado AB e E é o ponto do lado AC tal que AE = 2 · EC. Os segmentos BE e CD cortam-se no ponto P. A área do quadrilátero ADPE, em cm², é",
+    "alternativas": ["24", "30", "32", "36", "48"],
+    "correta": 1,
+    "explicacao": "O ponto aqui é descobrir em que razão P divide os segmentos e, depois, trabalhar com triângulos que compartilham um ângulo ou uma altura.\n\n**1) Onde fica P (paralela auxiliar).** Trace por D uma paralela a BE, que corta AC em F. No triângulo ABE, como D é o ponto médio de AB e DF ∥ BE, F é o ponto médio de AE e DF = BE/2 (base média). Como AE = 2 · EC, temos AF = FE = EC.\n\nAgora olhe para o triângulo CDF: E é o ponto médio de CF e a reta EP é paralela a DF. Pela mesma propriedade, P é o ponto médio de CD e PE = DF/2 = BE/4.\n\nConclusão: CP = PD e BP = (3/4) · BE.\n\n**2) Áreas.** O triângulo ADC tem metade da área de ABC (mesma altura relativa ao vértice C e base AD = AB/2): área(ADC) = 36.\n\nO triângulo CPE tem o ângulo C em comum com o triângulo CDA, então área(CPE)/área(CDA) = (CP/CD) · (CE/CA) = (1/2) · (1/3) = 1/6. Logo área(CPE) = 36/6 = 6.\n\nÁrea(ADPE) = área(ADC) − área(CPE) = 36 − 6 = 30 cm².\n\n**Conferência por outro caminho:** área(ABE) = (2/3) · 72 = 48; área(ABP) = (3/4) · 48 = 36; área(BDP) = 36/2 = 18; e 48 − 18 = 30.\n\nPara lembrar: dois triângulos com um ângulo em comum têm áreas na razão do produto dos lados que formam esse ângulo.",
+    "erradas": [
+      "Resultado de supor que E também é ponto médio: aí P seria o baricentro e ADPE valeria 1/3 de 72. Mas AE = 2 · EC, e não AE = EC.",
+      "",
+      "Erro de supor que P divide BE na razão 2 : 1, como no baricentro (BP = 2BE/3): área(ABP) = 32, área(BDP) = 16 e 48 − 16 = 32. Na verdade, BP = 3BE/4.",
+      "Área do triângulo ADC inteiro: faltou descontar o triângulo CPE, que fica fora do quadrilátero.",
+      "Área do triângulo ABE (2/3 de 72): faltou descontar o triângulo BDP, que fica fora do quadrilátero."
+    ]
+  },
+  {
+    "id": "MAT-B-005",
+    "materia": "matematica",
+    "tema": "Geometria espacial — cone e razão de semelhança entre volumes",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Um reservatório tem a forma de um cone circular reto e está apoiado pela base em um piso horizontal, com o vértice voltado para cima. Ele contém água até a metade de sua altura, o que corresponde a 21 litros. Quantos litros de água ainda cabem no reservatório?",
+    "alternativas": ["3", "7", "21", "24", "147"],
+    "correta": 0,
+    "explicacao": "O ponto aqui é olhar para a parte VAZIA: com o vértice para cima, o ar ocupa um cone menor, semelhante ao reservatório inteiro.\n\n**1) Razão de semelhança.** O cone de ar vai do nível da água até o vértice; sua altura é metade da altura total. Logo a razão de semelhança é k = 1/2.\n\n**2) Volumes.** Em sólidos semelhantes, os volumes estão na razão k³. O cone de ar tem volume (1/2)³ = 1/8 do total, e a água ocupa 1 − 1/8 = 7/8 do total.\n\n**3) Conta.** (7/8) · V = 21 ⇒ V = 24 L. O que ainda cabe é exatamente o volume do cone de ar: 24 − 21 = 3 L (ou, direto, 24/8 = 3 L).\n\nRepare como a posição do vértice muda tudo: com o vértice para baixo, a água até a metade da altura seria só 1/8 do volume.\n\nPara lembrar: cortando um cone por um plano paralelo à base, a parte de cima é um cone semelhante, e os volumes ficam na razão do cubo das alturas.",
+    "erradas": [
+      "",
+      "Resultado de usar a razão de áreas (k² = 1/4) no lugar da razão de volumes (k³): a água seria 3/4 do total, o total seria 28 L e faltariam 7 L.",
+      "Raciocínio linear: supor que metade da altura corresponde a metade do volume, de modo que faltaria outro tanto igual.",
+      "É a capacidade total do reservatório, e não o volume que ainda falta para enchê-lo.",
+      "Resultado de imaginar o vértice para baixo: nesse caso, 21 L seriam 1/8 do total (168 L) e faltariam 147 L."
+    ]
+  },
+  {
+    "id": "MAT-B-006",
+    "materia": "matematica",
+    "tema": "Geometria espacial — esfera e cilindro (volume deslocado)",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["fisica"],
+    "enunciado": "Um recipiente cilíndrico reto, de raio interno 12 cm e altura 40 cm, contém água até a altura de 20 cm. Coloca-se na água uma esfera maciça de raio 6 cm, feita de um material de densidade 0,75 g/cm³, que passa a flutuar em equilíbrio, sem tocar o fundo nem as paredes. Considerando a densidade da água igual a 1,0 g/cm³, a elevação do nível da água no recipiente é de",
+    "alternativas": ["0,375 cm", "0,5 cm", "1,5 cm", "2,0 cm", "4,5 cm"],
+    "correta": 2,
+    "explicacao": "O ponto aqui é juntar Física e Geometria: um corpo que flutua desloca um volume de água cujo peso é igual ao seu próprio peso (princípio de Arquimedes). Só a parte submersa da esfera faz o nível subir.\n\n**1) Volume da esfera.** V = (4/3)πr³ = (4/3)π · 216 = 288π cm³.\n\n**2) Volume submerso (Física).** No equilíbrio, empuxo = peso: ρ(água) · V(sub) · g = ρ(esfera) · V · g. Logo V(sub)/V = ρ(esfera)/ρ(água) = 0,75/1,0 = 3/4, e V(sub) = (3/4) · 288π = 216π cm³.\n\n**3) Elevação do nível (Geometria).** O volume submerso ocupa o lugar de um cilindro de água de raio 12 cm e altura Δh: π · 12² · Δh = 216π ⇒ 144 · Δh = 216 ⇒ Δh = 1,5 cm.\n\nVerificação das condições: o nível final é 21,5 cm, bem abaixo da borda (40 cm); a esfera (diâmetro 12 cm) cabe com folga no cilindro (diâmetro 24 cm); e sua parte submersa tem menos de 12 cm de profundidade, enquanto a água tem mais de 20 cm, então ela não toca o fundo.\n\nPara lembrar: para um corpo flutuante, a fração submersa é a razão entre a densidade do corpo e a do líquido, e só essa parte desloca líquido.",
+    "erradas": [
+      "Resultado de usar o diâmetro do recipiente (24 cm) como se fosse o raio: 216π/(576π) = 0,375 cm.",
+      "Altura correspondente à parte EMERSA da esfera (72π cm³): é a parte que fica fora da água e, portanto, não desloca líquido.",
+      "",
+      "Resultado de supor a esfera totalmente submersa (288π/144π = 2 cm), ignorando que ela flutua com parte do volume fora da água.",
+      "Esquecimento do fator 1/3 no volume da esfera (V = 4πr³ = 864π): 0,75 · 864π/(144π) = 4,5 cm."
+    ]
+  },
+  {
+    "id": "MAT-B-007",
+    "materia": "matematica",
+    "tema": "Geometria espacial — pirâmide, esfera inscrita e tronco",
+    "nivel": "acima",
+    "origem": "Estilo ITA/IME (fácil)",
+    "inter": [],
+    "enunciado": "Uma pirâmide regular de base quadrada tem aresta da base 12 cm e altura 8 cm. Uma esfera está inscrita nessa pirâmide, isto é, é tangente à base e às quatro faces laterais. Um plano paralelo à base, tangente à esfera em seu ponto mais alto, divide a pirâmide em uma pirâmide menor e um tronco de pirâmide. O volume desse tronco, em cm³, é",
+    "alternativas": ["6", "288", "360", "378", "1134"],
+    "correta": 3,
+    "explicacao": "O ponto aqui é reduzir o problema espacial a um problema plano: corte a pirâmide pelo plano que passa pelo vértice e pelos pontos médios de dois lados opostos da base.\n\n**1) A seção.** Essa seção é um triângulo isósceles de base 12 (o lado do quadrado) e altura 8. Seus lados iguais são os apótemas da pirâmide: √(6² + 8²) = 10. Por simetria, a esfera toca cada face lateral sobre o apótema dessa face; por isso, nessa seção, ela aparece como o círculo inscrito no triângulo.\n\n**2) Raio da esfera.** Para um triângulo, r = área/semiperímetro. Área = 12 · 8/2 = 48; semiperímetro = (10 + 10 + 12)/2 = 16. Logo r = 48/16 = 3 cm.\n\n**3) O corte.** O ponto mais alto da esfera está a 2r = 6 cm da base, então a pirâmide menor (acima do plano) tem altura 8 − 6 = 2 cm. A razão de semelhança é k = 2/8 = 1/4, e a razão entre os volumes é k³ = 1/64.\n\n**4) Volumes.** Pirâmide inteira: V = (1/3) · 12² · 8 = 384 cm³. Pirâmide menor: 384/64 = 6 cm³. Tronco: 384 − 6 = 378 cm³.\n\nPara lembrar: esfera inscrita em pirâmide regular se resolve na seção que contém os apótemas; em cortes paralelos à base, os volumes escalam com o cubo da razão de semelhança.",
+    "erradas": [
+      "É o volume da pirâmide menor, que fica ACIMA do plano; o tronco é a parte restante.",
+      "Uso da razão linear: 384 · (1 − 1/4) = 288. Volumes de sólidos semelhantes escalam com k³, e não com k.",
+      "Uso da razão de áreas: 384 · (1 − 1/16) = 360. A razão k² vale para as bases, e não para os volumes.",
+      "",
+      "Esquecimento do fator 1/3 no volume da pirâmide (12² · 8 = 1152, e 1152 · 63/64 = 1134)."
+    ]
+  },
+  {
+    "id": "MAT-B-008",
+    "materia": "matematica",
+    "tema": "Trigonometria — lei dos cossenos (composição de vetores)",
+    "nivel": "acima",
+    "origem": "Estilo livro (Iezzi)",
+    "inter": ["fisica"],
+    "enunciado": "Duas forças, de módulos 3 N e 5 N, atuam sobre um mesmo ponto material, e a resultante delas tem módulo 7 N. Se apenas o sentido da força de 3 N for invertido (mantidos sua direção e seu módulo, e mantida a força de 5 N), o módulo da nova resultante passará a ser",
+    "alternativas": ["2 N", "√19 N", "√34 N", "7 N", "8 N"],
+    "correta": 1,
+    "explicacao": "O ponto aqui é usar a lei dos cossenos duas vezes: uma para descobrir o ângulo entre as forças e outra para a nova resultante. A lei do paralelogramo dá um atalho.\n\n**Teoria: de onde vem a fórmula da resultante.** Sejam a e b os módulos e θ o ângulo entre as forças. Pela regra do paralelogramo, a resultante é a diagonal; no triângulo de lados a, b e R, o ângulo oposto a R mede 180° − θ (ângulos consecutivos de um paralelogramo são suplementares). A lei dos cossenos dá R² = a² + b² − 2ab · cos(180° − θ) e, como cos(180° − θ) = −cos θ:\nR² = a² + b² + 2ab · cos θ.\nConferindo os casos extremos: θ = 0° dá R = a + b; θ = 180° dá R = |a − b|; θ = 90° dá Pitágoras.\n\n**1) Ângulo entre as forças.** 49 = 9 + 25 + 2 · 3 · 5 · cos θ ⇒ 30 cos θ = 15 ⇒ cos θ = 1/2 ⇒ θ = 60°.\n\n**2) Nova resultante.** Inverter o sentido de uma das forças troca θ por 180° − θ = 120°:\nR'² = 9 + 25 + 30 · cos 120° = 34 − 15 = 19 ⇒ R' = √19 N.\n\n**Atalho (lei do paralelogramo).** As duas resultantes são as duas diagonais do paralelogramo de lados 3 e 5. Somando as fórmulas, (34 + 30 cos θ) + (34 − 30 cos θ) = 68, ou seja, R² + R'² = 2(a² + b²). Logo R'² = 68 − 49 = 19, sem nem calcular o ângulo.\n\nPara lembrar: a soma dos quadrados das diagonais de um paralelogramo é igual à soma dos quadrados dos seus quatro lados.",
+    "erradas": [
+      "Subtração direta dos módulos (5 − 3): só valeria se, após a inversão, as forças fossem colineares e de sentidos opostos, o que não ocorre (o ângulo passa a ser 120°).",
+      "",
+      "Resultado de supor que as forças são perpendiculares (√(3² + 5²)), ignorando que o ângulo entre elas, obtido a partir da resultante dada, é 60°.",
+      "Ideia equivocada de que inverter uma das forças apenas inverte a resultante, sem mudar seu módulo; isso só aconteceria se as DUAS forças fossem invertidas.",
+      "Soma direta dos módulos (3 + 5): só valeria para forças de mesma direção e mesmo sentido."
+    ]
+  },
+  {
+    "id": "MAT-B-009",
+    "materia": "matematica",
+    "tema": "Trigonometria — equações trigonométricas",
+    "nivel": "fuvest",
+    "origem": "Estilo livro (Iezzi)",
+    "inter": [],
+    "enunciado": "A soma de todas as soluções da equação sen 2x = cos x, no intervalo [0, 2π], é",
+    "alternativas": ["π", "3π/2", "13π/6", "3π", "10π/3"],
+    "correta": 3,
+    "explicacao": "O ponto aqui é fatorar em vez de dividir: dividir os dois membros por cos x elimina justamente as soluções em que cos x = 0.\n\n**Teoria: a fórmula do arco duplo.** De sen(a + b) = sen a · cos b + sen b · cos a, fazendo a = b = x, obtemos sen 2x = 2 sen x · cos x.\n\n**1) Reescrevendo.** 2 sen x · cos x = cos x ⇒ 2 sen x · cos x − cos x = 0 ⇒ cos x · (2 sen x − 1) = 0.\n\n**2) Produto nulo.** Um produto é zero quando pelo menos um dos fatores é zero.\n\nSe cos x = 0: x = π/2 ou x = 3π/2 (os pontos mais alto e mais baixo do ciclo trigonométrico).\n\nSe sen x = 1/2: x = π/6 ou x = 5π/6 (o seno é positivo no 1º e no 2º quadrantes, e 5π/6 = π − π/6).\n\n**3) Soma.** π/6 + 5π/6 + π/2 + 3π/2 = π + 2π = 3π.\n\n**Por que não dividir por cos x?** Dividir por uma expressão só é permitido quando ela é diferente de zero. Quem divide por cos x obtém 2 sen x = 1 e, sem perceber, impõe cos x ≠ 0, perdendo π/2 e 3π/2. Regra prática: colocar um fator em evidência é sempre seguro; dividir exige analisar à parte o caso em que o divisor se anula.\n\nPara lembrar: em equações trigonométricas, fatore e use o produto nulo; dividir por uma expressão que pode valer zero faz perder raízes.",
+    "erradas": [
+      "Soma obtida ao dividir a equação por cos x: sobram só π/6 e 5π/6, e perdem-se as soluções π/2 e 3π/2.",
+      "Soma de quem lembrou que cos x = 0 em π/2, mas esqueceu a outra solução no intervalo, 3π/2.",
+      "Soma de quem resolveu sen x = 1/2 apenas com π/6, esquecendo a solução do 2º quadrante, 5π/6.",
+      "",
+      "Erro de quadrante: tomar 7π/6 (= π + π/6) como segunda solução de sen x = 1/2; no 3º quadrante, o seno é negativo."
+    ]
+  },
+  {
+    "id": "MAT-B-010",
+    "materia": "matematica",
+    "tema": "Geometria analítica — circunferência e retas tangentes (com trigonometria)",
+    "nivel": "acima",
+    "origem": "Estilo ITA/IME (fácil)",
+    "inter": [],
+    "enunciado": "No plano cartesiano, considere a circunferência λ: x² + y² − 4x − 6y − 12 = 0 e o ponto P(8, 11). As duas retas que passam por P e são tangentes a λ tocam-na nos pontos T₁ e T₂. A medida do segmento T₁T₂ é",
+    "alternativas": ["5", "15/2", "5√3", "10", "5√5"],
+    "correta": 2,
+    "explicacao": "O ponto aqui é não sair calculando as equações das tangentes: o triângulo retângulo formado por P, pelo centro e por um ponto de tangência entrega tudo.\n\n**1) Centro e raio.** Completando quadrados: (x − 2)² + (y − 3)² = 12 + 4 + 9 = 25. Centro C(2, 3) e raio r = 5.\n\n**2) Distância de P ao centro.** PC = √[(8 − 2)² + (11 − 3)²] = √(36 + 64) = 10.\n\n**3) Triângulo PT₁C.** O raio CT₁ é perpendicular à tangente, então o triângulo PT₁C é retângulo em T₁, com hipotenusa PC = 10 e cateto CT₁ = 5. Assim, sen(∠T₁PC) = 5/10 = 1/2 ⇒ ∠T₁PC = 30°, e PT₁ = √(10² − 5²) = 5√3.\n\n**4) A corda.** Por simetria em relação à reta PC, ∠T₁PT₂ = 2 · 30° = 60°. Como PT₁ = PT₂, o triângulo PT₁T₂ é isósceles com ângulo do vértice de 60°; logo, é equilátero: T₁T₂ = PT₁ = 5√3.\n\nOutro caminho: no quadrilátero PT₁CT₂, o ângulo central T₁CT₂ mede 360° − 90° − 90° − 60° = 120°, e a corda vale 2r · sen(120°/2) = 2 · 5 · (√3/2) = 5√3.\n\nPara lembrar: de um ponto exterior, as duas tangentes são iguais e o raio no ponto de tangência é perpendicular a elas; quando PC = 2r, o ângulo entre as tangentes é 60°.",
+    "erradas": [
+      "Resultado de usar na fórmula da corda o ângulo de 30° (metade do ângulo em P) em vez de 60° (metade do ângulo central de 120°): 2 · 5 · sen 30° = 5.",
+      "É a distância de P ao ponto médio da corda (PT₁ · cos 30° = 15/2), e não o comprimento da corda.",
+      "",
+      "É a distância de P ao centro da circunferência, e não a medida da corda.",
+      "Erro no Pitágoras do triângulo PT₁C: somar em vez de subtrair (√(10² + 5²) = 5√5) ao calcular a tangente e depois usar o triângulo equilátero."
+    ]
+  },
+  {
+    "id": "MAT-B-011",
+    "materia": "matematica",
+    "tema": "Geometria analítica — simetria (reflexão) e distância entre pontos",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": ["fisica"],
+    "enunciado": "Dois espelhos planos, perpendiculares entre si, ocupam os semieixos positivos Ox e Oy de um sistema cartesiano cuja unidade é o decímetro, com as faces refletoras voltadas para o 1º quadrante. Um laser no ponto A(4, 1) emite um raio que reflete primeiro no espelho sobre Ox, depois no espelho sobre Oy, e atinge um sensor no ponto B(2, 5). Em cada reflexão, o ângulo de incidência é igual ao ângulo de reflexão. O comprimento total do caminho percorrido pelo raio, de A até B, é",
+    "alternativas": ["3√2 dm", "2√5 dm", "2√10 dm", "2√13 dm", "6√2 dm"],
+    "correta": 4,
+    "explicacao": "O ponto aqui é usar imagens: a lei da reflexão equivale a dizer que, se “desdobrarmos” o espelho, o raio segue em linha reta até a imagem do alvo.\n\n**1) Imagem pela última reflexão.** O último espelho atingido é o de Oy. Refletir B(2, 5) em Oy troca o sinal da abscissa: B₁(−2, 5). O trecho final Q → B tem o mesmo comprimento que Q → B₁, e a lei da reflexão garante que P, Q e B₁ ficam alinhados (P e Q são os pontos de reflexão em Ox e em Oy).\n\n**2) Imagem pela primeira reflexão.** Agora o caminho A → P → B₁ reflete em Ox. Refletindo B₁ em Ox (troca o sinal da ordenada): B₂(−2, −5). De novo, A, P e B₂ ficam alinhados.\n\n**3) Comprimento.** O caminho inteiro tem o comprimento do segmento AB₂:\nAB₂ = √[(4 − (−2))² + (1 − (−5))²] = √(36 + 36) = 6√2 dm.\n\n**Conferência.** A reta AB₂ é y = x − 3, que corta Ox em P(3, 0). O raio refletido segue com inclinação −1 e atinge Oy em Q(0, 3); refletido de novo, segue com inclinação 1 e chega a B(2, 5). Trechos: AP = √2, PQ = 3√2 e QB = 2√2, que somam 6√2 dm.\n\nCuriosidade física: dois espelhos a 90° devolvem o raio paralelo ao de entrada e em sentido contrário (de A até P, a direção é (−1, −1); de Q até B, é (1, 1)). É o princípio dos retrorrefletores.\n\nPara lembrar: refletir um ponto em Ox troca o sinal de y; em Oy, troca o sinal de x; a dupla reflexão em eixos perpendiculares equivale a uma simetria em relação à origem.",
+    "erradas": [
+      "É apenas o trecho PQ, entre os dois espelhos (de P(3, 0) até Q(0, 3)), e não o percurso total.",
+      "Distância direta de A até B, como se o raio fosse de A até B sem refletir nos espelhos.",
+      "Resultado de considerar só a reflexão em Ox: distância de A à imagem (2, −5) de B. Faltou a reflexão em Oy.",
+      "Resultado de considerar só a reflexão em Oy: distância de A à imagem (−2, 5) de B. Faltou a reflexão em Ox.",
+      ""
+    ]
+  },
+  {
+    "id": "MAT-B-012",
+    "materia": "matematica",
+    "tema": "Geometria analítica — distâncias e otimização (função quadrática)",
+    "nivel": "acima",
+    "origem": "Estilo ITA/IME (médio)",
+    "inter": [],
+    "enunciado": "No plano cartesiano, considere os pontos A(1, 1) e B(5, 3) e a reta r: x + y = 9. Quando P percorre a reta r, o menor valor possível de PA² + PB² é",
+    "alternativas": ["16", "21", "26", "27", "52"],
+    "correta": 2,
+    "explicacao": "O ponto aqui é transformar o problema geométrico em uma função quadrática de uma só variável. A fórmula da mediana dá um atalho elegante.\n\n**Caminho 1 (função quadrática).** Todo ponto de r é da forma P(t, 9 − t). Então\nPA² = (t − 1)² + (8 − t)² = 2t² − 18t + 65 e PB² = (t − 5)² + (6 − t)² = 2t² − 22t + 61.\nSomando: f(t) = 4t² − 40t + 126.\nO mínimo ocorre no vértice: t = 40/8 = 5, e f(5) = 100 − 200 + 126 = 26. O ponto ótimo é P(5, 4).\n\n**Caminho 2 (mediana).** Seja M o ponto médio de AB: M(3, 2). Para qualquer ponto P vale PA² + PB² = 2 · PM² + AB²/2. Como AB² = 4² + 2² = 20, basta minimizar PM, isto é, tomar P como o pé da perpendicular traçada de M até r.\nDistância de M a r: |3 + 2 − 9|/√2 = 4/√2 = 2√2, logo o menor PM² é 8.\nResultado: 2 · 8 + 20/2 = 16 + 10 = 26.\n\nO pé da perpendicular de M(3, 2) a r é justamente (5, 4), o mesmo ponto do Caminho 1.\n\nPara lembrar: PA² + PB² = 2PM² + AB²/2, com M ponto médio de AB; minimizar a soma dos quadrados das distâncias a A e B é minimizar a distância ao ponto médio.",
+    "erradas": [
+      "Valor de 2 · PM² apenas: faltou somar a parcela fixa AB²/2 = 10 da fórmula da mediana.",
+      "Erro na fórmula da mediana: usar 2PM² + (AB/2)² = 16 + 5, quando o correto é 2PM² + 2(AB/2)² = 2PM² + AB²/2.",
+      "",
+      "Valor obtido ao tomar P como o pé da perpendicular traçada de A (ou de B) até r, por exemplo P(4,5; 4,5). O ponto ótimo é o pé da perpendicular traçada do ponto MÉDIO de AB.",
+      "Erro na fórmula do valor mínimo da quadrática: usar −Δ/(2a) = 416/8 em vez de −Δ/(4a) = 416/16 = 26."
+    ]
+  }
+]

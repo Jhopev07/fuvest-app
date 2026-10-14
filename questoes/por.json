@@ -1,0 +1,399 @@
+[
+  {
+    "id": "POR-001",
+    "materia": "portugues",
+    "tema": "Interpretação e inferência — divulgação científica",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "biologia"
+    ],
+    "texto": "Quando um paciente interrompe o antibiótico porque “já se sente melhor”, costuma-se dizer que ele está “criando bactérias resistentes”. A formulação é imprecisa. A resistência, em geral, não é fabricada pelo remédio: ela surge de mutações aleatórias que ocorrem o tempo todo numa população de bilhões de células, com ou sem tratamento. O que o antibiótico faz é outra coisa. Ao eliminar as bactérias sensíveis, ele abre espaço para que as poucas resistentes, antes minoritárias, se multipliquem sem concorrência. O remédio não cria o problema; seleciona-o.\n\nIsso não significa que interromper o tratamento seja inofensivo. Uma exposição curta pode eliminar as bactérias mais sensíveis sem alcançar as parcialmente resistentes, que então herdam o terreno. É por isso que os médicos insistem no esquema completo — embora, curiosamente, pesquisas recentes discutam se tratamentos mais curtos, em certas infecções, não reduziriam a pressão seletiva. A recomendação, portanto, não é um dogma: é a melhor resposta disponível, sujeita, como toda resposta científica, a revisão.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Considerando o raciocínio desenvolvido no texto, é correto afirmar que ele",
+    "alternativas": [
+      "mostra que as bactérias, expostas ao antibiótico, desenvolvem resistência para sobreviver e transmitem essa nova característica às descendentes.",
+      "sustenta que, como as bactérias resistentes surgem independentemente do remédio, interromper o tratamento não interfere na disseminação da resistência.",
+      "aplica aos antibióticos a lógica da seleção natural: a variação entre as bactérias antecede o tratamento, e o remédio decide quais variantes predominam.",
+      "apresenta como comprovado que tratamentos mais curtos reduzem a pressão seletiva, o que justificaria abandonar a recomendação do esquema completo.",
+      "conclui que a recomendação do esquema completo, por não ser um dogma, carece de base científica e se mantém apenas por tradição médica."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é perceber que o texto, sem usar a expressão, descreve o mecanismo da **seleção natural**: (1) há variação prévia na população (“mutações aleatórias que ocorrem o tempo todo [...] com ou sem tratamento”); (2) o ambiente — no caso, o antibiótico — elimina os indivíduos menos aptos (as bactérias sensíveis); (3) os sobreviventes, “antes minoritários”, multiplicam-se “sem concorrência” e passam a predominar.\n\nA frase-síntese é “O remédio não cria o problema; seleciona-o”. O verbo “selecionar” redefine o papel do antibiótico: ele não é a causa da variação, mas o filtro que decide qual variante prospera. A expressão “pressão seletiva”, no segundo parágrafo, confirma a chave biológica da leitura.\n\nRepare também na estrutura do argumento: o primeiro parágrafo corrige uma formulação popular (“criando bactérias resistentes”), e o segundo bloqueia uma conclusão apressada (“Isso não significa que interromper o tratamento seja inofensivo”). Uma boa leitura precisa dar conta dos dois movimentos — e é neles que estão as armadilhas.\n\nPara lembrar: em textos de divulgação, a inferência correta reconstrói o raciocínio do texto; o que o texto corrige, relativiza ou apenas levanta como hipótese não pode ser tomado como tese dele.",
+    "erradas": [
+      "Leitura lamarckista: supõe que o ambiente (o remédio) induz a adaptação e que ela é transmitida. O texto diz o contrário — as mutações são aleatórias e anteriores ao tratamento; o antibiótico apenas seleciona.",
+      "Ignora o segundo parágrafo: o autor afirma que a interrupção não é inofensiva, porque uma exposição curta favorece as bactérias parcialmente resistentes, que “herdam o terreno”.",
+      "",
+      "Extrapolação: o texto diz que pesquisas “discutem se” tratamentos curtos reduziriam a pressão seletiva — a interrogativa indireta e o futuro do pretérito marcam hipótese em debate, não comprovação.",
+      "Distorção de “não é um dogma”: o autor quer dizer que a recomendação é revisável, não que seja infundada; ele a chama de “a melhor resposta disponível”."
+    ]
+  },
+  {
+    "id": "POR-002",
+    "materia": "portugues",
+    "tema": "Coesão e operadores lógico-discursivos",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "Quando um paciente interrompe o antibiótico porque “já se sente melhor”, costuma-se dizer que ele está “criando bactérias resistentes”. A formulação é imprecisa. A resistência, em geral, não é fabricada pelo remédio: ela surge de mutações aleatórias que ocorrem o tempo todo numa população de bilhões de células, com ou sem tratamento. O que o antibiótico faz é outra coisa. Ao eliminar as bactérias sensíveis, ele abre espaço para que as poucas resistentes, antes minoritárias, se multipliquem sem concorrência. O remédio não cria o problema; seleciona-o.\n\nIsso não significa que interromper o tratamento seja inofensivo. Uma exposição curta pode eliminar as bactérias mais sensíveis sem alcançar as parcialmente resistentes, que então herdam o terreno. É por isso que os médicos insistem no esquema completo — embora, curiosamente, pesquisas recentes discutam se tratamentos mais curtos, em certas infecções, não reduziriam a pressão seletiva. A recomendação, portanto, não é um dogma: é a melhor resposta disponível, sujeita, como toda resposta científica, a revisão.\n\nTexto elaborado para esta questão.",
+    "enunciado": "No segundo parágrafo, os elementos “Isso”, “É por isso que”, “embora” e “portanto” expressam, respectivamente:",
+    "alternativas": [
+      "retomada de conteúdo anterior; consequência; concessão; conclusão.",
+      "retomada de conteúdo anterior; consequência; adversidade; conclusão.",
+      "antecipação de conteúdo posterior; consequência; concessão; conclusão.",
+      "retomada de conteúdo anterior; consequência; condição; conclusão.",
+      "retomada de conteúdo anterior; consequência; concessão; explicação."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é identificar a função de cada elemento olhando para o que vem antes e depois dele, e não apenas para a “cara” da palavra.\n\n**Isso** retoma todo o conteúdo do primeiro parágrafo (o antibiótico seleciona, mas não cria, a resistência). É uma anáfora encapsuladora: um pronome que resume uma ideia já exposta.\n\n**É por isso que** apresenta a insistência dos médicos como consequência do que acabou de ser dito (a exposição curta favorece as bactérias parcialmente resistentes). A construção “é... que” ainda põe o “por isso” em destaque.\n\n**Embora** introduz uma concessão: um dado que poderia enfraquecer a recomendação (pesquisas sobre tratamentos mais curtos), mas que não a anula. Note o subjuntivo “discutam”, exigido pelas conjunções concessivas.\n\n**Portanto** introduz a conclusão que o autor tira do conjunto: se há uma recomendação firme e, ao mesmo tempo, pesquisas que a discutem, a recomendação não é dogma, e sim conhecimento revisável.\n\nPara lembrar: a concessiva (embora, ainda que, mesmo que) admite um fato contrário sem que ele impeça o que se afirma na oração principal; a adversativa (mas, porém) coordena dois enunciados em oposição.",
+    "erradas": [
+      "",
+      "Confunde concessão com adversidade. As duas exprimem contraste, mas “embora” é conjunção subordinativa concessiva (pede subjuntivo e admite um fato sem negar a afirmação principal); adversativas como “mas” e “porém” coordenam orações.",
+      "“Isso” não antecipa o que vem depois: retoma o conteúdo do primeiro parágrafo. A oração seguinte (“que interromper o tratamento seja inofensivo”) é complemento de “significa”, não o referente do pronome.",
+      "Armadilha do modo verbal: como as condicionais (“contanto que”, “desde que”) também pedem subjuntivo, é fácil tomar “embora” por condição. Mas o texto não apresenta as pesquisas como requisito para a insistência dos médicos.",
+      "“Portanto” é conclusivo: introduz uma dedução a partir do que foi dito. Explicativas, como “porque” ou “pois” anteposto ao verbo, justificam o que se afirmou antes — não é o caso."
+    ]
+  },
+  {
+    "id": "POR-003",
+    "materia": "portugues",
+    "tema": "Interpretação e inferência — tese e argumentação",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "historia",
+      "sociologia"
+    ],
+    "texto": "Antes das ferrovias, cada cidade acertava seus relógios pelo sol, e o meio-dia de uma vila raramente coincidia com o da vizinha. Ninguém se incomodava: a vida não exigia mais precisão do que essa. Foi o trem, obrigado a cruzar dezenas de cidades obedecendo a uma única tabela de horários, que tornou intolerável essa pluralidade de meios-dias. A hora padronizada não nasceu, portanto, de uma descoberta da astronomia, mas de uma necessidade do comércio.\n\nCom a fábrica, a mudança foi mais profunda. O camponês media o tempo pela tarefa: colhia-se enquanto houvesse luz, parava-se quando vinha a chuva. Para o operário, a tarefa passou a ser medida pelo tempo: entrava-se às seis, saía-se às dezoito, e o que se produzia nesse intervalo pertencia a outro. Não surpreende que relatos de operários das primeiras fábricas britânicas registrem a suspeita de que os relógios eram adiantados de manhã e atrasados à noite. Desconfiar do relógio era contestar não a hora, mas o dono dela.\n\nHoje, quando um aplicativo cronometra cada entrega em minutos e penaliza cada atraso, convém lembrar que nenhuma dessas medidas é natural. Toda forma de contar o tempo é, também, uma forma de distribuir poder.\n\nTexto elaborado para esta questão.",
+    "enunciado": "A ideia central do texto, que articula os exemplos históricos ao comentário sobre o presente, está corretamente expressa em:",
+    "alternativas": [
+      "A padronização da hora decorreu de avanços da astronomia, que permitiram às ferrovias calcular com exatidão o meio-dia de cada cidade.",
+      "Os operários das primeiras fábricas rejeitavam a própria ideia de medir o tempo de trabalho, pois preferiam o ritmo natural das tarefas do campo.",
+      "Os aplicativos de entrega reproduzem integralmente a lógica comercial das ferrovias do século XIX, das quais são herdeiros diretos.",
+      "Ao medir o tempo pela tarefa, o camponês estava livre de relações de poder, ao contrário do operário, submetido ao relógio do patrão.",
+      "As formas de medir o tempo atendem às necessidades econômicas e às relações de poder de cada época; por isso, nenhuma delas é natural."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é perceber que os três exemplos do texto — a ferrovia, a fábrica e o aplicativo — sustentam uma única tese, enunciada na última frase: “Toda forma de contar o tempo é, também, uma forma de distribuir poder”.\n\nO argumento avança em etapas: (1) a hora padronizada nasceu de “uma necessidade do comércio”, e não de uma descoberta científica; (2) na fábrica, a medição do tempo passou a definir a jornada e a quem pertencia o que nela se produzia; (3) daí a desconfiança dos operários, dirigida “não [à] hora, mas [a]o dono dela”; (4) no presente, a cronometragem por aplicativo é só o caso mais recente — por isso “convém lembrar que nenhuma dessas medidas é natural”.\n\nO texto dialoga com processos estudados em História e Sociologia: a Revolução Industrial, a disciplina do trabalho fabril e, hoje, a chamada uberização. A ideia de que algo aparentemente natural é, na verdade, uma construção histórica e social (desnaturalização) é central no pensamento sociológico.\n\nPara lembrar: a tese de um texto argumentativo é a ideia que dá sentido a todos os exemplos; desconfie de afirmações que se apoiam num só exemplo ou acrescentam o que o texto não diz.",
+    "erradas": [
+      "Contradiz o texto: a hora padronizada “não nasceu [...] de uma descoberta da astronomia, mas de uma necessidade do comércio”.",
+      "Quase certo: os operários de fato desconfiavam dos relógios, mas o texto precisa que contestavam “não a hora, mas o dono dela” — o alvo era o controle do tempo pelo patrão, não a medição em si.",
+      "Extrapolação: o texto aproxima os casos para mostrar que nenhuma medida é natural, mas não diz que o aplicativo reproduza “integralmente” a lógica das ferrovias, nem fala em herança direta.",
+      "Extrapolação: o texto diz apenas que o camponês media o tempo de outro modo; não afirma que o trabalho rural fosse livre de relações de poder.",
+      ""
+    ]
+  },
+  {
+    "id": "POR-004",
+    "materia": "portugues",
+    "tema": "Semântica e efeitos de sentido — figuras (quiasmo) e voz verbal",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [],
+    "texto": "Antes das ferrovias, cada cidade acertava seus relógios pelo sol, e o meio-dia de uma vila raramente coincidia com o da vizinha. Ninguém se incomodava: a vida não exigia mais precisão do que essa. Foi o trem, obrigado a cruzar dezenas de cidades obedecendo a uma única tabela de horários, que tornou intolerável essa pluralidade de meios-dias. A hora padronizada não nasceu, portanto, de uma descoberta da astronomia, mas de uma necessidade do comércio.\n\nCom a fábrica, a mudança foi mais profunda. O camponês media o tempo pela tarefa: colhia-se enquanto houvesse luz, parava-se quando vinha a chuva. Para o operário, a tarefa passou a ser medida pelo tempo: entrava-se às seis, saía-se às dezoito, e o que se produzia nesse intervalo pertencia a outro. Não surpreende que relatos de operários das primeiras fábricas britânicas registrem a suspeita de que os relógios eram adiantados de manhã e atrasados à noite. Desconfiar do relógio era contestar não a hora, mas o dono dela.\n\nHoje, quando um aplicativo cronometra cada entrega em minutos e penaliza cada atraso, convém lembrar que nenhuma dessas medidas é natural. Toda forma de contar o tempo é, também, uma forma de distribuir poder.\n\nTexto elaborado para esta questão.",
+    "enunciado": "No segundo parágrafo, a passagem de “O camponês media o tempo pela tarefa” para “Para o operário, a tarefa passou a ser medida pelo tempo” produz efeito de sentido porque",
+    "alternativas": [
+      "opõe termos de sentidos contrários, configurando uma antítese, já que “tempo” e “tarefa” funcionam no texto como antônimos.",
+      "inverte a posição de “tempo” e “tarefa” (quiasmo) e, ao tirar o trabalhador da função de sujeito agente, reproduz na sintaxe a perda de controle sobre o próprio tempo.",
+      "inverte a posição de “tempo” e “tarefa” (quiasmo), mas mantém o trabalhador como sujeito agente nas duas frases, indicando que ambos controlavam a jornada.",
+      "repete as mesmas palavras sem acréscimo de informação, configurando um pleonasmo que enfatiza a continuidade entre o trabalho rural e o fabril.",
+      "emprega “tempo” em sentido figurado na primeira frase e em sentido literal na segunda, criando uma polissemia que torna o trecho ambíguo."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que o trecho não apenas diz que a relação entre tempo e trabalho se inverteu: ele **encena** essa inversão na própria construção das frases.\n\n**1. O quiasmo.** Compare: “o camponês media **o tempo** pela **tarefa**” e “a **tarefa** passou a ser medida pelo **tempo**”. Os dois termos trocam de posição, num esquema cruzado A–B / B–A. Essa figura se chama quiasmo (do grego chiasmós, “disposição em forma de X”, em referência à letra grega qui). Diferentemente da antítese, que aproxima ideias contrárias (luz/sombra, vida/morte), o quiasmo não depende de oposição de sentido, e sim da inversão da ordem.\n\n**2. A troca de vozes e de funções.** Na primeira frase, o camponês é sujeito agente de “media”: é ele quem mede. Na segunda, o trabalhador não é sujeito de nada; aparece apenas num termo acessório, o adjunto adverbial “Para o operário”. A oração está na voz passiva (“a tarefa passou a ser medida”), e “pelo tempo” ocupa a posição que, nessa voz, cabe ao agente. Ou seja: quem media passa a ter seu trabalho medido; quem mede agora é o relógio — e, por trás dele, o “dono” da hora mencionado adiante.\n\n**3. Por que isso importa.** Quando a forma da frase reproduz aquilo que ela significa, fala-se em iconicidade: a sintaxe espelha o conteúdo. Aqui, a perda de autonomia do trabalhador está no vocabulário e também na estrutura.\n\nPara lembrar: quiasmo é a repetição de termos em ordem invertida (AB/BA); antítese é a aproximação de ideias opostas — e a escolha entre voz ativa e passiva pode ser, por si só, um recurso expressivo.",
+    "erradas": [
+      "Confunde quiasmo com antítese. “Tempo” e “tarefa” não são antônimos; o efeito vem da inversão da ordem dos termos, não de uma oposição de sentidos.",
+      "",
+      "Quase certo: reconhece o quiasmo, mas erra a análise sintática. O operário não é sujeito agente — aparece num adjunto (“Para o operário”), e a oração está na voz passiva; além disso, o texto fala em “mudança mais profunda”, não em igualdade.",
+      "Pleonasmo é redundância (“subir para cima”). Aqui a repetição invertida acrescenta sentido e marca uma ruptura, não uma continuidade (“a mudança foi mais profunda”).",
+      "Não há mudança de sentido de “tempo” entre as duas frases: nas duas, trata-se do tempo cronológico, contado em horas de luz ou de relógio. A suposta polissemia não existe."
+    ]
+  },
+  {
+    "id": "POR-005",
+    "materia": "portugues",
+    "tema": "Coesão e referenciação",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "Antes das ferrovias, cada cidade acertava seus relógios pelo sol, e o meio-dia de uma vila raramente coincidia com o da vizinha. Ninguém se incomodava: a vida não exigia mais precisão do que essa. Foi o trem, obrigado a cruzar dezenas de cidades obedecendo a uma única tabela de horários, que tornou intolerável essa pluralidade de meios-dias. A hora padronizada não nasceu, portanto, de uma descoberta da astronomia, mas de uma necessidade do comércio.\n\nCom a fábrica, a mudança foi mais profunda. O camponês media o tempo pela tarefa: colhia-se enquanto houvesse luz, parava-se quando vinha a chuva. Para o operário, a tarefa passou a ser medida pelo tempo: entrava-se às seis, saía-se às dezoito, e o que se produzia nesse intervalo pertencia a outro. Não surpreende que relatos de operários das primeiras fábricas britânicas registrem a suspeita de que os relógios eram adiantados de manhã e atrasados à noite. Desconfiar do relógio era contestar não a hora, mas o dono dela.\n\nHoje, quando um aplicativo cronometra cada entrega em minutos e penaliza cada atraso, convém lembrar que nenhuma dessas medidas é natural. Toda forma de contar o tempo é, também, uma forma de distribuir poder.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Considere as afirmações sobre mecanismos de coesão do texto.\n\nI. A expressão “essa pluralidade de meios-dias” resume, numa expressão nominal, a situação descrita no primeiro período do texto.\n\nII. A expressão “Não surpreende que” apresenta a suspeita dos operários como desdobramento esperado do que se expôs antes e poderia ser substituída por “Ainda assim” sem alteração de sentido.\n\nIII. Em “Ninguém se incomodava: a vida não exigia mais precisão do que essa”, os dois-pontos introduzem uma explicação para a ausência de incômodo, e “essa” retoma a precisão possível com relógios acertados pelo sol.\n\nEstá correto o que se afirma em",
+    "alternativas": [
+      "I, apenas.",
+      "II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é testar cada mecanismo de coesão voltando ao trecho exato e verificando o que ele retoma ou que relação estabelece.\n\n**I — correta.** “Essa pluralidade de meios-dias” condensa numa expressão nominal a situação do primeiro período (cada cidade com o seu meio-dia). É o que se chama encapsulamento ou rotulação: um nome resume uma ideia anterior e, de quebra, a qualifica — “pluralidade” prepara o leitor para entender por que a situação se tornou “intolerável” para o trem.\n\n**II — incorreta.** A primeira parte procede: “Não surpreende que” apresenta a suspeita dos operários como algo previsível, dado o que se disse antes (o tempo do operário passou a ser controlado por outro). Mas “Ainda assim” é concessivo: anunciaria um fato inesperado, contrário ao que se espera. A substituição inverteria a relação lógica.\n\n**III — correta.** Os dois-pontos introduzem a explicação de por que ninguém se incomodava, e “essa” retoma a precisão dos relógios acertados pelo sol, mencionada logo antes.\n\nPara lembrar: em itens de coesão, desconfie de afirmações “meio certas” — basta uma parte falsa para invalidar o item inteiro.",
+    "erradas": [
+      "Descarta o item III, que está correto: os dois-pontos têm valor explicativo e “essa” retoma a precisão dos relógios acertados pelo sol.",
+      "O item II é justamente o falso: “Ainda assim” é concessivo e inverteria a relação de expectativa marcada por “Não surpreende que”. Além disso, I e III são corretos.",
+      "",
+      "Inclui o item II, cuja segunda parte é falsa, e exclui o I, que descreve corretamente o encapsulamento feito por “essa pluralidade de meios-dias”.",
+      "Aceita o item II por causa de sua primeira parte, que é verdadeira; mas a substituição por “Ainda assim” alteraria o sentido, o que torna o item incorreto."
+    ]
+  },
+  {
+    "id": "POR-006",
+    "materia": "portugues",
+    "tema": "Semântica e efeitos de sentido — ironia",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "A assembleia estava marcada para as oito; às oito e quarenta, o síndico anunciou, com a solenidade de quem inaugura uma ponte, que havia quórum. Éramos onze. O primeiro item da pauta — o conserto do portão da garagem, quebrado desde março — foi rapidamente adiado por falta de orçamentos. O segundo, a cor dos vasos do hall, consumiu uma hora e meia. Dona Lurdes defendia o terracota; o senhor do 52, o cinza-chumbo, “mais moderno”. Discutiu-se, votou-se, desconfiou-se da contagem, votou-se outra vez. Venceu o terracota por um voto, que, segundo o senhor do 52, não deveria ter sido computado, porque a moradora do 31 é inquilina.\n\nSaí de lá tarde e convencido de que a democracia funciona perfeitamente: decidimos, com todo o rigor, aquilo que não tinha a menor importância.\n\nTexto elaborado para esta questão.",
+    "enunciado": "No último parágrafo, a afirmação de que “a democracia funciona perfeitamente” deve ser entendida como",
+    "alternativas": [
+      "elogio sincero ao procedimento adotado pelo condomínio, já que as decisões foram tomadas por votação, com direito a recontagem.",
+      "rejeição da democracia como forma de decisão coletiva, com a defesa implícita de que o síndico deveria decidir sozinho.",
+      "crítica à vitória do terracota, que, para o narrador, foi ilegítima por causa do voto da moradora do 31, que é inquilina.",
+      "ironia que expõe a inversão de prioridades: o rigor foi gasto no assunto irrelevante, e o problema concreto ficou sem solução.",
+      "constatação de que a assembleia não tinha quórum, como sugere a frase “Éramos onze”, o que tornaria nulas as decisões tomadas."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que a ironia da frase final é preparada ao longo de toda a crônica, por uma série de contrastes.\n\nO problema concreto — o portão da garagem, “quebrado desde março” — é “rapidamente adiado”. O assunto irrelevante — a cor dos vasos — “consumiu uma hora e meia”, com discussão, votação e recontagem. A desproporção já aparecia no início, na comparação exagerada do síndico que anuncia o quórum “com a solenidade de quem inaugura uma ponte”.\n\nQuando o narrador diz que “a democracia funciona perfeitamente”, ele não mente sobre o procedimento: houve quórum, votação e até contestação. A ironia está em chamar de “perfeito” um mecanismo que aplica todo o rigor “àquilo que não tinha a menor importância”. O alvo, portanto, não é a democracia em si, mas a inversão de prioridades de quem dela participa — inclusive o próprio narrador, que se inclui em “decidimos”.\n\nPara lembrar: ironia é dizer algo cujo sentido pretendido contraria o literal; para identificá-la, procure no texto os sinais que tornam a leitura literal insustentável.",
+    "erradas": [
+      "Leitura literal: ignora o contraste entre o portão adiado e os vasos debatidos por uma hora e meia, que torna o “perfeitamente” irônico.",
+      "Extrapolação: o narrador critica o uso que se faz do procedimento, não a democracia em si; nada no texto sugere que o síndico devesse decidir sozinho.",
+      "Atribui ao narrador a opinião do senhor do 52. É o vizinho, e não o narrador, quem contesta o voto da inquilina (“segundo o senhor do 52”).",
+      "",
+      "Superinterpretação: “Éramos onze” reforça a ironia sobre a solenidade do síndico, mas o texto não informa qual seria o quórum exigido nem trata as decisões como nulas."
+    ]
+  },
+  {
+    "id": "POR-007",
+    "materia": "portugues",
+    "tema": "Sintaxe no texto — coordenação e indeterminação do sujeito",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [],
+    "texto": "A assembleia estava marcada para as oito; às oito e quarenta, o síndico anunciou, com a solenidade de quem inaugura uma ponte, que havia quórum. Éramos onze. O primeiro item da pauta — o conserto do portão da garagem, quebrado desde março — foi rapidamente adiado por falta de orçamentos. O segundo, a cor dos vasos do hall, consumiu uma hora e meia. Dona Lurdes defendia o terracota; o senhor do 52, o cinza-chumbo, “mais moderno”. Discutiu-se, votou-se, desconfiou-se da contagem, votou-se outra vez. Venceu o terracota por um voto, que, segundo o senhor do 52, não deveria ter sido computado, porque a moradora do 31 é inquilina.\n\nSaí de lá tarde e convencido de que a democracia funciona perfeitamente: decidimos, com todo o rigor, aquilo que não tinha a menor importância.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Sobre o período “Discutiu-se, votou-se, desconfiou-se da contagem, votou-se outra vez.”, é correto afirmar:",
+    "alternativas": [
+      "Formado por orações coordenadas assindéticas de sujeito indeterminado, o período apaga os agentes e sugere um ritual que anda sozinho.",
+      "Em todas as orações, o “se” é pronome apassivador, como em “Vendem-se casas”, e o sujeito paciente fica subentendido.",
+      "As orações são subordinadas adverbiais temporais, pois cada etapa do processo ocorre somente depois da anterior.",
+      "A indeterminação do sujeito permite ao narrador apontar com precisão os responsáveis pela demora, intensificando a crítica aos vizinhos.",
+      "A reescrita “Os moradores discutiram, votaram, desconfiaram da contagem e votaram outra vez” preservaria integralmente o efeito do original."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é reconhecer o valor do “se” e, a partir dele, o efeito da construção.\n\n**1. Que “se” é esse?** A língua tem dois “se” muito parecidos:\n\n— **pronome apassivador**: aparece com verbo transitivo direto, e a frase pode ser passada para a voz passiva analítica (“Vendem-se casas” = “Casas são vendidas”). O termo “casas” é sujeito paciente, e o verbo concorda com ele;\n\n— **índice de indeterminação do sujeito**: aparece com verbos sem objeto direto (intransitivos, transitivos indiretos, de ligação), e o verbo fica sempre na 3ª pessoa do singular (“Precisa-se de vendedores”).\n\nNo trecho, “desconfiou-se da contagem” é a pista decisiva: “desconfiar” é transitivo indireto (desconfiar de algo), logo não admite voz passiva — o “se” só pode indeterminar o sujeito. “Discutiu-se” e “votou-se”, empregados sem complemento, seguem o mesmo padrão. Todas as formas ficam no singular, e ninguém é nomeado.\n\n**2. Coordenação assindética.** As orações vêm lado a lado, separadas só por vírgulas, sem conjunção. A ausência do “e” cria um ritmo seco, de lista, e o retorno de “votou-se” no fim da série sugere que o processo anda em círculos.\n\n**3. O efeito.** A indeterminação apaga os agentes — inclusive o próprio narrador, que estava na assembleia (“Éramos onze”). O procedimento parece andar sozinho, como um ritual que ninguém controla. Isso reforça a ironia da crônica: muito movimento, nenhum avanço.\n\nPara lembrar: com verbo sem objeto direto, o “se” indetermina o sujeito e o verbo fica no singular; com verbo transitivo direto, o “se” é apassivador e o verbo concorda com o sujeito paciente.",
+    "erradas": [
+      "",
+      "“Desconfiar” é transitivo indireto (desconfiar de algo) e não admite voz passiva: em “desconfiou-se da contagem”, o “se” não pode ser apassivador. Na série paralela, todos indeterminam o sujeito.",
+      "Sucessão temporal não é subordinação. As orações são independentes e estão lado a lado (coordenadas assindéticas); nenhuma funciona como adjunto adverbial de outra.",
+      "Inverte o efeito: indeterminar o sujeito é justamente não nomear quem age. O narrador não aponta culpados — dilui a responsabilidade, inclusive a dele.",
+      "Explicitar o sujeito e inserir o “e” muda o efeito: devolve agentes concretos às ações e quebra o ritmo seco da série assindética, que sugeria um processo impessoal e circular."
+    ]
+  },
+  {
+    "id": "POR-008",
+    "materia": "portugues",
+    "tema": "Sintaxe no texto — pontuação e efeito de sentido",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "A assembleia estava marcada para as oito; às oito e quarenta, o síndico anunciou, com a solenidade de quem inaugura uma ponte, que havia quórum. Éramos onze. O primeiro item da pauta — o conserto do portão da garagem, quebrado desde março — foi rapidamente adiado por falta de orçamentos. O segundo, a cor dos vasos do hall, consumiu uma hora e meia. Dona Lurdes defendia o terracota; o senhor do 52, o cinza-chumbo, “mais moderno”. Discutiu-se, votou-se, desconfiou-se da contagem, votou-se outra vez. Venceu o terracota por um voto, que, segundo o senhor do 52, não deveria ter sido computado, porque a moradora do 31 é inquilina.\n\nSaí de lá tarde e convencido de que a democracia funciona perfeitamente: decidimos, com todo o rigor, aquilo que não tinha a menor importância.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Considere o trecho: “Dona Lurdes defendia o terracota; o senhor do 52, o cinza-chumbo, ‘mais moderno’. [...] Venceu o terracota por um voto, que, segundo o senhor do 52, não deveria ter sido computado, porque a moradora do 31 é inquilina.”\n\nSobre a construção desse trecho, é correto afirmar que",
+    "alternativas": [
+      "a vírgula após “o senhor do 52” isola um vocativo, pois nesse ponto o narrador se dirige diretamente ao vizinho.",
+      "em “Venceu o terracota por um voto”, “o terracota” é objeto direto de “venceu”, verbo cujo sujeito é indeterminado.",
+      "a oração “porque a moradora do 31 é inquilina” expressa a causa da vitória do terracota na votação.",
+      "as aspas em “mais moderno” indicam que o narrador assume como sua a avaliação estética do vizinho.",
+      "a vírgula após “o senhor do 52” marca a omissão de “defendia”, e o ponto e vírgula separa orações paralelas de sentido oposto."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é ler a pontuação como marca de relações sintáticas — e, a partir delas, de sentido.\n\n**A vírgula de elipse.** Em “o senhor do 52, o cinza-chumbo”, falta o verbo: o senhor do 52 [defendia] o cinza-chumbo. A vírgula ocupa o lugar do verbo omitido, já expresso na oração anterior (é o que se chama zeugma). O ponto e vírgula separa as duas orações paralelas — mesma estrutura, posições opostas —, o que ressalta o embate entre os moradores.\n\n**As outras armadilhas:**\n\n— em “Venceu o terracota”, a ordem está invertida: o terracota venceu. “O terracota” é sujeito posposto, não objeto;\n\n— a oração “porque a moradora do 31 é inquilina” se subordina a “não deveria ter sido computado”: é a razão alegada pelo vizinho para impugnar o voto, não a causa da vitória;\n\n— as aspas em “mais moderno” marcam palavras de outra pessoa: o narrador reproduz o argumento do vizinho e se distancia dele, com uma ponta de ironia.\n\nPara lembrar: a vírgula pode indicar a omissão de um termo já expresso (zeugma), e as aspas, a presença de uma voz alheia no texto.",
+    "erradas": [
+      "Vocativo é o termo usado para chamar o interlocutor; o narrador não fala com o vizinho. A vírgula ali marca a elipse de “defendia”.",
+      "A inversão da ordem direta confunde a análise: quem venceu foi o terracota. “O terracota” é sujeito posposto de “venceu”.",
+      "Erro de relação: a oração causal se liga a “não deveria ter sido computado” — é a justificativa do vizinho para impugnar o voto, não a causa da vitória.",
+      "Inverte a função das aspas: elas marcam a fala do vizinho, da qual o narrador se distancia; não indicam adesão à avaliação.",
+      ""
+    ]
+  },
+  {
+    "id": "POR-009",
+    "materia": "portugues",
+    "tema": "Semântica e efeitos de sentido — modalização e polissemia",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "texto": "Uma mancha de óleo de origem ainda desconhecida atingiu, na madrugada de ontem, cerca de três quilômetros de praias do litoral norte do estado. De acordo com técnicos do órgão ambiental, o material teria se desprendido de um navio que fazia limpeza de tanques em alto-mar, hipótese que a associação dos armadores considera “precipitada”. A prefeitura interditou o trecho para banho e orienta os moradores a não manipular o resíduo sem luvas, pois o contato pode provocar irritações na pele. Pescadores da região afirmam que o prejuízo deve se estender por semanas; a colônia de pesca local, contudo, ainda não dispõe de estimativa das perdas.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Considere os trechos “o material teria se desprendido de um navio”, “o contato pode provocar irritações na pele” e “o prejuízo deve se estender por semanas”. Sobre os recursos de modalização empregados no texto, é correto afirmar:",
+    "alternativas": [
+      "Em “teria se desprendido”, o futuro do pretérito indica um fato que não chegou a ocorrer, já que o navio não fazia limpeza de tanques.",
+      "Em “teria se desprendido”, o futuro do pretérito apresenta a informação como hipótese atribuída a uma fonte; em “deve se estender”, o verbo “dever” exprime probabilidade, e não obrigação.",
+      "Em “teria se desprendido”, o jornal atribui a hipótese aos técnicos sem assumi-la; em “deve se estender”, o verbo “dever” exprime uma obrigação que os pescadores querem impor aos responsáveis.",
+      "“Pode provocar” e “deve se estender” apresentam como certos os efeitos do óleo; apenas “teria se desprendido” introduz um grau de incerteza no texto.",
+      "As aspas em “precipitada” indicam que o jornal endossa a avaliação dos armadores, contrapondo-a à hipótese dos técnicos."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que o texto jornalístico calibra o grau de certeza de cada informação — e que tempos verbais e verbos auxiliares são as principais ferramentas para isso (modalização).\n\n**“Teria se desprendido”**: o futuro do pretérito composto tem, aqui, valor de incerteza — é muito usado no jornalismo para relatar informações ainda não confirmadas. O jornal reporta a hipótese dos técnicos (“De acordo com técnicos...”) sem se comprometer com ela, o que é coerente com a abertura do texto: “origem ainda desconhecida”.\n\n**“Pode provocar”**: “poder” indica possibilidade — o contato não causa irritação necessariamente, mas há risco.\n\n**“Deve se estender”**: “dever” é polissêmico. Pode indicar obrigação (valor deôntico: “Você deve usar luvas”) ou probabilidade (valor epistêmico: “Deve chover amanhã”). Aqui só cabe o segundo: os pescadores estimam que o prejuízo provavelmente durará semanas. Teste rápido: troque por “provavelmente vai se estender” — o sentido se mantém; com “é obrigatório que se estenda”, a frase fica absurda.\n\nPara lembrar: modalizadores (poder, dever, futuro do pretérito, advérbios como “provavelmente”) expressam o grau de certeza ou de compromisso do enunciador com o que diz.",
+    "erradas": [
+      "Confunde hipótese com fato irreal. O futuro do pretérito, aqui, não nega o acontecimento — indica que ele não está confirmado; o texto não diz que o navio não fazia limpeza.",
+      "",
+      "Quase certo: a primeira parte está correta, mas lê “dever” com valor de obrigação. Os pescadores fazem uma previsão (probabilidade), não uma exigência.",
+      "Ignora que “poder” e “dever” também modalizam: o primeiro indica possibilidade, o segundo, probabilidade — nenhum dos dois apresenta o efeito como certo.",
+      "Inverte a função das aspas: elas atribuem a palavra “precipitada” aos armadores, e o jornal se distancia dela em vez de endossá-la."
+    ]
+  },
+  {
+    "id": "POR-010",
+    "materia": "portugues",
+    "tema": "Coesão e operadores lógico-discursivos",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Uma mancha de óleo de origem ainda desconhecida atingiu, na madrugada de ontem, cerca de três quilômetros de praias do litoral norte do estado. De acordo com técnicos do órgão ambiental, o material teria se desprendido de um navio que fazia limpeza de tanques em alto-mar, hipótese que a associação dos armadores considera “precipitada”. A prefeitura interditou o trecho para banho e orienta os moradores a não manipular o resíduo sem luvas, pois o contato pode provocar irritações na pele. Pescadores da região afirmam que o prejuízo deve se estender por semanas; a colônia de pesca local, contudo, ainda não dispõe de estimativa das perdas.\n\nTexto elaborado para esta questão.",
+    "enunciado": "No último período do texto, a conjunção “contudo” estabelece oposição entre",
+    "alternativas": [
+      "a interdição da praia pela prefeitura e a reação dos pescadores, que discordam da medida.",
+      "a hipótese dos técnicos sobre a origem do óleo e a avaliação dos armadores, que a consideram precipitada.",
+      "a afirmação dos pescadores e a posição da colônia de pesca, que desmente a existência de prejuízos.",
+      "a previsão dos pescadores sobre a duração do prejuízo e a ausência de um levantamento das perdas pela colônia local.",
+      "a pequena extensão da mancha, de apenas três quilômetros, e a longa duração do prejuízo previsto pelos pescadores."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é localizar com precisão os dois termos que a conjunção relaciona. Adversativas como “contudo” podem vir deslocadas para o meio da oração; por isso, é preciso olhar para as duas partes do período em que ela está.\n\nO último período tem duas partes, separadas por ponto e vírgula: “Pescadores da região afirmam que o prejuízo deve se estender por semanas” / “a colônia de pesca local, contudo, ainda não dispõe de estimativa das perdas”. O contraste é entre a previsão dos pescadores e a falta de um número: há a percepção do prejuízo, mas ele ainda não foi quantificado.\n\nNote que “contudo” não desmente os pescadores — apenas registra que a afirmação deles ainda não tem respaldo em levantamento. É mais uma marca da cautela jornalística que aparece em todo o texto.\n\nPara lembrar: “contudo”, “todavia”, “entretanto” e “no entanto” são adversativas e podem vir no meio da oração; para saber o que opõem, procure as duas ideias em tensão dentro do período.",
+    "erradas": [
+      "O texto não informa nenhuma reação dos pescadores à interdição; a oposição é inventada.",
+      "Há, de fato, um contraste entre técnicos e armadores, mas ele está no segundo período e não é marcado por “contudo”. Afirmação verdadeira que não responde à pergunta.",
+      "Extrapolação: não ter estimativa das perdas não é negar que elas existam. A colônia não desmente ninguém.",
+      "",
+      "“Contudo” relaciona as duas partes do último período, não o primeiro período ao último; além disso, o texto não qualifica a mancha como pequena."
+    ]
+  },
+  {
+    "id": "POR-011",
+    "materia": "portugues",
+    "tema": "Variação linguística",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "texto": "Em reportagem sobre uma mancha de óleo que atingiu praias do litoral, um pescador de 58 anos declarou: “Nós pesca aqui desde menino. Depois que a mancha chegou, os peixe sumiu tudo. A gente não sabe nem pra quem reclamar.”\n\nNo dia seguinte, um leitor escreveu ao jornal reclamando que a fala fora publicada “cheia de erros” e que deveria ter sido corrigida antes da publicação.\n\nTexto elaborado para esta questão.",
+    "enunciado": "À luz dos estudos sobre variação linguística, é correto afirmar:",
+    "alternativas": [
+      "Em “os peixe”, o plural é marcado só no primeiro elemento do sintagma, regularidade comum em variedades populares do português brasileiro.",
+      "As construções “nós pesca” e “a gente não sabe” são igualmente estigmatizadas, já que ambas combinam sujeito de sentido plural com verbo na 3ª pessoa do singular.",
+      "O falante desconhece a noção gramatical de plural, pois ora marca, ora deixa de marcar a pluralidade, sem nenhuma regularidade.",
+      "A ausência de concordância caracteriza uma variedade regional, típica de comunidades litorâneas, o que explica sua ocorrência na fala de um pescador.",
+      "A crítica do leitor procede, pois a norma-padrão é a única variedade correta da língua, e reproduzir outras formas no jornal desrespeita o entrevistado."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é analisar a fala como linguista, e não como revisor: descrever as regras que ela segue, sem confundir diferença com erro.\n\nEm “os peixe”, o plural está marcado no artigo e ausente no substantivo. Isso não é aleatório: nas variedades populares do português brasileiro, a marca de plural tende a aparecer no primeiro elemento do sintagma, que já basta para informar a pluralidade. A norma-padrão exige a marca em todos os elementos (“os peixes”), o que é redundante do ponto de vista da informação — mas é a convenção de prestígio.\n\nO fenômeno está ligado sobretudo a fatores sociais, como escolaridade e acesso à escrita (variação diastrática, ou social), e ocorre em todas as regiões do país — não é traço regional de comunidades litorâneas.\n\nCompare ainda “nós pesca” e “a gente não sabe”: “a gente” leva o verbo na 3ª pessoa do singular também na norma-padrão (“a gente sabe”), e a forma é amplamente usada por falantes escolarizados; já “nós pesca” rompe a concordância com “nós” e é socialmente estigmatizada.\n\nQuanto à crítica do leitor: a questão não é de correção absoluta, mas de adequação. Ao reproduzir a fala entre aspas, o jornal registra como o entrevistado de fato falou.\n\nPara lembrar: toda variedade linguística tem regras; a norma-padrão é a variedade de prestígio, adequada a certas situações, e não a única forma “correta” da língua.",
+    "erradas": [
+      "",
+      "Quase certo: “a gente” tem sentido plural, mas pede o verbo na 3ª pessoa do singular — inclusive na norma-padrão. Só “nós pesca” é estigmatizada.",
+      "Preconceito linguístico disfarçado de análise: a marcação segue uma regra (plural no primeiro elemento), e a informação de plural não se perde.",
+      "Confunde variação social (diastrática) com regional (diatópica): esse padrão de concordância se associa a fatores como escolaridade e ocorre em todo o país.",
+      "Confunde adequação com correção: a norma-padrão é a variedade de prestígio, não a única correta; e reproduzir a fala do entrevistado não o desrespeita."
+    ]
+  },
+  {
+    "id": "POR-012",
+    "materia": "portugues",
+    "tema": "Interpretação e inferência — argumentação e lógica",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "filosofia"
+    ],
+    "texto": "Toda geração parece ter a sua ameaça à leitura. No século XVIII, moralistas advertiam que os romances, devorados às escondidas, perverteriam a imaginação das moças; no século XX, dizia-se que a televisão acabaria com os livros. A leitura sobreviveu a ambos os alarmes. Seria tentador concluir, então, que o atual alarme com as telas é só mais um capítulo dessa história, e que basta esperar que ele passe.\n\nSeria tentador, mas apressado. Que os alarmes anteriores tenham se revelado exagerados não prova que todo alarme o seja: o pastor da fábula mentiu muitas vezes sobre o lobo, e nem por isso o lobo deixou de aparecer. A pergunta séria não é se as telas vão “matar” a leitura — formulação que só existe para ser desmentida —, mas que tipo de leitura elas favorecem e que tipo dificultam. Ler aos pedaços, interrompido por notificações, é diferente de atravessar um capítulo inteiro sem sair dele. Nenhuma das duas práticas é moralmente superior à outra; só uma delas, porém, exercita a atenção prolongada que certos textos exigem.\n\nTexto elaborado para esta questão.",
+    "enunciado": "No segundo parágrafo, o autor recusa a conclusão apresentada ao final do primeiro porque considera que ela",
+    "alternativas": [
+      "parte de premissas falsas, já que os romances e a televisão de fato prejudicaram a leitura, como os moralistas haviam previsto.",
+      "generaliza indevidamente a partir de casos passados: alarmes anteriores terem sido exagerados não garante que o atual também o seja.",
+      "subestima o perigo das telas, que, para o autor, vão efetivamente matar a leitura, assim como o lobo da fábula acabou aparecendo.",
+      "desconsidera que a leitura fragmentada é moralmente inferior à leitura contínua, distinção que o autor considera central.",
+      "compara fenômenos de épocas diferentes, procedimento que o autor considera inválido em qualquer argumentação."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é reconstruir o raciocínio que o autor critica e identificar onde ele falha.\n\nO primeiro parágrafo monta um argumento por indução: (1) os romances não destruíram a leitura; (2) a televisão também não; logo, (3) as telas também não destruirão — “basta esperar que [o alarme] passe”. O segundo parágrafo começa recusando essa conclusão: “Seria tentador, mas apressado”.\n\nPor quê? Porque casos passados, por mais numerosos, não garantem a conclusão sobre o caso presente: “Que os alarmes anteriores tenham se revelado exagerados não prova que todo alarme o seja”. A fábula do pastor funciona como contraexemplo lógico: as mentiras repetidas não impediram que o lobo, um dia, aparecesse. A analogia não prevê que as telas vão matar a leitura — mostra apenas que o histórico de alarmes falsos não basta para descartar o alarme atual. Em Filosofia, esse é o problema da generalização indutiva: uma regularidade observada não assegura, por si só, o próximo caso.\n\nNote também que o autor reformula a questão: em vez de perguntar se as telas vão “matar” a leitura (formulação “que só existe para ser desmentida”), pergunta que tipo de leitura elas favorecem.\n\nPara lembrar: refutar um argumento não é afirmar o contrário de sua conclusão; é mostrar que as premissas não bastam para sustentá-la.",
+    "erradas": [
+      "Contradiz o texto: o autor admite que os alarmes anteriores “se revelaram exagerados” e que a leitura sobreviveu; ele não contesta as premissas, e sim a conclusão tirada delas.",
+      "",
+      "Quase certo, mas lê a fábula como previsão. A analogia mostra apenas que alarmes falsos no passado não descartam um perigo real no presente; o autor recusa a própria formulação “matar a leitura”.",
+      "Contradiz o texto: “Nenhuma das duas práticas é moralmente superior à outra”. A diferença que o autor aponta é cognitiva (atenção prolongada), não moral.",
+      "Extrapolação: o próprio autor usa a comparação histórica; o que ele rejeita é tirar dela uma conclusão garantida sobre o presente."
+    ]
+  },
+  {
+    "id": "POR-013",
+    "materia": "portugues",
+    "tema": "Interpretação e inferência — pressupostos e humor",
+    "nivel": "fuvest",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "texto": "Tirinha em três quadros.\n\nQuadro 1: na cozinha, a mãe, de braços cruzados, pergunta ao filho adolescente: “Você já parou de deixar a louça suja na pia?”\n\nQuadro 2: o filho olha para a pia, hesitante, e pensa em voz alta: “Se eu disser ‘sim’, confesso que deixava. Se eu disser ‘não’, confesso que ainda deixo.”\n\nQuadro 3: o filho, já de avental, lava os pratos e diz: “Acho que vou responder com atitudes.”\n\nTexto elaborado para esta questão.",
+    "enunciado": "O humor da tirinha decorre principalmente de",
+    "alternativas": [
+      "a mãe empregar ironia, afirmando o contrário do que pensa, pois sabe que o filho nunca deixou a louça suja na pia.",
+      "o filho negar o pressuposto da pergunta, demonstrando à mãe que nunca teve o hábito de deixar a louça na pia.",
+      "a ambiguidade do verbo “parar”, que pode significar “interromper” ou “ficar imóvel”, o que confunde o filho.",
+      "o filho entender a pergunta como uma ordem e obedecê-la de imediato, sem perceber nenhuma armadilha em sua formulação.",
+      "o filho perceber que tanto “sim” quanto “não” confirmariam o hábito pressuposto na pergunta e, por isso, responder com a ação."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é distinguir o que a pergunta afirma (o posto) do que ela dá como certo (o pressuposto).\n\n“Você já parou de deixar a louça suja na pia?” pede um “sim” ou um “não”. Mas a locução “parar de” pressupõe que a ação acontecia antes: só para de fazer algo quem fazia. Por isso, qualquer resposta direta confirma o hábito:\n\n— “sim” = parei → eu deixava;\n\n— “não” = não parei → eu ainda deixo.\n\nÉ exatamente o que o filho verbaliza no segundo quadro. A única saída lógica seria negar o pressuposto (“eu nunca deixei”) — e ele não faz isso, o que já sugere que o hábito existia. No terceiro quadro, ele escapa do dilema trocando a palavra pela ação: lavar a louça não confessa nada, mas resolve o problema. O humor nasce desse raciocínio quase de advogado diante de uma pergunta doméstica.\n\nEm lógica, esse tipo de pergunta é chamado de pergunta complexa (ou capciosa): ela embute uma afirmação não demonstrada que qualquer resposta simples acaba aceitando.\n\nPara lembrar: o pressuposto é a informação que permanece mesmo quando a frase é negada ou transformada em pergunta — “Ele parou de fumar” e “Ele não parou de fumar” pressupõem, ambas, que ele fumava.",
+    "erradas": [
+      "Não há ironia na pergunta da mãe, e nada indica que o filho nunca tenha deixado a louça na pia — pelo contrário, o dilema dele sugere que deixava.",
+      "Quase certo: negar o pressuposto seria a saída lógica, mas o filho não a usa. Ele admite, no segundo quadro, que qualquer resposta o comprometeria.",
+      "Ambiguidade inventada: na pergunta, “parar de” só pode significar “deixar de”; o filho entende tão bem a pergunta que analisa suas consequências.",
+      "O segundo quadro mostra o contrário: o filho examina a armadilha da pergunta antes de agir. Lavar a louça é uma estratégia para não responder, não obediência irrefletida.",
+      ""
+    ]
+  },
+  {
+    "id": "POR-014",
+    "materia": "portugues",
+    "tema": "Sintaxe no texto — regência, crase, concordância e colocação",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "Era quase meia-noite quando bateram à porta. Na sala, havia ainda dois copos sobre a mesa e o rádio ligado, que ninguém se lembrara de desligar. Vovó, que não esperava ninguém àquela hora, demorou a levantar-se da poltrona.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Assinale a reescrita que, mesmo de acordo com a norma-padrão, altera o sentido do trecho original correspondente.",
+    "alternativas": [
+      "Na sala, existiam ainda dois copos sobre a mesa e o rádio ligado, que ninguém se lembrara de desligar.",
+      "Vovó, a qual não esperava ninguém àquela hora, demorou a se levantar da poltrona.",
+      "Era quase meia-noite quando bateram a porta.",
+      "Na sala, haviam ainda dois copos sobre a mesa e o rádio ligado, que ninguém se lembrara de desligar.",
+      "Na sala, havia ainda dois copos sobre a mesa e o rádio ligado, o qual ninguém se lembrara de desligar."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é avaliar duas coisas em cada reescrita: se ela respeita a norma-padrão e se mantém o sentido. A resposta é a única que está de acordo com a norma, mas diz outra coisa.\n\n**“Bateram à porta” x “bateram a porta”.** Com o acento grave, “à porta” indica lugar: alguém bateu na porta, pedindo para entrar. Sem ele, “a porta” passa a objeto direto de “bater”, e o sentido muda para “fecharam a porta com força”. As duas construções são gramaticais — mas a cena muda por completo: some o visitante noturno que motiva o resto do trecho.\n\n**As demais:**\n\n— “existiam ainda dois copos [...] e o rádio ligado”: “existir” é pessoal, e o plural concorda com o sujeito composto posposto “dois copos [...] e o rádio”; sentido mantido;\n\n— “a qual” no lugar de “que” e “se levantar” no lugar de “levantar-se”: troca de pronome relativo e colocação pronominal aceitas pela norma, sem efeito sobre o sentido;\n\n— “o qual ninguém se lembrara de desligar”: “o qual” retoma “o rádio”, como o “que” original, e a vírgula mantém o caráter explicativo da oração;\n\n— “haviam ainda dois copos”: o sentido se mantém, mas a norma-padrão é violada, pois “haver”, no sentido de “existir”, é impessoal e fica no singular.\n\nPara lembrar: o acento grave pode mudar a função sintática de um termo — e, com ela, o sentido da frase (bater à porta ≠ bater a porta).",
+    "erradas": [
+      "Mantém o sentido: “existir”, ao contrário de “haver”, é pessoal, e o plural “existiam” concorda com o sujeito composto posposto “dois copos [...] e o rádio”.",
+      "Mantém o sentido: “a qual” equivale ao “que” explicativo, e a próclise em “a se levantar” é aceita depois de preposição; muda só a forma.",
+      "",
+      "Armadilha: o sentido é o mesmo, mas a reescrita fere a norma-padrão — “haver” com sentido de “existir” é impessoal (“havia”). O enunciado exige as duas condições.",
+      "Mantém o sentido: “o qual” retoma “o rádio”, como o “que” original, e a vírgula preserva a oração adjetiva explicativa."
+    ]
+  },
+  {
+    "id": "POR-015",
+    "materia": "portugues",
+    "tema": "Gêneros textuais — intergenericidade",
+    "nivel": "fuvest",
+    "origem": "Estilo livro",
+    "inter": [],
+    "texto": "SAUDADE\n\nApresentação: lembranças de liberação prolongada, em embalagem que não fecha direito.\n\nIndicações: ausências de longa duração, mudanças de cidade, domingos à tarde.\n\nPosologia: uma lembrança a cada oito horas, de preferência acompanhada de fotografia. Não exceder a dose diária.\n\nReações adversas: insônia, releitura de mensagens antigas, súbita vontade de telefonar.\n\nContraindicações: não recomendado a quem já decidiu esquecer.\n\nSuperdosagem: em caso de ingestão excessiva, procurar imediatamente a pessoa responsável.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Sobre a construção do texto, é correto afirmar:",
+    "alternativas": [
+      "Trata-se de uma bula de medicamento, já que o texto mantém os tópicos e o vocabulário técnico desse gênero, cuja finalidade é orientar o uso de um remédio.",
+      "A mistura de linguagem conotativa com o formato de bula torna o texto incoerente, pois esse gênero exige linguagem exclusivamente denotativa.",
+      "No último tópico, “a pessoa responsável” deve ser lida em sentido técnico, como referência ao médico que prescreveu o medicamento.",
+      "O texto toma emprestados a estrutura e o vocabulário de uma bula para cumprir finalidade lírica e humorística, caso de intergenericidade.",
+      "Predomina no texto a sequência narrativa, pois os tópicos relatam, em ordem cronológica, as etapas de uma separação amorosa."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é entender que um gênero textual não se define só pela forma, mas pela combinação de três elementos — conteúdo temático, estilo e estrutura composicional — a serviço de uma função social.\n\n**1. O que o texto toma da bula.** A estrutura composicional (tópicos como Apresentação, Indicações, Posologia, Reações adversas, Contraindicações, Superdosagem), o vocabulário técnico (liberação prolongada, dose diária, ingestão) e o tom impessoal e injuntivo (“Não exceder”, “procurar”).\n\n**2. O que ele muda.** O tema (a saudade) e a função: o texto não orienta o uso de um remédio; fala, com humor e lirismo, da experiência da ausência. Os termos técnicos ganham sentido figurado: “lembranças de liberação prolongada”, “embalagem que não fecha direito” e, no fim, “a pessoa responsável” — não o médico, mas quem provoca a saudade.\n\n**3. O nome disso.** Quando um gênero assume a forma de outro para cumprir uma função diferente, fala-se em intergenericidade (ou hibridismo de gêneros). É recurso comum em crônicas, poemas e publicidade: o efeito vem justamente do choque entre a forma esperada e o conteúdo inesperado.\n\n**4. Gênero x sequência textual.** Não confunda gênero (bula, crônica, notícia) com tipo ou sequência textual (narrativa, descritiva, injuntiva, argumentativa, expositiva). Aqui predominam as sequências injuntiva e descritiva — não há enredo nem progressão temporal.\n\nPara lembrar: o gênero é definido pela função social do texto; quando a forma de um gênero é usada para outra finalidade, há intergenericidade.",
+    "erradas": [
+      "Confunde forma com gênero: o texto imita os tópicos da bula, mas sua finalidade não é orientar o uso de um remédio, e sim falar da saudade com humor e lirismo.",
+      "A mistura de linguagens é intencional e produz o efeito do texto; não há contradição interna. Coerência depende da unidade de sentido, não da pureza do gênero.",
+      "Leitura literal do trocadilho: “a pessoa responsável” é quem provoca a saudade. O humor está justamente no deslocamento do sentido técnico.",
+      "",
+      "Não há enredo nem ordem cronológica: os tópicos descrevem e prescrevem. Predominam as sequências descritiva e injuntiva, não a narrativa."
+    ]
+  }
+]

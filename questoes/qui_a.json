@@ -1,0 +1,276 @@
+[
+  {
+    "id": "QUI-A-001",
+    "materia": "quimica",
+    "tema": "Atomística e tabela periódica — energias de ionização",
+    "nivel": "acima",
+    "origem": "Estilo livro (Feltre)",
+    "inter": [],
+    "tabela": {
+      "titulo": "Energias de ionização sucessivas (kJ/mol)",
+      "cabecalho": ["Elemento", "1ª", "2ª", "3ª", "4ª"],
+      "linhas": [
+        ["X", "496", "4 562", "6 910", "9 543"],
+        ["Y", "738", "1 451", "7 733", "10 543"],
+        ["Z", "578", "1 817", "2 745", "11 577"]
+      ]
+    },
+    "enunciado": "X, Y e Z são três elementos do 3º período da tabela periódica, não necessariamente nessa ordem, cujas quatro primeiras energias de ionização estão na tabela. Com base nesses dados e nas propriedades periódicas, é correto afirmar que",
+    "alternativas": [
+      "a ordem crescente de número atômico é X < Z < Y, pois a 1ª energia de ionização cresce ao longo do período.",
+      "Y forma com o cloro um composto de fórmula YCl₃, pois seu grande salto de energia aparece na 3ª ionização.",
+      "X é um metal alcalino-terroso, pois sua 2ª energia de ionização é cerca de nove vezes maior que a 1ª.",
+      "o cátion Z³⁺ tem raio maior que o cátion Y²⁺, já que o núcleo de Z tem mais prótons que o de Y.",
+      "o óxido de Z tem fórmula Z₂O₃, e X é, dos três elementos, o que tem maior raio atômico."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é perceber que o número de elétrons de valência aparece como um **salto brusco** na sequência de energias de ionização: enquanto se retiram elétrons da camada de valência, a energia sobe aos poucos; quando se tenta arrancar o primeiro elétron de uma camada interna, ela dispara.\n\n**Por que o salto acontece?** Cada elétron sente a carga nuclear efetiva, isto é, a carga do núcleo descontada da blindagem feita pelos elétrons mais internos. Os elétrons de valência do 3º período estão na camada M (n = 3), mais longe do núcleo e blindados pelos 10 elétrons das camadas K e L. Depois que eles saem, o próximo elétron pertence à camada L (n = 2): está muito mais perto do núcleo e é pouco blindado, por isso exige uma energia várias vezes maior. Além disso, cada elétron retirado deixa o íon com carga positiva maior, o que explica a subida gradual mesmo sem troca de camada.\n\n**Leitura da tabela** (compare cada energia com a anterior):\n\nX: 496 → 4 562, cerca de 9 vezes. O salto vem logo depois da 1ª ionização: 1 elétron de valência, grupo 1 (é o sódio).\n\nY: 1 451 → 7 733, cerca de 5 vezes. Salto depois da 2ª: 2 elétrons de valência, grupo 2 (magnésio).\n\nZ: 2 745 → 11 577, cerca de 4 vezes. Salto depois da 3ª: 3 elétrons de valência, grupo 13 (alumínio).\n\nRegra prática: se o grande salto ocorre entre a n-ésima e a (n + 1)-ésima energia, o átomo tem n elétrons de valência.\n\n**Consequências.** Z forma o cátion Z³⁺; com o oxigênio (O²⁻), a neutralidade exige 2 · (+3) + 3 · (−2) = 0, logo Z₂O₃ (como o Al₂O₃). Ao longo do período, o raio atômico diminui com o aumento do número atômico, porque a carga nuclear cresce enquanto os elétrons entram na mesma camada; assim, X (grupo 1) é o maior dos três.\n\n**A armadilha da 1ª energia.** A ordem dos números atômicos é X < Y < Z, mas a 1ª energia de Y (738) é maior que a de Z (578). Isso não contradiz a periodicidade: no magnésio sai um elétron de um subnível 3s completo; no alumínio sai o único elétron 3p, de energia mais alta e parcialmente blindado pelos elétrons 3s, portanto mais fácil de remover. É uma exceção clássica, como a do par nitrogênio/oxigênio no 2º período.\n\n**Íons isoeletrônicos.** Z³⁺ e Y²⁺ têm ambos 10 elétrons. Com a mesma nuvem eletrônica, quem tem mais prótons a atrai com mais força e fica menor: Z³⁺ < Y²⁺.\n\nPara lembrar: o salto nas energias de ionização sucessivas conta os elétrons de valência; a 1ª energia de ionização, sozinha, tem exceções e não serve para ordenar os elementos.",
+    "erradas": [
+      "Ordena os elementos pela 1ª energia de ionização (496 < 578 < 738), ignorando a exceção entre os grupos 2 e 13: a 1ª energia do Mg (Y) é maior que a do Al (Z), embora Z venha depois. A ordem correta é X < Y < Z.",
+      "Confunde 'o salto aparece na 3ª energia' com '3 elétrons de valência'. Para Y, o salto ocorre entre a 2ª e a 3ª ionização: Y tem 2 elétrons de valência e forma YCl₂.",
+      "Mesmo erro de contagem: o salto entre a 1ª e a 2ª energia indica 1 elétron de valência. X é metal alcalino (grupo 1), não alcalino-terroso.",
+      "Causa e efeito invertidos: Z³⁺ e Y²⁺ são isoeletrônicos (10 elétrons); mais prótons atraem mais a mesma nuvem eletrônica, e o raio fica MENOR. Z³⁺ é menor que Y²⁺.",
+      ""
+    ]
+  },
+  {
+    "id": "QUI-A-002",
+    "materia": "quimica",
+    "tema": "Ligações químicas — geometria e polaridade molecular",
+    "nivel": "acima",
+    "origem": "Estilo ITA/IME (fácil)",
+    "inter": [],
+    "enunciado": "Considere as substâncias CO₂, SO₂, BF₃, NF₃, CH₂Cl₂ e CCl₄.\n\nDados (número de elétrons na camada de valência): B = 3; C = 4; N = 5; O = 6; S = 6; F = 7; Cl = 7.\n\nO número dessas substâncias formadas por moléculas polares é",
+    "alternativas": ["1", "2", "3", "4", "6"],
+    "correta": 2,
+    "explicacao": "O ponto aqui é perceber que ter ligações polares não basta: a molécula só é polar se os vetores momento de dipolo das ligações não se anularem, e isso depende da **geometria**, que vem dos pares de elétrons em torno do átomo central (teoria da repulsão dos pares eletrônicos).\n\nCO₂: o C faz duas ligações duplas (O=C=O) e não tem par isolado → linear; os dois dipolos C=O são opostos e se anulam → **apolar**.\n\nSO₂: o S tem 6 elétrons de valência; depois das ligações com os dois O, sobra um par isolado → geometria angular → **polar**. É a diferença clássica em relação ao CO₂: mesma fórmula do tipo AX₂, geometrias diferentes.\n\nBF₃: o B tem só 3 elétrons de valência, todos usados nas ligações; sem par isolado → trigonal plana, com dipolos a 120° que se anulam → **apolar**.\n\nNF₃: o N tem 5 elétrons; 3 vão para as ligações e sobra 1 par isolado → piramidal → **polar**.\n\nCH₂Cl₂: tetraédrica, mas com ligantes diferentes (dois H e dois Cl); os dipolos C–Cl não são compensados pelos C–H → **polar**. Cuidado: desenhada no papel em forma de cruz, parece simétrica, mas a molécula é espacial. Se fosse quadrada plana, existiriam dois diclorometanos (com os Cl vizinhos ou opostos), e só existe um.\n\nCCl₄: tetraédrica com quatro ligantes iguais → **apolar**.\n\nPolares: SO₂, NF₃ e CH₂Cl₂ → **3**.\n\nAtalho (para átomos centrais com até quatro regiões de elétrons): em moléculas AXₙ de ligantes iguais, a molécula é polar quando o átomo central tem par isolado (SO₂, NF₃); com ligantes diferentes ao redor do átomo central (CH₂Cl₂), em geral é polar.\n\nPara lembrar: a polaridade da molécula é a soma vetorial dos dipolos das ligações, que depende da geometria, e não só da polaridade de cada ligação.",
+    "erradas": [
+      "Usa a regra falsa 'ligantes iguais → molécula apolar', que deixaria só o CH₂Cl₂ como polar; SO₂ e NF₃ têm ligantes iguais, mas o par isolado no átomo central os torna angular e piramidal, ambos polares.",
+      "Desenha o CH₂Cl₂ como quadrado plano, com os Cl em posições opostas, e conclui que os dipolos se anulam; a molécula é tetraédrica e polar.",
+      "",
+      "Trata o BF₃ como piramidal, por analogia com o NF₃; o boro não tem par isolado (só 3 elétrons de valência), então o BF₃ é trigonal plano e apolar.",
+      "Confunde ligação polar com molécula polar: todas as seis têm ligações polares, mas em CO₂, BF₃ e CCl₄ os dipolos se anulam pela simetria."
+    ]
+  },
+  {
+    "id": "QUI-A-003",
+    "materia": "quimica",
+    "tema": "Forças intermoleculares — temperatura de ebulição",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "tabela": {
+      "titulo": "Substâncias de massas molares próximas (pressão de 1 atm)",
+      "cabecalho": ["Substância", "Fórmula", "Massa molar (g/mol)", "Temperatura de ebulição (°C)"],
+      "linhas": [
+        ["Propano", "CH₃–CH₂–CH₃", "44", "−42"],
+        ["Metoximetano", "CH₃–O–CH₃", "46", "−24"],
+        ["Etanal", "CH₃–CHO", "44", "20"],
+        ["Etanol", "CH₃–CH₂–OH", "46", "78"],
+        ["Ácido metanoico", "HCOOH", "46", "101"]
+      ]
+    },
+    "enunciado": "Com base nos dados da tabela e nas interações intermoleculares, é correto afirmar que",
+    "alternativas": [
+      "a diferença de cerca de 100 °C entre etanol e metoximetano, isômeros de mesma massa molar, deve-se às ligações de hidrogênio entre moléculas de etanol, impossíveis entre moléculas do éter.",
+      "o etanal ferve acima do metoximetano porque suas moléculas fazem ligações de hidrogênio entre si por meio do átomo de oxigênio da carbonila.",
+      "o metoximetano ferve abaixo do etanal porque, por ter dois grupos metila iguais ligados ao oxigênio, sua molécula é apolar, como a do propano.",
+      "o ácido metanoico ferve acima do etanol porque tem massa molar maior, o que intensifica as forças de dispersão de London entre suas moléculas.",
+      "o etanol ferve a uma temperatura elevada porque, durante a ebulição, é preciso romper as ligações covalentes O–H de suas moléculas."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber que a tabela foi montada para **neutralizar o efeito da massa molar** (44 a 46 g/mol): as diferenças de temperatura de ebulição vêm do tipo de interação entre as moléculas.\n\nPropano (−42 °C): hidrocarboneto apolar, só forças de London (dipolo induzido).\n\nMetoximetano (−24 °C): o arranjo angular C–O–C deixa a molécula polar (dipolo permanente), mas o dipolo é fraco; não há H ligado a O, então não há ligação de hidrogênio entre moléculas de éter.\n\nEtanal (20 °C): o grupo C=O é bem mais polarizado → interação dipolo-dipolo mais intensa. Também não tem H ligado a O (o H do grupo –CHO está ligado ao carbono).\n\nEtanol (78 °C): tem O–H → ligações de hidrogênio entre as moléculas. A comparação com o metoximetano é o teste perfeito: mesma fórmula molecular (C₂H₆O), mesma massa; a diferença de 78 − (−24) = 102 °C é efeito da ligação de hidrogênio.\n\nÁcido metanoico (101 °C): também 46 g/mol, mas o grupo –COOH faz duas ligações de hidrogênio entre pares de moléculas (formação de dímeros), e a molécula é muito polar.\n\nCuidado com a confusão clássica: na ebulição as moléculas se separam, mas continuam inteiras; rompem-se interações intermoleculares, não ligações covalentes como O–H.\n\nPara lembrar: com massas molares parecidas, a ebulição segue a intensidade das interações: London < dipolo-dipolo < ligação de hidrogênio.",
+    "erradas": [
+      "",
+      "Supõe que qualquer molécula com oxigênio faz ligação de hidrogênio. Isso exige H ligado diretamente a F, O ou N, o que não ocorre no etanal (o H do –CHO está no carbono); sua ebulição mais alta vem do dipolo forte do grupo C=O.",
+      "O metoximetano é polar: a geometria angular em torno do oxigênio impede que os dipolos C–O se anulem. Ele ferve abaixo do etanal porque seu dipolo é mais fraco, e não por ser apolar.",
+      "Atribui a diferença à massa molar, mas ácido metanoico e etanol têm a mesma massa (46 g/mol). A diferença vem das ligações de hidrogênio mais numerosas do ácido (dímeros).",
+      "Confunde forças intermoleculares com ligações intramoleculares: na ebulição, as moléculas de etanol se afastam inteiras; rompem-se ligações de hidrogênio entre moléculas, e não as ligações covalentes O–H."
+    ]
+  },
+  {
+    "id": "QUI-A-004",
+    "materia": "quimica",
+    "tema": "Estequiometria — reações sucessivas, pureza e gases",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "O airbag de um automóvel infla em poucos centésimos de segundo graças a um propelente sólido que contém azida de sódio (NaN₃), nitrato de potássio (KNO₃) e sílica (SiO₂). Ao ser acionado, ocorrem as reações:\n\n2 NaN₃(s) → 2 Na(s) + 3 N₂(g)\n\n10 Na(s) + 2 KNO₃(s) → K₂O(s) + 5 Na₂O(s) + N₂(g)\n\nA segunda reação elimina o sódio metálico, muito reativo, formado na primeira; o KNO₃ está presente em quantidade suficiente para consumir todo o sódio.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Uma bolsa de airbag deve ser preenchida com 98,4 L de N₂ a 1,2 atm e 27 °C. Sabendo que o propelente contém 65% em massa de NaN₃, a massa mínima de propelente necessária é\n\nDados: Na = 23 g/mol; N = 14 g/mol; R = 0,082 atm·L·mol⁻¹·K⁻¹; T(K) = T(°C) + 273.",
+    "alternativas": ["195 g", "300 g", "320 g", "480 g", "768 g"],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que o N₂ vem das **duas** reações: é preciso somá-las (equação global) antes de fazer a proporção com o NaN₃.\n\n**1) Mols de N₂ (equação dos gases):** n = pV/(RT) = (1,2 · 98,4)/(0,082 · 300) = 118,08/24,6 = 4,8 mol.\n\nAtalho: 0,082 · 300 = 24,6 e 98,4 = 4 · 24,6; logo n = 1,2 · 4 = 4,8 mol.\n\n**2) Equação global:** multiplique a primeira reação por 5 para gerar os 10 Na consumidos na segunda.\n\n10 NaN₃ → 10 Na + 15 N₂\n\n10 Na + 2 KNO₃ → K₂O + 5 Na₂O + N₂\n\nSomando (o Na se cancela): 10 NaN₃ + 2 KNO₃ → K₂O + 5 Na₂O + 16 N₂.\n\n**3) Proporção:** 10 mol de NaN₃ produzem 16 mol de N₂, então n(NaN₃) = 4,8 · 10/16 = 3,0 mol. Com M(NaN₃) = 23 + 3 · 14 = 65 g/mol, m = 3,0 · 65 = 195 g de NaN₃ puro.\n\n**4) Pureza:** só 65% do propelente é NaN₃ → m(propelente) = 195/0,65 = 300 g.\n\nRepare na coincidência útil: como M = 65 g/mol e o teor é de 65%, cada mol de NaN₃ exige exatamente 100 g de propelente.\n\nPara lembrar: em reações sucessivas, some as etapas (cancelando os intermediários) antes de aplicar a proporção; a pureza entra no fim, dividindo pela fração do componente útil.",
+    "erradas": [
+      "É a massa de NaN₃ puro; faltou dividir por 0,65 para obter a massa de propelente, que contém só 65% de azida.",
+      "",
+      "Considera apenas a primeira reação (2 NaN₃ → 3 N₂), ignorando o N₂ liberado na segunda: n(NaN₃) = 4,8 · 2/3 = 3,2 mol → 3,2 · 65/0,65 = 320 g.",
+      "Supõe proporção 1 : 1 entre NaN₃ e N₂, sem usar os coeficientes: 4,8 mol · 65 g/mol = 312 g de NaN₃ → 312/0,65 = 480 g.",
+      "Inverte a proporção da equação global, usando 16/10 em vez de 10/16: 4,8 · 1,6 = 7,68 mol de NaN₃ → 7,68 · 65/0,65 = 768 g."
+    ]
+  },
+  {
+    "id": "QUI-A-005",
+    "materia": "quimica",
+    "tema": "Gases e estequiometria — reagente em excesso e trabalho de expansão",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["fisica"],
+    "enunciado": "Um cilindro provido de pistão móvel, sem atrito e de massa desprezível, está submetido à pressão externa constante de 1,0 × 10⁵ Pa. Em seu interior há 1,6 g de metano (CH₄) e 16,0 g de oxigênio (O₂), a 27 °C. Uma faísca provoca a combustão completa do metano. Quando o sistema volta a 27 °C, toda a água formada está no estado líquido (despreze o volume do líquido e sua pressão de vapor).\n\nDados: H = 1; C = 12; O = 16 (g/mol); volume molar dos gases a 27 °C e 1,0 × 10⁵ Pa = 25 L/mol; 1 L = 10⁻³ m³.\n\nEntre o estado inicial e o final, ambos a 27 °C, o trabalho trocado entre o gás e a vizinhança foi de",
+    "alternativas": [
+      "zero, pois o número total de mols de gás não se altera.",
+      "250 J, realizado pela vizinhança sobre o gás.",
+      "500 J, realizado pelo gás sobre a vizinhança.",
+      "500 J, realizado pela vizinhança sobre o gás.",
+      "1 250 J, realizado pela vizinhança sobre o gás."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que, sob pressão externa constante, o trabalho é W = p · ΔV, e ΔV vem da variação do número de mols de **gás**, que depende do O₂ em excesso e da água que condensa.\n\n**1) Mols iniciais:** n(CH₄) = 1,6/16 = 0,10 mol; n(O₂) = 16,0/32 = 0,50 mol. Total de gás: 0,60 mol.\n\n**2) Reação e excesso:** CH₄ + 2 O₂ → CO₂ + 2 H₂O(l). Os 0,10 mol de CH₄ consomem 0,20 mol de O₂; sobram 0,30 mol de O₂ (excesso) e formam-se 0,10 mol de CO₂. A água está líquida e não conta como gás. Gás final: 0,30 + 0,10 = 0,40 mol.\n\n**3) Variação de volume:** Δn = 0,40 − 0,60 = −0,20 mol → ΔV = −0,20 · 25 L = −5,0 L = −5,0 × 10⁻³ m³. O gás contraiu: o pistão desceu.\n\n**4) Trabalho:** |W| = p · |ΔV| = 1,0 × 10⁵ · 5,0 × 10⁻³ = 500 J. Como o volume diminuiu, foi a vizinhança (a atmosfera empurrando o pistão) que realizou trabalho sobre o gás. Na convenção da Física, o trabalho realizado pelo gás vale −500 J.\n\nObservação: logo após a faísca o gás esquenta e se expande por um instante, mas, como a pressão externa é constante, o trabalho total depende só dos volumes inicial e final.\n\nAtalho: com p e T iguais no início e no fim, p · ΔV = Δn · p · Vₘ. Como p · Vₘ = 1,0 × 10⁵ Pa · 25 × 10⁻³ m³ = 2 500 J/mol, |W| = 0,20 · 2 500 = 500 J.\n\nPara lembrar: só os gases contam na variação de volume, o reagente em excesso continua ocupando volume, e ΔV < 0 significa trabalho realizado pela vizinhança sobre o gás.",
+    "erradas": [
+      "Considera a água como vapor: CH₄ + 2 O₂ → CO₂ + 2 H₂O(g) tem 3 mol de gás de cada lado, e Δn = 0. Mas, a 27 °C, a água formada está líquida.",
+      "Não balanceia a equação (CH₄ + O₂ → CO₂ + H₂O): consome só 0,10 mol de O₂, sobram 0,40 mol, o gás final soma 0,50 mol e Δn = −0,10 mol, o que dá 250 J.",
+      "Calcula o módulo corretamente, mas erra o sentido: imagina que a combustão expande o gás. No estado final há menos mols de gás, o volume diminuiu e quem realizou trabalho foi a vizinhança.",
+      "",
+      "Esquece o O₂ em excesso no estado final e conta só o CO₂ (0,10 mol): Δn = −0,50 mol, ΔV = −12,5 L e |W| = 1 250 J."
+    ]
+  },
+  {
+    "id": "QUI-A-006",
+    "materia": "quimica",
+    "tema": "Estequiometria — várias etapas, pureza e rendimento (ácido sulfúrico)",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Em uma planta-piloto, ácido sulfúrico é obtido a partir da pirita (FeS₂), em três etapas, descritas na tabela.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Etapas do processo",
+      "cabecalho": ["Etapa", "Equação química", "Condições", "Rendimento"],
+      "linhas": [
+        ["Ustulação", "FeS₂ + O₂ → Fe₂O₃ + SO₂ (não balanceada)", "≈ 800 °C; ar em excesso", "100% (todo o S vira SO₂)"],
+        ["Conversão catalítica", "2 SO₂ + O₂ ⇌ 2 SO₃", "≈ 450 °C; V₂O₅; ΔH = −198 kJ", "80%"],
+        ["Absorção", "SO₃ + H₂O → H₂SO₄", "torre de absorção", "75%"]
+      ]
+    },
+    "enunciado": "Processando-se 800 kg de minério com 75% em massa de FeS₂ (as impurezas não contêm enxofre), a massa de H₂SO₄ obtida é\n\nDados: H = 1; O = 16; S = 32; Fe = 56 (g/mol).",
+    "alternativas": ["294 kg", "588 kg", "720 kg", "784 kg", "980 kg"],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que basta acompanhar o **enxofre**: cada FeS₂ tem 2 átomos de S, e cada S termina, no máximo, em um H₂SO₄. Não é preciso balancear toda a primeira equação, só garantir que 1 FeS₂ → 2 SO₂.\n\n**1) FeS₂ puro:** 75% de 800 kg = 600 kg. M(FeS₂) = 56 + 2 · 32 = 120 g/mol → n = 600 kg ÷ 120 g/mol = 5,0 kmol (5 000 mol).\n\n**2) Ustulação** (balanceada: 4 FeS₂ + 11 O₂ → 2 Fe₂O₃ + 8 SO₂): 1 FeS₂ → 2 SO₂ → 10 kmol de SO₂.\n\n**3) Conversão (80%):** 10 · 0,80 = 8,0 kmol de SO₃.\n\n**4) Absorção (75%):** 8,0 · 0,75 = 6,0 kmol de H₂SO₄.\n\n**5) Massa:** M(H₂SO₄) = 2 + 32 + 64 = 98 g/mol → 6,0 kmol · 98 kg/kmol = 588 kg.\n\nAtalho: rendimentos de etapas sucessivas se multiplicam: 0,80 · 0,75 = 0,60 (rendimento global de 60%). Então 5 kmol de FeS₂ → 10 kmol de S → 0,60 · 10 = 6 kmol de H₂SO₄.\n\nOs dados de temperatura, catalisador e ΔH descrevem o processo industrial (método de contato), mas não entram na conta.\n\nPara lembrar: em processos com várias etapas, siga o elemento-chave (aqui, o S), aplique a pureza no início e multiplique os rendimentos das etapas.",
+    "erradas": [
+      "Não balanceia a ustulação e usa 1 FeS₂ → 1 SO₂, esquecendo que cada FeS₂ tem dois átomos de enxofre; obtém metade do valor correto.",
+      "",
+      "Trata a proporção em mols (1 FeS₂ : 2 H₂SO₄) como proporção em massa: 2 · 600 kg = 1 200 kg, vezes 0,60, dá 720 kg, sem converter as massas em mols.",
+      "Ignora a pureza e usa os 800 kg como FeS₂ puro: 800/120 · 2 · 0,60 · 98 = 784 kg. (É também o valor de quem aplica só o rendimento de 80% e esquece o de 75%.)",
+      "Esquece os rendimentos, supondo conversão total do SO₂ em H₂SO₄: 10 kmol · 98 kg/kmol = 980 kg."
+    ]
+  },
+  {
+    "id": "QUI-A-007",
+    "materia": "quimica",
+    "tema": "Química orgânica — isomeria e funções (C₄H₁₀O)",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Três compostos, A, B e C, têm a mesma fórmula molecular, C₄H₁₀O. Sobre eles, sabe-se que:\n\nComposto A: reage com sódio metálico liberando H₂, apresenta isomeria óptica e, ao ser oxidado por K₂Cr₂O₇ em meio ácido, produz uma cetona.\n\nComposto B: não reage com sódio metálico, e os dois grupos ligados ao seu átomo de oxigênio são iguais.\n\nComposto C: reage com sódio metálico liberando H₂, tem cadeia ramificada e não é oxidado por K₂Cr₂O₇ em meio ácido.\n\nA, B e C são, respectivamente,",
+    "alternativas": [
+      "butan-2-ol, etoxietano e 2-metilpropan-2-ol.",
+      "butan-1-ol, etoxietano e 2-metilpropan-2-ol.",
+      "butan-2-ol, metoxipropano e 2-metilpropan-2-ol.",
+      "butan-2-ol, etoxietano e 2-metilpropan-1-ol.",
+      "butan-2-ol, butanona e 2-metilpropan-2-ol."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber que C₄H₁₀O é saturado (fórmula geral CₙH₂ₙ₊₂O): só pode ser **álcool** ou **éter**. Reagir com sódio liberando H₂ identifica o álcool (tem O–H); não reagir indica éter. Depois, cada pista restringe a estrutura.\n\n**A:** álcool quiral cuja oxidação dá cetona → álcool secundário com carbono assimétrico: CH₃–CH(OH)–CH₂–CH₃, o butan-2-ol. O carbono 2 tem quatro ligantes diferentes (H, OH, CH₃ e CH₂–CH₃). Oxidado, dá butanona.\n\n**B:** éter com os dois grupos iguais → CH₃–CH₂–O–CH₂–CH₃, o etoxietano (éter dietílico). Os outros éteres C₄H₁₀O (metoxipropano e 2-metoxipropano) têm grupos diferentes.\n\n**C:** álcool que não sofre oxidação com dicromato → álcool terciário (o carbono ligado ao OH não tem H para perder). Com 4 carbonos, o único é (CH₃)₃C–OH, o 2-metilpropan-2-ol, que de fato tem cadeia ramificada.\n\nRevisão rápida da oxidação de álcoois: primário → aldeído (e depois ácido carboxílico); secundário → cetona; terciário → não se oxida em condições brandas.\n\nPara lembrar: identifique primeiro a função pela reatividade (sódio, oxidação) e depois use a isomeria óptica e a simetria para fixar a posição dos grupos.",
+    "erradas": [
+      "",
+      "O butan-1-ol, CH₃–CH₂–CH₂–CH₂–OH, não tem carbono assimétrico (o carbono do OH tem dois H) e, por ser álcool primário, sua oxidação dá aldeído, e não cetona.",
+      "O metoxipropano, CH₃–O–CH₂–CH₂–CH₃, é éter e não reage com sódio, mas os grupos ligados ao oxigênio (metil e propil) são diferentes; ignora a pista da simetria.",
+      "Confunde 'cadeia ramificada' com 'álcool terciário': o 2-metilpropan-1-ol, (CH₃)₂CH–CH₂–OH, é primário e é oxidado pelo dicromato.",
+      "Não confere a fórmula molecular: a butanona, CH₃–CO–CH₂–CH₃, é C₄H₈O, pois a dupla C=O exige dois H a menos. Além disso, seu oxigênio está ligado a um só carbono, e não a dois grupos."
+    ]
+  },
+  {
+    "id": "QUI-A-008",
+    "materia": "quimica",
+    "tema": "Polímeros — polimerização por condensação (PET)",
+    "nivel": "acima",
+    "origem": "Estilo livro (Feltre)",
+    "inter": [],
+    "texto": "O PET, poli(tereftalato de etileno), usado em garrafas de refrigerante, é obtido pela reação entre o ácido tereftálico, HOOC–C₆H₄–COOH (ácido benzeno-1,4-dicarboxílico), e o etilenoglicol, HO–CH₂–CH₂–OH (etano-1,2-diol). A unidade que se repete na cadeia do polímero é –[O–CH₂–CH₂–O–CO–C₆H₄–CO]–.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Considerando cadeias muito longas (despreze os grupos das extremidades) e conversão total, a classificação do PET e a massa de água liberada na produção de 960 kg desse polímero são, respectivamente:\n\nDados: H = 1; C = 12; O = 16 (g/mol).",
+    "alternativas": [
+      "polímero de adição; não há liberação de água.",
+      "poliéster de condensação; 90 kg de água.",
+      "poliéster de condensação; 180 kg de água.",
+      "poliamida de condensação; 180 kg de água.",
+      "poliéster de condensação; 360 kg de água."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é perceber que cada ligação éster formada entre o ácido e o diol libera uma molécula de água, e que a unidade repetitiva do PET contém **duas** ligações éster.\n\n**Teoria: adição × condensação.** Na polimerização por adição, monômeros com ligação dupla C=C (eteno, propeno, cloreto de vinila, estireno) se unem pela abertura da dupla, e nenhum átomo é perdido: o polímero tem a mesma composição centesimal do monômero. Na polimerização por condensação, monômeros com **dois grupos funcionais** reagem entre si, como numa reação orgânica comum repetida milhares de vezes, e a cada ligação formada sai uma molécula pequena (em geral H₂O). Para formar uma cadeia longa, cada monômero precisa ser bifuncional: um diácido e um diol formam um poliéster; um diácido e uma diamina formam uma poliamida (como o náilon).\n\n**A reação de esterificação:** –COOH + HO– → –CO–O– + H₂O. O ácido tereftálico tem dois –COOH e o etilenoglicol tem dois –OH, de modo que a cadeia cresce para os dois lados, alternando resíduos de ácido e de diol. O 'etileno' do nome refere-se ao resíduo –CH₂–CH₂– do diol, e não indica polimerização do eteno.\n\n**Conta:** a unidade –[O–CH₂–CH₂–O–CO–C₆H₄–CO]– tem fórmula C₁₀H₈O₄, com M = 10 · 12 + 8 · 1 + 4 · 16 = 192 g/mol.\n\nConferência: ácido (C₈H₆O₄, 166 g/mol) + diol (C₂H₆O₂, 62 g/mol) = 228 g/mol; 228 − 192 = 36 = 2 · 18. Cada unidade libera 2 mol de água.\n\nn(unidades) = 960 000 g ÷ 192 g/mol = 5 000 mol → n(H₂O) = 2 · 5 000 = 10 000 mol → m = 10 000 · 18 g = 180 000 g = 180 kg.\n\nAtalho: a massa de água é 36/192 = 3/16 da massa de polímero: 960 · 3/16 = 180 kg.\n\nPara lembrar: polímero de condensação perde uma molécula pequena por ligação formada; diácido + diol → poliéster, diácido + diamina → poliamida.",
+    "erradas": [
+      "Deixa-se levar pela palavra 'etileno' no nome e imagina a abertura de uma dupla C=C. Os monômeros do PET reagem pelos grupos –COOH e –OH, liberando água: é condensação.",
+      "Conta uma molécula de água por unidade repetitiva, mas cada unidade contém duas ligações éster (uma de cada lado do anel), logo são 2 H₂O por unidade.",
+      "",
+      "Acerta a massa, mas erra a função: não há nitrogênio no PET. Poliamidas (como o náilon) vêm de diácido + diamina; diácido + diol forma poliéster.",
+      "Conta uma água para cada grupo funcional (dois –COOH e dois –OH = 4), mas cada molécula de água se forma da união de um –COOH com um –OH: são 2 por unidade."
+    ]
+  },
+  {
+    "id": "QUI-A-009",
+    "materia": "quimica",
+    "tema": "Química orgânica — funções e hidrólise de éster (aspirina)",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Comprimidos antigos de aspirina costumam ter cheiro de vinagre. O princípio ativo, o ácido acetilsalicílico (AAS, C₉H₈O₄), tem um anel benzênico com dois substituintes vizinhos: um grupo –COOH e um grupo –O–CO–CH₃. Com a umidade do ar, ele reage com água e forma ácido salicílico (C₇H₆O₃), em que o grupo –O–CO–CH₃ é substituído por –OH, e ácido acético (CH₃–COOH).\n\nTexto elaborado para esta questão.",
+    "enunciado": "Um comprimido contém 540 mg de AAS, dos quais 10% sofreram essa reação. O tipo de reação, a função orgânica do grupo –OH que surge no ácido salicílico e a massa de ácido acético formada são, respectivamente:\n\nDados: H = 1; C = 12; O = 16 (g/mol).",
+    "alternativas": [
+      "hidrólise de amida; fenol; 18 mg.",
+      "hidrólise de éster; álcool; 18 mg.",
+      "hidrólise de éster; fenol; 54 mg.",
+      "hidrólise de éster; fenol; 180 mg.",
+      "hidrólise de éster; fenol; 18 mg."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é reconhecer as funções: no AAS, o grupo –O–CO–CH₃ ligado ao anel é um **éster** (o oxigênio fica entre o anel e a carbonila). A reação com água quebra a ligação éster: é uma **hidrólise de éster**, a reação inversa da esterificação.\n\n**Equação:** C₉H₈O₄ + H₂O → C₇H₆O₃ + C₂H₄O₂ (AAS + água → ácido salicílico + ácido acético). Conferindo as massas molares: 180 + 18 = 198 = 138 + 60.\n\n**Função do –OH novo:** ele está ligado diretamente a um carbono do anel aromático, portanto é **fenol**, e não álcool (álcool exige o OH em carbono saturado).\n\n**Massa de ácido acético:** M(AAS) = 9 · 12 + 8 · 1 + 4 · 16 = 180 g/mol. n(AAS) = 540 mg ÷ 180 g/mol = 3,0 mmol. Reagiram 10%: 0,30 mmol. A proporção é 1 : 1, logo formam-se 0,30 mmol de ácido acético (M = 60 g/mol): 0,30 · 60 = 18 mg.\n\nAtalho: a razão entre as massas molares é 60/180 = 1/3; 10% de 540 mg = 54 mg de AAS hidrolisado → 54/3 = 18 mg de ácido acético.\n\nO cheiro de vinagre é justamente o do ácido acético: um sinal prático de que o medicamento se degradou.\n\nPara lembrar: éster + água → ácido carboxílico + álcool (ou fenol); OH ligado diretamente ao anel aromático é fenol.",
+    "erradas": [
+      "Confunde o AAS com o paracetamol, que tem grupo amida (–NH–CO–). O AAS (C₉H₈O₄) nem tem nitrogênio; o grupo hidrolisado é um éster.",
+      "Classifica como álcool o –OH ligado diretamente ao anel benzênico; essa função é fenol.",
+      "Para em 10% de 540 mg = 54 mg, que é a massa de AAS hidrolisado, sem converter para ácido acético pela proporção em mols (60/180).",
+      "Supõe que todo o AAS reagiu: 3,0 mmol · 60 = 180 mg. Esquece que só 10% se hidrolisou.",
+      ""
+    ]
+  },
+  {
+    "id": "QUI-A-010",
+    "materia": "quimica",
+    "tema": "Química ambiental — combustíveis, CO₂ e ciclo do carbono",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["biologia"],
+    "texto": "Em um debate sobre combustíveis, um estudante afirmou que o etanol é melhor para o clima porque libera menos CO₂ na queima do que a gasolina.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Dados aproximados de combustão completa",
+      "cabecalho": ["Combustível", "Fórmula", "Massa molar (g/mol)", "Calor liberado (kJ/mol)"],
+      "linhas": [
+        ["Etanol", "C₂H₅OH", "46", "1 370"],
+        ["Isoctano (representa a gasolina)", "C₈H₁₈", "114", "5 480"]
+      ]
+    },
+    "enunciado": "Para liberar a mesma quantidade de energia, a razão entre a quantidade de CO₂ (em mol) emitida na queima do etanol e a emitida na queima do isoctano, e uma avaliação correta da afirmação do estudante, são:",
+    "alternativas": [
+      "1/4; a afirmação está correta, pois cada mol de etanol libera 2 mol de CO₂, e cada mol de isoctano, 8 mol.",
+      "1; a afirmação está errada, e a vantagem do etanol é que sua queima, por ser de fonte renovável, não libera gases de efeito estufa.",
+      "1; a afirmação está errada, e o etanol não oferece vantagem alguma sobre a gasolina em relação ao efeito estufa.",
+      "1; a afirmação está errada, e a vantagem do etanol é que o carbono emitido foi retirado da atmosfera há pouco tempo pela fotossíntese da cana.",
+      "4; a afirmação está errada, pois o etanol emite quatro vezes mais CO₂ que o isoctano para a mesma energia."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que a comparação justa entre combustíveis é **pela energia fornecida**, e não por mol queimado.\n\n**1) CO₂ por mol de combustível:**\n\nC₂H₅OH + 3 O₂ → 2 CO₂ + 3 H₂O: 2 mol de CO₂ para 1 370 kJ.\n\nC₈H₁₈ + 25/2 O₂ → 8 CO₂ + 9 H₂O: 8 mol de CO₂ para 5 480 kJ.\n\n**2) Mesma energia:** 5 480 kJ = 4 · 1 370 kJ. Para igualar a energia de 1 mol de isoctano, é preciso queimar 4 mol de etanol, que liberam 4 · 2 = 8 mol de CO₂, exatamente o mesmo que o isoctano. Razão = (2/1 370) ÷ (8/5 480) = (2 · 5 480)/(8 · 1 370) = 1.\n\n**3) Avaliação:** na queima, para a mesma energia, as emissões de CO₂ são praticamente iguais; logo, a afirmação do estudante está errada. A vantagem do etanol de cana está no **ciclo do carbono**: o CO₂ liberado foi absorvido da atmosfera meses antes pela fotossíntese (6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂), enquanto o carbono da gasolina estava estocado no subsolo havia milhões de anos e, ao ser queimado, aumenta a quantidade de CO₂ em circulação na atmosfera.\n\nA emissão líquida do etanol é menor, mas não nula: o cultivo, os fertilizantes, as máquinas a diesel e o transporte também emitem gases de efeito estufa.\n\nPara lembrar: compare combustíveis pela mesma energia; o ganho climático dos biocombustíveis vem da origem recente do carbono (fotossíntese), e não de uma queima com menos CO₂.",
+    "erradas": [
+      "Compara por mol de combustível, e não pela mesma energia: 1 mol de etanol fornece só 1/4 da energia de 1 mol de isoctano; para compensar seriam necessários 4 mol, que emitem 8 mol de CO₂.",
+      "Extrapolação: a queima do etanol libera CO₂, um gás de efeito estufa, na mesma quantidade por energia que o isoctano. O benefício está no ciclo do carbono, não na ausência de emissão.",
+      "Acerta a conta, mas ignora o ciclo do carbono: o CO₂ do etanol foi fixado recentemente pela fotossíntese, ao passo que o da gasolina vem de carbono fóssil, que aumenta o CO₂ atmosférico.",
+      "",
+      "Usa só a razão entre as energias (5 480/1 370 = 4) e esquece que cada mol de isoctano emite 8 mol de CO₂ e cada mol de etanol, 2; com isso, os 4 mol de etanol emitem 8 mol, o mesmo valor."
+    ]
+  }
+]

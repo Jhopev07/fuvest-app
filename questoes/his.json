@@ -1,0 +1,544 @@
+[
+  {
+    "id": "HIS-001",
+    "materia": "historia",
+    "tema": "Antiguidade — democracia ateniense e cidadania",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "filosofia"
+    ],
+    "texto": "Para definir o cidadão, não basta dizer que ele mora na cidade, pois estrangeiros e escravos também moram nela. Cidadão, em sentido pleno, é aquele que participa das funções de julgar e de governar. Essa definição convém sobretudo ao cidadão de uma democracia: quem é cidadão numa democracia muitas vezes não o seria numa oligarquia.\n\n(Adaptado de ideias de Aristóteles, Política, século IV a.C.)",
+    "enunciado": "Relacionando a concepção exposta no texto ao funcionamento da democracia ateniense nos séculos V e IV a.C., é correto afirmar que",
+    "alternativas": [
+      "a cidadania ateniense, assim como a das declarações de direitos do século XVIII, fundamentava-se em direitos naturais atribuídos a todos os habitantes da pólis, independentemente de origem ou condição.",
+      "a democracia ateniense era representativa: os cidadãos elegiam periodicamente deputados que deliberavam e votavam na Assembleia em nome de suas tribos e de seus demos.",
+      "a participação direta na Assembleia e nos tribunais populares convivia com a exclusão de mulheres, metecos e escravizados, de modo que residir em Atenas não bastava para ser cidadão.",
+      "a escolha da maioria dos magistrados por eleição, e não por sorteio, era considerada pelos atenienses o mecanismo mais democrático, por selecionar os cidadãos mais ricos e mais bem preparados.",
+      "o texto define como cidadão todo aquele que reside na cidade e contribui com impostos, critério que Atenas compartilhava com as demais pólis gregas, inclusive com Esparta."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é perceber que, para os gregos, cidadania não era um status universal ligado ao território, e sim **participação ativa** nas decisões da pólis. O texto deixa isso claro: morar na cidade não basta, porque estrangeiros e escravos também moram nela.\n\nEm Atenas, depois das reformas de Clístenes (final do século VI a.C.), os cidadãos — homens adultos, livres e, a partir de meados do século V a.C., filhos de pai e mãe atenienses — votavam diretamente na Eclésia (Assembleia) e compunham os grandes júris populares. Muitos cargos eram preenchidos por **sorteio**, considerado o procedimento democrático por excelência, porque dava a qualquer cidadão a mesma chance; apenas funções técnicas, como a de estratego (comandante militar), eram eletivas.\n\nEssa participação intensa, porém, era restrita: mulheres, metecos (estrangeiros residentes) e escravizados ficavam de fora. A democracia ateniense era, ao mesmo tempo, direta e excludente — e é justamente essa combinação que a resposta correta articula.\n\nPara lembrar: na Atenas clássica, ser cidadão era participar diretamente de julgar e governar, privilégio restrito a uma minoria de homens livres de ascendência ateniense.",
+    "erradas": [
+      "Anacronismo: projeta sobre Atenas a noção de direitos naturais e universais das declarações do século XVIII. A cidadania ateniense era privilégio hereditário de poucos, e não direito de todos os habitantes.",
+      "Confunde democracia direta com representativa. Em Atenas, o cidadão votava pessoalmente na Eclésia; a ideia de deputados eleitos para votar em nome de outros é própria das democracias modernas.",
+      "",
+      "Inverte a lógica ateniense: o sorteio era visto como o mecanismo democrático por excelência, pois igualava as chances de todos os cidadãos; a eleição, que favorecia os ricos e conhecidos, era associada à aristocracia.",
+      "Contradiz o texto, que nega que residir na cidade seja critério de cidadania, e generaliza indevidamente: Esparta tinha organização oligárquica e militar, bem distinta da democracia ateniense."
+    ]
+  },
+  {
+    "id": "HIS-002",
+    "materia": "historia",
+    "tema": "Idade Média — crise do século XIV e declínio da servidão",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "A epidemia que atingiu a Europa a partir de 1347 matou parcela enorme da população. Nos anos seguintes, em muitas regiões, faltaram braços para cultivar as terras senhoriais. Os camponeses sobreviventes passaram a exigir pagamentos maiores ou a migrar para domínios que oferecessem condições melhores. Na Inglaterra, a Coroa tentou fixar os salários nos níveis anteriores à epidemia; na França e na Inglaterra, revoltas camponesas — como a Jacquerie, de 1358, e o levante inglês de 1381 — foram duramente reprimidas.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considerando o texto e o processo de longa duração que se seguiu à crise do século XIV na Europa ocidental, é correto afirmar que",
+    "alternativas": [
+      "a escassez de braços ampliou o poder de barganha camponês e, embora as revoltas tenham sido derrotadas, a reação senhorial fracassou a longo prazo, favorecendo o declínio da servidão no Ocidente.",
+      "a crise teve origem no fechamento do Mediterrâneo pela expansão árabe, que interrompeu o comércio de longa distância e levou a economia europeia a se ruralizar, fortalecendo os laços servis.",
+      "a redução populacional reforçou a servidão em toda a Europa, pois os senhores, com menos camponeses para controlar, conseguiram prendê-los mais facilmente à terra por meio das leis salariais.",
+      "os camponeses revoltosos reivindicavam sufrágio universal e uma constituição escrita, e a repressão a esses movimentos adiou por vários séculos o fim do regime senhorial na Europa ocidental.",
+      "a queda demográfica provocou o renascimento comercial e urbano, já que os camponeses expulsos do campo pela crise fundaram as primeiras feiras e os primeiros burgos da Europa medieval."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber a relação entre **demografia e relações de trabalho**. Quando a Peste Negra reduziu drasticamente a população, a terra continuou existindo, mas os trabalhadores ficaram escassos. Em termos simples: o fator raro passou a ser o braço, e quem detinha o braço ganhou poder de negociação.\n\nO texto mostra as duas reações senhoriais: tentar congelar salários por lei (na Inglaterra, por meio de ordenações e estatutos sobre trabalhadores logo após a epidemia) e reprimir as revoltas. A Jacquerie (1358) e o levante de 1381 foram esmagados — mas derrotar uma revolta não é o mesmo que vencer a tendência econômica. Ao longo do século XV, senhores que precisavam de gente para cultivar suas terras foram levados a converter obrigações em rendas em dinheiro, arrendar terras e aceitar camponeses mais livres.\n\nPor isso a resposta correta combina três elementos: escassez de mão de obra, fracasso de longo prazo da reação senhorial e declínio da servidão no Ocidente. Atenção ao contraste: na Europa oriental (Polônia, Prússia, Rússia), a evolução posterior foi oposta, com o endurecimento da servidão nos séculos seguintes — a chamada segunda servidão. Por isso o recorte geográfico do enunciado importa.\n\nPara lembrar: a crise do século XIV mostra que um choque demográfico pode alterar a correlação de forças entre senhores e camponeses, mesmo quando as revoltas são derrotadas.",
+    "erradas": [
+      "",
+      "Afirmação de outro período: a tese da ruralização causada pela expansão islâmica no Mediterrâneo (associada ao historiador Henri Pirenne) refere-se aos séculos VII a IX, e não à crise do século XIV, cuja causa imediata no texto é a epidemia.",
+      "Inverte o efeito da escassez de braços e generaliza: no Ocidente, a falta de trabalhadores enfraqueceu a servidão; as leis salariais tentaram conter isso, mas fracassaram. O endurecimento ocorreu na Europa oriental, não em toda a Europa.",
+      "Anacronismo: sufrágio universal e constituição escrita são bandeiras dos séculos XVIII e XIX. As revoltas camponesas medievais protestavam contra tributos, obrigações senhoriais e controle de salários.",
+      "Inversão cronológica e causal: o renascimento comercial e urbano ocorreu entre os séculos XI e XIII, impulsionado pelo crescimento populacional, portanto antes da crise e em contexto demográfico oposto."
+    ]
+  },
+  {
+    "id": "HIS-003",
+    "materia": "historia",
+    "tema": "Idade Moderna — mercantilismo e liberalismo econômico",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Texto I\nO meio ordinário de aumentar a riqueza e o tesouro do reino é o comércio exterior, no qual devemos observar sempre esta regra: vender anualmente aos estrangeiros mais, em valor, do que deles consumimos.\n(Adaptado de ideias de mercantilistas ingleses do século XVII.)\n\nTexto II\nA riqueza de uma nação não consiste na quantidade de ouro e prata que ela acumula, mas no produto anual de seu trabalho, que cresce com a divisão do trabalho e com a ampliação dos mercados. Restrições ao comércio e monopólios tendem a beneficiar grupos privilegiados de mercadores à custa do conjunto dos consumidores.\n(Adaptado de ideias de Adam Smith, A Riqueza das Nações, 1776.)",
+    "enunciado": "A comparação entre os textos permite afirmar que",
+    "alternativas": [
+      "o texto II justifica o exclusivo colonial, pois considera que obrigar as colônias a comprar apenas da metrópole amplia a divisão do trabalho e beneficia os consumidores.",
+      "o texto I, ao valorizar a balança comercial favorável, defende a livre concorrência entre as nações e a redução das tarifas cobradas sobre os produtos importados.",
+      "o texto II antecede o texto I e forneceu a base teórica para a política econômica de Colbert, ministro de Luís XIV, na França absolutista.",
+      "o texto I fundamenta o protecionismo e o exclusivo colonial, e o texto II critica esses mecanismos por confundir riqueza com acúmulo de metais.",
+      "ambos os textos defendem a intervenção do Estado para garantir direitos trabalhistas e proteger os salários nacionais diante da concorrência estrangeira."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que os dois textos respondem de modo oposto à mesma pergunta: **o que é a riqueza de uma nação?**\n\nNo texto I, a riqueza é medida pelo saldo do comércio exterior: vender mais do que comprar faz entrar metais preciosos no reino. Dessa lógica derivam as práticas mercantilistas — metalismo, balança comercial favorável, tarifas protecionistas, estímulo às manufaturas e exclusivo colonial (a colônia compra e vende apenas por intermédio da metrópole). O Estado absolutista era o grande executor dessa política.\n\nNo texto II, Adam Smith desloca a riqueza para o **trabalho produtivo** e sua divisão. Se a riqueza está na produção, acumular ouro deixa de ser o objetivo; e monopólios, inclusive o colonial, aparecem como privilégios que encarecem os produtos para os consumidores. É a base do liberalismo econômico clássico.\n\nA cronologia ajuda a eliminar distratores: Colbert foi ministro de Luís XIV no século XVII; Smith publicou sua obra em 1776, quase um século depois.\n\nPara lembrar: o mercantilismo identifica riqueza com metais e saldo comercial; o liberalismo de Smith identifica riqueza com o produto do trabalho e critica os monopólios.",
+    "erradas": [
+      "Inverte a posição de Smith: o texto II critica monopólios, e o exclusivo colonial é justamente um monopólio comercial. Quem justificava o exclusivo era a lógica mercantilista do texto I.",
+      "Confunde balança favorável com livre-comércio. Para obter saldo positivo, os mercantilistas defendiam tarifas altas sobre importações, e não sua redução.",
+      "Erro cronológico: Colbert atuou no século XVII, e A Riqueza das Nações é de 1776. Além disso, o colbertismo é a versão francesa do mercantilismo, ou seja, alinha-se ao texto I.",
+      "",
+      "Anacronismo: direitos trabalhistas e proteção salarial são pautas dos séculos XIX e XX. Além disso, o texto II é crítico da intervenção estatal no comércio."
+    ]
+  },
+  {
+    "id": "HIS-004",
+    "materia": "historia",
+    "tema": "Idade Moderna — absolutismo e revoluções inglesas",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "filosofia"
+    ],
+    "texto": "Texto I\nEnquanto os homens vivem sem um poder comum que os mantenha em respeito, encontram-se numa condição de guerra de todos contra todos, em que não há lugar para o trabalho produtivo, as artes ou a segurança. Para escapar dessa condição, cada um transfere a um soberano o direito de governá-lo, e esse poder, para ser eficaz, não pode ser dividido.\n(Adaptado de ideias de Thomas Hobbes, Leviatã, 1651.)\n\nTexto II\nOs homens se reúnem em sociedade política para preservar suas vidas, liberdades e bens. Quando o governo age contra esse fim, viola a confiança que nele foi depositada, e o povo recupera o direito de resistir e de instituir um novo governo.\n(Adaptado de ideias de John Locke, Segundo Tratado sobre o Governo Civil, publicado logo após a Revolução Gloriosa.)",
+    "enunciado": "Considerando os textos e o contexto inglês do século XVII, é correto afirmar que",
+    "alternativas": [
+      "ambos os textos fundamentam o poder do monarca no direito divino dos reis, divergindo apenas quanto ao papel do Parlamento na aprovação dos impostos.",
+      "o texto I, escrito no contexto das guerras civis, propõe a soberania indivisível contra a desordem, e o texto II harmoniza-se com a monarquia limitada pelo Parlamento após 1688.",
+      "o texto I inspirou diretamente a Declaração de Direitos de 1689, que ampliou os poderes do monarca sobre o Parlamento e encerrou a experiência republicana inglesa.",
+      "o texto II defende o sufrágio universal e a abolição da propriedade privada, princípios que se tornaram vitoriosos na Inglaterra com a Revolução Gloriosa.",
+      "os dois textos concordam que o poder político tem origem natural e divina, e não em um acordo entre os indivíduos, o que os afasta do contratualismo."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que Hobbes e Locke são **contratualistas** — ambos explicam o poder político como resultado de um pacto entre indivíduos —, mas chegam a conclusões opostas porque partem de diagnósticos diferentes sobre o que se perde sem o Estado.\n\nPara Hobbes, o estado de natureza é guerra de todos contra todos; o soberano existe para garantir a paz, e por isso seu poder deve ser absoluto e indivisível. Não é coincidência que o Leviatã tenha sido publicado em 1651, no contexto das guerras civis e dois anos depois da execução de Carlos I (1649): a obra responde ao medo da desordem. Note que Hobbes defende o absolutismo **sem** recorrer ao direito divino — argumento de autores como Bossuet.\n\nPara Locke, o governo existe para proteger vida, liberdade e bens; se trai esse fim, o povo pode resistir. Essa ideia combina com o desfecho da Revolução Gloriosa (1688–1689): Jaime II foi substituído por Guilherme de Orange e Maria, que aceitaram a Declaração de Direitos (Bill of Rights), submetendo a Coroa a limites — por exemplo, cobrar impostos e manter exército permanente em tempo de paz passaram a depender do consentimento do Parlamento.\n\nPara lembrar: Hobbes usa o contrato para justificar a soberania absoluta; Locke, para justificar o governo limitado e o direito de resistência — e a Inglaterra de 1689 ficou mais próxima de Locke.",
+    "erradas": [
+      "Erro conceitual: nenhum dos dois baseia o poder no direito divino. Hobbes justifica o absolutismo por um pacto racional, e Locke defende o governo limitado; o direito divino aparece em autores como Bossuet.",
+      "",
+      "Inverte o sentido da Declaração de Direitos, que limitou o monarca em favor do Parlamento. Além disso, a experiência republicana inglesa havia terminado em 1660, com a Restauração da monarquia.",
+      "Anacronismo e distorção: Locke defendia a propriedade como direito natural, e o regime de 1689 manteve um eleitorado restrito a proprietários; o sufrágio universal é reivindicação muito posterior.",
+      "Contradiz os textos: ambos descrevem o poder como fruto de uma transferência ou acordo entre indivíduos, o que define o contratualismo. A origem divina não aparece em nenhum dos dois."
+    ]
+  },
+  {
+    "id": "HIS-005",
+    "materia": "historia",
+    "tema": "Idade Moderna — Reforma Protestante e a tese de Weber",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [
+      "sociologia"
+    ],
+    "texto": "Na doutrina calvinista da predestinação, Deus já escolheu, desde a eternidade, quem será salvo, e nenhuma obra humana altera esse decreto. Essa doutrina produzia nos fiéis uma intensa inquietação sobre a própria salvação. Entre certos grupos protestantes, o trabalho metódico e disciplinado na própria vocação e a recusa ao desfrute dos bens passaram a ser vistos como sinais, e não causas, da eleição divina. O resultado foi uma conduta de vida racional que favorecia a poupança e o reinvestimento. Não se pretende, com isso, afirmar que o capitalismo tenha sido criado pela Reforma.\n\n(Adaptado de ideias de Max Weber, A Ética Protestante e o Espírito do Capitalismo, 1904–1905.)",
+    "enunciado": "Com base no texto e no contexto das Reformas religiosas do século XVI, é correto afirmar que",
+    "alternativas": [
+      "para Weber, a expansão do capitalismo industrial foi a causa da ruptura de Lutero com Roma, já que os burgueses precisavam de uma religião que legitimasse o lucro.",
+      "segundo o texto, a ética protestante estimulava o consumo ostentatório das riquezas acumuladas, entendido pelos fiéis como prova pública de sua salvação.",
+      "o Concílio de Trento, em resposta aos protestantes, adotou a doutrina da predestinação e a salvação pela fé somente, aproximando católicos e calvinistas.",
+      "a predestinação calvinista permitia ao fiel garantir a salvação por meio da compra de indulgências, o que explica a acumulação de capital nos países protestantes.",
+      "Weber vê afinidade entre a ética ascética de certos protestantes e a conduta econômica racional, sem afirmar que a Reforma tenha criado o capitalismo."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é perceber que Weber não propõe uma relação mecânica de causa e efeito entre religião e economia, mas uma **afinidade** entre uma ética religiosa e um tipo de conduta econômica.\n\n**A teoria por trás.** Weber, um dos fundadores da sociologia, estuda como ideias e valores orientam a ação social. Sua pergunta não é quem inventou o capitalismo — práticas comerciais, bancárias e de crédito existiam muito antes do século XVI, em cidades italianas e flamengas, por exemplo. A pergunta é: de onde vem a disposição para trabalhar metodicamente, poupar e reinvestir, em vez de gastar o que se ganha? Ele chama essa disposição de espírito do capitalismo.\n\n**O mecanismo.** Lutero, a partir de 1517, valorizou o trabalho cotidiano como vocação dada por Deus. Calvino radicalizou a ideia da soberania divina com a predestinação: a salvação já está decidida. Como ninguém sabe se é eleito, a angústia leva o fiel a buscar **sinais** de eleição — e o êxito no trabalho disciplinado, sem desperdício nem luxo, passa a funcionar como sinal. Trabalhar muito e consumir pouco gera acumulação. Repare: as obras não compram a salvação (essa era a lógica que os reformadores criticavam nas indulgências); elas apenas indicam quem já foi escolhido.\n\n**O contraponto católico.** O Concílio de Trento (1545–1563) reafirmou que a justificação envolve fé e obras, manteve os sete sacramentos e rejeitou a tese protestante da salvação pela fé somente.\n\n**Cuidado com a leitura causal.** O próprio texto avisa: Weber não diz que a Reforma criou o capitalismo. Ele aponta uma convergência histórica entre valores religiosos e racionalidade econômica — um exemplo de como a sociologia weberiana evita explicações monocausais.\n\nPara lembrar: na tese de Weber, a ética ascética protestante tem afinidade com o espírito capitalista, mas não é sua causa única.",
+    "erradas": [
+      "Inversão causal e anacronismo: a ruptura de Lutero começou em 1517, séculos antes do capitalismo industrial; e Weber investiga como a ética religiosa influenciou a conduta econômica, e não o contrário.",
+      "Contradiz o texto, que fala em recusa ao desfrute dos bens. A ética descrita é ascética: luxo e ostentação eram condenados, e justamente por isso a riqueza era reinvestida.",
+      "Atribui ao catolicismo as teses protestantes. Trento reafirmou o papel das obras e dos sacramentos na salvação e rejeitou a justificação pela fé somente.",
+      "Mistura doutrinas opostas: a venda de indulgências era prática da Igreja Católica criticada por Lutero, e a predestinação nega justamente que o fiel possa garantir a salvação por qualquer ato.",
+      ""
+    ]
+  },
+  {
+    "id": "HIS-006",
+    "materia": "historia",
+    "tema": "Idade Contemporânea — Revolução Francesa e pensamento iluminista",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "filosofia"
+    ],
+    "texto": "Texto I\nPara que não se possa abusar do poder, é preciso que, pela disposição das coisas, o poder freie o poder. Tudo estaria perdido se o mesmo homem ou o mesmo corpo exercesse os poderes de fazer as leis, de executá-las e de julgar.\n(Adaptado de ideias de Montesquieu, O Espírito das Leis, 1748.)\n\nTexto II\nA soberania, sendo apenas o exercício da vontade geral, não pode ser alienada nem representada. Os deputados do povo não são seus representantes, mas apenas seus comissários, e toda lei que o povo não ratificou pessoalmente é nula.\n(Adaptado de ideias de Jean-Jacques Rousseau, Do Contrato Social, 1762.)",
+    "enunciado": "Considerando os textos e o processo revolucionário francês iniciado em 1789, é correto afirmar que",
+    "alternativas": [
+      "a Constituição de 1791, monárquica, censitária e com separação de poderes, aproxima-se do texto I, e a de 1793, que nunca vigorou, invocava a soberania popular do texto II.",
+      "a Constituição de 1791 aplicou integralmente as ideias do texto II, abolindo a monarquia e instituindo a democracia direta, com todas as leis ratificadas pessoalmente pelos cidadãos reunidos em assembleias.",
+      "Montesquieu e Rousseau participaram como deputados da Assembleia Nacional Constituinte de 1789, onde defenderam, respectivamente, a separação dos poderes e a soberania popular.",
+      "a Declaração dos Direitos do Homem e do Cidadão, de 1789, estendeu a cidadania política às mulheres, em consonância com a ideia de vontade geral formulada no texto II.",
+      "o governo de Napoleão Bonaparte consolidou as propostas do texto I ao enfraquecer o Executivo e transferir ao Legislativo o controle sobre o exército e sobre a administração pública."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber que a Revolução Francesa não aplicou o Iluminismo como um bloco único: diferentes correntes iluministas inspiraram fases distintas da Revolução.\n\nMontesquieu (texto I) preocupa-se com o **abuso do poder** e propõe sua divisão em Legislativo, Executivo e Judiciário, que se controlam mutuamente. Essa ideia combina com a fase da monarquia constitucional: a Constituição de 1791 manteve Luís XVI como chefe do Executivo, criou uma Assembleia Legislativa e separou os poderes. O direito de voto, porém, era censitário: só os chamados cidadãos ativos, que pagavam determinada contribuição, votavam.\n\nRousseau (texto II) preocupa-se com a **legitimidade**: a soberania pertence ao povo e não pode ser transferida a representantes. A fase republicana e jacobina invocou essa noção. A Constituição de 1793 (ano I) proclamou a soberania do povo e previu sufrágio universal masculino, mas foi suspensa em razão da guerra e do governo revolucionário, e nunca entrou em vigor.\n\nUm detalhe cronológico elimina um distrator: Montesquieu morreu em 1755 e Rousseau em 1778, antes de 1789.\n\nPara lembrar: a separação de poderes (Montesquieu) marca a fase constitucional moderada; a soberania popular (Rousseau) é a referência da fase radical.",
+    "erradas": [
+      "",
+      "Erro cronológico e conceitual: a Constituição de 1791 manteve a monarquia (abolida apenas em setembro de 1792), adotou o voto censitário e o sistema representativo, nada próximo da democracia direta.",
+      "Anacronismo: Montesquieu morreu em 1755 e Rousseau em 1778, antes da Revolução. Suas obras foram lidas e invocadas pelos revolucionários, mas eles não participaram dela.",
+      "Falso: a Declaração de 1789 não incluiu as mulheres na cidadania política. Em 1791, Olympe de Gouges escreveu a Declaração dos Direitos da Mulher e da Cidadã justamente para denunciar essa exclusão.",
+      "Inverte o período napoleônico, marcado pelo fortalecimento do Executivo, pela centralização administrativa e pelo controle pessoal do exército, primeiro como cônsul e depois como imperador."
+    ]
+  },
+  {
+    "id": "HIS-007",
+    "materia": "historia",
+    "tema": "Idade Contemporânea — Revolução Industrial e ação operária",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "texto": "Interpretação I\nOs quebradores de máquinas da Inglaterra do início do século XIX eram trabalhadores desorientados, incapazes de compreender o progresso técnico, que descarregavam sua revolta contra os instrumentos que os tornavam desnecessários.\n\nInterpretação II\nEm uma época em que as associações de trabalhadores eram proibidas por lei, a destruição de máquinas era uma das poucas formas de pressão coletiva disponíveis. Muitas vezes, os alvos eram escolhidos: atacavam-se as máquinas de patrões que pagavam menos ou que desrespeitavam os costumes do ofício, poupando as de outros. Tratava-se de negociar por meio da ameaça, e não de recusar a técnica em si.\n\n(Texto elaborado para esta questão, com base em debates da historiografia social britânica.)",
+    "enunciado": "A comparação entre as interpretações permite afirmar que a segunda",
+    "alternativas": [
+      "identifica nos quebradores de máquinas a principal bandeira do cartismo, o sufrágio universal masculino, que teria sido a pauta central das ações de 1811 e 1812.",
+      "nega que tenha havido destruição de máquinas, atribuindo os relatos da época à propaganda de industriais interessados em criminalizar os trabalhadores.",
+      "relaciona a ação ao contexto de proibição das associações operárias e a interpreta como forma calculada de pressão sobre salários e condições de trabalho.",
+      "atribui a organização dos ataques aos sindicatos legalizados e aos partidos socialistas, que coordenavam greves em escala nacional naquele período.",
+      "concorda com a primeira quanto às motivações dos trabalhadores, divergindo apenas sobre a quantidade de máquinas destruídas em cada região inglesa."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é perceber que as duas interpretações descrevem o mesmo fenômeno — a quebra de máquinas na Inglaterra da década de 1810, associada ao chamado ludismo — mas atribuem a ele **significados opostos**.\n\nA interpretação I lê a ação como irracional: trabalhadores que não entendiam o progresso. A interpretação II reconstrói o contexto: as Leis de Associação (Combination Acts), de 1799 e 1800, proibiam as associações de trabalhadores e só foram revogadas em 1824. Sem sindicato legal e sem direito de greve, a ameaça às máquinas funcionava como instrumento de negociação. O caráter seletivo dos ataques — poupando patrões que respeitavam acordos — é o argumento que mostra cálculo, e não cegueira.\n\nEsse tipo de leitura é típico da história social, que procura entender a ação coletiva dos grupos populares segundo a lógica deles próprios, em diálogo com a sociologia do trabalho. Para descartar distratores, use a cronologia: cartismo (fim da década de 1830 e década de 1840), sindicatos legais (depois de 1824) e partidos socialistas (segunda metade do século XIX) são posteriores ao ludismo.\n\nPara lembrar: a quebra de máquinas pode ser lida como forma de negociação coletiva num contexto em que os trabalhadores não tinham meios legais de organização.",
+    "erradas": [
+      "Afirmação de outro momento: o cartismo, com sua Carta do Povo e a reivindicação do sufrágio universal masculino, surgiu no final da década de 1830, e não orientou as ações dos anos 1810.",
+      "Extrapola o texto: a interpretação II reconhece a destruição de máquinas e discute seu sentido; em nenhum momento sugere que os episódios tenham sido inventados.",
+      "",
+      "Anacronismo: na década de 1810, as associações de trabalhadores eram proibidas, e partidos socialistas só surgiriam na segunda metade do século XIX.",
+      "Ignora o contraste central: as interpretações divergem justamente sobre as motivações (irracionalidade versus pressão calculada), e não sobre números."
+    ]
+  },
+  {
+    "id": "HIS-008",
+    "materia": "historia",
+    "tema": "Idade Contemporânea — imperialismo e partilha da África",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "geografia"
+    ],
+    "texto": "Em muitos mapas políticos da África atual, chama a atenção a quantidade de fronteiras em linha reta, algumas delas acompanhando paralelos ou meridianos e atravessando desertos, bacias hidrográficas e áreas ocupadas por um mesmo povo.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considerando o processo histórico que deu origem a muitos desses traçados, é correto afirmar que eles",
+    "alternativas": [
+      "foram definidos pela Organização da Unidade Africana nos anos 1960, com o objetivo de separar grupos étnicos rivais e evitar guerras entre os novos Estados independentes.",
+      "resultaram, em grande parte, de acordos entre potências europeias durante a partilha, que pouco consideraram a organização política e a distribuição dos povos africanos.",
+      "reproduzem os limites dos grandes reinos africanos pré-coloniais, como o antigo Mali, que foram preservados pelos europeus para facilitar a administração indireta.",
+      "seguem, em sua maioria, divisores de águas e cadeias montanhosas, critério físico privilegiado pelos colonizadores para delimitar com precisão as áreas de cada metrópole.",
+      "foram fixados integralmente na Conferência de Berlim, que dividiu todo o continente em um único mapa, inclusive a Etiópia, desde então submetida à Itália."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que linhas retas raramente correspondem a elementos naturais ou a fronteiras culturais: são típicas de limites **traçados à distância**, em gabinetes, por quem tinha mapas mas não conhecia — ou não levava em conta — o território.\n\nNo final do século XIX, as potências europeias disputaram o controle da África. A Conferência de Berlim (1884–1885) não fatiou o continente num mapa único, como se costuma dizer: ela estabeleceu **regras** para a partilha, como a exigência de ocupação efetiva para validar reivindicações, além de tratar da navegação nos rios Congo e Níger. Os limites concretos foram definidos depois, em tratados bilaterais entre as metrópoles — muitas vezes seguindo paralelos e meridianos.\n\nNenhuma sociedade africana participou dessas negociações. Por isso, as fronteiras dividiram povos, cortaram rotas comerciais e juntaram, num mesmo território colonial, grupos com histórias políticas distintas.\n\nApós as independências, a Organização da Unidade Africana (criada em 1963) decidiu **manter** as fronteiras herdadas, temendo que sua revisão gerasse guerras em cadeia — o que ajuda a explicar a permanência desses traçados até hoje. O mapa político, portanto, é também um documento histórico: a geografia atual guarda as marcas da partilha.\n\nPara lembrar: muitas fronteiras africanas retilíneas são herança dos acordos entre potências imperialistas, e não de limites naturais ou de reinos pré-coloniais.",
+    "erradas": [
+      "Inverte o papel da OUA: criada em 1963, ela decidiu preservar as fronteiras herdadas da colonização, justamente para evitar disputas territoriais, e não redesenhá-las.",
+      "",
+      "Falso e anacrônico: o Império do Mali floresceu nos séculos XIII e XIV e já não existia na época da partilha; além disso, as fronteiras coloniais desconsideraram as unidades políticas africanas.",
+      "Erro geográfico: linhas retas que seguem paralelos e meridianos são, por definição, limites artificiais (geométricos), e não naturais, como divisores de águas ou cristas de montanhas.",
+      "Generaliza um mito: a Conferência de Berlim fixou regras para a partilha, e os limites vieram de tratados posteriores. A Etiópia derrotou a Itália em Adwa (1896) e só foi ocupada entre 1936 e 1941."
+    ]
+  },
+  {
+    "id": "HIS-009",
+    "materia": "historia",
+    "tema": "Idade Contemporânea — fim da Segunda Guerra e origens da Guerra Fria",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "Interpretação I\nTerminada a Segunda Guerra Mundial, a União Soviética impôs governos comunistas na Europa oriental, desrespeitando compromissos assumidos com os aliados. Os Estados Unidos apenas reagiram, adotando uma política de contenção para impedir novas expansões.\n\nInterpretação II\nAo final da guerra, os Estados Unidos eram a maior economia do mundo e detinham o monopólio da bomba atômica, que durou até 1949. Sua política de abrir mercados e reconstruir uma Europa capitalista sob sua liderança foi percebida pela União Soviética, devastada pela guerra, como ameaça, o que a levou a consolidar uma zona de segurança junto às suas fronteiras.\n\n(Texto elaborado para esta questão, com base no debate historiográfico sobre as origens da Guerra Fria.)",
+    "enunciado": "Um acontecimento que pode ser mobilizado pelas duas interpretações, porém com sentidos opostos, é",
+    "alternativas": [
+      "a queda do Muro de Berlim, em 1989, que ambas as interpretações utilizam para explicar por que a disputa entre as superpotências começou justamente na Alemanha.",
+      "a Conferência de Bandung, em 1955, na qual Estados Unidos e União Soviética dividiram a Ásia e a África em zonas de influência após longa negociação.",
+      "o lançamento das bombas atômicas sobre Hiroshima e Nagasaki, em 1945, que a interpretação I apresenta como demonstração de força dirigida principalmente à União Soviética.",
+      "o Plano Marshall, de 1947, visto pela interpretação I como contenção do comunismo numa Europa empobrecida e pela II como integração econômica sob hegemonia dos EUA.",
+      "a construção do Muro de Berlim, em 1961, que a interpretação II apresenta como prova de que a União Soviética iniciou a Guerra Fria logo ao final da Segunda Guerra Mundial."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que um mesmo fato histórico pode servir de evidência para interpretações rivais: o que muda é o **sentido** atribuído a ele.\n\nA interpretação I (frequentemente chamada de ortodoxa) responsabiliza a URSS e vê a política norte-americana como reação. A interpretação II (chamada de revisionista) destaca o poder econômico e militar dos EUA e a percepção soviética de ameaça.\n\nO Plano Marshall (1947), programa de ajuda econômica à reconstrução europeia, encaixa-se nas duas leituras. Para a I, ele é contenção: uma Europa pobre seria terreno fértil para partidos comunistas, e a ajuda estabilizaria as democracias. Para a II, ele integra a Europa ocidental à economia norte-americana; a URSS recusou a ajuda, pressionou países como a Tchecoslováquia a também recusá-la e respondeu, em 1949, com a criação do Comecon. Mesmo fato, sentidos opostos.\n\nPara eliminar os distratores, confira cronologia e autoria: o Muro foi erguido em 1961 e caiu em 1989, muito depois das origens do conflito; a leitura de Hiroshima como recado a Moscou é revisionista, não ortodoxa; e Bandung reuniu países afro-asiáticos, sem as superpotências.\n\nPara lembrar: em questões de historiografia, verifique não só se o fato é verdadeiro, mas a qual interpretação a leitura proposta realmente pertence.",
+    "erradas": [
+      "Erro de período: a queda do Muro marca o fim da ordem bipolar, e não sua origem; não pode explicar por que a disputa começou no imediato pós-guerra.",
+      "Falso: Bandung reuniu países asiáticos e africanos, muitos recém-independentes, em busca de autonomia diante das superpotências — que não participaram da conferência.",
+      "Troca a autoria da leitura: interpretar as bombas como recado dirigido a Moscou é argumento típico da interpretação revisionista (II), e não da I.",
+      "",
+      "Duplo erro: o Muro é de 1961, posterior às origens da Guerra Fria, e a tese da responsabilidade soviética pertence à interpretação I, não à II."
+    ]
+  },
+  {
+    "id": "HIS-010",
+    "materia": "historia",
+    "tema": "Brasil Colônia — sentido da colonização e tráfico no Atlântico Sul",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [],
+    "texto": "Texto I\nSe considerarmos o conjunto da colonização dos trópicos, veremos que ela se organizou como uma vasta empresa comercial destinada a explorar recursos naturais em proveito do comércio europeu. Esse é o sentido da colonização: a sociedade e a economia coloniais estruturaram-se para fornecer açúcar, ouro e outros gêneros aos mercados externos.\n(Adaptado de ideias de Caio Prado Júnior, Formação do Brasil Contemporâneo, 1942.)\n\nTexto II\nPesquisas em inventários, registros portuários e cartórios mostraram que, sobretudo nos séculos XVIII e XIX, parte expressiva do tráfico de escravizados entre a África e o Brasil era financiada e controlada por comerciantes estabelecidos na própria colônia, como no Rio de Janeiro e em Salvador. Esses negociantes trocavam produtos coloniais, como tabaco e cachaça, por cativos nos portos africanos e reinvestiam os lucros em terras, escravizados e empréstimos.\n(Texto elaborado para esta questão, com base em estudos sobre o Atlântico Sul.)",
+    "enunciado": "A comparação entre os textos permite concluir que",
+    "alternativas": [
+      "o texto II demonstra que a economia colonial não produzia para exportação, sendo voltada principalmente à subsistência e ao abastecimento do mercado interno.",
+      "o texto I explica a adoção da escravidão africana pela suposta inaptidão natural dos indígenas para o trabalho agrícola regular nas grandes lavouras.",
+      "ambos atribuem o tráfico de escravizados à iniciativa exclusiva de mercadores holandeses, que dominaram o Atlântico durante todo o período colonial.",
+      "o texto II comprova que a colônia era economicamente independente de Portugal desde o século XVI, o que explica a independência política precoce.",
+      "o texto II não nega a orientação exportadora destacada no texto I, mas mostra que parte da acumulação se realizava no espaço colonial e no Atlântico Sul."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é perceber que o texto II **complementa e complexifica** o texto I, em vez de refutá-lo.\n\n**A teoria por trás.** Caio Prado Júnior, em 1942, propôs uma chave de leitura que marcou gerações: o sentido da colonização. Para ele, a colônia só pode ser entendida a partir de sua função no sistema mercantil europeu — produzir gêneros tropicais e metais para o mercado externo. Grande lavoura, monocultura e escravidão seriam peças dessa engrenagem. Essa visão destaca a dependência externa e ajuda a explicar desigualdades de longa duração.\n\n**O que o texto II acrescenta.** Pesquisas posteriores, apoiadas em fontes seriais (inventários, registros de navios, escrituras), mostraram que o tráfico negreiro, um dos negócios mais lucrativos do período, era em grande parte conduzido por negociantes radicados na colônia. Tabaco baiano e cachaça eram trocados por cativos na África, numa rota bilateral que muitas vezes nem passava por Lisboa. Os lucros ficavam na colônia e eram reinvestidos.\n\n**A síntese.** A produção continuava voltada para fora — ninguém nega isso —, mas a colônia não era apenas passiva: havia acumulação interna, elites mercantis coloniais e um espaço econômico sul-atlântico que ligava Brasil e África. Questões de vestibular gostam desse raciocínio: identificar quando uma interpretação **nuança** outra, e não quando a derruba.\n\nPara lembrar: o sentido da colonização explica a orientação exportadora, e os estudos sobre o Atlântico Sul mostram que parte importante da riqueza circulava e se acumulava fora da metrópole.",
+    "erradas": [
+      "Extrapola o texto II, que trata do tráfico e do reinvestimento local, mas não afirma que a economia deixou de exportar. Açúcar e ouro seguiam destinados ao mercado externo.",
+      "Atribui ao texto I um argumento que ele não apresenta e que é um mito: indígenas foram amplamente escravizados, e a preferência pelo africano relaciona-se, entre outros fatores, à lucratividade do tráfico e à mortalidade indígena causada por epidemias.",
+      "Generalização falsa: os holandeses tiveram papel importante no século XVII, chegando a ocupar Pernambuco e Luanda temporariamente, mas não dominaram o tráfico durante todo o período; o texto II destaca comerciantes radicados no Brasil.",
+      "Anacronismo e extrapolação: o texto II descreve acumulação colonial, não independência econômica; a independência política ocorreu apenas em 1822.",
+      ""
+    ]
+  },
+  {
+    "id": "HIS-011",
+    "materia": "historia",
+    "tema": "Brasil Colônia — mineração e reorganização do território",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "geografia"
+    ],
+    "texto": "Ao longo do século XVIII, surgiram dezenas de arraiais e vilas na região das minas, como Vila Rica, Mariana e São João del-Rei. Tropas de muares vindas do sul e boiadas do vale do São Francisco abasteciam a região, e o Caminho Novo ligava as minas ao porto do Rio de Janeiro.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Com base no texto e em seus conhecimentos sobre a mineração colonial, é correto afirmar que ela",
+    "alternativas": [
+      "reforçou a economia açucareira do Nordeste, que passou a receber a maior parte dos escravizados antes destinados às regiões de garimpo e de lavra.",
+      "ocorreu sobretudo em grandes propriedades isoladas e autossuficientes, sem formação de núcleos urbanos, ao contrário do que se deu na economia açucareira.",
+      "urbanizou o interior, articulou regiões fornecedoras de alimentos e animais de carga e deslocou o eixo político-econômico da colônia para o Centro-Sul.",
+      "permitiu a Portugal reter integralmente o ouro extraído, que financiou a industrialização portuguesa e a independência econômica do reino diante da Inglaterra.",
+      "provocou a Inconfidência Mineira de 1789, motivada pela decisão da Coroa de abolir o quinto e liberar a exploração do ouro para todos os colonos."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é perceber que a mineração reorganizou o **espaço** colonial — por isso a questão dialoga com a geografia.\n\nDiferentemente do açúcar, concentrado na faixa litorânea e em engenhos rurais, o ouro atraiu milhares de pessoas para o interior e gerou uma rede de arraiais e vilas, com comércio, irmandades, igrejas e administração. Essa população urbana precisava ser abastecida: gado vinha do vale do São Francisco, mulas criadas no sul eram negociadas em feiras como a de Sorocaba e transportavam mercadorias, e caminhos como o Caminho Novo ligavam as minas ao porto do Rio de Janeiro. Formou-se, assim, um mercado interno que integrou regiões antes pouco conectadas.\n\nO deslocamento do centro de gravidade da colônia ficou simbolizado na transferência da capital de Salvador para o Rio de Janeiro, em 1763 — o porto por onde escoava o ouro e chegavam escravizados e mercadorias.\n\nNa outra ponta, boa parte do ouro não ficou em Portugal: o reino importava manufaturas inglesas, numa relação reforçada pelo Tratado de Methuen (1703), e pagava com metal.\n\nPara lembrar: o ciclo do ouro interiorizou o povoamento, urbanizou as minas, integrou um mercado interno e deslocou o eixo da colônia para o Centro-Sul.",
+    "erradas": [
+      "Inverte o fluxo: a mineração atraiu escravizados de outras regiões, inclusive do Nordeste, e encareceu a mão de obra, o que prejudicou os senhores de engenho.",
+      "Inverte as características: a mineração foi marcadamente urbana, com vilas e intensa vida comercial; o povoamento rural disperso é que caracterizava a lavoura canavieira.",
+      "",
+      "Falso: grande parte do ouro escoou para a Inglaterra para pagar importações de manufaturas, relação reforçada pelo Tratado de Methuen (1703); Portugal não se industrializou com esse metal.",
+      "Inverte a causa: a conspiração ganhou força diante da ameaça da derrama, a cobrança forçada dos impostos atrasados sobre o ouro, e não por causa de uma abolição do quinto."
+    ]
+  },
+  {
+    "id": "HIS-012",
+    "materia": "historia",
+    "tema": "Brasil Colônia — Inconfidência Mineira e Conjuração Baiana",
+    "nivel": "fuvest",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "texto": "Em agosto de 1798, apareceram afixados em locais públicos de Salvador papéis manuscritos que convocavam o povo a formar uma república, defendiam a liberdade de comércio, criticavam os impostos e anunciavam um tempo em que todos seriam iguais. As investigações levaram à prisão de dezenas de pessoas, entre elas alfaiates, soldados, artesãos, libertos e escravizados. Em 1799, quatro homens pardos de origem popular foram enforcados.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Comparando a conjuração descrita no texto com a Inconfidência Mineira (1789), é correto afirmar que",
+    "alternativas": [
+      "a participação de pardos e negros pobres deu ao movimento baiano uma crítica às hierarquias sociais menos presente na conspiração mineira, de perfil mais elitista.",
+      "ambos os movimentos defendiam a preservação da monarquia portuguesa e do pacto colonial, reivindicando apenas a redução dos impostos cobrados sobre o ouro e o açúcar.",
+      "a conspiração mineira foi diretamente inspirada pela independência do Haiti, cuja notícia mobilizou os inconfidentes a proclamar a abolição imediata da escravatura.",
+      "a conjuração baiana conseguiu separar a Bahia de Portugal, situação que se manteve até as lutas de 1823, quando a província foi reincorporada pelo Império do Brasil.",
+      "as punições foram idênticas nos dois casos: todos os condenados à morte foram executados, sem distinção de posição social, o que demonstra a imparcialidade da Coroa."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber que as duas conspirações compartilham influências — as ideias ilustradas, a independência dos Estados Unidos e, no caso baiano, também a Revolução Francesa —, mas diferem na **composição social** e, por consequência, no alcance de seus projetos.\n\nEm Minas, os conspiradores eram, em grande parte, membros da elite colonial: proprietários, contratadores, padres, poetas e militares. O estopim foi a ameaça da derrama, cobrança dos impostos atrasados sobre o ouro, e a transformação da ordem escravista não era o eixo do projeto republicano. Denunciado, o movimento foi desarticulado em 1789; vários réus foram condenados à morte, mas a pena foi comutada em degredo para todos, exceto Tiradentes, enforcado em 1792 — justamente um dos líderes de posição social mais modesta.\n\nNa Bahia, os papéis de 1798 falavam em república, liberdade de comércio e igualdade, e a base do movimento era popular: alfaiates, soldados, artesãos, libertos e escravizados, muitos deles pardos. Isso ajuda a entender a dureza seletiva da repressão: os quatro enforcados de 1799 eram homens pardos de origem humilde, e nenhum participante de posição social elevada teve o mesmo destino.\n\nPara lembrar: Inconfidência Mineira e Conjuração Baiana foram ambas republicanas e influenciadas pelo Iluminismo, mas a baiana teve base popular e mestiça, o que lhe deu caráter social mais radical.",
+    "erradas": [
+      "",
+      "Falso: os dois movimentos tinham projeto republicano e de ruptura com Portugal; não se tratava de reformar o pacto colonial mantendo a monarquia.",
+      "Anacronismo: a Inconfidência foi desarticulada em 1789, e a independência do Haiti ocorreu em 1804. Até a revolta escrava em Saint-Domingue, iniciada em 1791, é posterior à conspiração mineira.",
+      "Mistura períodos: a conjuração de 1798 foi descoberta e reprimida antes de qualquer ação armada. As lutas de 1823 na Bahia referem-se à guerra de independência contra tropas portuguesas, já depois de 1822.",
+      "Falso: em Minas, as penas de morte foram comutadas para todos, exceto Tiradentes; na Bahia, os enforcados eram todos homens pardos e pobres. A repressão foi socialmente seletiva."
+    ]
+  },
+  {
+    "id": "HIS-013",
+    "materia": "historia",
+    "tema": "Brasil Império — Lei de Terras, fim do tráfico e transição para o trabalho livre",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [
+      "sociologia"
+    ],
+    "texto": "Em setembro de 1850, com poucos dias de diferença, foram aprovadas no Império duas leis: a que estabelecia medidas efetivas de repressão ao tráfico atlântico de escravizados e a que determinava que as terras devolutas só poderiam ser adquiridas por meio de compra. Um sociólogo brasileiro interpretou a relação entre os dois fatos de um modo que pode ser assim parafraseado: quando a terra era livre, o trabalho precisava ser cativo; quando o trabalho começou a se tornar livre, a terra é que precisou tornar-se cativa.\n\n(Texto elaborado para esta questão, com base em ideias de José de Souza Martins, O Cativeiro da Terra.)",
+    "enunciado": "A relação proposta no texto pode ser explicada pelo fato de que a Lei de Terras",
+    "alternativas": [
+      "distribuiu gratuitamente lotes de terras devolutas aos imigrantes europeus e aos libertos, criando no Brasil uma ampla camada de pequenos proprietários rurais.",
+      "dificultou o acesso de pobres, imigrantes e libertos à propriedade, preservando braços para a grande lavoura enquanto o tráfico era reprimido.",
+      "garantiu a posse definitiva a quem ocupasse e cultivasse terras públicas, nos moldes do Homestead Act norte-americano, favorecendo a agricultura familiar.",
+      "foi imposta pela Inglaterra junto com o Bill Aberdeen, pois os britânicos queriam ampliar o tráfico para abastecer de mão de obra suas colônias no Caribe.",
+      "aboliu a escravidão no Império e instituiu, como compensação aos fazendeiros, a doação de terras públicas aos antigos senhores de escravizados."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que terra e trabalho são **duas faces do mesmo problema**: como garantir que alguém trabalhe para os grandes proprietários.\n\n**A teoria por trás.** Em uma economia com muita terra disponível, um trabalhador livre tende a preferir cultivar a própria roça a vender sua força de trabalho a outro. Por isso, em sociedades de fronteira aberta, os grandes proprietários recorreram ao trabalho compulsório — no Brasil, a escravidão. O sociólogo José de Souza Martins inverteu a equação para explicar 1850: se o trabalho escravo começava a se esgotar, era preciso fechar o acesso à terra, para que o trabalhador livre não tivesse alternativa senão empregar-se nas fazendas. A terra virava mercadoria e, nesse sentido, ficava cativa.\n\n**O contexto.** A pressão britânica contra o tráfico se intensificou com o Bill Aberdeen (1845), que autorizava a Marinha inglesa a apreender navios negreiros. Em 4 de setembro de 1850, a Lei Eusébio de Queirós passou a reprimir efetivamente o tráfico. Duas semanas depois, em 18 de setembro, a Lei de Terras proibiu a aquisição de terras devolutas por qualquer título que não fosse a compra.\n\n**A consequência.** Imigrantes que chegariam para as lavouras de café, em geral sem capital, não podiam comprar terras; mais tarde, os libertos de 1888 também não. A lei favoreceu quem já tinha recursos e ajudou a consolidar a concentração fundiária — uma marca de longa duração da estrutura agrária brasileira.\n\n**Comparação útil.** Nos Estados Unidos, o Homestead Act (1862) seguiu a lógica oposta: concedia lotes a quem se instalasse e cultivasse a terra por certo período.\n\nPara lembrar: a Lei de Terras de 1850 transformou a terra em mercadoria e restringiu o acesso dos pobres à propriedade, garantindo braços para a grande lavoura na transição para o trabalho livre.",
+    "erradas": [
+      "Inverte a lei: ela proibiu a aquisição de terras devolutas por qualquer meio que não fosse a compra, eliminando justamente a possibilidade de distribuição gratuita.",
+      "",
+      "Comparação invertida: o Homestead Act, de 1862, concedia terras a quem as cultivasse; a Lei de Terras brasileira fez o contrário, exigindo compra e desestimulando a simples posse.",
+      "Inverte o sentido da pressão britânica: o Bill Aberdeen (1845) visava reprimir o tráfico, e a Inglaterra já havia abolido a escravidão em suas colônias na década de 1830.",
+      "Confunde leis distintas: a abolição só ocorreu em 1888 (Lei Áurea), sem indenização aos senhores; a Lei de Terras, de 1850, tratou do acesso à terra, não da escravidão."
+    ]
+  },
+  {
+    "id": "HIS-014",
+    "materia": "historia",
+    "tema": "Brasil Império — Guerra do Paraguai: interpretações e consequências",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "Interpretação I\nDifundida especialmente nas décadas de 1970 e 1980, sustentava que o Paraguai seguia um modelo de desenvolvimento autônomo, que ameaçava os interesses britânicos na região. A Inglaterra teria manipulado Brasil, Argentina e Uruguai para destruir esse modelo.\n\nInterpretação II\nPesquisas posteriores, baseadas em ampla documentação diplomática dos países envolvidos, explicam o conflito sobretudo pelas disputas na região do Rio da Prata — limites, navegação dos rios e interferências na política interna do Uruguai — e pelos projetos de afirmação dos Estados da região, atribuindo papel secundário à influência britânica.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considerando as interpretações e as consequências da guerra (1864–1870) para o Império do Brasil, é correto afirmar que",
+    "alternativas": [
+      "a interpretação I foi confirmada pelos arquivos diplomáticos britânicos, que revelaram ordens de Londres para que o Brasil invadisse o território paraguaio em 1864.",
+      "o conflito começou com a invasão do Paraguai pelo Brasil, como represália à Questão Christie, que havia levado ao rompimento de relações entre os dois países.",
+      "o Paraguai foi integralmente anexado por Brasil e Argentina ao final da guerra, o que confirma o caráter imperialista atribuído ao conflito pela interpretação I.",
+      "a interpretação II valoriza a dinâmica regional, e o conflito fortaleceu politicamente o Exército brasileiro, que se tornaria um dos atores da crise da monarquia.",
+      "a guerra fortaleceu a monarquia, pois os oficiais voltaram desmobilizados e sem reivindicações, o que afastou os militares da política até o fim do Império."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber dois movimentos: um historiográfico (como a guerra é explicada) e outro de consequência (o que ela mudou no Brasil).\n\nSobre as explicações: a interpretação I ganhou força num contexto latino-americano de crítica ao imperialismo, mas pesquisas posteriores em arquivos de vários países não encontraram evidências de que Londres tenha planejado o conflito. A interpretação II recoloca o centro da explicação na própria região platina: em 1864, o Brasil interveio no Uruguai em apoio a Venancio Flores, adversário do governo uruguaio aliado de Solano López; o Paraguai reagiu apreendendo o navio brasileiro Marquês de Olinda e invadindo o Mato Grosso; depois, ao atravessar território argentino, levou à formação da Tríplice Aliança (Brasil, Argentina e Uruguai) em 1865.\n\nSobre as consequências: o Exército, antes secundário diante da Guarda Nacional, saiu da guerra maior, prestigiado e consciente de si como corporação. Oficiais passaram a se queixar do tratamento recebido do governo civil, o que culminaria na chamada Questão Militar, na década de 1880, e muitos aderiram ao positivismo e ao republicanismo. O Manifesto Republicano é de 1870, ano do fim da guerra, e a República foi proclamada por militares em 1889.\n\nPara lembrar: a historiografia recente explica a Guerra do Paraguai pela dinâmica platina, e um de seus efeitos centrais foi a politização do Exército, peça-chave na queda da monarquia.",
+    "erradas": [
+      "Falso: as pesquisas em arquivos diplomáticos, inclusive britânicos, não sustentaram a tese da manipulação inglesa; foi justamente essa documentação que fortaleceu a interpretação II.",
+      "Junta fatos verdadeiros numa relação errada: a Questão Christie foi um conflito diplomático entre Brasil e Inglaterra. A guerra começou com ações paraguaias, como a apreensão de um navio brasileiro e a invasão do Mato Grosso.",
+      "Falso: o Paraguai perdeu territórios e sofreu enorme perda populacional, mas continuou como Estado independente; por isso a afirmação não pode servir de prova para a interpretação I.",
+      "",
+      "Inverte a consequência: os militares voltaram fortalecidos e com reivindicações, envolveram-se na Questão Militar e tiveram papel decisivo na Proclamação da República, em 1889."
+    ]
+  },
+  {
+    "id": "HIS-015",
+    "materia": "historia",
+    "tema": "Brasil República — Primeira República e coronelismo",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "sociologia"
+    ],
+    "texto": "O coronelismo não deve ser entendido como simples sobrevivência do poder privado dos grandes proprietários. Ele é, antes, um compromisso, uma troca de proveitos entre o poder público, que vinha se fortalecendo, e a influência social já decadente dos chefes locais. O coronel garante os votos do município aos candidatos do governo estadual e, em troca, recebe o controle dos cargos públicos e dos recursos destinados à sua localidade.\n\n(Adaptado de ideias de Victor Nunes Leal, Coronelismo, Enxada e Voto, 1949.)",
+    "enunciado": "Com base no texto e no funcionamento da Primeira República (1889–1930), é correto afirmar que",
+    "alternativas": [
+      "o texto apresenta o coronelismo como sinal da força crescente dos grandes proprietários diante de um Estado praticamente inexistente no interior do país.",
+      "o voto secreto, instituído pela Constituição de 1891, impedia que os coronéis fiscalizassem os eleitores, que por isso eram controlados apenas pela violência.",
+      "o coronelismo foi extinto com a Proclamação da República, que substituiu o poder das oligarquias locais pelo sufrágio universal masculino e feminino.",
+      "a política dos governadores, criada por Getúlio Vargas, centralizou o poder ao substituir os governadores eleitos por interventores nomeados pelo presidente.",
+      "o voto aberto e a exclusão dos analfabetos favoreciam esse compromisso, em que votos municipais sustentavam oligarquias estaduais aliadas ao governo federal."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é perceber que, para Victor Nunes Leal, o coronelismo é uma **relação de troca** entre níveis de poder, e não o domínio absoluto de um senhor isolado. Por isso ele fala em compromisso entre um Estado em fortalecimento e chefes locais em declínio: o coronel precisa do governo para manter seu prestígio, e o governo precisa do coronel para obter votos.\n\nNa Primeira República, essa engrenagem se encaixava em outra maior. A Constituição de 1891 excluiu os analfabetos — a maioria da população — do direito de voto, e o voto era aberto, o que facilitava o controle dos eleitores (o chamado voto de cabresto) e as fraudes. Os votos dos municípios garantiam a vitória das oligarquias estaduais; e, pela política dos governadores, consolidada no governo Campos Sales (1898–1902), o presidente apoiava as oligarquias estaduais, e estas elegiam bancadas fiéis ao governo federal. A Comissão de Verificação de Poderes do Congresso podia ainda barrar a diplomação de opositores eleitos.\n\nO voto secreto e o voto feminino só vieram com o Código Eleitoral de 1932, já na Era Vargas.\n\nPara lembrar: o coronelismo é a base municipal de um pacto em cadeia — coronéis, oligarquias estaduais e governo federal — sustentado pelo voto aberto e restrito da Primeira República.",
+    "erradas": [
+      "Lê o texto ao contrário: Leal fala em poder público que se fortalecia e em influência decadente dos chefes locais; o coronelismo seria um compromisso entre ambos, não sinal de Estado inexistente.",
+      "Falso: na Primeira República o voto era aberto, o que facilitava o controle dos eleitores; o voto secreto só foi instituído pelo Código Eleitoral de 1932.",
+      "Falso: a República não acabou com o poder das oligarquias, que foi justamente a marca do período; e as mulheres só conquistaram o direito de voto em 1932.",
+      "Confunde períodos: a política dos governadores foi articulada por Campos Sales (1898–1902); os interventores nomeados são característicos do governo Vargas, após 1930.",
+      ""
+    ]
+  },
+  {
+    "id": "HIS-016",
+    "materia": "historia",
+    "tema": "Brasil República — Era Vargas, anticomunismo e Estado Novo",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "literatura"
+    ],
+    "texto": "Em 1935, foi aprovada a Lei de Segurança Nacional, e a Aliança Nacional Libertadora foi fechada pelo governo. Em novembro do mesmo ano, levantes militares liderados por comunistas em Natal, Recife e Rio de Janeiro foram derrotados. Em 1937, a divulgação de um suposto plano comunista de tomada do poder, mais tarde reconhecido como forjado, serviu de justificativa para o golpe que instituiu o Estado Novo. No mesmo ano, Rachel de Queiroz publicou Caminho de Pedras, romance ambientado em Fortaleza na década de 1930, que acompanha a militância de um pequeno grupo comunista sob vigilância policial.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Relacionando o contexto descrito ao romance, é correto afirmar que",
+    "alternativas": [
+      "o romance celebra o Estado Novo, apresentando a repressão policial como resposta necessária à ameaça comunista revelada pelo plano divulgado em 1937.",
+      "o romance, ao tratar da militância e da vigilância policial, dialoga com o anticomunismo que o governo Vargas explorou para justificar o fechamento do regime.",
+      "o golpe de 1937 foi uma reação à entrada do Brasil na Segunda Guerra Mundial ao lado dos Aliados, decisão que fortaleceu os comunistas dentro do Exército.",
+      "a Lei de Segurança Nacional foi criada depois do golpe do Estado Novo com o objetivo de legalizar o Partido Comunista e integrá-lo ao sindicalismo oficial.",
+      "os levantes de 1935 foram liderados pelos integralistas e, por isso, levaram Vargas a aproximar-se dos comunistas na formação do Estado Novo."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que a literatura dos anos 1930 dialoga diretamente com a radicalização política da época — e a questão pede que você una o romance ao contexto, sem exagerar nem inverter.\n\nNa primeira metade da década, a polarização entre a esquerda (Partido Comunista e, a partir de 1935, a Aliança Nacional Libertadora) e a direita (Ação Integralista Brasileira) se intensificou. O governo Vargas respondeu com a Lei de Segurança Nacional (1935) e o fechamento da ANL. Os levantes comunistas de novembro de 1935, derrotados, foram usados para ampliar a repressão, com estado de sítio, prisões em massa e um clima de medo do perigo vermelho. Em 1937, o Plano Cohen — documento forjado e atribuído aos comunistas — serviu de pretexto para o golpe de 10 de novembro, que instaurou o Estado Novo.\n\nCaminho de Pedras, de Rachel de Queiroz, autora da geração de 30, acompanha a militância comunista em Fortaleza, com seus conflitos internos, a vigilância policial e os custos pessoais do engajamento, inclusive na vida pessoal da protagonista. O livro não explica o golpe, mas ilumina, pela ficção, o mesmo ambiente de perseguição que o governo explorou.\n\nPara lembrar: o anticomunismo, alimentado pelos levantes de 1935 e pelo forjado Plano Cohen, foi a principal justificativa para o golpe que criou o Estado Novo em 1937.",
+    "erradas": [
+      "Inverte o enfoque da obra, que acompanha a experiência dos militantes vigiados e perseguidos, e não a perspectiva do regime; nada no romance o aproxima de uma celebração da repressão ou do Estado Novo.",
+      "",
+      "Anacronismo: o Estado Novo começou em 1937, e o Brasil só declarou guerra ao Eixo em 1942. A participação na guerra, aliás, contribuiu para enfraquecer a ditadura, e não para criá-la.",
+      "Erro cronológico e de sentido: a Lei de Segurança Nacional é de 1935, anterior ao golpe, e foi usada para reprimir os comunistas, não para legalizá-los.",
+      "Confunde os grupos: os levantes de 1935 foram comunistas; os integralistas apoiaram inicialmente o golpe de 1937, foram postos na ilegalidade com os demais partidos e tentaram um levante em 1938."
+    ]
+  },
+  {
+    "id": "HIS-017",
+    "materia": "historia",
+    "tema": "Brasil República — ditadura civil-militar e milagre econômico",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [
+      "sociologia"
+    ],
+    "texto": "Entre 1968 e 1973, a economia brasileira cresceu a taxas muito elevadas, período que ficou conhecido como milagre econômico. Os censos indicaram, porém, que a concentração de renda aumentou entre 1960 e 1970. Duas interpretações disputaram a explicação.\n\nInterpretação I — O crescimento acelerado elevou a demanda por trabalhadores qualificados, que eram escassos; por isso, seus salários subiram mais do que os demais. A desigualdade seria transitória e tenderia a diminuir com a expansão da escolaridade.\n\nInterpretação II — A concentração resultou de escolhas políticas, sobretudo da política salarial que fazia o salário mínimo real perder valor. Essa política só pôde ser mantida porque os sindicatos estavam sob controle do governo e as greves eram reprimidas.\n\n(Texto elaborado para esta questão, com base no debate entre economistas nos anos 1970.)",
+    "enunciado": "Considerando o contexto político do período, é correto afirmar que",
+    "alternativas": [
+      "a interpretação II articula economia e regime político, pois a repressão a sindicatos e greves reduziu o poder dos trabalhadores de negociar reajustes.",
+      "a interpretação I atribui a concentração de renda ao AI-5, que teria extinguido o salário mínimo e proibido a contratação de trabalhadores sem escolaridade formal.",
+      "o milagre econômico ocorreu durante o governo João Goulart e terminou com o golpe de 1964, quando a política salarial passou a favorecer os trabalhadores mais pobres.",
+      "as duas interpretações concordam que a concentração foi revertida pela crise do petróleo de 1973, que encerrou o milagre e redistribuiu a renda nacional.",
+      "a interpretação II sustenta que o crescimento foi financiado exclusivamente por poupança interna, sem nenhum recurso a empréstimos externos ou a capital estrangeiro."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber que as duas interpretações aceitam o mesmo dado — crescimento com aumento da desigualdade —, mas divergem sobre o **mecanismo** que o produziu, e só uma delas liga esse mecanismo ao regime político.\n\n**A teoria por trás.** A interpretação I é uma explicação de mercado: se um tipo de trabalhador é escasso e muito procurado, seu salário sobe; a desigualdade seria um efeito colateral passageiro do crescimento, corrigível com educação. A interpretação II é uma explicação institucional e política: salários não dependem só de oferta e procura, mas também do poder de negociação dos trabalhadores, que é definido por leis, sindicatos e direito de greve. Na sociologia, essa diferença aparece no debate sobre se a desigualdade resulta de méritos e qualificações ou de relações de poder entre grupos sociais.\n\n**O contexto que dá força à II.** Desde 1964, o regime interveio em sindicatos, passou a fixar os reajustes salariais por fórmulas definidas pelo governo e restringiu as greves. Com o AI-5 (dezembro de 1968), a repressão se aprofundou: suspensão de garantias, censura, cassações e perseguição a opositores. Num ambiente assim, os trabalhadores de menor renda não tinham meios de converter o crescimento em salário. Não por acaso, quando as grandes greves do ABC eclodiram (1978–1980), elas se tornaram também um questionamento político da ditadura.\n\n**O que não confundir.** O milagre foi financiado em boa parte com endividamento externo e capital estrangeiro, o que tornaria a economia vulnerável após o choque do petróleo de 1973. E a ideia de crescer primeiro para distribuir depois, difundida à época, não se confirmou.\n\nPara lembrar: no milagre econômico, crescimento e concentração de renda caminharam juntos, e a repressão sindical é peça central da explicação política dessa desigualdade.",
+    "erradas": [
+      "",
+      "Atribui à interpretação I o que ela não diz: essa leitura é de mercado (escassez de mão de obra qualificada) e não menciona o AI-5; além disso, o salário mínimo não foi extinto.",
+      "Erro de período: o milagre ocorreu entre 1968 e 1973, já sob a ditadura, sobretudo no governo Médici; o governo Goulart foi deposto em 1964, antes dele.",
+      "Falso: o choque do petróleo de 1973 marcou o fim do milagre e agravou inflação e dívida externa, sem promover redistribuição de renda; o texto também não indica acordo entre as interpretações.",
+      "Extrapolação e erro factual: a interpretação II não trata do financiamento, e o milagre dependeu fortemente de empréstimos externos e de investimento estrangeiro."
+    ]
+  },
+  {
+    "id": "HIS-018",
+    "materia": "historia",
+    "tema": "Brasil República — redemocratização (1974–1988)",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "texto": "Leitura I — A transição brasileira foi conduzida pelos próprios governantes militares, que, a partir de meados dos anos 1970, anunciaram uma abertura lenta, gradual e segura, controlando o ritmo e os limites das mudanças.\n\nLeitura II — A transição foi arrancada pela sociedade: greves operárias, movimentos de bairro, entidades profissionais e a campanha pelas eleições diretas pressionaram o regime e ampliaram o espaço da oposição.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considerando as duas leituras e os acontecimentos entre 1979 e 1985, é correto afirmar que",
+    "alternativas": [
+      "a emenda das eleições diretas foi aprovada pelo Congresso em 1984, graças à pressão das ruas, o que permitiu que Tancredo Neves fosse eleito pelo voto popular em 1985.",
+      "a Lei da Anistia, de 1979, excluiu expressamente os agentes do Estado, que passaram a ser julgados por crimes de tortura logo após a posse do primeiro presidente civil.",
+      "a derrota da emenda das diretas mostra o controle do regime sobre a transição, mas a vitória oposicionista no Colégio Eleitoral, com dissidentes governistas, revela seus limites.",
+      "a Constituição de 1988 foi elaborada antes da eleição de Tancredo Neves, que governou o país sob a nova Carta até ser sucedido por José Sarney ao fim do mandato.",
+      "assim como em Portugal em 1974, a transição brasileira resultou de um levante de oficiais de média patente que derrubou o regime e entregou o poder aos civis."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é perceber que as duas leituras não precisam ser excludentes: a transição brasileira combinou **controle pelo alto** e **pressão por baixo**, e os fatos de 1979–1985 mostram as duas forças em ação.\n\nControle pelo alto: o projeto de abertura começou no governo Geisel (1974–1979) e prosseguiu com Figueiredo (1979–1985). A Lei da Anistia (1979) permitiu a volta de exilados, mas, por abranger os chamados crimes conexos, foi interpretada como cobrindo também os agentes do Estado — interpretação mantida pelo STF em 2010. Em 1984, a emenda Dante de Oliveira, que restabelecia as eleições diretas para presidente, obteve maioria na Câmara, mas não alcançou os dois terços exigidos, e a sucessão de 1985 ficou com o Colégio Eleitoral.\n\nPressão por baixo: as greves do ABC (1978–1980), a reorganização partidária e a campanha das Diretas Já, com enormes comícios em 1984, mudaram o ambiente político. Mesmo derrotada a emenda, a oposição, aliada a dissidentes do partido do governo, venceu no Colégio Eleitoral em janeiro de 1985 com Tancredo Neves, que adoeceu e morreu sem tomar posse; José Sarney assumiu. A nova Constituição só viria em 1988, e a primeira eleição direta para presidente, em 1989.\n\nPara lembrar: a redemocratização foi negociada e teve suas regras controladas pelo regime, mas a mobilização social e as divisões internas da base governista impuseram limites a esse controle.",
+    "erradas": [
+      "Falso: a emenda Dante de Oliveira foi rejeitada em 1984 por não alcançar dois terços dos votos na Câmara; Tancredo Neves foi eleito indiretamente, pelo Colégio Eleitoral.",
+      "Inverte a lei: por abranger os crimes conexos, ela foi interpretada como cobrindo também os agentes do Estado, leitura mantida pelo STF em 2010; não houve julgamentos desse tipo na transição.",
+      "",
+      "Erro cronológico: Tancredo foi eleito em janeiro de 1985 e morreu em abril, sem tomar posse; a Constituinte veio depois, e a Constituição foi promulgada em 5 de outubro de 1988, no governo Sarney.",
+      "Comparação indevida: a Revolução dos Cravos, em Portugal, foi uma ruptura liderada por militares; no Brasil, a transição foi negociada, sem levante que derrubasse o regime."
+    ]
+  },
+  {
+    "id": "HIS-019",
+    "materia": "historia",
+    "tema": "América — Revolução Haitiana e seus efeitos no mundo atlântico",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "No final do século XVIII, a colônia francesa de Saint-Domingue era uma das mais lucrativas do mundo, grande produtora de açúcar e café, com uma população majoritariamente escravizada. A partir de 1791, uma insurreição de escravizados desencadeou um longo processo revolucionário que resultou, em 1804, na independência do Haiti.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Sobre esse processo e seus desdobramentos nas Américas, é correto afirmar que",
+    "alternativas": [
+      "o Haiti tornou-se o primeiro país do continente americano a conquistar a independência política, servindo de modelo direto para a emancipação das Treze Colônias.",
+      "a revolução foi conduzida por proprietários brancos que, como as elites crioulas da América espanhola, conquistaram a independência mantendo a escravidão.",
+      "a revolta haitiana antecedeu a Revolução Francesa e inspirou a Declaração dos Direitos do Homem e do Cidadão, aprovada pela Assembleia em Paris.",
+      "a abolição da escravidão nas colônias francesas, decretada pela Convenção em 1794, permaneceu em vigor sem interrupção e serviu de modelo ao Brasil imperial.",
+      "o colapso produtivo de Saint-Domingue favoreceu o açúcar de Cuba e do Brasil, e o medo de revoltas semelhantes reforçou o conservadorismo das elites escravistas."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é perceber que a Revolução Haitiana teve efeitos em duas frentes: **econômica** (o mercado mundial de açúcar) e **política** (o imaginário das elites escravistas).\n\nNo plano econômico, Saint-Domingue era a joia do império colonial francês. A guerra destruiu boa parte de sua produção, e outras áreas ocuparam esse espaço no mercado: Cuba viveu uma grande expansão açucareira a partir do fim do século XVIII, e o Brasil também se beneficiou da alta dos preços.\n\nNo plano político, a primeira revolta de escravizados a resultar na fundação de um Estado independente aterrorizou proprietários em todo o continente. No Brasil, o termo haitianismo passou a designar o medo de rebeliões escravas, o que ajuda a explicar por que as elites preferiram uma independência que preservasse a ordem e a escravidão. Em Cuba, o mesmo temor contribuiu para que parte da elite crioula evitasse romper com a Espanha no início do século XIX.\n\nCronologia para eliminar distratores: independência das Treze Colônias (1776), Revolução Francesa (1789), insurreição de Saint-Domingue (1791), abolição pela Convenção (1794), restabelecimento da escravidão por Napoleão (1802), independência do Haiti (1804), abolição definitiva nas colônias francesas (1848).\n\nPara lembrar: a Revolução Haitiana redistribuiu a produção de açúcar no Caribe e alimentou, entre as elites escravistas da América, o medo que reforçou projetos políticos conservadores.",
+    "erradas": [
+      "Erro cronológico: os Estados Unidos declararam independência em 1776 e foram reconhecidos em 1783; o Haiti, em 1804, foi o segundo país independente da América.",
+      "Falso: a revolução foi feita por escravizados e libertos, e a independência consolidou o fim da escravidão; o caminho das elites crioulas hispano-americanas foi bem diferente.",
+      "Inversão cronológica: a Revolução Francesa começou em 1789 e a insurreição de Saint-Domingue, em 1791; os ideais revolucionários franceses é que repercutiram na colônia.",
+      "Falso: Napoleão restabeleceu a escravidão em 1802, e a abolição definitiva nas colônias francesas só ocorreu em 1848. O Brasil aboliu a escravidão apenas em 1888, e suas elites temiam o exemplo haitiano.",
+      ""
+    ]
+  },
+  {
+    "id": "HIS-020",
+    "materia": "historia",
+    "tema": "África — descolonização da África portuguesa",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "sociologia"
+    ],
+    "texto": "Segundo uma doutrina formulada por um intelectual brasileiro e adotada pelo regime salazarista a partir dos anos 1950, os portugueses teriam uma aptidão singular para conviver com os povos dos trópicos, misturar-se a eles e criar sociedades sem preconceito racial. Com base nessa ideia, o governo de Lisboa passou a chamar suas colônias de províncias ultramarinas e a afirmar que Portugal era uma nação pluricontinental, e não um império colonial.\n\n(Texto elaborado para esta questão, com base no chamado lusotropicalismo.)",
+    "enunciado": "Considerando o texto e o processo de independência das colônias portuguesas na África, é correto afirmar que",
+    "alternativas": [
+      "a doutrina descrita foi elaborada pelos movimentos de libertação africanos, que defendiam a mestiçagem com os portugueses como fundamento das novas nações independentes.",
+      "Angola e Moçambique tornaram-se independentes de forma pacífica em 1960, o chamado Ano da África, quando Salazar aceitou as resoluções da ONU sobre descolonização.",
+      "a Revolução dos Cravos ocorreu depois das independências africanas e foi provocada pela crise econômica que a perda das colônias causou em Portugal.",
+      "o discurso negava o caráter colonial do império, mas as guerras de libertação desgastaram o regime e contribuíram para o golpe de 1974, que abriu caminho às independências.",
+      "após a independência, Angola e Moçambique viveram longos períodos de estabilidade, sem guerras civis, graças ao legado de convivência racial descrito no texto."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber a relação de **causalidade recíproca** entre a luta anticolonial na África e a queda da ditadura em Portugal.\n\nDepois da Segunda Guerra, a pressão internacional pela descolonização cresceu; em 1960, a ONU aprovou uma declaração sobre a concessão de independência aos países e povos coloniais, e muitos territórios franceses e britânicos se tornaram independentes. O regime salazarista resistiu: redefiniu as colônias como províncias ultramarinas (revisão constitucional de 1951) e apropriou-se do lusotropicalismo, formulado por Gilberto Freyre, para sustentar que Portugal não era um império colonial. Do ponto de vista sociológico, trata-se de uma **ideologia**: um discurso que encobria trabalho forçado, discriminação e acesso restrito à cidadania para a maioria africana.\n\nOs movimentos de libertação responderam com a luta armada: Angola (1961), Guiné-Bissau (1963) e Moçambique (1964). As guerras se arrastaram por mais de uma década, consumiram recursos e vidas e desgastaram as Forças Armadas. Foram oficiais do Movimento das Forças Armadas que derrubaram a ditadura em 25 de abril de 1974 — a Revolução dos Cravos —, e o novo governo negociou as independências: Moçambique e Angola, por exemplo, tornaram-se independentes em 1975. Ou seja, as lutas africanas não foram apenas consequência da revolução portuguesa; foram também uma de suas causas.\n\nPara lembrar: as guerras coloniais desgastaram a ditadura portuguesa e ajudaram a provocar a Revolução dos Cravos, que por sua vez abriu caminho para as independências africanas.",
+    "erradas": [
+      "Inverte a autoria e o uso: o lusotropicalismo foi formulado por Gilberto Freyre e apropriado pelo regime de Lisboa para justificar a permanência colonial; os movimentos de libertação o denunciavam.",
+      "Mistura contextos: 1960 foi marcado pela independência de muitas colônias, sobretudo francesas, mas Portugal recusou a descolonização, e Angola e Moçambique só se tornaram independentes em 1975, após guerras de libertação.",
+      "Inverte cronologia e causalidade: a Revolução dos Cravos (abril de 1974) veio antes das independências de 1975, e foi o desgaste das guerras coloniais, e não a perda das colônias, que contribuiu para ela.",
+      "",
+      "Falso: Angola enfrentou guerra civil de 1975 a 2002, e Moçambique, de 1977 a 1992; o texto descreve um discurso ideológico, não uma realidade de convivência sem conflitos."
+    ]
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "id": "FIS-B-001",
+    "materia": "fisica",
+    "tema": "Termologia — calorimetria com mudança de fase (termorregulação)",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["biologia"],
+    "texto": "Durante um exercício intenso, apenas parte da energia liberada pelo metabolismo se converte em trabalho mecânico; o restante é calor, que precisa ser eliminado para que a temperatura corporal se mantenha estável. Em dias quentes, a principal via de perda de calor é a evaporação do suor sobre a pele. Texto elaborado para esta questão.",
+    "enunciado": "Um ciclista pedala durante 1 hora com taxa metabólica constante de 1000 W. A eficiência mecânica do corpo é de 20%, ou seja, 20% dessa potência vira trabalho nos pedais e o restante vira calor. Nesse dia quente, 25% do calor produzido é eliminado por convecção e radiação, e todo o restante, pela evaporação do suor. Além disso, 10% do suor produzido escorre e pinga sem evaporar, sem contribuir para o resfriamento. Considerando que a temperatura corporal permanece constante e que o calor latente de vaporização da água à temperatura da pele vale 2400 J/g, a massa total de suor produzida nessa hora é:",
+    "alternativas": ["250 g", "900 g", "990 g", "1000 g", "1250 g"],
+    "correta": 3,
+    "explicacao": "O ponto aqui é seguir a energia em etapas: metabolismo → calor → parcela evaporativa → suor evaporado → suor produzido. Como a temperatura corporal é constante, todo o calor gerado precisa sair do corpo.\n\n**1) Potência térmica.** Dos 1000 W, 20% (200 W) viram trabalho mecânico; sobram 800 W de calor.\n\n**2) Parcela eliminada por evaporação.** 25% desse calor sai por convecção e radiação, então a evaporação precisa remover 75% de 800 W = 600 W.\n\n**3) Energia em 1 hora.** Q = P·Δt = 600 W × 3600 s = 2,16 × 10⁶ J.\n\n**4) Suor evaporado.** Q = m·L → m = 2,16 × 10⁶ / 2400 = 900 g. Atalho: 3600/2400 = 1,5, então m = 600 × 1,5 = 900 g.\n\n**5) Suor produzido.** Os 900 g evaporados são apenas 90% do suor produzido (os outros 10% pingam). Logo, m(total) = 900/0,9 = 1000 g, cerca de 1 litro de suor em uma hora.\n\nRepare na biologia por trás: o suor que pinga não resfria nada, porque o resfriamento vem do calor latente absorvido na mudança de fase da água sobre a pele. É por isso que o ar muito úmido, que dificulta a evaporação, torna o exercício no calor tão perigoso.\n\nPara lembrar: na termorregulação, quem resfria o corpo é a evaporação do suor (calor latente), não a simples produção de suor.",
+    "erradas": [
+      "Valor obtido ao tratar os 20% (200 W) como o calor a ser eliminado, confundindo a potência mecânica com a potência térmica.",
+      "Essa é a massa que evapora; faltou incluir o suor que pinga sem evaporar (os 900 g são só 90% do total produzido).",
+      "Valor obtido ao acrescentar 10% aos 900 g evaporados; o correto é dividir por 0,9, porque os 900 g correspondem a 90% do suor produzido.",
+      "",
+      "Valor obtido ao considerar toda a potência metabólica (1000 W) como calor, esquecendo que 200 W viram trabalho nos pedais."
+    ]
+  },
+  {
+    "id": "FIS-B-002",
+    "materia": "fisica",
+    "tema": "Termologia — dilatação térmica de líquidos",
+    "nivel": "fuvest",
+    "origem": "Estilo livro (Tópicos de Física)",
+    "inter": [],
+    "enunciado": "Um frasco feito de um metal cujo coeficiente de dilatação linear é 1,0 × 10⁻⁵ °C⁻¹ tem capacidade de 500 cm³ a 20 °C e está completamente cheio de um líquido nessa temperatura. O conjunto é aquecido uniformemente até 60 °C e, durante o aquecimento, transbordam 10 cm³ do líquido. O coeficiente de dilatação volumétrica real do líquido é:",
+    "alternativas": ["4,7 × 10⁻⁴ °C⁻¹", "5,0 × 10⁻⁴ °C⁻¹", "5,1 × 10⁻⁴ °C⁻¹", "5,2 × 10⁻⁴ °C⁻¹", "5,3 × 10⁻⁴ °C⁻¹"],
+    "correta": 4,
+    "explicacao": "O ponto aqui é perceber que o volume que transborda NÃO é a dilatação do líquido: é só a diferença entre o quanto o líquido dilatou e o quanto o frasco, que também esquentou, aumentou de capacidade.\n\n**Teoria: de onde vem γ = 3α.** Quando um sólido é aquecido, cada dimensão linear cresce segundo ΔL = L₀·α·ΔT. Um cubo de aresta L passa a ter aresta L·(1 + αΔT), e seu volume passa a L³·(1 + αΔT)³ ≈ L³·(1 + 3αΔT), porque os termos com α² e α³ são desprezíveis (α é da ordem de 10⁻⁵). Daí o coeficiente volumétrico de um sólido isótropo ser γ = 3α. E o detalhe que mais derruba alunos: a cavidade de um frasco dilata como se fosse maciça, feita do próprio material do frasco. A capacidade AUMENTA com o aquecimento.\n\n**Teoria: dilatação aparente.** Quem observa só o transbordamento enxerga uma dilatação aparente, menor que a real, porque parte da dilatação do líquido é acomodada pelo aumento da capacidade do frasco. O balanço é: dilatação real do líquido = aumento da capacidade do frasco + volume transbordado, isto é, V₀·γ(real)·ΔT = V₀·γ(frasco)·ΔT + V(transbordado). Dividindo tudo por V₀·ΔT: γ(real) = γ(frasco) + γ(aparente).\n\n**Contas.** γ(aparente) = 10/(500 × 40) = 5,0 × 10⁻⁴ °C⁻¹. γ(frasco) = 3 × 1,0 × 10⁻⁵ = 0,3 × 10⁻⁴ °C⁻¹. Logo, γ(real) = 5,0 × 10⁻⁴ + 0,3 × 10⁻⁴ = 5,3 × 10⁻⁴ °C⁻¹.\n\n**Conferindo.** O líquido dilata 500 × 5,3 × 10⁻⁴ × 40 = 10,6 cm³; o frasco ganha 500 × 3,0 × 10⁻⁵ × 40 = 0,6 cm³ de capacidade; sobram exatamente 10 cm³ para transbordar.\n\nObserve que a correção do frasco é pequena (cerca de 6% do resultado), porque líquidos dilatam muito mais que sólidos; ignorá-la, porém, é justamente o erro que a questão cobra.\n\nPara lembrar: γ(real) = γ(aparente) + γ(recipiente), e o recipiente entra com o coeficiente volumétrico γ = 3α.",
+    "erradas": [
+      "Valor obtido ao subtrair a dilatação do frasco da aparente, como se o aquecimento diminuísse a capacidade do recipiente.",
+      "Esse é só o coeficiente aparente (10 cm³ divididos por 500 cm³ e por 40 °C); faltou somar a dilatação do frasco.",
+      "Valor obtido ao somar o coeficiente linear α do metal, em vez do coeficiente volumétrico 3α.",
+      "Valor obtido ao somar 2α (coeficiente superficial) em vez de 3α; a capacidade do frasco é um volume.",
+      ""
+    ]
+  },
+  {
+    "id": "FIS-B-003",
+    "materia": "fisica",
+    "tema": "Termodinâmica — ciclos e rendimento",
+    "nivel": "acima",
+    "origem": "Estilo ITA/IME (fácil)",
+    "inter": [],
+    "enunciado": "Uma amostra de gás ideal monoatômico descreve um ciclo representado, no diagrama p × V, por um retângulo. Partindo do estado A (pressão p₀, volume V₀), o gás sofre: A → B, aquecimento a volume constante até a pressão 3p₀; B → C, expansão isobárica até o volume 3V₀; C → D, resfriamento a volume constante até a pressão p₀; D → A, compressão isobárica de volta ao estado inicial. Para esse gás, a energia interna é U = (3/2)·p·V. O rendimento de uma máquina térmica que opera segundo esse ciclo (razão entre o trabalho líquido realizado e o calor absorvido por ciclo) é:",
+    "alternativas": ["1/5", "2/9", "4/15", "1/3", "8/9"],
+    "correta": 1,
+    "explicacao": "O ponto aqui é lembrar que o rendimento usa só o calor ABSORVIDO (as etapas em que Q > 0), e não o saldo de calor, e que cada tipo de transformação tem sua expressão para Q.\n\n**Trabalho líquido.** É a área do retângulo: W = (3p₀ − p₀)·(3V₀ − V₀) = 4p₀V₀. O ciclo é horário (expansão na pressão alta, compressão na pressão baixa), então W > 0: é uma máquina térmica.\n\n**Calor em cada etapa** (1ª lei: Q = ΔU + W, com U = (3/2)pV):\n\n• A → B (isocórica): W = 0, então Q = ΔU = (3/2)·V₀·(3p₀ − p₀) = 3p₀V₀ (absorvido).\n\n• B → C (isobárica): ΔU = (3/2)·3p₀·2V₀ = 9p₀V₀ e W = 3p₀·2V₀ = 6p₀V₀, logo Q = 15p₀V₀ (absorvido). Atalho: na isobárica de um gás monoatômico, Q = (5/2)·p·ΔV.\n\n• C → D (isocórica): Q = (3/2)·3V₀·(p₀ − 3p₀) = −9p₀V₀ (cedido).\n\n• D → A (isobárica): Q = (5/2)·p₀·(V₀ − 3V₀) = −5p₀V₀ (cedido).\n\nConferência: 3 + 15 − 9 − 5 = 4, ou seja, Q(líquido) = 4p₀V₀ = W, como deve ser num ciclo (ΔU total nulo).\n\n**Rendimento.** η = W/Q(absorvido) = 4p₀V₀/(3p₀V₀ + 15p₀V₀) = 4/18 = 2/9 ≈ 22%.\n\nComparação útil: as temperaturas extremas ocorrem em A (pV = p₀V₀) e em C (pV = 9p₀V₀). Uma máquina de Carnot entre essas temperaturas teria η = 1 − 1/9 = 8/9; o ciclo retangular rende bem menos, como exige a 2ª lei.\n\nPara lembrar: η = W/Q(absorvido); para gás monoatômico, na isocórica Q = (3/2)·V·Δp e na isobárica Q = (5/2)·p·ΔV.",
+    "erradas": [
+      "Valor obtido ao usar o fator 5/2 também na isocórica A → B (Q = 5p₀V₀), como se houvesse trabalho a volume constante.",
+      "",
+      "Valor obtido ao considerar como calor absorvido só a expansão isobárica (15p₀V₀), esquecendo o aquecimento isocórico A → B.",
+      "Valor obtido ao usar Q = ΔU na isobárica (9p₀V₀), esquecendo o trabalho de expansão realizado pelo gás nessa etapa.",
+      "Esse é o rendimento de Carnot entre as temperaturas extremas do ciclo, um limite teórico que o ciclo retangular não atinge."
+    ]
+  },
+  {
+    "id": "FIS-B-004",
+    "materia": "fisica",
+    "tema": "Eletrodinâmica — associação de resistores, potência e calorimetria",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Um estudante dispõe de dois aquecedores de imersão idênticos, cada um com a inscrição 1000 W – 220 V. Para não sobrecarregar a instalação, ele liga os dois em série e conecta a associação a uma tomada de 220 V. Os aquecedores são colocados num recipiente com 1,2 kg de gelo picado a 0 °C, e 84% da energia elétrica consumida é transferida ao gelo e, depois, à água resultante. Considere que a resistência dos aquecedores não varia com a temperatura e use: calor latente de fusão do gelo = 336 J/g; calor específico da água = 4,2 J/(g·°C). O tempo necessário para fundir todo o gelo e levar a água obtida a 20 °C é:",
+    "alternativas": ["5 min", "10 min", "16 min", "20 min", "40 min"],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que a potência inscrita (1000 W) só vale quando cada aquecedor recebe 220 V. Na associação em série, a resistência equivalente dobra e a potência total cai.\n\n**1) Potência da associação.** De P = U²/R, cada aquecedor tem R = 220²/1000 = 48,4 Ω. Em série, R(eq) = 96,8 Ω e P = 220²/96,8 = 500 W. Atalho sem contas: com U fixo, P = U²/R; dobrar R divide P por 2. (Cada aquecedor fica com 110 V e dissipa 250 W; os dois juntos, 500 W.)\n\n**2) Potência útil.** 84% de 500 W = 420 W.\n\n**3) Energia necessária.** Fusão: Q₁ = m·L = 1200 × 336 = 403 200 J. Aquecimento de 0 °C a 20 °C: Q₂ = m·c·ΔT = 1200 × 4,2 × 20 = 100 800 J. Total: Q = 504 000 J (ou, de uma vez só, 1200 × (336 + 84) J).\n\n**4) Tempo.** Δt = Q/P(útil) = 504 000/420 = 1200 s = 20 min.\n\nRepare que a escolha entre série e paralelo muda a potência por um fator 4: em paralelo, cada aquecedor receberia 220 V e o conjunto dissiparia 2000 W.\n\nPara lembrar: com tensão fixa, P = U²/R; associar dois resistores iguais em série divide a potência total por 2, e em paralelo a multiplica por 2.",
+    "erradas": [
+      "Tempo calculado com 2000 W, a potência da associação em paralelo (cada aquecedor recebendo os 220 V).",
+      "Tempo calculado com a potência nominal de 1000 W, ignorando que a ligação em série altera a potência dissipada.",
+      "Tempo suficiente só para fundir o gelo (403 200 J); faltou aquecer a água de 0 °C a 20 °C.",
+      "",
+      "Tempo calculado com a potência de um só aquecedor da série (250 W, sob 110 V), esquecendo de somar a do outro."
+    ]
+  },
+  {
+    "id": "FIS-B-005",
+    "materia": "fisica",
+    "tema": "Eletrostática — eletrização por contato, lei de Coulomb e equilíbrio",
+    "nivel": "acima",
+    "origem": "Estilo livro (Tópicos de Física)",
+    "inter": [],
+    "enunciado": "Duas pequenas esferas condutoras idênticas, de mesma massa m, estão presas a fios isolantes de 25 cm de comprimento, cujas extremidades superiores estão fixas num mesmo ponto. Inicialmente, uma das esferas tem carga de 1,2 μC e a outra está neutra. As esferas são postas em contato e depois liberadas; no equilíbrio, ficam em repouso, na mesma horizontal, a 30 cm uma da outra. Despreze as massas dos fios e trate as esferas como cargas puntiformes. Dados: k = 9,0 × 10⁹ N·m²/C²; g = 10 m/s². O valor de m é:",
+    "alternativas": ["2,7 g", "4,8 g", "6,0 g", "9,6 g", "19,2 g"],
+    "correta": 1,
+    "explicacao": "O ponto aqui é encadear três ideias: conservação da carga no contato, lei de Coulomb e equilíbrio de três forças com a geometria do fio.\n\n**Teoria 1 — eletrização por contato.** Ao se tocarem, os dois condutores formam um único condutor, e as cargas se redistribuem até que ambos fiquem no mesmo potencial. Se os condutores são idênticos, por simetria a carga total se divide igualmente. Como a carga total se conserva (1,2 μC + 0 = 1,2 μC), cada esfera fica com q = 0,6 μC = 6 × 10⁻⁷ C.\n\n**Teoria 2 — lei de Coulomb.** F = k·q₁·q₂/d², em que d é a distância ENTRE as cargas (30 cm = 0,30 m): F = 9 × 10⁹ × (6 × 10⁻⁷)²/(0,30)² = 9 × 10⁹ × 36 × 10⁻¹⁴/0,09 = 3,6 × 10⁻² N.\n\n**Teoria 3 — equilíbrio.** Em cada esfera atuam o peso (vertical, mg), a força elétrica (horizontal, F) e a tração T (ao longo do fio). Para a resultante ser nula, as três forças formam um triângulo fechado. Decompondo T: T·cos θ = mg e T·sen θ = F, logo tg θ = F/(mg), sendo θ o ângulo do fio com a vertical.\n\n**Geometria.** Por simetria, cada esfera está a 15 cm da vertical que passa pelo ponto de suspensão. No triângulo retângulo de hipotenusa 25 cm e cateto horizontal 15 cm, o cateto vertical mede 20 cm (triângulo 3-4-5). Então sen θ = 0,6, cos θ = 0,8 e tg θ = 0,75.\n\n**Massa.** m = F/(g·tg θ) = 3,6 × 10⁻²/(10 × 0,75) = 4,8 × 10⁻³ kg = 4,8 g.\n\nObserve que cada esfera sente uma única força elétrica, a exercida pela outra. Pela 3ª lei de Newton, as duas forças do par ação e reação têm o mesmo módulo, mas atuam em corpos diferentes e, por isso, não se somam.\n\nPara lembrar: no pêndulo eletrostático, tg θ = F(elétrica)/peso, e a distância da lei de Coulomb é a distância entre as cargas.",
+    "erradas": [
+      "Valor obtido ao inverter a relação de equilíbrio, fazendo m = F·tg θ/g em vez de m = F/(g·tg θ).",
+      "",
+      "Valor obtido ao usar sen θ no lugar de tg θ, como se a tração no fio tivesse módulo igual ao peso.",
+      "Valor obtido ao supor que cada esfera recebe duas forças elétricas (a sua e a da outra), dobrando F.",
+      "Valor obtido ao usar 15 cm (a distância de cada esfera à vertical) como distância entre as cargas na lei de Coulomb."
+    ]
+  },
+  {
+    "id": "FIS-B-006",
+    "materia": "fisica",
+    "tema": "Magnetismo — indução eletromagnética e conservação de energia",
+    "nivel": "acima",
+    "origem": "Estilo ITA/IME (fácil)",
+    "inter": [],
+    "enunciado": "Dois trilhos condutores verticais e paralelos, separados por 0,50 m, estão ligados na parte superior por um resistor de 0,50 Ω. Uma barra condutora horizontal, de massa 80 g, pode deslizar sem atrito ao longo dos trilhos, sempre em contato elétrico com eles. Todo o arranjo está imerso num campo magnético uniforme e horizontal, de intensidade 0,40 T, perpendicular ao plano dos trilhos. A barra é abandonada do repouso e, após algum tempo, passa a cair com velocidade constante. Despreze a resistência elétrica dos trilhos e da barra, a resistência do ar e a autoindução do circuito, e adote g = 10 m/s². Nessa situação de velocidade constante, a potência dissipada no resistor é:",
+    "alternativas": ["2,0 W", "4,0 W", "8,0 W", "16 W", "32 W"],
+    "correta": 2,
+    "explicacao": "O ponto aqui é que, na velocidade terminal, a força magnética sobre a barra equilibra o peso, e toda a energia potencial gravitacional perdida vira calor no resistor.\n\n**1) Por que surge uma força.** Ao cair, a barra aumenta a área do circuito e, portanto, o fluxo magnético. Surge uma fem induzida ε = B·L·v e uma corrente i = ε/R. A barra percorrida por corrente dentro do campo sofre a força F = B·i·L, que, pela lei de Lenz, se opõe ao movimento (aponta para cima). Quanto maior v, maior F, até que F se iguale ao peso.\n\n**2) Corrente na velocidade terminal.** B·i·L = mg → i = mg/(B·L) = 0,80/(0,40 × 0,50) = 4,0 A.\n\n**3) Potência no resistor.** P = R·i² = 0,50 × 16 = 8,0 W.\n\n**Conferência pela energia.** ε = R·i = 2,0 V e v = ε/(B·L) = 2,0/0,20 = 10 m/s. A potência do peso é mg·v = 0,80 × 10 = 8,0 W, igual à dissipada: com velocidade constante, a energia cinética não varia, então todo o trabalho do peso vira calor por efeito Joule.\n\nAtalho: v(terminal) = mgR/(B²L²), logo P = mg·v = (mg)²·R/(B·L)² = 0,64 × 0,50/0,04 = 8,0 W.\n\nPara lembrar: na velocidade terminal de um condutor sob indução, a potência do peso é integralmente convertida em potência elétrica dissipada no circuito.",
+    "erradas": [
+      "Valor obtido ao escrever a força magnética como F = B·i, sem o comprimento L: daí i = 2,0 A e P = R·i² = 2,0 W.",
+      "Valor obtido ao supor que metade da energia vai para energia cinética; com velocidade constante, a energia cinética não muda.",
+      "",
+      "Valor obtido ao somar, em módulo, as potências do peso e da força magnética (8 W cada); a força magnética é justamente o canal pelo qual os 8 W do peso viram calor.",
+      "Valor obtido com v = mg/(B²L²R) = 40 m/s, pondo a resistência no denominador; o correto é v = mgR/(B²L²) = 10 m/s."
+    ]
+  },
+  {
+    "id": "FIS-B-007",
+    "materia": "fisica",
+    "tema": "Óptica geométrica — lentes e correção da visão",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": ["biologia"],
+    "enunciado": "Com a idade, o cristalino perde elasticidade e o olho passa a ter dificuldade de acomodação para ver objetos próximos (presbiopia). Uma pessoa com essa condição tem o ponto próximo (menor distância de visão nítida) a 50 cm de seus olhos, mas quer ler um livro mantido a 25 cm. O oftalmologista prescreve a lente que forma a imagem do livro exatamente no ponto próximo da pessoa. Considerando os óculos como uma lente delgada junto ao olho, a vergência dessa lente é:",
+    "alternativas": ["−2,0 di", "+0,5 di", "+2,0 di", "+4,0 di", "+6,0 di"],
+    "correta": 2,
+    "explicacao": "O ponto aqui é entender o papel da lente: ela pega o livro (objeto real a 25 cm) e forma dele uma imagem virtual no ponto próximo da pessoa (50 cm), onde o olho ainda consegue focalizar.\n\n**A biologia por trás.** Para focalizar objetos próximos, os músculos ciliares se contraem e o cristalino, elástico, fica mais curvo, ou seja, mais convergente. Na presbiopia, o cristalino enrijece, a acomodação diminui e o ponto próximo se afasta. Falta convergência ao olho; por isso, a correção é feita com lente convergente.\n\n**Equação das lentes em vergência** (V = 1/f, em dioptrias, di = m⁻¹): V = 1/p + 1/p', com p = +0,25 m (objeto real) e p' = −0,50 m (imagem virtual, do mesmo lado do objeto).\n\nV = 1/0,25 + 1/(−0,50) = 4 − 2 = +2,0 di.\n\nO sinal positivo confirma a lente convergente, com f = +50 cm. Atalho: V = 1/d(leitura) − 1/d(ponto próximo), com as distâncias em metros.\n\nPara lembrar: a lente corretora forma, do objeto, uma imagem virtual no ponto próximo do olho; na presbiopia (e na hipermetropia), ela é convergente.",
+    "erradas": [
+      "Valor obtido ao trocar os papéis de objeto e imagem (p = 0,50 m e p' = −0,25 m), o que daria uma lente divergente, própria da correção da miopia.",
+      "Valor obtido ao confundir a distância focal (0,5 m) com a vergência, que é o seu inverso.",
+      "",
+      "Valor obtido ao usar só 1/0,25, isto é, ao formar a imagem do livro no infinito, e não no ponto próximo (50 cm) pedido.",
+      "Valor obtido ao somar 1/0,25 + 1/0,50, tratando a imagem como real; a imagem formada pela lente é virtual (p' negativo)."
+    ]
+  },
+  {
+    "id": "FIS-B-008",
+    "materia": "fisica",
+    "tema": "Óptica geométrica — refração e reflexão total",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Uma pequena lâmpada está no fundo de um tanque largo que contém uma camada de 60 cm de um líquido transparente. A luz se propaga nesse líquido com velocidade de 2,4 × 10⁸ m/s e, no ar, com velocidade de 3,0 × 10⁸ m/s. Deseja-se colocar, flutuando na superfície, um disco opaco circular, centrado na vertical da lâmpada, de modo que nenhuma luz da lâmpada passe do líquido para o ar. Despreze reflexões nas paredes e no fundo do tanque. O menor diâmetro possível do disco é:",
+    "alternativas": ["0,80 m", "0,90 m", "0,96 m", "1,6 m", "2,0 m"],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que só sai luz pela região da superfície em que o ângulo de incidência é menor que o ângulo limite L; fora dela ocorre reflexão total. O disco precisa cobrir exatamente esse círculo.\n\n**1) Índice de refração.** n = c/v = 3,0 × 10⁸/2,4 × 10⁸ = 1,25 (o ar tem n = 1).\n\n**2) Ângulo limite.** Na situação limite, o raio refratado sai rasante (90°): n·sen L = 1·sen 90° → sen L = 1/1,25 = 0,8. Então cos L = 0,6 e tg L = 0,8/0,6 = 4/3.\n\n**3) Geometria.** O raio que atinge a borda do círculo forma o ângulo L com a normal (vertical). No triângulo retângulo de cateto vertical h = 0,60 m, o raio do círculo é r = h·tg L = 0,60 × 4/3 = 0,80 m.\n\n**4) Diâmetro.** D = 2r = 1,6 m.\n\nMacete: sen L = 0,8 indica o triângulo 3-4-5. Com cateto vertical de 0,6 m (o “3”), o cateto horizontal mede 0,8 m (o “4”) e a hipotenusa, 1,0 m (o “5”).\n\nPara lembrar: o disco que esconde uma fonte submersa tem raio h·tg L, com sen L = n(menor)/n(maior).",
+    "erradas": [
+      "Esse é o raio do disco (h·tg L = 0,80 m); a pergunta pede o diâmetro.",
+      "Valor obtido ao usar a tangente do ângulo complementar (0,6/0,8), medindo o ângulo limite a partir da superfície e não da normal.",
+      "Valor obtido ao usar sen L no lugar de tg L no cálculo do raio (2 × 0,60 × 0,8).",
+      "",
+      "Valor obtido ao tomar como raio do disco o comprimento do raio luminoso até a superfície (h/cos L = 1,0 m), que é a hipotenusa do triângulo."
+    ]
+  },
+  {
+    "id": "FIS-B-009",
+    "materia": "fisica",
+    "tema": "Ondulatória — intensidade sonora e nível em decibéis",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "enunciado": "Num ensaio ao ar livre, uma caixa de som, que pode ser tratada como fonte puntiforme emitindo igualmente em todas as direções, produz nível sonoro de 90 dB num ponto P, a 4,0 m dela. O som emitido tem frequência predominante de 680 Hz, e sua velocidade no ar é de 340 m/s. Um técnico se afasta até um ponto Q, a 8,0 m da caixa, na mesma direção; em seguida, liga-se uma segunda caixa idêntica, colocada junto à primeira e emitindo com a mesma potência. Admita que as intensidades das duas fontes simplesmente se somam (fontes incoerentes) e despreze a absorção pelo ar. Dado: log 2 = 0,30. O nível sonoro no ponto Q, com as duas caixas ligadas, é:",
+    "alternativas": ["45 dB", "84 dB", "87 dB", "90 dB", "93 dB"],
+    "correta": 2,
+    "explicacao": "O ponto aqui é trabalhar com a intensidade (em W/m²), que é a grandeza que se soma e que diminui com a distância, e só no fim converter para decibéis. Os dados de frequência e de velocidade do som não interferem no resultado.\n\n**Lembrete.** β = 10·log(I/I₀). Assim, multiplicar a intensidade por um fator k soma 10·log k ao nível: dobrar I soma 10·log 2 = 3 dB; dividir I por 2 subtrai 3 dB.\n\n**1) Afastamento.** Numa fonte puntiforme isotrópica, a potência se espalha sobre uma esfera de área 4πr², logo I ∝ 1/r². Dobrando a distância (4 m → 8 m), a intensidade cai a 1/4, e o nível cai 10·log 4 = 20·log 2 = 6 dB.\n\n**2) Segunda caixa.** Com duas fontes iguais, a intensidade em Q dobra, e o nível sobe 3 dB.\n\n**3) Saldo.** Em relação a P, a intensidade em Q é 2 × (1/4) = 1/2 da original. Logo, β(Q) = 90 − 6 + 3 = 87 dB.\n\nRepare que dobrar o número de caixas NÃO dobra o nível em decibéis: a escala é logarítmica, e o dobro da intensidade vale apenas +3 dB.\n\nPara lembrar: some intensidades, nunca decibéis; cada fator 2 na intensidade equivale a ±3 dB, e a intensidade cai com o quadrado da distância.",
+    "erradas": [
+      "Valor obtido ao tratar o nível em dB como proporcional à intensidade: como I cai à metade, o nível também cairia à metade.",
+      "Valor que considera o afastamento (−6 dB), mas esquece a segunda caixa (+3 dB).",
+      "",
+      "Valor obtido ao supor I ∝ 1/r: o afastamento reduziria I à metade (−3 dB) e a segunda caixa compensaria (+3 dB).",
+      "Valor que soma os 3 dB da segunda caixa, mas esquece que o técnico se afastou para o dobro da distância."
+    ]
+  },
+  {
+    "id": "FIS-B-010",
+    "materia": "fisica",
+    "tema": "Física moderna — radioatividade e meia-vida",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": ["quimica"],
+    "tabela": {
+      "titulo": "Alguns elementos químicos",
+      "cabecalho": ["Elemento", "Símbolo", "Número atômico (Z)"],
+      "linhas": [
+        ["Antimônio", "Sb", "51"],
+        ["Telúrio", "Te", "52"],
+        ["Iodo", "I", "53"],
+        ["Xenônio", "Xe", "54"],
+        ["Césio", "Cs", "55"]
+      ]
+    },
+    "enunciado": "O iodo-131 (¹³¹I), usado no tratamento de doenças da tireoide, é um emissor beta (β⁻) com meia-vida de 8 dias. Um hospital recebe uma amostra desse radioisótopo com atividade de 4800 MBq, e um protocolo interno determina que ela permaneça armazenada em local blindado até que sua atividade caia para 300 MBq. Com base na tabela, o tempo mínimo de armazenamento e o núcleo formado no decaimento do iodo-131 são, respectivamente:",
+    "alternativas": ["32 dias; xenônio-131", "32 dias; telúrio-131", "32 dias; antimônio-127", "40 dias; xenônio-131", "128 dias; xenônio-131"],
+    "correta": 0,
+    "explicacao": "O ponto aqui é separar duas perguntas: quantas meias-vidas se passam (Física) e qual elemento surge após uma emissão β⁻ (conservação da carga e do número de núcleons).\n\n**1) Número de meias-vidas.** A atividade cai à metade a cada meia-vida: 4800 → 2400 → 1200 → 600 → 300 MBq. Foram 4 meias-vidas (cuidado: a lista tem 5 valores, mas apenas 4 “saltos”). De forma direta: 4800/300 = 16 = 2⁴, logo n = 4.\n\n**2) Tempo.** t = 4 × 8 dias = 32 dias.\n\n**3) Núcleo formado.** No decaimento β⁻, um nêutron do núcleo se transforma em um próton, com emissão de um elétron e de um antineutrino. O número de massa não muda (A = 131) e o número atômico aumenta 1 unidade (de 53 para 54). Pela tabela, Z = 54 corresponde ao xenônio: ¹³¹I → ¹³¹Xe + elétron + antineutrino.\n\nConexão com a Química: o que define o elemento é o número de prótons (Z); por isso, ao mudar Z, o iodo deixa de ser iodo. E o uso médico do ¹³¹I se explica porque a tireoide capta iodo para sintetizar seus hormônios (T3 e T4), concentrando a radiação justamente onde ela é necessária.\n\nPara lembrar: atividade final = atividade inicial/2ⁿ, com n = tempo/meia-vida; na emissão β⁻, A se mantém e Z aumenta 1.",
+    "erradas": [
+      "",
+      "Núcleo obtido ao diminuir Z em 1, como se a emissão β⁻ retirasse um próton; isso corresponderia à emissão β⁺, não à β⁻.",
+      "Núcleo obtido ao confundir a emissão β com a emissão α (A diminui 4 e Z diminui 2).",
+      "Tempo obtido ao contar os 5 valores da sequência 4800, 2400, 1200, 600, 300 como 5 meias-vidas; são apenas 4 reduções à metade.",
+      "Tempo obtido ao usar a razão 4800/300 = 16 como número de meias-vidas; 16 é o fator de redução (2⁴), e não o número de meias-vidas."
+    ]
+  }
+]

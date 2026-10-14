@@ -1,0 +1,340 @@
+[
+  {
+    "id": "QUI-B-001",
+    "materia": "quimica",
+    "tema": "Soluções — mistura de soluções com íon comum e diluição",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Em um laboratório, um técnico mistura, em um mesmo balão, 200 mL de solução aquosa de cloreto de sódio (NaCl) 0,30 mol/L, 300 mL de solução aquosa de cloreto de cálcio (CaCl₂) 0,20 mol/L e 100 mL de água destilada.\n\nConsiderando os sais totalmente dissociados, que não há reação entre os íons e que os volumes são aditivos, a concentração de íons cloreto (Cl⁻) na solução final é:",
+    "alternativas": [
+      "0,20 mol/L",
+      "0,30 mol/L",
+      "0,36 mol/L",
+      "0,50 mol/L",
+      "0,70 mol/L"
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que, numa mistura sem reação, cada íon simplesmente se soma em **quantidade de matéria (mol)**, e depois tudo se divide pelo **volume total** — incluindo a água adicionada.\n\n**1) Cl⁻ vindo do NaCl:** NaCl → Na⁺ + Cl⁻ (1 Cl⁻ por fórmula). n = 0,30 mol/L × 0,200 L = 0,060 mol de Cl⁻.\n\n**2) Cl⁻ vindo do CaCl₂:** CaCl₂ → Ca²⁺ + 2 Cl⁻ (2 Cl⁻ por fórmula). Nessa solução, [Cl⁻] = 2 × 0,20 = 0,40 mol/L, então n = 0,40 mol/L × 0,300 L = 0,120 mol de Cl⁻.\n\n**3) Total e volume final:** n(Cl⁻) = 0,060 + 0,120 = 0,180 mol; V = 200 + 300 + 100 = 600 mL = 0,600 L. Logo, [Cl⁻] = 0,180/0,600 = **0,30 mol/L**.\n\nAtalho: faça uma média ponderada pelos volumes, tratando a água como uma solução de concentração zero: [Cl⁻] = (0,30 · 200 + 0,40 · 300 + 0 · 100)/600 = 180/600 = 0,30 mol/L.\n\nPara lembrar: em mistura sem reação, some os mols de cada íon (levando em conta o índice na fórmula do sal) e divida pelo volume total.",
+    "erradas": [
+      "Valor obtido ao esquecer o índice 2 do CaCl₂: contou só 0,060 mol de Cl⁻ vindo do cloreto de cálcio, totalizando 0,120 mol em 0,600 L.",
+      "",
+      "Valor obtido ao ignorar os 100 mL de água: dividiu os 0,180 mol de Cl⁻ por 0,500 L em vez de 0,600 L.",
+      "Valor obtido ao somar diretamente as concentrações dos dois sais (0,30 + 0,20), sem considerar os volumes nem o número de Cl⁻ por fórmula.",
+      "Valor obtido ao somar as concentrações de Cl⁻ de cada solução (0,30 + 0,40), como se não houvesse diluição na mistura."
+    ]
+  },
+  {
+    "id": "QUI-B-002",
+    "materia": "quimica",
+    "tema": "Propriedades coligativas — osmose, isotonia e diluição",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "biologia"
+    ],
+    "texto": "O soro fisiológico, solução aquosa de NaCl a 0,9% (m/V), o que corresponde a cerca de 0,15 mol/L, é isotônico em relação ao interior das hemácias. Por isso, pode ser usado para lavar ou suspender essas células sem que elas mudem de volume. Texto elaborado para esta questão.",
+    "enunciado": "Um técnico precisa preparar 500 mL de uma solução aquosa de glicose (C₆H₁₂O₆) isotônica em relação ao soro fisiológico, diluindo com água uma solução estoque de glicose a 50% (m/V), isto é, com 500 g de glicose por litro. Ele também avalia o que ocorreria se, por engano, usasse apenas metade do volume correto de solução estoque, completando igualmente o volume final até 500 mL com água, e colocasse hemácias nessa solução.\n\nDados: massa molar da glicose = 180 g/mol; o NaCl está totalmente dissociado em água; a glicose não se dissocia. Admita que a membrana das hemácias seja permeável apenas à água.\n\nO volume correto de solução estoque e o comportamento das hemácias na solução preparada por engano são, respectivamente:",
+    "alternativas": [
+      "9,0 mL; as hemácias ganhariam água e poderiam sofrer hemólise.",
+      "27 mL; as hemácias ganhariam água e poderiam sofrer hemólise.",
+      "54 mL; as hemácias ganhariam água e poderiam sofrer hemólise.",
+      "54 mL; as hemácias perderiam água e murchariam (crenação).",
+      "108 mL; as hemácias ganhariam água e poderiam sofrer hemólise."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é perceber que a isotonia depende do **número de partículas** de soluto por litro, e não da massa nem da porcentagem. Como cada NaCl gera dois íons e a glicose não se dissocia, a glicose precisa ter concentração em mol/L **duas vezes maior** que a do NaCl.\n\n**1) Partículas no soro:** NaCl → Na⁺ + Cl⁻, então 0,15 mol/L de NaCl corresponde a 2 × 0,15 = 0,30 mol/L de partículas dispersas.\n\n**2) Glicose necessária:** a solução de glicose deve ter 0,30 mol/L. Em 500 mL: n = 0,30 × 0,500 = 0,15 mol, ou seja, m = 0,15 × 180 = 27 g de glicose.\n\n**3) Volume de estoque:** o estoque tem 500 g/L, isto é, 0,5 g/mL. V = 27 g ÷ 0,5 g/mL = **54 mL**, completados com água até 500 mL.\n\n**4) O engano:** com metade do volume (27 mL de estoque), a solução teria 0,15 mol/L de glicose, isto é, 0,15 mol/L de partículas, menos que os 0,30 mol/L do interior das hemácias. O meio externo fica **hipotônico**, e a água atravessa a membrana por osmose do meio de menor concentração de partículas (externo) para o de maior concentração (citoplasma). A hemácia incha e, como não tem parede celular, pode se romper (**hemólise**).\n\nObservação: no organismo, a glicose é absorvida e metabolizada pelas células; por isso o soro glicosado, isotônico no frasco, acaba se comportando como solução hipotônica depois de infundido. A questão usa o modelo ideal, com membrana permeável só à água.\n\nPara lembrar: pressão osmótica e isotonia dependem da concentração de partículas (i × concentração em mol/L), não da massa de soluto.",
+    "erradas": [
+      "Valor obtido ao supor que isotonia significa mesma porcentagem em massa (0,9%): seriam 4,5 g de glicose em 500 mL, ou seja, 9,0 mL de estoque.",
+      "Valor obtido ao ignorar a dissociação do NaCl (i = 1): a glicose ficaria com 0,15 mol/L, que é justamente metade da concentração isotônica.",
+      "",
+      "O volume está certo, mas o sentido da osmose foi invertido: com menos glicose, o meio externo fica hipotônico e a água entra na hemácia, em vez de sair.",
+      "Valor obtido ao calcular a glicose para 1 L de solução (54 g), esquecendo que o volume final pedido é de 500 mL."
+    ]
+  },
+  {
+    "id": "QUI-B-003",
+    "materia": "quimica",
+    "tema": "Termoquímica — Lei de Hess (fermentação × respiração)",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "biologia"
+    ],
+    "texto": "Leveduras como Saccharomyces cerevisiae são anaeróbias facultativas: na presença de oxigênio, realizam respiração celular, oxidando completamente a glicose a CO₂ e H₂O; na ausência de oxigênio, realizam fermentação alcoólica, convertendo a glicose em etanol e CO₂. Texto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Entalpias de combustão a 25 °C",
+      "cabecalho": [
+        "Substância",
+        "ΔH de combustão (kJ/mol)"
+      ],
+      "linhas": [
+        [
+          "Glicose, C₆H₁₂O₆(s)",
+          "−2808"
+        ],
+        [
+          "Etanol, C₂H₅OH(l)",
+          "−1368"
+        ]
+      ]
+    },
+    "enunciado": "A fermentação alcoólica é representada por:\n\nC₆H₁₂O₆(s) → 2 C₂H₅OH(l) + 2 CO₂(g)\n\nDado: massa molar da glicose = 180 g/mol.\n\nCom base nos dados da tabela, a energia liberada na fermentação de 90 g de glicose e a razão entre a energia liberada na oxidação completa de 90 g de glicose e a energia liberada na fermentação dessa mesma massa são, respectivamente:",
+    "alternativas": [
+      "36 kJ; 39",
+      "36 kJ; 78",
+      "72 kJ; 39",
+      "720 kJ; cerca de 2",
+      "1404 kJ; 39"
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é montar a fermentação a partir das combustões pela **Lei de Hess**: mantemos a combustão da glicose e **invertemos** a combustão do etanol, multiplicando-a por 2.\n\n**1) Combustão da glicose (mantida):** C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O, ΔH = −2808 kJ.\n\n**2) Combustão do etanol invertida e multiplicada por 2:** 4 CO₂ + 6 H₂O → 2 C₂H₅OH + 6 O₂, ΔH = +2 × 1368 = +2736 kJ.\n\n**3) Soma:** cancelam-se 6 O₂, 6 H₂O e 4 CO₂, restando C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂, com ΔH = −2808 + 2736 = **−72 kJ por mol de glicose**.\n\nAtalho: com entalpias de combustão, ΔH = Σ(ΔHc dos reagentes) − Σ(ΔHc dos produtos) = −2808 − 2(−1368) = −72 kJ (o CO₂ não queima, então sua ΔHc é zero). Note que a ordem é a inversa da usada com entalpias de formação.\n\n**4) Para 90 g:** n = 90/180 = 0,5 mol, então a fermentação libera 0,5 × 72 = **36 kJ**.\n\n**5) Comparação:** a oxidação completa da mesma massa libera 0,5 × 2808 = 1404 kJ. Razão = 1404/36 = 2808/72 = **39**.\n\nInterpretação biológica: a fermentação aproveita só uma pequena fração da energia química da glicose; quase toda ela permanece no etanol, que ainda é um bom combustível. Por isso leveduras em anaerobiose consomem glicose muito mais depressa para manter o metabolismo. Em ATP, a diferença também é grande (2 ATP na fermentação contra cerca de 30 na respiração; livros mais antigos citam 36 ou 38), embora essa razão não coincida com a razão entre as entalpias, pois nem toda a energia liberada fica armazenada em ATP.\n\nPara lembrar: na Lei de Hess, inverter uma equação troca o sinal de ΔH, e multiplicá-la por um fator multiplica ΔH pelo mesmo fator.",
+    "erradas": [
+      "",
+      "Razão obtida ao comparar a energia da oxidação de 1 mol de glicose (2808 kJ) com a da fermentação de apenas 0,5 mol (36 kJ), misturando quantidades diferentes.",
+      "72 kJ é o ΔH por mol de glicose: faltou converter 90 g em 0,5 mol.",
+      "Resultado de esquecer o coeficiente 2 do etanol ao aplicar Hess: ΔH = −2808 + 1368 = −1440 kJ/mol, ou seja, 720 kJ para 0,5 mol, e razão 2808/1440 ≈ 2.",
+      "1404 kJ é a energia da oxidação completa de 90 g de glicose, e não da fermentação: a etapa da Lei de Hess foi pulada."
+    ]
+  },
+  {
+    "id": "QUI-B-004",
+    "materia": "quimica",
+    "tema": "Termoquímica — energia de ligação e estabilidade de isômeros",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "tabela": {
+      "titulo": "Energias médias de ligação",
+      "cabecalho": [
+        "Ligação",
+        "Energia (kJ/mol)"
+      ],
+      "linhas": [
+        [
+          "C–H",
+          "413"
+        ],
+        [
+          "C–C",
+          "348"
+        ],
+        [
+          "C–O",
+          "358"
+        ],
+        [
+          "O–H",
+          "463"
+        ],
+        [
+          "O=O",
+          "498"
+        ],
+        [
+          "C=O (no CO₂)",
+          "799"
+        ]
+      ]
+    },
+    "enunciado": "O etanol (CH₃–CH₂–OH) e o éter dimetílico (CH₃–O–CH₃) são isômeros de fórmula molecular C₂H₆O. Considere a transformação, em fase gasosa:\n\nCH₃–O–CH₃(g) → CH₃–CH₂–OH(g)\n\nCom base nas energias médias de ligação da tabela, o ΔH dessa transformação e a comparação entre as energias liberadas na combustão completa de 1 mol de cada isômero gasoso, formando CO₂(g) e H₂O(g), são:",
+    "alternativas": [
+      "+40 kJ/mol; o etanol libera 40 kJ/mol a mais.",
+      "+10 kJ/mol; o etanol libera 10 kJ/mol a mais.",
+      "Zero; ambos liberam a mesma energia, pois têm a mesma fórmula molecular.",
+      "−40 kJ/mol; o etanol libera 40 kJ/mol a mais.",
+      "−40 kJ/mol; o éter dimetílico libera 40 kJ/mol a mais."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é que o ΔH por energias de ligação é **energia absorvida para romper − energia liberada para formar**, e que, sendo isômeros, os dois compostos queimam formando **os mesmos produtos**. Então a diferença entre os calores de combustão é exatamente o ΔH da isomerização.\n\n**1) Ligações do éter dimetílico (rompidas):** CH₃–O–CH₃ tem 6 C–H e 2 C–O. E = 6(413) + 2(358) = 2478 + 716 = 3194 kJ.\n\n**2) Ligações do etanol (formadas):** CH₃–CH₂–OH tem 5 C–H, 1 C–C, 1 C–O e 1 O–H. E = 5(413) + 348 + 358 + 463 = 2065 + 1169 = 3234 kJ.\n\n**3) ΔH:** ΔH = 3194 − 3234 = **−40 kJ/mol**. O conjunto de ligações do etanol é mais forte: ele é 40 kJ/mol mais estável (tem menor entalpia).\n\n**4) Combustão:** as duas combustões partem de C₂H₆O + 3 O₂ e chegam a 2 CO₂ + 3 H₂O. Como o éter está 40 kJ/mol acima do etanol no diagrama de entalpia e ambos descem até o mesmo nível (os produtos), o **éter dimetílico libera 40 kJ/mol a mais**. Por isso os dados de O=O e C=O nem precisam ser usados: eles se cancelam na comparação. Conferindo com a tabela: a combustão do etanol dá −1246 kJ/mol, e a do éter, −1286 kJ/mol.\n\nPara lembrar: entre isômeros que geram os mesmos produtos, o mais estável (de menor entalpia) é o que libera menos calor na combustão.",
+    "erradas": [
+      "Sinal invertido: calculou formadas − rompidas (3234 − 3194) e concluiu, de modo coerente com esse erro, que o etanol seria o menos estável e liberaria mais calor.",
+      "Erro de contagem: tratou o etanol como se tivesse 6 ligações C–H (como sugere a fórmula C₂H₆O) e nenhuma O–H, obtendo 3184 kJ para o etanol e ΔH = 3194 − 3184 = +10 kJ/mol.",
+      "Mesma fórmula molecular não significa mesma entalpia: os isômeros têm ligações diferentes (C–C e O–H no etanol, duas C–O no éter) e, portanto, energias diferentes.",
+      "O ΔH está correto, mas a conclusão foi invertida: o isômero mais estável (o etanol, de menor entalpia) é o que libera menos calor ao chegar aos mesmos produtos.",
+      ""
+    ]
+  },
+  {
+    "id": "QUI-B-005",
+    "materia": "quimica",
+    "tema": "Cinética química — lei de velocidade pelo método das velocidades iniciais",
+    "nivel": "fuvest",
+    "origem": "Estilo livro (Feltre)",
+    "inter": [],
+    "tabela": {
+      "titulo": "Velocidades iniciais de formação de N₂ (temperatura constante)",
+      "cabecalho": [
+        "Experimento",
+        "[NO] inicial (mol/L)",
+        "[H₂] inicial (mol/L)",
+        "Velocidade inicial (mol·L⁻¹·s⁻¹)"
+      ],
+      "linhas": [
+        [
+          "1",
+          "0,10",
+          "0,10",
+          "2,0 × 10⁻³"
+        ],
+        [
+          "2",
+          "0,20",
+          "0,10",
+          "8,0 × 10⁻³"
+        ],
+        [
+          "3",
+          "0,20",
+          "0,30",
+          "2,4 × 10⁻²"
+        ]
+      ]
+    },
+    "enunciado": "A reação entre monóxido de nitrogênio e hidrogênio, em fase gasosa e a temperatura constante, é representada pela equação:\n\n2 NO(g) + 2 H₂(g) → N₂(g) + 2 H₂O(g)\n\nForam medidas as velocidades iniciais de formação de N₂ em três experimentos, conforme a tabela.\n\nA lei de velocidade da reação e a velocidade inicial esperada quando [NO] = 0,30 mol/L e [H₂] = 0,050 mol/L, à mesma temperatura, são:",
+    "alternativas": [
+      "v = k[NO][H₂]²; 1,5 × 10⁻³ mol·L⁻¹·s⁻¹",
+      "v = k[NO][H₂]; 3,0 × 10⁻³ mol·L⁻¹·s⁻¹",
+      "v = k[NO]²[H₂]²; 4,5 × 10⁻³ mol·L⁻¹·s⁻¹",
+      "v = k[NO]²[H₂]; 9,0 × 10⁻³ mol·L⁻¹·s⁻¹",
+      "v = k[NO]²[H₂]; 3,0 × 10⁻² mol·L⁻¹·s⁻¹"
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é que a lei de velocidade é **determinada experimentalmente**: os expoentes não precisam ser os coeficientes da equação global. Usamos o método das velocidades iniciais, comparando experimentos em que só uma concentração muda.\n\n**Teoria por trás.** A lei de velocidade tem a forma v = k[NO]ᵃ[H₂]ᵇ, em que a e b são as ordens da reação em relação a cada reagente. Elas refletem o **mecanismo** da reação, isto é, a sequência de etapas elementares pela qual ela realmente ocorre. Só para uma etapa elementar os expoentes coincidem com os coeficientes (lei da ação das massas, de Guldberg e Waage). A equação global é a soma das etapas, e a velocidade do processo é controlada pela etapa mais lenta. Por isso, diante de uma equação global, nunca se deve escrever a lei de velocidade usando os coeficientes sem dados experimentais.\n\n**1) Ordem em NO (experimentos 1 e 2):** [H₂] fixa, [NO] dobra (0,10 → 0,20) e v quadruplica (2,0 × 10⁻³ → 8,0 × 10⁻³). Como 2ᵃ = 4, a = 2.\n\n**2) Ordem em H₂ (experimentos 2 e 3):** [NO] fixa, [H₂] triplica (0,10 → 0,30) e v triplica (8,0 × 10⁻³ → 2,4 × 10⁻²). Como 3ᵇ = 3, b = 1.\n\nLogo, **v = k[NO]²[H₂]**, com ordem global 3.\n\n**3) Constante k (experimento 1):** k = 2,0 × 10⁻³ ÷ [(0,10)² × 0,10] = 2,0 × 10⁻³ ÷ 1,0 × 10⁻³ = 2,0 L²·mol⁻²·s⁻¹. Repare na unidade: para que v saia em mol·L⁻¹·s⁻¹ numa reação de 3ª ordem, k precisa ter L²·mol⁻²·s⁻¹.\n\n**4) Nova velocidade:** v = 2,0 × (0,30)² × 0,050 = 2,0 × 0,090 × 0,050 = **9,0 × 10⁻³ mol·L⁻¹·s⁻¹**.\n\nAtalho sem calcular k: em relação ao experimento 1, [NO] triplicou (fator 3² = 9) e [H₂] caiu à metade (fator 1/2). Então v = 2,0 × 10⁻³ × 9 × 1/2 = 9,0 × 10⁻³ mol·L⁻¹·s⁻¹.\n\nUm mecanismo compatível com essa lei começa com um equilíbrio rápido entre duas moléculas de NO, seguido de uma etapa lenta da qual participa uma molécula de H₂. Isso explica a ordem 2 em NO e a ordem 1 em H₂, apesar dos coeficientes 2 e 2 na equação global.\n\nPara lembrar: as ordens de reação saem da tabela de experimentos (comparando pares em que só uma concentração varia), e não dos coeficientes da equação global.",
+    "erradas": [
+      "Ordens trocadas: atribuiu ordem 1 ao NO e ordem 2 ao H₂ (k = 2,0) e calculou 2,0 × 0,30 × (0,050)² = 1,5 × 10⁻³.",
+      "Supôs ordem 1 para cada reagente sem analisar a tabela; com k = 0,20 tirado do experimento 1, obteve 0,20 × 0,30 × 0,050 = 3,0 × 10⁻³ (essa lei nem reproduz o experimento 2).",
+      "Usou os coeficientes da equação global como expoentes; com k = 20 tirado do experimento 1, obteve 20 × 0,090 × 0,0025 = 4,5 × 10⁻³, com uma lei incompatível com o experimento 3.",
+      "",
+      "A lei está correta, mas faltou elevar [NO] ao quadrado no cálculo final: 2,0 × 0,30 × 0,050 = 3,0 × 10⁻²."
+    ]
+  },
+  {
+    "id": "QUI-B-006",
+    "materia": "quimica",
+    "tema": "Equilíbrio químico — Kc e deslocamento por excesso de reagente (esterificação)",
+    "nivel": "acima",
+    "origem": "Estilo ITA/IME (fácil)",
+    "inter": [],
+    "enunciado": "A esterificação entre ácido acético e etanol é representada por:\n\nCH₃COOH(l) + C₂H₅OH(l) ⇌ CH₃COOC₂H₅(l) + H₂O(l)\n\nEm um primeiro experimento, 1,0 mol de ácido acético e 1,0 mol de etanol foram misturados, sem solvente e com um catalisador. Atingido o equilíbrio a temperatura constante, havia 2/3 mol de acetato de etila no sistema.\n\nEm um segundo experimento, à mesma temperatura, deseja-se que 80% do ácido acético inicial seja convertido em éster, partindo de 1,0 mol de ácido acético e de uma quantidade adequada de etanol, sem éster nem água no início.\n\nConsidere que todas as espécies participam da expressão de Kc e que o volume da mistura não interfere no cálculo. A quantidade de etanol que deve ser misturada inicialmente, no segundo experimento, é:",
+    "alternativas": [
+      "0,60 mol",
+      "0,80 mol",
+      "1,2 mol",
+      "1,6 mol",
+      "2,4 mol"
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é calcular Kc no primeiro experimento e reutilizá-lo no segundo, em que o **excesso de etanol** desloca o equilíbrio para a direita (princípio de Le Chatelier), aumentando a conversão do ácido.\n\n**1) Kc (experimento 1):** formaram-se 2/3 mol de éster e, portanto, 2/3 mol de água; restaram 1 − 2/3 = 1/3 mol de ácido e 1/3 mol de etanol.\nKc = [(2/3)(2/3)] ÷ [(1/3)(1/3)] = (4/9) ÷ (1/9) = **4**.\nComo há 2 mol de partículas de cada lado da equação, o volume V aparece igualmente no numerador e no denominador e se cancela: podemos usar diretamente as quantidades em mol.\n\n**2) Experimento 2:** seja n a quantidade inicial de etanol. Reagem 0,80 mol de ácido (80% de 1,0 mol), e no equilíbrio ficam: ácido = 0,20 mol; etanol = n − 0,80; éster = 0,80 mol; água = 0,80 mol.\n\n**3) Aplicando Kc:** 4 = (0,80 × 0,80) ÷ [0,20 × (n − 0,80)], ou seja, 0,64 = 0,80 × (n − 0,80). Daí n − 0,80 = 0,80 e **n = 1,6 mol**.\n\nRepare: para subir a conversão de 67% para 80%, foi preciso 60% a mais de etanol do que no primeiro experimento. O deslocamento do equilíbrio não é proporcional à quantidade adicionada. É por isso que, na prática, se usa excesso do reagente mais barato ou se remove a água formada para aumentar o rendimento.\n\nPara lembrar: Kc só depende da temperatura; adicionar um reagente desloca o equilíbrio, mas a nova composição continua obedecendo ao mesmo Kc.",
+    "erradas": [
+      "0,60 mol é apenas o excesso de etanol em relação à proporção estequiométrica de 1 : 1 (1,6 − 1,0), e não a quantidade total a ser misturada.",
+      "0,80 mol é o etanol que sobra no equilíbrio (n − 0,80); faltou somar os 0,80 mol que reagiram para obter a quantidade inicial.",
+      "Raciocínio proporcional indevido: se 1,0 mol de etanol converte 2/3 do ácido, para converter 0,80 bastaria 0,80 ÷ (2/3) = 1,2 mol. O equilíbrio não responde linearmente ao excesso de reagente.",
+      "",
+      "Erro no cálculo de Kc: fez (2/3) ÷ (1/3) = 2, esquecendo que numerador e denominador são produtos de dois fatores iguais. Com Kc = 2, sobrariam 1,6 mol de etanol, e o inicial seria 2,4 mol."
+    ]
+  },
+  {
+    "id": "QUI-B-007",
+    "materia": "quimica",
+    "tema": "Equilíbrio iônico — lei da diluição de Ostwald e pH",
+    "nivel": "acima",
+    "origem": "Estilo livro (Feltre)",
+    "inter": [],
+    "enunciado": "Um monoácido fraco HA tem constante de ionização Ka = 1,0 × 10⁻⁶ a 25 °C. Uma solução aquosa desse ácido, de concentração 1,0 mol/L, é diluída com água, à mesma temperatura, até que seu volume fique 100 vezes maior.\n\nUtilizando as aproximações usuais para ácidos fracos (grau de ionização muito menor que 1) e desprezando a ionização da água, o pH e o grau de ionização (α) do ácido na solução diluída são, respectivamente:",
+    "alternativas": [
+      "pH = 3; α = 10%",
+      "pH = 4; α = 0,1%",
+      "pH = 4; α = 1%",
+      "pH = 5; α = 0,1%",
+      "pH = 6; α = 0,01%"
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é a **lei da diluição de Ostwald**: ao diluir um eletrólito fraco, o grau de ionização **aumenta**, de modo que [H⁺] diminui bem menos do que a concentração do ácido.\n\n**Teoria por trás.** Para HA ⇌ H⁺ + A⁻, com concentração inicial C (em mol/L) e grau de ionização α, no equilíbrio temos [H⁺] = [A⁻] = αC e [HA] = C(1 − α). Então:\nKa = (αC)(αC) ÷ [C(1 − α)] = α²C/(1 − α).\nPara ácidos fracos, α ≪ 1, logo 1 − α ≈ 1 e **Ka ≈ α²C**. Daí α ≈ √(Ka/C) e [H⁺] = αC ≈ √(Ka · C).\nComo Ka só depende da temperatura, se C diminui, α precisa aumentar para manter o produto α²C constante. Pelo princípio de Le Chatelier, a diluição desloca o equilíbrio para o lado com mais partículas dissolvidas (H⁺ + A⁻), favorecendo a ionização. Ainda assim, o efeito da diluição sobre [H⁺] predomina, e a solução fica menos ácida.\n\n**1) Solução inicial (C = 1,0 mol/L):** α = √(1,0 × 10⁻⁶ ÷ 1,0) = 1,0 × 10⁻³ = 0,1%; [H⁺] = 1,0 × 10⁻³ mol/L, então pH = 3.\n\n**2) Solução diluída (C = 1,0 × 10⁻² mol/L):** α = √(1,0 × 10⁻⁶ ÷ 1,0 × 10⁻²) = √(1,0 × 10⁻⁴) = 1,0 × 10⁻² = **1%**; [H⁺] = αC = 1,0 × 10⁻² × 1,0 × 10⁻² = 1,0 × 10⁻⁴ mol/L, então **pH = 4**.\n\nAtalho: como α ∝ 1/√C, diluir 100 vezes multiplica α por √100 = 10. E como [H⁺] ∝ √C, [H⁺] cai só 10 vezes, e o pH sobe 1 unidade (e não 2, como aconteceria com um ácido forte). Conferindo a aproximação: α = 1% ainda é muito menor que 1, então ela continua válida.\n\nPara lembrar: diluir um ácido fraco aumenta α (Ostwald), mas diminui [H⁺]; o pH sobe metade do que subiria para um ácido forte (meia unidade para cada diluição de 10 vezes).",
+    "erradas": [
+      "Supôs α inversamente proporcional a C (relação linear): diluir 100 vezes multiplicaria α por 100, dando 10% e [H⁺] = 1,0 × 10⁻³ mol/L. Na verdade, α ∝ 1/√C.",
+      "O pH foi calculado corretamente por √(Ka · C), mas o α da solução inicial (0,1%) foi mantido, como se fosse uma constante do ácido; na solução diluída, α = [H⁺]/C = 1,0 × 10⁻⁴ ÷ 1,0 × 10⁻² = 1%.",
+      "",
+      "Supôs α constante (0,1%), como se a fração ionizada não mudasse com a diluição: [H⁺] cairia 100 vezes e o pH subiria 2 unidades, comportamento típico de ácido forte.",
+      "Inverteu a lei de Ostwald, achando que a diluição diminui o grau de ionização (de 0,1% para 0,01%), o que levaria a [H⁺] = 1,0 × 10⁻⁶ mol/L."
+    ]
+  },
+  {
+    "id": "QUI-B-008",
+    "materia": "quimica",
+    "tema": "pH — neutralização com reagente em excesso (antiácido)",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Para estimar a ação de um antiácido, um estudante modelou o suco gástrico como 100 mL de solução aquosa de HCl 0,10 mol/L e adicionou a ela um comprimido contendo 0,232 g de hidróxido de magnésio, Mg(OH)₂. Considere que a reação de neutralização é completa, que o volume da solução não se altera com a adição do comprimido e que a temperatura é de 25 °C.\n\nDados: massa molar do Mg(OH)₂ = 58 g/mol; log 2 = 0,30; log 3 = 0,48.\n\nO pH da solução ao final do processo é, aproximadamente:",
+    "alternativas": [
+      "1,2",
+      "1,7",
+      "2,0",
+      "2,7",
+      "12,3"
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é fazer a estequiometria da neutralização **antes** de calcular o pH: descobrir qual reagente está em excesso e quanto sobra, lembrando que cada Mg(OH)₂ fornece **2 OH⁻**.\n\n**1) Quantidades:** H⁺ = 0,10 mol/L × 0,100 L = 1,0 × 10⁻² mol. Mg(OH)₂ = 0,232 g ÷ 58 g/mol = 4,0 × 10⁻³ mol, que fornecem 2 × 4,0 × 10⁻³ = 8,0 × 10⁻³ mol de OH⁻.\n\n**2) Neutralização (H⁺ + OH⁻ → H₂O, proporção 1 : 1):** sobram 1,0 × 10⁻² − 8,0 × 10⁻³ = 2,0 × 10⁻³ mol de H⁺. A solução continua ácida.\n\n**3) Concentração e pH:** [H⁺] = 2,0 × 10⁻³ mol ÷ 0,100 L = 2,0 × 10⁻² mol/L. pH = −log(2 × 10⁻²) = 2 − log 2 = 2 − 0,30 = **1,7**.\n\nInterpretação: o antiácido neutralizou 80% do H⁺ e a [H⁺] caiu 5 vezes (de 0,10 para 0,020 mol/L), mas o pH subiu só 0,7 unidade (de 1,0 para 1,7). Isso acontece porque a escala de pH é logarítmica: cada unidade de pH corresponde a um fator 10 em [H⁺], e um fator 5 corresponde a log 5 ≈ 0,7.\n\nPara lembrar: em mistura de ácido com base, primeiro calcule o excesso em mol (atenção ao número de H⁺ ou OH⁻ por fórmula), depois divida pelo volume e só então aplique o logaritmo.",
+    "erradas": [
+      "Esqueceu o índice 2 do OH no Mg(OH)₂: considerou só 4,0 × 10⁻³ mol de OH⁻, sobrando 6,0 × 10⁻³ mol de H⁺, isto é, [H⁺] = 6 × 10⁻² mol/L e pH = 2 − log 6 = 2 − 0,78 ≈ 1,2.",
+      "",
+      "Tomou o expoente de [H⁺] = 2,0 × 10⁻² mol/L como se fosse o pH, ignorando o fator 2 (o pH só é igual ao expoente quando a concentração é exatamente uma potência de 10).",
+      "Esqueceu de dividir pelo volume: aplicou o logaritmo diretamente à quantidade em mol, −log(2,0 × 10⁻³) = 3 − 0,30 = 2,7.",
+      "Confusão entre pH e pOH: tratou o valor 1,7 como pOH, como se a sobra fosse de OH⁻, e fez 14 − 1,7 = 12,3, embora a solução final seja ácida."
+    ]
+  },
+  {
+    "id": "QUI-B-009",
+    "materia": "quimica",
+    "tema": "Eletroquímica — pilha, ddp e estequiometria de elétrons",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Uma pilha foi montada a 25 °C com uma placa de zinco mergulhada em solução de Zn²⁺ 1 mol/L e uma placa de prata mergulhada em solução de Ag⁺ 1 mol/L, ligadas por uma ponte salina e por um fio condutor externo.\n\nDados (potenciais-padrão de redução): Zn²⁺ + 2 e⁻ → Zn, E° = −0,76 V; Ag⁺ + e⁻ → Ag, E° = +0,80 V. Massas molares: Zn = 65 g/mol; Ag = 108 g/mol.\n\nA ddp inicial da pilha, a massa de prata depositada quando 3,25 g de zinco são consumidos e o eletrodo que funciona como polo positivo são, respectivamente:",
+    "alternativas": [
+      "0,04 V; 10,8 g; eletrodo de prata.",
+      "1,56 V; 10,8 g; eletrodo de prata.",
+      "1,56 V; 10,8 g; eletrodo de zinco.",
+      "1,56 V; 5,4 g; eletrodo de prata.",
+      "2,36 V; 10,8 g; eletrodo de prata."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é identificar quem se reduz (maior E° de redução) e quem se oxida, e lembrar que o potencial **não** é multiplicado pelos coeficientes da equação, mas a estequiometria dos elétrons sim.\n\n**1) Quem é quem:** a prata tem maior potencial de redução (+0,80 V), então Ag⁺ se reduz e a placa de prata é o **cátodo**, que na pilha é o **polo positivo** (para ele fluem os elétrons pelo fio). O zinco se oxida: é o ânodo, polo negativo.\n\n**2) ddp:** ΔE° = E°(cátodo) − E°(ânodo) = +0,80 − (−0,76) = **1,56 V**. A equação global é Zn + 2 Ag⁺ → Zn²⁺ + 2 Ag, mas o E° da prata não é multiplicado por 2: o potencial é uma grandeza intensiva (energia por unidade de carga) e não depende da quantidade de substância.\n\n**3) Massa de prata:** n(Zn) = 3,25 ÷ 65 = 0,050 mol. Cada Zn libera 2 e⁻ e cada Ag⁺ recebe 1 e⁻, logo a proporção é 1 Zn : 2 Ag, e n(Ag) = 0,10 mol. Então m = 0,10 × 108 = **10,8 g**.\n\nPara lembrar: na pilha, o cátodo (onde ocorre a redução) é o polo positivo; na ddp, use os E° sem multiplicar pelos coeficientes, mas na estequiometria respeite a proporção de elétrons.",
+    "erradas": [
+      "Erro de sinal: subtraiu os módulos dos potenciais (0,80 − 0,76), em vez de fazer 0,80 − (−0,76).",
+      "",
+      "Inverteu a polaridade: o zinco é o ânodo, e na pilha o ânodo é o polo negativo; a associação ânodo = polo positivo vale para a eletrólise, não para a pilha.",
+      "Usou proporção 1 : 1 entre Zn e Ag, esquecendo que cada Zn fornece 2 elétrons e cada Ag⁺ recebe apenas 1.",
+      "Multiplicou o E° da prata pelo coeficiente 2 da equação global (2 × 0,80 + 0,76); potenciais de eletrodo não dependem dos coeficientes."
+    ]
+  },
+  {
+    "id": "QUI-B-010",
+    "materia": "quimica",
+    "tema": "Eletrólise ígnea — carga, tempo e energia na produção de alumínio",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "fisica"
+    ],
+    "texto": "Na produção industrial de alumínio, a alumina (Al₂O₃) é dissolvida em criolita fundida e submetida a eletrólise. O alumínio metálico é obtido no cátodo, enquanto o oxigênio reage com os ânodos de carbono, formando CO₂. Texto elaborado para esta questão.",
+    "enunciado": "Uma cuba eletrolítica opera com corrente constante de 2,0 × 10⁵ A e tensão de 4,5 V, com rendimento de corrente de 100%.\n\nDados: massa molar do Al = 27 g/mol; constante de Faraday ≈ 9,6 × 10⁴ C por mol de elétrons; 1 kWh = 3,6 × 10⁶ J.\n\nO tempo necessário para produzir 270 kg de alumínio nessa cuba e a energia elétrica consumida nesse processo são, respectivamente:",
+    "alternativas": [
+      "4,0 h; 9,0 × 10² kWh",
+      "1 h 20 min; 1,2 × 10³ kWh",
+      "4,0 h; 3,6 × 10³ kWh",
+      "8,0 h; 7,2 × 10³ kWh",
+      "4,0 h; 3,6 × 10⁶ kWh"
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é ligar a estequiometria de elétrons (Faraday) à energia elétrica da Física: a carga sai da semirreação, o tempo sai de Q = i · t e a energia sai de E = U · Q (ou E = P · t).\n\n**1) Semirreação catódica:** na alumina, o alumínio está na forma de Al³⁺ (o oxigênio é O²⁻). Al³⁺ + 3 e⁻ → Al: são 3 mol de elétrons por mol de Al.\n\n**2) Carga:** n(Al) = 270 000 g ÷ 27 g/mol = 1,0 × 10⁴ mol, então n(e⁻) = 3,0 × 10⁴ mol. Q = 3,0 × 10⁴ × 9,6 × 10⁴ = 2,88 × 10⁹ C.\n\n**3) Tempo:** t = Q/i = 2,88 × 10⁹ ÷ 2,0 × 10⁵ = 1,44 × 10⁴ s. Como 1 h = 3600 s, t = **4,0 h**.\n\n**4) Energia:** E = U · Q = 4,5 × 2,88 × 10⁹ = 1,296 × 10¹⁰ J. Em kWh: 1,296 × 10¹⁰ ÷ 3,6 × 10⁶ = **3,6 × 10³ kWh**.\n\nAtalho pela Física: P = U · i = 4,5 V × 2,0 × 10⁵ A = 9,0 × 10⁵ W = 900 kW; E = P · t = 900 kW × 4,0 h = 3600 kWh.\n\nOrdem de grandeza: 3600 kWh ÷ 270 kg ≈ 13 kWh por quilograma de alumínio, valor próximo ao das usinas reais. É por isso que a reciclagem do alumínio, que dispensa a eletrólise, economiza cerca de 95% da energia.\n\nPara lembrar: na eletrólise, Q = n(e⁻) × F, com n(e⁻) tirado da carga do íon; a energia elétrica é E = U · Q = P · t, e 1 kWh = 3,6 × 10⁶ J.",
+    "erradas": [
+      "9,0 × 10² é o valor da potência da cuba em kW (P = U · i = 900 kW), e não a energia: faltou multiplicar pelo tempo de 4,0 h.",
+      "Considerou 1 elétron por átomo de alumínio, esquecendo a carga 3+ do Al³⁺: a carga, o tempo e a energia ficam 3 vezes menores.",
+      "",
+      "Usou 6 elétrons por mol de Al, contando os elétrons dos 2 Al³⁺ da fórmula Al₂O₃ como se fossem de um só átomo: tempo e energia dobram.",
+      "Erro de conversão: dividiu os joules por 3600 (obtendo watt-hora) e chamou o resultado de kWh; faltava dividir também por 1000."
+    ]
+  }
+]
