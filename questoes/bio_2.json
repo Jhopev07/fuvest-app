@@ -1,0 +1,567 @@
+[
+  {
+    "id": "BIO-021",
+    "materia": "biologia",
+    "tema": "Citologia — membrana plasmática e transporte ativo secundário",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Fragmentos de epitélio do intestino delgado foram montados entre dois compartimentos: um banha a face das células voltada para a luz intestinal e contém glicose; o outro banha a face voltada para o sangue. A proteína que transporta a glicose pela face voltada para a luz não hidrolisa ATP. A ouabaína inibe especificamente a bomba de sódio e potássio, que, nessas células, existe apenas na membrana voltada para o sangue; ela não se liga à glicose nem às proteínas que a transportam. Após 20 minutos, mediram-se a razão entre a concentração de glicose dentro das células e na solução do lado da luz e a passagem de glicose para o lado do sangue (controle = 100). Dados hipotéticos.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Resultados após 20 minutos",
+      "cabecalho": ["Condição", "Glicose na célula / glicose na luz", "Passagem de glicose para o lado do sangue"],
+      "linhas": [
+        ["Controle", "5", "100"],
+        ["Solução do lado da luz sem Na⁺", "0,1", "3"],
+        ["Ouabaína no lado do sangue", "1", "12"],
+        ["Cianeto (bloqueia a respiração celular)", "1", "10"]
+      ]
+    },
+    "enunciado": "Os resultados permitem concluir que a entrada de glicose nas células, pela face voltada para a luz intestinal,",
+    "alternativas": [
+      "é uma difusão facilitada, já que a proteína que transporta a glicose nessa face da célula não hidrolisa ATP.",
+      "ocorre contra o gradiente de concentração, impulsionada pela entrada de Na⁺ a favor do gradiente mantido pela bomba.",
+      "é realizada pela própria bomba de sódio e potássio, que troca íons Na⁺ por moléculas de glicose consumindo ATP.",
+      "passa a ocorrer por difusão simples quando falta Na⁺, pois a glicose atravessa livremente a bicamada lipídica.",
+      "depende só do gradiente de glicose, que a ouabaína desfaz ao impedir a saída da glicose da célula para o sangue."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que a glicose entra na célula CONTRA o seu gradiente de concentração (a célula fica com 5 vezes mais glicose que a luz), mas sem que a proteína transportadora gaste ATP. A energia vem de outro gradiente: o do Na⁺.\n\n**Lendo os dados.** Sem Na⁺ do lado da luz, a entrada praticamente cessa (razão 0,1): a glicose só entra acompanhada de Na⁺. Com ouabaína, que age apenas na bomba de sódio e potássio da face voltada para o sangue, a célula deixa de acumular glicose (razão 1). Com cianeto, que bloqueia a respiração celular e, portanto, a produção de ATP, ocorre o mesmo. Conclusão: a entrada depende do ATP, mas de modo indireto, por meio da bomba.\n\n**O mecanismo.** A bomba de sódio e potássio usa ATP para expulsar Na⁺ da célula (e trazer K⁺), mantendo baixa a concentração de Na⁺ no citosol. Na face voltada para a luz, uma proteína transportadora leva ao mesmo tempo Na⁺ e glicose para dentro: o Na⁺ entra a favor do seu gradiente e \"arrasta\" a glicose contra o dela. É o transporte ativo secundário (cotransporte). Depois, a glicose acumulada sai pela face oposta por difusão facilitada, a favor do gradiente, rumo ao sangue.\n\nUma aplicação: o soro de reidratação oral contém sódio e glicose porque a absorção conjunta dos dois no intestino favorece também a absorção de água por osmose.\n\nPara lembrar: transporte ativo é o que ocorre contra o gradiente; ele pode usar ATP diretamente (bombas) ou a energia de um gradiente iônico criado por uma bomba (transporte ativo secundário).",
+    "erradas": [
+      "Não hidrolisar ATP diretamente não torna o transporte passivo: a célula acumula glicose 5 vezes acima da concentração da luz, ou seja, contra o gradiente. A energia vem do gradiente de Na⁺.",
+      "",
+      "O texto informa que a bomba existe só na membrana voltada para o sangue, e ela transporta Na⁺ e K⁺, não glicose. Seu papel é indireto: manter baixa a concentração de Na⁺ dentro da célula.",
+      "Sem Na⁺, a entrada praticamente cessa (razão 0,1 e passagem 3). A glicose é polar e não atravessa a bicamada lipídica em quantidade significativa sem proteínas transportadoras.",
+      "Se a ouabaína impedisse a saída da glicose para o sangue, a glicose se acumularia ainda mais na célula; os dados mostram o contrário (a razão cai de 5 para 1). E a razão 5 do controle indica transporte contra o gradiente."
+    ]
+  },
+  {
+    "id": "BIO-022",
+    "materia": "biologia",
+    "tema": "Síntese proteica — processamento do RNA e código genético",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Um gene eucariótico origina um transcrito primário (pré-RNA mensageiro) de 4 200 nucleotídeos. Após a remoção dos íntrons, o RNA mensageiro maduro tem 1 500 nucleotídeos (desconsidere as modificações nas extremidades, como a cauda poli-A). Nesse RNA maduro, há 240 nucleotídeos antes do códon de início (AUG) e 360 nucleotídeos depois do códon de parada, regiões que não são traduzidas. Considere que nenhum aminoácido é removido da proteína após a tradução.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Uma mutação por substituição de uma única base transforma o 120º códon da região codificadora (contando o AUG como o 1º) em UAG, um códon de parada. O número de aminoácidos da proteína normal e o da proteína mutante são, respectivamente,",
+    "alternativas": ["299 e 119.", "299 e 298.", "300 e 120.", "499 e 119.", "1 199 e 119."],
+    "correta": 0,
+    "explicacao": "O ponto aqui é filtrar o que NÃO vira aminoácido: íntrons, regiões não traduzidas e o códon de parada.\n\n**Passo 1 — usar o RNA maduro.** Os íntrons são removidos no núcleo (processamento, ou splicing), então o transcrito primário de 4 200 nucleotídeos não serve para a conta. Parte-se do RNA maduro: 1 500 nucleotídeos.\n\n**Passo 2 — tirar as regiões não traduzidas.** 1 500 − 240 − 360 = 900 nucleotídeos, do AUG até o códon de parada, inclusive. São 900/3 = 300 códons.\n\n**Passo 3 — o códon de parada não codifica aminoácido.** Ele é reconhecido por um fator de liberação, e não por um RNA transportador. Logo, a proteína normal tem 300 − 1 = 299 aminoácidos (o primeiro é a metionina, codificada pelo AUG).\n\n**Passo 4 — a mutação.** Se o 120º códon vira UAG, a tradução termina ali: são traduzidos apenas os códons 1 a 119. A proteína mutante tem 119 aminoácidos. Esse tipo de mutação, que cria um códon de parada precoce, é chamado de mutação sem sentido e costuma ser muito mais grave que a troca de um único aminoácido.\n\n**Sobre o código genético.** São 64 códons: 61 codificam aminoácidos e 3 (UAA, UAG e UGA) indicam parada. Como há 20 aminoácidos, a maioria deles é codificada por mais de um códon (código degenerado); por isso, algumas substituições de base não alteram a proteína (mutações silenciosas).\n\nPara lembrar: o número de aminoácidos é o número de códons do RNA mensageiro maduro entre o AUG e o códon de parada, contando o AUG e excluindo o códon de parada.",
+    "erradas": [
+      "",
+      "Acerta a proteína normal, mas trata a mutação como se ela apenas removesse um aminoácido. Um códon de parada na posição 120 interrompe a tradução ali, e a proteína fica com 119 aminoácidos.",
+      "Conta o códon de parada como se codificasse um aminoácido: 300 códons dariam 300 aminoácidos, e 120 códons, 120. O códon de parada não é lido por nenhum RNA transportador.",
+      "Ignora as regiões não traduzidas: (1 500 − 3)/3 = 499. Os 240 nucleotídeos antes do AUG e os 360 depois do códon de parada não são traduzidos.",
+      "Usa o transcrito primário, que ainda contém os íntrons: (4 200 − 600 − 3)/3 = 1 199. Os íntrons são removidos antes de o RNA sair do núcleo e não são traduzidos."
+    ]
+  },
+  {
+    "id": "BIO-023",
+    "materia": "biologia",
+    "tema": "Ciclo celular e câncer — proto-oncogenes e genes supressores de tumor",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "texto": "Células de duas linhagens tumorais humanas, X e Y, que se dividem sem controle em cultura, foram fundidas, cada uma, com células normais, formando células híbridas que contêm os cromossomos dos dois tipos celulares. Os híbridos X + normal passaram a se dividir de forma controlada; os híbridos Y + normal continuaram a se dividir sem controle. A análise genética mostrou que, na linhagem X, as duas cópias do gene G estão inativadas por mutações; na linhagem Y, uma das cópias do gene H tem uma mutação que mantém sua proteína permanentemente ativa, e a outra cópia é normal. Dados hipotéticos.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Com base nesses resultados, uma pessoa que herdou de um dos pais um alelo inativo do gene G, presente em todas as células do seu corpo,",
+    "alternativas": [
+      "já tem divisão descontrolada em todas as células desde o nascimento, pois o alelo inativo de G é dominante sobre o normal.",
+      "tem risco aumentado de câncer, pois o alelo inativo de G produz uma proteína que estimula a divisão celular continuamente.",
+      "tem o mesmo risco que a população geral, pois o câncer resulta de mutações somáticas, que não dependem de alelos herdados.",
+      "só terá risco aumentado de câncer se herdar, do outro genitor, uma forma mutante e permanentemente ativa do gene H.",
+      "tem risco aumentado de câncer, pois basta uma mutação que inative o outro alelo em uma de suas células para iniciar um tumor."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é usar o experimento de fusão para classificar os genes: se a célula normal \"conserta\" o tumor, faltava algo que ela fornece (perda de função); se não conserta, a alteração do tumor se impõe mesmo na presença de genes normais (ganho de função).\n\n**Gene G.** Na linhagem X, os dois alelos de G estão inativados, e a fusão com uma célula normal, que traz alelos funcionais de G, restabelece o controle. Então a proteína de G funciona como um freio da divisão: G é um gene supressor de tumor. Para a célula perder o controle, os DOIS alelos precisam estar inativados; um só alelo funcional basta (no nível da célula, o alelo inativo é recessivo).\n\n**Gene H.** Na linhagem Y, uma única cópia alterada, que mantém a proteína sempre ativa, provoca divisão descontrolada mesmo na presença da cópia normal e dos genes da célula normal. H é um proto-oncogene que, mutado, tornou-se um oncogene (efeito dominante no nível da célula).\n\n**A pessoa do enunciado.** Ela herdou um alelo inativo de G, presente em todas as células. Cada célula ainda tem um alelo funcional e se divide normalmente, mas basta uma única mutação somática que inative esse segundo alelo, em qualquer célula, para que ela perca o freio. Quem não herdou a mutação precisa de duas mutações na mesma célula, algo muito menos provável. Por isso, nesses casos, os tumores tendem a surgir mais cedo e, às vezes, em vários pontos. É o que ocorre, por exemplo, na forma hereditária do retinoblastoma, um tumor de retina.\n\nNo ciclo celular normal, proteínas codificadas por genes supressores atuam em pontos de checagem: diante de DNA danificado, por exemplo, a proteína p53 interrompe o ciclo para que haja reparo ou induz a morte programada da célula (apoptose).\n\nPara lembrar: proto-oncogenes estimulam a divisão e, quando hiperativados, agem de forma dominante; genes supressores de tumor freiam a divisão e só deixam de funcionar quando os dois alelos são inativados.",
+    "erradas": [
+      "Os híbridos X + normal mostram o contrário: um alelo funcional de G basta para manter o controle da divisão. Como cada célula da pessoa ainda tem um alelo normal, ela nasce com divisão celular controlada.",
+      "Descreve um oncogene, como o H mutante (ganho de função). O alelo inativo de G perdeu a função: deixa de produzir o freio da divisão, mas não passa a estimulá-la.",
+      "O câncer depende, sim, de mutações somáticas, mas quem herda um alelo inativo de G já tem, em todas as células, uma das duas alterações necessárias. Falta apenas uma, e o risco aumenta.",
+      "G e H atuam de modo independente. Herdar um alelo inativo de G já aumenta o risco, porque basta perder o segundo alelo de G em uma célula; não é necessária nenhuma alteração em H.",
+      ""
+    ]
+  },
+  {
+    "id": "BIO-024",
+    "materia": "biologia",
+    "tema": "Bioquímica — atividade enzimática, inibidores e temperatura",
+    "nivel": "acima",
+    "origem": "Estilo livro (Amabis & Martho)",
+    "inter": [],
+    "texto": "A velocidade de uma reação catalisada por uma enzima foi medida a 37 °C, em pH ótimo, sempre com a mesma quantidade de enzima e em três concentrações de substrato. Testaram-se: a enzima sem tratamento (controle); a enzima na presença da substância A; a enzima na presença da substância B; a enzima previamente mantida a 80 °C por 10 minutos e depois resfriada a 37 °C; e a enzima previamente mantida a 4 °C por 10 minutos e depois aquecida a 37 °C. Dados hipotéticos, em unidades arbitrárias.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Velocidade da reação medida a 37 °C",
+      "cabecalho": ["Condição", "Substrato baixo", "Substrato médio", "Substrato muito alto"],
+      "linhas": [
+        ["Controle", "15", "50", "98"],
+        ["Com A", "4", "20", "96"],
+        ["Com B", "7", "25", "49"],
+        ["Pré-aquecida a 80 °C", "0", "0", "0"],
+        ["Pré-resfriada a 4 °C", "15", "50", "98"]
+      ]
+    },
+    "enunciado": "A interpretação correta desses resultados é:",
+    "alternativas": [
+      "A e o pré-aquecimento a 80 °C atuam do mesmo modo, pois ambos reduzem a velocidade da reação quando o substrato é escasso.",
+      "B compete com o substrato pelo sítio ativo, pois sua presença reduz a velocidade da reação em todas as concentrações testadas.",
+      "A se liga de forma permanente ao sítio ativo, pois só com excesso de substrato a velocidade da reação se iguala à do controle.",
+      "a enzima foi desnaturada de forma reversível a 4 °C, pois recuperou toda a sua atividade quando voltou a 37 °C.",
+      "A compete com o substrato pelo sítio ativo, e o excesso de substrato supera sua ação; a ação de B não é superada desse modo."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é comparar cada condição com o controle nas três concentrações de substrato e perguntar: o excesso de substrato restaura a velocidade?\n\n**A teoria por trás.** Enzimas são proteínas catalisadoras: diminuem a energia de ativação das reações sem serem consumidas. O substrato se liga a uma região específica da enzima, o sítio ativo, cuja forma depende da estrutura tridimensional da proteína. Com pouco substrato, a velocidade aumenta quando se acrescenta substrato; com muito substrato, todos os sítios ativos ficam ocupados quase o tempo todo (saturação), e a velocidade se aproxima de um máximo. Por isso o controle sobe de 15 para 50 e depois para 98, mas não indefinidamente.\n\n**Substância A.** Reduz muito a velocidade com pouco substrato (4 contra 15), mas quase nada com substrato muito alto (96 contra 98). É o comportamento de um inibidor competitivo: uma molécula parecida com o substrato, que ocupa o sítio ativo de forma reversível. Quando há muito substrato, ele \"vence a disputa\" pelos sítios. Um exemplo médico: na intoxicação por metanol, administra-se etanol, que compete pela mesma enzima e reduz a formação dos produtos tóxicos do metanol.\n\n**Substância B.** Reduz a velocidade à metade em todas as concentrações (7, 25 e 49), inclusive com excesso de substrato. Seu efeito não é superado pelo substrato, o que indica outro mecanismo, como a ligação a outra região da enzima que altera o sítio ativo (inibição não competitiva).\n\n**Temperatura.** A 80 °C, a agitação térmica rompe as ligações que mantêm a forma da proteína: a enzima é desnaturada e, mesmo de volta a 37 °C, não recupera a atividade (0 em todas as concentrações). A 4 °C, as moléculas apenas se movem mais devagar e a reação fica lenta, mas a estrutura se mantém; reaquecida, a enzima volta a funcionar como no controle.\n\nPara lembrar: um inibidor competitivo disputa o sítio ativo com o substrato e é superado por excesso dele; o calor intenso desnatura a enzima, enquanto o frio apenas reduz sua atividade.",
+    "erradas": [
+      "O aquecimento a 80 °C zerou a atividade em TODAS as concentrações, inclusive com substrato muito alto: houve desnaturação. Com A, o excesso de substrato restaura a velocidade (96), o que indica um mecanismo diferente.",
+      "É justamente o contrário: um competidor pelo sítio ativo seria superado por excesso de substrato. B mantém a velocidade na metade mesmo com substrato muito alto (49 contra 98), então não age competindo.",
+      "Se A se ligasse de forma permanente ao sítio ativo, os sítios bloqueados não seriam liberados, e nem o excesso de substrato restauraria a velocidade. Como ela volta a 96, a ligação de A é reversível.",
+      "O frio não desnatura a enzima: apenas reduz a agitação das moléculas e, com ela, a velocidade da reação. Como a estrutura se mantém, a atividade é igual à do controle ao voltar a 37 °C.",
+      ""
+    ]
+  },
+  {
+    "id": "BIO-025",
+    "materia": "biologia",
+    "tema": "Metabolismo energético — fotossíntese bruta e líquida, respiração e balanço diário",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Uma planta foi mantida a 25 °C. Sob a iluminação típica de seu ambiente, ela absorve CO₂ do ar à taxa de 2,0 mg por hora; no escuro, libera CO₂ à taxa de 1,0 mg por hora. Considere que a respiração da planta tem a mesma intensidade no claro e no escuro e que a matéria orgânica acumulada é proporcional ao saldo de CO₂ fixado.\n\nTexto elaborado para esta questão.",
+    "enunciado": "A taxa de fotossíntese bruta da planta sob essa iluminação e o número mínimo de horas de luz por dia para que ela não perca matéria orgânica são, respectivamente,",
+    "alternativas": [
+      "1,0 mg de CO₂ por hora e 24 h.",
+      "2,0 mg de CO₂ por hora e 12 h.",
+      "3,0 mg de CO₂ por hora e 6 h.",
+      "3,0 mg de CO₂ por hora e 8 h.",
+      "3,0 mg de CO₂ por hora e 12 h."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que a absorção de CO₂ medida na luz já é um saldo: a fotossíntese bruta MENOS a respiração, que continua ocorrendo durante o dia.\n\n**Passo 1 — fotossíntese bruta.** Na luz, a planta fixa CO₂ pela fotossíntese e libera CO₂ pela respiração. O que se mede é a diferença (fotossíntese líquida, ou aparente): 2,0 mg/h. Como a respiração vale 1,0 mg/h, a fotossíntese bruta é 2,0 + 1,0 = 3,0 mg de CO₂ por hora.\n\n**Passo 2 — balanço do dia.** Com t horas de luz, a fotossíntese bruta fixa 3,0 · t; a respiração, que ocorre durante as 24 horas, libera 1,0 · 24 = 24 mg. Para não perder matéria orgânica: 3,0 · t ≥ 24, ou seja, t ≥ 8 h.\n\nConferindo pelo outro caminho: em 8 h de luz, o saldo é +2,0 · 8 = +16 mg; nas 16 h de escuro, −1,0 · 16 = −16 mg. Saldo zero.\n\nO mesmo raciocínio ajuda a entender o ponto de compensação luminoso: a intensidade de luz em que a fotossíntese bruta se iguala à respiração e a troca líquida de CO₂ com o ar é nula. Uma planta iluminada só nessa intensidade não acumularia nada durante o dia e perderia matéria orgânica à noite.\n\nPara lembrar: fotossíntese bruta = líquida + respiração; para a planta crescer, o CO₂ fixado no período iluminado precisa superar o liberado pela respiração nas 24 horas.",
+    "erradas": [
+      "Subtrai a respiração da absorção medida (2,0 − 1,0 = 1,0), como se ainda faltasse descontá-la; com 1,0 · t = 24, a planta precisaria de luz o dia inteiro. A respiração diurna já está descontada no valor medido.",
+      "Trata a absorção medida na luz (2,0 mg/h) como fotossíntese bruta e a compara com a respiração das 24 horas: 2,0 · t = 24 dá 12 h. Mas o valor medido já é a fotossíntese líquida.",
+      "Acerta a fotossíntese bruta, mas desconta só a respiração do período escuro: 3,0 · t = 1,0 · (24 − t) dá 6 h. A respiração também ocorre durante as horas de luz.",
+      "",
+      "Acerta a fotossíntese bruta, mas faz o balanço com a absorção líquida (2,0 · t = 24), descontando duas vezes a respiração diurna. O correto é 3,0 · t = 24, ou seja, 8 h."
+    ]
+  },
+  {
+    "id": "BIO-026",
+    "materia": "biologia",
+    "tema": "Genética — epistasia recessiva e segregação independente",
+    "nivel": "acima",
+    "origem": "Estilo livro (Amabis & Martho)",
+    "inter": [],
+    "texto": "Em cães da raça labrador, a cor da pelagem depende de dois genes com segregação independente. No gene B, o alelo B condiciona pigmento preto e é dominante sobre b, que condiciona pigmento chocolate. No gene E, o genótipo ee impede a deposição de pigmento nos pelos, e o cão fica amarelo, qualquer que seja seu genótipo para o gene B; com pelo menos um alelo E, a cor é determinada pelo gene B.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Uma fêmea preta, filha de um macho chocolate e de uma fêmea amarela, foi cruzada com um macho chocolate cuja mãe era amarela. Espera-se, entre os filhotes, a proporção preto : chocolate : amarelo de",
+    "alternativas": ["1 : 1 : 0", "3 : 3 : 2", "3 : 4 : 1", "4 : 3 : 1", "9 : 3 : 4"],
+    "correta": 1,
+    "explicacao": "O ponto aqui é deduzir os genótipos dos pais a partir dos avós e, depois, tratar cada gene separadamente, lembrando que ee mascara o gene B.\n\n**A teoria por trás.** Epistasia é a interação em que um gene interfere na expressão de outro gene, não alélico. Não confunda com dominância, que é a relação entre alelos do MESMO gene. Aqui, o gene B define QUAL pigmento é produzido (preto ou chocolate), e o gene E define se o pigmento é depositado nos pelos. Como basta o genótipo homozigoto recessivo ee para mascarar o gene B, fala-se em epistasia recessiva. No cruzamento clássico entre dois duplo-heterozigotos (BbEe × BbEe), as classes 9 B_E_ : 3 bbE_ : 3 B_ee : 1 bbee viram 9 pretos : 3 chocolates : 4 amarelos, porque B_ee e bbee têm o mesmo fenótipo.\n\n**Genótipo da fêmea preta.** Ela é B_E_. Seu pai é chocolate (bb), então ela recebeu dele o alelo b, e o B veio da mãe. Sua mãe é amarela (ee), então ela recebeu da mãe o alelo e. Logo, a fêmea é BbEe.\n\n**Genótipo do macho chocolate.** Ele é bbE_ e recebeu e da mãe amarela: é bbEe.\n\n**Cruzamento BbEe × bbEe, gene a gene.**\nGene B: Bb × bb → 1/2 B_ e 1/2 bb.\nGene E: Ee × Ee → 3/4 E_ e 1/4 ee.\nPreto (B_E_) = 1/2 × 3/4 = 3/8.\nChocolate (bbE_) = 1/2 × 3/4 = 3/8.\nAmarelo (ee, qualquer genótipo para B) = 1/4 = 2/8.\nProporção 3 : 3 : 2.\n\nPara lembrar: na epistasia recessiva, o genótipo homozigoto recessivo de um gene mascara o efeito de outro gene; calcule cada gene separadamente e depois agrupe as classes pelo fenótipo.",
+    "erradas": [
+      "Considera EE um dos pais, esquecendo que a fêmea preta e o macho chocolate receberam o alelo e de suas mães amarelas (ee). Com um dos pais EE, nenhum filhote seria ee, e não haveria amarelos.",
+      "",
+      "Aplica o efeito de ee apenas aos cães com alelo B, como se os bbee fossem chocolate. Mas ee impede a deposição de pigmento qualquer que seja o genótipo para o gene B. (preto 3/8, chocolate 1/2, amarelo 1/8)",
+      "Aplica o efeito de ee apenas aos cães bb, como se os B_ee fossem pretos. Mas ee torna amarelo também o cão com alelo B. (preto 1/2, chocolate 3/8, amarelo 1/8)",
+      "É a proporção do cruzamento entre dois duplo-heterozigotos (BbEe × BbEe). O macho, sendo chocolate, é bb, e não Bb."
+    ]
+  },
+  {
+    "id": "BIO-027",
+    "materia": "biologia",
+    "tema": "Genética — ligação gênica, permutação e cruzamento-teste",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Em uma espécie de planta, os genes A/a e B/b localizam-se no mesmo cromossomo, e os alelos A e B são dominantes. Uma planta P, duplo-heterozigota (AaBb), foi cruzada com uma planta aabb. Entre os 1 000 descendentes, obtiveram-se:\n• 412 com fenótipo dominante para os dois genes;\n• 388 com fenótipo recessivo para os dois genes;\n• 104 com fenótipo dominante só para o gene A;\n• 96 com fenótipo dominante só para o gene B.\n\nConsidere que a frequência de permutação é a mesma na formação dos gametas masculinos e femininos.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Se duas plantas com o mesmo genótipo e o mesmo arranjo dos alelos nos cromossomos que a planta P forem cruzadas entre si, a porcentagem esperada de descendentes com fenótipo recessivo para os dois genes é",
+    "alternativas": ["1%.", "4%.", "6,25%.", "16%.", "25%."],
+    "correta": 3,
+    "explicacao": "O ponto aqui é usar o cruzamento-teste para descobrir os gametas da planta P e, a partir deles, o arranjo dos alelos e a taxa de permutação.\n\n**Passo 1 — gametas de P.** A planta aabb só fornece gametas ab, então o fenótipo de cada descendente revela o gameta que veio de P: 412 AB, 388 ab, 104 Ab e 96 aB.\n\n**Passo 2 — arranjo e permutação.** As classes mais numerosas são as parentais, formadas sem permutação: AB e ab. Logo, em P, os alelos A e B estão no mesmo cromossomo, e a e b no homólogo (arranjo cis, AB/ab). As classes menos numerosas, Ab e aB, são recombinantes: (104 + 96)/1 000 = 20%. A distância entre os genes é de 20 unidades de mapa (centimorgans).\n\n**Passo 3 — frequências esperadas dos gametas.** Parentais: 80%, divididos em 40% AB e 40% ab. Recombinantes: 20%, divididos em 10% Ab e 10% aB.\n\n**Passo 4 — cruzamento AB/ab × AB/ab.** Um descendente aabb precisa receber um gameta ab de cada genitor: 0,4 × 0,4 = 0,16 = 16%.\n\nCompare com a segregação independente, em que o gameta ab teria frequência de 25% e o resultado seria 1/16 = 6,25%. A ligação muda o resultado justamente porque altera as frequências dos gametas.\n\nPara lembrar: no cruzamento-teste, as classes mais frequentes revelam o arranjo dos alelos (cis ou trans), e a soma das classes recombinantes dá a taxa de permutação.",
+    "erradas": [
+      "Trata ab como gameta recombinante (frequência 10%), como se o arranjo fosse trans (Ab/aB): 0,1 × 0,1 = 1%. Os dados mostram que ab é uma classe parental.",
+      "Usa a taxa de permutação total (20%) como frequência do gameta ab: 0,2 × 0,2 = 4%. Na verdade, 20% é a soma dos dois tipos recombinantes, e ab é parental.",
+      "Supõe segregação independente (ab = 1/4): 1/4 × 1/4 = 1/16. Os genes estão no mesmo cromossomo, e o cruzamento-teste mostra que não segregam de forma independente.",
+      "",
+      "Ignora a permutação, como se só houvesse gametas AB e ab (50% cada): 0,5 × 0,5 = 25%. O cruzamento-teste mostra 20% de recombinantes."
+    ]
+  },
+  {
+    "id": "BIO-028",
+    "materia": "biologia",
+    "tema": "Genética — polialelia (alelos múltiplos)",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Em coelhos, a cor da pelagem é determinada por uma série de quatro alelos de um mesmo gene, com a seguinte relação de dominância: C (aguti) > cᶜʰ (chinchila) > cʰ (himalaia) > c (albino).\n\nTexto elaborado para esta questão.",
+    "enunciado": "Um macho aguti cruzado com uma fêmea himalaia teve filhotes aguti, himalaia e albinos. Um dos filhotes aguti dessa ninhada foi cruzado com um filhote himalaia da mesma ninhada. A probabilidade de esse cruzamento produzir um filhote albino é",
+    "alternativas": ["1/16", "1/12", "1/8", "1/6", "1/4"],
+    "correta": 2,
+    "explicacao": "O ponto aqui é, primeiro, descobrir os genótipos dos pais pelo aparecimento de albinos e, depois, perceber que os filhotes aguti não são todos iguais.\n\n**Passo 1 — os pais.** Um filhote albino é cc: recebeu c do pai e c da mãe. Então o macho aguti é Cc e a fêmea himalaia é cʰc.\n\n**Passo 2 — a ninhada.** Cc × cʰc → 1/4 Ccʰ (aguti), 1/4 Cc (aguti), 1/4 cʰc (himalaia), 1/4 cc (albino).\nFilhote aguti: Ccʰ ou Cc, com probabilidade 1/2 cada (a mãe não tem o alelo C, então não há CC).\nFilhote himalaia: obrigatoriamente cʰc (recebeu cʰ da mãe e, do pai, só pode ter recebido c).\n\n**Passo 3 — o novo cruzamento.** Só nasce albino se o filhote aguti for Cc (probabilidade 1/2). Nesse caso, Cc × cʰc dá cc com probabilidade 1/2 × 1/2 = 1/4.\nP(albino) = 1/2 × 1/4 = 1/8.\n\n**Sobre a polialelia.** Na população podem existir vários alelos de um gene, mas cada indivíduo diploide tem no máximo dois. Com quatro alelos, há 4 genótipos homozigotos e 6 heterozigotos: 10 genótipos possíveis. Curiosidade: no padrão himalaia, a enzima que participa da produção do pigmento só funciona em temperaturas mais baixas; por isso, só as extremidades do corpo (orelhas, focinho, patas e cauda), mais frias, ficam escuras.\n\nPara lembrar: em uma série de alelos múltiplos, cada indivíduo tem só dois alelos; para calcular probabilidades, liste os genótipos possíveis de cada indivíduo, com suas chances, antes de cruzar.",
+    "erradas": [
+      "Considera que o filhote himalaia pode ser cʰcʰ (1/2 × 1/2 × 1/4 = 1/16). Mas o pai aguti (Cc) não tem cʰ: todo filhote himalaia dessa ninhada é cʰc.",
+      "Considera que o filhote aguti pode ser CC, Ccʰ ou Cc, com chance 1/3 cada (1/3 × 1/4 = 1/12). Mas a mãe himalaia não tem o alelo C, então não há filhotes CC.",
+      "",
+      "Aplica de forma mecânica o 2/3 do cruzamento Aa × Aa (2/3 × 1/4 = 1/6). Aqui o cruzamento é Cc × cʰc, e o filhote aguti é Cc com probabilidade 1/2.",
+      "Considera que o filhote aguti é certamente Cc. Ele pode ser também Ccʰ, e nesse caso não há como nascer albino. (1 × 1/4 = 1/4)"
+    ]
+  },
+  {
+    "id": "BIO-029",
+    "materia": "biologia",
+    "tema": "Biotecnologia — PCR em tempo real e diagnóstico de vírus de RNA",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": ["matematica"],
+    "texto": "No diagnóstico de infecções por vírus de RNA, usa-se a técnica de RT-PCR em tempo real. Um trecho do material genético viral é amplificado em ciclos sucessivos e, a cada ciclo, a quantidade de cópias desse trecho dobra (eficiência ideal). Um corante fluorescente indica a quantidade de cópias, e registra-se o ciclo em que a fluorescência ultrapassa um valor limiar fixo, chamado Ct. Duas amostras, coletadas e processadas do mesmo modo, apresentaram Ct = 20 (amostra A) e Ct = 26 (amostra B).\n\nTexto elaborado para esta questão.",
+    "enunciado": "Sobre o teste e as duas amostras, é correto afirmar que",
+    "alternativas": [
+      "o RNA viral é convertido em DNA por transcrição reversa antes da amplificação, e A tinha cerca de 64 vezes mais cópias do trecho viral que B.",
+      "o RNA viral é convertido em DNA por transcrição reversa antes da amplificação, e B tinha cerca de 64 vezes mais cópias do trecho viral que A.",
+      "o RNA viral é convertido em DNA por transcrição reversa antes da amplificação, e A tinha cerca de 6 vezes mais cópias do trecho viral que B.",
+      "o RNA viral é amplificado diretamente, sem conversão em DNA, pela polimerase resistente ao calor, e A tinha cerca de 64 vezes mais cópias que B.",
+      "o RNA viral é copiado em novas moléculas de RNA pela RNA polimerase a cada ciclo, e A tinha cerca de 64 vezes mais cópias do trecho viral que B."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber que o Ct funciona como um cronômetro invertido: quanto MAIS material genético viral havia na amostra, MAIS CEDO a fluorescência atinge o limiar.\n\n**Passo 1 — por que existe o RT.** A PCR amplifica DNA: a DNA polimerase constrói novas fitas de DNA usando fitas de DNA como molde. Para detectar um vírus de RNA, o RNA viral é antes convertido em DNA complementar pela enzima transcriptase reversa (RT, do inglês reverse transcription). Só então começam os ciclos de amplificação.\n\n**Passo 2 — os ciclos.** Cada ciclo tem três etapas: aquecimento a cerca de 95 °C, que separa as fitas do DNA (rompe as ligações de hidrogênio entre as bases); resfriamento, que permite a ligação dos iniciadores (primers) às sequências complementares do trecho viral; e extensão das novas fitas pela DNA polimerase, resistente ao calor (obtida de bactérias que vivem em fontes termais). Com eficiência ideal, a quantidade de cópias dobra a cada ciclo: após n ciclos, há N₀ · 2ⁿ cópias.\n\n**Passo 3 — comparar as amostras.** As duas atingem a MESMA quantidade de cópias (o limiar). Sendo N(A) e N(B) as quantidades iniciais: N(A) · 2²⁰ = N(B) · 2²⁶, e N(A)/N(B) = 2²⁶⁻²⁰ = 2⁶ = 64. A amostra A, que chegou ao limiar 6 ciclos antes, tinha cerca de 64 vezes mais cópias.\n\nAtalho: cada ciclo de diferença vale um fator 2; como 2¹⁰ = 1 024 ≈ 10³, uma diferença de 10 ciclos corresponde a cerca de mil vezes mais material.\n\nPara lembrar: na PCR, a quantidade de DNA cresce exponencialmente (dobra a cada ciclo), e um Ct menor indica maior quantidade inicial do material genético procurado.",
+    "erradas": [
+      "",
+      "Inverte o significado do Ct: quanto mais material genético na amostra, MENOS ciclos são necessários para atingir o limiar. B, com Ct maior, tinha menos cópias.",
+      "Trata a amplificação como linear (6 ciclos de diferença = 6 vezes). Como as cópias dobram a cada ciclo, a diferença é 2⁶ = 64.",
+      "A PCR usa DNA polimerase, que copia moldes de DNA. No RT-PCR, o RNA viral é antes convertido em DNA pela transcriptase reversa; a resistência da enzima ao calor não muda isso.",
+      "Na PCR, quem faz as cópias é uma DNA polimerase, e o produto amplificado é DNA. O RNA viral serve apenas de molde para a transcriptase reversa produzir o DNA inicial."
+    ]
+  },
+  {
+    "id": "BIO-030",
+    "materia": "biologia",
+    "tema": "Evolução — equilíbrio de Hardy-Weinberg e seleção natural (anemia falciforme)",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": ["matematica"],
+    "texto": "A anemia falciforme é causada pela homozigose de um alelo (S) do gene da cadeia beta da hemoglobina. Os heterozigotos (AS) geralmente não têm anemia grave e são mais resistentes às formas graves da malária causada por Plasmodium falciparum do que os homozigotos AA. Em uma região onde essa malária é endêmica, 4% dos recém-nascidos são SS, e a população está em equilíbrio de Hardy-Weinberg para esse gene ao nascimento.\n\nTexto elaborado para esta questão.",
+    "enunciado": "A porcentagem de recém-nascidos heterozigotos e a tendência da frequência do alelo S, caso a malária seja erradicada da região, são:",
+    "alternativas": [
+      "16%; a frequência de S tende a diminuir de forma gradual, pois os SS continuam desfavorecidos e os AS perdem a vantagem.",
+      "20%; a frequência de S tende a diminuir de forma gradual, pois os SS continuam desfavorecidos e os AS perdem a vantagem.",
+      "32%; a frequência de S tende a permanecer constante, pois a população continua em equilíbrio de Hardy-Weinberg.",
+      "32%; a frequência de S tende a chegar a zero em poucas gerações, pois a seleção passa a eliminar também os AS.",
+      "32%; a frequência de S tende a diminuir de forma gradual, pois os SS continuam desfavorecidos e os AS perdem a vantagem."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é usar Hardy-Weinberg só para a fotografia atual e, depois, raciocinar sobre a seleção natural para prever a mudança.\n\n**Passo 1 — frequências.** Em equilíbrio, a frequência de SS é q². Então q² = 0,04 e q = 0,2 (frequência do alelo S); p = 1 − 0,2 = 0,8 (frequência de A). Heterozigotos: 2pq = 2 × 0,8 × 0,2 = 0,32 = 32%. Confira: p² + 2pq + q² = 0,64 + 0,32 + 0,04 = 1.\n\n**Passo 2 — por que S é frequente onde há malária.** Os SS têm anemia grave e deixam, em média, menos descendentes; os AA são mais vulneráveis à malária grave; os AS levam vantagem sobre os dois homozigotos. A seleção favorece o heterozigoto e mantém os dois alelos na população (polimorfismo balanceado).\n\n**Passo 3 — sem malária.** Os AS perdem a vantagem, mas a seleção continua atuando contra os SS, e a frequência de S tende a cair. A queda é gradual: a maior parte dos alelos S está \"escondida\" nos heterozigotos (32% da população, contra 4% de SS), que não são eliminados pela seleção. Quanto mais raro fica o alelo, mais lenta é a queda.\n\nLembre que o equilíbrio de Hardy-Weinberg só se mantém se não houver seleção, mutação, migração ou deriva (população muito grande) e se os cruzamentos ocorrerem ao acaso. A seleção contra os SS rompe essas condições.\n\nPara lembrar: em Hardy-Weinberg, a frequência de heterozigotos é 2pq; a seleção altera as frequências alélicas, e alelos recessivos prejudiciais diminuem devagar porque se escondem nos heterozigotos.",
+    "erradas": [
+      "Calcula p × q (0,8 × 0,2 = 0,16) e esquece o fator 2: o heterozigoto pode receber o alelo S do pai ou da mãe, por isso a frequência é 2pq.",
+      "Confunde a frequência do alelo S (q = 0,2) com a frequência de indivíduos heterozigotos (2pq = 0,32).",
+      "Esquece que o equilíbrio de Hardy-Weinberg exige ausência de seleção. Sem malária, a seleção continua atuando contra os SS, e a frequência de S tende a cair.",
+      "Os AS deixam de ter vantagem, mas não passam a ser eliminados. Como a maioria dos alelos S está nos heterozigotos, que escapam da seleção, a queda é gradual e não leva o alelo a zero em poucas gerações.",
+      ""
+    ]
+  },
+  {
+    "id": "BIO-031",
+    "materia": "biologia",
+    "tema": "Evolução — deriva genética, efeito fundador e especiação",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Uma população de peixes vivia em um grande lago. Há milhares de anos, poucas dezenas de indivíduos foram levadas a um lago pequeno e isolado, onde formaram a população B, que se manteve sempre pequena; a população do lago grande (A) continuou com centenas de milhares de indivíduos. Recentemente, uma obra ligou os dois lagos. Observou-se que:\n• um alelo sem efeito conhecido sobre a sobrevivência ou a reprodução tem frequência de 100% em B e de cerca de 50% em A;\n• os machos de A e de B têm padrões de coloração diferentes e, nos lagos ligados, as fêmeas só aceitam machos da própria população;\n• cruzamentos forçados em aquário entre peixes de A e de B produzem descendentes viáveis e férteis.\n\nTexto elaborado para esta questão.",
+    "enunciado": "A interpretação mais adequada desses dados é:",
+    "alternativas": [
+      "o alelo se fixou em B por seleção natural, já que um alelo só atinge a frequência de 100% quando confere alguma vantagem.",
+      "a deriva genética foi mais intensa em A, já que um número maior de indivíduos produz mais variações ao acaso a cada geração.",
+      "o alelo pode ter se fixado em B por deriva, mais forte em populações pequenas, e o isolamento comportamental indica especiação.",
+      "A e B ainda pertencem à mesma espécie, pois produzem descendentes viáveis e férteis quando são cruzados em aquário.",
+      "as fêmeas passaram a rejeitar machos da outra população para evitar híbridos inférteis, e isso desencadeou a especiação."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é separar dois fenômenos: a mudança de frequência de um alelo sem valor adaptativo (deriva) e o surgimento de isolamento reprodutivo (especiação).\n\n**O alelo neutro.** Um alelo que não afeta sobrevivência nem reprodução não é favorecido nem prejudicado pela seleção natural. Sua frequência muda ao acaso, de geração em geração, porque só uma parte dos gametas forma a geração seguinte: é a deriva genética. Em populações pequenas, essas flutuações são grandes, e um alelo pode se fixar (chegar a 100%) ou desaparecer. B começou com poucas dezenas de indivíduos, uma amostra que podia não representar a população original (efeito fundador), e permaneceu pequena. Em A, com centenas de milhares de indivíduos, as flutuações se compensam e a frequência muda pouco.\n\n**A especiação.** Isoladas geograficamente por muito tempo, A e B acumularam diferenças de forma independente. Quando os lagos foram ligados, as fêmeas passaram a aceitar apenas machos da própria população: há isolamento reprodutivo pré-zigótico, do tipo comportamental. Pelo conceito biológico, espécies são grupos de populações que, em condições naturais, cruzam entre si e produzem descendentes férteis e que estão reprodutivamente isolados de outros grupos. O fato de produzirem híbridos férteis em aquário não muda isso: na natureza, não há fluxo gênico entre elas. Esse processo, iniciado por uma barreira geográfica, é a especiação alopátrica.\n\nPara lembrar: a deriva genética altera frequências alélicas ao acaso e é mais intensa em populações pequenas; a especiação se completa quando surge isolamento reprodutivo em condições naturais.",
+    "erradas": [
+      "Alelos neutros também podem se fixar, por acaso, em populações pequenas. Como o alelo não tem efeito sobre sobrevivência ou reprodução, a seleção natural não explica sua fixação.",
+      "Inverte a relação: em populações grandes, as flutuações ao acaso se compensam. A deriva é mais intensa em populações pequenas, como B.",
+      "",
+      "O que importa no conceito biológico de espécie é o cruzamento em condições naturais. Nos lagos ligados, as fêmeas rejeitam machos da outra população, e não há fluxo gênico.",
+      "Explicação finalista: as populações não mudam com o objetivo de evitar algo. Além disso, os híbridos obtidos em aquário são férteis. O isolamento surgiu como subproduto das diferenças acumuladas durante a separação."
+    ]
+  },
+  {
+    "id": "BIO-032",
+    "materia": "biologia",
+    "tema": "Ecologia — ciclo do nitrogênio",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["quimica"],
+    "texto": "Considere três transformações do nitrogênio realizadas por microrganismos do solo:\nI. N₂ → NH₃, realizada por bactérias que vivem em nódulos das raízes de leguminosas;\nII. NH₄⁺ → NO₂⁻ → NO₃⁻, realizada por bactérias quimiossintetizantes;\nIII. NO₃⁻ → N₂, realizada por bactérias que proliferam em solos pobres em O₂.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Um agricultor observou que o solo de sua lavoura, normalmente bem drenado, teve forte queda no teor de nitrato depois de passar semanas encharcado. Sobre os processos descritos e essa observação, é correto afirmar que",
+    "alternativas": [
+      "o encharcamento favorece II, em que o nitrogênio é oxidado, o que transforma o nitrato do solo em íons amônio.",
+      "em I, o nitrogênio é oxidado de 0 para −3, e o encharcamento acelera esse processo, que consome o nitrato do solo.",
+      "em III, o nitrogênio é oxidado de +5 para 0 por bactérias aeróbias, favorecidas pela água acumulada no solo.",
+      "o encharcamento favorece III, em que o nitrogênio é reduzido de +5 para 0 e perdido para a atmosfera como N₂.",
+      "em II, o nitrogênio é reduzido de −3 para +5, e as bactérias usam a energia da luz para produzir matéria orgânica."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é calcular os números de oxidação do nitrogênio e lembrar qual processo depende ou não de O₂.\n\n**Números de oxidação** (H = +1, O = −2):\nN₂: 0. NH₃ e NH₄⁺: −3. NO₂⁻: x − 4 = −1 → x = +3. NO₃⁻: x − 6 = −1 → x = +5.\n\n**I — fixação biológica (0 → −3).** O nitrogênio ganha elétrons: é uma redução, que consome muita energia, obtida pelas bactérias (do gênero Rhizobium) a partir dos açúcares cedidos pela planta. É uma relação de mutualismo, e é por isso que leguminosas enriquecem o solo com nitrogênio.\n\n**II — nitrificação (−3 → +3 → +5).** O nitrogênio perde elétrons: é uma oxidação. As bactérias nitrificantes usam O₂ e aproveitam a energia liberada para fixar CO₂ e produzir matéria orgânica, sem luz: é a quimiossíntese. O nitrato é a principal forma de nitrogênio absorvida pelas plantas.\n\n**III — desnitrificação (+5 → 0).** O nitrogênio ganha elétrons: é uma redução. Em solos pobres em O₂, certas bactérias usam o nitrato no lugar do O₂ como aceptor de elétrons da respiração, e o N₂ formado volta à atmosfera.\n\n**O solo encharcado.** A água ocupa os poros do solo e o O₂ se torna escasso. Isso favorece a desnitrificação e prejudica a nitrificação, que é aeróbia: o nitrato é consumido e quase não é reposto. Parte dele também pode ser carregada pela água para camadas profundas (lixiviação), já que o nitrato é muito solúvel. Por isso, solos bem drenados e arejados conservam melhor o nitrogênio disponível para as plantas.\n\nPara lembrar: fixação e desnitrificação são reduções do nitrogênio; a nitrificação é uma oxidação aeróbia que fornece energia para a quimiossíntese.",
+    "erradas": [
+      "Inverte o sentido da nitrificação, que transforma amônio em nitrato, e não o contrário. Além disso, ela depende de O₂ e é prejudicada, e não favorecida, pelo encharcamento.",
+      "Erro de sinal: de 0 para −3 o nitrogênio ganha elétrons, ou seja, é reduzido. E a fixação transforma N₂ do ar em amônia, sem consumir o nitrato do solo.",
+      "Erro duplo: de +5 para 0 o nitrogênio é reduzido, e as bactérias desnitrificantes proliferam justamente quando falta O₂, como no solo encharcado.",
+      "",
+      "Erro duplo: de −3 para +5 o nitrogênio perde elétrons (oxidação). E as bactérias nitrificantes são quimiossintetizantes: usam a energia da oxidação de compostos inorgânicos, e não a da luz."
+    ]
+  },
+  {
+    "id": "BIO-033",
+    "materia": "biologia",
+    "tema": "Ecologia — biomas brasileiros: Cerrado e Caatinga",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": ["geografia"],
+    "texto": "A tabela compara duas regiões do Brasil. Na região X, as queimadas são frequentes durante a estação seca. Valores aproximados.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Características de duas regiões do Brasil",
+      "cabecalho": ["Característica", "Região X", "Região Y"],
+      "linhas": [
+        ["Chuva anual", "cerca de 1 500 mm", "cerca de 550 mm"],
+        ["Distribuição das chuvas", "estação seca de cerca de 5 meses, todos os anos", "irregular, com anos seguidos de seca"],
+        ["Solo", "profundo, ácido, pobre em nutrientes e rico em alumínio", "raso e pedregoso"],
+        ["Vegetação lenhosa na estação seca", "muitas árvores mantêm as folhas e continuam transpirando", "a maioria das árvores e arbustos perde as folhas"]
+      ]
+    },
+    "enunciado": "As regiões X e Y correspondem, respectivamente, a",
+    "alternativas": [
+      "Cerrado e Caatinga; em X, raízes profundas garantem água na seca, e casca espessa e órgãos subterrâneos favorecem a sobrevivência ao fogo.",
+      "Caatinga e Cerrado; em X, a casca espessa e as folhas duras são adaptações à falta de água, já que a estação seca se repete todos os anos.",
+      "Cerrado e Caatinga; em X, os troncos tortuosos e as folhas duras indicam que a falta de água é o fator que mais limita o crescimento das plantas.",
+      "Cerrado e Caatinga; em Y, a perda das folhas reduz a transpiração na seca, mas impede que as plantas rebrotem quando as chuvas voltam.",
+      "Cerrado e Caatinga; em X, as árvores mantêm as folhas na seca porque o solo ácido e rico em alumínio retém a água perto da superfície."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é reconhecer os biomas pelos dados e não cair na ideia de que todo aspecto de planta de região com seca se deve à falta de água.\n\n**Identificação.** X tem chuva abundante (cerca de 1 500 mm), mas concentrada, com estação seca regular; solos profundos, ácidos, pobres em nutrientes e ricos em alumínio; e queimadas frequentes: é o Cerrado, de clima tropical com estação seca bem definida. Y tem pouca chuva, mal distribuída e com secas prolongadas, e solos rasos: é a Caatinga, de clima semiárido, no interior do Nordeste.\n\n**Cerrado.** Muitas árvores têm raízes muito profundas, que alcançam a água armazenada no subsolo; por isso, mesmo na estação seca, mantêm folhas e transpiração, como indica a tabela. O aspecto tortuoso dos troncos e as folhas duras não se explicam pela falta de água, e sim pela pobreza de nutrientes do solo e pelo fogo, que destrói gemas e ramos e provoca rebrotas irregulares. Contra o fogo, há casca espessa (súber), que isola do calor os tecidos vivos, e órgãos subterrâneos de reserva, dos quais as plantas rebrotam após a queimada.\n\n**Caatinga.** Aqui a água é, de fato, o fator limitante. Predominam plantas que perdem as folhas na seca (caducifólias), reduzindo a perda de água por transpiração, e que rebrotam rapidamente com as chuvas. São comuns as cactáceas, com caule suculento que armazena água e folhas transformadas em espinhos.\n\nPara lembrar: no Cerrado, raízes profundas garantem água na seca, e o aspecto das plantas está ligado ao solo pobre e ao fogo; na Caatinga, a escassez e a irregularidade das chuvas selecionam plantas que perdem as folhas ou armazenam água.",
+    "erradas": [
+      "",
+      "Inverte os biomas: X, com cerca de 1 500 mm de chuva, solo ácido e queimadas, é o Cerrado. E a casca espessa protege contra o fogo; a água não é o principal limitante em X.",
+      "É a interpretação tradicional, contrariada pelos dados: as árvores de X mantêm folhas e transpiração na seca, sinal de que têm acesso à água. Troncos tortuosos e folhas duras estão ligados ao solo pobre e ao fogo.",
+      "A primeira parte está certa, mas a perda das folhas não impede a rebrota: na Caatinga, as plantas caducifólias produzem folhas novas rapidamente quando as chuvas voltam.",
+      "O alumínio torna o solo tóxico para muitas plantas, mas não retém água na superfície. As árvores mantêm as folhas porque suas raízes profundas alcançam a água armazenada no subsolo."
+    ]
+  },
+  {
+    "id": "BIO-034",
+    "materia": "biologia",
+    "tema": "Ecologia — cadeias alimentares e magnificação trófica",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Em um lago, a cadeia alimentar principal é: fitoplâncton → zooplâncton → lambari → traíra. Um inseticida lipossolúvel, que não é degradado nem excretado pelos organismos, está presente no fitoplâncton na concentração de 0,01 ppm (partes por milhão, em massa). Considere que, de um nível trófico para o seguinte, apenas 10% da biomassa consumida é convertida em biomassa do consumidor e que todo o inseticida ingerido fica retido no corpo do consumidor.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Nesse modelo, a concentração esperada do inseticida nas traíras é de",
+    "alternativas": [
+      "0,00001 ppm, pois o inseticida, como a energia, tem só 10% de sua quantidade transferida a cada nível.",
+      "0,01 ppm, pois o inseticida, por não ser degradado, se distribui igualmente por todos os níveis da cadeia.",
+      "1 ppm, pois o inseticida fica retido e se concentra em uma biomassa dez vezes menor a cada nível.",
+      "10 ppm, pois o inseticida fica retido e se concentra em uma biomassa dez vezes menor a cada nível.",
+      "100 ppm, pois o inseticida fica retido e se concentra em uma biomassa dez vezes menor a cada nível."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é que a energia se perde ao longo da cadeia, mas o inseticida não: ele fica acumulado em uma biomassa cada vez menor.\n\n**Raciocínio por massa.** Para formar 1 kg de zooplâncton, são consumidos 10 kg de fitoplâncton. Todo o inseticida desses 10 kg fica retido no 1 kg formado, então a concentração é multiplicada por 10 a cada passagem.\n\n**Conta.** Há três passagens até a traíra:\nfitoplâncton: 0,01 ppm → zooplâncton: 0,1 ppm → lambari: 1 ppm → traíra: 10 ppm.\n\nO inseticida não é eliminado porque é lipossolúvel: acumula-se no tecido adiposo e não é excretado com a urina, que é aquosa. Esse fenômeno é a magnificação trófica (ou biomagnificação). Foi assim que o DDT, usado em larga escala no século XX, atingiu concentrações altas em aves predadoras, prejudicando a reprodução de várias espécies, e é assim que o mercúrio se acumula em peixes predadores. Os consumidores do topo, inclusive o ser humano, são os mais expostos.\n\nPara lembrar: substâncias não degradáveis e não excretadas se concentram ao longo da cadeia alimentar, e os maiores níveis aparecem nos consumidores do topo.",
+    "erradas": [
+      "Confunde o fluxo de energia com o destino do inseticida: a energia se dissipa como calor a cada nível, mas o inseticida não é degradado nem excretado e permanece no corpo de quem o ingeriu.",
+      "Ignora que a biomassa diminui a cada nível: o inseticida de 10 kg de presas fica retido em 1 kg de predador, e a concentração aumenta, em vez de se manter.",
+      "Multiplica por 10 apenas duas vezes, contando só as passagens entre consumidores. São três passagens: fitoplâncton → zooplâncton → lambari → traíra.",
+      "",
+      "Multiplica por 10 uma vez para cada um dos quatro níveis da cadeia. A multiplicação ocorre a cada passagem de um nível para o seguinte, e são três passagens até a traíra."
+    ]
+  },
+  {
+    "id": "BIO-035",
+    "materia": "biologia",
+    "tema": "Fisiologia renal — filtração, reabsorção de glicose e glicosúria",
+    "nivel": "acima",
+    "origem": "Estilo livro (Amabis & Martho)",
+    "inter": [],
+    "texto": "Nos rins de uma pessoa, a filtração glomerular é de 120 mL de plasma por minuto, e a glicose passa livremente para o filtrado, com a mesma concentração do plasma. Os túbulos reabsorvem toda a glicose filtrada até o limite máximo de 300 mg por minuto, quando as proteínas transportadoras ficam saturadas; o que excede esse limite é eliminado na urina. Valores simplificados.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Em uma pessoa com diabetes descompensado, cuja glicemia se mantém em 400 mg/dL, a quantidade de glicose eliminada na urina e o efeito sobre o volume de urina são:",
+    "alternativas": [
+      "0 mg/min; o volume de urina não se altera, pois os túbulos de rins saudáveis reabsorvem toda a glicose filtrada.",
+      "100 mg/min; o volume de urina aumenta, pois a glicose no túbulo dificulta a reabsorção de água por osmose.",
+      "180 mg/min; o volume de urina aumenta, pois a glicose no túbulo dificulta a reabsorção de água por osmose.",
+      "180 mg/min; o volume de urina diminui, pois a glicose no sangue atrai a água dos túbulos para os capilares.",
+      "480 mg/min; o volume de urina aumenta, pois a glicose no túbulo dificulta a reabsorção de água por osmose."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é que a reabsorção de glicose tem um limite: acima dele, o excesso filtrado vai para a urina.\n\n**A teoria por trás.** Cada rim tem cerca de um milhão de néfrons. No glomérulo, a pressão do sangue força a passagem de parte do plasma para a cápsula renal: é a filtração. O filtrado contém água, sais, glicose, aminoácidos e ureia, mas praticamente nenhuma proteína nem células do sangue. Ao percorrer o túbulo, a maior parte do filtrado volta ao sangue (reabsorção): a glicose e os aminoácidos são reabsorvidos no túbulo proximal por transporte ativo, mediado por proteínas transportadoras; a água acompanha os solutos por osmose; e, no ducto coletor, o hormônio antidiurético (ADH) ajusta a reabsorção de água. Como o número de transportadores é limitado, existe uma taxa máxima de reabsorção de glicose.\n\n**Conta.** Filtração: 120 mL/min = 1,2 dL/min. Glicose filtrada: 1,2 dL/min × 400 mg/dL = 480 mg/min. Reabsorção máxima: 300 mg/min. Excretada: 480 − 300 = 180 mg/min.\n\nAtalho: a glicemia a partir da qual aparece glicose na urina (limiar renal) é 300/1,2 = 250 mg/dL nesse modelo; na pessoa real, fica em torno de 180 mg/dL. Abaixo dele, toda a glicose filtrada é reabsorvida; acima, o excesso é eliminado.\n\n**O volume de urina.** A glicose que permanece no túbulo aumenta a concentração de solutos do filtrado e dificulta a reabsorção de água por osmose. Elimina-se mais urina (poliúria), o que leva à desidratação e à sede intensa. Poliúria, sede excessiva e glicose na urina são sinais clássicos do diabetes descompensado.\n\nPara lembrar: a glicose aparece na urina quando a quantidade filtrada supera a capacidade máxima de reabsorção dos túbulos, e a glicose não reabsorvida retém água no túbulo, aumentando o volume de urina.",
+    "erradas": [
+      "Ignora o limite de reabsorção: os transportadores ficam saturados a 300 mg/min. Como são filtrados 480 mg/min, sobram 180 mg/min no túbulo, que vão para a urina.",
+      "Subtrai grandezas diferentes: 400 mg/dL é concentração no plasma, e 300 mg/min é taxa de reabsorção. É preciso calcular antes a glicose filtrada por minuto: 1,2 dL/min × 400 mg/dL = 480 mg/min.",
+      "",
+      "Acerta a conta, mas erra o efeito osmótico: a glicose que fica no túbulo retém água no filtrado, e o volume de urina AUMENTA. Por isso a poliúria é sinal de diabetes descompensado.",
+      "Considera que toda a glicose filtrada é eliminada, esquecendo que os túbulos reabsorvem até 300 mg/min. Só o excedente vai para a urina: 480 − 300 = 180 mg/min."
+    ]
+  },
+  {
+    "id": "BIO-036",
+    "materia": "biologia",
+    "tema": "Fisiologia circulatória — trocas nos capilares e edema",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["quimica"],
+    "texto": "Em um modelo simplificado das trocas entre o sangue e os tecidos, a pressão do sangue sobre a parede do capilar (pressão hidrostática) empurra líquido para fora, e a pressão osmótica devida às proteínas do plasma, que quase não atravessam a parede, puxa líquido para dentro. Considere que a pressão hidrostática cai de modo uniforme ao longo do capilar e despreze as pressões do líquido dos tecidos. O excesso de líquido que permanece nos tecidos é recolhido pelos vasos linfáticos, cuja capacidade é limitada.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Pressões nos capilares de uma mesma região do corpo (mmHg)",
+      "cabecalho": ["Pessoa", "Hidrostática no início do capilar", "Hidrostática no fim do capilar", "Osmótica do plasma"],
+      "linhas": [
+        ["Saudável", "35", "15", "25"],
+        ["1 — sangue represado nas veias", "40", "30", "25"],
+        ["2 — baixa concentração de proteínas no plasma", "35", "15", "15"]
+      ]
+    },
+    "enunciado": "De acordo com o modelo, tende a ocorrer acúmulo de líquido nos tecidos (edema)",
+    "alternativas": [
+      "apenas na pessoa 1, pois só nela a pressão do sangue no interior dos capilares fica acima do valor normal.",
+      "apenas na pessoa 2, pois só nela diminui a pressão osmótica que puxa o líquido de volta para o capilar.",
+      "nas duas pessoas, pois em ambas a saída de líquido supera a sua reabsorção ao longo do capilar.",
+      "nas duas pessoas, pois em ambas diminui a pressão osmótica do plasma, que retém líquido no capilar.",
+      "em nenhuma das duas, pois todo o líquido que sai dos capilares é devolvido ao sangue pelos linfáticos."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é comparar, ao longo do capilar, a pressão que empurra o líquido para fora (hidrostática) com a que o puxa para dentro (osmótica das proteínas do plasma).\n\n**Pessoa saudável.** A pressão hidrostática cai de 35 para 15 mmHg; a osmótica vale 25. Na primeira metade do capilar (hidrostática acima de 25), sai líquido; na segunda metade (abaixo de 25), o líquido volta. Como a queda é uniforme, a hidrostática média é (35 + 15)/2 = 25, igual à osmótica: saída e reabsorção se equilibram, e o pequeno excesso real é recolhido pelos linfáticos.\n\n**Pessoa 1 (sangue represado nas veias).** A hidrostática vai de 40 a 30 mmHg, sempre acima de 25. Sai líquido ao longo de todo o capilar, e não há reabsorção. Saldo médio: (40 + 30)/2 − 25 = +10 mmHg para fora. É o que acontece, por exemplo, na insuficiência cardíaca, em que o coração não dá conta de bombear todo o sangue que chega a ele e as pernas incham.\n\n**Pessoa 2 (poucas proteínas no plasma).** A osmótica cai para 15 mmHg. A hidrostática, de 35 a 15, fica acima de 15 em quase todo o capilar: o líquido sai e praticamente não volta. Saldo médio: 25 − 15 = +10 mmHg para fora. Isso ocorre na desnutrição proteica grave e em doenças do fígado, que produz a albumina, principal proteína do plasma.\n\nAs causas são diferentes, mas o resultado é o mesmo: a saída supera a reabsorção, o excesso ultrapassa a capacidade dos linfáticos e o líquido se acumula nos tecidos.\n\nA pressão osmótica do plasma é uma propriedade coligativa: depende da concentração de partículas dissolvidas que não atravessam a parede do capilar, no caso as proteínas.\n\nPara lembrar: a troca de líquido nos capilares depende do balanço entre a pressão hidrostática e a pressão osmótica das proteínas do plasma; aumentar a primeira ou diminuir a segunda causa edema.",
+    "erradas": [
+      "Esquece a pessoa 2: com a pressão osmótica reduzida a 15 mmHg, o líquido que sai deixa de ser puxado de volta, mesmo com pressão hidrostática normal.",
+      "Esquece a pessoa 1: mesmo com pressão osmótica normal, a hidrostática fica acima de 25 mmHg em todo o capilar, e o líquido sai sem ser reabsorvido.",
+      "",
+      "Acerta as duas pessoas, mas erra a causa no caso da pessoa 1: nela a pressão osmótica continua 25 mmHg. O edema vem do aumento da pressão hidrostática.",
+      "O texto informa que os linfáticos têm capacidade limitada. Nas pessoas 1 e 2, o excesso de líquido que sai dos capilares supera essa capacidade e se acumula nos tecidos."
+    ]
+  },
+  {
+    "id": "BIO-037",
+    "materia": "biologia",
+    "tema": "Imunidade — resposta primária e secundária; imunização ativa e passiva",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Três grupos de camundongos geneticamente idênticos foram tratados como indicado na tabela. O soro usado no grupo 2 foi retirado de camundongos imunizados contra o antígeno X e contém anticorpos anti-X; considere que esses anticorpos já haviam sido eliminados do organismo no dia 30. No dia 37, mediu-se a concentração de anticorpos no sangue, em unidades arbitrárias. Dados hipotéticos.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Tratamentos e resultados",
+      "cabecalho": ["Grupo", "Dia 0", "Dia 30", "Anti-X no dia 37", "Anti-Y no dia 37"],
+      "linhas": [
+        ["1", "antígeno X", "antígenos X e Y", "100", "7"],
+        ["2", "soro anti-X", "antígeno X", "8", "0"],
+        ["3", "nada", "antígeno X", "8", "0"]
+      ]
+    },
+    "enunciado": "Os resultados permitem concluir que",
+    "alternativas": [
+      "o grupo 2 desenvolveu memória imunológica contra X, pois recebeu anticorpos específicos contra esse antígeno no dia 0.",
+      "a primeira exposição a X gerou células de memória no grupo 1, o que não ocorre com a transferência de anticorpos prontos.",
+      "a exposição prévia a X estimulou o sistema imune de forma inespecífica, intensificando a resposta a qualquer antígeno.",
+      "o soro aplicado no grupo 2 conferiu imunização ativa, enquanto o antígeno aplicado no grupo 1 conferiu imunização passiva.",
+      "X estimula mais a produção de anticorpos que Y, o que explica, por si só, a diferença entre anti-X e anti-Y no grupo 1."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é comparar grupos que diferem em um único aspecto: o que cada camundongo recebeu no dia 0.\n\n**Grupo 1 × grupo 3.** Ambos receberam X no dia 30, mas só o grupo 1 já tinha tido contato com X. A resposta foi muito mais intensa no grupo 1 (100 contra 8): é a resposta secundária. Na primeira exposição, linfócitos específicos para X se multiplicaram e se diferenciaram em plasmócitos, que produzem anticorpos, e em células de memória, que permanecem no organismo. Num novo contato, essas células respondem mais rápido e com mais intensidade.\n\n**Anti-Y no grupo 1.** Foi baixo (7), parecido com a primeira resposta a X nos grupos 2 e 3. A memória é específica: o contato prévio com X não melhora a resposta a outro antígeno.\n\n**Grupo 2.** Recebeu anticorpos prontos (soro), mas seu sistema imune não foi estimulado a produzi-los. Os anticorpos recebidos foram eliminados com o tempo, e não houve formação de memória: no dia 30, ele reagiu a X como o grupo 3, que nunca tinha tido contato com o antígeno.\n\n**Aplicação.** A vacina é uma imunização ativa: estimula o organismo a produzir anticorpos e células de memória, com proteção que demora a se estabelecer, mas é duradoura (as doses de reforço exploram a resposta secundária). O soro, como o antiofídico, é uma imunização passiva: protege de imediato, mas por pouco tempo e sem memória.\n\nPara lembrar: a resposta secundária é mais rápida e intensa graças às células de memória, que surgem só na imunização ativa e são específicas para cada antígeno.",
+    "erradas": [
+      "Anticorpos recebidos prontos não estimulam a formação de células de memória. Por isso o grupo 2 respondeu a X no dia 30 como o grupo 3 (8 e 8), sem resposta secundária.",
+      "",
+      "A resposta a Y no grupo 1 foi baixa (7), semelhante a uma primeira exposição. A memória gerada pelo contato com X é específica para X.",
+      "Inverte os conceitos: receber anticorpos prontos (soro) é imunização passiva; receber o antígeno, que estimula o próprio organismo a produzir anticorpos, é imunização ativa.",
+      "Nos grupos 2 e 3, o primeiro contato com X gerou só 8 unidades, valor próximo do anti-Y (7). A diferença no grupo 1 vem da memória, e não de X ser mais capaz de estimular anticorpos."
+    ]
+  },
+  {
+    "id": "BIO-038",
+    "materia": "biologia",
+    "tema": "Botânica — hormônios vegetais e dominância apical",
+    "nivel": "fuvest",
+    "origem": "Estilo livro (Amabis & Martho)",
+    "inter": [],
+    "texto": "Plantas jovens de uma mesma espécie e de mesma idade foram divididas em cinco grupos e tratadas como indicado na tabela. Após duas semanas, observou-se o desenvolvimento das gemas laterais do caule. A lanolina é uma pasta usada apenas como veículo para aplicar substâncias.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Tratamentos e resultados",
+      "cabecalho": ["Grupo", "Tratamento", "Gemas laterais"],
+      "linhas": [
+        ["1", "nenhum (planta intacta)", "dormentes"],
+        ["2", "ápice do caule cortado", "desenvolvem-se em ramos"],
+        ["3", "ápice cortado; lanolina com auxina aplicada no corte", "dormentes"],
+        ["4", "ápice cortado; lanolina pura aplicada no corte", "desenvolvem-se em ramos"],
+        ["5", "planta intacta; citocinina aplicada sobre as gemas laterais", "desenvolvem-se em ramos"]
+      ]
+    },
+    "enunciado": "Os resultados permitem concluir que",
+    "alternativas": [
+      "a inibição das gemas laterais depende da presença física do ápice do caule, e não de uma substância produzida por ele.",
+      "a auxina produzida no ápice inibe as gemas laterais, e a citocinina pode contrariar esse efeito, estimulando as gemas.",
+      "o corte do ápice libera as gemas laterais porque elimina a citocinina, que é produzida no ápice e inibe as gemas.",
+      "a lanolina inibe o desenvolvimento das gemas laterais, já que as plantas do grupo 3 mantiveram as gemas dormentes.",
+      "a poda do ápice torna os arbustos mais ramificados porque aumenta a quantidade de auxina que chega às gemas laterais."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é ler cada grupo como controle de outro: cada comparação muda uma única condição.\n\n**Lendo a tabela.** Grupo 1 × grupo 2: tirar o ápice libera as gemas laterais; logo, o ápice as inibe. Grupo 2 × grupo 3: a auxina aplicada no lugar do ápice restaura a inibição; portanto, o efeito do ápice se deve a uma substância, a auxina. Grupo 3 × grupo 4: a lanolina pura não inibe; quem age é a auxina, e não a pasta usada como veículo. Grupo 5: mesmo com o ápice presente, a citocinina aplicada nas gemas as faz crescer; ela se opõe à dominância apical.\n\n**A teoria por trás.** Os hormônios vegetais (fitormônios) atuam em pequenas quantidades e, muitas vezes, em conjunto. A auxina (o principal exemplo é o ácido indolilacético, AIA) é produzida principalmente no meristema do ápice do caule e em folhas jovens e é transportada de forma polarizada, do ápice para a base. Ela estimula o alongamento das células e participa do fototropismo (acumula-se no lado sombreado, que cresce mais e faz o caule se curvar para a luz), do enraizamento de estacas e da dominância apical. Seu efeito depende da concentração e do órgão: concentrações que estimulam o caule podem inibir gemas e raízes. As citocininas, produzidas principalmente nas raízes, estimulam as divisões celulares e o desenvolvimento de gemas laterais e retardam o envelhecimento das folhas. Outros exemplos: giberelinas (alongamento do caule, germinação), etileno (amadurecimento de frutos, queda de folhas) e ácido abscísico (fechamento dos estômatos, dormência).\n\n**Aplicação.** Podar o ápice de uma cerca-viva remove a principal fonte da auxina que inibe as gemas laterais, e a planta fica mais ramificada e densa.\n\nPara lembrar: na dominância apical, a auxina produzida no ápice inibe as gemas laterais, e a citocinina estimula seu desenvolvimento.",
+    "erradas": [
+      "O grupo 3 contraria essa ideia: sem o ápice, mas com auxina aplicada no corte, as gemas continuaram dormentes. A inibição se deve a uma substância.",
+      "",
+      "O grupo 5 mostra que a citocinina ESTIMULA as gemas laterais, em vez de inibi-las. A substância do ápice que as inibe é a auxina (grupo 3); as citocininas são produzidas principalmente nas raízes.",
+      "O grupo 4, com lanolina pura, é o controle que descarta essa hipótese: sem auxina, as gemas se desenvolveram. Quem inibe as gemas no grupo 3 é a auxina.",
+      "A conclusão prática está certa, mas o mecanismo está invertido: a poda remove o ápice, principal fonte de auxina, e DIMINUI a quantidade que chega às gemas laterais, que então se desenvolvem."
+    ]
+  },
+  {
+    "id": "BIO-039",
+    "materia": "biologia",
+    "tema": "Zoologia comparada — excretas nitrogenadas e ovo com casca",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": ["quimica"],
+    "texto": "No ovo com casca de aves e répteis, o embrião se desenvolve por semanas em um sistema praticamente fechado: a casca porosa permite as trocas gasosas, mas não a eliminação de excretas, que ficam armazenadas em um anexo embrionário, o alantoide.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Principais excretas nitrogenadas dos animais",
+      "cabecalho": ["Excreta", "Fórmula", "Átomos de N por molécula", "Solubilidade em água", "Toxicidade"],
+      "linhas": [
+        ["Amônia", "NH₃", "1", "muito alta", "muito alta"],
+        ["Ureia", "CO(NH₂)₂", "2", "alta", "moderada"],
+        ["Ácido úrico", "C₅H₄N₄O₃", "4", "muito baixa", "baixa"]
+      ]
+    },
+    "enunciado": "A excreção de ácido úrico pelo embrião é vantajosa nessas condições porque esse composto",
+    "alternativas": [
+      "é pouco solúvel em água e pouco tóxico, podendo precipitar e se acumular no alantoide sem intoxicar o embrião.",
+      "é muito solúvel em água e pouco tóxico, podendo sair do ovo dissolvido na água que evapora pelos poros da casca.",
+      "contém menos nitrogênio por molécula que a amônia, o que reduz o total de resíduo nitrogenado a ser armazenado.",
+      "é produzido sem gasto de energia, ao contrário da ureia, o que poupa as reservas nutritivas do vitelo do ovo.",
+      "é um gás que se difunde pelos poros da casca e é eliminado junto com o CO₂ produzido na respiração do embrião."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é relacionar duas propriedades químicas, solubilidade e toxicidade, à disponibilidade de água em cada situação.\n\n**Amônia.** Resulta diretamente da degradação de aminoácidos, sem gasto extra de energia, mas é muito tóxica e só pode ser eliminada se for diluída em muita água. É a excreta da maioria dos animais aquáticos, como peixes ósseos e girinos, que a eliminam pelas brânquias e pela superfície do corpo.\n\n**Ureia.** É produzida no fígado a partir da amônia, com gasto de energia. É menos tóxica e muito solúvel, podendo ser concentrada na urina; exige menos água. É a excreta de mamíferos e de anfíbios adultos. Na metamorfose dos sapos, a excreção passa de amônia para ureia, acompanhando a mudança da água para a terra.\n\n**Ácido úrico.** Sua produção gasta ainda mais energia, mas ele é pouco tóxico e quase insolúvel em água. É eliminado como uma pasta esbranquiçada, com mínima perda de água, por aves, pela maioria dos répteis e por insetos.\n\n**No ovo com casca.** O embrião não tem como eliminar excretas: tudo fica dentro do ovo por semanas. Amônia ou ureia se acumulariam dissolvidas e chegariam a concentrações tóxicas. O ácido úrico, por ser pouco solúvel, precipita na forma de cristais no alantoide e fica fora de circulação, sem intoxicar o embrião. Nos mamíferos placentários, o problema não existe: a ureia do feto passa para o sangue da mãe pela placenta.\n\nRepare ainda que o ácido úrico tem mais átomos de N por molécula (4) que a ureia (2) e a amônia (1): cada molécula leva embora mais nitrogênio.\n\nPara lembrar: quanto menos água disponível, menos solúvel e menos tóxica tende a ser a excreta nitrogenada; o ácido úrico, quase insolúvel, permite ao embrião do ovo com casca armazenar seus resíduos com segurança.",
+    "erradas": [
+      "",
+      "A tabela mostra o contrário: a solubilidade do ácido úrico é muito baixa. Além disso, a água que evapora pelos poros da casca sai como vapor e não leva solutos consigo; as excretas ficam no ovo.",
+      "Erro de leitura da tabela: o ácido úrico tem 4 átomos de N por molécula, mais que a amônia (1). A quantidade de nitrogênio a eliminar depende das proteínas degradadas, e não da excreta escolhida.",
+      "A síntese do ácido úrico consome ainda mais energia que a da ureia. A vantagem dele não é a economia de energia, e sim a baixa solubilidade e a baixa toxicidade.",
+      "Confunde o ácido úrico com a amônia, que é um gás à temperatura ambiente. O ácido úrico é um sólido pouco solúvel, que fica retido no alantoide."
+    ]
+  },
+  {
+    "id": "BIO-040",
+    "materia": "biologia",
+    "tema": "Doenças — teníase e cisticercose (Taenia solium)",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "texto": "Uma mulher que não come nenhum tipo de carne há mais de 20 anos teve crises convulsivas, e exames de imagem revelaram cisticercos de Taenia solium no encéfalo (neurocisticercose). Ela mora em uma área sem rede de esgoto e costuma comer hortaliças cruas, cultivadas em uma horta irrigada com a água de um córrego da região.\n\nTexto elaborado para esta questão.",
+    "enunciado": "A explicação mais provável para a infecção dessa mulher é a",
+    "alternativas": [
+      "ingestão de carne de porco malcozida com cisticercos, que, no intestino, liberaram larvas que migraram para o encéfalo.",
+      "ingestão de ovos de Taenia solium em hortaliças contaminadas por água com fezes de pessoas portadoras de teníase.",
+      "ingestão de ovos de Taenia solium eliminados nas fezes de porcos com cisticercose, que contaminaram a água do córrego.",
+      "penetração ativa, pela pele, de larvas de Taenia solium presentes na água usada para lavar e irrigar as hortaliças.",
+      "ingestão de ovos de Taenia solium que deram origem a tênias adultas no intestino, que depois migraram até o encéfalo."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é distinguir as duas doenças causadas pela Taenia solium, que dependem da forma do parasita que é ingerida.\n\n**O ciclo.** O ser humano é o hospedeiro definitivo: abriga a tênia adulta no intestino (teníase). Os anéis maduros (proglotes), cheios de ovos, saem com as fezes. O porco, hospedeiro intermediário, ingere os ovos em locais contaminados por fezes humanas; no seu intestino, os ovos liberam embriões que atravessam a parede intestinal, chegam à circulação e se instalam nos músculos, formando cisticercos.\n\n**Teníase.** Quem come carne de porco crua ou malcozida com cisticercos desenvolve a tênia adulta no intestino.\n\n**Cisticercose.** Quem ingere OVOS de T. solium passa a ocupar o papel do porco: os embriões se espalham pelo corpo e formam cisticercos em músculos, olhos e encéfalo. No encéfalo, causam a neurocisticercose, que pode provocar convulsões. Os ovos vêm sempre das fezes de uma pessoa com teníase e chegam a outras pessoas pela água ou por alimentos contaminados, como hortaliças cruas irrigadas com água poluída por esgoto, ou pelas mãos sujas de um portador.\n\nPor isso, a cisticercose atinge também quem nunca comeu carne de porco, como a mulher do caso. A prevenção inclui saneamento básico, lavagem cuidadosa das hortaliças, tratamento dos portadores de teníase, inspeção da carne e cozimento adequado. Já a Taenia saginata, adquirida pela carne bovina, praticamente não causa cisticercose humana.\n\nPara lembrar: comer cisticercos (carne de porco malcozida) causa teníase; ingerir ovos de Taenia solium, vindos de fezes humanas, causa cisticercose.",
+    "erradas": [
+      "Além de a mulher não comer carne há mais de 20 anos, os cisticercos ingeridos com a carne dão origem à tênia adulta no intestino (teníase), e não a cisticercos no encéfalo.",
+      "",
+      "O porco é hospedeiro intermediário: abriga cisticercos nos músculos, mas não tem a tênia adulta e não elimina ovos nas fezes. Os ovos vêm das fezes humanas.",
+      "A T. solium não tem larvas que penetram a pele; a infecção ocorre por ingestão. Penetração ativa pela pele ocorre, por exemplo, na ancilostomose e na esquistossomose.",
+      "Os ovos ingeridos pelo ser humano não originam tênias adultas: liberam embriões que formam cisticercos nos tecidos. A tênia adulta vive no intestino e não migra para o encéfalo."
+    ]
+  }
+]

@@ -2,7 +2,7 @@
 // VERSAO é gerada por tools/build.py (hash do banco de questões + arquivos do app):
 // qualquer mudança cria um cache novo e o app oferece a atualização.
 
-const VERSAO = "1ceb4bf65c";
+const VERSAO = "6f57d08ee8";
 const CACHE = `fuvest-${VERSAO}`;
 
 const ARQUIVOS = [

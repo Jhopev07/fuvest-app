@@ -1,0 +1,302 @@
+[
+  {
+    "id": "QUI-D-001",
+    "materia": "quimica",
+    "tema": "Soluções — titulação de retorno (retrotitulação) e teor de carbonato",
+    "nivel": "acima",
+    "origem": "Estilo livro (Feltre)",
+    "inter": [],
+    "enunciado": "O carbonato de cálcio é pouco solúvel em água e reage lentamente com ácidos; por isso, seu teor em rochas costuma ser determinado por titulação de retorno. Uma amostra de 2,00 g de uma rocha calcária moída foi tratada com 50,0 mL de solução de HCl 0,500 mol/L, quantidade em excesso. Terminada a efervescência, a mistura foi aquecida brandamente para eliminar todo o CO₂ dissolvido e, depois de resfriada, o HCl que sobrou foi titulado com solução de NaOH 0,200 mol/L, gastando-se 45,0 mL até a viragem do indicador.\n\nConsidere que as impurezas da rocha não reagem com HCl nem com NaOH.\n\nDado: massa molar do CaCO₃ = 100 g/mol.\n\nO teor de CaCO₃ na amostra, em porcentagem em massa, é:",
+    "alternativas": [
+      "22,5%",
+      "40,0%",
+      "45,0%",
+      "62,5%",
+      "80,0%"
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é entender a lógica da **titulação de retorno**: não se titula o CaCO₃ diretamente; adiciona-se uma quantidade conhecida e em excesso de ácido e, depois, mede-se quanto ácido **sobrou**. A diferença é o que reagiu com o carbonato.\n\n**Por que não titular direto?** O CaCO₃ é um sólido pouco solúvel que reage devagar; numa titulação direta, a viragem do indicador apareceria antes de todo o sólido reagir. Além disso, o CO₂ formado, dissolvido na água, gera H₂CO₃, um ácido que mascararia o ponto final. Com excesso de ácido, todo o carbonato reage; o aquecimento expulsa o CO₂, e a única espécie ácida restante passa a ser o HCl em excesso, que é titulado com precisão por uma base forte.\n\n**1) HCl adicionado:** 0,500 mol/L × 0,0500 L = 2,50 × 10⁻² mol.\n\n**2) HCl em excesso (o que foi titulado):** HCl + NaOH → NaCl + H₂O, proporção 1 : 1. n(NaOH) = 0,200 mol/L × 0,0450 L = 9,00 × 10⁻³ mol; logo, sobraram 9,00 × 10⁻³ mol de HCl.\n\n**3) HCl que reagiu com o carbonato:** 2,50 × 10⁻² − 9,00 × 10⁻³ = 1,60 × 10⁻² mol.\n\n**4) CaCO₃:** CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂. Cada mol de CaCO₃ consome 2 mol de HCl, então n(CaCO₃) = 1,60 × 10⁻² ÷ 2 = 8,00 × 10⁻³ mol, isto é, 8,00 × 10⁻³ × 100 = 0,800 g.\n\n**5) Teor:** 0,800 g ÷ 2,00 g × 100% = **40,0%**.\n\nEsquema mental útil: **ácido total = ácido gasto pela amostra + ácido gasto pela base na titulação**. Faça sempre esse balanço em mol de H⁺ antes de aplicar a proporção da reação com a amostra.\n\nPara lembrar: na retrotitulação, a amostra corresponde à **diferença** entre o reagente adicionado e o excesso titulado; só depois se aplica a proporção estequiométrica da reação com a amostra (aqui, 2 HCl para 1 CaCO₃).",
+    "erradas": [
+      "Usou a quantidade de NaOH (9,00 × 10⁻³ mol) como se fosse o HCl que reagiu com o carbonato: 4,50 × 10⁻³ mol de CaCO₃, isto é, 0,450 g, ou 22,5%. O NaOH mede o excesso, e não o ácido consumido pela amostra.",
+      "",
+      "Tomou a quantidade de NaOH gasta (9,00 × 10⁻³ mol) diretamente como quantidade de CaCO₃, na proporção 1 : 1, obtendo 0,900 g, ou 45,0%. O NaOH reage com o HCl em excesso, e não com o carbonato.",
+      "Ignorou a titulação, supondo que todo o HCl adicionado (2,50 × 10⁻² mol) reagiu com o carbonato: 1,25 × 10⁻² mol de CaCO₃, isto é, 1,25 g, ou 62,5%. O ácido foi adicionado em excesso justamente para sobrar.",
+      "Fez a subtração corretamente (1,60 × 10⁻² mol de HCl), mas esqueceu que cada CaCO₃ consome 2 HCl: tomou 1,60 × 10⁻² mol de CaCO₃, isto é, 1,60 g, ou 80,0%."
+    ]
+  },
+  {
+    "id": "QUI-D-002",
+    "materia": "quimica",
+    "tema": "Soluções — curvas de solubilidade e cristalização fracionada",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "tabela": {
+      "titulo": "Solubilidade (g de sal por 100 g de água)",
+      "cabecalho": ["Sal", "20 °C", "60 °C"],
+      "linhas": [
+        ["KNO₃", "32", "110"],
+        ["NaCl", "36", "37"]
+      ]
+    },
+    "enunciado": "Uma amostra de salitre impuro contém 100 g de nitrato de potássio (KNO₃) e 18 g de cloreto de sódio (NaCl). Ela é totalmente dissolvida em 150 g de água a 60 °C. Em seguida, parte da água é evaporada a 60 °C, e o sistema é resfriado até 20 °C, quando os cristais formados são separados por filtração. Deseja-se obter a maior massa possível de KNO₃ cristalizado sem que haja cristalização de NaCl.\n\nConsidere que a solubilidade de cada sal não é alterada pela presença do outro e use os dados da tabela.\n\nA massa máxima de água que pode ser evaporada e a massa de KNO₃ cristalizado obtida nessas condições são, respectivamente:",
+    "alternativas": [
+      "100 g e 45 g",
+      "100 g e 52 g",
+      "100 g e 68 g",
+      "100 g e 84 g",
+      "50 g e 84 g"
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que **quem limita a evaporação é o NaCl**, a impureza: quanto menos água sobra, mais KNO₃ cristaliza; mas, se sobrar água de menos, o NaCl também cristaliza e contamina o produto. E a condição crítica para o NaCl é a de 20 °C, a temperatura final, em que sua solubilidade é menor.\n\n**1) Água mínima que deve restar (NaCl a 20 °C):** 36 g de NaCl dissolvem-se em 100 g de água; para manter 18 g dissolvidos, são necessários 18 × 100/36 = 50 g de água. A 60 °C (37 g por 100 g), esses 50 g dissolveriam até 18,5 g, então o NaCl também não cristaliza durante a evaporação.\n\n**2) Água evaporada:** 150 − 50 = **100 g**.\n\n**3) KNO₃ que permanece dissolvido a 20 °C em 50 g de água:** 32 × 50/100 = 16 g.\n\n**4) KNO₃ cristalizado:** 100 − 16 = **84 g**. Parte desse KNO₃ já cristaliza a 60 °C, durante a evaporação, pois 50 g de água só dissolvem 55 g a essa temperatura; o resfriamento completa o processo. O que importa é o estado final, a 20 °C.\n\nRepare na estratégia: a solubilidade do KNO₃ varia muito com a temperatura (de 110 para 32), enquanto a do NaCl quase não varia (de 37 para 36). Por isso o resfriamento separa bem os dois sais: o KNO₃ cristaliza e o NaCl fica na solução.\n\nPara lembrar: a solubilidade é dada por massa de **solvente**; sempre reescale o valor da tabela para a massa de água que realmente existe no sistema naquele momento.",
+    "erradas": [
+      "Calculou a cristalização a 60 °C, logo após a evaporação (50 g de água dissolvem 55 g de KNO₃, sobrando 45 g de cristais), e esqueceu o resfriamento até 20 °C.",
+      "Usou a massa de água inicial (150 g) para calcular o KNO₃ dissolvido a 20 °C (48 g), como se a evaporação não tivesse ocorrido: 100 − 48 = 52 g.",
+      "Não reescalou a solubilidade para a água restante: subtraiu 32 g diretamente (valor para 100 g de água), obtendo 100 − 32 = 68 g, embora restem apenas 50 g de água.",
+      "",
+      "Os 50 g correspondem à água que deve restar no sistema para manter o NaCl dissolvido, e não à água evaporada; a massa evaporada é 150 − 50 = 100 g."
+    ]
+  },
+  {
+    "id": "QUI-D-003",
+    "materia": "quimica",
+    "tema": "Propriedades coligativas e equilíbrio iônico — crioscopia de um ácido fraco",
+    "nivel": "acima",
+    "origem": "Estilo ITA/IME (fácil)",
+    "inter": [],
+    "enunciado": "Uma solução aquosa de um monoácido fraco HA, de concentração 0,25 mol/kg, congela a −0,558 °C sob pressão de 1 atm. Considere a solução ideal, a ionização da água desprezível e a concentração em mol/kg numericamente igual à concentração em mol/L.\n\nDados: constante crioscópica da água, Kcr = 1,86 °C·kg/mol; temperatura de congelamento da água pura = 0 °C.\n\nA constante de ionização (Ka) desse ácido, nessa temperatura, é:",
+    "alternativas": [
+      "1,0 × 10⁻²",
+      "1,25 × 10⁻²",
+      "4,0 × 10⁻²",
+      "5,0 × 10⁻²",
+      "6,25 × 10⁻²"
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é usar o abaixamento do ponto de congelamento para **contar partículas** e, a partir disso, obter o grau de ionização. Depois, calcular Ka **sem** a aproximação de Ostwald, que aqui não vale.\n\n**1) Fator de van 't Hoff (i):** ΔTcr = Kcr · W · i → 0,558 = 1,86 × 0,25 × i = 0,465 · i → i = 0,558/0,465 = **1,2**. Ou seja, há 20% mais partículas dissolvidas do que haveria se HA não se ionizasse.\n\n**2) Grau de ionização:** HA ⇌ H⁺ + A⁻. Para cada mol de HA dissolvido, restam (1 − α) mol de HA e formam-se α mol de H⁺ e α mol de A⁻: total de partículas = 1 + α. Então i = 1 + α → α = 0,2 = **20%**.\n\n**3) Concentrações no equilíbrio:** [H⁺] = [A⁻] = αC = 0,2 × 0,25 = 0,050 mol/L; [HA] = C(1 − α) = 0,25 × 0,8 = 0,20 mol/L.\n\n**4) Ka:** Ka = (0,050 × 0,050)/0,20 = 0,0025/0,20 = **1,25 × 10⁻²**.\n\nAtenção à armadilha: a forma simplificada Ka ≈ α²C só vale quando α é muito pequeno (até cerca de 5%). Com α = 20%, o fator (1 − α) = 0,8 altera o resultado em 25%.\n\nPara lembrar: na crioscopia, i = 1 + α(q − 1), em que q é o número de partículas formadas por fórmula ionizada; para um monoácido HA, q = 2 e i = 1 + α.",
+    "erradas": [
+      "Usou a aproximação de Ostwald, Ka ≈ α²C = (0,2)² × 0,25 = 1,0 × 10⁻², que não vale para α = 20%: o termo (1 − α) = 0,8 não pode ser desprezado.",
+      "",
+      "Calculou Ka como α² = (0,2)² = 4,0 × 10⁻², esquecendo a concentração do ácido e o termo (1 − α); grau de ionização e constante de ionização não são a mesma coisa.",
+      "Usou Ka = α²/(1 − α) = 0,04/0,8 = 5,0 × 10⁻², esquecendo de multiplicar por C. Esse valor coincide com [H⁺] = 0,050 mol/L, que às vezes é confundido com Ka.",
+      "Esqueceu de elevar ao quadrado: fez αC/(1 − α) = 0,050/0,8 = 6,25 × 10⁻², usando [H⁺] uma única vez no numerador, sem multiplicar por [A⁻]."
+    ]
+  },
+  {
+    "id": "QUI-D-004",
+    "materia": "quimica",
+    "tema": "Termoquímica — entalpia de combustão (Hess) e aquecimento de água",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["fisica"],
+    "tabela": {
+      "titulo": "Entalpias-padrão de formação (25 °C)",
+      "cabecalho": ["Substância", "ΔHf° (kJ/mol)"],
+      "linhas": [
+        ["C₄H₁₀(g)", "−126"],
+        ["CO₂(g)", "−394"],
+        ["H₂O(l)", "−286"],
+        ["H₂O(g)", "−242"]
+      ]
+    },
+    "enunciado": "Um aquecedor de passagem a gás aquece a água de um banho, 95 L, de 20 °C para 40 °C. Considere o gás combustível como butano puro (C₄H₁₀), com combustão completa, e que a água formada na combustão sai do aquecedor no estado gasoso, com os gases da chaminé. Apenas 75% da energia liberada na combustão é transferida para a água do banho.\n\nDados: C = 12 g/mol; H = 1 g/mol; densidade da água = 1,0 kg/L; calor específico da água = 4,2 kJ/(kg·°C).\n\nCom base nos dados da tabela, a massa de butano consumida nesse banho é, aproximadamente:",
+    "alternativas": [
+      "116 g",
+      "131 g",
+      "174 g",
+      "214 g",
+      "232 g"
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é encadear três etapas: (1) obter o ΔH de combustão do butano pela Lei de Hess, escolhendo a entalpia de formação da água **no estado certo**; (2) calcular a energia que a água do banho precisa receber; (3) corrigir pelo rendimento.\n\n**1) ΔH de combustão (água gasosa):** C₄H₁₀(g) + 13/2 O₂(g) → 4 CO₂(g) + 5 H₂O(g).\nΔH = [4 × (−394) + 5 × (−242)] − [(−126) + 0] = (−1576 − 1210) + 126 = **−2660 kJ/mol**. O O₂ é substância simples no estado-padrão, com ΔHf = 0. O dado de H₂O(l) é uma distração: como a água sai como vapor, a energia de condensação não é aproveitada.\n\n**2) Energia absorvida pela água do banho:** Q = m · c · ΔT = 95 kg × 4,2 kJ/(kg·°C) × 20 °C = 7980 kJ.\n\n**3) Energia que a combustão precisa liberar:** como só 75% chega à água, E = 7980/0,75 = 10 640 kJ.\n\n**4) Butano:** n = 10 640/2660 = 4,0 mol; m = 4,0 mol × 58 g/mol = **232 g**.\n\nRepare na lógica do rendimento: se só uma fração da energia chega à água, é preciso queimar **mais** combustível; por isso se **divide** pela eficiência, e não se multiplica.\n\nPara lembrar: na Lei de Hess com entalpias de formação, ΔH = ΣΔHf(produtos) − ΣΔHf(reagentes), sempre multiplicando pelos coeficientes e atentando ao estado físico de cada espécie.",
+    "erradas": [
+      "Usou o ΔH da equação com coeficientes inteiros (2 C₄H₁₀ + 13 O₂ → 8 CO₂ + 10 H₂O, ΔH = −5320 kJ) como se fosse por mol de butano: 10 640/5320 = 2,0 mol, isto é, 116 g.",
+      "Multiplicou pelo rendimento em vez de dividir: 7980 × 0,75 = 5985 kJ, cerca de 2,25 mol, ou 131 g. Se só 75% da energia é aproveitada, é preciso liberar mais energia, e não menos.",
+      "Ignorou o rendimento, como se toda a energia da combustão aquecesse a água: 7980/2660 = 3,0 mol, isto é, 174 g.",
+      "Usou a entalpia de formação da água líquida, obtendo ΔH = −2880 kJ/mol: 10 640/2880 ≈ 3,7 mol, isto é, cerca de 214 g. No aquecedor, a água formada sai como vapor.",
+      ""
+    ]
+  },
+  {
+    "id": "QUI-D-005",
+    "materia": "quimica",
+    "tema": "Termoquímica — Lei de Hess com entalpias de combustão e estabilidade do benzeno",
+    "nivel": "acima",
+    "origem": "Estilo livro (Feltre)",
+    "inter": [],
+    "texto": "Na estrutura de Kekulé, o benzeno é representado como um anel de seis átomos de carbono com três ligações duplas alternadas, como se fosse um hipotético ciclo-hexatrieno. Se essa representação descrevesse a molécula real, a hidrogenação completa do benzeno a ciclo-hexano deveria liberar três vezes a energia liberada na hidrogenação do ciclo-hexeno, que tem uma única ligação dupla no anel.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Dados a 25 °C",
+      "cabecalho": ["Processo", "ΔH (kJ/mol)"],
+      "linhas": [
+        ["Combustão do benzeno, C₆H₆(l)", "−3268"],
+        ["Combustão do ciclo-hexano, C₆H₁₂(l)", "−3920"],
+        ["Combustão do hidrogênio, H₂(g)", "−286"],
+        ["Hidrogenação do ciclo-hexeno: C₆H₁₀(l) + H₂(g) → C₆H₁₂(l)", "−120"]
+      ]
+    },
+    "enunciado": "Considere que as combustões da tabela são completas e formam CO₂(g) e H₂O(l).\n\nCom base nesses dados, a energia de estabilização do benzeno, isto é, a diferença entre a energia que seria liberada na hidrogenação completa do hipotético ciclo-hexatrieno e a efetivamente liberada na hidrogenação completa do benzeno, é, em kJ por mol de benzeno, aproximadamente:",
+    "alternativas": [
+      "6",
+      "86",
+      "154",
+      "206",
+      "566"
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é usar a **Lei de Hess** para obter uma entalpia que não está na tabela (a da hidrogenação do benzeno) e compará-la com o valor esperado para três ligações duplas isoladas.\n\n**Teoria: por que Hess funciona?** A entalpia é uma função de estado: o ΔH de uma transformação depende apenas dos estados inicial e final, e não do caminho. Assim, podemos ir de benzeno + 3 H₂ até ciclo-hexano por um caminho imaginário: queimar os reagentes (formando CO₂ e H₂O) e depois desfazer a combustão do ciclo-hexano. Daí vem o atalho clássico: **ΔH(reação) = ΣΔHc(reagentes) − ΣΔHc(produtos)**. Repare que é o inverso da regra usada com entalpias de formação.\n\n**1) Hidrogenação do benzeno:** C₆H₆(l) + 3 H₂(g) → C₆H₁₂(l).\nΔH = [(−3268) + 3 × (−286)] − (−3920) = −4126 + 3920 = **−206 kJ/mol**.\nConferindo pela soma de equações: combustão do benzeno (−3268 kJ) + 3 × combustão do H₂ (−858 kJ) + combustão do ciclo-hexano invertida (+3920 kJ) = −206 kJ. O CO₂ e a H₂O se cancelam (6 CO₂ e 6 H₂O de cada lado).\n\n**2) Valor esperado para o ciclo-hexatrieno:** três ligações duplas como a do ciclo-hexeno: 3 × (−120) = −360 kJ/mol.\n\n**3) Energia de estabilização:** o benzeno libera 360 − 206 = **154 kJ/mol** a menos que o esperado. Como o produto é o mesmo (ciclo-hexano), isso significa que o benzeno real está 154 kJ/mol **abaixo**, em energia, do que estaria o ciclo-hexatrieno: é mais estável.\n\n**Interpretação estrutural:** essa estabilidade extra é atribuída à **ressonância**, a deslocalização dos elétrons π por todo o anel. Por isso as seis ligações C–C do benzeno têm o mesmo comprimento, intermediário entre o de uma ligação simples e o de uma dupla, e o benzeno resiste a reações de adição, preferindo reações de substituição, que preservam o anel aromático.\n\nPara lembrar: com entalpias de combustão, ΔH = ΣΔHc(reagentes) − ΣΔHc(produtos); quando duas espécies chegam ao mesmo produto, a que libera menos energia no processo é a mais estável.",
+    "erradas": [
+      "Esqueceu o coeficiente 3 do H₂: [(−3268) + (−286)] − (−3920) = +366 kJ/mol; comparando os módulos com 360, obteve 6 kJ/mol. A hidrogenação completa do benzeno consome 3 mol de H₂.",
+      "Comparou a hidrogenação do benzeno (−206 kJ/mol) com a de uma única ligação dupla (−120 kJ/mol), obtendo 86 kJ/mol; o ciclo-hexatrieno teria três ligações duplas, e o valor esperado é 3 × (−120) = −360 kJ/mol.",
+      "",
+      "Respondeu o módulo da entalpia de hidrogenação do benzeno (206 kJ/mol), que é apenas uma etapa do cálculo; a estabilização é a diferença entre o valor esperado (360 kJ/mol) e esse valor.",
+      "Inverteu a regra de Hess para entalpias de combustão (produtos − reagentes), obtendo +206 kJ/mol, e então fez −360 − (+206), chegando a 566 kJ/mol em módulo."
+    ]
+  },
+  {
+    "id": "QUI-D-006",
+    "materia": "quimica",
+    "tema": "Cinética química — catalisadores, energia de ativação e enzimas",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": ["biologia"],
+    "tabela": {
+      "titulo": "Decomposição do H₂O₂ a 25 °C: 2 H₂O₂(aq) → 2 H₂O(l) + O₂(g)",
+      "cabecalho": ["Condição", "Energia de ativação (kJ por mol de H₂O₂)"],
+      "linhas": [
+        ["Sem catalisador", "75"],
+        ["Com íons I⁻", "56"],
+        ["Com catalase (enzima)", "23"]
+      ]
+    },
+    "enunciado": "Em todas as condições da tabela, a decomposição do peróxido de hidrogênio tem ΔH = −98 kJ por mol de H₂O₂.\n\nUm estudante preparou, a 25 °C, quatro tubos com o mesmo volume da mesma solução de H₂O₂: no tubo 1, nada foi adicionado; no tubo 2, adicionou-se solução de KI; no tubo 3, um pedaço de fígado cru, rico em catalase; no tubo 4, um pedaço igual de fígado previamente fervido por 10 minutos e resfriado até 25 °C.\n\nCom base nesses dados, é correto afirmar que",
+    "alternativas": [
+      "no tubo 3, a reação libera mais energia por mol de H₂O₂ que no tubo 1, pois a catalase reduz a energia de ativação de 75 para 23 kJ.",
+      "no tubo 2, o íon iodeto é consumido na reação, razão pela qual o volume final de O₂ é maior que o obtido no tubo 1.",
+      "no tubo 4, a velocidade é igual à do tubo 3, pois a catalase, como todo catalisador, não é alterada e mantém sua atividade.",
+      "no tubo 3, a energia de ativação da reação inversa é 121 kJ por mol de H₂O₂, e a catalase também acelera essa reação inversa.",
+      "no tubo 3, a energia de ativação da reação inversa é 75 kJ por mol de H₂O₂, igual à da reação direta sem catalisador."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é separar o que o catalisador **muda** (o caminho da reação e, portanto, a energia de ativação) do que ele **não muda** (o ΔH, que depende só dos estados inicial e final, e a quantidade de produto obtida no final).\n\n**Energia de ativação da reação inversa:** no diagrama de energia de uma reação exotérmica, os produtos ficam 98 kJ abaixo dos reagentes. Com catalase, o topo da barreira fica 23 kJ acima dos reagentes; logo, fica 23 + 98 = **121 kJ** acima dos produtos. Essa é a energia de ativação da reação inversa (por mol de H₂O₂). Sem catalisador, ela seria 75 + 98 = 173 kJ: o catalisador abaixa a barreira dos dois sentidos na mesma medida (52 kJ), por isso acelera tanto a reação direta quanto a inversa e não altera a posição do equilíbrio.\n\n**Por que as outras afirmações falham:** o ΔH é −98 kJ/mol nas três condições, pois a catalase só reduz a barreira, não a energia liberada. O I⁻ participa de etapas intermediárias, mas é regenerado; além disso, o volume final de O₂ depende só da quantidade de H₂O₂, que é a mesma nos tubos.\n\nNo tubo 4, a catalase, uma proteína, foi desnaturada pela fervura: sua estrutura tridimensional, incluindo o sítio ativo, foi alterada, e ela perdeu a atividade. Mesmo de volta a 25 °C, o tubo 4 se comporta praticamente como o tubo 1. Por fim, a conta 98 − 23 = 75 não tem significado físico; coincidir com a energia de ativação sem catalisador é só acaso.\n\nPara lembrar: Ea(inversa) = Ea(direta) − ΔH; o catalisador diminui igualmente as energias de ativação dos dois sentidos e não altera ΔH nem o rendimento final.",
+    "erradas": [
+      "O ΔH depende apenas dos estados inicial e final e vale −98 kJ/mol com ou sem catalisador; a catalase reduz a barreira de energia, e não a energia liberada.",
+      "O I⁻ participa de etapas intermediárias, mas é regenerado ao final; e o volume de O₂ depende só da quantidade de H₂O₂, que é a mesma nos tubos.",
+      "A catalase é uma proteína: a fervura a desnatura, alterando o sítio ativo, e ela perde a atividade, de modo que o tubo 4 se comporta como o tubo 1. Não ser consumido na reação não torna o catalisador resistente ao calor.",
+      "",
+      "Subtraiu em vez de somar: 98 − 23 = 75 kJ. Como os produtos ficam 98 kJ abaixo dos reagentes, a barreira vista a partir deles é 23 + 98 = 121 kJ; a coincidência com 75 kJ é mero acaso."
+    ]
+  },
+  {
+    "id": "QUI-D-007",
+    "materia": "quimica",
+    "tema": "Equilíbrio químico — Kp, compressão e princípio de Le Chatelier (N₂O₄/NO₂)",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Uma seringa de vidro vedada contém uma mistura em equilíbrio de tetróxido de dinitrogênio (N₂O₄, incolor) e dióxido de nitrogênio (NO₂, castanho), a temperatura constante:\n\nN₂O₄(g) ⇌ 2 NO₂(g)\n\nNo equilíbrio inicial, as pressões parciais são p(NO₂) = 1,0 atm e p(N₂O₄) = 0,50 atm. O êmbolo é então empurrado rapidamente, reduzindo o volume a 1/3 do inicial, e o sistema atinge um novo equilíbrio à mesma temperatura.\n\nConsidere comportamento de gás ideal e que a intensidade da cor da mistura, observada lateralmente através da seringa, é proporcional à concentração de NO₂.\n\nNo novo equilíbrio, a pressão total na seringa e a cor da mistura, comparada à do equilíbrio inicial (antes da compressão), são, respectivamente:",
+    "alternativas": [
+      "1,5 atm; igual à do equilíbrio inicial.",
+      "4,0 atm; igual à do equilíbrio inicial.",
+      "4,0 atm; mais clara que a do equilíbrio inicial.",
+      "4,0 atm; mais escura que a do equilíbrio inicial.",
+      "4,5 atm; mais escura que a do equilíbrio inicial."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é que a compressão aumenta **todas** as pressões parciais de imediato; o deslocamento previsto por Le Chatelier apenas **atenua** essa perturbação, sem desfazê-la. E Kp, que só depende da temperatura, permite calcular o novo equilíbrio.\n\n**1) Kp:** Kp = p(NO₂)²/p(N₂O₄) = (1,0)²/0,50 = 2,0 atm.\n\n**2) Logo após a compressão (antes de reagir):** com o volume dividido por 3, cada pressão parcial triplica (lei de Boyle): p(NO₂) = 3,0 atm e p(N₂O₄) = 1,5 atm. Qp = (3,0)²/1,5 = 6,0 > Kp; logo, o sistema se desloca no sentido do N₂O₄, o lado com menos mols de gás.\n\n**3) Novo equilíbrio:** se a pressão de N₂O₄ aumenta x, a de NO₂ diminui 2x:\n(3,0 − 2x)²/(1,5 + x) = 2,0 → 9 − 12x + 4x² = 3 + 2x → 4x² − 14x + 6 = 0 → 2x² − 7x + 3 = 0 → x = 0,5 ou x = 3. Só x = 0,5 tem sentido físico (x = 3 daria pressão de NO₂ negativa).\nEntão p(NO₂) = 2,0 atm e p(N₂O₄) = 2,0 atm, e **p(total) = 4,0 atm**. Conferindo: (2,0)²/2,0 = 2,0 = Kp.\n\n**4) Cor:** a temperatura constante, a concentração de NO₂ é proporcional à sua pressão parcial ([NO₂] = p/RT). Ela foi de 1,0 atm (inicial) para 3,0 atm (logo após a compressão) e terminou em 2,0 atm. A mistura clareia um pouco depois da compressão, mas termina **mais escura que a original**.\n\nPara lembrar: Le Chatelier indica o sentido do deslocamento, mas não diz que a perturbação é anulada; o deslocamento compensa apenas parte dela.",
+    "erradas": [
+      "Interpretou Le Chatelier como se o deslocamento anulasse totalmente a perturbação, devolvendo o sistema às condições iniciais; na verdade, ele só compensa parte do aumento de pressão.",
+      "Acertou a pressão, mas confundiu Kp constante com concentrações constantes: o Kp é o mesmo, porém p(NO₂) passou de 1,0 atm para 2,0 atm, e a cor depende da concentração de NO₂.",
+      "Raciocinou só com o sentido do deslocamento (para o N₂O₄, incolor), esquecendo que a compressão tinha triplicado a concentração de NO₂; ela cai de 3,0 para 2,0 atm, mas fica acima de 1,0 atm.",
+      "",
+      "Aplicou apenas a lei de Boyle (volume dividido por 3, pressão de 1,5 para 4,5 atm), esquecendo que o equilíbrio se desloca no sentido do N₂O₄ e reduz o número de mols de gás."
+    ]
+  },
+  {
+    "id": "QUI-D-008",
+    "materia": "quimica",
+    "tema": "Equilíbrio de solubilidade — Kps, efeito do íon comum e contrastes radiológicos",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["biologia"],
+    "texto": "Suspensões de sulfato de bário (BaSO₄) são usadas como contraste em radiografias do tubo digestório, porque os átomos de bário absorvem bem os raios X. O íon Ba²⁺ dissolvido, porém, é tóxico: absorvido no intestino, afeta especialmente o funcionamento dos músculos, inclusive o cardíaco. Por isso, a ingestão de sais de bário que liberem Ba²⁺ em quantidade apreciável, ou a contaminação do contraste por eles, pode ser fatal.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Um técnico propõe preparar a suspensão de BaSO₄ em uma solução de Na₂SO₄ 0,010 mol/L, em vez de água pura. Discute-se também por que o carbonato de bário (BaCO₃), embora pouco solúvel em água, é perigoso se ingerido.\n\nDados (25 °C): Kps(BaSO₄) = 1,0 × 10⁻¹⁰; Kps(BaCO₃) = 2,5 × 10⁻⁹. O suco gástrico é uma solução ácida (contém HCl).\n\nA solubilidade do BaSO₄ na solução de Na₂SO₄, comparada à sua solubilidade em água pura, e uma explicação correta para o perigo do BaCO₃ são, respectivamente:",
+    "alternativas": [
+      "1 000 vezes menor; no estômago, o H⁺ converte o CO₃²⁻ em CO₂ e H₂O, deslocando a dissolução do BaCO₃.",
+      "1 000 vezes menor; com Kps 25 vezes maior, o BaCO₃ libera 25 vezes mais Ba²⁺ que o BaSO₄ em água pura.",
+      "2 000 vezes menor; no estômago, o H⁺ converte o CO₃²⁻ em CO₂ e H₂O, deslocando a dissolução do BaCO₃.",
+      "igual, pois o Kps não muda; no estômago, o H⁺ converte o CO₃²⁻ em CO₂ e H₂O, deslocando a dissolução do BaCO₃.",
+      "1 000 vezes menor; no estômago, o BaCO₃ reage com o HCl e libera CO₂, gás que é o principal agente tóxico."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é aplicar o **efeito do íon comum** ao Kps e, na segunda parte, perceber que o perigo do BaCO₃ vem de um **segundo equilíbrio**, que consome o ânion no estômago.\n\n**1) BaSO₄ em água pura:** BaSO₄(s) ⇌ Ba²⁺ + SO₄²⁻. Com s mol/L dissolvidos, Kps = s · s = s², logo s = √(1,0 × 10⁻¹⁰) = 1,0 × 10⁻⁵ mol/L.\n\n**2) BaSO₄ em Na₂SO₄ 0,010 mol/L:** o Na₂SO₄ fornece 0,010 mol/L de SO₄²⁻ (um sulfato por fórmula; os dois Na⁺ não importam aqui). Kps = s' · (0,010 + s') ≈ s' · 0,010, logo s' = 1,0 × 10⁻¹⁰/1,0 × 10⁻² = 1,0 × 10⁻⁸ mol/L. A aproximação é válida, pois s' é desprezível diante de 0,010.\nRazão: 1,0 × 10⁻⁵/1,0 × 10⁻⁸ = **1 000**. O íon comum desloca o equilíbrio de dissolução para a esquerda: o Kps continua o mesmo, mas a solubilidade cai.\n\n**3) O perigo do BaCO₃:** em água pura, sua solubilidade é √(2,5 × 10⁻⁹) = 5,0 × 10⁻⁵ mol/L, só 5 vezes a do BaSO₄ (a raiz quadrada de 25). O problema está no estômago: o carbonato é uma base e reage com o ácido, CO₃²⁻ + 2 H⁺ → CO₂ + H₂O. Ao remover CO₃²⁻ da solução, essa reação desloca o equilíbrio BaCO₃(s) ⇌ Ba²⁺ + CO₃²⁻ para a direita (Le Chatelier), e o sólido continua se dissolvendo, liberando grande quantidade de Ba²⁺. O sulfato, por sua vez, é uma base muito fraca, e o ácido quase não aumenta a dissolução do BaSO₄.\n\nPara lembrar: um íon comum diminui a solubilidade sem alterar o Kps; uma espécie que consome um dos íons do sal (como o H⁺ diante de um ânion básico) aumenta a solubilidade.",
+    "erradas": [
+      "",
+      "O Kps é 25 vezes maior, mas, em sais do tipo 1 : 1, a solubilidade é a raiz do Kps: o BaCO₃ libera só 5 vezes mais Ba²⁺ em água pura. O decisivo é a reação com o ácido do estômago.",
+      "Considerou [SO₄²⁻] = 0,020 mol/L, como se o índice 2 do sódio duplicasse o sulfato; cada Na₂SO₄ libera um único SO₄²⁻, logo s' = 1,0 × 10⁻⁸ mol/L e a razão é 1 000.",
+      "Confundiu Kps constante com solubilidade constante: o Kps é o mesmo, mas, com SO₄²⁻ já presente, basta muito menos Ba²⁺ dissolvido para atingir o produto de solubilidade.",
+      "A reação com o HCl de fato libera CO₂, mas ele não é o agente tóxico nessas quantidades; o perigo é o Ba²⁺, liberado em grande quantidade porque o ácido consome o carbonato."
+    ]
+  },
+  {
+    "id": "QUI-D-009",
+    "materia": "quimica",
+    "tema": "Eletroquímica — corrosão e proteção catódica (ânodo de sacrifício)",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "tabela": {
+      "titulo": "Potenciais-padrão de redução (25 °C)",
+      "cabecalho": ["Semirreação", "E° (V)"],
+      "linhas": [
+        ["Mg²⁺ + 2 e⁻ → Mg", "−2,37"],
+        ["Zn²⁺ + 2 e⁻ → Zn", "−0,76"],
+        ["Fe²⁺ + 2 e⁻ → Fe", "−0,44"],
+        ["Sn²⁺ + 2 e⁻ → Sn", "−0,14"],
+        ["Cu²⁺ + 2 e⁻ → Cu", "+0,34"]
+      ]
+    },
+    "enunciado": "Para proteger da corrosão o casco de aço de um barco, blocos de zinco são parafusados ao casco, em contato elétrico com ele e com a água do mar. Medições indicam que, entre os blocos e o casco, circula uma corrente média constante de 0,60 A.\n\nConsidere que todo o zinco consumido se deve a essa corrente.\n\nDados: 1 ano ≈ 3,2 × 10⁷ s; constante de Faraday ≈ 9,6 × 10⁴ C por mol de elétrons; massas molares: Fe = 56 g/mol; Zn = 65 g/mol.\n\nA massa de zinco consumida em um ano e outro metal da tabela que também poderia proteger o casco pelo mesmo mecanismo são, respectivamente:",
+    "alternativas": [
+      "5,6 kg; magnésio",
+      "6,5 kg; cobre",
+      "6,5 kg; magnésio",
+      "6,5 kg; estanho",
+      "13 kg; magnésio"
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é entender a **proteção catódica com ânodo de sacrifício**: liga-se ao aço um metal **mais reativo** (de menor potencial de redução), que se oxida no lugar do ferro. O casco passa a funcionar como cátodo, onde ocorre uma redução (por exemplo, a do O₂ dissolvido na água), e o ferro fica protegido.\n\n**1) Qual metal serve?** Precisa ter E° menor que o do ferro (−0,44 V), para se oxidar preferencialmente: Zn (−0,76 V) e **Mg (−2,37 V)**. Estanho (−0,14 V) e cobre (+0,34 V) têm E° maior que o do ferro: ligados ao casco, eles seriam o cátodo, e o **ferro** se oxidaria ainda mais depressa (corrosão galvânica).\n\n**2) Carga em um ano:** Q = i · t = 0,60 A × 3,2 × 10⁷ s = 1,92 × 10⁷ C.\n\n**3) Elétrons:** 1,92 × 10⁷ ÷ 9,6 × 10⁴ = 200 mol de elétrons.\n\n**4) Zinco:** Zn → Zn²⁺ + 2 e⁻; então n(Zn) = 200 ÷ 2 = 100 mol e m = 100 × 65 = 6 500 g = **6,5 kg**.\n\nPor isso esses blocos precisam ser trocados periodicamente: eles são, literalmente, sacrificados para poupar o casco.\n\nPara lembrar: o metal de sacrifício é o de **menor** potencial de redução; e, na lei de Faraday, cada mol de um metal que forma íon 2+ envolve 2 mol de elétrons.",
+    "erradas": [
+      "Usou a massa molar do ferro (56 g/mol) em vez da do zinco: 100 mol × 56 g/mol = 5,6 kg, que é a massa de ferro que corresponderia a essa mesma carga, e não a de zinco.",
+      "Inverteu o critério e escolheu o metal de maior potencial de redução; o cobre ligado ao aço seria o cátodo, e o ferro se oxidaria ainda mais depressa.",
+      "",
+      "O estanho tem potencial de redução maior que o do ferro (−0,14 V > −0,44 V); em contato com o aço, seria o cátodo e aceleraria a corrosão do casco, como acontece nas latas de aço estanhado riscadas.",
+      "Esqueceu que cada Zn libera 2 elétrons: tomou 200 mol de zinco em vez de 100 mol, obtendo 200 × 65 g = 13 kg."
+    ]
+  },
+  {
+    "id": "QUI-D-010",
+    "materia": "quimica",
+    "tema": "Eletrólise em solução aquosa — produtos nos eletrodos, Faraday e pH",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Uma solução aquosa de sulfato de cobre(II), com volume de 200 mL e concentração 0,100 mol/L, é eletrolisada com eletrodos inertes de platina, sob corrente constante de 0,965 A, durante 2 000 s. No cátodo forma-se um depósito avermelhado e, no ânodo, observa-se a liberação de um gás incolor.\n\nConsidere que o volume da solução não varia, que todo o H⁺ produzido permanece livre em solução e despreze a acidez inicial da solução.\n\nDados: constante de Faraday = 96 500 C por mol de elétrons; Cu = 63,5 g/mol; log 2 = 0,30.\n\nA massa de cobre depositada e o pH da solução ao final da eletrólise são, respectivamente:",
+    "alternativas": [
+      "0,635 g; pH = 0,7",
+      "0,635 g; pH = 1,0",
+      "0,635 g; pH = 1,3",
+      "0,635 g; pH = 13",
+      "1,27 g; pH = 1,0"
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é identificar **o que reage em cada eletrodo** numa solução aquosa e lembrar que a reação no ânodo produz H⁺, acidificando a solução.\n\n**1) Semirreações.** No cátodo (redução), o Cu²⁺ tem prioridade sobre a água: Cu²⁺ + 2 e⁻ → Cu (o depósito avermelhado). No ânodo (oxidação), o sulfato, ânion oxigenado, não se oxida; quem se oxida é a água: 2 H₂O → O₂ + 4 H⁺ + 4 e⁻ (o gás incolor é o O₂).\n\n**2) Carga e elétrons:** Q = 0,965 A × 2 000 s = 1 930 C; n(e⁻) = 1 930 ÷ 96 500 = 0,0200 mol.\n\n**3) Cobre:** 2 e⁻ por Cu, logo 0,0100 mol × 63,5 g/mol = **0,635 g**. Havia 0,100 × 0,200 = 0,0200 mol de Cu²⁺; ainda resta Cu²⁺, e o cátodo deposita só cobre durante todo o processo.\n\n**4) pH:** no ânodo, forma-se 1 H⁺ por elétron: n(H⁺) = 0,0200 mol. [H⁺] = 0,0200 ÷ 0,200 = 0,100 mol/L, logo **pH = 1,0**.\n\nNo balanço global, 2 CuSO₄ + 2 H₂O → 2 Cu + O₂ + 2 H₂SO₄: a solução azul de sulfato de cobre vai sendo trocada por ácido sulfúrico.\n\nPara lembrar: numa eletrólise aquosa com ânodo inerte e ânion oxigenado (SO₄²⁻, NO₃⁻), a água se oxida no ânodo, liberando O₂ e 1 mol de H⁺ por mol de elétrons.",
+    "erradas": [
+      "Supôs a formação de 1 mol de H₂SO₄ por mol de elétrons (0,0200 mol) e contou 2 H⁺ para cada um: [H⁺] = 0,200 mol/L e pH = 1 − 0,30 = 0,7. Pela equação global, são 2 H₂SO₄ para 4 elétrons.",
+      "",
+      "Contou 1 H⁺ para cada 2 elétrons, como se a proporção do cobre valesse também no ânodo: [H⁺] = 0,0500 mol/L e pH = 2 − log 5 = 2 − 0,70 = 1,3.",
+      "Supôs que se forma base, como na eletrólise da salmoura (NaCl), com [OH⁻] = 0,100 mol/L e pH = 13. Aqui quem se reduz é o Cu²⁺, e não a água, e o ânodo produz H⁺.",
+      "Usou 1 elétron por átomo de cobre: 0,0200 mol × 63,5 g/mol = 1,27 g. O Cu²⁺ precisa de 2 elétrons para se reduzir a Cu."
+    ]
+  }
+]

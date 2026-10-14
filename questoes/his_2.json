@@ -1,0 +1,543 @@
+[
+  {
+    "id": "HIS-021",
+    "materia": "historia",
+    "tema": "Antiguidade — Roma: cristianismo e Império",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "No início do século II, o governador romano da província da Bitínia, na Ásia Menor, escreveu ao imperador relatando como vinha tratando pessoas denunciadas como cristãs. Aos que confessavam sê-lo, perguntava mais de uma vez, ameaçando-os de punição; os que persistiam eram condenados, e os cidadãos romanos, enviados a Roma. Aos que negavam e, diante das imagens dos deuses e do imperador, ofereciam incenso e vinho, concedia a liberdade. O imperador aprovou o procedimento, mas acrescentou que os cristãos não deveriam ser procurados por iniciativa das autoridades e que denúncias anônimas não deveriam ser aceitas.\n\n(Texto elaborado para esta questão, com base na correspondência entre Plínio, o Jovem, e o imperador Trajano, c. 112 d.C.)",
+    "enunciado": "Com base no texto e na trajetória do cristianismo no Império Romano, é correto afirmar que",
+    "alternativas": [
+      "os cristãos eram perseguidos por serem monoteístas, pois a lei romana vedava o culto a um deus único, motivo pelo qual também o judaísmo foi proscrito em todo o Império desde Augusto.",
+      "o que se punia era a recusa ao culto cívico, vista como deslealdade e ameaça à ordem, e essa política se inverteria no século IV, com a tolerância de 313 e a oficialização sob Teodósio.",
+      "o texto revela uma perseguição contínua e sistemática, iniciada por Nero e mantida sem interrupção até Constantino, com buscas aos cristãos organizadas pelo Estado em todas as províncias.",
+      "o Edito de Milão, de 313, tornou o cristianismo a religião oficial do Império e proibiu os cultos pagãos, encerrando de imediato a tradição religiosa greco-romana em todas as províncias.",
+      "as autoridades puniam a crença íntima dos acusados, de modo que nem a negação nem a oferta de incenso diante das imagens dos deuses bastavam para livrá-los da condenação."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que a religião romana era sobretudo **cívica e ritual**: importava menos o que cada um acreditava em particular e mais a participação nos cultos públicos que, segundo a mentalidade romana, garantiam a boa relação entre a cidade e os deuses. Roma tolerava muitos cultos estrangeiros, desde que seus fiéis não recusassem esses ritos.\n\nO texto mostra exatamente isso. O teste aplicado pelo governador não investigava a fé interior: bastava oferecer incenso e vinho diante das imagens para ser libertado. Quem se recusava era punido — o próprio governador considerava que essa obstinação, por si só, merecia castigo. O imperador, por sua vez, recomendou não procurar os cristãos e rejeitar denúncias anônimas: a repressão era reativa e local, e não uma caçada permanente.\n\nAs perseguições foram, por isso, intermitentes. Houve episódios violentos, como em Roma sob Nero, após o incêndio de 64, mas ações gerais, em todo o Império, só vieram no século III, com Décio, que exigiu de todos um sacrifício comprovado, e no início do século IV, com Diocleciano. A virada veio logo depois: em 313, Constantino e Licínio garantiram liberdade de culto aos cristãos (Edito de Milão); em 380, o Edito de Tessalônica, de Teodósio, fez do cristianismo niceno a religião oficial, e nos anos seguintes os sacrifícios pagãos foram proibidos.\n\nPara lembrar: Roma punia os cristãos pela recusa ao culto público, e não pela crença em si; no século IV, o cristianismo passou de religião perseguida a tolerada (313) e, depois, a oficial (380).",
+    "erradas": [
+      "Explica mal a lógica romana: o problema não era o monoteísmo em si, e sim a recusa ao culto público. O judaísmo, religião ancestral de um povo, foi em geral tolerado como tal, ainda que a Judeia tenha sofrido dura repressão nas revoltas contra Roma.",
+      "",
+      "Contradiz o texto, que recomenda não procurar os cristãos e rejeitar denúncias anônimas. As perseguições foram intermitentes e locais; ações gerais em todo o Império só ocorreram com Décio, no século III, e com Diocleciano, no início do século IV.",
+      "Confunde dois momentos: o Edito de Milão (313) concedeu tolerância aos cristãos; a oficialização veio com o Edito de Tessalônica (380), de Teodósio, e a proibição dos cultos pagãos, nos anos seguintes.",
+      "Lê o texto ao contrário: quem negava ser cristão e oferecia incenso e vinho às imagens era libertado. O que se exigia era a participação no rito público, e não uma prova sobre a crença interior."
+    ]
+  },
+  {
+    "id": "HIS-022",
+    "materia": "historia",
+    "tema": "Idade Média — mundo islâmico e transmissão do saber",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "matematica"
+    ],
+    "texto": "No século XII, obras de um matemático que trabalhara em Bagdá no século IX foram vertidas para o latim, em parte por tradutores que atuavam na Península Ibérica, onde cristãos, muçulmanos e judeus conviviam havia séculos. Uma delas ensinava a calcular com nove sinais e um pequeno círculo que marca a casa vazia, de modo que o valor de cada sinal depende da posição que ocupa no número; o autor atribuía o método aos indianos. Outra tratava da resolução de equações e deu origem à palavra álgebra. Do nome latinizado do autor, al-Khwarizmi, derivou a palavra algoritmo.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considerando o texto, é correto afirmar que",
+    "alternativas": [
+      "os algarismos foram criados pelos árabes da Península Ibérica e depois levados à Índia por mercadores muçulmanos, o que explica por que os chamamos de algarismos arábicos.",
+      "a numeração romana também era posicional, de modo que a novidade das traduções se limitou ao símbolo do zero, sem alterar as técnicas de cálculo dos mercadores europeus.",
+      "a transmissão desses saberes deveu-se sobretudo às Cruzadas, pois os cruzados levaram para a Europa as bibliotecas de Bagdá, saqueadas por eles na conquista de Jerusalém em 1099.",
+      "a notação posicional com zero facilitava operações escritas, e sua chegada à Europa latina dependeu de traduções feitas em zonas de contato com o mundo islâmico, como a Península Ibérica.",
+      "a Igreja proibiu os algarismos indo-arábicos em toda a cristandade até o século XVI, por considerá-los heréticos, o que impediu sua adoção pelos mercadores das cidades italianas."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que o texto junta **matemática** e **história das trocas culturais**: o sistema de numeração que usamos hoje percorreu um longo caminho da Índia até a Europa, passando pelo mundo islâmico.\n\nA parte matemática: num sistema posicional de base 10, o valor de um algarismo depende da casa que ocupa. Em 304, o 3 vale 3 · 10² = 300, o 0 indica que não há dezenas e o 4 vale 4 unidades. Sem o zero, não haveria como distinguir 34 de 304. A numeração romana funciona de outro modo: é aditiva e subtrativa (CCCIV = 100 + 100 + 100 + 5 − 1), e cada símbolo tem valor fixo. Por isso, multiplicações e divisões escritas eram muito trabalhosas, e os cálculos costumavam ser feitos com ábacos.\n\nA parte histórica: em Bagdá, capital do califado abássida, a chamada Casa da Sabedoria reuniu estudiosos que traduziram para o árabe obras gregas, persas e indianas. Al-Khwarizmi, que ali trabalhou no século IX, difundiu os cálculos com algarismos de origem indiana e escreveu o tratado que deu nome à álgebra. No século XII, a Península Ibérica — sobretudo Toledo, conquistada pelos cristãos em 1085 — tornou-se um grande centro de tradução do árabe para o latim, inclusive de obras de Aristóteles, Euclides e Ptolomeu preservadas e comentadas no mundo islâmico. Em 1202, Leonardo de Pisa (Fibonacci) publicou o Liber Abaci, que ajudou a difundir os novos algarismos entre os mercadores italianos.\n\nPara lembrar: a numeração posicional com zero nasceu na Índia, foi difundida pelo mundo islâmico e chegou à Europa latina por traduções feitas em zonas de contato, como a Península Ibérica.",
+    "erradas": [
+      "Inverte a direção da transmissão: o próprio texto diz que o método vinha dos indianos. O nome arábicos reflete apenas o caminho pelo qual os europeus os conheceram, por meio de obras escritas em árabe.",
+      "Erro matemático: a numeração romana não é posicional, e sim aditiva e subtrativa; o valor de cada símbolo é fixo (X vale dez em XI ou em IX), e a ordem só indica soma ou subtração. A notação posicional com zero mudou as técnicas de cálculo escrito.",
+      "Mistura fatos: os cruzados tomaram Jerusalém em 1099, mas não saquearam Bagdá, que só foi destruída em 1258, pelos mongóis. A principal via de tradução do árabe para o latim foi a Península Ibérica, como indica o texto.",
+      "",
+      "Falso: não houve proibição geral da Igreja; em 1202, o Liber Abaci, de Fibonacci, difundiu os novos algarismos entre os mercadores italianos, que os adotaram progressivamente."
+    ]
+  },
+  {
+    "id": "HIS-023",
+    "materia": "historia",
+    "tema": "Idade Média — Cruzadas e a Quarta Cruzada",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "Em 1202, os chefes de uma expedição convocada pelo papa para retomar Jerusalém não conseguiram pagar a Veneza o transporte marítimo que haviam contratado. Para compensar a dívida, aceitaram atacar Zara, cidade cristã da costa do Adriático que Veneza disputava com o rei da Hungria. Em seguida, envolveram-se numa disputa pelo trono bizantino e, em abril de 1204, tomaram e saquearam Constantinopla, onde fundaram um Império Latino que durou até 1261. O grosso da expedição jamais chegou à Terra Santa.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "O episódio, conhecido como Quarta Cruzada, permite afirmar que",
+    "alternativas": [
+      "os ataques a Zara e a Constantinopla foram planejados desde o início pelo papa, interessado em submeter os cristãos orientais antes de enfrentar os muçulmanos na Palestina.",
+      "o saque de Constantinopla marcou o início do Cisma do Oriente, que separou as Igrejas de Roma e de Constantinopla por causa da violência praticada pelos cruzados.",
+      "a tomada de 1204 pôs fim definitivo ao Império Bizantino, cujos territórios passaram desde então ao domínio dos turcos otomanos, que fizeram de Constantinopla sua capital.",
+      "Veneza saiu enfraquecida da expedição, pois a ruptura com Bizâncio fechou-lhe os mercados orientais e transferiu a hegemonia comercial do Mediterrâneo para Gênova.",
+      "a cruzada combinou motivações religiosas com interesses comerciais e políticos, e o saque aprofundou a separação entre as Igrejas latina e grega, rompidas desde 1054."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é perceber que as Cruzadas não podem ser explicadas por um único motivo. A Quarta Cruzada é o caso mais claro: convocada para retomar Jerusalém, acabou atacando duas cidades cristãs.\n\nA motivação religiosa existia — os participantes buscavam as indulgências prometidas pelo papa —, mas convivia com interesses bem materiais. Veneza, potência naval e comercial, cobrou caro pelo transporte e usou a dívida dos cruzados para recuperar Zara e, depois, para ampliar sua presença no Oriente. Nobres ocidentais viram na crise dinástica bizantina uma oportunidade de ganhos e de terras. O papa Inocêncio III condenou o ataque a Zara e chegou a excomungar os participantes: a expedição escapou ao controle de quem a convocou.\n\nAs consequências foram de longa duração. A ruptura formal entre Roma e Constantinopla já havia ocorrido em 1054 (o Cisma do Oriente), mas o saque de 1204 transformou a separação em ressentimento profundo entre latinos e gregos. Veneza obteve portos e ilhas estratégicos no Mediterrâneo oriental e fortaleceu suas rotas. Os bizantinos retomaram Constantinopla em 1261, mas o império restaurado ficou enfraquecido e acabou conquistado pelos turcos otomanos em 1453.\n\nPara lembrar: na Quarta Cruzada, interesses comerciais e políticos desviaram a expedição de seu objetivo religioso, e o saque de Constantinopla aprofundou o afastamento entre cristãos latinos e ortodoxos.",
+    "erradas": [
+      "Inverte o papel do papado: Inocêncio III condenou o ataque a Zara e chegou a excomungar os participantes. O desvio resultou da dívida com Veneza e de interesses de nobres e mercadores, e não de um plano papal.",
+      "Erro cronológico: o Cisma do Oriente ocorreu em 1054, um século e meio antes; o saque de 1204 aprofundou uma separação já existente, mas não a iniciou.",
+      "Confunde 1204 com 1453: os bizantinos retomaram Constantinopla em 1261, e a cidade só foi conquistada pelos turcos otomanos em 1453.",
+      "Inverte a consequência: Veneza foi uma das grandes beneficiárias, obtendo portos e ilhas no Mediterrâneo oriental e ampliando suas rotas comerciais.",
+      ""
+    ]
+  },
+  {
+    "id": "HIS-024",
+    "materia": "historia",
+    "tema": "Idade Moderna — expansão marítima e regime de ventos do Atlântico",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "geografia"
+    ],
+    "texto": "Para voltar a Portugal depois de descer a costa africana até a Guiné, os navegadores portugueses do século XV perceberam que era pouco eficiente refazer o caminho junto ao litoral, pois enfrentavam ventos contrários que sopravam persistentemente de nordeste. A solução, conhecida como volta do mar, consistia em afastar-se da costa rumo a noroeste, em alto-mar, até latitudes próximas às dos Açores, onde passavam a encontrar ventos de oeste que os levavam de volta à Península Ibérica. Em 1497, a frota de Vasco da Gama, depois de passar pelas ilhas de Cabo Verde, afastou-se da costa africana e descreveu um grande arco pelo Atlântico Sul, ficando meses sem avistar terra, antes de alcançar o extremo sul da África.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Com base no texto e em conhecimentos sobre a circulação atmosférica, é correto afirmar que",
+    "alternativas": [
+      "o domínio empírico dos ventos do Atlântico, aliado a navios capazes de bolinar, como a caravela, foi condição técnica da expansão e ajuda a entender a rota de Cabral em 1500.",
+      "os ventos de nordeste citados são os contra-alísios, que sopram das latitudes médias para o equador, e por isso a volta junto à costa africana era o caminho mais rápido para Portugal.",
+      "a volta do mar prova que os portugueses foram os primeiros europeus a saber que a Terra é esférica, fato ignorado pelos estudiosos medievais, o que lhes permitiu planejar rotas oceânicas.",
+      "o grande arco de Vasco da Gama tinha como objetivo principal reconhecer as terras a oeste reservadas a Portugal pelo Tratado de Tordesilhas, e não alcançar as Índias.",
+      "a expansão dependeu sobretudo da bússola, invenção portuguesa do século XV que tornava dispensável conhecer o regime dos ventos e das correntes oceânicas."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber que a navegação à vela depende do **regime de ventos** — e que os portugueses aprenderam a usá-lo antes de existir uma explicação científica para ele. Por isso a questão une história e geografia.\n\nA geografia: entre as latitudes de cerca de 30° e o equador, o ar escoa das altas pressões subtropicais para as baixas pressões equatoriais. Por causa da rotação da Terra, esse fluxo é desviado e forma os ventos alísios, que sopram de nordeste no hemisfério norte e de sudeste no hemisfério sul. Nas latitudes médias predominam os ventos de oeste. Quem voltava da costa da Guiné tinha os alísios de nordeste pela proa; a solução era afastar-se da costa, ganhar o alto-mar e subir até a faixa dos ventos de oeste, perto dos Açores — a volta do mar.\n\nNo Atlântico Sul, a lógica é espelhada. Descer junto à costa sudoeste da África significava enfrentar ventos e correntes desfavoráveis; a frota de Gama, então, abriu para o largo, aproveitou os alísios de sudeste e depois os ventos de oeste para chegar ao sul do continente. Um arco desse tipo leva os navios para perto da América do Sul, o que ajuda a entender por que a frota de Cabral, em 1500, alcançou o litoral do atual Brasil a caminho da Índia.\n\nA técnica completava esse saber: a caravela, com velas latinas (triangulares), conseguia bolinar, isto é, avançar formando ângulo com ventos desfavoráveis; instrumentos como o astrolábio e o quadrante permitiam calcular a latitude pela altura dos astros.\n\nPara lembrar: a expansão marítima portuguesa apoiou-se no conhecimento prático do regime de ventos do Atlântico e em navios e instrumentos adaptados à navegação oceânica.",
+    "erradas": [
+      "",
+      "Erro de geografia: os ventos de nordeste da costa da Guiné são os alísios, que sopram das altas pressões subtropicais para o equador. Além disso, o texto afirma o contrário: voltar junto à costa era ineficiente, justamente por causa desses ventos contrários.",
+      "Reproduz um mito: a esfericidade da Terra era conhecida dos estudiosos gregos e medievais. A volta do mar resultou do conhecimento prático dos ventos, e não da descoberta da forma do planeta.",
+      "Inverte o objetivo da viagem: Gama buscava a rota marítima para a Índia, alcançada em 1498. O arco pelo Atlântico Sul era a forma de aproveitar os ventos para contornar a África.",
+      "Falso: a bússola, de origem chinesa, já era usada no Mediterrâneo séculos antes; ela indica direções, mas não dispensa o conhecimento dos ventos e das correntes, essencial para a navegação à vela."
+    ]
+  },
+  {
+    "id": "HIS-025",
+    "materia": "historia",
+    "tema": "Idade Moderna — absolutismo francês e sociedade de corte",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [
+      "sociologia"
+    ],
+    "texto": "Em Versalhes, cada gesto da vida diária do rei — despertar, vestir-se, comer, deitar-se — era transformado em cerimônia, e o direito de entregar-lhe a camisa ou de segurar o castiçal era disputado pelos nobres como sinal de prestígio. A proximidade do monarca tornou-se a principal moeda da vida aristocrática. Para manter sua posição, os grandes nobres precisavam viver na corte, gastar com roupas, carruagens e festas e competir entre si pelo favor real, afastando-se de suas bases de poder nas províncias.\n\n(Texto elaborado para esta questão, com base em ideias de Norbert Elias, A Sociedade de Corte.)",
+    "enunciado": "Considerando o texto e o absolutismo de Luís XIV, é correto afirmar que a etiqueta de Versalhes",
+    "alternativas": [
+      "era um resquício feudal sem função política, mantido por tradição, já que o poder do rei se apoiava apenas no exército permanente e na burocracia de funcionários.",
+      "permitia à nobreza controlar o rei, pois as cerimônias obrigavam o monarca a consultar os Estados Gerais, reunidos em Versalhes, antes de cada decisão importante.",
+      "funcionava como instrumento de dominação: ao tornar o prestígio nobre dependente do favor real, ajudava a neutralizar a aristocracia que se rebelara durante a Fronda.",
+      "destinava-se a integrar a burguesia mercantil à alta nobreza, abolindo as distinções de nascimento em favor do mérito e da riqueza acumulada no comércio.",
+      "foi criada para financiar o Estado, já que os gastos dos nobres na corte eram tributados e constituíam a principal fonte de receita da monarquia francesa."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é perceber que o luxo e o cerimonial de Versalhes não eram mero capricho: eram uma **técnica de poder**.\n\n**A teoria por trás.** O sociólogo Norbert Elias estudou a corte como uma figuração — uma rede de pessoas interdependentes, em que a posição de cada uma depende das outras. Na corte de Luís XIV, o prestígio de um nobre já não vinha principalmente de suas terras ou de seus homens armados, e sim da distância que o separava do rei. Um privilégio aparentemente banal, como entregar a camisa ao monarca no despertar, valia como sinal público de favor. Como todos disputavam essas distinções, os nobres vigiavam-se mutuamente, endividavam-se para manter as aparências e dependiam cada vez mais de pensões e cargos concedidos pela Coroa. O rei, no centro, distribuía favores e equilibrava os grupos rivais.\n\n**O contexto.** Luís XIV viveu, ainda criança, a Fronda (1648–1653), revolta que envolveu o Parlamento de Paris e grandes nobres e chegou a forçar a família real a deixar a capital. Depois de assumir pessoalmente o governo, em 1661, ele concentrou poderes, governou com ministros de origem burguesa, como Colbert, e instalou a corte em Versalhes em 1682. Atrair a alta nobreza para perto de si, sob seus olhos, reduzia o risco de novas rebeliões nas províncias.\n\n**O que não confundir.** Os Estados Gerais não foram convocados entre 1614 e 1789; a nobreza e o clero tinham isenções fiscais, e o peso dos impostos diretos recaía sobre o Terceiro Estado; e a hierarquia de nascimento era justamente o que a etiqueta encenava e reforçava.\n\nPara lembrar: na sociedade de corte, a etiqueta transformava o prestígio aristocrático em dependência do rei, domesticando a nobreza e fortalecendo o absolutismo.",
+    "erradas": [
+      "Ignora o argumento do texto: a etiqueta tinha função política clara, pois mantinha os grandes nobres na corte, longe de suas bases provinciais e dependentes do favor real.",
+      "Erro factual e de sentido: os Estados Gerais não se reuniram entre 1614 e 1789, e a etiqueta reforçava o poder do rei sobre a nobreza, e não o contrário.",
+      "",
+      "Anacronismo: a abolição dos privilégios de nascimento é obra da Revolução Francesa, a partir de 1789. A etiqueta de corte encenava e reforçava a hierarquia aristocrática.",
+      "Falso: a nobreza gozava de isenções fiscais, e os impostos diretos pesavam sobretudo sobre o Terceiro Estado; os gastos na corte endividavam os nobres, sem financiar a Coroa."
+    ]
+  },
+  {
+    "id": "HIS-026",
+    "materia": "historia",
+    "tema": "Idade Contemporânea — revoluções de 1848 e unificação alemã",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Em 1849, a Assembleia Nacional reunida em Frankfurt, formada por deputados eleitos em vários Estados alemães no contexto das revoluções de 1848, aprovou uma constituição para uma Alemanha unificada e ofereceu a coroa imperial ao rei da Prússia. O rei recusou-a, por não admitir receber a coroa de uma assembleia eleita, e não dos príncipes alemães. Treze anos depois, o chefe do governo prussiano declarou, perante uma comissão do Parlamento da Prússia, que as grandes questões da época não seriam decididas por discursos e votações majoritárias, mas pelo ferro e pelo sangue.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "O contraste entre os dois episódios permite afirmar que",
+    "alternativas": [
+      "a unificação alemã foi concluída em 1849 pela Assembleia de Frankfurt, e o governo prussiano apenas consolidou pelas armas uma constituição liberal que já estava em vigor.",
+      "o fracasso da via liberal e parlamentar de 1848–1849 abriu caminho para uma unificação conduzida pelo Estado prussiano, por meio de guerras e sob hegemonia conservadora.",
+      "a Assembleia de Frankfurt fracassou por defender a república socialista proposta no Manifesto Comunista, programa rejeitado tanto pelos liberais quanto pelos príncipes alemães.",
+      "a política de ferro e sangue culminou na guerra contra a França e na proclamação do Império Alemão em Berlim, com apoio da Áustria, aliada da Prússia desde 1848.",
+      "a unificação alemã repetiu o caminho da italiana, conduzida por movimentos republicanos e populares, como o de Garibaldi, que derrotaram as monarquias locais."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que houve **dois projetos** de unificação alemã: um liberal, vindo de baixo e do Parlamento, que fracassou em 1848–1849; e outro conservador, vindo de cima e do Estado prussiano, que venceu em 1871.\n\nNas revoluções de 1848 — a chamada Primavera dos Povos —, liberais e nacionalistas reuniram em Frankfurt uma assembleia eleita, que redigiu uma constituição e ofereceu a coroa ao rei da Prússia, Frederico Guilherme IV. Ao recusá-la, o rei deixou claro que não aceitaria um poder concedido por representantes eleitos, e não pelos príncipes. Sem força militar própria, a assembleia se dissolveu, e a contrarrevolução prevaleceu.\n\nA lição foi tirada pelo chefe do governo prussiano nomeado em 1862, Otto von Bismarck: a unificação viria pelo poder do Estado e do exército. Seguiram-se três guerras — contra a Dinamarca (1864), contra a Áustria (1866), que foi excluída da futura Alemanha, e contra a França (1870–1871). O Império Alemão foi proclamado em janeiro de 1871, no Palácio de Versalhes, com o rei prussiano Guilherme I como imperador. O novo Estado tinha parlamento, mas o poder efetivo ficava com o imperador e o chanceler, e a aristocracia prussiana manteve posição dominante.\n\nPara lembrar: a unificação alemã foi feita pelo alto, sob liderança da Prússia e por meio de guerras, depois do fracasso da via liberal de 1848–1849.",
+    "erradas": [
+      "Falso: a constituição de Frankfurt nunca entrou em vigor, porque o rei da Prússia recusou a coroa e a assembleia foi dissolvida; a unificação só se completou em 1871.",
+      "",
+      "Confunde projetos: a maioria da Assembleia de Frankfurt era liberal e defendia uma monarquia constitucional, tanto que ofereceu a coroa a um rei. O Manifesto Comunista, de 1848, não orientou a assembleia.",
+      "Dois erros: o Império foi proclamado no Palácio de Versalhes, na França derrotada, e a Áustria foi adversária da Prússia, vencida por ela na guerra de 1866.",
+      "Erro sobre as duas unificações: a italiana também foi conduzida por uma monarquia, a do Piemonte-Sardenha, e Garibaldi entregou ao rei Vítor Emanuel II os territórios conquistados no sul."
+    ]
+  },
+  {
+    "id": "HIS-027",
+    "materia": "historia",
+    "tema": "Idade Contemporânea — da Revolução Russa ao fim da URSS",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "As Constituições soviéticas de 1924 — aprovada pouco depois da criação da União das Repúblicas Socialistas Soviéticas — e de 1977 asseguravam a cada república federada o direito de separar-se livremente da União. Durante décadas, esse direito permaneceu apenas no papel. Entre 1990 e 1991, porém, várias repúblicas proclamaram sua soberania ou independência e, em dezembro de 1991, os dirigentes da Rússia, da Ucrânia e de Belarus declararam que a URSS deixava de existir.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considerando o texto e a trajetória da URSS, é correto afirmar que",
+    "alternativas": [
+      "a Revolução de Outubro de 1917 instituiu desde o início um Estado unitário russo, sem repúblicas nacionais, que só foram reconhecidas pela Constituição de 1977.",
+      "o direito de secessão foi usado em 1956 e em 1968, quando a Hungria e a Tchecoslováquia deixaram a União Soviética, exemplo seguido depois pelas demais repúblicas.",
+      "a forma federal, criada para acomodar a diversidade nacional herdada do Império russo, conviveu com a centralização do partido único, e as repúblicas serviram de base à desagregação.",
+      "a federação foi criada por Gorbatchov em 1985, com a perestroika, para descentralizar o poder, o que comprova que as reformas desde o início planejavam dissolver o país.",
+      "a dissolução foi decidida pelo golpe de agosto de 1991, liderado por reformistas que pretendiam acelerar a independência das repúblicas e a adoção da economia de mercado."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é perceber uma contradição de **longa duração**: a URSS era federal na forma e centralizada na prática — e, quando a centralização ruiu, a forma federal ofereceu o caminho para a separação.\n\nO Império russo era multinacional. Os bolcheviques, para conquistar o apoio dos povos não russos durante a revolução e a guerra civil, prometeram autodeterminação. Em dezembro de 1922, criaram a União das Repúblicas Socialistas Soviéticas, organizada como federação de repúblicas definidas por critérios nacionais, e as constituições de 1924, 1936 e 1977 previram o direito de secessão. Na prática, porém, o poder real estava no Partido Comunista, único e centralizado; sob Stálin, houve russificação e até a deportação de povos inteiros, como os chechenos e os tártaros da Crimeia, em 1944.\n\nNos anos 1980, as reformas de Gorbatchov — glasnost (transparência) e perestroika (reestruturação) — abriram espaço para a expressão pública de demandas nacionais. A Lituânia proclamou a independência em março de 1990. Em agosto de 1991, setores da linha-dura tentaram um golpe para impedir um novo tratado que daria mais autonomia às repúblicas; o fracasso acelerou o processo. Em dezembro de 1991, os dirigentes da Rússia, da Ucrânia e de Belarus declararam extinta a URSS, e Gorbatchov renunciou no dia 25. As novas nações independentes surgiram, em geral, dentro dos limites das antigas repúblicas soviéticas.\n\nPara lembrar: a estrutura federal criada pelos bolcheviques, anulada por décadas pela centralização do partido, tornou-se o molde institucional da fragmentação da URSS em 1991.",
+    "erradas": [
+      "Falso: a federação de repúblicas nacionais foi instituída com a criação da URSS, em 1922, e o direito de secessão já constava da Constituição de 1924, como afirma o texto.",
+      "Confunde o bloco soviético com a própria URSS: Hungria e Tchecoslováquia eram Estados formalmente independentes, aliados de Moscou, e não repúblicas soviéticas; além disso, suas tentativas de autonomia foram esmagadas por intervenções militares.",
+      "",
+      "Anacronismo: a federação existia desde 1922; Gorbatchov chegou ao poder em 1985 e procurava reformar e preservar a União, e não dissolvê-la.",
+      "Inverte os atores: o golpe de agosto de 1991 foi tentado pela linha-dura, que queria impedir o tratado de maior autonomia às repúblicas; seu fracasso é que acelerou a dissolução."
+    ]
+  },
+  {
+    "id": "HIS-028",
+    "materia": "historia",
+    "tema": "Idade Contemporânea — crise de 1929 e ascensão do nazismo",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "A Alemanha, que dependia de empréstimos norte-americanos desde meados dos anos 1920, foi duramente atingida pela crise iniciada em 1929, e o desemprego cresceu de forma acentuada até 1932. Em 30 de janeiro de 1933, Adolf Hitler foi nomeado chanceler pelo presidente Paul von Hindenburg.\n\n(Texto elaborado para esta questão. Os dados da tabela são os resultados oficiais das eleições.)",
+    "tabela": {
+      "titulo": "Eleições para o Reichstag (parlamento alemão) — % dos votos",
+      "cabecalho": ["Partido", "1928", "1930", "jul. 1932", "nov. 1932"],
+      "linhas": [
+        ["NSDAP (nazista)", "2,6", "18,3", "37,3", "33,1"],
+        ["KPD (comunista)", "10,6", "13,1", "14,3", "16,9"],
+        ["SPD (social-democrata)", "29,8", "24,5", "21,6", "20,4"]
+      ]
+    },
+    "enunciado": "Com base na tabela e no contexto, é correto afirmar que",
+    "alternativas": [
+      "o crescimento nazista se deu principalmente às custas do eleitorado comunista, que encolheu de forma contínua entre 1928 e novembro de 1932, como mostra a tabela.",
+      "a soma dos votos de SPD e KPD superou a do NSDAP em todas as eleições da tabela, o que indica que a esquerda unida teria tido maioria absoluta no Reichstag em 1932.",
+      "Hitler tornou-se chanceler logo após a eleição de julho de 1932, quando o NSDAP conquistou maioria absoluta das cadeiras e passou a governar sem aliados.",
+      "Hitler foi nomeado depois de o NSDAP recuar nas urnas em novembro de 1932, por meio de acordo com elites conservadoras, e não por ter obtido maioria absoluta nas eleições.",
+      "a crise de 1929 beneficiou igualmente todos os partidos contrários à República de Weimar, já que NSDAP, KPD e SPD ampliaram sua votação ao longo do período."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é ler a tabela com atenção **e** separar duas coisas: o crescimento eleitoral nazista e o modo como Hitler chegou ao poder.\n\nO crescimento é evidente: de 2,6% em 1928 para 18,3% em 1930 e 37,3% em julho de 1932, acompanhando o aprofundamento da crise. A Alemanha havia se reerguido em parte com capitais norte-americanos (o Plano Dawes, de 1924, organizou empréstimos e o pagamento das reparações de guerra); com a crise de 1929, esses capitais foram retirados, e desemprego e falências dispararam. O KPD também cresceu, enquanto o SPD, principal partido de sustentação da República, perdeu votos.\n\nAgora a conta que derruba um distrator: em julho de 1932, SPD + KPD = 21,6 + 14,3 = 35,9%, menos que os 37,3% do NSDAP. E, ainda que somassem mais, comunistas e social-democratas eram adversários ferrenhos e não formaram aliança.\n\nO dado decisivo: em novembro de 1932, o NSDAP caiu para 33,1%. Mesmo em recuo, Hitler foi nomeado chanceler em janeiro de 1933, porque políticos conservadores próximos ao presidente Hindenburg, como Franz von Papen, acreditaram que poderiam controlá-lo num governo de coalizão. Depois do incêndio do Reichstag (fevereiro de 1933), a eleição de março, realizada sob repressão, deu ao NSDAP 43,9% — ainda sem maioria própria —, e a Lei de Plenos Poderes, aprovada no mesmo mês, abriu caminho para a ditadura.\n\nPara lembrar: a crise de 1929 impulsionou o voto nazista, mas Hitler chegou ao poder por um acordo com elites conservadoras, depois de um recuo eleitoral e sem nunca ter conquistado maioria absoluta em eleições livres.",
+    "erradas": [
+      "Erro de leitura: o KPD cresceu continuamente no período (10,6%, 13,1%, 14,3% e 16,9%); quem perdeu votos foi o SPD.",
+      "Falha de cálculo: em julho de 1932, SPD + KPD = 21,6 + 14,3 = 35,9%, menos que os 37,3% do NSDAP; nenhuma das somas de 1932 alcança maioria absoluta, e os dois partidos eram rivais.",
+      "Erro duplo: 37,3% dos votos não dão maioria absoluta, e Hitler só foi nomeado em janeiro de 1933, à frente de um governo de coalizão com conservadores.",
+      "",
+      "Erro de leitura e de conceito: o SPD perdeu votos em todas as eleições da tabela e era o principal partido de sustentação da República, e não um opositor dela."
+    ]
+  },
+  {
+    "id": "HIS-029",
+    "materia": "historia",
+    "tema": "Idade Contemporânea — Holocausto e a banalidade do mal",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [
+      "filosofia"
+    ],
+    "texto": "Interpretação I\nAo acompanhar o julgamento de Adolf Eichmann em Jerusalém, em 1961, uma filósofa concluiu que o réu, responsável pela organização das deportações de judeus para os campos de extermínio, não parecia um monstro nem um fanático, mas um funcionário zeloso, preocupado com a carreira, que se expressava por clichês e era incapaz de pensar do ponto de vista dos outros. O mal extremo, sugeria ela, podia ser praticado por pessoas comuns que deixam de refletir sobre o que fazem.\n(Adaptado de ideias de Hannah Arendt, Eichmann em Jerusalém, 1963.)\n\nInterpretação II\nEntrevistas gravadas por Eichmann na Argentina, nos anos 1950, antes de sua captura, e analisadas por pesquisadores décadas depois, mostram um antissemita convicto, orgulhoso de seu papel, que diante dos juízes teria adotado deliberadamente a imagem de mero executor de ordens.\n(Texto elaborado para esta questão, com base em pesquisas históricas posteriores a Arendt.)",
+    "enunciado": "Comparando as interpretações, é correto afirmar que",
+    "alternativas": [
+      "a divergência envolve a crítica das fontes: a I apoia-se sobretudo na conduta do réu no julgamento, e a II, em registros anteriores à captura, que sugerem convicção ideológica.",
+      "a II confirma a I, pois ambas concluem que Eichmann agia apenas por obediência a ordens superiores, sem qualquer adesão pessoal à ideologia antissemita do regime.",
+      "a I absolve Eichmann ao considerá-lo incapaz de pensar, e por isso a filósofa defendeu que o tribunal não deveria tê-lo condenado à morte pelos crimes que cometeu.",
+      "a II demonstra que o Holocausto foi obra exclusiva de um pequeno grupo de fanáticos, sem a participação da burocracia estatal, das ferrovias e de empresas alemãs.",
+      "a I sustenta que Eichmann desconhecia o destino dos deportados, o que explicaria a tranquilidade com que se apresentou diante dos juízes durante o julgamento."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber que a divergência não é só de opinião, mas de **fontes**: cada interpretação se apoia num conjunto diferente de evidências, produzido em circunstâncias diferentes.\n\nHannah Arendt acompanhou o julgamento em Jerusalém (1961) — Eichmann fora capturado na Argentina em 1960 por agentes israelenses — e escreveu sobre ele um livro publicado em 1963. Ao observar o réu, propôs a noção de banalidade do mal: crimes monstruosos não exigiriam agentes demoníacos, mas poderiam ser cometidos por pessoas comuns que deixam de pensar sobre o sentido do que fazem, refugiando-se em regras, clichês e na lógica da carreira. É uma tese filosófica sobre o juízo e a responsabilidade — e não uma desculpa: Arendt considerou justa a condenação, e Eichmann foi executado em 1962.\n\nA interpretação II recorre a outra fonte: entrevistas que Eichmann deu na Argentina, antes de ser capturado, quando não tinha motivo para se apresentar como um burocrata obediente. Pesquisas como a da filósofa alemã Bettina Stangneth, publicada em 2011, identificam nesses registros um antissemita convicto, orgulhoso de seu papel. Daí a hipótese de que o comportamento no tribunal tenha sido uma estratégia de defesa.\n\nO Holocausto, de todo modo, foi um empreendimento de Estado: envolveu ministérios, polícia, ferrovias, empresas e a cooperação de muitos agentes. Eichmann participou da Conferência de Wannsee (janeiro de 1942), que coordenou a chamada solução final, e organizou as deportações para os campos de extermínio.\n\nPara lembrar: ao comparar interpretações históricas, observe em que fontes cada uma se apoia e em que contexto essas fontes foram produzidas.",
+    "erradas": [
+      "",
+      "Erro de leitura: a II sustenta justamente o contrário, ao apresentar Eichmann como antissemita convicto e orgulhoso de seu papel, que teria encenado no tribunal a imagem de executor de ordens.",
+      "Confunde explicar com absolver: Arendt considerou justa a condenação, e a tese da banalidade do mal trata da origem do mal em pessoas comuns, e não da ausência de responsabilidade.",
+      "Extrapolação: a II trata do perfil de um indivíduo; o Holocausto envolveu amplamente o aparelho de Estado, ferrovias, empresas e muitos agentes, como a própria trajetória de Eichmann evidencia.",
+      "Contradiz o texto, que apresenta Eichmann como responsável pela organização das deportações para os campos de extermínio; Arendt não alegou ignorância do réu, que participara da Conferência de Wannsee."
+    ]
+  },
+  {
+    "id": "HIS-030",
+    "materia": "historia",
+    "tema": "Idade Contemporânea — Oriente Médio após a Primeira Guerra",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "geografia"
+    ],
+    "texto": "Durante a Primeira Guerra Mundial, o governo britânico (1) incentivou uma revolta árabe contra o Império Otomano, acenando com a formação de um Estado árabe independente; (2) negociou secretamente com a França a divisão das províncias árabes do Império Otomano em zonas de controle e de influência; e (3) declarou-se favorável ao estabelecimento, na Palestina, de um lar nacional para o povo judeu.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considerando o texto e o período posterior à guerra, é correto afirmar que",
+    "alternativas": [
+      "a Declaração Balfour criou o Estado de Israel em 1917, com fronteiras definidas pela Liga das Nações e aceitas pela população árabe que vivia na Palestina.",
+      "as fronteiras atuais do Oriente Médio seguem a distribuição étnica e religiosa da população, critério adotado pelos mandatos para evitar conflitos entre os grupos.",
+      "o acordo secreto com a França foi divulgado pelos próprios britânicos ao fim da guerra, para provar aos árabes que a promessa de independência seria cumprida.",
+      "o plano de partilha aprovado pela ONU em 1947 dividiu a Palestina entre o Egito e a Jordânia, sem prever a criação de um Estado judeu na região.",
+      "os compromissos eram difíceis de conciliar, e os mandatos da Liga das Nações, que deram Palestina e Iraque aos britânicos e Síria e Líbano aos franceses, frustraram os árabes."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é perceber que a Grã-Bretanha, em plena guerra contra o Império Otomano, assumiu **três compromissos com interesses diferentes** sobre o mesmo território.\n\n(1) Na correspondência com o xerife Hussein de Meca (1915–1916), os britânicos acenaram com a independência árabe em troca de uma revolta contra os otomanos, iniciada em 1916. (2) No acordo Sykes-Picot (1916), negociado em segredo, Grã-Bretanha e França dividiram as províncias árabes em zonas de controle ou de influência; o texto foi divulgado pelos bolcheviques no fim de 1917, depois da Revolução Russa. (3) Na Declaração Balfour (1917), o governo britânico apoiou a criação de um lar nacional judeu na Palestina.\n\nTerminada a guerra, a Liga das Nações instituiu os mandatos: a Grã-Bretanha ficou com a Palestina, a Transjordânia e o Iraque; a França, com a Síria e o Líbano. Em vez de um Estado árabe independente, vieram fronteiras traçadas pelas potências, muitas delas sem relação com a distribuição dos povos — tema também da geografia política. Na Palestina sob mandato, a imigração judaica cresceu e as tensões se agravaram. Em 1947, a ONU aprovou um plano de partilha em dois Estados, um judeu e outro árabe, com Jerusalém sob regime internacional; em 1948 foi proclamado o Estado de Israel, seguido de guerra com países árabes e do êxodo de centenas de milhares de palestinos.\n\nPara lembrar: promessas britânicas contraditórias e a divisão do Oriente Médio em mandatos estão na origem de conflitos que atravessam o século XX.",
+    "erradas": [
+      "Anacronismo: a Declaração Balfour apenas manifestava apoio a um lar nacional judeu; o Estado de Israel foi proclamado em 1948, sob a oposição dos árabes palestinos e dos países vizinhos.",
+      "Inverte o processo: as fronteiras dos mandatos foram traçadas segundo interesses das potências europeias e frequentemente separaram ou reuniram povos sem considerar sua distribuição.",
+      "Falso: o acordo Sykes-Picot foi divulgado pelos bolcheviques, no fim de 1917, e sua revelação expôs justamente a contradição com as promessas feitas aos árabes.",
+      "Falso: o plano de 1947 previa dois Estados, um judeu e outro árabe, além de um regime internacional para Jerusalém.",
+      ""
+    ]
+  },
+  {
+    "id": "HIS-031",
+    "materia": "historia",
+    "tema": "Brasil Colônia — bandeirantes e escravidão indígena",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "texto": "Interpretação I\nNo início do século XX, autores ligados à elite paulista retrataram os bandeirantes como uma raça de gigantes: desbravadores que alargaram as fronteiras do Brasil além da linha de Tordesilhas e simbolizavam o espírito empreendedor de São Paulo.\n\nInterpretação II\nCom base em inventários e testamentos do século XVII, um historiador mostrou que grande parte das expedições paulistas visava capturar indígenas. A maioria dos cativos era mantida no próprio planalto, trabalhando nas lavouras de trigo e de outros gêneros que abasteciam vilas e cidades de outras partes da colônia. Como a legislação restringia a escravização indígena, os colonos registravam esses cativos como administrados, e não como escravos.\n\n(Texto elaborado para esta questão, com base no debate entre a historiografia paulista do início do século XX e a obra de John Monteiro, Negros da Terra, 1994.)",
+    "enunciado": "A comparação entre as interpretações permite afirmar que",
+    "alternativas": [
+      "a II confirma a I, ao mostrar que o objetivo principal das bandeiras era expandir a fronteira portuguesa, cumprindo determinações expressas da Coroa contra a Espanha.",
+      "a II demonstra que os cativos eram vendidos sobretudo aos engenhos da Bahia e de Pernambuco, que dependiam mais do trabalho indígena do que do africano no século XVII.",
+      "a II desloca o foco da conquista territorial para o apresamento e mostra que o trabalho indígena compulsório era central na economia paulista, disfarçado por categorias jurídicas.",
+      "as duas concordam que os indígenas eram empregados apenas como guias e carregadores, e que a agricultura do planalto se baseava no trabalho de imigrantes livres.",
+      "a II indica que o termo administrados resultava do cumprimento das leis de liberdade indígena pelos colonos, o que tornava assalariado o trabalho dos cativos."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é perceber que as duas interpretações não divergem apenas sobre fatos, mas sobre o **sentido** da história paulista — e que uma delas foi construída como memória de identidade regional.\n\nA interpretação I é típica da historiografia produzida em São Paulo nas primeiras décadas do século XX, quando o estado era o centro da economia cafeeira e suas elites buscavam no passado um mito de origem: o bandeirante como herói empreendedor e construtor do território nacional. Essa imagem se espalhou por monumentos, nomes de ruas e rodovias.\n\nA interpretação II, associada a John Monteiro, parte de outra pergunta: para que serviam as expedições? A análise de inventários e testamentos mostrou que o apresamento de indígenas era o motor de muitas bandeiras, inclusive dos ataques às missões jesuíticas do Guairá, no fim da década de 1620. Os cativos não eram, em sua maioria, vendidos para os engenhos do Nordeste, como se supunha: ficavam em São Paulo, produzindo trigo e outros gêneros para o mercado interno colonial. Como as leis restringiam a escravização indígena, os paulistas usavam fórmulas como a administração particular — na prática, uma escravidão com outro nome.\n\nAs duas leituras não se excluem quanto a um efeito: as bandeiras de fato ampliaram o território sob domínio português. O que a II rejeita é a visão heroica que apaga a violência e o trabalho forçado dos indígenas.\n\nPara lembrar: a pesquisa em fontes como inventários revelou que a escravidão indígena foi a base da economia paulista do século XVII, contrariando a memória heroica das bandeiras.",
+    "erradas": [
+      "Atribui à II a tese da I e acrescenta um erro: as bandeiras eram, em geral, empreendimentos particulares; a II destaca o apresamento de indígenas como objetivo central, e não a expansão da fronteira.",
+      "Contradiz o texto, que afirma que a maioria dos cativos permanecia no planalto. A ideia de venda maciça aos engenhos do Nordeste é justamente a visão que a pesquisa citada contestou.",
+      "",
+      "Falso para as duas: a I não trata do trabalho indígena, e a II afirma que os cativos trabalhavam nas lavouras; a grande imigração de trabalhadores livres é fenômeno do final do século XIX.",
+      "Lê o texto ao contrário: o termo administrados servia para contornar as restrições legais, encobrindo uma relação de cativeiro, sem salário."
+    ]
+  },
+  {
+    "id": "HIS-032",
+    "materia": "historia",
+    "tema": "Brasil Colônia — escravidão, resistência e negociação",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Em 1789, escravizados do engenho de Santana, em Ilhéus, na capitania da Bahia, rebelaram-se, mataram o mestre de açúcar e refugiaram-se nas matas próximas. De lá, enviaram ao proprietário uma proposta de acordo para voltar ao trabalho. Entre as condições apresentadas estavam: ter as sextas-feiras e os sábados livres para cultivar as próprias roças; receber redes e canoas para pescar; aprovar a escolha dos feitores; e poder festejar e cantar sem precisar de licença. O documento abre declarando que o grupo queria paz, e não guerra. O principal líder foi depois preso e enviado à cadeia de Salvador.\n\n(Texto elaborado para esta questão, com base no documento conhecido como Tratado do Engenho de Santana.)",
+    "enunciado": "O documento é valorizado pela historiografia porque permite perceber que",
+    "alternativas": [
+      "a resistência escrava não se limitava à fuga e à revolta armada, incluindo também a negociação de margens de autonomia dentro do cativeiro, como tempo para roças e festas.",
+      "os escravizados aceitavam o cativeiro sem contestação e só se rebelavam quando incitados por homens livres, pois não tinham projetos ou reivindicações próprios.",
+      "o movimento tinha caráter abolicionista e republicano, inspirado diretamente na Revolução Francesa, que naquele mesmo ano havia abolido a escravidão nas colônias.",
+      "o objetivo dos rebeldes era formar um quilombo permanente nos moldes de Palmares, recusando qualquer forma de acordo ou de retorno ao domínio do senhor.",
+      "as roças cultivadas pelos cativos eram propriedades suas, garantidas por lei contra a interferência dos senhores, o que fazia deles pequenos proprietários de terras."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber que **resistência** não significa apenas fuga ou insurreição. O documento mostra escravizados que, depois de um ato de força, usam a posição conquistada para negociar.\n\nAs reivindicações revelam o que estava em disputa no cotidiano: tempo (dois dias livres por semana), recursos para a subsistência e para a venda de excedentes (roças, redes, canoas), algum controle sobre a disciplina (a escolha dos feitores) e espaço para a vida cultural e comunitária (festas e cantos sem licença). Historiadores chamam de brecha camponesa — expressão difundida no Brasil por Ciro Flamarion Cardoso — essa margem de economia própria que os cativos conseguiam dentro do sistema escravista, sem que ela os tornasse proprietários das terras.\n\nO desfecho também é revelador: o principal líder foi preso, o que mostra os limites da negociação num sistema baseado na violência. Por isso historiadores como João José Reis e Eduardo Silva tratam negociação e conflito como faces da mesma relação, ao lado de outras formas de resistência, como os quilombos, as fugas, as revoltas e a formação de irmandades e redes de solidariedade.\n\nPara lembrar: a resistência escrava incluiu tanto a ruptura (fugas, quilombos, revoltas) quanto a negociação de direitos costumeiros dentro do cativeiro.",
+    "erradas": [
+      "",
+      "Contradiz o documento: os próprios escravizados formularam condições precisas sobre trabalho, subsistência e lazer, revelando projetos e reivindicações próprios.",
+      "Anacronismo: a Revolução Francesa começou em 1789, mas a abolição nas colônias francesas só foi decretada em 1794; e as reivindicações do texto não pedem o fim da escravidão nem uma república.",
+      "Contradiz o texto: os rebeldes propunham um acordo para voltar ao trabalho, e não a formação de um quilombo permanente fora do domínio do senhor.",
+      "Exagera o alcance das roças: elas eram cultivadas em terras do senhor, num espaço de autonomia negociado e frágil, sem reconhecimento legal de propriedade."
+    ]
+  },
+  {
+    "id": "HIS-033",
+    "materia": "historia",
+    "tema": "Brasil Império — Independência: ruptura e continuidade",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [],
+    "texto": "Interpretação I\nA Independência foi o desfecho de uma longa luta do povo brasileiro contra a opressão colonial, iniciada com as conjurações do final do século XVIII e concluída em 7 de setembro de 1822.\n\nInterpretação II\nCom a transferência da Corte para o Rio de Janeiro, em 1808, enraizaram-se no Centro-Sul interesses mercantis, burocráticos e agrários ligados à nova sede da monarquia. A separação teria resultado menos de um sentimento nacional já formado e mais da reação dessas elites às medidas das Cortes de Lisboa, que, a partir de 1821, procuravam esvaziar o Rio de Janeiro como centro de poder.\n\n(Texto elaborado para esta questão; a interpretação II baseia-se em ideias de Maria Odila Leite da Silva Dias, A interiorização da metrópole.)",
+    "enunciado": "Considerando as interpretações e o processo de Independência, é correto afirmar que",
+    "alternativas": [
+      "a I é confirmada pelo fato de a Independência ter sido conduzida por antigos líderes da Conjuração Baiana, anistiados por D. Pedro e nomeados ministros em 1822.",
+      "a II sustenta que a Independência foi imposta pela Inglaterra, que transferiu a Corte em 1808 para passar a governar diretamente o território brasileiro.",
+      "ambas concordam que a Independência foi pacífica em todo o território, já que as províncias aderiram imediatamente ao governo instalado no Rio de Janeiro.",
+      "a II ajuda a explicar a continuidade da monarquia, da dinastia de Bragança e da escravidão após 1822, pois a ruptura foi conduzida por elites interessadas na ordem.",
+      "a II indica que a abertura dos portos, em 1808, restabeleceu o exclusivo comercial português, o que levou os comerciantes do Rio de Janeiro a apoiar as Cortes."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que a pergunta sobre **quem fez a Independência e por quê** define também o que mudou e o que permaneceu depois dela.\n\n**A teoria por trás.** A interpretação I é típica de uma história nacionalista, que projeta para o passado uma nação já pronta, à espera da libertação. Nela, conjurações muito diferentes entre si — de elites mineiras ou de artesãos e soldados baianos — viram etapas de um mesmo caminho. A interpretação II, formulada por Maria Odila Leite da Silva Dias em ensaio de 1972, inverte a perspectiva: a metrópole, de certo modo, se interiorizou no Rio de Janeiro a partir de 1808. Ali se formou uma rede de negociantes, proprietários e funcionários que se beneficiava da presença da Corte. A Independência seria, então, sobretudo a defesa desses interesses — e não a realização de uma nação preexistente.\n\n**O processo.** A abertura dos portos (1808) encerrou o exclusivo colonial; os tratados de 1810 deram vantagens comerciais à Inglaterra; em 1815, o Brasil foi elevado a Reino Unido a Portugal e Algarves. A Revolução do Porto (1820) levou à convocação das Cortes, que exigiram o retorno de D. João VI (1821) e, depois, o de D. Pedro, além de medidas que retiravam do Rio de Janeiro funções de governo. O Fico (janeiro de 1822) e a ruptura de setembro foram a resposta das elites do Centro-Sul.\n\n**As permanências.** O novo país manteve a monarquia, a dinastia de Bragança, a grande propriedade e a escravidão. Isso não significa que a Independência tenha sido pacífica: houve guerra na Bahia, encerrada em 2 de julho de 1823, e conflitos no Maranhão, no Piauí, no Pará e na Cisplatina.\n\nPara lembrar: a Independência foi, em grande medida, conduzida por elites do Centro-Sul ligadas à Corte, o que explica a combinação de ruptura política com forte continuidade social.",
+    "erradas": [
+      "Falso: a Conjuração Baiana foi reprimida em 1798–1799, com a execução de quatro de seus participantes; a Independência foi conduzida por D. Pedro e por elites do Centro-Sul, como José Bonifácio.",
+      "Lê mal o texto: a transferência da Corte foi decisão da monarquia portuguesa diante da invasão napoleônica, ainda que com escolta britânica; a II fala de interesses de elites locais, e não de domínio inglês direto.",
+      "Falso: houve guerras de independência na Bahia, até 2 de julho de 1823, e conflitos no Maranhão, no Piauí, no Pará e na Cisplatina; nenhuma das interpretações afirma adesão imediata.",
+      "",
+      "Inverte o efeito: a abertura dos portos pôs fim ao exclusivo colonial, e foram as Cortes que ameaçaram as vantagens obtidas pelo Rio de Janeiro desde 1808, levando as elites locais a romper."
+    ]
+  },
+  {
+    "id": "HIS-034",
+    "materia": "historia",
+    "tema": "Brasil Império — período regencial, revoltas e Regresso",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "Em 1834, o Ato Adicional à Constituição criou assembleias legislativas nas províncias e suprimiu o Conselho de Estado. Em 1840, a Lei de Interpretação do Ato Adicional reduziu as atribuições dessas assembleias e, no mesmo ano, a maioridade de D. Pedro II foi antecipada. Em 1841, o Conselho de Estado foi recriado, e uma reforma do Código de Processo Criminal transferiu ao governo central o controle da polícia e de parte da Justiça nas províncias.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considerando o texto e as revoltas do período regencial, é correto afirmar que",
+    "alternativas": [
+      "as revoltas regenciais tinham como objetivo comum restaurar D. Pedro I no trono, o que explica por que se encerraram logo após a morte do ex-imperador, em 1834.",
+      "a descentralização de 1834 ampliou o poder das elites provinciais, mas as revoltas, algumas com forte participação popular, alimentaram o Regresso, que recentralizou o Estado.",
+      "a Farroupilha foi derrotada militarmente em 1840, logo após a maioridade, e seus líderes foram executados, o que serviu de exemplo às demais províncias rebeldes.",
+      "o Ato Adicional extinguiu as províncias e criou estados autônomos, num regime federativo que se manteve inalterado até a Proclamação da República, em 1889.",
+      "a Sabinada proclamou na Bahia uma república permanente e aboliu a escravidão, motivo pelo qual obteve amplo apoio dos senhores de engenho do Recôncavo."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber o movimento pendular entre **descentralização e centralização** no Império, e o papel das revoltas nessa virada.\n\nApós a abdicação de D. Pedro I (1831), os liberais moderados no poder reduziram a centralização herdada do Primeiro Reinado. O Código de Processo Criminal (1832) fortaleceu os juízes de paz eleitos localmente, e o Ato Adicional (1834) deu às províncias assembleias com poderes sobre impostos, funcionários e obras. Na prática, as elites provinciais ganharam instrumentos de poder.\n\nO período, porém, foi marcado por revoltas de natureza diversa: a Cabanagem, no Pará (1835–1840), com ampla participação de indígenas, mestiços e pobres; a Farroupilha, no Rio Grande do Sul (1835–1845), liderada por estancieiros; a Sabinada, na Bahia (1837–1838), que proclamou uma república provisória, até a maioridade do imperador; a Balaiada, no Maranhão (1838–1841); além da Revolta dos Malês, de africanos muçulmanos, em Salvador (1835). Para boa parte das elites, essas rebeliões mostravam que a descentralização ameaçava a ordem, a escravidão e a unidade territorial.\n\nDaí o Regresso, movimento conservador que, a partir do fim da década de 1830, reverteu as reformas: a Lei de Interpretação (1840), a recriação do Conselho de Estado e a reforma do Código de Processo (1841). A antecipação da maioridade, defendida pelos liberais, também buscava, na figura do imperador, um centro de autoridade capaz de pacificar o país. A Farroupilha só terminou em 1845, por um acordo negociado, com anistia aos rebeldes.\n\nPara lembrar: as revoltas regenciais convenceram as elites de que a descentralização ameaçava a ordem, o que levou à recentralização do Estado imperial a partir de 1840.",
+    "erradas": [
+      "Generaliza indevidamente: a restauração de D. Pedro I era bandeira dos caramurus, e não das revoltas provinciais; as principais delas — Cabanagem, Farroupilha, Sabinada e Balaiada — começaram depois da morte do ex-imperador, em 1834.",
+      "",
+      "Falso: a Farroupilha durou até 1845 e terminou por um acordo negociado, com anistia aos rebeldes, e não com a execução de seus líderes.",
+      "Exagera o Ato Adicional: as províncias continuaram sendo províncias, agora com assembleias legislativas; o Brasil só se tornou federação com a República, e o próprio texto mostra a recentralização a partir de 1840.",
+      "Erro duplo: a Sabinada declarou uma república transitória, até a maioridade de D. Pedro II, e não aboliu a escravidão; os senhores do Recôncavo apoiaram a repressão ao movimento."
+    ]
+  },
+  {
+    "id": "HIS-035",
+    "materia": "historia",
+    "tema": "Brasil Império — crise da escravidão e abolição",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [],
+    "texto": "Segundo o censo de 1872, viviam no Império cerca de 1,5 milhão de escravizados. Em 1887, os registros oficiais indicavam pouco mais de 700 mil. No ano seguinte, a Lei Áurea extinguiu a escravidão no Brasil.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Sobre a redução da população escravizada entre 1872 e 1887, é correto afirmar que",
+    "alternativas": [
+      "decorreu sobretudo da Lei do Ventre Livre, que em 1871 libertou todos os escravizados com menos de 21 anos e, com isso, reduziu pela metade a população cativa do país.",
+      "foi causada principalmente pela Lei dos Sexagenários, que libertou de imediato e sem condições os escravizados com mais de 60 anos, maioria da população cativa.",
+      "mostra que a abolição estava praticamente concluída em 1887, de modo que a Lei Áurea teve efeito apenas simbólico, sem alterar a situação de nenhum trabalhador.",
+      "explica-se pelo tráfico interprovincial, que transferiu cativos do Nordeste para as lavouras de café do Sudeste, reduzindo assim o total de escravizados no país.",
+      "resultou da impossibilidade de reposição, após o fim do tráfico e o Ventre Livre, somada a mortes, alforrias e fugas, mas a Lei Áurea ainda alcançou centenas de milhares."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é raciocinar como um demógrafo: uma população só muda pelo que **entra** e pelo que **sai**.\n\n**A teoria por trás.** No caso da população escravizada, as entradas eram duas: o tráfico africano e o nascimento de filhos de mulheres escravizadas. As saídas eram as mortes, as alforrias, as fugas bem-sucedidas e as libertações por lei. Se as entradas se fecham, o total só pode diminuir.\n\n**Aplicando ao Brasil.** A Lei Eusébio de Queirós (1850) encerrou efetivamente o tráfico africano. A Lei do Ventre Livre (1871) declarou livres os filhos de mulheres escravizadas nascidos a partir de então — eles ficavam sob a autoridade do senhor, que podia usar seus serviços até os 21 anos ou entregá-los ao Estado mediante indenização, mas não eram escravos. A mesma lei reconheceu o direito do escravizado de formar pecúlio e comprar a alforria, e criou um fundo de emancipação. Ou seja, a partir de 1871 não havia mais como a população escravizada se repor. Como a mortalidade dos cativos era alta, as mortes, somadas às alforrias, às fugas e às abolições provinciais — Ceará e Amazonas, em 1884 —, explicam a queda.\n\n**O que as leis não fizeram.** A Lei do Ventre Livre não libertou quem já era escravo. A Lei dos Sexagenários (1885) libertava os maiores de 60 anos, mas exigia deles três anos de serviço a título de indenização (ou até completarem 65), e alcançava uma parcela pequena dos cativos. O tráfico interprovincial apenas mudou a distribuição: concentrou escravizados nas lavouras de café do Sudeste, sem alterar o total nacional.\n\n**O desfecho.** Em 1887–1888, fugas em massa nas fazendas paulistas, apoiadas por abolicionistas, desorganizaram o sistema. A Lei Áurea (13 de maio de 1888), sem indenização aos senhores, libertou as centenas de milhares de pessoas que ainda estavam em cativeiro.\n\nPara lembrar: com o tráfico extinto e o ventre livre, a escravidão no Brasil estava condenada a encolher, mas foi a Lei Áurea, sob pressão abolicionista e das fugas, que libertou as centenas de milhares que restavam.",
+    "erradas": [
+      "Erro sobre a lei: o Ventre Livre libertou apenas os filhos de escravizadas nascidos a partir de 1871, e não quem já era escravo; seu efeito foi impedir a reposição, e não libertar a população existente.",
+      "Erro duplo: a Lei dos Sexagenários impunha três anos de serviço como indenização (ou até os 65 anos), e os maiores de 60 eram uma pequena parcela dos cativos.",
+      "Interpretação errada dos dados: em 1887 ainda havia mais de 700 mil escravizados, e a Lei Áurea libertou centenas de milhares de pessoas, sem indenização aos senhores.",
+      "Erro de raciocínio: o tráfico interprovincial transferia pessoas de uma região para outra dentro do país; mudava a distribuição regional dos cativos, mas não o total nacional.",
+      ""
+    ]
+  },
+  {
+    "id": "HIS-036",
+    "materia": "historia",
+    "tema": "Brasil República — Canudos e suas interpretações",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [
+      "literatura"
+    ],
+    "texto": "Ao narrar a guerra de Canudos (1896–1897), o engenheiro e jornalista que acompanhou a última expedição militar contra o arraial descreveu o sertanejo como forte e adaptado ao meio hostil do semiárido. Influenciado pelas teorias raciais e deterministas de seu tempo, porém, interpretou o movimento como expressão do atraso de populações mestiças isoladas. Ainda assim, classificou a campanha como um crime cometido pela própria nação contra seus habitantes.\n\n(Texto elaborado para esta questão, com base em Os Sertões, de Euclides da Cunha, 1902.)",
+    "enunciado": "Considerando o texto e a historiografia posterior sobre Canudos, é correto afirmar que",
+    "alternativas": [
+      "o arraial foi destruído logo pela primeira expedição enviada pelo governo baiano, já que seus moradores, fiéis ao Conselheiro, recusaram qualquer forma de resistência armada.",
+      "o livro, ao classificar a guerra como crime, rompeu com as teorias raciais de sua época e afirmou a igualdade entre os grupos humanos que formavam a população brasileira.",
+      "estudos posteriores ligaram o arraial à concentração de terras e à religiosidade popular do sertão, contestando a imagem, difundida na imprensa, de uma conspiração monarquista.",
+      "o conflito ocorreu no Segundo Reinado, e a vitória sobre os sertanejos fortaleceu a monarquia, adiando por alguns anos a Proclamação da República no país.",
+      "Antônio Conselheiro comandava um exército financiado por monarquistas exilados na Europa, o que confirma a tese da conspiração restauradora defendida pelo governo."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é perceber que Canudos foi interpretado de modos muito diferentes — pelos contemporâneos, por Euclides da Cunha e pela historiografia posterior.\n\nO arraial de Belo Monte, chamado de Canudos, reuniu no sertão baiano milhares de sertanejos pobres em torno do líder religioso Antônio Conselheiro. Num sertão marcado por secas, grande concentração fundiária e poder dos coronéis, a comunidade oferecia terra para plantar, vida religiosa e proteção. O Conselheiro criticava medidas da República, como o casamento civil e a cobrança de impostos, e isso bastou para que a imprensa e políticos republicanos o apresentassem como chefe de uma conspiração monarquista — imagem que se fortaleceu após as derrotas das primeiras expedições, sobretudo a de Moreira César, em 1897. Foram necessárias quatro expedições militares, e o arraial foi destruído em outubro de 1897.\n\nEuclides da Cunha, correspondente do jornal O Estado de S. Paulo, acompanhou a última expedição. Em Os Sertões (1902), combinou o determinismo de sua época (meio, raça) com a denúncia da violência do Exército — por isso a obra é ao mesmo tempo preconceituosa e crítica, além de marco da literatura brasileira do início do século XX. A historiografia posterior abandonou a chave racial e passou a entender Canudos como movimento social e religioso de sertanejos pobres, ligado à estrutura agrária e à religiosidade popular.\n\nPara lembrar: Canudos foi um movimento social e religioso de sertanejos pobres, transformado pela propaganda republicana em ameaça monarquista e destruído pelo Exército em 1897.",
+    "erradas": [
+      "Falso: foram necessárias quatro expedições; os sertanejos resistiram e derrotaram as três primeiras, inclusive a comandada por Moreira César, antes da destruição do arraial em 1897.",
+      "Contradiz o texto: o autor estava influenciado pelas teorias raciais e deterministas, e a denúncia da violência da campanha conviveu com essa visão preconceituosa sobre os sertanejos.",
+      "",
+      "Anacronismo: a República foi proclamada em 1889, e a guerra de Canudos ocorreu entre 1896 e 1897, já no governo de Prudente de Morais.",
+      "Reproduz a propaganda da época: nunca se comprovou financiamento monarquista; a historiografia entende o arraial como comunidade religiosa de sertanejos pobres, e não como exército restaurador."
+    ]
+  },
+  {
+    "id": "HIS-037",
+    "materia": "historia",
+    "tema": "Brasil República — tenentismo",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Em julho de 1922, jovens oficiais se rebelaram no Forte de Copacabana, no Rio de Janeiro. Dois anos depois, em julho de 1924, militares rebeldes ocuparam a cidade de São Paulo por mais de três semanas. Parte desses rebeldes juntou-se a revoltosos do Rio Grande do Sul, formando uma coluna que percorreu mais de 20 mil quilômetros pelo interior do país até se exilar na Bolívia, em 1927.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Sobre o movimento político-militar a que pertencem esses episódios, é correto afirmar que",
+    "alternativas": [
+      "criticava as oligarquias e as fraudes eleitorais e defendia moralização política e voto secreto, mas tinha perfil elitista e via o Exército como agente da regeneração nacional.",
+      "foi um movimento operário de orientação anarquista, que defendia a abolição do Estado e organizou a grande greve geral de 1917 na cidade de São Paulo.",
+      "defendia a manutenção da política do café com leite, ameaçada pela ascensão de Getúlio Vargas, contra quem os tenentes lutaram ao lado do governo em 1930.",
+      "conseguiu derrubar o presidente Artur Bernardes em 1926, quando a Coluna chegou ao Rio de Janeiro e instalou um governo provisório dirigido pelos tenentes.",
+      "teve como principal líder Luís Carlos Prestes, que apoiou a Revolução de 1930 e, fiel aos ideais tenentistas, tornou-se ministro do governo de Getúlio Vargas."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é caracterizar o **tenentismo**: um movimento de jovens oficiais do Exército que, nos anos 1920, se rebelaram contra a ordem oligárquica da Primeira República.\n\nOs tenentes denunciavam o domínio das oligarquias estaduais, as fraudes eleitorais facilitadas pelo voto aberto e a corrupção. Defendiam o voto secreto, a moralização da administração, a centralização do poder e reformas como a ampliação do ensino. Mas não tinham projeto de mobilização popular: viam-se como salvadores da nação, e o Exército, como instrumento dessa regeneração — por isso o movimento é descrito como elitista ou salvacionista.\n\nOs episódios do texto são os principais marcos: a revolta do Forte de Copacabana (1922), a revolta de 1924 em São Paulo e a Coluna, que percorreu o interior sem ser derrotada, mas também sem derrubar o governo, e se exilou na Bolívia em 1927. Em 1930, muitos tenentes apoiaram o movimento que levou Vargas ao poder, e alguns se tornaram interventores nos estados. Luís Carlos Prestes, porém, recusou-se a participar: aderiu ao comunismo e, em 1935, esteve à frente do levante comunista.\n\nPara lembrar: o tenentismo combatia as oligarquias e defendia moralização e voto secreto, mas apostava no Exército, e não na mobilização popular, como motor das mudanças.",
+    "erradas": [
+      "",
+      "Confunde movimentos: a greve geral de 1917 foi conduzida por operários, com forte presença anarquista; o tenentismo foi um movimento de oficiais do Exército, sem projeto de abolição do Estado.",
+      "Inverte a posição: os tenentes combatiam as oligarquias da política do café com leite e, em 1930, muitos apoiaram o movimento que levou Vargas ao poder.",
+      "Falso: a Coluna percorreu o interior sem derrubar o governo e terminou exilada na Bolívia; Artur Bernardes completou seu mandato e foi sucedido por Washington Luís em 1926.",
+      "Erro sobre Prestes: ele se recusou a apoiar o movimento de 1930, aderiu ao comunismo e esteve à frente do levante de 1935, combatido pelo governo Vargas."
+    ]
+  },
+  {
+    "id": "HIS-038",
+    "materia": "historia",
+    "tema": "Brasil República — crise do populismo e golpe de 1964",
+    "nivel": "fuvest",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "texto": "Em 13 de março de 1964, num comício diante da estação Central do Brasil, no Rio de Janeiro, o presidente João Goulart anunciou decretos de desapropriação de terras às margens de rodovias e ferrovias federais e de encampação de refinarias privadas de petróleo, defendendo as chamadas reformas de base. Seis dias depois, em São Paulo, a Marcha da Família com Deus pela Liberdade reuniu uma multidão contra o governo. Em 1º de abril, com tropas em movimento, Goulart deixou o Rio de Janeiro; na madrugada de 2 de abril, o presidente do Senado declarou vaga a Presidência da República, embora Goulart ainda estivesse em território nacional.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "Considerando o texto e a historiografia sobre o golpe, é correto afirmar que",
+    "alternativas": [
+      "o Congresso Nacional resistiu ao golpe e manteve Goulart como presidente até 1968, quando os militares fecharam o Legislativo por meio do AI-5.",
+      "as reformas de base previam a estatização de toda a economia e o fim da propriedade privada, conforme o programa do Partido Comunista, ao qual Goulart era filiado.",
+      "a Marcha da Família com Deus pela Liberdade foi organizada em apoio às reformas de base, o que mostra que a classe média paulista apoiava amplamente o governo.",
+      "o golpe foi uma resposta imediata à renúncia de Jânio Quadros, em 1961, quando os militares impediram a posse de Goulart e instauraram de imediato o regime militar.",
+      "a expressão golpe civil-militar destaca que a deposição de Goulart contou, além das Forças Armadas, com governadores, empresários e setores da Igreja e da imprensa."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é perceber por que muitos historiadores preferem falar em **golpe civil-militar**: as Forças Armadas executaram a deposição, mas não agiram sozinhas.\n\nNo início dos anos 1960, a polarização era intensa. Goulart, do PTB, herdeiro político de Vargas, defendia as reformas de base — agrária, urbana, bancária, educacional e eleitoral, com a extensão do voto aos analfabetos — e buscava apoio em sindicatos e movimentos sociais. Seus opositores viam nessas propostas uma ameaça comunista, em plena Guerra Fria. O comício de 13 de março radicalizou o confronto, e a Marcha de 19 de março mostrou que havia forte oposição civil ao governo.\n\nO golpe articulou vários atores: governadores de estados importantes, como Carlos Lacerda (Guanabara), Magalhães Pinto (Minas Gerais) e Ademar de Barros (São Paulo); organizações empresariais, como o IPES, que financiavam propaganda contra o governo; boa parte da grande imprensa; setores da Igreja e das classes médias; e o governo dos Estados Unidos, que acompanhou e apoiou a conspiração. O papel do Congresso também foi decisivo: ao declarar vaga a Presidência com Goulart ainda no país, deu aparência legal à deposição. Em 9 de abril, o AI-1 iniciou as cassações, e o Congresso elegeu em seguida o marechal Castelo Branco.\n\nPara lembrar: o golpe de 1964 foi executado pelos militares, mas preparado e apoiado por amplos setores civis — daí a expressão golpe civil-militar.",
+    "erradas": [
+      "Falso: o próprio Congresso, por seu presidente, declarou vaga a Presidência em 2 de abril de 1964, e Castelo Branco foi eleito pelo Legislativo; o AI-5, de 1968, refere-se a outro momento da ditadura.",
+      "Falso: as reformas de base propunham mudanças como a reforma agrária, a urbana e a eleitoral dentro do capitalismo, e Goulart era do PTB, partido trabalhista, e não do Partido Comunista.",
+      "Inverte o sentido da Marcha: ela foi organizada contra o governo e as reformas, com apoio de entidades católicas, femininas e empresariais, e expressou a oposição de parte das classes médias.",
+      "Mistura dois momentos: em 1961, após a renúncia de Jânio, a tentativa de veto à posse de Goulart fracassou diante da Campanha da Legalidade, e ele assumiu sob regime parlamentarista; o golpe ocorreu em 1964.",
+      ""
+    ]
+  },
+  {
+    "id": "HIS-039",
+    "materia": "historia",
+    "tema": "América Latina — Revolução Mexicana e questão agrária",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Às vésperas de 1910, depois de mais de três décadas de predomínio de Porfirio Díaz, boa parte das terras cultiváveis do México concentrava-se em grandes fazendas, as haciendas, e muitas comunidades camponesas e indígenas haviam perdido suas terras coletivas. Em 1911, o líder camponês Emiliano Zapata lançou o Plano de Ayala, que exigia a devolução das terras usurpadas aos povos. A Constituição de 1917 estabeleceu que a propriedade das terras e águas e o domínio do subsolo pertencem originalmente à nação. Nos anos 1930, o governo de Lázaro Cárdenas distribuiu milhões de hectares sob a forma de ejidos, terras concedidas a comunidades camponesas, e nacionalizou o petróleo, em 1938.\n\n(Texto elaborado para esta questão.)",
+    "enunciado": "A partir do texto, é correto afirmar que a Revolução Mexicana",
+    "alternativas": [
+      "foi uma revolução socialista dirigida por um partido comunista, que aboliu a propriedade privada e coletivizou toda a terra em 1917, segundo o modelo soviético.",
+      "terminou com a vitória dos exércitos de Zapata e Pancho Villa, que assumiram o governo federal e aplicaram de imediato o Plano de Ayala em todo o território mexicano.",
+      "reforçou o poder das companhias estrangeiras, pois a Constituição de 1917 garantiu às empresas petrolíferas a propriedade definitiva do subsolo que exploravam.",
+      "teve na questão agrária um de seus motores, e as promessas inscritas na Constituição de 1917 só foram aplicadas em larga escala anos depois, sob o governo de Cárdenas.",
+      "seguiu o modelo da Revolução Cubana ao instaurar um regime de partido único alinhado à União Soviética, que nacionalizou o petróleo durante a Guerra Fria."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é perceber que a Revolução Mexicana foi um processo **longo e disputado**, e que a questão da terra atravessa todas as suas fases.\n\nO Porfiriato modernizou o país com ferrovias e investimentos estrangeiros, mas aprofundou a concentração fundiária: muitas comunidades perderam suas terras para as haciendas. Quando, em 1910, Francisco Madero se levantou contra a reeleição de Díaz, movimentos camponeses entraram na luta com pautas próprias — Zapata, no sul, com o Plano de Ayala; Pancho Villa, no norte. A revolução reuniu grupos com objetivos diferentes, que acabaram lutando entre si.\n\nVenceram os constitucionalistas, de Venustiano Carranza e Álvaro Obregón, que incorporaram parte das demandas populares à Constituição de 1917: o artigo 27 afirmou a propriedade originária da nação sobre terras, águas e subsolo, base para a reforma agrária e para o controle dos recursos minerais; o artigo 123 tratou de direitos trabalhistas. Zapata foi assassinado em 1919, e a reforma agrária avançou lentamente até o governo de Lázaro Cárdenas (1934–1940), que distribuiu milhões de hectares em ejidos e, em 1938, expropriou as companhias petrolíferas estrangeiras.\n\nPara lembrar: a Revolução Mexicana teve forte base camponesa; a Constituição de 1917 consagrou a reforma agrária e o domínio nacional do subsolo, aplicados em larga escala apenas nos anos 1930, com Cárdenas.",
+    "erradas": [
+      "Anacronismo e erro de caracterização: a coletivização soviética só começou em 1929; a Constituição mexicana de 1917 manteve a propriedade privada, subordinando-a ao interesse público, e combinou pequena propriedade com terras comunitárias.",
+      "Falso: os constitucionalistas de Carranza e Obregón saíram vencedores; Zapata foi assassinado em 1919, e a distribuição de terras só ganhou escala nos anos 1930.",
+      "Inverte o texto: a Constituição atribuiu à nação o domínio do subsolo, base jurídica para a expropriação das companhias petrolíferas estrangeiras em 1938.",
+      "",
+      "Anacronismo: a Revolução Cubana é de 1959, e o petróleo mexicano foi nacionalizado em 1938, antes da Guerra Fria; o México não se alinhou à União Soviética."
+    ]
+  },
+  {
+    "id": "HIS-040",
+    "materia": "historia",
+    "tema": "África — Reino do Congo e tráfico atlântico",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Em 1526, o rei do Congo, Afonso I (Nzinga Mbemba), batizado e educado no cristianismo, escreveu ao rei de Portugal queixando-se de que mercadores portugueses, oferecendo suas mercadorias, estimulavam a captura de pessoas livres — inclusive filhos de nobres e parentes do próprio rei — para vendê-las como escravos. Segundo ele, o reino estava sendo despovoado, e vassalos enriquecidos com essas mercadorias já desobedeciam ao rei. Pedia que lhe fossem enviados sacerdotes e mestres, e não mercadores. Pouco depois, determinou que nenhum cativo fosse embarcado sem que funcionários nomeados por ele verificassem se se tratava de pessoa legitimamente escravizada ou de pessoa livre.\n\n(Texto elaborado para esta questão, com base em cartas de Afonso I ao rei de Portugal.)",
+    "enunciado": "O documento permite afirmar que",
+    "alternativas": [
+      "Afonso I foi um abolicionista no sentido moderno, defensor de direitos humanos universais, e por isso proibiu toda forma de escravidão no Reino do Congo.",
+      "o rei não rejeitava toda forma de escravidão, mas buscava controlar o tráfico, que ameaçava a ordem social e o poder da monarquia diante de vassalos enriquecidos.",
+      "o Congo era, desde o fim do século XV, uma colônia governada diretamente por Lisboa, e seu rei atuava como funcionário da Coroa portuguesa na região.",
+      "o tráfico atlântico dependia apenas da força militar europeia, que capturava diretamente os africanos no interior, sem participação de chefes e mercadores locais.",
+      "a escravidão era desconhecida na África antes da chegada dos portugueses, que a introduziram no Congo para abastecer as lavouras de cana do Brasil."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é perceber que o documento revela uma **monarquia africana soberana** que negocia com Portugal e tenta controlar um comércio que a ameaça — sem que isso faça de seu rei um abolicionista.\n\nO Reino do Congo, na região do baixo rio Congo, entrou em contato com os portugueses no início da década de 1480. Parte da elite adotou o cristianismo, e Afonso I, rei desde o início do século XVI, manteve correspondência com os reis de Portugal, enviou jovens nobres para estudar em Lisboa e recebeu missionários. As relações eram entre reinos, e não de submissão colonial.\n\nNas sociedades da região havia formas de escravidão e de dependência — de prisioneiros de guerra ou de condenados, por exemplo —, diferentes da escravidão mercantil das Américas. A queixa de Afonso não é contra a existência de cativos, mas contra a captura de pessoas livres, inclusive nobres, estimulada pela oferta de mercadorias europeias. Esse comércio enriquecia chefes locais, que passavam a desobedecer ao rei. Por isso a medida tomada é de controle: verificar quem podia ser legitimamente vendido. Naquela época, os cativos embarcados no Congo seguiam sobretudo para as plantações de açúcar de São Tomé; a demanda brasileira cresceria nas décadas seguintes, e em 1576 os portugueses fundaram Luanda, ao sul do Congo, base da futura colônia de Angola.\n\nO documento também mostra que o tráfico dependia de intermediários africanos: os europeus raramente penetravam no interior, e os cativos chegavam à costa por redes de chefes e mercadores locais.\n\nPara lembrar: o tráfico atlântico envolveu Estados e elites africanas, e a carta de Afonso I mostra a tentativa de um rei soberano de controlar um comércio que corroía sua autoridade.",
+    "erradas": [
+      "Anacronismo: a noção de direitos humanos universais é bem posterior, e o próprio texto mostra que o rei admitia o embarque de cativos considerados legitimamente escravizados, desde que verificado.",
+      "",
+      "Falso: o Congo era um reino soberano, cujo rei se correspondia diretamente com o de Portugal; a colônia portuguesa de Angola teve como base Luanda, fundada em 1576.",
+      "Contradiz o texto: a captura era feita por africanos estimulados pelas mercadorias europeias, e chefes locais enriqueciam com o comércio; os europeus atuavam sobretudo na costa.",
+      "Erro duplo: havia formas de escravidão na África antes dos europeus, e em 1526 os cativos do Congo seguiam sobretudo para São Tomé; a economia açucareira do Brasil só se expandiria décadas depois."
+    ]
+  }
+]

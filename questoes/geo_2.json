@@ -1,0 +1,652 @@
+[
+  {
+    "id": "GEO-021",
+    "materia": "geografia",
+    "tema": "Cartografia — projeção de Mercator e suas distorções",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": ["matematica"],
+    "texto": "Na projeção de Mercator, cilíndrica e conforme, a escala linear num ponto de latitude φ é ampliada, em relação à escala no Equador, por um fator igual a 1/cos φ, o mesmo em todas as direções. Por isso, nela os ângulos são preservados, e as linhas de rumo constante (loxodromias) aparecem como retas.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Considere dois quadrados de 100 km × 100 km traçados sobre a superfície terrestre, um centrado no Equador e outro centrado a 60° N, e dois portos situados sobre o paralelo de 60° N, separados por 45° de longitude. Dado: cos 60° = 0,5.\n\nNum mapa-múndi na projeção de Mercator, é correto afirmar que:",
+    "alternativas": [
+      "o quadrado a 60° N aparece com área cerca de duas vezes maior que a do equatorial, e a rota mais curta entre os portos aparece como curva arqueada para o polo.",
+      "o quadrado a 60° N aparece com área cerca de quatro vezes maior que a do equatorial, e a rota mais curta entre os portos coincide com o segmento reto do paralelo.",
+      "os dois quadrados aparecem com a mesma área, pois a projeção é conforme, e a rota mais curta entre os portos aparece como curva arqueada para o polo.",
+      "o quadrado a 60° N aparece com área cerca de quatro vezes maior que a do equatorial, e a rota mais curta entre os portos aparece como curva arqueada para o polo.",
+      "o quadrado a 60° N aparece com área cerca de quatro vezes menor que a do equatorial, e a rota mais curta entre os portos aparece como curva arqueada para o polo."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é separar duas ideias: a Mercator conserva ângulos (é conforme), mas não áreas; e a linha de rumo constante não é o caminho mais curto.\n\n**Passo 1 — distorção de área.** A 60° N, a escala linear é ampliada por 1/cos 60° = 1/0,5 = 2, igualmente no sentido leste-oeste e no norte-sul (é isso que mantém os ângulos). Como a área depende do produto das duas dimensões, ela é ampliada por 2 × 2 = 4. O quadrado a 60° N aparece, portanto, com cerca de quatro vezes a área do equatorial, embora ambos tenham 10.000 km² na realidade. É o mesmo efeito que faz a Groenlândia parecer do tamanho da África, que é cerca de 14 vezes maior.\n\n**Passo 2 — a rota mais curta.** Na esfera, o caminho mais curto entre dois pontos é um arco de círculo máximo (ortodromia). O paralelo de 60° N não é círculo máximo; o arco de círculo máximo que liga os dois portos se desvia em direção ao polo (chega a cerca de 62° N). Pelo paralelo, a distância seria de aproximadamente 45 × 111 km × 0,5 ≈ 2.500 km; pela ortodromia, cerca de 2.450 km. Na Mercator, o paralelo é um segmento reto — é uma loxodromia, de rumo constante (leste) —, e a ortodromia aparece como curva arqueada para o polo.\n\n**Por que isso importa.** Rotas aéreas entre a Europa e a América do Norte passam por altas latitudes justamente por seguirem círculos máximos, embora pareçam “desvios” num mapa de Mercator. Já a navegação por rumo constante, simples de seguir com a bússola, explica o sucesso histórico dessa projeção.\n\nPara lembrar: na Mercator, as áreas a uma latitude φ são ampliadas por (1/cos φ)², e o caminho mais curto (ortodromia) aparece curvo, não reto.",
+    "erradas": [
+      "Confunde ampliação linear com ampliação de área: o fator 1/cos 60° = 2 vale para cada dimensão; a área, que envolve duas dimensões, é ampliada 2² = 4 vezes.",
+      "Acerta a área, mas confunde loxodromia com ortodromia: o paralelo é a linha de rumo constante, que aparece reta na Mercator, mas não é o caminho mais curto entre pontos fora do Equador.",
+      "Confunde projeção conforme (que preserva ângulos) com equivalente (que preserva áreas); a Mercator é conforme justamente por ampliar igualmente as duas direções, o que distorce muito as áreas.",
+      "",
+      "Inverte o sentido da distorção: na Mercator, as altas latitudes são ampliadas, não reduzidas, pois 1/cos φ cresce à medida que φ se aproxima de 90°."
+    ]
+  },
+  {
+    "id": "GEO-022",
+    "materia": "geografia",
+    "tema": "Cartografia — sensoriamento remoto e índice de vegetação (NDVI)",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": ["biologia", "fisica"],
+    "texto": "Sensores a bordo de satélites medem a fração da radiação solar refletida pela superfície (reflectância) em diferentes faixas do espectro eletromagnético. Um índice muito usado no monitoramento da vegetação é o NDVI (índice de vegetação por diferença normalizada):\n\nNDVI = (IVP − V)/(IVP + V),\n\nem que V é a reflectância na faixa do vermelho visível e IVP, a reflectância no infravermelho próximo. O índice varia de −1 a +1.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Reflectância (%) de quatro alvos em uma imagem de satélite de um trecho da Amazônia (dados hipotéticos)",
+      "cabecalho": ["Alvo", "Vermelho (V)", "Infravermelho próximo (IVP)"],
+      "linhas": [
+        ["W", "20", "30"],
+        ["X", "6", "3"],
+        ["Y", "12", "24"],
+        ["Z", "4", "36"]
+      ]
+    },
+    "enunciado": "Os alvos W, X, Y e Z correspondem a um rio, a uma floresta densa, a uma pastagem degradada e a uma área de solo exposto, não necessariamente nessa ordem. É correto afirmar que:",
+    "alternativas": [
+      "Z é o rio, pois tem a menor reflectância no vermelho, e a água absorve quase toda a radiação visível que incide sobre ela.",
+      "Z é a floresta, com NDVI de 0,8: a clorofila absorve o vermelho na fotossíntese, e a estrutura das folhas reflete muito o infravermelho próximo.",
+      "W é a floresta, pois tem a maior reflectância somada nas duas faixas, o que indica a maior quantidade de biomassa sobre o terreno.",
+      "X é o solo exposto, com NDVI negativo: sem cobertura vegetal, o solo seco reflete mais no vermelho do que no infravermelho próximo.",
+      "Z é o solo exposto: o infravermelho próximo, por ter frequência maior que a do vermelho, é muito refletido por superfícies minerais secas."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é ler a assinatura espectral: o que distingue a vegetação sadia não é o brilho total, mas o contraste entre o vermelho (muito absorvido) e o infravermelho próximo (muito refletido).\n\n**Contas.** NDVI de W = (30 − 20)/(30 + 20) = 0,2; de X = (3 − 6)/(3 + 6) ≈ −0,33; de Y = (24 − 12)/(24 + 12) ≈ 0,33; de Z = (36 − 4)/(36 + 4) = 0,8.\n\n**Biologia.** A clorofila absorve fortemente a luz azul e a vermelha, usadas na fotossíntese, e reflete mais o verde — por isso as folhas parecem verdes. O infravermelho próximo não é absorvido pelos pigmentos, e o tecido interno da folha (o mesofilo, com muitos espaços entre as células) espalha e reflete grande parte dessa radiação. Quanto mais folhas sadias, maior o contraste e mais alto o NDVI: Z (0,8) é a floresta densa, e Y (≈ 0,33), com vegetação rala, a pastagem degradada.\n\n**Os demais alvos.** A água absorve fortemente o infravermelho, e seu NDVI fica negativo: X é o rio. O solo exposto reflete de modo parecido nas duas faixas, um pouco mais no infravermelho: NDVI baixo e positivo, como em W (0,2). W é o alvo mais brilhante, mas brilho total não indica biomassa.\n\n**Física.** O infravermelho próximo tem comprimento de onda maior e, portanto, frequência menor que a luz vermelha.\n\n**Aplicação.** O Inpe monitora o desmatamento na Amazônia com imagens de satélite: a troca da floresta por pasto ou solo exposto altera a resposta espectral da área e reduz o contraste entre vermelho e infravermelho.\n\nPara lembrar: vegetação sadia absorve o vermelho e reflete muito o infravermelho próximo, o que eleva o NDVI; a água tem NDVI negativo, e o solo exposto, próximo de zero.",
+    "erradas": [
+      "Olha só o vermelho e esquece o infravermelho: a água também absorve fortemente o infravermelho próximo, enquanto Z reflete 36% nessa faixa — padrão de vegetação densa, não de água.",
+      "",
+      "Confunde brilho total com biomassa: W reflete muito nas duas faixas, de modo parecido (NDVI = 0,2), o que é típico de solo exposto; a floresta tem baixa reflectância no vermelho.",
+      "Atribui ao solo o comportamento da água: o NDVI negativo de X decorre da forte absorção do infravermelho pela água; o solo exposto reflete um pouco mais no infravermelho do que no vermelho.",
+      "Erro de Física e de interpretação: o infravermelho tem frequência menor (comprimento de onda maior) que o vermelho, e o contraste de Z (4% contra 36%) é típico de vegetação densa, não de solo."
+    ]
+  },
+  {
+    "id": "GEO-023",
+    "materia": "geografia",
+    "tema": "Geologia — tectônica de placas e expansão do Atlântico Sul",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "tabela": {
+      "titulo": "Idade do assoalho basáltico do Atlântico Sul em pontos alinhados perpendicularmente à dorsal Mesoatlântica (dados hipotéticos)",
+      "cabecalho": ["Ponto", "Posição", "Distância ao eixo da dorsal (km)", "Idade da rocha (milhões de anos)"],
+      "linhas": [
+        ["P1", "Lado sul-americano", "600", "30"],
+        ["P2", "Lado sul-americano", "300", "15"],
+        ["P3", "Eixo da dorsal", "0", "Atual"],
+        ["P4", "Lado africano", "300", "15"],
+        ["P5", "Lado africano", "600", "30"]
+      ]
+    },
+    "enunciado": "Suponha que a abertura do oceano tenha ocorrido a taxa constante e de modo simétrico em relação à dorsal. A velocidade com que a placa Sul-Americana e a placa Africana se afastam uma da outra e uma característica do litoral brasileiro coerente com esse processo são, respectivamente:",
+    "alternativas": [
+      "4 cm por ano; o litoral é uma margem passiva, distante de limites de placas, o que explica a baixa sismicidade e a ausência de vulcões ativos.",
+      "2 cm por ano; o litoral é uma margem passiva, distante de limites de placas, o que explica a baixa sismicidade e a ausência de vulcões ativos.",
+      "4 cm por ano; o litoral é uma margem ativa, onde a placa oceânica mergulha sob a continental, como ocorre na costa do Pacífico sul-americano.",
+      "4 mm por ano; o litoral é uma margem passiva, distante de limites de placas, o que explica a baixa sismicidade e a ausência de vulcões ativos.",
+      "4 cm por ano; o litoral coincide com um limite transformante, onde as placas deslizam lateralmente uma em relação à outra, sem criar crosta."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber que a dorsal produz crosta para os dois lados: cada placa se afasta da dorsal com a meia-velocidade, e as duas se afastam uma da outra com o dobro dela.\n\n**Passo 1 — meia-velocidade.** A rocha de P1 formou-se no eixo da dorsal há 30 milhões de anos e foi deslocada 600 km desde então: 600 km ÷ 30 milhões de anos = 20 km por milhão de anos. Como 1 km = 10⁶ mm, 20 km por milhão de anos = 20 mm/ano = 2 cm/ano.\n\n**Passo 2 — velocidade relativa.** O lado africano se afasta da dorsal à mesma taxa, em sentido oposto. A distância entre P1 e P5 (1.200 km) foi gerada em 30 milhões de anos: 40 km por milhão de anos = 4 cm/ano — mais ou menos a velocidade de crescimento das unhas.\n\n**Passo 3 — o litoral brasileiro.** A América do Sul e a África estavam unidas no Gondwana; a ruptura, no Cretáceo, abriu o Atlântico Sul. Desde então, o litoral brasileiro está no interior da placa Sul-Americana, longe dos limites: é uma margem passiva. Por isso o Brasil tem sismicidade baixa (há tremores intraplaca, em geral fracos) e não tem vulcões ativos. Já na costa do Pacífico a placa de Nazca mergulha sob a Sul-Americana (subducção), o que explica os Andes, os terremotos fortes e o vulcanismo.\n\n**Atalho de unidades:** 1 km por milhão de anos = 1 mm por ano.\n\nPara lembrar: na expansão do assoalho oceânico, a idade das rochas cresce simetricamente a partir da dorsal, e a velocidade de separação entre as placas é o dobro da velocidade de cada uma em relação à dorsal.",
+    "erradas": [
+      "",
+      "Calcula só a meia-velocidade (600 km em 30 milhões de anos = 2 cm/ano), que é o afastamento de uma placa em relação à dorsal; as duas placas se afastam entre si com o dobro dessa taxa.",
+      "Acerta a taxa, mas confunde o litoral atlântico com o pacífico: a subducção ocorre na borda oeste da placa Sul-Americana (Andes); a costa brasileira está no interior da placa.",
+      "Erro de conversão de unidades: 40 km por milhão de anos equivalem a 40 mm/ano, ou seja, 4 cm/ano, e não 4 mm/ano (1 km por milhão de anos = 1 mm por ano).",
+      "Acerta a taxa, mas atribui ao litoral um limite transformante; o limite entre as placas Sul-Americana e Africana é divergente e está na dorsal, no meio do oceano, longe da costa."
+    ]
+  },
+  {
+    "id": "GEO-024",
+    "materia": "geografia",
+    "tema": "Geologia do Brasil — bacias sedimentares, pré-sal e recursos minerais",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": ["quimica"],
+    "tabela": {
+      "titulo": "Perfil simplificado de um poço na Bacia de Santos, do topo para a base (dados hipotéticos)",
+      "cabecalho": ["Intervalo", "Material", "Espessura aproximada (m)"],
+      "linhas": [
+        ["1", "Água do mar (lâmina d'água)", "2.000"],
+        ["2", "Folhelhos e arenitos depositados em oceano aberto", "2.500"],
+        ["3", "Sal: halita (NaCl) acima e anidrita (CaSO₄) na base", "2.000"],
+        ["4", "Calcários porosos com petróleo", "300"],
+        ["5", "Folhelhos de lagos antigos, ricos em matéria orgânica", "500"],
+        ["6", "Basaltos ligados à ruptura do continente", "—"]
+      ]
+    },
+    "enunciado": "Com base no perfil e em conhecimentos de Geografia e de Química, assinale a interpretação correta.",
+    "alternativas": [
+      "As rochas do pré-sal são mais recentes que o sal, pois se formaram quando o Atlântico já era um oceano largo e profundo, como indica a lâmina d'água.",
+      "O petróleo formou-se na própria camada de sal, cuja origem orgânica explica a grande espessura e a impermeabilidade desse tipo de depósito.",
+      "Os intervalos 4 a 6 compõem um escudo cristalino, estrutura de rochas antigas que abriga tanto o petróleo quanto os grandes depósitos de ferro.",
+      "A halita precipitou antes da anidrita, pois o NaCl é menos solúvel em água que o CaSO₄ e, por isso, cristaliza logo no início da evaporação.",
+      "A sequência registra lagos de rifte, depois um mar raso e restrito sob forte evaporação e, por fim, oceano aberto; o sal impermeável retém o petróleo."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é aplicar o princípio da superposição — em camadas não perturbadas, as de baixo são mais antigas — e reconhecer os elementos de um sistema petrolífero.\n\n**A história contada pelo perfil (de baixo para cima).** No Cretáceo, a fragmentação do Gondwana abriu um rifte entre a América do Sul e a África, com derrames de basalto (6). Nos vales afundados formaram-se lagos, onde se acumulou matéria orgânica que deu origem a folhelhos (5). Depois depositaram-se calcários (4). Em seguida, o mar invadiu a bacia, ainda estreita e de circulação restrita; sob clima quente, a evaporação intensa precipitou espessas camadas de sal (3). Com o alargamento do oceano, passaram a depositar-se sedimentos de mar aberto (2).\n\n**Química dos evaporitos.** Quando a água do mar evapora, os sais precipitam na ordem inversa de sua solubilidade: primeiro carbonatos, depois sulfato de cálcio (gipsita ou anidrita, pouco solúvel) e só então o cloreto de sódio, muito mais solúvel. Por isso a anidrita está na base e a halita, acima.\n\n**Sistema petrolífero.** Os folhelhos lacustres são a rocha geradora: com soterramento e calor, a matéria orgânica virou petróleo, que migrou para os calcários porosos (rocha reservatório). O sal, impermeável, funciona como selo e impede a fuga do óleo. “Pré-sal” refere-se, portanto, às rochas situadas abaixo do sal — mais antigas que ele.\n\n**Estrutura geológica do Brasil.** Petróleo, gás e carvão ocorrem em bacias sedimentares (como as de Santos, de Campos e do Paraná); os grandes depósitos de minérios metálicos, como o ferro de Carajás (PA) e do Quadrilátero Ferrífero (MG), estão em escudos cristalinos, formados por rochas ígneas e metamórficas muito antigas.\n\nPara lembrar: no pré-sal, a rocha geradora e o reservatório ficam sob o sal, mais novo e impermeável, que funciona como selo; combustíveis fósseis ocorrem em bacias sedimentares, e minérios metálicos, em escudos cristalinos.",
+    "erradas": [
+      "Inverte a superposição e o sentido do termo: “pré-sal” designa as rochas situadas abaixo do sal, mais antigas que ele; o oceano aberto corresponde ao intervalo 2, acima do sal.",
+      "Confunde rocha geradora com selo: o sal é um evaporito, de origem inorgânica (precipitação por evaporação da água do mar); o petróleo vem da matéria orgânica dos folhelhos lacustres.",
+      "Confunde bacia sedimentar com escudo cristalino: o petróleo se forma e se acumula em rochas sedimentares; os escudos, de rochas ígneas e metamórficas antigas, abrigam minérios metálicos como o ferro.",
+      "Inverte a solubilidade e a leitura do perfil: o CaSO₄ é muito menos solúvel que o NaCl e precipita antes; por isso a anidrita está na base, e a halita, mais nova, acima.",
+      ""
+    ]
+  },
+  {
+    "id": "GEO-025",
+    "materia": "geografia",
+    "tema": "Climatologia — monções e climas tropicais",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "tabela": {
+      "titulo": "Precipitação média por trimestre (mm) em duas cidades (dados hipotéticos)",
+      "cabecalho": ["Cidade", "Localização", "Dez. a fev.", "Mar. a maio", "Jun. a ago.", "Set. a nov.", "Total anual"],
+      "linhas": [
+        ["X", "Litoral oeste da Índia, 19° N", "10", "40", "1.700", "250", "2.000"],
+        ["Y", "Brasil Central, 16° S", "750", "280", "20", "450", "1.500"]
+      ]
+    },
+    "enunciado": "Com base nos dados e em conhecimentos de climatologia, é correto afirmar que:",
+    "alternativas": [
+      "em X, as chuvas de junho a agosto são trazidas por ventos que sopram do continente asiático aquecido para o oceano Índico, mais frio.",
+      "X e Y têm regimes opostos: X tem chuvas concentradas no verão, e Y, no inverno, como indicam os trimestres mais chuvosos de cada uma.",
+      "nas duas cidades a estação chuvosa coincide com o verão do respectivo hemisfério; em X, 85% da chuva anual cai de junho a agosto.",
+      "Y tem clima equatorial, pois o total anual elevado, de 1.500 mm, e as temperaturas altas indicam chuvas bem distribuídas ao longo do ano.",
+      "em X, a seca de dezembro a fevereiro ocorre porque se forma alta pressão sobre o oceano Índico, mais frio que o continente nessa época."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é lembrar que as estações se invertem entre os hemisférios e que as monções resultam do aquecimento desigual entre continente e oceano.\n\n**Conta.** Em X, 1.700 ÷ 2.000 = 0,85 = 85% da chuva anual cai em junho, julho e agosto — o verão do Hemisfério Norte. Em Y, metade da chuva (750 de 1.500 mm) cai de dezembro a fevereiro, verão do Hemisfério Sul, e o inverno é quase seco (20 mm).\n\n**Monções (X).** No verão, o continente asiático se aquece mais que o oceano, pois a terra tem menor calor específico que a água; forma-se baixa pressão sobre o sul da Ásia, e a zona de convergência intertropical se desloca para o norte. Ventos úmidos sopram do oceano Índico para o continente (monção de verão), e a chuva é reforçada quando o ar sobe as encostas das serras litorâneas. No inverno, o continente fica mais frio que o oceano, forma-se alta pressão sobre ele, e os ventos sopram da terra para o mar, secos (monção de inverno).\n\n**Brasil Central (Y).** O clima é tropical, com verão chuvoso e inverno seco: no verão predominam o calor, a convecção e a umidade trazida da Amazônia; no inverno, a atuação de massas de ar estáveis inibe as chuvas. A sazonalidade é tão marcada que os climatologistas falam em um sistema de monção sul-americano.\n\nPara lembrar: na monção, o vento sopra do mar para a terra no verão (úmido) e da terra para o mar no inverno (seco), e a estação chuvosa acompanha o verão de cada hemisfério.",
+    "erradas": [
+      "Inverte o sentido dos ventos: no verão, a baixa pressão está sobre o continente aquecido, e o vento úmido sopra do oceano para a terra; o vento da terra para o mar é o da monção seca.",
+      "Esquece que as estações se invertem entre os hemisférios: dezembro a fevereiro é verão no Hemisfério Sul, onde está Y; as duas cidades têm chuvas de verão.",
+      "",
+      "Desconsidera a distribuição das chuvas: Y recebe só 20 mm de junho a agosto, inverno seco típico do clima tropical; o clima equatorial é úmido o ano todo.",
+      "Erra a posição da alta pressão: no inverno, o continente fica mais frio que o oceano, e é sobre ele que se forma a alta pressão, de onde partem ventos secos para o mar."
+    ]
+  },
+  {
+    "id": "GEO-026",
+    "materia": "geografia",
+    "tema": "Climatologia — efeito estufa e camada de ozônio",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["quimica"],
+    "texto": "O Protocolo de Montreal, de 1987, levou à eliminação gradual dos CFCs e, depois, dos HCFCs, substâncias que destroem a camada de ozônio. Muitos equipamentos de refrigeração passaram a usar HFCs. Em 2016, a Emenda de Kigali incluiu os HFCs entre as substâncias controladas pelo protocolo, prevendo a redução gradual de seu consumo.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Três fluidos refrigerantes (valores aproximados)",
+      "cabecalho": ["Fluido", "Fórmula", "Potencial de destruição do ozônio (CFC-11 = 1)", "Potencial de aquecimento global em 100 anos (CO₂ = 1)"],
+      "linhas": [
+        ["HCFC-22", "CHClF₂", "0,055", "1.800"],
+        ["HFC-134a", "CH₂FCF₃", "0", "1.400"],
+        ["Propano (R-290)", "C₃H₈", "0", "3"]
+      ]
+    },
+    "enunciado": "Um supermercado perde, por vazamentos, 100 kg de fluido refrigerante por ano. Com base no texto, nos dados e em seus conhecimentos, é correto afirmar que:",
+    "alternativas": [
+      "trocar o HCFC-22 pelo HFC-134a reduz a emissão anual de 1.800 t para 1.400 t de CO₂ equivalente e, além disso, protege a camada de ozônio.",
+      "trocar o HCFC-22 pelo HFC-134a protege a camada de ozônio, mas reduz pouco o efeito estufa: de 180 t para 140 t de CO₂ equivalente por ano.",
+      "o HFC-134a ameaça a camada de ozônio tanto quanto o HCFC-22, pois também contém flúor, halogênio que reage com o ozônio na estratosfera.",
+      "o propano é a pior opção ambiental, pois, por ser inflamável e de origem fóssil, intensifica a destruição da camada de ozônio na estratosfera.",
+      "o buraco na camada de ozônio intensifica o efeito estufa, pois deixa passar mais radiação ultravioleta, principal fonte de aquecimento da baixa atmosfera."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é não confundir dois problemas diferentes: a destruição da camada de ozônio, causada sobretudo pelo cloro (e pelo bromo) de certos compostos, e o efeito estufa, para o qual contribuem muitos gases, inclusive os que não têm cloro.\n\n**Contas.** CO₂ equivalente = massa × potencial de aquecimento global. HCFC-22: 100 kg × 1.800 = 180.000 kg = 180 t. HFC-134a: 100 kg × 1.400 = 140.000 kg = 140 t. Propano: 100 kg × 3 = 300 kg = 0,3 t.\n\n**Ozônio.** Na estratosfera, a radiação ultravioleta quebra as moléculas de CFCs e HCFCs e libera átomos de cloro, que destroem o ozônio em reações em cadeia: um único átomo pode destruir milhares de moléculas de O₃. O HFC-134a não tem cloro, e as ligações C–F são muito estáveis; por isso seu potencial de destruição do ozônio é zero.\n\n**Efeito estufa.** Os HFCs absorvem muito bem a radiação infravermelha emitida pela superfície e permanecem anos na atmosfera — daí o alto potencial de aquecimento. Trocar o HCFC-22 pelo HFC-134a resolveu o problema do ozônio, mas reduziu a emissão em só cerca de 22%. Foi por isso que a Emenda de Kigali passou a controlar os HFCs: não por causa do ozônio, mas do clima. Fluidos naturais, como o propano, têm impacto desprezível nos dois problemas; o cuidado com eles é de segurança, por serem inflamáveis.\n\n**A confusão clássica.** A camada de ozônio filtra a radiação ultravioleta e protege os seres vivos; o efeito estufa envolve a retenção da radiação infravermelha. Mais UV chegando à superfície eleva o risco de câncer de pele e de danos à vida, mas não é a causa do aquecimento global.\n\nPara lembrar: cloro destrói ozônio; gases que absorvem infravermelho, com ou sem cloro, intensificam o efeito estufa — e os HFCs, inofensivos para o ozônio, são potentes gases de efeito estufa.",
+    "erradas": [
+      "Erro de unidade: 100 kg × 1.800 = 180.000 kg, ou seja, 180 t, e não 1.800 t; quem chega a 1.800 t trata 100 kg como se fosse 1 t.",
+      "",
+      "Atribui ao flúor o papel do cloro: o HFC-134a não tem cloro, e as ligações C–F são muito estáveis; por isso seu potencial de destruição do ozônio é zero.",
+      "Mistura riscos distintos: a inflamabilidade é questão de segurança, e a origem fóssil não afeta o ozônio; o propano tem potencial de destruição do ozônio nulo e aquecimento desprezível.",
+      "Confusão clássica entre os dois fenômenos: a radiação ultravioleta filtrada pela camada de ozônio não é a causa do efeito estufa, que envolve a absorção de radiação infravermelha."
+    ]
+  },
+  {
+    "id": "GEO-027",
+    "materia": "geografia",
+    "tema": "Hidrografia — vazão específica e rio alóctone",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "tabela": {
+      "titulo": "Estações fluviométricas ao longo de um grande rio perene, de montante para jusante (dados hipotéticos)",
+      "cabecalho": ["Estação", "Trecho", "Área de drenagem a montante (km²)", "Vazão média (m³/s)"],
+      "linhas": [
+        ["1", "Alto curso, planalto de clima tropical úmido", "50.000", "800"],
+        ["2", "Médio curso, transição para o semiárido", "300.000", "2.400"],
+        ["3", "Baixo curso, semiárido", "600.000", "2.700"]
+      ]
+    },
+    "enunciado": "A vazão específica é a razão entre a vazão média e a área de drenagem e indica quanto cada km² da bacia contribui, em média, para o escoamento. Dado: 1 m³ = 1.000 L.\n\nCom base nos dados, é correto afirmar que:",
+    "alternativas": [
+      "como a vazão média cresce continuamente de montante para jusante, cada km² da bacia contribui com volume de água semelhante em todos os trechos.",
+      "a vazão específica na estação 3 é de 4,5 m³/s por km², valor alto, que mostra que o semiárido contribui fortemente para o escoamento do rio.",
+      "o trecho entre as estações 1 e 2 é o que menos contribui por km², pois nele a vazão só triplica, enquanto a área de drenagem aumenta seis vezes.",
+      "a área entre as estações 2 e 3 contribui com cerca de 1 L/s por km², e o rio se mantém perene no baixo curso graças à água vinda de montante.",
+      "o rio é exorreico no alto curso e endorreico no baixo curso, pois sua vazão específica diminui à medida que ele atravessa o semiárido."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é calcular a contribuição de cada trecho, e não apenas os valores acumulados até cada estação.\n\n**Passo 1 — vazões específicas acumuladas.** Estação 1: 800 m³/s ÷ 50.000 km² = 0,016 m³/s por km² = 16 L/s·km². Estação 2: 2.400 ÷ 300.000 = 8 L/s·km². Estação 3: 2.700 ÷ 600.000 = 4,5 L/s·km².\n\n**Passo 2 — contribuição incremental de cada trecho.** Entre 1 e 2: a vazão aumenta 1.600 m³/s numa área adicional de 250.000 km², ou seja, 6,4 L/s·km². Entre 2 e 3: a vazão aumenta só 300 m³/s em 300.000 km² adicionais: 1 L/s·km². A área de drenagem dobra, mas a vazão cresce só 12,5%.\n\n**Interpretação.** No semiárido, a evapotranspiração potencial supera a precipitação, e muitos afluentes são intermitentes; o trecho final contribui muito pouco. O rio principal, porém, continua perene porque recebe a água das cabeceiras, situadas em áreas úmidas: é um rio alóctone, isto é, que corre por uma região, mas é alimentado sobretudo pelas chuvas de outra. O São Francisco, que nasce na serra da Canastra (MG) e atravessa o sertão, e o Nilo, que cruza o Saara, são exemplos clássicos. Por isso, usos como a irrigação no baixo curso dependem diretamente da água que vem de montante.\n\nPara lembrar: a vazão específica mede a contribuição por área; um rio alóctone mantém-se perene em região seca graças às águas vindas de áreas úmidas a montante.",
+    "erradas": [
+      "Confunde vazão absoluta com vazão específica: a vazão cresce, mas a contribuição por km² cai de 16 para 8 e para 4,5 L/s·km² nos valores acumulados — e é de só 1 L/s·km² no trecho final.",
+      "Erro de unidade: 2.700 ÷ 600.000 = 0,0045 m³/s por km², ou seja, 4,5 L/s por km² — valor baixo; além disso, o trecho semiárido contribui com apenas cerca de 1 L/s·km².",
+      "Compara razões de valores acumulados em vez das contribuições incrementais: o trecho 1–2 contribui com 6,4 L/s·km²; o que menos contribui é o 2–3, com cerca de 1 L/s·km².",
+      "",
+      "Confunde diminuição da vazão específica com drenagem endorreica: o rio continua a desaguar no mar (exorreico); endorreicos são os rios que deságuam em bacias interiores, sem saída para o oceano."
+    ]
+  },
+  {
+    "id": "GEO-028",
+    "materia": "geografia",
+    "tema": "Domínios morfoclimáticos — classificação de Ab'Sáber",
+    "nivel": "fuvest",
+    "origem": "Estilo livro",
+    "inter": [],
+    "texto": "I. Morros de topos arredondados e vertentes convexas, esculpidos em rochas cristalinas por intenso intemperismo químico sob clima quente e úmido. Os espessos mantos de alteração tornam as encostas sujeitas a deslizamentos quando desmatadas e ocupadas.\n\nII. Extensas superfícies aplainadas, pontilhadas de morros residuais isolados (inselbergs), com solos rasos e pedregosos e rios que secam durante parte do ano.\n\nIII. Planaltos de topos planos e extensos, com solos profundos e bem drenados, vegetação de formações abertas nos interflúvios e matas fechadas acompanhando os cursos d'água.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Na classificação de Aziz Ab'Sáber, as descrições I, II e III caracterizam, respectivamente, os domínios:",
+    "alternativas": [
+      "dos mares de morros, das caatingas e dos cerrados",
+      "dos mares de morros, dos cerrados e das caatingas",
+      "das araucárias, das caatingas e dos cerrados",
+      "amazônico, das caatingas e das pradarias",
+      "dos mares de morros, das pradarias e dos cerrados"
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é que Ab'Sáber definiu os domínios morfoclimáticos pela combinação de relevo, clima, solos, vegetação e drenagem — e cada descrição traz pistas de todos esses elementos.\n\n**I — mares de morros.** O clima quente e úmido favorece o intemperismo químico profundo das rochas cristalinas do Planalto Atlântico, que gera mantos de alteração espessos e morros de formas convexas (“meia-laranja”), originalmente cobertos pela Mata Atlântica. A ocupação dessas encostas explica tragédias com deslizamentos, como a de Petrópolis (RJ), em 2022.\n\n**II — caatingas.** No domínio das depressões interplanálticas semiáridas do Nordeste, predomina o intemperismo físico; o relevo é de pediplanos (superfícies aplainadas) com inselbergs, os solos são rasos e pedregosos, e a drenagem é intermitente.\n\n**III — cerrados.** O domínio dos chapadões centrais tem planaltos de topos planos, latossolos profundos e bem drenados, vegetação de cerrado nos interflúvios e matas de galeria (florestas-galeria) ao longo dos rios.\n\n**Os demais.** O domínio das araucárias ocupa os planaltos subtropicais do Sul; o das pradarias, as coxilhas (colinas suaves) do Rio Grande do Sul, com campos; o amazônico, as terras baixas florestadas da Amazônia. Entre os domínios, Ab'Sáber reconhecia faixas de transição, em que as características se misturam.\n\nPara lembrar: mares de morros = morros convexos e intemperismo químico; caatingas = pediplanos, inselbergs e rios intermitentes; cerrados = chapadões e matas de galeria.",
+    "erradas": [
+      "",
+      "Troca II e III: chapadões com solos profundos e matas de galeria caracterizam os cerrados; pediplanos com inselbergs, solos rasos e rios intermitentes, as caatingas.",
+      "Associa I às araucárias porque ambos têm clima úmido, mas o domínio das araucárias corresponde aos planaltos subtropicais do Sul; morros convexos sobre rochas cristalinas são típicos dos mares de morros.",
+      "Associa I ao domínio amazônico pelo clima quente e úmido, mas este é de terras baixas florestadas, não de morros convexos; e III, com chapadões e matas de galeria, é o cerrado, não as coxilhas das pradarias.",
+      "Atribui II às pradarias por serem paisagens abertas, mas as coxilhas gaúchas têm clima subtropical úmido e rios perenes; inselbergs, solos rasos e rios intermitentes indicam as caatingas."
+    ]
+  },
+  {
+    "id": "GEO-029",
+    "materia": "geografia",
+    "tema": "Questões ambientais — água virtual e pegada hídrica",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "texto": "A pegada hídrica de um produto é o volume de água usado em toda a sua produção. Ela se divide em água verde (chuva armazenada no solo e usada pelas plantas), água azul (retirada de rios, lagos e aquíferos, por exemplo, para irrigação) e água cinza (volume necessário para diluir os poluentes gerados). Ao exportar um produto, um país exporta também a água virtual nele contida.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Pegada hídrica de duas exportações de um país hipotético, em litros por kg de produto (dados hipotéticos)",
+      "cabecalho": ["Produto", "Exportação anual", "Água verde", "Água azul", "Água cinza", "Total"],
+      "linhas": [
+        ["Soja de sequeiro (sem irrigação), no Cerrado", "10 milhões de t", "1.950", "20", "30", "2.000"],
+        ["Fruta irrigada, no semiárido", "1 milhão de t", "50", "400", "50", "500"]
+      ]
+    },
+    "enunciado": "Dado: 1 m³ = 1.000 L. Com base no texto e nos dados, é correto afirmar que:",
+    "alternativas": [
+      "a soja exporta mais água azul que a fruta, pois a água virtual total contida na exportação de soja é 40 vezes maior que a da fruta irrigada.",
+      "a exportação de fruta envolve 500 bilhões de m³ de água virtual por ano, volume superior ao da soja graças à irrigação no semiárido.",
+      "a exportação de soja retira dos rios e aquíferos do Cerrado cerca de 20 bilhões de m³ por ano, o total de sua pegada hídrica anual.",
+      "a água cinza é a parcela que mais pesa nos dois produtos, pois corresponde à diluição de fertilizantes e agrotóxicos usados nas lavouras.",
+      "a soja exporta 40 vezes mais água virtual que a fruta, mas a fruta exporta o dobro de água azul, a parcela que mais concorre com outros usos."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é distinguir o volume total de água virtual da origem dessa água: a água verde vem da chuva que fica no solo, enquanto a azul é retirada de rios e aquíferos e disputa espaço com o abastecimento humano, a indústria e os ecossistemas aquáticos.\n\n**Soja.** 10 milhões de t = 10¹⁰ kg. Total: 10¹⁰ × 2.000 L = 2 × 10¹³ L = 2 × 10¹⁰ m³ = 20 bilhões de m³. Água azul: 10¹⁰ × 20 L = 2 × 10¹¹ L = 200 milhões de m³.\n\n**Fruta.** 1 milhão de t = 10⁹ kg. Total: 10⁹ × 500 L = 5 × 10¹¹ L = 500 milhões de m³. Água azul: 10⁹ × 400 L = 4 × 10¹¹ L = 400 milhões de m³.\n\n**Comparação.** Em volume total, a soja exporta 40 vezes mais água virtual (20 bilhões ÷ 500 milhões). Mas quase toda essa água é verde: a chuva que caiu sobre a lavoura. A fruta irrigada exporta o dobro de água azul (400 milhões contra 200 milhões de m³), retirada de rios e reservatórios justamente numa região de escassez — onde o impacto sobre outros usos é maior.\n\n**Moral da história.** A água virtual não é transportada fisicamente; o conceito serve para mostrar que o comércio internacional transfere, de modo indireto, o uso de recursos hídricos entre regiões. Para avaliar impactos, importa menos o total e mais o tipo de água e a escassez no local de produção.\n\nPara lembrar: na pegada hídrica, a água azul (de rios e aquíferos) é a que mais concorre com outros usos; volumes totais grandes podem ser quase só água verde, da chuva.",
+    "erradas": [
+      "Usa o total no lugar da parcela azul: a soja tem 40 vezes mais água virtual total, mas quase toda é verde; em água azul, ela exporta 200 milhões de m³, contra 400 milhões da fruta.",
+      "Erro de unidade: 10⁹ kg × 500 L = 5 × 10¹¹ litros, que equivalem a 500 milhões de m³ (não 500 bilhões); e esse volume é 40 vezes menor que o da soja.",
+      "Confunde a pegada total (20 bilhões de m³) com água retirada de rios e aquíferos: quase tudo é água verde, da chuva; a parcela azul da soja é de apenas 200 milhões de m³.",
+      "Contraria a tabela: a água cinza é uma das menores parcelas na soja (30 L/kg) e na fruta (50 L/kg); a maior é a verde na soja e a azul na fruta.",
+      ""
+    ]
+  },
+  {
+    "id": "GEO-030",
+    "materia": "geografia",
+    "tema": "Questões ambientais — desertificação e índice de aridez",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "Segundo a Convenção das Nações Unidas de Combate à Desertificação, desertificação é a degradação da terra nas zonas áridas, semiáridas e subúmidas secas, resultante de vários fatores, entre eles as variações climáticas e as atividades humanas. Essas zonas são delimitadas pelo índice de aridez (IA), razão entre a precipitação anual e a evapotranspiração potencial anual: zona árida, IA de 0,05 a 0,20; semiárida, de 0,20 a 0,50; subúmida seca, de 0,50 a 0,65. Acima de 0,65, o clima é subúmido úmido ou úmido.\n\nTexto elaborado para esta questão com base na definição da convenção.",
+    "tabela": {
+      "titulo": "Municípios hipotéticos com processos de degradação do solo",
+      "cabecalho": ["Município", "Precipitação anual (mm)", "Evapotranspiração potencial anual (mm)", "Processo observado"],
+      "linhas": [
+        ["K", "600", "2.000", "Solos expostos e compactados após décadas de superpastoreio e retirada de lenha da caatinga"],
+        ["L", "1.200", "1.500", "Voçorocas em encostas desmatadas de solos arenosos"],
+        ["M", "1.000", "1.600", "Salinização dos solos em perímetro irrigado mal drenado"],
+        ["N", "1.600", "1.400", "Manchas de areia expostas (areais) em campos do sudoeste gaúcho, ampliadas pelo pisoteio do gado e pelo cultivo"]
+      ]
+    },
+    "enunciado": "De acordo com a definição apresentada, a degradação descrita pode ser classificada como desertificação nos municípios:",
+    "alternativas": [
+      "K, apenas, o único cujo índice de aridez corresponde ao de uma zona semiárida",
+      "K e N, pois em ambos a degradação produziu paisagens de solo exposto ou de areia",
+      "K e M, cujos índices de aridez, de 0,30 e 0,625, estão entre 0,05 e 0,65",
+      "K, L e M, pois nos três a evapotranspiração potencial supera a precipitação",
+      "K, M e N, pois em todos a degradação foi agravada por atividades humanas"
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é aplicar os dois critérios da definição: há degradação da terra (todos os municípios a apresentam) e ela ocorre em zona seca, com IA entre 0,05 e 0,65.\n\n**Contas.** K: 600 ÷ 2.000 = 0,30 (semiárido). L: 1.200 ÷ 1.500 = 0,80 (subúmido úmido). M: 1.000 ÷ 1.600 = 0,625 (subúmido seco). N: 1.600 ÷ 1.400 ≈ 1,14 (úmido). Só K e M estão em zonas suscetíveis à desertificação.\n\n**As armadilhas.** Em L, a evapotranspiração potencial supera a chuva, mas pouco: um déficit não basta para caracterizar zona seca, pois o critério é o índice, e 0,80 está acima de 0,65. Em M, chove 1.000 mm, mas a demanda evaporativa é alta; o clima é subúmido seco, e a salinização em áreas irrigadas mal drenadas é forma típica de degradação nas terras secas. Em N, os areais do sudoeste do Rio Grande do Sul lembram desertos, mas ocorrem sob clima úmido: a geógrafa Dirce Suertegaray propôs chamar esse processo de arenização, justamente para distingui-lo da desertificação. Em L e N há degradação grave, mas não desertificação.\n\n**Brasil.** As áreas suscetíveis à desertificação concentram-se no Semiárido nordestino e no norte de Minas Gerais, onde a retirada da vegetação da caatinga, o superpastoreio e o manejo inadequado do solo agravam o processo.\n\nPara lembrar: desertificação é degradação da terra em zonas áridas, semiáridas e subúmidas secas (IA de 0,05 a 0,65); paisagem de areia em clima úmido, como a dos areais gaúchos, é arenização.",
+    "erradas": [
+      "Considera só a faixa semiárida e esquece a subúmida seca: M tem IA de 0,625, dentro do intervalo de 0,50 a 0,65, e também está em zona suscetível à desertificação.",
+      "Julga pela aparência da paisagem: os areais de N ocorrem sob clima úmido (IA ≈ 1,14) e configuram arenização; já M, embora sem areia, está em zona subúmida seca.",
+      "",
+      "Usa o déficit hídrico em vez do índice de aridez: em L, a evapotranspiração supera a chuva, mas o IA é 0,80, acima de 0,65; a zona é subúmida úmida, não seca.",
+      "Considera só a causa humana e esquece o critério climático: N tem IA ≈ 1,14, clima úmido; a degradação lá é arenização, não desertificação."
+    ]
+  },
+  {
+    "id": "GEO-031",
+    "materia": "geografia",
+    "tema": "Urbanização — mobilidade urbana e uso do espaço viário",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Uma avenida radial tem 4 faixas no sentido centro. No horário de pico, cada faixa de tráfego misto escoa 1.600 automóveis por hora, com ocupação média de 1,25 pessoa por automóvel. A prefeitura transforma uma dessas faixas em faixa exclusiva de ônibus, por onde passam 100 ônibus por hora, com 100 passageiros cada, em média. Suponha que cada faixa restante continue a escoar 1.600 automóveis por hora e desconsidere os ônibus que circulavam antes no tráfego misto.\n\nO número de pessoas transportadas por hora no pico, antes e depois da mudança, e um efeito socioespacial esperado da medida são:",
+    "alternativas": [
+      "6.400 antes e 4.900 depois; a medida prejudica sobretudo os moradores das periferias, que perdem espaço na avenida.",
+      "8.000 antes e 16.000 depois; a medida reduz o tempo de viagem de quem usa ônibus, em geral morador das periferias.",
+      "8.000 antes e 18.000 depois; a medida reduz o tempo de viagem de quem usa ônibus, em geral morador das periferias.",
+      "8.000 antes e 16.000 depois; a medida beneficia sobretudo os moradores de áreas centrais, que se deslocam de carro.",
+      "6.400 antes e 14.800 depois; a medida aumenta a fluidez dos automóveis, que deixam de disputar espaço com ônibus."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é medir a capacidade de uma via em pessoas transportadas, e não em veículos.\n\n**Antes.** 4 faixas × 1.600 automóveis/h × 1,25 pessoa = 8.000 pessoas por hora.\n\n**Depois.** Faixas de automóveis: 3 × 1.600 × 1,25 = 6.000 pessoas/h. Faixa de ônibus: 100 × 100 = 10.000 pessoas/h. Total: 16.000 pessoas por hora — o dobro, com uma faixa a menos para carros. Uma única faixa de ônibus transporta mais pessoas que as três de automóveis juntas.\n\n**Leitura socioespacial.** Nas metrópoles brasileiras, a população de menor renda mora, em geral, nas periferias, longe dos empregos concentrados nas áreas centrais, e depende do transporte coletivo; as viagens de automóvel são mais frequentes entre os mais ricos. Priorizar o ônibus redistribui o espaço viário em favor da maioria que se desloca por transporte público e reduz o tempo gasto nos movimentos pendulares, uma das faces da segregação socioespacial. O inverso — alargar avenidas para carros — tende a atrair mais automóveis e a recriar o congestionamento (demanda induzida).\n\nPara lembrar: a eficiência de uma via mede-se em pessoas por hora; transporte coletivo com prioridade no viário amplia a capacidade e beneficia quem mora longe do centro.",
+    "erradas": [
+      "Conta veículos, e não pessoas: 4 × 1.600 = 6.400 antes e 3 × 1.600 + 100 = 4.900 depois; em pessoas, a capacidade dobra, e os maiores beneficiados são os usuários de ônibus.",
+      "",
+      "Esquece de retirar dos automóveis a faixa convertida: soma 4 × 1.600 × 1,25 = 8.000 aos 10.000 passageiros de ônibus; mas a faixa de ônibus substitui uma das faixas de carros.",
+      "Acerta a conta, mas erra o efeito: a faixa exclusiva beneficia os usuários de ônibus, em geral moradores das periferias; os que usam automóvel perdem uma faixa.",
+      "Mistura unidades: soma veículos (3 × 1.600 = 4.800 automóveis) com passageiros (10.000); além disso, os automóveis perdem uma faixa, e sua fluidez não aumenta."
+    ]
+  },
+  {
+    "id": "GEO-032",
+    "materia": "geografia",
+    "tema": "Urbanização — plano diretor, Estatuto da Cidade e função social da propriedade",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "O Estatuto da Cidade (Lei nº 10.257/2001) permite ao município, desde que previsto no plano diretor e em lei específica, notificar o proprietário de terreno urbano não edificado, subutilizado ou não utilizado para que o parcele, edifique ou utilize. Se a obrigação não for cumprida, aplica-se o IPTU progressivo no tempo: a alíquota é majorada durante cinco anos consecutivos, sem que a de um ano possa exceder o dobro da do ano anterior e respeitado o máximo de 15%. Passados cinco anos de cobrança sem que a obrigação seja cumprida, o município pode manter a alíquota máxima e desapropriar o imóvel, com pagamento em títulos da dívida pública.\n\nTexto elaborado para esta questão com base na lei.",
+    "enunciado": "Um terreno vazio, com valor venal de 2 milhões de reais, fica numa área central servida por metrô. Notificado, o proprietário não cumpre a obrigação. A prefeitura aplica alíquota de 2% no 1º ano de cobrança progressiva e passa a dobrá-la a cada ano, no limite permitido pela lei.\n\nO IPTU devido no 5º ano de cobrança progressiva e o objetivo principal desse instrumento são, respectivamente:",
+    "alternativas": [
+      "640 mil reais; induzir o uso do imóvel e combater a retenção especulativa de terrenos dotados de infraestrutura.",
+      "300 mil reais; elevar a arrecadação do município para financiar a expansão do metrô e de outras obras de transporte.",
+      "320 mil reais; induzir o uso do imóvel e combater a retenção especulativa de terrenos dotados de infraestrutura.",
+      "300 mil reais; garantir ao dono o direito de manter o terreno vazio por tempo indeterminado, desde que pague o imposto.",
+      "300 mil reais; induzir o uso do imóvel e combater a retenção especulativa de terrenos dotados de infraestrutura."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é aplicar as duas travas da lei — no máximo o dobro do ano anterior e teto de 15% — e reconhecer que o instrumento é extrafiscal: seu objetivo não é arrecadar, mas induzir o cumprimento da função social da propriedade.\n\n**Conta.** 1º ano: 2%. 2º ano: 4%. 3º ano: 8%. 4º ano: o dobro seria 16%, mas o teto é 15%. 5º ano: 15%. IPTU no 5º ano: 15% × 2.000.000 = 300.000 reais.\n\n**Por que existe.** A Constituição de 1988 (art. 182) determina que a propriedade urbana cumpra sua função social, definida no plano diretor. Terrenos vazios em áreas com infraestrutura (metrô, saneamento, empregos) costumam ser retidos à espera de valorização, enquanto a população de menor renda é empurrada para periferias distantes e carentes de serviços, o que alimenta a segregação socioespacial e encarece a expansão da cidade. O IPTU progressivo no tempo torna caro manter o imóvel ocioso; se ainda assim o dono não agir, cabe a desapropriação com pagamento em títulos da dívida pública, e não em dinheiro.\n\n**Outros instrumentos do Estatuto.** As zonas especiais de interesse social (ZEIS), que reservam áreas para habitação popular, e a outorga onerosa do direito de construir, cobrada de quem constrói acima do coeficiente de aproveitamento básico.\n\nPara lembrar: o IPTU progressivo no tempo tem finalidade extrafiscal — combater a especulação com imóveis ociosos e fazer cumprir a função social da propriedade urbana.",
+    "erradas": [
+      "Esquece o teto de 15%: dobrando sem limite, chega-se a 2%, 4%, 8%, 16% e 32%, e 32% de 2 milhões de reais dá 640 mil reais; a lei limita a alíquota a 15%.",
+      "Acerta a conta, mas erra o objetivo: o IPTU progressivo no tempo é extrafiscal — busca induzir o uso do terreno, não arrecadar; se funcionar, o imposto majorado deixa de ser cobrado.",
+      "Para de dobrar no 4º ano (16%) e mantém esse valor, sem aplicar o teto de 15%: 16% de 2 milhões de reais dá 320 mil reais.",
+      "Acerta a conta, mas ignora a etapa seguinte: após cinco anos de cobrança sem cumprimento da obrigação, o município pode desapropriar o imóvel com pagamento em títulos da dívida pública.",
+      ""
+    ]
+  },
+  {
+    "id": "GEO-033",
+    "materia": "geografia",
+    "tema": "População — estrutura etária, migrações e pirâmides",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [],
+    "tabela": {
+      "titulo": "Estrutura etária e razão de sexo de três municípios hipotéticos",
+      "cabecalho": ["Município", "0 a 14 anos (%)", "15 a 64 anos (%)", "65 anos ou mais (%)", "Homens por 100 mulheres, de 20 a 39 anos"],
+      "linhas": [
+        ["P", "16", "80", "4", "170"],
+        ["Q", "30", "60", "10", "100"],
+        ["R", "10", "60", "30", "96"]
+      ]
+    },
+    "enunciado": "Considere: razão de dependência = (população de 0 a 14 anos + população de 65 anos ou mais) ÷ (população de 15 a 64 anos) × 100; índice de envelhecimento = (população de 65 anos ou mais) ÷ (população de 0 a 14 anos) × 100.\n\nCom base nos dados, é correto afirmar que:",
+    "alternativas": [
+      "Q e R têm a mesma razão de dependência, cerca de 67, mas em R os dependentes são sobretudo idosos: o índice de envelhecimento é de 300, contra cerca de 33 em Q.",
+      "P tem a maior razão de dependência dos três municípios, pois a grande proporção de adultos jovens anuncia natalidade alta e muitas crianças nos próximos anos.",
+      "a pirâmide de P tem base larga, topo estreito e simetria entre os sexos, formato típico de uma população no início da transição demográfica.",
+      "Q e R têm a mesma razão de dependência, mas o índice de envelhecimento de Q, de 300, é nove vezes o de R, de cerca de 33.",
+      "a razão de sexo de P indica que lá nascem 170 meninos para cada 100 meninas, desequilíbrio típico das áreas de fronteira agrícola e mineral."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber que a razão de dependência, sozinha, esconde quem são os dependentes, e que a migração deixa marcas na forma da pirâmide.\n\n**Contas.** Razão de dependência (RD): P = 20/80 × 100 = 25; Q = 40/60 × 100 ≈ 67; R = 40/60 × 100 ≈ 67. Índice de envelhecimento (IE): P = 4/16 × 100 = 25; Q = 10/30 × 100 ≈ 33; R = 30/10 × 100 = 300.\n\n**Teoria — leitura das pirâmides.** A pirâmide etária mostra, em barras horizontais, a proporção de cada faixa de idade, com os homens de um lado e as mulheres do outro. Base larga indica natalidade alta; topo largo, população envelhecida. Q e R têm a mesma RD, mas pirâmides opostas: a de Q tem base larga (30% de jovens), e a de R, base estreita e topo largo (30% de idosos). As demandas também diferem: Q precisa de mais escolas; R, de mais serviços de saúde e de cuidado de idosos.\n\n**A marca da migração.** P tem 80% da população em idade ativa e 170 homens para cada 100 mulheres de 20 a 39 anos — desequilíbrio que nenhum padrão de nascimentos produz (nascem cerca de 105 meninos para cada 100 meninas). É o retrato de um município que recebeu muitos trabalhadores homens, como em grandes obras (usinas hidrelétricas, ferrovias) ou em frentes de mineração e garimpo. Sua pirâmide tem uma saliência no lado masculino, nas idades adultas jovens. O processo inverso — a saída de jovens adultos — produz um estreitamento no meio da pirâmide nas áreas de emigração.\n\nPara lembrar: a mesma razão de dependência pode esconder populações jovens ou envelhecidas; desequilíbrios fortes entre os sexos em idades adultas indicam migração seletiva.",
+    "erradas": [
+      "",
+      "Inverte a leitura: P tem a menor razão de dependência (25), pois 80% da população está em idade ativa; adultos jovens concentrados por migração não indicam, por si sós, natalidade alta.",
+      "Contraria os dados: P tem apenas 16% de jovens (base estreita) e forte desequilíbrio entre os sexos nas idades adultas, o que gera uma pirâmide assimétrica, com saliência do lado masculino.",
+      "Inverte a fórmula do índice de envelhecimento, dividindo jovens por idosos: o correto é 65 anos ou mais ÷ 0 a 14 anos, o que dá 300 em R e cerca de 33 em Q.",
+      "Confunde a razão de sexo de 20 a 39 anos com a razão de sexo ao nascer, que gira em torno de 105 meninos para 100 meninas; o desequilíbrio de P resulta da imigração de trabalhadores homens."
+    ]
+  },
+  {
+    "id": "GEO-034",
+    "materia": "geografia",
+    "tema": "População — refugiados, deslocados internos e acolhida humanitária",
+    "nivel": "fuvest",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "texto": "No Brasil, a Lei nº 9.474/1997 reconhece como refugiado quem está fora de seu país por fundado temor de perseguição por motivos de raça, religião, nacionalidade, grupo social ou opiniões políticas — critérios da Convenção da ONU de 1951 — e também quem é obrigado a deixar seu país devido a grave e generalizada violação de direitos humanos. Já a Lei de Migração (Lei nº 13.445/2017) prevê visto temporário para acolhida humanitária ao nacional de país em situação de grave instabilidade institucional, conflito armado, calamidade de grande proporção, desastre ambiental ou grave violação de direitos humanos.\n\nTexto elaborado para esta questão com base na legislação.",
+    "enunciado": "Considere as situações:\n\nI. Um jornalista perseguido pelo governo de seu país por publicar críticas pede proteção ao Brasil.\n\nII. Uma família perde a casa numa enchente e é abrigada em outra cidade do próprio país.\n\nIII. Um habitante de um país devastado por um terremoto, sem sofrer perseguição individual, chega ao Brasil.\n\nIV. Uma moradora de um país em colapso institucional, com violações generalizadas de direitos humanos, cruza a fronteira com o Brasil.\n\nCom base no texto e em conhecimentos sobre migrações internacionais, é correto afirmar que:",
+    "alternativas": [
+      "I e IV podem ser reconhecidos como refugiados; II configura refúgio climático; III pode receber visto de acolhida humanitária.",
+      "só I pode ser reconhecido como refugiado, pois a lei brasileira segue apenas a Convenção de 1951; III e IV recebem acolhida humanitária.",
+      "I, III e IV podem ser reconhecidos como refugiados, pois todos deixaram seus países por motivos alheios à vontade; II é deslocamento interno.",
+      "I e IV podem ser reconhecidos como refugiados; III pode receber visto de acolhida humanitária; II é deslocamento interno, não refúgio.",
+      "I e IV podem ser reconhecidos como refugiados; II e III podem receber acolhida humanitária no Brasil, pois ambos decorrem de desastres."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é distinguir três situações que o noticiário costuma misturar: refúgio, acolhida humanitária e deslocamento interno.\n\n**I — refúgio clássico.** Perseguição individual por opinião política é um dos motivos previstos na Convenção de 1951.\n\n**IV — refúgio pela definição ampliada.** A lei brasileira vai além da Convenção e inclui a grave e generalizada violação de direitos humanos, critério inspirado na Declaração de Cartagena (1984), adotada por vários países latino-americanos. Foi com base nesse critério que o Brasil passou a reconhecer como refugiados muitos venezuelanos.\n\n**III — acolhida humanitária.** Um desastre natural, sem perseguição, não se enquadra na definição de refugiado. A Lei de Migração, porém, prevê o visto de acolhida humanitária para esses casos. Haitianos que chegaram ao Brasil após o terremoto de 2010 receberam vistos humanitários, instrumento depois consolidado por essa lei.\n\n**II — deslocamento interno.** Para ser refugiado é preciso estar fora do próprio país. Quem foge de um desastre ou de um conflito dentro das fronteiras nacionais é deslocado interno — e, sendo cidadão desse país, não precisa de visto. A expressão “refugiado climático” é usada no debate público, mas não corresponde a uma categoria jurídica do direito internacional.\n\nPara lembrar: refugiado é quem cruzou uma fronteira por perseguição (ou, no Brasil, por grave e generalizada violação de direitos humanos); vítimas de desastres vindas do exterior podem receber acolhida humanitária; quem não cruzou fronteira é deslocado interno.",
+    "erradas": [
+      "Trata “refugiado climático” como categoria jurídica e ignora que a família não saiu do país: quem se desloca dentro das próprias fronteiras é deslocado interno, não refugiado.",
+      "Ignora a definição ampliada da Lei nº 9.474/1997, que inclui a grave e generalizada violação de direitos humanos; IV pode ser reconhecida como refugiada, não apenas receber acolhida humanitária.",
+      "Estende o refúgio a quem foge de desastre natural: sem perseguição nem violação generalizada de direitos humanos, o caso III cabe na acolhida humanitária, não no refúgio.",
+      "",
+      "Aplica a acolhida humanitária a quem não migrou: a família de II continua em seu país, é deslocada interna e não precisa de visto; a acolhida vale para quem chega do exterior."
+    ]
+  },
+  {
+    "id": "GEO-035",
+    "materia": "geografia",
+    "tema": "Espaço agrário — revolução verde e modernização conservadora",
+    "nivel": "acima",
+    "origem": "Estilo livro",
+    "inter": [],
+    "tabela": {
+      "titulo": "Produção de grãos em uma região hipotética",
+      "cabecalho": ["Indicador", "1970", "2000"],
+      "linhas": [
+        ["Área colhida (milhões de ha)", "10", "15"],
+        ["Produtividade (t/ha)", "1,0", "2,4"],
+        ["Fertilizantes aplicados (kg/ha)", "20", "150"],
+        ["Estabelecimentos com lavouras de grãos (mil)", "500", "300"],
+        ["Pessoal ocupado nessas lavouras (mil)", "2.000", "1.200"]
+      ]
+    },
+    "enunciado": "Com base nos dados e em conhecimentos sobre a modernização da agricultura, é correto afirmar que, entre 1970 e 2000:",
+    "alternativas": [
+      "a produção cresceu 2,4 vezes, e o uso de fertilizante por tonelada produzida diminuiu, o que indica maior eficiência no uso dos insumos químicos.",
+      "a produção cresceu 3,6 vezes, sobretudo por causa da expansão da área colhida, e a área colhida média por estabelecimento diminuiu no período.",
+      "a produção cresceu 3,6 vezes, o fertilizante gasto por tonelada mais que triplicou, e a área colhida média por estabelecimento passou de 20 para 50 ha.",
+      "a produção por trabalhador cresceu 2,4 vezes, no mesmo ritmo da produtividade da terra, o que indica que a mecanização não reduziu o emprego no campo.",
+      "a produção cresceu 3,6 vezes, e a queda no número de estabelecimentos e de pessoal ocupado indica desconcentração fundiária e fixação do homem no campo."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é transformar os indicadores da tabela em grandezas que revelam o modelo de modernização: produção total, insumo por tonelada, área média e produção por trabalhador.\n\n**Contas.** Produção: 10 milhões de ha × 1,0 t/ha = 10 milhões de t; 15 × 2,4 = 36 milhões de t (3,6 vezes). Fertilizante por tonelada: 20 kg/ha ÷ 1,0 t/ha = 20 kg/t; 150 ÷ 2,4 = 62,5 kg/t (3,125 vezes). Área colhida média: 10 milhões ÷ 500 mil = 20 ha; 15 milhões ÷ 300 mil = 50 ha. Produção por trabalhador: 10 milhões ÷ 2 milhões = 5 t; 36 milhões ÷ 1,2 milhão = 30 t (6 vezes). A produtividade (2,4 vezes) pesou mais que a área (1,5 vez).\n\n**Teoria — revolução verde.** A partir de meados do século XX, difundiu-se um pacote tecnológico: sementes melhoradas, fertilizantes químicos, agrotóxicos, mecanização e, em muitos lugares, irrigação. A produtividade cresceu muito, mas com dependência crescente de insumos industriais, comprados de grandes empresas, e com impactos ambientais (contaminação de solos e águas, perda de biodiversidade).\n\n**Modernização conservadora.** No Brasil, sobretudo a partir dos anos 1960 e 1970, o crédito rural subsidiado financiou esse pacote e favoreceu os médios e grandes produtores, sem alterar a estrutura fundiária concentrada. Com a mecanização, a produção por trabalhador disparou e o emprego caiu, o que contribuiu para o êxodo rural; muitos pequenos produtores, sem acesso a crédito, perderam suas terras. Daí o nome: técnica moderna, estrutura social conservada.\n\nPara lembrar: a revolução verde elevou a produtividade com uso intensivo de insumos e máquinas; no Brasil, a modernização conservadora concentrou terra e renda e expulsou trabalhadores do campo.",
+    "erradas": [
+      "Esquece a expansão da área (a produção cresceu 3,6 vezes, não 2,4) e inverte a tendência do insumo: o fertilizante por tonelada subiu de 20 kg para 62,5 kg.",
+      "Atribui o crescimento à área, que cresceu só 1,5 vez, contra 2,4 vezes da produtividade; e a área colhida média por estabelecimento aumentou, de 20 para 50 ha.",
+      "",
+      "Erra a conta e a interpretação: a produção por trabalhador passou de 5 t para 30 t (6 vezes), muito mais que a produtividade da terra, e o pessoal ocupado caiu 40%.",
+      "Inverte o sentido do processo: menos estabelecimentos com área média maior indica concentração, e a queda do pessoal ocupado está ligada à mecanização e ao êxodo rural."
+    ]
+  },
+  {
+    "id": "GEO-036",
+    "materia": "geografia",
+    "tema": "Espaço agrário — agricultura familiar e módulo fiscal",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Pela Lei nº 11.326/2006, considera-se agricultor familiar quem pratica atividades no meio rural e atende simultaneamente, entre outros, aos seguintes requisitos: não deter área maior que 4 módulos fiscais; utilizar predominantemente mão de obra da própria família nas atividades do estabelecimento; ter um percentual mínimo da renda familiar originado do estabelecimento; e dirigi-lo com sua família. O módulo fiscal é uma unidade de medida, em hectares, fixada para cada município; no Brasil, varia de 5 ha a 110 ha.\n\nTexto elaborado para esta questão com base na legislação.",
+    "tabela": {
+      "titulo": "Quatro estabelecimentos rurais hipotéticos",
+      "cabecalho": ["Estabelecimento", "Área (ha)", "Módulo fiscal do município (ha)", "Mão de obra predominante"],
+      "linhas": [
+        ["R", "30", "5", "Familiar"],
+        ["S", "350", "100", "Familiar"],
+        ["T", "90", "20", "Familiar"],
+        ["U", "60", "20", "Contratada"]
+      ]
+    },
+    "enunciado": "Suponha que todos os estabelecimentos atendam aos requisitos de renda e de direção familiar. Podem ser classificados como agricultura familiar:",
+    "alternativas": [
+      "R e U, os de menor área em hectares, compatível com a produção em pequena escala característica da agricultura familiar.",
+      "apenas S, o de maior área, pois é o único com até 4 módulos fiscais que utiliza sobretudo mão de obra da própria família.",
+      "S e U, pois ambos têm até 4 módulos fiscais, critério que define a agricultura familiar independentemente da mão de obra.",
+      "R, S e T, pois todos usam mão de obra familiar e nenhum deles ultrapassa o limite de 4 módulos fiscais de área.",
+      "S e T, que têm 3,5 e 4,5 módulos fiscais, respectivamente, abaixo do limite de 5 módulos fiscais fixado em lei."
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é que o tamanho do estabelecimento é medido em módulos fiscais, e não em hectares, e que a lei exige todos os requisitos ao mesmo tempo.\n\n**Contas.** R: 30 ÷ 5 = 6 módulos fiscais (acima do limite). S: 350 ÷ 100 = 3,5 (dentro). T: 90 ÷ 20 = 4,5 (acima). U: 60 ÷ 20 = 3 (dentro), mas usa sobretudo mão de obra contratada. Só S cumpre todos os requisitos.\n\n**Por que módulo fiscal?** O módulo fiscal, fixado pelo Incra para cada município, leva em conta o tipo de exploração predominante e a renda que ela proporciona. Em regiões de agricultura intensiva e terras valorizadas, perto de grandes mercados, poucos hectares sustentam uma família, e o módulo é pequeno; em áreas de pecuária extensiva, como partes da Amazônia e do Pantanal, ele chega a 100 ha ou mais. Assim, 30 ha podem ser uma propriedade de porte médio num município e 350 ha, uma pequena em outro.\n\n**Contexto.** A definição legal orienta políticas públicas como o Pronaf, linha de crédito voltada à agricultura familiar. Os estabelecimentos familiares são a grande maioria dos estabelecimentos rurais do país e concentram a maior parte do pessoal ocupado no campo, embora ocupem parcela bem menor da área total.\n\nPara lembrar: agricultura familiar exige até 4 módulos fiscais, mão de obra predominantemente familiar, renda e gestão familiares — tudo ao mesmo tempo; e o módulo fiscal varia de município para município.",
+    "erradas": [
+      "Avalia a área em hectares, e não em módulos fiscais: R tem 6 módulos fiscais, acima do limite; U está dentro do limite, mas usa sobretudo mão de obra contratada.",
+      "",
+      "Esquece que os requisitos são simultâneos: U tem 3 módulos fiscais, mas usa predominantemente mão de obra contratada e, por isso, não se enquadra.",
+      "Erra a conversão: R tem 30 ÷ 5 = 6 módulos fiscais e T, 90 ÷ 20 = 4,5; ambos ultrapassam o limite de 4 módulos, apesar de usarem mão de obra familiar.",
+      "Usa o limite errado: a lei fixa até 4 módulos fiscais; o número 5 aparece no texto como o menor valor do módulo fiscal em hectares, não como limite de área."
+    ]
+  },
+  {
+    "id": "GEO-037",
+    "materia": "geografia",
+    "tema": "Indústria — desconcentração industrial e guerra fiscal",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "Desde os anos 1990, vários estados brasileiros concederam reduções do ICMS para atrair fábricas, prática conhecida como guerra fiscal. A reforma tributária aprovada pela Emenda Constitucional nº 132/2023 prevê a substituição gradual do ICMS e do ISS pelo Imposto sobre Bens e Serviços (IBS), cobrado no destino — onde o bem ou o serviço é consumido —, com extinção do ICMS prevista para 2033.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Custo por unidade de um produto, em reais, conforme o local da fábrica (dados hipotéticos)",
+      "cabecalho": ["Item", "Local A: Região Metropolitana de São Paulo", "Local B: estado do Nordeste, com incentivo fiscal"],
+      "linhas": [
+        ["Produção (mão de obra, terreno, energia e insumos)", "50", "34"],
+        ["Frete até o mercado consumidor, concentrado no Sudeste", "5", "25"],
+        ["ICMS efetivamente pago", "25", "5 (seria 25 sem o incentivo)"]
+      ]
+    },
+    "enunciado": "Com base no texto e nos dados, é correto afirmar que:",
+    "alternativas": [
+      "B é 25% mais barata que A graças ao incentivo, e a cobrança do IBS no destino deve acelerar a migração de fábricas para estados com incentivos.",
+      "B é 32% mais barata que A, vantagem que vem do menor custo de produção e que, por isso, se mantém mesmo sem o incentivo fiscal.",
+      "B é 20% mais barata que A e continuaria mais barata sem o incentivo, pois seu custo de produção é 16 reais menor que o de A.",
+      "B é 20% mais barata que A, e a cobrança do IBS no destino deve ampliar o poder dos estados produtores de atrair fábricas com incentivos.",
+      "B é 20% mais barata que A, mas seria 5% mais cara sem o incentivo, vantagem que a cobrança do IBS no destino tende a eliminar."
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é somar todos os custos — inclusive frete e imposto — e testar o que acontece quando o incentivo é retirado.\n\n**Contas.** A: 50 + 5 + 25 = 80 reais. B com incentivo: 34 + 25 + 5 = 64 reais, ou seja, 16 ÷ 80 = 20% mais barata que A. B sem incentivo: 34 + 25 + 25 = 84 reais, isto é, 4 ÷ 80 = 5% mais cara que A. A vantagem de B depende do incentivo: a economia na produção (16 reais) é anulada pelo frete mais caro (20 reais a mais).\n\n**Guerra fiscal.** Como o ICMS é recolhido, em boa parte, no estado de origem da mercadoria, cada estado pode reduzi-lo para atrair fábricas, renunciando a receitas e acirrando a disputa entre as unidades da federação. Esses incentivos ajudaram a desconcentração industrial a partir da Região Metropolitana de São Paulo, ao lado de outros fatores: custos de aglomeração mais altos (terrenos, congestionamentos, salários), sindicatos mais fortes e melhoria da infraestrutura em outras regiões. Mesmo assim, a desconcentração foi relativa: grande parte das novas fábricas foi para o interior paulista e para estados vizinhos.\n\n**Reforma tributária.** Com o IBS cobrado no destino, o imposto passa a pertencer ao estado e ao município onde o produto é consumido; o estado em que a fábrica se instala perde o instrumento da guerra fiscal. Em compensação, a emenda prevê um fundo de desenvolvimento regional.\n\nPara lembrar: a guerra fiscal se apoia na cobrança do ICMS na origem; a cobrança do IBS no destino tende a eliminá-la, e as empresas passam a pesar mais os custos reais, como frete, salários e infraestrutura.",
+    "erradas": [
+      "Calcula a diferença em relação ao custo de B (16 ÷ 64 = 25%), e não ao de A; além disso, a cobrança no destino retira dos estados produtores o poder de usar o imposto para atrair fábricas.",
+      "Compara só os custos de produção (16 ÷ 50 = 32%) e esquece o frete: sem o incentivo, B custaria 84 reais, mais que os 80 reais de A.",
+      "Acerta a diferença, mas esquece o frete: a economia de 16 reais na produção é anulada pelos 20 reais a mais de frete; sem o incentivo, B custaria 84 reais, contra 80 de A.",
+      "Inverte o efeito da reforma: com o imposto cobrado no destino, a receita vai para onde o produto é consumido, e o estado produtor deixa de poder usá-lo como incentivo.",
+      ""
+    ]
+  },
+  {
+    "id": "GEO-038",
+    "materia": "geografia",
+    "tema": "Indústria — Quarta Revolução Industrial e relocalização da produção",
+    "nivel": "acima",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": ["sociologia"],
+    "texto": "A chamada Quarta Revolução Industrial, ou Indústria 4.0, combina robótica avançada, internet das coisas, inteligência artificial e análise de grandes volumes de dados para automatizar e integrar as etapas da produção.\n\nTexto elaborado para esta questão.",
+    "tabela": {
+      "titulo": "Custo por unidade de um produto vendido nos Estados Unidos, em dólares (dados hipotéticos)",
+      "cabecalho": ["Item", "Fábrica convencional no Sudeste Asiático", "Fábrica convencional nos EUA", "Fábrica automatizada nos EUA"],
+      "linhas": [
+        ["Horas de trabalho por unidade", "10", "10", "0,5"],
+        ["Custo da mão de obra por hora", "2", "20", "20"],
+        ["Máquinas, energia e insumos", "40", "40", "50"],
+        ["Frete e tarifas até o consumidor", "15", "2", "2"]
+      ]
+    },
+    "enunciado": "Com base nos dados e em conhecimentos sobre a Quarta Revolução Industrial, é correto afirmar que:",
+    "alternativas": [
+      "a fábrica automatizada nos EUA tem o menor custo, 62 dólares, o que favorece a volta da produção para perto do consumidor, mas gera poucos empregos.",
+      "a fábrica asiática continua a mais barata, 75 dólares contra 242, pois a mão de obra nos EUA custa dez vezes mais em qualquer tipo de fábrica.",
+      "a fábrica automatizada nos EUA custa 51 dólares, pois usa 20 vezes menos trabalho que a asiática, e essa economia supera o gasto maior com máquinas.",
+      "a automação faz da mão de obra barata o principal fator de localização industrial, o que reforça a concentração das fábricas nos países periféricos.",
+      "a fábrica automatizada nos EUA tem o menor custo, 62 dólares, o que favorece a volta da produção e amplia o emprego industrial pouco qualificado no país."
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber que a automação reduz o peso da mão de obra no custo e, com isso, enfraquece a principal vantagem que levou fábricas para países de salários baixos.\n\n**Contas.** Asiática: 10 h × 2 = 20; 20 + 40 + 15 = 75 dólares. Convencional nos EUA: 10 × 20 = 200; 200 + 40 + 2 = 242 dólares. Automatizada nos EUA: 0,5 × 20 = 10; 10 + 50 + 2 = 62 dólares. A automação corta o trabalho por unidade em 20 vezes; mesmo com salário dez vezes maior, o gasto com mão de obra (10 dólares) fica abaixo do asiático (20 dólares), e o frete menor completa a vantagem.\n\n**Geografia da indústria.** Na fase de globalização produtiva, a busca de mão de obra barata levou muitas etapas da produção para a Ásia. Com a Indústria 4.0, ganham peso outros fatores de localização: proximidade do mercado consumidor, mão de obra qualificada, infraestrutura de energia e de telecomunicações e segurança das cadeias de suprimento — esta última valorizada após as rupturas da pandemia de covid-19 e as tensões entre EUA e China. Daí o interesse pela relocalização (reshoring) ou pela transferência para países próximos (nearshoring).\n\n**Sociologia do trabalho.** A fábrica que volta emprega muito menos gente, sobretudo técnicos qualificados para programar e manter máquinas. O resultado tende a ser a redução de postos para trabalhadores pouco qualificados — o desemprego estrutural, causado por mudanças tecnológicas, e não por crises passageiras — e a perda de uma via clássica de industrialização para países periféricos.\n\nPara lembrar: a automação reduz o peso do salário nos custos, favorece a produção perto do consumidor e cria poucos empregos, quase todos qualificados.",
+    "erradas": [
+      "",
+      "Compara a fábrica asiática só com a convencional nos EUA e ignora a automatizada: com 0,5 h por unidade, a mão de obra custa 10 dólares, e o total cai para 62 dólares.",
+      "Usa o salário asiático (2 dólares por hora) na fábrica automatizada dos EUA e esquece o frete: 0,5 × 2 + 50 = 51; o correto é 0,5 × 20 + 50 + 2 = 62 dólares.",
+      "Inverte o efeito da automação: ao reduzir o peso do trabalho no custo, ela diminui a importância da mão de obra barata e favorece a produção perto do mercado consumidor.",
+      "Acerta a conta, mas erra o efeito social: a fábrica automatizada usa 20 vezes menos trabalho por unidade, e os poucos empregos criados exigem qualificação técnica."
+    ]
+  },
+  {
+    "id": "GEO-039",
+    "materia": "geografia",
+    "tema": "Geopolítica — Ártico e fronteiras marítimas",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "texto": "A Convenção das Nações Unidas sobre o Direito do Mar estabelece, a partir da linha de base da costa: mar territorial de até 12 milhas náuticas, sob soberania do Estado costeiro, assegurado o direito de passagem inocente a navios estrangeiros; zona econômica exclusiva (ZEE) de até 200 milhas náuticas, onde o Estado costeiro tem direitos exclusivos sobre os recursos da água, do leito e do subsolo, mas outros países mantêm a liberdade de navegação; e plataforma continental, que pode estender-se além das 200 milhas, em geral até 350 milhas, se o Estado comprovar, perante uma comissão da ONU, que o leito é prolongamento natural de seu território. Na plataforma estendida, os direitos limitam-se aos recursos do leito e do subsolo; as águas acima dela são alto-mar.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Rússia, Dinamarca (pela Groenlândia) e Canadá apresentaram à ONU pedidos de extensão da plataforma continental que se sobrepõem no oceano Ártico. Um navio de pesquisa registra três pontos alinhados a partir da costa de um país ártico: X, a 18 km; Y, a 300 km; e Z, a 500 km, onde há indícios de petróleo no subsolo e um grande cardume. Dado: 1 milha náutica = 1,852 km.\n\nÉ correto afirmar que:",
+    "alternativas": [
+      "Y fica fora da ZEE, por estar a mais de 200 km da costa, e ali qualquer país pode explorar o petróleo e o gás existentes no subsolo marinho.",
+      "em X, navios estrangeiros só podem navegar com autorização, e em Y o país costeiro tem soberania plena, igual à que exerce em seu território.",
+      "em Z, o país costeiro pode obter direitos sobre o petróleo do subsolo, se provar o prolongamento da plataforma, mas não sobre o cardume.",
+      "Z está na ZEE, por ficar a menos de 350 milhas náuticas da costa, e o país costeiro tem direito exclusivo sobre o petróleo e sobre o cardume.",
+      "X está na ZEE, e não no mar territorial, por ficar a mais de 12 km da costa, distância em que termina a soberania do país costeiro."
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é converter as distâncias para milhas náuticas — a unidade da Convenção — e lembrar que cada faixa marítima dá direitos diferentes.\n\n**Conversões.** X: 18 ÷ 1,852 ≈ 9,7 milhas (mar territorial, que vai até 12 milhas ≈ 22 km). Y: 300 ÷ 1,852 ≈ 162 milhas (ZEE, que vai até 200 milhas ≈ 370 km). Z: 500 ÷ 1,852 ≈ 270 milhas (além da ZEE).\n\n**Direitos em cada ponto.** Em X, há soberania, mas navios estrangeiros têm direito de passagem inocente. Em Y, o país tem direitos exclusivos de exploração dos recursos, mas não soberania plena: outros países podem navegar e sobrevoar. Em Z, as águas são alto-mar, e a pesca do cardume é aberta a todos, respeitadas as regras internacionais; o subsolo, porém, pode ficar sob direitos do país costeiro se ele demonstrar, perante a Comissão de Limites da Plataforma Continental da ONU, que ali existe prolongamento natural de sua plataforma.\n\n**Por que o Ártico importa.** Com o aquecimento global, o gelo marinho do Ártico vem diminuindo, o que facilita o acesso a recursos do fundo do mar e abre rotas de navegação mais curtas entre a Ásia e a Europa, como a Rota Marítima do Norte, ao longo da costa russa. Por isso, os pedidos sobrepostos de extensão da plataforma — que incluem a cordilheira submarina de Lomonossov — ganharam peso geopolítico. O Brasil também pediu a extensão de sua plataforma continental, área que integra a chamada Amazônia Azul.\n\nPara lembrar: mar territorial até 12 milhas (soberania), ZEE até 200 milhas (recursos), plataforma estendida até cerca de 350 milhas (só leito e subsolo); 1 milha náutica = 1,852 km.",
+    "erradas": [
+      "Trata milhas náuticas como quilômetros: 300 km correspondem a cerca de 162 milhas, dentro da ZEE; ali, os recursos do subsolo pertencem exclusivamente ao país costeiro.",
+      "Exagera os direitos: no mar territorial vale o direito de passagem inocente de navios estrangeiros, e na ZEE o país tem direitos sobre os recursos, não soberania plena.",
+      "",
+      "Confunde o limite da ZEE (200 milhas) com o limite máximo da plataforma estendida (cerca de 350 milhas); Z, a cerca de 270 milhas, está fora da ZEE, e o cardume está em alto-mar.",
+      "Trata milhas náuticas como quilômetros: 12 milhas correspondem a cerca de 22 km, e X, a 18 km (cerca de 9,7 milhas), está no mar territorial."
+    ]
+  },
+  {
+    "id": "GEO-040",
+    "materia": "geografia",
+    "tema": "Geopolítica — guerra na Ucrânia e segurança energética da Europa",
+    "nivel": "fuvest",
+    "origem": "Estilo Comvest (Unicamp)",
+    "inter": [],
+    "tabela": {
+      "titulo": "Importações de gás natural de um bloco europeu hipotético, por origem, em bilhões de m³ (dados hipotéticos)",
+      "cabecalho": ["Origem e meio de transporte", "2021", "2024"],
+      "linhas": [
+        ["Rússia — gasodutos", "120", "20"],
+        ["Rússia — gás natural liquefeito (GNL), por navios", "15", "20"],
+        ["Noruega — gasodutos", "75", "85"],
+        ["Estados Unidos — GNL, por navios", "15", "50"],
+        ["Outras origens", "75", "75"],
+        ["Total", "300", "250"]
+      ]
+    },
+    "enunciado": "Os dados reproduzem, de forma simplificada, tendências observadas na União Europeia após a invasão da Ucrânia pela Rússia, em 2022. Com base neles e em seus conhecimentos, é correto afirmar que:",
+    "alternativas": [
+      "os Estados Unidos tornaram-se o maior fornecedor do bloco em 2024, compensando sozinhos o gás russo que deixou de chegar por gasodutos.",
+      "o bloco reduziu as compras de todo o gás russo, inclusive do GNL, cuja participação no total importado diminuiu entre 2021 e 2024.",
+      "o gasoduto mostrou-se mais flexível que o GNL, pois permite trocar rapidamente de fornecedor quando um conflito interrompe o suprimento.",
+      "a fatia russa caiu de 45% para 16% do total, e o GNL ganhou peso por permitir trocar de fornecedor, embora exija terminais de regaseificação.",
+      "a fatia russa caiu de 45% para 8% do total, já que as importações por gasoduto passaram de 120 para 20 bilhões de m³ entre 2021 e 2024."
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é somar todas as formas de chegada do gás russo antes de calcular sua participação e entender a diferença geopolítica entre gasoduto e GNL.\n\n**Contas.** Gás russo em 2021: 120 + 15 = 135 de 300, ou 45%. Em 2024: 20 + 20 = 40 de 250, ou 16%. O GNL russo cresceu em volume (de 15 para 20) e em participação (de 5% para 8%). A Noruega passou a principal fornecedora (85), à frente dos Estados Unidos (50). O total importado caiu 50 bilhões de m³ — queda que, na União Europeia, esteve ligada sobretudo à redução do consumo.\n\n**Gasoduto × GNL.** O gasoduto liga rigidamente um produtor a um consumidor: cria interdependência e pode servir de instrumento de pressão — e, se for interrompido, não há como redirecionar o gás rapidamente. O GNL é resfriado a cerca de −160 °C, viaja em navios metaneiros e pode vir de qualquer exportador, mas exige terminais de liquefação na origem e de regaseificação no destino. Após 2022, países europeus instalaram rapidamente terminais flutuantes de regaseificação, e o GNL dos Estados Unidos ganhou espaço. Em setembro de 2022, explosões danificaram os gasodutos Nord Stream, no mar Báltico.\n\n**Do lado russo.** A Rússia passou a vender mais petróleo e gás para a Ásia, sobretudo para a China e a Índia — movimento que reforça a aproximação entre esses países, também parceiros no Brics.\n\nPara lembrar: a dependência de gasodutos tornou a Europa vulnerável; a diversificação passou pelo GNL, mais flexível quanto às origens, mas dependente de infraestrutura portuária.",
+    "erradas": [
+      "Contraria a tabela: em 2024, a Noruega (85) supera os EUA (50); e o aumento do GNL americano (+35) cobre só parte da queda do gás russo por gasoduto (−100).",
+      "Generaliza a queda: o GNL russo aumentou, de 15 para 20 bilhões de m³, e sua fatia no total subiu de 5% para 8%.",
+      "Inverte as características: o gasoduto é rígido, preso a um trajeto e a um fornecedor; é o GNL, transportado por navios, que permite diversificar as origens.",
+      "",
+      "Esquece o GNL russo: em 2024, o gás russo soma 20 + 20 = 40 bilhões de m³, ou 16% do total; os 8% correspondem só ao gás por gasoduto."
+    ]
+  }
+]

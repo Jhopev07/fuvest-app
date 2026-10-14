@@ -1,0 +1,288 @@
+[
+ {
+  "id": "FIS-C-001",
+  "materia": "fisica",
+  "tema": "Cinemática — lançamento oblíquo",
+  "nivel": "fuvest",
+  "origem": "Estilo Fuvest",
+  "inter": [],
+  "enunciado": "Num arremesso de basquete, a bola deixa as mãos do jogador a 2,0 m do chão, com velocidade de 10 m/s inclinada de um ângulo θ acima da horizontal (sen θ = 0,60 e cos θ = 0,80). O centro do aro está a 3,0 m do chão e, para a cesta valer, a bola deve passar por ele em movimento descendente. Despreze a resistência do ar, trate a bola como partícula e adote g = 10 m/s². Para que a bola passe pelo centro do aro, a distância horizontal entre o ponto de lançamento e o centro do aro deve ser de",
+  "alternativas": [
+   "1,6 m",
+   "4,8 m",
+   "8,0 m",
+   "9,6 m",
+   "10 m"
+  ],
+  "correta": 2,
+  "explicacao": "O ponto aqui é perceber que a bola passa **duas vezes** pela altura do aro: uma subindo e outra descendo. A equação do movimento vertical dá dois instantes, e a regra da cesta escolhe o maior.\n\n**1) Decompondo a velocidade:** v_x = 10 · 0,80 = 8,0 m/s (constante) e v_y = 10 · 0,60 = 6,0 m/s (inicial, para cima).\n\n**2) Movimento vertical:** tomando o ponto de lançamento como origem, a bola precisa subir 1,0 m: 6t − 5t² = 1 → 5t² − 6t + 1 = 0 → t = 0,2 s ou t = 1,0 s.\n\n**3) Escolhendo a raiz:** a velocidade vertical é v_y = 6 − 10t. Em t = 0,2 s, v_y = +4 m/s (subindo); em t = 1,0 s, v_y = −4 m/s (descendo). A cesta exige o segundo instante.\n\n**4) Distância horizontal:** x = v_x · t = 8,0 · 1,0 = 8,0 m.\n\n**Atalho:** a trajetória é simétrica em relação ao ponto mais alto, atingido em t = v_y/g = 0,6 s; as duas passagens pela mesma altura ficam simétricas em torno desse instante (0,6 − 0,4 e 0,6 + 0,4). Conferindo: a altura máxima é 2,0 + 6²/20 = 3,8 m, acima do aro, como devia ser.\n\n**Para lembrar:** quando a equação horária dá duas raízes positivas, as duas são fisicamente possíveis; é o enunciado (subindo ou descendo) que decide qual usar.",
+  "erradas": [
+   "É a distância no primeiro instante em que a bola atinge a altura do aro (t = 0,2 s), ainda subindo: x = 8,0 · 0,2 = 1,6 m. Nesse ponto ela chegaria ao aro por baixo.",
+   "É a distância horizontal até o ponto mais alto da trajetória (x = 8,0 · 0,6 = 4,8 m), como se a bola passasse pelo aro no topo. Mas o topo está a 3,8 m do chão, acima do aro.",
+   "",
+   "Aplica a fórmula do alcance, A = v₀² · sen 2θ/g = 9,6 m, que só vale quando lançamento e chegada estão no mesmo nível; aqui o aro está 1,0 m acima das mãos.",
+   "Usa o módulo da velocidade inicial no lugar da componente horizontal: x = 10 · 1,0 = 10 m. Só a componente v₀ · cos θ = 8,0 m/s se mantém constante na horizontal."
+  ]
+ },
+ {
+  "id": "FIS-C-002",
+  "materia": "fisica",
+  "tema": "Cinemática — gráficos v × t e encontro de móveis",
+  "nivel": "acima",
+  "origem": "Estilo Fuvest",
+  "inter": [],
+  "tabela": {
+   "titulo": "Velocidade (m/s) em função do tempo",
+   "cabecalho": ["t (s)", "0", "5", "10", "15", "20"],
+   "linhas": [
+    ["Carro", "20", "20", "20", "20", "20"],
+    ["Moto", "0", "10", "20", "30", "30"]
+   ]
+  },
+  "enunciado": "Numa estrada reta, um carro passa, com velocidade constante, por uma moto parada no acostamento. Nesse instante (t = 0), a moto parte no mesmo sentido do carro. A tabela dá as velocidades dos dois veículos em alguns instantes. Entre os instantes tabelados, os gráficos v × t de ambos são segmentos de reta e, depois de t = 20 s, as duas velocidades permanecem constantes. A moto alcança o carro no instante",
+  "alternativas": [
+   "10 s",
+   "17,5 s",
+   "20 s",
+   "22,5 s",
+   "45 s"
+  ],
+  "correta": 3,
+  "explicacao": "O ponto aqui é lembrar que, num gráfico v × t, o **cruzamento das curvas não é o encontro**: é o instante em que as velocidades se igualam. Quem está atrás alcança o outro quando as **áreas** sob os gráficos (os deslocamentos) se igualam.\n\n**1) Lendo o gráfico da moto:** de 0 a 15 s, a velocidade cresce linearmente de 0 a 30 m/s (a = 2,0 m/s²); depois, fica constante em 30 m/s.\n\n**2) Situação em t = 15 s:** a moto percorreu a área do triângulo, ½ · 15 · 30 = 225 m; o carro, 20 · 15 = 300 m. A moto ainda está 75 m atrás. (Ela não alcança o carro na fase acelerada: isso exigiria t² = 20t, ou seja, t = 20 s, mas a aceleração termina em 15 s.)\n\n**3) Fase final:** a partir de 15 s, a moto se aproxima com velocidade relativa 30 − 20 = 10 m/s. Para tirar 75 m, leva 7,5 s. Logo, t = 15 + 7,5 = 22,5 s.\n\n**Conferindo pelas áreas:** carro, 20 · 22,5 = 450 m; moto, 225 + 30 · 7,5 = 450 m. Bate.\n\n**Detalhe útil:** a maior separação ocorre em t = 10 s, quando as velocidades se igualam (o cruzamento dos gráficos): 200 − 100 = 100 m. Antes disso, o carro se afasta; depois, a moto se aproxima.\n\n**Para lembrar:** no gráfico v × t, a área dá o deslocamento; o encontro ocorre quando os deslocamentos se igualam, e não quando as curvas se cruzam.",
+  "erradas": [
+   "É o instante em que os gráficos se cruzam, ou seja, em que as velocidades se igualam. Nesse momento a separação entre os veículos é máxima (100 m), e não nula.",
+   "Calcula corretamente a distância de 75 m em t = 15 s, mas a divide pela velocidade da moto (30 m/s) em vez da velocidade relativa (10 m/s): 15 + 2,5 = 17,5 s. Ignora que o carro continua andando.",
+   "Supõe que a moto acelera o tempo todo: t² = 20t → t = 20 s. Mas a aceleração termina em t = 15 s, e daí em diante a moto anda menos do que nesse modelo.",
+   "",
+   "Ignora os 225 m percorridos pela moto na fase acelerada e iguala apenas 30 · (t − 15) = 20t, obtendo t = 45 s."
+  ]
+ },
+ {
+  "id": "FIS-C-003",
+  "materia": "fisica",
+  "tema": "Dinâmica — blocos ligados em plano inclinado com atrito",
+  "nivel": "acima",
+  "origem": "Estilo livro (Tópicos de Física)",
+  "inter": [],
+  "enunciado": "Dois blocos, A, de 2,0 kg, e B, de 3,0 kg, estão sobre uma rampa reta que forma um ângulo θ com a horizontal (sen θ = 0,60 e cos θ = 0,80) e são ligados por um fio ideal paralelo à rampa. O bloco B, situado acima de A, é puxado rampa acima por uma força F, de intensidade 60 N, paralela à rampa, e arrasta A por meio do fio. O coeficiente de atrito cinético entre cada bloco e a rampa vale 0,25. Adote g = 10 m/s². Enquanto os blocos sobem, a intensidade da tração no fio é",
+  "alternativas": [
+   "8,0 N",
+   "16 N",
+   "24 N",
+   "36 N",
+   "40 N"
+  ],
+  "correta": 2,
+  "explicacao": "O ponto aqui é perceber que, quando os dois blocos têm o mesmo coeficiente de atrito, a tração **não depende da inclinação nem do atrito**: o fio transmite a A exatamente a fração de F proporcional à massa de A.\n\n**Resolução direta.** Cada bloco sofre, rampa abaixo, a componente do peso (m g sen θ) e o atrito cinético (μ m g cos θ). Somando: m · g · (sen θ + μ cos θ) = m · 10 · (0,60 + 0,25 · 0,80) = 8,0 · m (em newtons, com m em kg).\n\nSistema (A + B): F − 5,0 · 8,0 = 5,0 · a → 60 − 40 = 5,0 · a → a = 4,0 m/s².\n\nBloco A: T − 2,0 · 8,0 = 2,0 · 4,0 → T = 16 + 8,0 = 24 N.\n\nConferindo em B: 60 − 24 − 3,0 · 8,0 = 12 N = 3,0 · 4,0. Bate.\n\n**Por que a resposta é F · m_A/(m_A + m_B) (a teoria).** Escreva a equação de A em forma literal: T = m_A · a + m_A · g (sen θ + μ cos θ). Com a = F/(m_A + m_B) − g (sen θ + μ cos θ), o termo g (sen θ + μ cos θ) se cancela: T = F · m_A/(m_A + m_B) = 60 · 2/5 = 24 N.\n\nA razão física: a componente do peso e o atrito são, ambos, proporcionais à massa de cada bloco. Para cada quilograma, a rampa “freia” os dois blocos da mesma maneira, como se houvesse um campo uniforme apontando rampa abaixo. Esse efeito atinge A e B diretamente e não precisa ser transmitido pelo fio; o fio só precisa repassar a A a parcela da força externa que lhe cabe. Por isso a tração seria a mesma (24 N) num piso horizontal liso ou numa rampa mais íngreme, desde que os blocos estivessem subindo.\n\n**Limites do resultado.** Se os coeficientes de atrito de A e de B fossem diferentes, o cancelamento não ocorreria, e a tração passaria a depender de μ e de θ. E, se a força puxasse A em vez de B, o fio puxaria B, e a tração seria F · m_B/(m_A + m_B) = 36 N.\n\n**Para lembrar:** em blocos ligados submetidos a forças proporcionais às massas (peso, atrito com o mesmo μ), a tração depende só da força externa e da divisão das massas.",
+  "erradas": [
+   "É apenas m_A · a = 2,0 · 4,0: esquece que o fio também precisa vencer a componente do peso de A e o atrito sobre A.",
+   "Trata A como se estivesse em equilíbrio: T = m_A · g (sen θ + μ cos θ) = 16 N. Desconsidera que A está acelerado, com a = 4,0 m/s².",
+   "",
+   "Troca o papel das massas: T = F · m_B/(m_A + m_B) seria a tração se F puxasse A. (O mesmo valor sai de T = F − m_B · g (sen θ + μ cos θ), que ignora a aceleração de B.)",
+   "Soma F · m_A/(m_A + m_B) = 24 N com m_A · g (sen θ + μ cos θ) = 16 N, contando duas vezes o efeito da rampa sobre A, que já foi cancelado na conta literal."
+  ]
+ },
+ {
+  "id": "FIS-C-004",
+  "materia": "fisica",
+  "tema": "Dinâmica — curva sobrelevada com atrito",
+  "nivel": "acima",
+  "origem": "Estilo ITA/IME (fácil)",
+  "inter": [],
+  "enunciado": "Uma estrada tem uma curva circular de raio R, contida num plano horizontal, e a pista é inclinada de um ângulo θ em relação à horizontal, com a borda externa mais alta (sobrelevação). O coeficiente de atrito estático entre os pneus e o asfalto é μ, com μ · tg θ < 1. Sendo g a aceleração da gravidade e tratando o carro como partícula em movimento circular uniforme, a maior velocidade com que ele pode fazer a curva sem derrapar é",
+  "alternativas": [
+   "√[R g · tg θ]",
+   "√[R g · (tg θ − μ)/(1 + μ · tg θ)]",
+   "√[R g · (tg θ + μ)]",
+   "√[R g · (tg θ + μ)/(1 + μ · tg θ)]",
+   "√[R g · (tg θ + μ)/(1 − μ · tg θ)]"
+  ],
+  "correta": 4,
+  "explicacao": "O ponto aqui é desenhar as forças certas: na velocidade máxima, o carro tende a escorregar para fora e para cima da pista, então o atrito estático aponta **para baixo, ao longo da pista**, e vale μN.\n\n**1) Forças:** peso m g (vertical), normal N (perpendicular à pista, inclinada de θ em relação à vertical) e atrito f = μN (paralelo à pista, inclinado de θ em relação à horizontal, apontando para dentro da curva e para baixo).\n\n**2) Vertical (equilíbrio):** N cos θ − f sen θ = m g → N (cos θ − μ sen θ) = m g.\n\n**3) Horizontal (resultante centrípeta):** N sen θ + f cos θ = m v²/R → N (sen θ + μ cos θ) = m v²/R.\n\n**4) Dividindo uma pela outra:** v²/(R g) = (sen θ + μ cos θ)/(cos θ − μ sen θ). Dividindo numerador e denominador por cos θ: v² = R g (tg θ + μ)/(1 − μ tg θ).\n\n**Testes de limite (o filtro mais rápido):** com μ = 0, deve sobrar a velocidade da curva sem atrito, √(R g tg θ); com θ = 0, a da curva plana, √(μ R g). A expressão correta passa nos dois testes, mas a soma simples √[R g (tg θ + μ)] e a versão com (1 + μ tg θ) também passam. O que as separa é um terceiro teste: quando μ tg θ → 1, o denominador correto vai a zero e a velocidade máxima cresce sem limite. Faz sentido: nesse caso, normal e atrito juntos conseguem fornecer qualquer resultante centrípeta sem que o atrito atinja seu valor máximo, como numa pista muito inclinada e muito aderente.\n\n**Com números:** R = 45 m, tg θ = 3/4, μ = 0,50 e g = 10 m/s² dão v² = 450 · 1,25/0,625 = 900, ou seja, v = 30 m/s (108 km/h). A soma simples daria só cerca de 24 m/s.\n\n**Para lembrar:** na curva sobrelevada, o atrito tem componente vertical; por isso N ≠ m g/cos θ, e os efeitos da sobrelevação e do atrito não se somam de forma simples.",
+  "erradas": [
+   "É a velocidade de projeto, aquela em que o carro faz a curva sem precisar de atrito. Acima dela o atrito passa a agir para dentro e permite velocidades maiores; ela não é a máxima.",
+   "É a velocidade mínima: corresponde ao atrito apontando para cima ao longo da pista, quando o carro tende a escorregar para dentro da curva. Com θ = 0, daria raiz de número negativo.",
+   "Soma ingenuamente a curva sem atrito (R g tg θ) e a curva plana (μ R g). Equivale a escrever N cos θ = m g, desprezando a componente vertical do atrito. Passa nos testes μ = 0 e θ = 0, mas está errada.",
+   "Erro de sinal na equação vertical: escreve N cos θ + f sen θ = m g, como se o atrito apontasse para cima. Passa nos dois testes de limite, mas não prevê que a velocidade máxima cresce sem limite quando μ tg θ → 1.",
+   ""
+  ]
+ },
+ {
+  "id": "FIS-C-005",
+  "materia": "fisica",
+  "tema": "Energia — mola e loop vertical",
+  "nivel": "acima",
+  "origem": "Estilo Fuvest",
+  "inter": [],
+  "enunciado": "Num experimento, um pequeno bloco de 200 g é encostado numa mola de constante elástica 600 N/m, comprimida de 10 cm, e liberado. A mola o lança num trilho horizontal que se liga, na parte mais baixa, a um loop circular de raio R contido num plano vertical; o bloco percorre o loop pelo lado de dentro, apenas apoiado no trilho. Não há atrito em nenhum trecho. Trate o bloco como partícula e adote g = 10 m/s². O maior valor de R para o qual o bloco completa o loop sem perder contato com o trilho é",
+  "alternativas": [
+   "0,60 m",
+   "0,75 m",
+   "1,0 m",
+   "1,2 m",
+   "3,0 m"
+  ],
+  "correta": 0,
+  "explicacao": "O ponto aqui é combinar **conservação da energia** com a **condição de contato no topo do loop**, que é dinâmica, não energética.\n\n**1) Energia armazenada na mola:** E = ½ k x² = ½ · 600 · (0,10)² = 3,0 J. Sem atrito, essa é a energia mecânica do bloco em todo o percurso (tomando o trilho horizontal como nível zero).\n\n**2) Condição no topo:** lá, peso e normal apontam para o centro: N + m g = m v²/R. O bloco mantém contato enquanto N ≥ 0, ou seja, v² ≥ g R. O caso-limite (maior R) é v² = g R.\n\n**3) Energia no topo (altura 2R):** E = ½ m v² + m g (2R) = ½ m g R + 2 m g R = 2,5 m g R.\n\n**4) Resolvendo:** 3,0 = 2,5 · 0,20 · 10 · R → 3,0 = 5,0 R → R = 0,60 m.\n\n**Atalho que vale guardar:** partindo do nível da base do loop, a energia mínima para completá-lo é 2,5 m g R (equivale a soltar o bloco, em repouso, de uma altura 2,5R numa rampa lisa). Com raios maiores, a energia não basta, e o bloco se descola antes do topo.\n\n**Para lembrar:** no loop, chegar ao topo não basta: é preciso v² ≥ g R lá em cima, o que exige energia de pelo menos 2,5 m g R.",
+  "erradas": [
+   "",
+   "Exige apenas que o bloco chegue ao topo, com velocidade nula: 3,0 = m g · 2R → R = 0,75 m. Mas, para ter v = 0 no topo, o bloco teria de se descolar do trilho antes de chegar lá.",
+   "Usa a condição v² = g R corretamente, mas toma a altura do topo como R em vez de 2R: 3,0 = ½ m g R + m g R = 1,5 m g R → R = 1,0 m.",
+   "Esquece o ½ da energia elástica, usando E = k x² = 6,0 J, e depois aplica corretamente 2,5 m g R: R = 6,0/5,0 = 1,2 m.",
+   "Ignora a subida do bloco e usa no topo a própria velocidade de lançamento, v² = 2E/m = 30 m²/s², impondo v² = g R: R = 3,0 m."
+  ]
+ },
+ {
+  "id": "FIS-C-006",
+  "materia": "fisica",
+  "tema": "Energia e potência — rendimento de aerogerador e matriz energética",
+  "nivel": "fuvest",
+  "origem": "Estilo Fuvest",
+  "inter": ["geografia"],
+  "texto": "A energia eólica ganhou participação significativa na matriz elétrica brasileira nas últimas décadas, com a maior parte dos parques instalada no Nordeste, onde os ventos são intensos e regulares. Como o vento varia ao longo do dia e das estações, um aerogerador não produz sempre a mesma potência. Por isso se usa o fator de capacidade: a razão entre a energia efetivamente gerada num período e a que seria gerada se o equipamento operasse o tempo todo na condição de referência.\n\nTexto elaborado para esta questão.",
+  "enunciado": "Um aerogerador tem pás de 50 m de comprimento. Na condição de referência, com vento de 10 m/s perpendicular ao plano das pás, ele converte em energia elétrica 40% da energia cinética do ar que atravessa o círculo varrido pelas pás. Num mês de 30 dias, seu fator de capacidade é de 50%. Dados: densidade do ar = 1,2 kg/m³; π = 3. Se cada residência consome 180 kWh por mês, a energia elétrica gerada nesse mês pelo aerogerador abastece",
+  "alternativas": [
+   "360 residências",
+   "3 600 residências",
+   "7 200 residências",
+   "9 000 residências",
+   "14 400 residências"
+  ],
+  "correta": 1,
+  "explicacao": "O ponto aqui é montar a potência do vento a partir da energia cinética do ar que passa pelas pás a cada segundo, e só depois aplicar o rendimento e o fator de capacidade.\n\n**1) Potência do vento.** Num intervalo Δt, atravessa a área A uma coluna de ar de comprimento v · Δt, com massa m = ρ · A · v · Δt. Sua energia cinética é ½ m v² = ½ ρ A v³ Δt. Logo, P = ½ ρ A v³.\n\nA área varrida é um círculo cujo raio é o comprimento da pá: A = π r² = 3 · 50² = 7 500 m². Então P = ½ · 1,2 · 7 500 · 10³ = 4,5 × 10⁶ W = 4,5 MW.\n\n**2) Rendimento:** potência elétrica na condição de referência = 0,40 · 4,5 MW = 1,8 MW.\n\n**3) Fator de capacidade:** ao longo do mês, a potência média é 0,50 · 1,8 MW = 0,90 MW = 900 kW. Em 30 dias (720 h): E = 900 kW · 720 h = 648 000 kWh.\n\n**4) Residências:** 648 000/180 = 3 600.\n\n**A ponte com a Geografia:** a potência depende do **cubo** da velocidade do vento. Um local com ventos 20% mais fortes rende cerca de 1,2³ ≈ 1,7 vez mais energia. Por isso a escolha do sítio, com ventos intensos e constantes, pesa tanto na expansão eólica, e o fator de capacidade, que reflete a regularidade do vento, é decisivo para comparar regiões. A intermitência também explica por que a eólica precisa ser combinada com outras fontes, como hidrelétricas e termelétricas, para garantir o abastecimento.\n\n**Para lembrar:** a potência do vento é P = ½ ρ A v³; a energia gerada de fato é essa potência vezes o rendimento, vezes o fator de capacidade, vezes o tempo.",
+  "erradas": [
+   "Usa ½ ρ A v² como potência, esquecendo que a massa de ar que passa por segundo também é proporcional a v. A expressão nem tem unidade de potência (dá newtons), e o resultado fica 10 vezes menor.",
+   "",
+   "Desconsidera o fator de capacidade, como se o vento soprasse a 10 m/s durante o mês inteiro: 1,8 MW · 720 h = 1 296 000 kWh. (O mesmo valor sai de esquecer o ½ da energia cinética.)",
+   "Esquece o rendimento de 40% e aplica o fator de capacidade diretamente à potência do vento: 0,50 · 4,5 MW · 720 h = 1 620 000 kWh.",
+   "Usa o diâmetro do círculo varrido (100 m) no lugar do raio no cálculo da área: A = 3 · 100² = 30 000 m², quatro vezes maior que a correta."
+  ]
+ },
+ {
+  "id": "FIS-C-007",
+  "materia": "fisica",
+  "tema": "Impulso e colisões — quantidade de movimento com atrito interno",
+  "nivel": "acima",
+  "origem": "Estilo Fuvest",
+  "inter": [],
+  "enunciado": "Um caixote de 2,0 kg desliza, a 6,0 m/s, de uma plataforma fixa para a caçamba de um carrinho de 4,0 kg, inicialmente em repouso sobre trilhos horizontais. O piso da caçamba é horizontal e está no nível da plataforma; entre ele e o caixote, o coeficiente de atrito cinético vale 0,40. O carrinho se move sobre os trilhos sem nenhum atrito. Trate o caixote como partícula e adote g = 10 m/s². Para que o caixote não caia pela borda oposta, o menor comprimento da caçamba, medido a partir da borda por onde ele entra, é",
+  "alternativas": [
+   "1,0 m",
+   "3,0 m",
+   "4,0 m",
+   "4,5 m",
+   "5,0 m"
+  ],
+  "correta": 1,
+  "explicacao": "O ponto aqui é tratar o problema como uma **colisão perfeitamente inelástica em câmera lenta**: o atrito é força interna ao sistema caixote + carrinho, então a quantidade de movimento horizontal se conserva, mas a energia cinética não.\n\n**1) Velocidade final comum:** na horizontal, não há força externa sobre o sistema. 2,0 · 6,0 = (2,0 + 4,0) · v → v = 2,0 m/s.\n\n**2) Energia dissipada:** energia cinética inicial = ½ · 2,0 · 6,0² = 36 J; final = ½ · 6,0 · 2,0² = 12 J. Foram dissipados 24 J.\n\n**3) Trabalho do par de forças de atrito:** o atrito age no caixote e, em sentido oposto, no carrinho. O trabalho total desse par é −f · d_rel, em que d_rel é o deslizamento do caixote **em relação à caçamba**. Com f = μ m g = 0,40 · 2,0 · 10 = 8,0 N: 8,0 · d_rel = 24 → d_rel = 3,0 m.\n\n**Conferindo pela cinemática:** o caixote desacelera a 8,0/2,0 = 4,0 m/s² e o carrinho acelera a 8,0/4,0 = 2,0 m/s². As velocidades se igualam em t = 1,0 s. Nesse intervalo, em relação aos trilhos, o caixote anda 6,0 · 1,0 − ½ · 4,0 · 1,0² = 4,0 m e o carrinho, ½ · 2,0 · 1,0² = 1,0 m. Deslizamento relativo: 4,0 − 1,0 = 3,0 m. Bate.\n\n**Para lembrar:** num par de forças de atrito entre dois corpos, a energia dissipada é a força de atrito vezes o deslocamento **relativo** entre as superfícies.",
+  "erradas": [
+   "É o deslocamento do carrinho em relação aos trilhos durante o deslizamento, e não o deslocamento do caixote dentro da caçamba.",
+   "",
+   "É o deslocamento do caixote em relação aos trilhos. O mesmo valor sai de igualar o trabalho do atrito só à perda de energia cinética do caixote (36 − 4,0 = 32 J), esquecendo a energia ganha pelo carrinho.",
+   "Trata o carrinho como fixo: v₀² = 2 μ g d → d = 36/8,0 = 4,5 m. Mas o carrinho é empurrado pelo atrito e passa a acompanhar o caixote.",
+   "Soma os deslocamentos do caixote (4,0 m) e do carrinho (1,0 m) em relação aos trilhos, em vez de subtraí-los; os dois andam no mesmo sentido."
+  ]
+ },
+ {
+  "id": "FIS-C-008",
+  "materia": "fisica",
+  "tema": "Gravitação — energia e velocidade em órbitas circulares",
+  "nivel": "acima",
+  "origem": "Estilo ITA/IME (fácil)",
+  "inter": [],
+  "enunciado": "Um satélite de 1,0 × 10³ kg está numa órbita circular rasante em torno da Terra (raio da órbita igual ao raio terrestre R, desprezando a atmosfera). Usando seus motores, ele é transferido para uma órbita circular de raio 4R. Dados: R = 6,4 × 10⁶ m; aceleração da gravidade na superfície terrestre g = 10 m/s². Despreze a rotação da Terra e a variação da massa do satélite. O acréscimo da energia mecânica do satélite e a razão v_f/v_i entre suas velocidades orbitais final e inicial são, respectivamente,",
+  "alternativas": [
+   "2,4 × 10¹⁰ J e 1/4",
+   "2,4 × 10¹⁰ J e 1/2",
+   "4,8 × 10¹⁰ J e 1/2",
+   "7,2 × 10¹⁰ J e 1/2",
+   "1,92 × 10¹¹ J e 1/2"
+  ],
+  "correta": 1,
+  "explicacao": "O ponto aqui é usar as relações de energia da órbita circular: subir de órbita **aumenta** a energia mecânica, mas **diminui** a velocidade.\n\n**1) GM a partir de g:** na superfície, m g = G M m/R² → G M = g R².\n\n**2) Órbita circular:** a gravitação é a resultante centrípeta: G M m/r² = m v²/r → v² = G M/r. Daí E_c = G M m/(2r), E_p = −G M m/r e E = E_c + E_p = −G M m/(2r).\n\n**3) Acréscimo de energia:** ΔE = (G M m/2) · (1/R − 1/(4R)) = (g R² m/2) · 3/(4R) = (3/8) · m g R = (3/8) · 10³ · 10 · 6,4 × 10⁶ = 2,4 × 10¹⁰ J.\n\n**4) Velocidades:** v é proporcional a 1/√r, então v_f/v_i = √(R/(4R)) = 1/2. Numericamente, v_i = √(g R) = 8,0 km/s e v_f = 4,0 km/s.\n\n**Balanço que esclarece:** a energia potencial aumenta 4,8 × 10¹⁰ J, e a cinética diminui 2,4 × 10¹⁰ J. Os motores fornecem só a diferença, 2,4 × 10¹⁰ J. Em órbitas circulares, vale sempre E_c = −E e E_p = 2E.\n\n**Para lembrar:** em órbita circular, E = −G M m/(2r) e v = √(G M/r): órbita mais alta tem mais energia e menor velocidade.",
+  "erradas": [
+   "O acréscimo de energia está certo, mas a razão aplica r · v = constante (conservação do momento angular) entre duas órbitas diferentes. Essa lei vale ao longo de uma mesma órbita, não entre órbitas ligadas pela ação dos motores.",
+   "",
+   "Calcula apenas o aumento da energia potencial, G M m (1/R − 1/(4R)) = 4,8 × 10¹⁰ J, esquecendo que a energia cinética diminui na órbita mais alta. (O mesmo valor sai de usar E = −G M m/r, sem o fator ½.)",
+   "Soma o aumento da energia potencial (4,8 × 10¹⁰ J) com a diminuição da cinética (2,4 × 10¹⁰ J), como se os motores também tivessem de repor a energia cinética perdida.",
+   "Usa m g h com g constante e h = 3R: 10³ · 10 · 1,92 × 10⁷ J. Mas g diminui com a distância ao centro da Terra, e a energia cinética também muda."
+  ]
+ },
+ {
+  "id": "FIS-C-009",
+  "materia": "fisica",
+  "tema": "Estática — torque e alavancas no corpo humano",
+  "nivel": "fuvest",
+  "origem": "Estilo Fuvest",
+  "inter": ["biologia"],
+  "texto": "Ao olhar para a tela do celular, muitas pessoas inclinam a cabeça para a frente. Com isso, o centro de gravidade da cabeça se afasta da articulação entre o crânio e a coluna cervical, e os músculos da nuca precisam fazer mais força para mantê-la em equilíbrio. Esse esforço contínuo é associado a dores na região cervical.\n\nTexto elaborado para esta questão.",
+  "enunciado": "Modele a cabeça como um corpo rígido de peso 50 N, apoiado na articulação com a coluna e sustentado pelos músculos extensores da nuca, que a puxam para baixo num ponto situado 4,0 cm atrás da articulação. Com a cabeça inclinada, o centro de gravidade fica 8,0 cm à frente da articulação. Admita que todas as forças sejam verticais, que as distâncias sejam medidas na horizontal e que a cabeça esteja em equilíbrio. A intensidade da força que a coluna exerce sobre a cabeça e o tipo de alavanca que esse sistema representa são, respectivamente,",
+  "alternativas": [
+   "75 N; interfixa",
+   "100 N; interfixa",
+   "150 N; interfixa",
+   "150 N; interpotente",
+   "200 N; interfixa"
+  ],
+  "correta": 2,
+  "explicacao": "O ponto aqui é usar as **duas** condições de equilíbrio: a soma dos torques (que dá a força muscular) e a soma das forças (que dá a força na articulação).\n\n**1) Torques em relação à articulação:** a força da coluna não produz torque em torno desse ponto. O músculo (4,0 cm atrás) e o peso (8,0 cm à frente) tendem a girar a cabeça em sentidos opostos: F_m · 4,0 = 50 · 8,0 → F_m = 100 N.\n\n**2) Forças verticais:** o músculo e o peso puxam para baixo; a coluna empurra para cima: F_c = F_m + P = 100 + 50 = 150 N. A articulação é comprimida com três vezes o peso da cabeça.\n\n**3) Tipo de alavanca:** o apoio (a articulação) fica **entre** a força potente (o músculo) e a resistente (o peso da cabeça): é uma alavanca **interfixa**, como uma gangorra. Para comparar: o antebraço movido pelo bíceps é interpotente (força entre o apoio e a carga), e ficar na ponta dos pés é inter-resistente (carga entre o apoio e a força).\n\n**A ponte com a Biologia:** o braço de alavanca do peso aumenta quando a cabeça se inclina, enquanto o do músculo é fixado pela anatomia. Por isso a força muscular e a compressão sobre as vértebras e os discos crescem muito com a inclinação. Na postura ereta, com o centro de gravidade perto da vertical da articulação, o esforço é bem menor.\n\n**Para lembrar:** em equilíbrio, a soma dos torques e a soma das forças são nulas; o apoio de uma alavanca interfixa suporta a soma das forças potente e resistente quando elas têm o mesmo sentido.",
+  "erradas": [
+   "Inverte os braços de alavanca na equação dos torques (F_m · 8,0 = 50 · 4,0 → F_m = 25 N) e depois soma o peso: 25 + 50 = 75 N.",
+   "É a força dos músculos da nuca, obtida pela soma dos torques. Falta a segunda condição de equilíbrio: a coluna sustenta o músculo e o peso juntos.",
+   "",
+   "A força está certa, mas a classificação não: na interpotente a força muscular fica entre o apoio e a carga, como no antebraço. Aqui o apoio está entre o músculo e o centro de gravidade.",
+   "Mede o braço do peso a partir do ponto em que o músculo se prende (4,0 + 8,0 = 12 cm), mas o do músculo a partir da articulação: F_m = 50 · 12/4,0 = 150 N; somando o peso, 200 N."
+  ]
+ },
+ {
+  "id": "FIS-C-010",
+  "materia": "fisica",
+  "tema": "Hidrostática — empuxo e composição corporal",
+  "nivel": "acima",
+  "origem": "Estilo Vunesp (difícil)",
+  "inter": ["biologia", "edfisica"],
+  "texto": "A pesagem hidrostática é um método clássico para estimar a composição corporal. Presa a uma balança, a pessoa expira o máximo possível e é totalmente submersa num tanque de água. Mesmo após a expiração máxima, permanece nos pulmões um volume de ar, o volume residual, que também desloca água e precisa ser descontado. Modelando o corpo como uma mistura de tecido gorduroso e massa magra, de densidades conhecidas, obtém-se a fração de gordura.\n\nTexto elaborado para esta questão.",
+  "enunciado": "Uma pessoa de 99 kg, totalmente submersa após expiração máxima, apresenta peso aparente de 30 N. Seu volume residual é de 2,0 L. Dados: g = 10 m/s²; densidade da água = 1,0 kg/L; densidade do tecido gorduroso = 0,90 kg/L; densidade da massa magra = 1,10 kg/L. Despreze a massa do ar nos pulmões e quaisquer outros gases no corpo. O percentual de gordura corporal dessa pessoa, em massa, é de aproximadamente",
+  "alternativas": [
+   "20%",
+   "22%",
+   "25%",
+   "30%",
+   "40%"
+  ],
+  "correta": 0,
+  "explicacao": "O ponto aqui é separar o volume de água deslocado em duas partes: o volume dos tecidos e o volume de ar nos pulmões. Só o primeiro entra no cálculo da composição corporal.\n\n**1) Empuxo e volume deslocado:** peso real = 99 · 10 = 990 N. Peso aparente = peso − empuxo → E = 990 − 30 = 960 N. Como E = ρ_água · V · g: V = 960/(1,0 · 10) = 96 L.\n\n**2) Descontando o ar:** volume dos tecidos = 96 − 2,0 = 94 L.\n\n**3) Mistura de dois tecidos:** sejam V_g e V_m os volumes de gordura e de massa magra. Volume: V_g + V_m = 94. Massa: 0,90 · V_g + 1,10 · V_m = 99. Multiplicando a primeira por 1,10 e subtraindo a segunda: 0,20 · V_g = 103,4 − 99 = 4,4 → V_g = 22 L.\n\n**4) Massa de gordura:** m_g = 0,90 · 22 = 19,8 kg, ou seja, 19,8/99 = 20% da massa corporal.\n\n**Atalho:** se a pessoa fosse só massa magra, seus 99 kg ocupariam 99/1,10 = 90 L. O volume real é 4,0 L maior. Cada quilograma de gordura no lugar de 1 kg de massa magra acrescenta 1/0,90 − 1/1,10 = 0,20/0,99 L; logo, m_g = 4,0 · 0,99/0,20 = 19,8 kg.\n\n**A ponte com a Biologia e a Educação Física:** o volume residual existe porque os pulmões não se esvaziam completamente, nem na expiração forçada. Ignorá-lo faria a pessoa parecer mais volumosa, logo menos densa e com mais gordura do que tem. O método também supõe densidades fixas para a gordura e para a massa magra; como a densidade da massa magra varia de pessoa para pessoa (com a massa óssea e a hidratação, por exemplo), o resultado é uma estimativa.\n\n**Para lembrar:** o empuxo depende do volume total de água deslocado, inclusive pelo ar; para obter a densidade dos tecidos, desconte o ar.",
+  "erradas": [
+   "",
+   "Calcula corretamente o volume de gordura (22 L), mas o toma como se fosse a massa (22 kg): 22/99 ≈ 22%. Falta multiplicar o volume pela densidade da gordura.",
+   "Encontra a massa de gordura certa (19,8 kg), mas a divide pela massa magra (79,2 kg) em vez de dividi-la pela massa total (99 kg).",
+   "Ignora o volume residual e usa 96 L como volume dos tecidos: 0,20 · V_g = 105,6 − 99 → V_g = 33 L → m_g = 29,7 kg, cerca de 30%.",
+   "Soma o volume residual ao volume deslocado, em vez de subtraí-lo: 98 L → 0,20 · V_g = 107,8 − 99 → V_g = 44 L → m_g = 39,6 kg, cerca de 40%."
+  ]
+ },
+ {
+  "id": "FIS-C-011",
+  "materia": "fisica",
+  "tema": "MHS — pêndulo simples e sistema massa-mola",
+  "nivel": "acima",
+  "origem": "Estilo livro (Tópicos de Física)",
+  "inter": [],
+  "enunciado": "Na Terra, um pequeno corpo pendurado numa mola ideal a mantém distendida de 25 cm na posição de equilíbrio. Ao lado, há um pêndulo simples de 25 cm de comprimento. Ambos oscilam com pequenas amplitudes, a mola na vertical. Os dois sistemas são levados, sem nenhuma alteração, para a Lua, onde a aceleração da gravidade vale 1,6 m/s², e lá são postos a oscilar do mesmo modo. Adote g = 10 m/s² na Terra e π² = 10. Na Lua, os períodos de oscilação do pêndulo e do sistema massa-mola valem, respectivamente,",
+  "alternativas": [
+   "0,4 s e 1,0 s",
+   "1,0 s e 1,0 s",
+   "1,0 s e 2,5 s",
+   "2,5 s e 1,0 s",
+   "2,5 s e 2,5 s"
+  ],
+  "correta": 3,
+  "explicacao": "O ponto aqui é perceber que a gravidade entra de modos diferentes nos dois osciladores: no pêndulo, ela **é** a causa da força restauradora; no sistema massa-mola, ela só **desloca** a posição de equilíbrio.\n\n**1) Períodos na Terra.** Pêndulo: T = 2π √(L/g) = 2π √(0,25/10) = 2 √(π² · 0,025) = 2 √0,25 = 1,0 s. Massa-mola: T = 2π √(m/k). Não conhecemos m nem k, mas o equilíbrio dá k · Δx = m g → m/k = Δx/g = 0,25/10. Logo, T = 2π √0,025 = 1,0 s também: na Terra, os dois oscilam em sincronia.\n\n**2) Por que o período do massa-mola não depende de g (a teoria).** Seja y o deslocamento do corpo a partir da posição de equilíbrio, para baixo. A força resultante é m g − k (Δx + y) = (m g − k Δx) − k y = −k y, porque m g = k Δx. Ou seja, o peso fica inteiramente equilibrado pela distensão que define o novo equilíbrio, e a força restauradora em torno dele é só −k y, exatamente como numa mola horizontal. O período 2π √(m/k) depende apenas da massa e da mola. Na Lua, muda só a distensão de equilíbrio: Δx' = m g'/k = 0,25 · 1,6/10 = 0,04 m = 4,0 cm. O período continua 1,0 s.\n\n**3) Por que o do pêndulo depende (a teoria).** No pêndulo, a força restauradora é a componente tangencial do peso, m g sen θ ≈ m g · (s/L) para pequenos ângulos, em que s é o arco. É uma força do tipo −(m g/L) · s, com uma “constante elástica” efetiva m g/L. Daí T = 2π √(m/(m g/L)) = 2π √(L/g): a massa se cancela e g permanece. Na Lua: T' = T · √(g/g') = 1,0 · √(10/1,6) = √6,25 = 2,5 s.\n\n**4) A armadilha da fórmula T = 2π √(Δx/g).** Ela é útil, mas Δx é a distensão **no local**. Quem usa Δx = 25 cm com g = 1,6 m/s² encontra 2,5 s para a mola, o que é falso: na Lua a distensão também diminui, e a razão Δx/g = m/k não muda.\n\n**Para lembrar:** o período do pêndulo depende de g; o do sistema massa-mola não: a gravidade só muda onde fica o equilíbrio.",
+  "erradas": [
+   "Acerta a mola, mas inverte a dependência do pêndulo com a gravidade, usando T proporcional a √g: 1,0 · √(1,6/10) = 0,4 s. Com gravidade menor, a força restauradora é menor e a oscilação fica mais lenta, não mais rápida.",
+   "Supõe que nenhum dos períodos muda, como se o do pêndulo dependesse apenas do comprimento. A gravidade, que produz a força restauradora do pêndulo, é 6,25 vezes menor na Lua.",
+   "Inverte os comportamentos: considera o pêndulo independente de g e aplica à mola T = 2π √(Δx/g) com a distensão da Terra (25 cm) e a gravidade da Lua.",
+   "",
+   "Acerta o pêndulo, mas usa T = 2π √(Δx/g) para a mola com Δx = 25 cm e g = 1,6 m/s². Na Lua a distensão de equilíbrio cai para 4,0 cm, e a razão Δx/g não muda."
+  ]
+ }
+]

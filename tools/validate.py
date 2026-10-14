@@ -10,6 +10,8 @@ MATERIAS = {
 NIVEIS = {"fuvest", "acima"}
 OBRIGATORIOS = ["id", "materia", "tema", "nivel", "origem", "enunciado",
                 "alternativas", "correta", "explicacao", "erradas"]
+FOLGA_TAMANHO = 1.12      # a correta pode ser até 12% maior que a maior errada...
+FOLGA_CARACTERES = 8      # ...ou até 8 caracteres maior
 LETRA = re.compile(r"\b(alternativa|letra|opção|opcao)\s+\(?[A-E]\)?\b", re.IGNORECASE)
 LATEX = re.compile(r"\\(frac|sqrt|cdot|times|pi|theta|alpha|Delta|left|right)\b|\$")
 
@@ -49,6 +51,11 @@ def problemas_da_questao(q):
         erros.append(f"cita letra de alternativa: '{LETRA.search(junto).group(0)}'")
     if LATEX.search(junto):
         erros.append(f"parece LaTeX: '{LATEX.search(junto).group(0)}'")
+    if isinstance(alts, list) and len(alts) == 5 and isinstance(q["correta"], int) and 0 <= q["correta"] <= 4:
+        tamanho_correta = len(alts[q["correta"]])
+        maior_errada = max(len(a) for i, a in enumerate(alts) if i != q["correta"])
+        if tamanho_correta > maior_errada * FOLGA_TAMANHO and tamanho_correta - maior_errada > FOLGA_CARACTERES:
+            erros.append("a correta é bem mais longa que as erradas (denuncia a resposta)")
     if len(q["explicacao"]) < 250:
         erros.append("explicação curta demais (<250 caracteres)")
     tabela = q.get("tabela")

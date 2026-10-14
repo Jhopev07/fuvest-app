@@ -52,6 +52,16 @@ Leituras obrigatórias 2027: *Opúsculo Humanitário* (Nísia Floresta, 1853); *
 8. Alternativas com tamanho e estilo parecidos; em alternativas numéricas, use ordem crescente lógica (o app pode embaralhar mesmo assim).
 9. Português do Brasil, gramática impecável.
 
+## 2.1 Lições da revisão do 1º lote (evite estes erros)
+
+- **A correta não pode se denunciar pelo tamanho.** Foi o problema mais frequente: a correta era a mais longa e detalhada. Escreva as erradas com o mesmo tamanho e nível de detalhe. O validador agora rejeita correta >12% maior que a maior errada.
+- **"Acima" tem que ser acima de verdade.** Questões marcadas "acima" que eram exercício de um passo (fórmula clássica direta, leitura simples de tabela, fato decorado de livro) foram reclassificadas ou reescritas.
+- **Distratores fracos/óbvios** (absurdos, de outra época evidente, que o aluno elimina sem saber nada) foram trocados. Cada errada deve atrair quem tem um entendimento parcial.
+- **Distrator parcialmente verdadeiro** = duas corretas. Confira cada errada como se fosse a afirmação de um examinador adversário.
+- **O texto de `erradas` precisa descrever a conta/raciocínio que leva EXATAMENTE àquela alternativa** — recalcule.
+- **Enunciado sem dado implícito**: declare hipóteses (ex.: "desconsidere mutações novas", "a rampa é alta o bastante").
+- **Citações entre aspas** só se literais e conferidas; caso contrário, paráfrase.
+
 ## 3. Explicação (o mais importante — capriche)
 
 Campo `explicacao`: resolução completa e didática, como um ótimo professor de cursinho, em parágrafos curtos.

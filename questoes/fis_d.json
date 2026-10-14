@@ -1,0 +1,287 @@
+[
+  {
+    "id": "FIS-D-001",
+    "materia": "fisica",
+    "tema": "Termologia — calorimetria com mudança de fase (equilíbrio com gelo)",
+    "nivel": "fuvest",
+    "origem": "Estilo livro (Tópicos de Física)",
+    "inter": [],
+    "enunciado": "Em um calorímetro ideal (isolado e de capacidade térmica desprezível), misturam-se 300 g de água a 20 °C e 200 g de gelo a −20 °C, sob pressão normal. Dados: calor específico da água = 1,0 cal/(g·°C); calor específico do gelo = 0,50 cal/(g·°C); calor latente de fusão do gelo = 80 cal/g. Atingido o equilíbrio térmico, o conteúdo do calorímetro apresenta:",
+    "alternativas": [
+      "Nenhum gelo, com a água a 10 °C",
+      "50 g de gelo, a 0 °C",
+      "125 g de gelo, a 0 °C",
+      "150 g de gelo, a 0 °C",
+      "175 g de gelo, a 0 °C"
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é não chutar a temperatura final. Quando há gelo e água juntos, o equilíbrio pode ficar em 0 °C, com as duas fases coexistindo, e só o balanço de energia diz quanto sobra de cada uma.\n\n**Por que a temperatura trava em 0 °C.** Sob pressão normal, gelo e água só coexistem em equilíbrio a 0 °C. Durante a mudança de fase, a energia trocada não altera a temperatura: ela é usada para desfazer a estrutura cristalina do gelo, rompendo parte das ligações de hidrogênio que mantêm as moléculas em posições fixas. Esse é o significado do calor latente: L = 80 cal/g é a energia necessária para fundir 1 g de gelo que já está a 0 °C.\n\n**Método seguro: levar tudo a 0 °C e comparar.**\n\n• Calor que a água pode ceder até chegar a 0 °C: Q₁ = m·c·ΔT = 300 × 1,0 × 20 = 6000 cal.\n\n• Calor que o gelo precisa receber para chegar a 0 °C: Q₂ = 200 × 0,50 × 20 = 2000 cal.\n\nComo 6000 cal > 2000 cal, todo o gelo chega a 0 °C e ainda sobram 4000 cal. Para fundir todo o gelo seriam necessárias 200 × 80 = 16 000 cal, bem mais do que as 4000 cal disponíveis. Logo, a fusão é parcial e o equilíbrio ocorre a 0 °C.\n\n**Quanto funde.** m(fundida) = 4000/80 = 50 g. Sobram 200 − 50 = 150 g de gelo, junto com 300 + 50 = 350 g de água, tudo a 0 °C.\n\n**Conferência pela soma dos calores.** Água: −6000 cal; aquecimento do gelo: +2000 cal; fusão de 50 g: +4000 cal. Soma: zero, como exige um sistema isolado.\n\n**Por que a média ponderada falha.** A fórmula T = Σ(m·c·T)/Σ(m·c) só vale quando ninguém muda de fase. Aplicada aqui, ela dá 10 °C, um estado em que todo o gelo teria fundido. Isso exigiria pelo menos 2000 + 16 000 = 18 000 cal, e a água, esfriando até 0 °C, fornece só 6000 cal.\n\nPara lembrar: em misturas com gelo, leve tudo a 0 °C, compare o calor que sobra com o calor de fusão e só então decida o estado final.",
+    "erradas": [
+      "Resultado da média ponderada T = Σ(m·c·T)/Σ(m·c), que ignora o calor latente: seria preciso fundir todo o gelo, e a água não tem energia para isso.",
+      "Essa é a massa de gelo que FUNDE (4000/80 = 50 g), e não a que sobra no calorímetro.",
+      "Valor obtido ao esquecer de aquecer o gelo de −20 °C até 0 °C: as 6000 cal iriam todas para a fusão, fundindo 75 g.",
+      "",
+      "Valor obtido ao usar 1,0 cal/(g·°C) também para o gelo: o aquecimento consumiria 4000 cal, e as 2000 cal restantes fundiriam só 25 g."
+    ]
+  },
+  {
+    "id": "FIS-D-002",
+    "materia": "fisica",
+    "tema": "Termologia — gases ideais (transformação isotérmica) e pressão hidrostática",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Um mergulhador usa um cilindro rígido de 12 L com ar comprimido à pressão absoluta de 200 atm. Por segurança, ele deve iniciar a subida quando a pressão absoluta no cilindro cair para 40 atm (reserva). Ele permanece a 30 m de profundidade no mar, onde respira, em média, 20 L de ar por minuto, volume medido na pressão da água ao seu redor (o regulador entrega o ar a essa pressão). Admita: temperatura constante; ar como gás ideal; pressão atmosférica na superfície = 1,0 atm = 1,0 × 10⁵ Pa; densidade da água do mar = 1,0 × 10³ kg/m³; g = 10 m/s². O tempo máximo que ele pode permanecer nessa profundidade antes de atingir a reserva é:",
+    "alternativas": [
+      "24 min",
+      "30 min",
+      "32 min",
+      "40 min",
+      "96 min"
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber que a mesma quantidade de ar ocupa volumes diferentes conforme a pressão: o consumo de 20 L/min é medido a 30 m de profundidade, onde a pressão é bem maior que na superfície, e só o ar acima da reserva está disponível.\n\n**1) Pressão a 30 m (Stevin).** p = p(atm) + d·g·h = 1,0 × 10⁵ + 1,0 × 10³ × 10 × 30 = 4,0 × 10⁵ Pa = 4,0 atm. Atalho: cada 10 m de água acrescentam cerca de 1 atm; a 30 m, 1 + 3 = 4 atm. É a pressão absoluta que entra na lei dos gases.\n\n**2) Ar disponível.** Com a temperatura constante, a quantidade de gás é proporcional ao produto p·V. O ar que pode sair do cilindro sem invadir a reserva corresponde a (200 − 40) atm × 12 L = 1920 atm·L.\n\n**3) Volume desse ar na profundidade (Boyle).** p₁V₁ = p₂V₂ → V₂ = 1920 atm·L/4,0 atm = 480 L.\n\n**4) Tempo.** t = 480 L/(20 L/min) = 24 min.\n\nRepare no efeito da profundidade: na superfície (1 atm), o mesmo ar renderia 1920 L, ou seja, 96 min. A 30 m, o mergulhador esgota o cilindro 4 vezes mais rápido, porque cada inspiração precisa de ar a 4 atm para que os pulmões se encham contra a pressão da água.\n\nPara lembrar: na lei de Boyle, use pressões absolutas; a temperatura constante, a quantidade de gás é proporcional a p·V.",
+    "erradas": [
+      "",
+      "Valor obtido ao usar todo o ar do cilindro (200 atm × 12 L = 2400 atm·L), sem descontar os 40 atm da reserva.",
+      "Valor obtido ao usar a pressão manométrica (3,0 atm, só a da coluna de água) no lugar da pressão absoluta (4,0 atm).",
+      "Valor obtido ao cometer dois erros juntos: usar todo o ar do cilindro, sem a reserva, e a pressão manométrica de 3,0 atm.",
+      "Valor obtido ao tratar o consumo como se fosse medido a 1 atm, como na superfície, ignorando a pressão da água a 30 m."
+    ]
+  },
+  {
+    "id": "FIS-D-003",
+    "materia": "fisica",
+    "tema": "Termologia — máquinas térmicas (Carnot, rendimento real e poluição térmica)",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Uma usina termelétrica produz potência elétrica de 300 MW. Seu ciclo opera entre uma fonte quente a 527 °C e a água de um rio, a 27 °C, usada como fonte fria. O rendimento da usina é 60% do rendimento de uma máquina de Carnot que operasse entre essas mesmas temperaturas. Para limitar a poluição térmica, a água captada do rio pode ser devolvida, no máximo, 5,0 °C mais quente. Admita que todo o trabalho do ciclo é convertido em energia elétrica e que toda a energia térmica não convertida é transferida a essa água. Dados: calor específico da água = 4,0 × 10³ J/(kg·°C); densidade da água = 1,0 × 10³ kg/m³. A menor vazão de água do rio necessária para o resfriamento é:",
+    "alternativas": [
+      "9,0 m³/s",
+      "10 m³/s",
+      "15 m³/s",
+      "25 m³/s",
+      "40 m³/s"
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é encadear três ideias: o rendimento de Carnot exige temperaturas em kelvin; o rendimento real é uma fração dele; e, pela conservação da energia, o que não vira trabalho vai para a fonte fria.\n\n**1) Carnot (em kelvin!).** T(quente) = 527 + 273 = 800 K; T(fria) = 27 + 273 = 300 K. η(Carnot) = 1 − 300/800 = 5/8 = 62,5%.\n\n**2) Rendimento real.** η = 0,60 × 5/8 = 3/8 = 37,5%.\n\n**3) Balanço de energia (1ª lei aplicada ao ciclo).** Potência térmica recebida da fonte quente: P(q) = P(el)/η = 300/(3/8) = 800 MW. Potência rejeitada à água: P(f) = P(q) − P(el) = 800 − 300 = 500 MW. Atalho: P(f)/P(el) = (1 − η)/η = (5/8)/(3/8) = 5/3, logo P(f) = 5/3 × 300 = 500 MW.\n\n**4) Calorimetria em regime de fluxo.** A cada segundo, uma massa m de água recebe 5,0 × 10⁸ J e esquenta 5,0 °C: m = 5,0 × 10⁸/(4,0 × 10³ × 5,0) = 2,5 × 10⁴ kg. Como 1 m³ de água tem 10³ kg, a vazão é 25 m³/s. É por isso que termelétricas e usinas nucleares são instaladas junto a rios caudalosos ou ao mar.\n\nRepare que a usina rejeita mais energia do que entrega como eletricidade (500 MW contra 300 MW). Isso não é um defeito de projeto que se possa eliminar: a 2ª lei impõe que parte do calor vá para a fonte fria.\n\nPara lembrar: η(Carnot) = 1 − T(f)/T(q), com temperaturas em kelvin, e, num ciclo, P(rejeitada) = P(absorvida) − P(útil).",
+    "erradas": [
+      "Valor obtido ao tomar o rendimento como o próprio rendimento de Carnot (5/8): a usina absorveria 480 MW e rejeitaria só 180 MW.",
+      "Valor obtido ao tomar 60% como o rendimento da usina: ela absorveria 500 MW e rejeitaria 200 MW.",
+      "Valor obtido ao supor que a potência rejeitada ao rio é igual à potência elétrica produzida, 300 MW.",
+      "",
+      "Valor obtido ao mandar para o rio toda a potência absorvida da fonte quente (800 MW), esquecendo os 300 MW convertidos em eletricidade."
+    ]
+  },
+  {
+    "id": "FIS-D-004",
+    "materia": "fisica",
+    "tema": "Eletrodinâmica — leis de Kirchhoff, gerador e receptor (carga de bateria)",
+    "nivel": "acima",
+    "origem": "Estilo ITA/IME (fácil)",
+    "inter": [],
+    "enunciado": "Uma fonte F, de força eletromotriz 12 V e resistência interna 1,0 Ω, é usada para carregar uma bateria B, de força eletromotriz 6,0 V e resistência interna 2,0 Ω, e, ao mesmo tempo, alimentar um resistor ôhmico R = 6,0 Ω. Os três elementos estão ligados entre dois nós, P e Q: o polo positivo de F e o polo positivo de B estão ligados a P; os polos negativos de F e de B estão ligados a Q; e o resistor R está ligado entre P e Q. Despreze a resistência dos fios. Nessas condições, a intensidade da corrente em B, o que ocorre com B e a potência com que energia química é armazenada em B ou retirada dela são, respectivamente:",
+    "alternativas": [
+      "1,5 A; B se carrega; 9,0 W",
+      "1,5 A; B se carrega; 13,5 W",
+      "1,5 A; B se descarrega; 9,0 W",
+      "2,0 A; B se carrega; 12 W",
+      "3,0 A; B se carrega; 18 W"
+    ],
+    "correta": 0,
+    "explicacao": "O ponto aqui é perceber que os três ramos estão em paralelo entre P e Q. Basta descobrir a tensão U = V(P) − V(Q): cada corrente sai diretamente dela.\n\n**1) Lei dos nós em P.** Suponha, para começar, que F e B empurram corrente para P (saindo pelos polos positivos). Pela lei de Ohm em cada ramo:\n\n• corrente em F: (12 − U)/1,0;\n\n• corrente em B: (6,0 − U)/2,0;\n\n• corrente em R (de P para Q): U/6,0.\n\nNó P: (12 − U) + (6,0 − U)/2 = U/6. Multiplicando por 6: 72 − 6U + 18 − 3U = U → U = 9,0 V. Atalho (teorema de Millman): U = (12/1 + 6/2)/(1/1 + 1/2 + 1/6) = 15/(5/3) = 9,0 V.\n\n**2) Correntes.** Em F: (12 − 9)/1 = 3,0 A, saindo pelo polo positivo (F é gerador). Em R: 9/6 = 1,5 A. Em B: (6 − 9)/2 = −1,5 A. O sinal negativo diz que a suposição inicial estava errada: a corrente de 1,5 A ENTRA pelo polo positivo de B. Como a tensão de 9,0 V supera sua fem de 6,0 V, B funciona como receptor: está sendo carregada. Conferência no nó: 3,0 = 1,5 + 1,5.\n\n**3) Potências em B.** Potência recebida nos terminais: U·i = 9,0 × 1,5 = 13,5 W. Dela, r·i² = 2,0 × 1,5² = 4,5 W viram calor na resistência interna, e ε·i = 6,0 × 1,5 = 9,0 W são armazenados como energia química.\n\nBalanço global: F gera 12 × 3,0 = 36 W; perde 1,0 × 3,0² = 9,0 W internamente; entrega 27 W, divididos em 13,5 W para R e 13,5 W para B.\n\nPara lembrar: num receptor, a potência útil (armazenada) é ε·i; U·i é a potência total recebida, que inclui a perda r·i².",
+    "erradas": [
+      "",
+      "13,5 W é a potência total recebida por B nos terminais (U·i = 9,0 × 1,5); dela, 4,5 W viram calor em r(B) e só 9,0 W são armazenados.",
+      "Módulo certo, sentido errado: como a tensão entre P e Q (9,0 V) supera a fem de B (6,0 V), a corrente entra pelo polo positivo de B, que recebe energia.",
+      "Valor obtido ao ignorar o resistor R e tratar F e B como uma malha única: i = (12 − 6,0)/(1,0 + 2,0) = 2,0 A e P = 6,0 × 2,0 W.",
+      "Valor obtido ao desprezar a resistência interna de F: a tensão entre P e Q seria 12 V, dando i = (12 − 6,0)/2,0 = 3,0 A e P = 6,0 × 3,0 W."
+    ]
+  },
+  {
+    "id": "FIS-D-005",
+    "materia": "fisica",
+    "tema": "Eletrodinâmica — gerador real e circuito misto com chave",
+    "nivel": "fuvest",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "Um gerador de força eletromotriz 12 V e resistência interna 1,0 Ω alimenta um resistor R₁ = 1,0 Ω ligado em série com um resistor R₂ = 4,0 Ω. Um terceiro resistor, R₃ = 4,0 Ω, está ligado aos dois terminais de R₂, mas um de seus fios passa por uma chave C, inicialmente aberta; assim, com C fechada, R₃ fica em paralelo com R₂. Todos os resistores são ôhmicos, e os fios e a chave têm resistência desprezível. Com C aberta, R₁ e R₂ dissipam 4,0 W e 16 W, respectivamente. Após o fechamento de C, as potências dissipadas em R₁ e em R₂ passam a ser, respectivamente:",
+    "alternativas": [
+      "4,0 W e 4,0 W",
+      "9,0 W e 9,0 W",
+      "9,0 W e 18 W",
+      "9,0 W e 36 W",
+      "16 W e 16 W"
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é que fechar a chave diminui a resistência externa e aumenta a corrente do gerador; com isso, aumentam as quedas de tensão em r e em R₁, e sobra MENOS tensão para R₂. Por isso R₂ passa a dissipar menos, mesmo com mais corrente no circuito.\n\n**Antes (C aberta).** R(total) = 1,0 + 1,0 + 4,0 = 6,0 Ω; i = 12/6,0 = 2,0 A. P₁ = 2,0² × 1,0 = 4,0 W e P₂ = 2,0² × 4,0 = 16 W (confere com o enunciado).\n\n**Depois (C fechada).** R₂ ∥ R₃ = 4,0/2 = 2,0 Ω. R(total) = 1,0 + 1,0 + 2,0 = 4,0 Ω; i = 12/4,0 = 3,0 A.\n\n• R₁: P₁ = 3,0² × 1,0 = 9,0 W (aumentou).\n\n• R₂: a corrente de 3,0 A se divide igualmente entre R₂ e R₃, que têm resistências iguais: 1,5 A em cada. P₂ = 1,5² × 4,0 = 9,0 W (caiu de 16 W para 9,0 W).\n\nConferência pela tensão: no paralelo, U = 3,0 × 2,0 = 6,0 V e P₂ = U²/R₂ = 36/4,0 = 9,0 W. Antes, R₂ estava sob 2,0 × 4,0 = 8,0 V. A tensão nos terminais do gerador também cai, de 10 V para 9,0 V.\n\nÉ o mesmo fenômeno de quando se liga um aparelho potente numa instalação de fiação longa e fina: a corrente total sobe, a queda de tensão nos fios aumenta e as lâmpadas que já estavam acesas perdem brilho.\n\nPara lembrar: com um gerador real, acrescentar um ramo em paralelo aumenta a corrente total, mas reduz a tensão disponível para os ramos que já existiam.",
+    "erradas": [
+      "Valor obtido ao supor que o gerador mantém a corrente de 2,0 A: ela apenas se dividiria em 1,0 A para R₂ e 1,0 A para R₃.",
+      "",
+      "18 W é a potência do conjunto R₂ ∥ R₃ (3,0² × 2,0); como as resistências são iguais, cada uma recebe só metade disso.",
+      "Valor obtido ao fazer passar por R₂ toda a corrente de 3,0 A (3,0² × 4,0), esquecendo que ela se divide com R₃.",
+      "Valor obtido ao desprezar a resistência interna do gerador: a corrente seria 12/3,0 = 4,0 A, com 2,0 A em R₂."
+    ]
+  },
+  {
+    "id": "FIS-D-006",
+    "materia": "fisica",
+    "tema": "Eletrostática — capacitor plano isolado com variação da distância entre as placas",
+    "nivel": "fuvest",
+    "origem": "Estilo livro (Tópicos de Física)",
+    "inter": [],
+    "enunciado": "Um capacitor plano, com ar entre as placas, tem capacitância de 20 pF quando a distância entre as placas é 1,0 mm. Ele é ligado a uma bateria de 100 V até carregar completamente e, em seguida, é desligado dela, ficando isolado. Então, segurando as placas por cabos isolantes, um operador as afasta lentamente, mantendo-as paralelas, até a distância de 2,0 mm. Despreze os efeitos de borda e considere que o ar não conduz eletricidade. Após o afastamento, a diferença de potencial entre as placas, a intensidade do campo elétrico entre elas e a energia armazenada no capacitor são, respectivamente:",
+    "alternativas": [
+      "50 V; 2,5 × 10⁴ V/m; 5,0 × 10⁻⁸ J",
+      "100 V; 5,0 × 10⁴ V/m; 5,0 × 10⁻⁸ J",
+      "200 V; 2,0 × 10⁵ V/m; 2,0 × 10⁻⁷ J",
+      "200 V; 1,0 × 10⁵ V/m; 1,0 × 10⁻⁷ J",
+      "200 V; 1,0 × 10⁵ V/m; 2,0 × 10⁻⁷ J"
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é identificar o que se conserva: desligado da bateria, o capacitor não tem por onde ganhar nem perder carga. Tudo o mais (capacitância, ddp, energia) muda a partir disso.\n\n**Teoria: de onde vem C = ε₀·A/d.** Cada placa tem carga distribuída com densidade σ = Q/A. Uma placa plana muito grande produz, de cada lado, um campo uniforme de intensidade σ/(2ε₀). Entre as duas placas, que têm cargas opostas, esses campos se somam e dão E = σ/ε₀; fora delas, se cancelam. A ddp é U = E·d = Q·d/(ε₀·A), e daí C = Q/U = ε₀·A/d. Duas consequências importantes: C é inversamente proporcional a d; e E depende só de σ, não da distância entre as placas.\n\n**1) Situação inicial.** Q = C₀·U₀ = 20 × 10⁻¹² × 100 = 2,0 × 10⁻⁹ C. E₀ = U₀/d₀ = 100/(1,0 × 10⁻³) = 1,0 × 10⁵ V/m. Energia: Ep₀ = C₀·U₀²/2 = 1,0 × 10⁻⁷ J.\n\n**2) Após dobrar d (Q constante).** C = C₀/2 = 10 pF. U = Q/C = 2,0 × 10⁻⁹/(10 × 10⁻¹²) = 200 V. E = U/d = 200/(2,0 × 10⁻³) = 1,0 × 10⁵ V/m, igual ao inicial, como a teoria previa (σ não mudou). Energia: Ep = Q·U/2 = 2,0 × 10⁻⁹ × 200/2 = 2,0 × 10⁻⁷ J.\n\n**3) De onde veio a energia extra?** As placas têm cargas opostas e se atraem. Para afastá-las, o operador realiza trabalho positivo, que fica armazenado no campo. Cada placa sente apenas o campo criado pela outra, de intensidade E/2, então a força de atração vale F = Q·E/2 = 2,0 × 10⁻⁹ × 0,5 × 10⁵ = 1,0 × 10⁻⁴ N, constante durante o afastamento. Trabalho do operador: F·Δd = 1,0 × 10⁻⁴ × 1,0 × 10⁻³ = 1,0 × 10⁻⁷ J, exatamente o aumento de energia, (2,0 − 1,0) × 10⁻⁷ J. Outra leitura: a energia por unidade de volume do campo depende só de E, que não mudou; como o volume entre as placas dobrou, a energia dobra.\n\nContraste: se a bateria continuasse ligada, U ficaria em 100 V, a carga cairia à metade, E cairia para 5,0 × 10⁴ V/m e a energia, para 5,0 × 10⁻⁸ J.\n\nPara lembrar: capacitor isolado conserva Q; capacitor ligado à bateria conserva U. Com Q fixo, o campo entre as placas não depende de d.",
+    "erradas": [
+      "Valor obtido ao supor que a capacitância dobra quando d dobra (C proporcional a d): U = Q/(2C₀) = 50 V.",
+      "Resultado de quem trata o capacitor como se continuasse ligado à bateria (U fixo em 100 V), e não isolado (Q fixo).",
+      "A ddp e a energia estão certas, mas o campo foi calculado dividindo 200 V pela distância antiga, 1,0 mm.",
+      "A ddp e o campo estão certos, mas a energia foi tratada como constante; o operador realiza trabalho contra a atração entre as placas.",
+      ""
+    ]
+  },
+  {
+    "id": "FIS-D-007",
+    "materia": "fisica",
+    "tema": "Magnetismo — força magnética, seletor de velocidades e espectrômetro de massa",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["quimica"],
+    "enunciado": "Em um espectrômetro de massa, íons Cl⁻ (carga de módulo 1,6 × 10⁻¹⁹ C) passam primeiro por um seletor de velocidades: uma região com campo elétrico uniforme de 5,0 × 10⁴ V/m e campo magnético uniforme de 0,50 T, perpendiculares entre si e à velocidade dos íons, que só é atravessada sem desvio pelos íons cujas forças elétrica e magnética se equilibram. Em seguida, os íons entram, por uma fenda, numa região onde há apenas um campo magnético uniforme de 0,50 T, perpendicular à sua velocidade; descrevem meia circunferência e atingem uma placa detectora plana que contém a fenda. A amostra contém apenas os isótopos ³⁵Cl e ³⁷Cl, e o detector registra, no ponto de impacto mais próximo da fenda, o triplo do número de íons registrado no outro ponto. Adote, para um íon de número de massa A, a massa A × 1,6 × 10⁻²⁷ kg e despreze a gravidade. A distância entre os dois pontos de impacto e a massa atômica do cloro obtida com essa medida são, respectivamente:",
+    "alternativas": [
+      "2,0 mm e 35,5",
+      "4,0 mm e 35,5",
+      "8,0 mm e 35,5",
+      "8,0 mm e 36,0",
+      "8,0 mm e 36,5"
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é separar as duas etapas: o seletor garante a mesma velocidade para todos os íons; depois, no campo magnético puro, o raio da trajetória fica proporcional à massa, e é isso que separa os isótopos.\n\n**1) Seletor de velocidades.** Sem desvio: q·E = q·v·B → v = E/B = 5,0 × 10⁴/0,50 = 1,0 × 10⁵ m/s, a mesma para os dois isótopos (não depende da carga nem da massa).\n\n**2) Raio no campo magnético.** A força magnética faz o papel de resultante centrípeta: q·v·B = m·v²/r → r = m·v/(q·B). Com m = A × 1,6 × 10⁻²⁷ kg:\n\nr = A × 1,6 × 10⁻²⁷ × 1,0 × 10⁵/(1,6 × 10⁻¹⁹ × 0,50) = A × 2,0 × 10⁻³ m.\n\n³⁵Cl: r = 7,0 cm; ³⁷Cl: r = 7,4 cm.\n\n**3) Pontos de impacto.** Após meia volta, cada íon atinge a placa a um DIÂMETRO da fenda: 14,0 cm e 14,8 cm. A separação é 2·Δr = 0,8 cm = 8,0 mm.\n\n**4) Ligação com a Química.** O ponto mais próximo da fenda corresponde ao raio menor, isto é, ao isótopo mais leve (³⁵Cl). Se ele tem o triplo de contagens, as abundâncias são 75% de ³⁵Cl e 25% de ³⁷Cl. A massa atômica é a média ponderada pelas abundâncias: 0,75 × 35 + 0,25 × 37 = 26,25 + 9,25 = 35,5, o valor que aparece na tabela periódica. É com esse tipo de medida que as massas atômicas são determinadas experimentalmente.\n\nPara lembrar: no seletor, v = E/B; no campo magnético puro, r = m·v/(q·B), e o íon atinge a placa a 2r da fenda.",
+    "erradas": [
+      "Valor obtido ao calcular a velocidade como v = E·B = 2,5 × 10⁴ m/s, o que reduz os raios (e a separação) a um quarto.",
+      "4,0 mm é a diferença entre os RAIOS; após meia volta, cada ponto de impacto fica a um diâmetro da fenda.",
+      "",
+      "Média aritmética simples de 35 e 37, que ignora a informação das contagens (os isótopos têm abundâncias diferentes).",
+      "Valor obtido ao trocar os isótopos: supor que o mais pesado curva mais e atinge a placa mais perto da fenda."
+    ]
+  },
+  {
+    "id": "FIS-D-008",
+    "materia": "fisica",
+    "tema": "Indução eletromagnética — lei de Faraday-Lenz e energia dissipada",
+    "nivel": "acima",
+    "origem": "Estilo Vunesp (difícil)",
+    "inter": [],
+    "tabela": {
+      "titulo": "Campo magnético na região da bobina",
+      "cabecalho": ["Intervalo de tempo", "Comportamento do campo"],
+      "linhas": [
+        ["0 a 0,20 s", "cresce de 0 a 0,40 T"],
+        ["0,20 s a 0,50 s", "constante, igual a 0,40 T"],
+        ["0,50 s a 0,60 s", "decresce de 0,40 T a 0"]
+      ]
+    },
+    "enunciado": "Uma bobina plana e quadrada, com 100 espiras de 10 cm de lado e resistência elétrica total de 2,0 Ω, tem os terminais ligados um ao outro por um fio de resistência desprezível. Ela está numa região de campo magnético uniforme, perpendicular ao seu plano, cuja intensidade varia com o tempo conforme a tabela; nos intervalos em que varia, a intensidade muda uniformemente com o tempo. Despreze a autoindução. A energia total dissipada na bobina entre 0 e 0,60 s e a comparação entre os sentidos da corrente induzida no primeiro e no último intervalos são, respectivamente:",
+    "alternativas": [
+      "0,60 J; sentidos opostos",
+      "0,80 J; sentidos opostos",
+      "1,2 J; mesmo sentido",
+      "1,2 J; sentidos opostos",
+      "1,8 J; sentidos opostos"
+    ],
+    "correta": 3,
+    "explicacao": "O ponto aqui é que a fem induzida depende da RAPIDEZ com que o fluxo varia, e não do valor do campo. Por isso, campo constante (mesmo intenso) não induz nada, e a mesma variação de fluxo feita na metade do tempo gera o dobro da fem e o quádruplo da potência.\n\n**Fluxo.** A = (0,10 m)² = 1,0 × 10⁻² m². Em cada intervalo de variação, |ΔΦ| por espira = 0,40 × 1,0 × 10⁻² = 4,0 × 10⁻³ Wb.\n\n**1º intervalo (0 a 0,20 s).** ε = N·|ΔΦ|/Δt = 100 × 4,0 × 10⁻³/0,20 = 2,0 V. Potência: ε²/R = 4,0/2,0 = 2,0 W. Energia: 2,0 × 0,20 = 0,40 J.\n\n**2º intervalo (0,20 s a 0,50 s).** Fluxo constante → ε = 0, corrente nula, nenhuma energia dissipada.\n\n**3º intervalo (0,50 s a 0,60 s).** ε = 100 × 4,0 × 10⁻³/0,10 = 4,0 V. Potência: 16/2,0 = 8,0 W. Energia: 8,0 × 0,10 = 0,80 J.\n\n**Total:** 0,40 + 0,80 = 1,2 J.\n\n**Sentidos (Lenz).** No 1º intervalo o fluxo aumenta, e a corrente induzida cria um campo oposto ao externo. No 3º, o fluxo diminui, e a corrente cria um campo no mesmo sentido do externo, tentando manter o fluxo. Logo, as correntes têm sentidos opostos.\n\n**O detalhe que derruba muita gente.** A carga que circula é a mesma nos dois intervalos: q = N·|ΔΦ|/R = 0,40/2,0 = 0,20 C (1,0 A durante 0,20 s; ou 2,0 A durante 0,10 s). A carga depende só de ΔΦ; já a energia, igual a q²·R/Δt, depende de quão rápido a variação ocorre. A mesma carga na metade do tempo significa corrente dupla e energia dupla.\n\nPara lembrar: ε = N·ΔΦ/Δt; a carga induzida depende só de ΔΦ, mas a energia dissipada cresce quando a variação é mais rápida.",
+    "erradas": [
+      "Valor obtido ao usar a mesma fem (2,0 V) nos dois intervalos, como se ela dependesse só de ΔB e não da rapidez da variação: 0,40 + 0,20 J.",
+      "Valor obtido ao supor que, por ter a mesma variação de fluxo (e a mesma carga), o último intervalo dissipa a mesma energia que o primeiro: 2 × 0,40 J.",
+      "A energia está certa, mas o sentido não: quando o fluxo diminui, a corrente induzida se inverte para tentar mantê-lo (lei de Lenz).",
+      "",
+      "Valor obtido ao supor que a corrente de 1,0 A continua durante o intervalo de campo constante, somando 0,60 J aos 1,2 J."
+    ]
+  },
+  {
+    "id": "FIS-D-009",
+    "materia": "fisica",
+    "tema": "Óptica geométrica — espelho convexo e tamanho aparente (retrovisor)",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": [],
+    "enunciado": "O retrovisor externo do lado do passageiro de um carro é um espelho esférico convexo com raio de curvatura de 4,0 m. O motorista, com o olho a 1,0 m do espelho, observa por ele um carro que vem logo atrás, a 6,0 m do espelho. Trate a situação na aproximação paraxial, como se o olho do motorista e o carro observado estivessem sobre o eixo principal do espelho, e admita que o tamanho aparente de um objeto é proporcional à razão entre sua altura e sua distância ao olho. Para o motorista, a imagem do carro tem o mesmo tamanho aparente que o próprio carro teria se fosse visto diretamente a uma distância de:",
+    "alternativas": [
+      "1,5 m",
+      "2,5 m",
+      "6,0 m",
+      "7,0 m",
+      "10 m"
+    ],
+    "correta": 4,
+    "explicacao": "O ponto aqui é que estimamos a distância de objetos de tamanho conhecido pelo seu tamanho aparente, e esse tamanho depende de dois fatores: a imagem é menor que o carro e está a certa distância do OLHO (não do espelho).\n\n**1) Equação dos pontos conjugados.** Espelho convexo: f = −R/2 = −2,0 m. Com p = 6,0 m: 1/p' = 1/f − 1/p = −1/2 − 1/6 = −2/3 → p' = −1,5 m. A imagem é virtual e fica 1,5 m atrás do espelho.\n\n**2) Aumento linear.** A = −p'/p = 1,5/6,0 = 1/4: imagem direita, com um quarto da altura do carro.\n\n**3) Distância da imagem ao olho.** O olho está 1,0 m à frente do espelho e a imagem, 1,5 m atrás dele: 2,5 m.\n\n**4) Tamanho aparente.** Para um carro de altura h, a imagem tem tamanho aparente proporcional a (h/4)/2,5 = h/10. Visto diretamente, o carro teria o mesmo tamanho aparente a uma distância D tal que h/D = h/10 → D = 10 m.\n\nO carro está a 6,0 m do espelho, e o motorista, perto do espelho; mesmo assim, ele o vê como se estivesse a 10 m. Um espelho plano daria 7,0 m (imagem do mesmo tamanho, a 6,0 + 1,0 m do olho); o convexo exagera bem mais a distância. Por isso, em alguns países, esse retrovisor traz gravado o aviso de que os objetos estão mais próximos do que parecem. A vantagem do espelho convexo é o campo visual maior; o preço é essa distorção na avaliação da distância.\n\nPara lembrar: num espelho convexo, a imagem é virtual, direita e menor; o tamanho aparente depende da altura da imagem e de sua distância até o olho.",
+    "erradas": [
+      "1,5 m é a distância da imagem ao espelho; esse valor não considera a posição do olho nem a redução de tamanho da imagem.",
+      "2,5 m é a distância da imagem ao olho, mas a imagem tem só um quarto do tamanho do carro, o que a faz parecer mais longe.",
+      "Valor obtido ao dividir a distância da imagem ao espelho pelo aumento (1,5/0,25), esquecendo o 1,0 m entre o olho e o espelho.",
+      "Resultado de um espelho plano (imagem do mesmo tamanho, 6,0 m atrás do espelho e 7,0 m do olho), ignorando a redução pelo espelho convexo.",
+      ""
+    ]
+  },
+  {
+    "id": "FIS-D-010",
+    "materia": "fisica",
+    "tema": "Ondas — ressonância em tubo fechado com correção de extremidade",
+    "nivel": "acima",
+    "origem": "Estilo ITA/IME (fácil)",
+    "inter": [],
+    "enunciado": "Um diapasão de 500 Hz vibra logo acima da boca de um tubo vertical de vidro, aberto em cima e parcialmente cheio de água, cujo nível pode ser ajustado. Baixando lentamente o nível da água a partir da boca, observam-se as duas primeiras ressonâncias (reforços intensos do som) quando a coluna de ar acima da água mede 16 cm e, depois, 50 cm. Sabe-se que, na extremidade aberta, o ventre de deslocamento do ar não fica exatamente no plano da boca, mas um pouco acima dele, a uma distância fixa (correção de extremidade) que não depende do comprimento da coluna. A velocidade do som no ar e o comprimento da coluna de ar na ressonância seguinte são, respectivamente:",
+    "alternativas": [
+      "170 m/s e 84 cm",
+      "320 m/s e 80 cm",
+      "340 m/s e 84 cm",
+      "340 m/s e 85 cm",
+      "680 m/s e 84 cm"
+    ],
+    "correta": 2,
+    "explicacao": "O ponto aqui é usar a DIFERENÇA entre duas ressonâncias consecutivas: nela, a correção de extremidade, que é desconhecida, se cancela.\n\n**Condição de ressonância.** A superfície da água é um nó de deslocamento; perto da boca há um ventre. Entre um nó e um ventre cabe um número ímpar de quartos de onda. Chamando de e a correção de extremidade: L + e = λ/4, 3λ/4, 5λ/4, ...\n\n**1) Comprimento de onda.** Entre ressonâncias consecutivas, o comprimento efetivo aumenta λ/2: 50 − 16 = 34 cm = λ/2 → λ = 68 cm.\n\n**2) Velocidade.** v = λ·f = 0,68 × 500 = 340 m/s.\n\n**3) Correção de extremidade.** Na primeira ressonância: 16 + e = λ/4 = 17 cm → e = 1,0 cm. Confere na segunda: 50 + 1,0 = 51 cm = 3λ/4.\n\n**4) Próxima ressonância.** L + e = 5λ/4 = 85 cm → L = 84 cm. Atalho: somar mais meia onda à segunda coluna, 50 + 34 = 84 cm.\n\nSe a correção fosse ignorada, a primeira ressonância daria λ = 4 × 16 = 64 cm e v = 320 m/s, abaixo do valor real. É por isso que, no laboratório, a velocidade do som é medida pela diferença entre ressonâncias.\n\nPara lembrar: em tubo fechado, ressonâncias sucessivas diferem de λ/2, e essa diferença elimina a correção de extremidade.",
+    "erradas": [
+      "Valor obtido ao supor que ressonâncias consecutivas diferem de um comprimento de onda inteiro (λ = 34 cm); a próxima coluna, somando a mesma diferença, sai igual.",
+      "Valor obtido ao ignorar a correção de extremidade e usar só a primeira ressonância: λ = 4 × 16 cm = 64 cm, e a próxima em 5λ/4 = 80 cm.",
+      "",
+      "A velocidade está certa, mas a próxima coluna foi calculada como 5λ/4 = 85 cm, sem descontar a correção de extremidade de 1,0 cm.",
+      "Valor obtido ao supor que ressonâncias consecutivas diferem de λ/4 (λ = 136 cm); a próxima coluna, somando a mesma diferença, sai igual."
+    ]
+  },
+  {
+    "id": "FIS-D-011",
+    "materia": "fisica",
+    "tema": "Física moderna — energia do fóton e fotodissociação (formação de ozônio)",
+    "nivel": "acima",
+    "origem": "Estilo Fuvest",
+    "inter": ["quimica"],
+    "texto": "Na estratosfera, a radiação ultravioleta pode romper a ligação das moléculas de O₂ (O₂ + fóton → 2 O); os átomos livres reagem com outras moléculas de O₂ e formam ozônio (O + O₂ → O₃). O mesmo processo ocorre perto de lâmpadas germicidas de vapor de mercúrio a baixa pressão, cuja radiação ultravioleta é emitida principalmente em 254 nm e, em proporção menor, em 185 nm.\n\nTexto elaborado para esta questão.",
+    "enunciado": "Admita que cada molécula de O₂ é dissociada pela absorção de um único fóton, cuja energia é integralmente usada para romper a ligação. Dados: energia da ligação O=O = 5,0 × 10² kJ/mol; h·c = 2,0 × 10⁻²⁵ J·m; constante de Avogadro = 6,0 × 10²³ mol⁻¹. O maior comprimento de onda capaz de dissociar o O₂ e a(s) linha(s) da lâmpada capaz(es) de produzir ozônio são, respectivamente:",
+    "alternativas": [
+      "120 nm; nenhuma das duas linhas",
+      "240 nm; apenas a linha de 185 nm",
+      "240 nm; apenas a linha de 254 nm",
+      "240 nm; as duas, pois a de 254 nm é mais intensa",
+      "480 nm; as duas linhas"
+    ],
+    "correta": 1,
+    "explicacao": "O ponto aqui é converter a energia de ligação, dada por mol, em energia por molécula e compará-la com a energia de UM fóton, E = h·c/λ. Quanto menor o comprimento de onda, maior a energia do fóton.\n\n**1) Energia por molécula.** E = 5,0 × 10⁵ J/mol ÷ 6,0 × 10²³ mol⁻¹ ≈ 8,3 × 10⁻¹⁹ J (cerca de 5,2 eV).\n\n**2) Comprimento de onda limite.** O fóton precisa ter E(fóton) ≥ E(ligação): h·c/λ ≥ E → λ ≤ h·c/E. Fazendo a conta sem arredondar: λ(máx) = h·c·N(A)/E(mol) = 2,0 × 10⁻²⁵ × 6,0 × 10²³/(5,0 × 10⁵) = 2,4 × 10⁻⁷ m = 240 nm.\n\n**3) As linhas da lâmpada.** Só fótons com λ ≤ 240 nm servem. A linha de 185 nm, mais energética, dissocia o O₂ e produz ozônio; a de 254 nm, não. Em energia por mol de fótons: 185 nm → cerca de 650 kJ/mol (acima de 500); 254 nm → cerca de 470 kJ/mol (abaixo de 500).\n\n**4) E a intensidade?** Aumentar a intensidade da linha de 254 nm aumenta o NÚMERO de fótons, não a energia de cada um. Como cada molécula absorve um único fóton, nenhum deles, sozinho, rompe a ligação. É a mesma lógica do efeito fotoelétrico: quem decide se o processo ocorre é a frequência, não a intensidade. Por isso, lâmpadas germicidas vendidas como “livres de ozônio” usam um bulbo que bloqueia a linha de 185 nm e deixa passar a de 254 nm, que é a responsável pela ação germicida.\n\nPara lembrar: E(fóton) = h·c/λ; para passar de energia por mol para energia por partícula, divida pela constante de Avogadro.",
+    "erradas": [
+      "Valor obtido ao dobrar a energia de ligação, como se o fóton tivesse de fornecer essa energia para cada um dos dois átomos liberados.",
+      "",
+      "Inverte a relação entre comprimento de onda e energia: fótons com λ MAIOR que 240 nm têm energia menor que a da ligação.",
+      "A intensidade só aumenta o número de fótons; com um fóton por molécula, nenhum fóton de 254 nm tem energia suficiente.",
+      "Valor obtido ao dividir a energia de ligação por 2, como se fosse energia “por átomo”; isso dobra o comprimento de onda limite."
+    ]
+  }
+]
